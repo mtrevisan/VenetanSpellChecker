@@ -5184,6 +5184,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "ols",			"",			1,	0,	"g",	"1851",			"(liventin, paduan-viŧentin, belumat) Ardir, oxar.",
 "olt",			"stra",		1,	0,	"a",	"",				"Xlogar.",
 "olt",			"re",			1,	0,	"a",	"",				"",
+"oltađ",			"",			1,	3,	"a",	"1683",			"(veneŧian)",
 "oltr",			"in",			1,	0,	"a",	"1896",			"",
 "oltrig",		"",			1,	4,	"a",	"1775",			"Ortrigar.",
 "olv",			"",			1,	0,	"a",	"1900",			"(veronexe) Vergar, sferŧar.",
