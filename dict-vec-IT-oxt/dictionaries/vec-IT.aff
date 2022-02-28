@@ -6388,15 +6388,19 @@ SFX I2 oi io émoi	ds:interrogative	# venethian
 SFX I2 oi io ímoi	ds:interrogative	# venethian
 
 # interogativi sekonda parsona singolar (destakai)
-SFX J3 Y 3
+SFX J3 Y 4
 SFX J3 0 -tu .	ds:interrogative
+SFX J3 e i-stu e	ds:interrogative	# veneŧian
 SFX J3 0 -stu [^s]	ds:interrogative	# coxòto
 SFX J3 0 -to .	ds:interrogative	# padoan de thità, vithentin de thità, polexan de thità, veronexe de thità
 
 # interogativi sekonda parsona singolar (destakai)
-SFX j3 Y 9
+SFX j3 Y 12
+SFX j3 ae àis-tu ae	ds:interrogative	# veneŧian
 SFX j3 ae àes-tu ae	ds:interrogative	# coxòto
+SFX j3 ave àvis-tu ave	ds:interrogative	# veneŧian
 SFX j3 ave àves-tu ave	ds:interrogative	# coxòto
+SFX j3 e is-tu àe	ds:interrogative	# veneŧian
 SFX j3 0 s-tu àe	ds:interrogative	# coxòto
 SFX j3 0 s-tu [éí]i	ds:interrogative	# coxòto
 SFX j3 ei éis-tu ei	ds:interrogative	# coxòto
@@ -6406,12 +6410,14 @@ SFX j3 0 s-tu [èé]ri	ds:interrogative	# coxòto
 SFX j3 tu s-tu tu	ds:interrogative	# coxòto
 
 # interogativi sekonda parsona singolar (takai)
-SFX I3 Y 20
+SFX I3 Y 22
 SFX I3 as àstu as	ds:interrogative
+SFX I3 es ístu es	ds:interrogative	# veneŧian
 SFX I3 es éstu es	ds:interrogative
 SFX I3 is ístu is	ds:interrogative
 SFX I3 0 tu [àèéií]s	ds:interrogative
 SFX I3 u o tu	ds:interrogative
+SFX I3 etu istu etu	ds:interrogative	# veneŧian
 SFX I3 tu stu tu	ds:interrogative	# coxòto
 SFX I3 0 to [^a]e	ds:interrogative
 SFX I3 0 tu [^a]e	ds:interrogative
