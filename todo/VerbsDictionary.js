@@ -3148,6 +3148,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "kanut",			"",			4,	5,	"a",	"1775",			"",
 "kanut",			"in",			4,	5,	"a",	"1775",			"",
 "kañ",			"",			1,	1,	"g",	"1867",			"Brakiđar.",
+"kañ",			"in",			1,	1,	"g",	"1683",			"(veneŧian)",
 "kañ",			"in",			4,	3,	"a",	"1775",			"Inaridir, akanir, invelenir, inkativir.",
 "kañol",			"in",			4,	5,	"a",	"1928",			"",
 "kap",			"",			1,	1,	"g",	"1867",			"Cinciskiar le estremità de le vesti o kamexi de le done, e ridurlo a figura di kapa, ŧoè de konkilia bivalve.",
