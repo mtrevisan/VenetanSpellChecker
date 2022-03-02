@@ -3909,6 +3909,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "kulat",			"s",			1,	3,	"g",	"1810",			"",
 "kulaŧ",			"s",			1,	3,	"g",	"1775",			"",
 "kulk",			"kon",		1,	1,	"a",	"1660",			"(veneŧian) Inkulkar.",
+"kult",			"o",			1,	1,	"a",	"1683",			"(veneŧian)",
 "kumul",			"",			1,	1,	"a",	"1867",			"",
 "kun",			"",			1,	1,	"a",	"1810",			"Skasar.",
 "kun",			"s",			1,	1,	"a",	"1900",			"(veronexe) Kunar.",
