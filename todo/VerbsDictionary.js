@@ -4755,6 +4755,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "mobili",		"in",			1,	3,	"a",	"1867",			"",
 "modeg",			"x",			1,	1,	"a",	"1855",			"(belumat) Far na gran gadiga.",
 "moder",			"",			1,	1,	"g",	"1660",			"(veneŧian)",
+"moder",			"in",			1,	1,	"g",	"1683",			"(veneŧian)",
 "modern",		"re",			1,	3,	"g",	"1775",			"",
 "modul",			"",			1,	1,	"g",	"",				"",
 "modul",			"x",			1,	1,	"g",	"1829",			"Far pèrder a un de i xogadori tuta la mòkola, i skèi.",
