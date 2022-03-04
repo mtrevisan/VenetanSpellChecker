@@ -6196,6 +6196,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "poxit",			"de",			1,	1,	"g",	"1854",			"",
 "poxit",			"despro",	1,	1,	"g",	"1775",			"",
 "poxit",			"spro",		1,	1,	"g",	"1829",			"",
+"pover",			"in",			4,	5,	"g",	"1683",			"(veneŧian)",
 "povol",			"",			1,	1,	"g",	"",				"",
 "povol",			"re",			1,	1,	"g",	"",				"",
 "povol",			"s",			1,	1,	"g",	"1855",			"Divulgar in segreto.",
