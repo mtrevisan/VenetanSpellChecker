@@ -4308,6 +4308,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "lustr",			"pe",			1,	1,	"a",	"",				"",
 "lustr",			"per",		1,	1,	"a",	"1867",			"",
 "lustrisim",	"",			1,	5,	"a",	"1829",			"Dar de ʼl lustrisimo.",
+"lusuri",		"",			1,	3,	"a",	"1683",			"(veneŧian)",
 "luŧid",			"",			1,	1,	"a",	"1660",			"(veneŧian)",
 "luvi",			"de",			1,	1,	"a",	"1775",			"",
 "luvi",			"dex",		1,	1,	"a",	"1854",			"Deluviar.",
