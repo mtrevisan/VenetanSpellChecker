@@ -3455,6 +3455,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "kol",			"in",			1,	1,	"a",	"1775",			"",
 "kol",			"per",		1,	1,	"a",	"1852",			"",
 "kol",			"s",			1,	1,	"a",	"1775",			"",
+"kol",			"tra",		1,	1,	"a",	"1683",			"(veneŧian)",
 "kolament",		"s",			1,	5,	"a",	"1829",			"Aver la gonorèa.",
 "koleg",			"",			1,	1,	"a",	"1854",			"",
 "koleg",			"in",			1,	1,	"a",	"1775",			"Méter radixe (referio a piante).",
