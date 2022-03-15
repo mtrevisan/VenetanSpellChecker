@@ -8619,6 +8619,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "vageɉ",			"",			1,	3,	"a",	"1867",			"",
 "vaj",			"stra",		1,	1,	"g",	"1560",			"",
 "vaj",			"x",			1,	1,	"g",	"1900",			"(veronexe) Xlargar un buxo oltra mexura.",
+"val",			"ŧirkon",	1,	1,	"g",	"1684",			"(veneŧian)",
 "val",			"",			2,	1,	"g",	"1415",			"",
 "val",			"pre",		2,	1,	"g",	"1998",			"",
 "val",			"spre",		2,	1,	"g",	"1854",			"",
