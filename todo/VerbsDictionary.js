@@ -6150,6 +6150,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "pork",			"",			1,	1,	"a",	"1821",			"",
 "porkeđ",		"",			1,	4,	"a",	"",				"Porkonar.",
 "porkon",		"",			1,	4,	"a",	"",				"Bestemar.",
+"porpor",		"in",			1,	1,	"a",	"1684",			"(veneŧian)",
 "port",			"",			1,	1,	"g",	"1412",			"",
 "port",			"a",			1,	1,	"g",	"",				"",
 "port",			"as",			1,	1,	"g",	"1867",			"",
