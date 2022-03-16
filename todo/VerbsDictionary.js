@@ -6680,6 +6680,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "sabi",			"in",			1,	1,	"g",	"",				"Méter soto sabia, skónder.",
 "sabion",		"",			1,	4,	"a",	"1854",			"",
 "sabion",		"in",			1,	4,	"a",	"1854",			"Inarenar.",
+"sabl",			"",			1,	1,	"a",	"1684",			"(veneŧian) Siabolar.",
 "sabol",			"",			1,	1,	"g",	"1867",			"Siabolar.",
 "sađ",			"",			1,	1,	"g",	"1775",			"Sađar la bontà de na lega.",
 "saet",			"",			1,	2,	"a",	"1867",			"",
