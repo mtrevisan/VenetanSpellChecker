@@ -8247,6 +8247,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "trink",			"",			1,	2,	"a",	"1775",			"",
 "trinkeñ",		"",			1,	5,	"a",	"1894",			"Trinpelar.",
 "trinŧ",			"",			1,	2,	"a",	"1775",			"",
+"trinŧier",		"",			1,	6,	"g",	"1684",			"(veneŧian)",
 "trïonf",		"",			1,	3,	"a",	"1509",			"",
 "trip",			"",			1,	2,	"a",	"1828",			"",
 "tripudi",		"",			1,	4,	"a",	"1775",			"",
