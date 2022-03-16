@@ -4874,6 +4874,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "morŧ",			"in",			1,	1,	"g",	"1775",			"Kaletar, kométer el leñame, strénđer ko la mòrŧa.",
 "morŧ",			"x",			1,	1,	"g",	"1560",			"",
 "mosk",			"",			1,	1,	"a",	"1775",			"",
+"mosket",		"",			1,	4,	"a",	"1684",			"(veneŧian)",
 "most",			"",			1,	1,	"g",	"1775",			"Skicar lʼ ua.",
 "most",			"in",			1,	1,	"g",	"1884",			"",
 "mostaŧ",		"",			1,	4,	"a",	"1855",			"(belumat)",
