@@ -3008,6 +3008,8 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "kain",			"s",			1,	2,	"a",	"",				"Urlar pal dolor.",
 "kaj",			"",			1,	1,	"g",	"1775",			"Kuajar, koagular.",
 "kaj",			"in",			1,	1,	"g",	"1854",			"",
+"kàj",			"",			3,	1,	"g",	"1891",			"(trevixan)",
+"kàj",			"des",		3,	1,	"g",	"",				"",
 "kak",			"s",			4,	3,	"a",	"1775",			"Deventar magro.",
 "kakiđ",			"s",			1,	3,	"a",	"1867",			"Skakir.",
 "kal",			"",			1,	1,	"g",	"1775",			"",
