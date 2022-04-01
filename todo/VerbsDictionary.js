@@ -9085,6 +9085,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "vivat",			"",			1,	3,	"g",	"1775",			"",
 "vivatol",		"",			1,	3,	"g",	"1852",			"Vivatar.",
 "vivaŧ",			"",			1,	3,	"g",	"1854",			"Vivatar.",
+"vivol",			"",			1,	1,	"a",	"1891",			"(trevixan)",
 "vivol",			"ar",			1,	1,	"a",	"1560",			"",
 "vivol",			"ra",			1,	1,	"a",	"1590",			"",
 "vivot",			"",			1,	3,	"g",	"1900",			"(veronexe)",
