@@ -2202,6 +2202,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "frax",			"in",			1,	2,	"g",	"1854",			"",
 "frax",			"para",		1,	-1,"g",	"1867",			"",
 "frax",			"peri",		1,	-1,"a",	"",				"",
+"fred",			"",			1,	2,	"a",	"1892",			"(trevixan)",
 "fred",			"ra",			1,	2,	"a",	"1821",			"",
 "fred",			"s",			1,	2,	"a",	"",				"Rafredar.",
 "fred",			"des",		4,	4,	"a",	"",				"(bixiak)",
