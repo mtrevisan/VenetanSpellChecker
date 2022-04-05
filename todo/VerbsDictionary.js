@@ -8899,6 +8899,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "verigol",		"in",			1,	3,	"a",	"1852",			"Xbuxar, atorsiliar.",
 "verin",			"in",			1,	3,	"a",	"1900",			"(veronexe) Invelenar.",
 "vermen",		"",			1,	1,	"g",	"1829",			"Far pièn de vèrmi.",
+"vermeŧ",		"",			1,	1,	"g",	"1891",			"(trevixan) Granturco o altra pianta attaccata da larve di insetti.",
 "vern",			"",			1,	1,	"g",	"",				"Aver kura, netar.",
 "vern",			"in",			1,	1,	"g",	"1775",			"",
 "vern",			"x",			1,	1,	"g",	"",				"",
