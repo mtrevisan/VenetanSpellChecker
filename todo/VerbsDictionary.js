@@ -7990,6 +7990,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "termin",		"es",			1,	1,	"g",	"1867",			"",
 "termin",		"s",			1,	1,	"g",	"1847",			"",
 "terol",			"in",			1,	1,	"g",	"1900",			"(veronexe) Interar.",
+"terŧ",			"",			1,	1,	"g",	"1892",			"(trevixan) Interŧar.",
 "terŧ",			"in",			1,	1,	"g",	"1775",			"Divíder in terŧi, aviŧendar.",
 "terŧariol",	"",			1,	7,	"g",	"1867",			"Divíder in terŧi, aviŧendar.",
 "terŧarol",		"",			1,	6,	"g",	"1829",			"Divíder in terŧi, aviŧendar.",
