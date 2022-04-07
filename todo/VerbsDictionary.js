@@ -2151,6 +2151,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "frak",			"in",			1,	2,	"g",	"1896",			"",
 "frakas",		"",			1,	4,	"g",	"",				"",
 "frakas",		"s",			1,	4,	"g",	"1560",			"",
+"frakol",		"",			1,	2,	"g",	"1892",			"(trevixan) Frakar.",
 "fran",			"",			1,	2,	"g",	"",				"",
 "franđ",			"in",			1,	2,	"g",	"1829",			"Fornir de franđe.",
 "franđ",			"s",			1,	2,	"g",	"1877",			"",
