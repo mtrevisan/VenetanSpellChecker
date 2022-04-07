@@ -667,6 +667,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "blater",		"",			1,	2,	"g",	"1854",			"",
 "blok",			"",			1,	2,	"g",	"",				"(bixiak)",
 "bo",				"x",			1,	1,	"a",	"1998",			"Ŧéder, roinar a vale.",
+"boar",			"x",			1,	2,	"g",	"1890",			"(veneŧian)",
 "boas",			"",			1,	2,	"g",	"1896",			"Inbovinar.",
 "boat",			"x",			1,	2,	"g",	"1855",			"(belumat) Scamaŧar.",
 "boc",			"",			1,	1,	"g",	"",				"",
