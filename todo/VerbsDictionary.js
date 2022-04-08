@@ -3049,7 +3049,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "kalm",			"",			1,	1,	"g",	"",				"(bixiak)",
 "kalm",			"in",			1,	1,	"g",	"1560",			"Inestar (so na pianta).",
 "kalman",		"s",			1,	1,	"g",	"1560",			"",
-"kalom",			"",			1,	3,	"g",	"1867",			"Kalumar.",
+"kalom",			"",			1,	3,	"a",	"1867",			"Kalumar.",
 "kaloneg",		"",			1,	3,	"g",	"1855",			"(belumat)",
 "kalonik",		"",			1,	3,	"g",	"1855",			"(belumat) Kalonegar.",
 "kalor",			"in",			1,	3,	"a",	"1660",			"(veneŧian) Skaldar, riskaldar.",
