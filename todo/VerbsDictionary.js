@@ -400,7 +400,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "barlum",		"in",			4,	6,	"a",	"",				"",
 "barok",			"",			1,	3,	"g",	"1852",			"Ròba kualsíasi fata mal o bruta.",
 "baron",			"",			1,	3,	"a",	"1775",			"Furfantar, brikonar.",
-"baron",			"in",			1,	3,	"a",	"1852",			"Fasar le gomone par preservarle dal logoramento.",
+"baron",			"in",			1,	3,	"a",	"1852",			"Imbalumare, fasar le gomone par preservarle dal logoramento.",
 "baroŧ",			"x",			1,	3,	"a",	"",				"Sfiankar.",
 "barsig",		"",			1,	4,	"a",	"1900",			"(veronexe) Baŧigar.",
 "baruf",			"",			1,	3,	"a",	"1400",			"(longobardo) Litigar.",
