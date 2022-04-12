@@ -5357,6 +5357,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "pal",			"in",			1,	1,	"g",	"1560",			"",
 "pal",			"s",			1,	1,	"g",	"1775",			"",
 "palandran",	"in",			1,	7,	"g",	"1829",			"",
+"palanŧ",		"",			1,	3,	"g",	"1890",			"(veneŧian) Méter el palanŧado, grossi legni posti a graticola che si mettono dinanzi al kantièr perché la barca scivoli quando varata",
 "palatiđ",		"",			1,	5,	"a",	"",				"",
 "palatiđ",		"de",			1,	5,	"a",	"",				"",
 "palent",		"",			1,	3,	"a",	"1851",			"Palexar, propalar.",
