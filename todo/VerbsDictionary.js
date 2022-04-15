@@ -49,6 +49,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "alegr",			"r",			1,	2,	"a",	"1867",			"",
 "alfabet",		"",			1,	5,	"a",	"1734",			"(veneŧian)",
 "alien",			"",			1,	3,	"a",	"",				"",
+"almanak",		"",			1,	3,	"a",	"1890",			"(veneŧian)",
 "alok",			"",			1,	2,	"g",	"1829",			"Èser insemenío.",
 "alok",			"in",			1,	2,	"g",	"1775",			"Èser insemenío.",
 "alok",			"in",			4,	4,	"a",	"1829",			"Insemenir.",
