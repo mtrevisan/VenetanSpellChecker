@@ -701,6 +701,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "bok",			"x",			1,	1,	"a",	"1854",			"Deradar i bocoli de na pianta.",
 "bokal",			"x",			1,	3,	"a",	"1900",			"(veronexe) Ríder de gusto.",
 "bokiđ",			"",			1,	3,	"a",	"1775",			"",
+"bokiđ",			"x",			1,	3,	"a",	"1890",			"(veneŧian)",
 "bokol",			"in",			1,	1,	"g",	"",				"(bixiak) Méter sú in bokoli.",
 "bokol",			"x",			1,	1,	"g",	"1775",			"Xbuletar.",
 "bokon",			"",			1,	3,	"a",	"1998",			"",
