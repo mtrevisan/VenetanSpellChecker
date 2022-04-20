@@ -4054,6 +4054,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "lanŧ",			"",			1,	1,	"g",	"1854",			"",
 "lanŧ",			"dex",		1,	1,	"g",	"1896",			"",
 "lanŧ",			"x",			1,	1,	"g",	"1560",			"",
+"lantern",		"",			1,	4,	"g",	"1890",			"(veneŧian) Scoprire con uno sguardo una cosa che si voglia tenere occulta.",
 "lañ",			"",			1,	1,	"g",	"",				"",
 "laor",			"",			1,	2,	"a",	"XIII (Veneŧia)",	"",
 "laorat",		"",			1,	4,	"g",	"1854",			"Laorar un fià.",
