@@ -3017,7 +3017,7 @@ SFX xD er 0/J5 céner	ds:indicative+present is:third	# T10 = T8 + e
 SFX xD er lo/I5 céner	ds:indicative+present is:third ds:interrogative	# T10
 
 # vèrbi -ér inregolari: (des|re)(c|t[iu]?)oler, (ben|mal|re)(vu?|ʼ)oler
-SFX xE Y 135
+SFX xE Y 140
 SFX xE ler r/P0PlP7Bu oler	ds:infinitive+simple	# T1
 SFX xE ler re [ct]oler	ds:infinitive+simple	# T1 + r(e)
 SFX xE ler re t[iu]oler	ds:infinitive+simple	# T1 + r(e)
@@ -3153,6 +3153,11 @@ SFX xE oler upiene [vʼ]oler	ds:subjunctive+present is:first+plural	# T12 + én(
 SFX xE oler upiede [vʼ]oler	ds:subjunctive+present is:second+plural	# T12 + é([dg]e)
 SFX xE oler upiege [vʼ]oler	ds:subjunctive+present is:second+plural	# T12 + é([dg]e)
 SFX xE oler upiège [vʼ]oler	ds:subjunctive+present is:second+plural	# T12 + é([dg]e)
+SFX xE oler orlo/I5 [ctvʼ]oler	ds:indicative+present is:third ds:interrogative	# T10
+SFX xE oler orlo/I5 [tv]uoler	ds:indicative+present is:third ds:interrogative	# T10
+SFX xE oler òrlo/I5 [tv]uoler	ds:indicative+present is:third ds:interrogative	# T10
+SFX xE oler orlo/I5 tioler	ds:indicative+present is:third ds:interrogative	# T10
+SFX xE oler òrlo/I5 tioler	ds:indicative+present is:third ds:interrogative	# T10
 
 # vèrbi -àr inregolari: (dex)dar, ((dex)asue|des|kon(tra)|[lƚ]iku[ei]|putre|(ra)?re|sastu|sat[iu]s|sodis|sora|stra|stupe|tore|tume)far, (kon(tra)|mal|move|o|re|so(ra|to))star
 SFX xF Y 20
@@ -6467,11 +6472,11 @@ SFX j5 0 -ƚe [^ai]	is:plural+femenine ds:interrogative
 # interogativi tèrŧa parsona (takai senŧa èle vanesente)
 SFX I5 Y 8
 SFX I5 o 0 [ʼaàeèéi]lo	is:singular+masculine ds:interrogative
-SFX I5 o a [ʼaàeèéin]lo	is:singular+femenine ds:interrogative
-SFX I5 o i [ʼaàeèéin]lo	is:plural+masculine ds:interrogative
+SFX I5 o a [ʼaàeèéinr]lo	is:singular+femenine ds:interrogative
+SFX I5 o i [ʼaàeèéinr]lo	is:plural+masculine ds:interrogative
 SFX I5 alo ili alo	is:plural+masculine ds:interrogative	# Arkade, Sprexian, Povejan
 SFX I5 elo ili elo	is:plural+masculine ds:interrogative	# Arkade, Sprexian, Povejan
-SFX I5 o e [ʼaàeèéin]lo	is:plural+femenine ds:interrogative
+SFX I5 o e [ʼaàeèéinr]lo	is:plural+femenine ds:interrogative
 SFX I5 alo ile alo	is:plural+femenine ds:interrogative	# Arkade, Sprexian, Povejan
 SFX I5 elo ile elo	is:plural+femenine ds:interrogative	# Arkade, Sprexian, Povejan
 
