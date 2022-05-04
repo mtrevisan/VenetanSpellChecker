@@ -1739,6 +1739,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "faŧolet",		"in",			1,	5,	"a",	"1896",			"",
 "faxan",			"",			1,	3,	"g",	"1852",			"Kuxinar a modo de faxan.",
 "favel",			"",			1,	3,	"g",	"1814",			"",
+"favolej",		"",			1,	5,	"a",	"184609",		"(trevixan)",
 "favor",			"",			4,	5,	"a",	"1867",			"",
 "favoređ",		"",			1,	5,	"a",	"",				"",
 "favoriđ",		"",			1,	5,	"a",	"1463",			"",
