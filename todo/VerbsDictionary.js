@@ -1889,6 +1889,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "fiask",			"",			1,	2,	"g",	"1775",			"",
 "fiask",			"in",			1,	2,	"g",	"",				"",
 "fiaskeđ",		"",			1,	5,	"a",	"1867",			"Far fiasko.",
+"fiat",			"",			1,	2,	"g",	"184609",		"(trevixan)",
 "fibi",			"",			1,	1,	"a",	"1896",			"",
 "fibi",			"des",		1,	1,	"a",	"1847",			"",
 "fibi",			"in",			1,	1,	"a",	"1810",			"Afibiar.",
