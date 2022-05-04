@@ -8389,6 +8389,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "ŧéd",			"",			3,	1,	"a",	"1775",			"",
 "ŧéd",			"a",			3,	1,	"a",	"1829",			"",
 "ŧéd",			"kon",		3,	1,	"a",	"",				"",
+"ŧéd",			"pre",		3,	1,	"a",	"184609",		"(trevixan)",
 "ŧéd",			"pro",		3,	1,	"a",	"1381",			"",
 "ŧéd",			"retro",		3,	1,	"a",	"1775",			"",
 "ŧéd",			"inter",		3,	1,	"a",	"1493",			"",
