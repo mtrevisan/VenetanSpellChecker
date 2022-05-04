@@ -6627,11 +6627,11 @@ SFX X0 0 i [lnr]	is:plural
 
 # sostantivi astrati senŧa đèner (-ade > -ae/à/è, -ude > -ú(e))
 SFX X1 Y 5
-SFX X1 ade à ade	is:femenine+non_enumerable
-SFX X1 de e ade	is:femenine+non_enumerable
-SFX X1 ade è ade	is:femenine+non_enumerable	# pavan
-SFX X1 ude ú ude	is:femenine+non_enumerable
-SFX X1 ude úe ude	is:femenine+non_enumerable
+SFX X1 ade à ade	is:femenine
+SFX X1 de e ade	is:femenine
+SFX X1 ade è ade	is:femenine	# pavan
+SFX X1 ude ú ude	is:femenine
+SFX X1 ude úe ude	is:femenine
 
 
 ### Fèltre–Belun ###
@@ -7394,26 +7394,26 @@ SFX y0 da a [aeiouàèéíòóúïü]uda	is:singular+femenine
 SFX y0 da e [aeiouàèéíòóúïü]uda	is:singular+femenine
 SFX y0 uda úa [^aeiouàèéíòóúïü]uda	is:singular+femenine
 SFX y0 uda úe [^aeiouàèéíòóúïü]uda	is:singular+femenine
-SFX y0 ede é ede	is:femenine+non_enumerable
-SFX y0 ado ò ado	is:masculine+non_enumerable	# pavan
-SFX y0 ado à ado	is:masculine+non_enumerable
+SFX y0 ede é ede	is:femenine
+SFX y0 ado ò ado	is:masculine	# pavan
+SFX y0 ado à ado	is:masculine
 SFX y0 do o ado	is:singular+masculine
 SFX y0 do i ado	is:plural+masculine
-SFX y0 ado è ado	is:masculine+non_enumerable
+SFX y0 ado è ado	is:masculine
 SFX y0 ado èo ado	is:singular+masculine
 SFX y0 ado èi ado	is:plural+masculine
-SFX y0 edo é edo	is:masculine+non_enumerable
+SFX y0 edo é edo	is:masculine
 SFX y0 do o edo	is:singular+masculine
 SFX y0 do i edo	is:plural+masculine
-SFX y0 ido í ido	is:masculine+non_enumerable
+SFX y0 ido í ido	is:masculine
 SFX y0 do o [aeiouàèéíòóúïü]ido	is:singular+masculine
 SFX y0 do i [aeiouàèéíòóúïü]ido	is:singular+masculine
 SFX y0 ido ío [^aeiouàèéíòóúïü]ido	is:singular+masculine
 SFX y0 ido íi [^aeiouàèéíòóúïü]ido	is:singular+masculine
-SFX y0 do 0 òdo	is:masculine+non_enumerable
+SFX y0 do 0 òdo	is:masculine
 SFX y0 do o òdo	is:singular+masculine
 SFX y0 do i òdo	is:plural+masculine
-SFX y0 udo ú udo	is:masculine+non_enumerable
+SFX y0 udo ú udo	is:masculine
 SFX y0 do o [aeiouàèéíòóúïü]udo	is:singular+masculine
 SFX y0 do i [aeiouàèéíòóúïü]udo	is:singular+masculine
 SFX y0 udo úo [^aeiouàèéíòóúïü]udo	is:singular+masculine
@@ -7421,23 +7421,23 @@ SFX y0 udo úi [^aeiouàèéíòóúïü]udo	is:singular+masculine
 
 # sostantivi koletivi, ... (-ada > -à)
 SFX y1 Y 1
-SFX y1 ada à ada	is:femenine+non_enumerable
+SFX y1 ada à ada	is:femenine
 
 # sostantivi koletivi, ...
 SFX y2 Y 17
 SFX y2 da e ada	is:plural+femenine
 SFX y2 da a ada	is:singular+femenine
-SFX y2 ede é ede	is:femenine+non_enumerable
+SFX y2 ede é ede	is:femenine
 SFX y2 do i ado	is:plural+masculine
 SFX y2 do o ado	is:singular+masculine
 SFX y2 ado èi ado	is:plural+masculine
 SFX y2 ado èo ado	is:singular+masculine
-SFX y2 ado à ado	is:masculine+non_enumerable
-SFX y2 ado è ado	is:masculine+non_enumerable
-SFX y2 ado ò ado	is:masculine+non_enumerable
+SFX y2 ado à ado	is:masculine
+SFX y2 ado è ado	is:masculine
+SFX y2 ado ò ado	is:masculine
 SFX y2 da a ida	is:singular+femenine
 SFX y2 da e ida	is:plural+femenine
-SFX y2 ido í ido	is:masculine+non_enumerable
+SFX y2 ido í ido	is:masculine
 SFX y2 do o [aeiouàèéíòóúïü]ido	is:singular+masculine
 SFX y2 do i [aeiouàèéíòóúïü]ido	is:singular+masculine
 SFX y2 do o [^aeiouàèéíòóúïü]ido	is:singular+masculine
