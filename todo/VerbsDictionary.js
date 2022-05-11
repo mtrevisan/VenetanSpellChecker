@@ -2873,6 +2873,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "inp",			"ad",			4,	3,	"a",	"1503",			"",
 "inpax",			"",			1,	3,	"g",	"1409",			"",
 "inped",			"",			4,	5,	"a",	"1851",			"Inɉerir, inpacar.",
+"inpl",			"ad",			4,	5,	"a",	"1855",			"(veneŧian)",
 "inpiok",		"",			1,	4,	"g",	"",				"",
 "inpiñat",		"",			1,	5,	"g",	"",				"",
 "inprover",		"r",			1,	4,	"g",	"1854",			"",
