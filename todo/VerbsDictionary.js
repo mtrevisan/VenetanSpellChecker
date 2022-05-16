@@ -1056,6 +1056,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "buxol",			"dex",		1,	1,	"a",	"1854",			"Skonsertar, guastar.",
 "buxol",			"x",			1,	1,	"a",	"1854",			"Xbuxar, forar.",
 
+"c",				"soper",		1,-2,	"g",	"1856",			"(veneŧian)",
 "cacar",			"",			1,	1,	"g",	"1527",			"Cakolar.",
 "cacer",			"",			1,	1,	"g",	"",				"Cakolar.",
 "caker",			"",			1,	1,	"g",	"1855",			"(belumat) Cakolar.",
@@ -1276,6 +1277,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "disi",			"dex",		1,	1,	"a",	"XVII",			"(pavan) Xvejar.",
 "disi",			"dix",		1,	1,	"a",	"1560",			"Xvejar.",
 "disi",			"x",			1,	1,	"a",	"XVII",			"(pavan) Xvejar.",
+"diŧion",		"kon",		1,	1,	"a",	"1856",			"(veneŧian)",
 "dit",			"dex",		1,	1,	"a",	"1775",			"",
 "divin",			"",			1,	3,	"a",	"1829",			"",
 "divin",			"en",			1,	3,	"a",	"1883",			"(coxòto)",
