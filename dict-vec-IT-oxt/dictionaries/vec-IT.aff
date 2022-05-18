@@ -6236,7 +6236,7 @@ SFX FS i 0 i
 # forme ko ʼl interogativo: indikativo prexente/inperfèto/futuro, kondiŧional
 
 # interogativi prima parsona singolar (destakai)
-SFX J1 Y 13
+SFX J1 Y 14
 SFX J1 0 -i [aeoàèòónu]	ds:interrogative	# trevixan, venethian, padoan, vithentin, polexan, veronexe
 SFX J1 0 -jo [aeoàèò]	ds:interrogative	# venethian
 SFX J1 0 -ɉo [aeoàèò]	ds:interrogative	# venethian
@@ -6249,11 +6249,12 @@ SFX J1 0 -ne [^n]	ds:interrogative
 SFX J1 0 -ni [^n]	ds:interrogative	# veronexe
 SFX J1 0 -te n	ds:interrogative
 SFX J1 0 -ti n	ds:interrogative	# veronexe
+SFX J1 0 -ve .	ds:interrogative	# venethian
 SFX J1 0 -e .	ds:interrogative
 
 # interogativi prima parsona singolar (takai)
 # varda anka `varar`
-SFX I1 Y 58
+SFX I1 Y 62
 SFX I1 mi i [aeoòónu]mi	ds:interrogative	# trevixan, venethian, padoan, vithentin, polexan, veronexe
 SFX I1 mi jo [aeòn]mi	ds:interrogative	# venethian
 SFX I1 omi io [dftv]àgomi	ds:interrogative	# venethian
@@ -6308,6 +6309,10 @@ SFX I1 0 ni [^s]o	ds:interrogative	# veronexe
 SFX I1 0 ni [^i]so	ds:interrogative	# veronexe
 SFX I1 iso ísoni iso	ds:interrogative	# veronexe
 SFX I1 0 ni à	ds:interrogative	# veronexe
+SFX I1 0 ve [aàèéò]	ds:interrogative	# venethian
+SFX I1 0 ve [^s]o	ds:interrogative	# venethian
+SFX I1 0 ve [^i]so	ds:interrogative	# venethian
+SFX I1 iso ísove iso	ds:interrogative	# venethian
 SFX I1 0 e [aàèéò]	ds:interrogative
 SFX I1 0 e [^s]o	ds:interrogative
 SFX I1 0 e [^i]so	ds:interrogative
@@ -6323,7 +6328,7 @@ SFX J2 0 -ne [^n]	ds:interrogative
 SFX J2 0 -ni [^n]	ds:interrogative	# veronexe
 SFX J2 0 -te n	ds:interrogative
 SFX J2 0 -ti n	ds:interrogative	# veronexe
-SFX J2 0 -e .	ds:interrogative
+SFX J2 0 -e .	ds:interrogative	# venethian
 SFX J2 0 -i n	ds:interrogative
 SFX J2 o i-o [ei]mo	ds:interrogative	# venethian
 
