@@ -1737,6 +1737,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "faŧend",		"in",			1,	3,	"a",	"1852",			"",
 "faŧend",		"s",			1,	3,	"a",	"1877",			"",
 "faŧet",			"",			1,	3,	"a",	"1775",			"",
+"faŧilit",		"",			1,	4,	"a",	"1693",			"(veneŧian)",
 "faŧion",		"",			1,	4,	"a",	"1867",			"Riunir inte na faŧion.",
 "faŧol",			"in",			1,	1,	"g",	"1775",			"Infasar.",
 "faŧolet",		"",			1,	5,	"a",	"1852",			"",
