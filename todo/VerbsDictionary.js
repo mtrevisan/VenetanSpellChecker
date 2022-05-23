@@ -1262,7 +1262,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "dianbarn",		"in",			1,	2,	"g",	"1747",			"(veneŧian)",
 "diaol",			"in",			1,	2,	"g",	"1900",			"(veronexe) Indemoniar.",
 "diavol",		"in",			1,	2,	"g",	"1747",			"(veneŧian)",
-"diév",			"",			3,	1,	"a",	"XV",				"",
+"dièv",			"",			3,	1,	"a",	"XV",				"",
 "dig",			"pro",		1,	-1,"g",	"1854",			"",
 "diladi",		"",			1,	3,	"g",	"1867",			"Konténder, alterkar, kontrastar.",
 "dilat",			"",			1,	3,	"g",	"",				"",
