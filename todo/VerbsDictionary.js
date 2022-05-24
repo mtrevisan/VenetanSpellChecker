@@ -2583,6 +2583,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "gorgiđ",		"",			1,	4,	"a",	"1829",			"",
 "gorgiđ",		"x",			1,	4,	"a",	"",				"",
 "gorgon",		"x",			1,	4,	"a",	"1775",			"",
+"goton",			"",			1,	3,	"a",	"127211",		"(veneŧian) (prima attestazione)",
 "goŧ",			"",			1,	1,	"a",	"1560",			"",
 "goŧ",			"dex",		1,	1,	"a",	"1775",			"Xgoŧar, xvodar el goŧo.",
 "goŧ",			"in",			1,	1,	"a",	"1300",			"",
