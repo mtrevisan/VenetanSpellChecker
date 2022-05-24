@@ -5838,7 +5838,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "pevar",			"in",			1,	1,	"a",	"",				"",
 "pever",			"",			1,	1,	"a",	"",				"",
 "pever",			"in",			1,	1,	"a",	"1775",			"",
-"pex",			"",			1,	1,	"a",	"1385",			"",
+"pex",			"",			1,	1,	"a",	"1288",			"(veneŧian)",
 "pex",			"kontra",	1,	1,	"a",	"1847",			"Bilanŧar.",
 "pex",			"s",			1,	1,	"a",	"1683",			"(veneŧian)",
 "pexuŧ",			"",			1,	3,	"a",	"1980",			"(vitoriexe) Pexar (ròbe cèe e de banbini).",
