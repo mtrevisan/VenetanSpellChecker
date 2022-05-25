@@ -4121,7 +4121,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "lavaj",			"x",			1,	3,	"g",	"2012",			"(arsedexe) Xlavaŧar.",
 "lavaŧ",			"x",			1,	3,	"g",	"1775",			"Delavar.",
 "lavin",			"x",			1,	3,	"a",	"1775",			"Franar, xmotar.",
-"lavor",			"",			1,	3,	"a",	"1409",			"",
+"lavor",			"",			1,	3,	"a",	"XIII",			"(trevixan)",
 "lavorat",		"",			1,	5,	"g",	"1854",			"Lavorar un fià.",
 "lavoruŧ",		"",			1,	5,	"a",	"1980",			"(vitoriexe)",
 "lavr",			"x",			1,	1,	"g",	"",				"",
