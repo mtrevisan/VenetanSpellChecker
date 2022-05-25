@@ -37,7 +37,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "albor",			"",			1,	0,	"g",	"1847",			"Piantar albari, tirar sú, mandar alto.",
 "albor",			"dex",		1,	0,	"g",	"1775",			"",
 "albor",			"in",			1,	0,	"g",	"1829",			"Piantar albari, tirar sú, mandar alto.",
-"albreg",		"",			1,	4,	"g",	"1560",			"Albergar.",
+"albreg",		"",			1,	4,	"g",	"XIII",			"(trevixan) Albergar.",
 "ald",			"",			1,	0,	"g",	"1560",			"Skoltar.",
 "ald",			"",			4,	3,	"a",	"1415",			"Skoltar.",
 "ald",			"re",			4,	3,	"a",	"1775",			"Skoltar de novo.",
