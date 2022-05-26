@@ -6149,7 +6149,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "pons",			"re",			1,	1,	"a",	"1560",			"Repoxar.",
 "pons",			"s",			1,	1,	"a",	"1900",			"(veronexe) Repoxar.",
 "pont",			"",			1,	1,	"a",	"1775",			"",
-"pont",			"a",			1,	1,	"a",	"1867",			"",
+"pont",			"a",			1,	1,	"a",	"XIII",			"(trevixan)",
 "pont",			"des",		1,	1,	"a",	"1775",			"",
 "pont",			"in",			1,	1,	"a",	"1775",			"",
 "pont",			"s",			1,	1,	"a",	"1560",			"",
