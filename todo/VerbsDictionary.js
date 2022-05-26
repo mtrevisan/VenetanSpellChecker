@@ -4216,6 +4216,8 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "liev",			"so",			1,	2,	"g",	"",				"Solevar.",
 "liev",			"sub",		1,	2,	"g",	"",				"Sublevar.",
 "liev",			"x",			1,	2,	"g",	"",				"Xlevar.",
+"lièđ",			"",			3,	1,	"g",	"",				"(belumat)",
+"lièđ",			"re",			3,	1,	"g",	"",				"",
 "lièđ",			"x",			3,	2,	"g",	"1560",			"Lèđer.",
 "lif",			"x",			1,	1,	"a",	"1894",			"Piànđer.",
 "lig",			"",			1,	1,	"a",	"XIII",			"",
