@@ -1533,6 +1533,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "đun",			"",			1,	1,	"a",	"1829",			"Dexunar.",
 "đun",			"de",			1,	1,	"a",	"1447",			"Star senŧa mañar.",
 "đun",			"dex",		1,	1,	"a",	"1894",			"Mañar poketo.",
+"đuog",			"",			1,	2,	"g",	"1550",			"(belumat)",
 "đur",			"",			1,	1,	"a",	"1376",			"",
 "đur",			"kon",		1,	1,	"a",	"1867",			"",
 "đur",			"skon",		1,	1,	"a",	"1560",			"",
