@@ -16,7 +16,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "agor",			"",			1,	0,	"g",	"1560",			"Augurar.",
 "agr",			"in",			4,	3,	"a",	"1867",			"Deventar agro.",
 "agud",			"",			1,	2,	"a",	"XV",				"",
-"aid",			"",			1,	1,	"a",	"",				"",
+"aid",			"",			1,	1,	"a",	"XIII",			"(trevixan)",
 "aj",				"",			1,	0,	"g",	"1796",			"Đontar ajo.",
 "ajit",			"",			1,	0,	"g",	"1855",			"(belumat)",
 "akomand",		"r",			1,	4,	"g",	"1375",			"",
