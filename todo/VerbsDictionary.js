@@ -7036,6 +7036,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "sider",			"rekon",		1,	1,	"a",	"",				"",
 "sider",			"kun",		1,	1,	"a",	"1883",			"(coxòto) Konsiderar.",
 "sider",			"rekun",		1,	1,	"a",	"",				"",
+"xir",			"de",			1,	1,	"a",	"1550",			"(belumat)",
 "sidi",			"",			1,	1,	"a",	"1775",			"Sfiankar, strakar, inportunar.",
 "sidi",			"in",			1,	1,	"a",	"1745",			"(veneŧian)",
 "sidi",			"pre",		1,	1,	"a",	"1867",			"",
