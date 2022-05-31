@@ -4819,6 +4819,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "moj",			"in",			1,	1,	"g",	"",				"",
 "moj",			"x",			1,	1,	"g",	"",				"(bixiak) Maŧerar.",
 "mòj",			"",			3,	1,	"g",	"1810",			"",
+"muòj",			"",			3,	1,	"g",	"1550",			"(belumat)",
 "mok",			"",			1,	1,	"g",	"1810",			"Tajar, xméter, andar via.",
 "mok",			"re",			1,	1,	"g",	"1900",			"(veronexe) Reaxir, opóner.",
 "mok",			"x",			1,	1,	"g",	"1775",			"",
