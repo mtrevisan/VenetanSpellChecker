@@ -452,10 +452,11 @@ COMPOUNDRULE (|5)(--)(|6)	# sento-mi[lƚ]e
 # metaplaxmo 3a > 2a:	partiŧipio pasivo e xerundio
 # '-er- > '-ar-: ge pòl èser un xbasamento de `e` nò tònega in `a` vanti `r`
 #
-# -àr:	kantar/t0l070n0t4lF7Fn4t1P0PlP7Q0QlQ7, (kanto/t8n8tAlA7AJ1P0PlP7, kàntomi/t8n8l8tAlA7AI1Q0QlQ7)
+# -àr:	kantar/t0l070n0t4lF7Fn4t1P0PlP7Q0QlQ7, kanto/t8n8tAlA7AJ1P0PlP7, kàntomi/t8n8l8tAlA7AI1Q0QlQ7
 # -ér:	valer/t0l070n0t4lF7Fn4t1p4l474P0PlP7Q0QlQ7, (valo/t8n8tElE7EJ1P0PlP7, vàlomi/t8n8tElE7EI1Q0QlQ7 | reflèto/T8N8tClC7CJ1I1P0PlP7)
-# '-er:	kréder/t1c0c1c7n1P0PlP7R0RlR7, (kredo/t8n8tElE7EJ1P0PlP7, krédomi/t8n8tElE7EI1Q0QlQ7 | gòdo/T8N8tClC7CJ1I1P0PlP7 | supòno/n0T8N8tClC7CJ1I1P0PlP7FS), krederò/t0n0t4lF7Fn4l070p4l474J1I1
+# '-er:	kréder/t1c0c1c7n1P0PlP7R0RlR7, (kredo/t8n8tElE7EJ1P0PlP7, krédomi/t8n8tElE7EI1Q0QlQ7 | gòdo/T8N8tClC7CJ1I1P0PlP7FS), krederò/t0n0t4lF7Fn4l070p4l474J1I1
 # -ír:	dormir/t0l070n0t4lF7Fn4t1P0PlP7Q0QlQ7, (dòrmo/t8n8tElE7EJ1P0PlP7, dòrmomi/t8n8tElE7EI1Q0QlQ7 | feniso/n0N9T8N8tClC7CJ1I1P0PlP7Q0QlQ7)
+
 
 #([^/\r\n]+)/T8l878N8tBlB7BJ1I1P0PlP7FS([^\t]*)	po:verb ds:indicative\+present is:first\+singular([^\r\n]+)
 #([^/\r\n]+)/T8l878N8tBlBJ1I1P0PlFS([^\t]*)	po:verb ds:indicative\+present is:first\+singular([^\r\n]+)
@@ -1105,7 +1106,7 @@ SFX 7F ò ave/i7j7N0 erò	ds:conditional+present is:third	# T4 + rà(v)e
 # -àr, -ér, -ír: skomenŧiando da 'l infenío (tèma 12 solke)
 # '-er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
 # -ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar (tèma 12 solke)
-SFX n0 Y 604
+SFX n0 Y 596
 SFX n0 r ve/J1 [aei]r	ds:indicative+imperfect is:first+singular	# T2 + (v)e
 SFX n0 ar àvemi/I1 ar	ds:indicative+imperfect is:first+singular ds:interrogative	# T2 + (v)e
 SFX n0 er évemi/I1 er	ds:indicative+imperfect is:first+singular ds:interrogative	# T2 + (v)e
@@ -1597,7 +1598,6 @@ SFX n0 erò on/J2 erò	ds:indicative+present is:first+plural	# T12 + ón
 SFX n0 erò óni/I2 erò	ds:indicative+present is:first+plural ds:interrogative	# T12 + ón
 SFX n0 ir on/J2 ir	ds:indicative+present is:first+plural	# T12 + ón
 SFX n0 ir óni/I2 ir	ds:indicative+present is:first+plural ds:interrogative	# T12 + ón
-SFX n0 0 n/J2 o	ds:indicative+present is:first+plural	# T12 + ón
 SFX n0 ar en/J2 ar	ds:indicative+present is:first+plural	# T12 + én
 SFX n0 ar éni/I2 ar	ds:indicative+present is:first+plural ds:interrogative	# T12 + én
 SFX n0 r n/J2 er	ds:indicative+present is:first+plural	# T12 + én
@@ -1606,7 +1606,6 @@ SFX n0 rò n/J2 erò	ds:indicative+present is:first+plural	# T12 + én
 SFX n0 erò éni/I2 erò	ds:indicative+present is:first+plural ds:interrogative	# T12 + én
 SFX n0 ir en/J2 ir	ds:indicative+present is:first+plural	# T12 + én
 SFX n0 ir éni/I2 ir	ds:indicative+present is:first+plural ds:interrogative	# T12 + én
-SFX n0 o en/J2 o	ds:indicative+present is:first+plural	# T12 + én
 SFX n0 ar on ar	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
 SFX n0 ar one ar	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
 SFX n0 ar ion [^cijɉñ]ar	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
@@ -1623,10 +1622,6 @@ SFX n0 ir on ir	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
 SFX n0 ir one ir	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
 SFX n0 r on [^cijɉñ]ir	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
 SFX n0 r one [^cijɉñ]ir	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
-SFX n0 0 n o	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
-SFX n0 0 ne o	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
-SFX n0 o ion [^cijɉñ]o	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
-SFX n0 o ione [^cijɉñ]o	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
 SFX n0 ar en ar	ds:subjunctive+present is:first+plural	# T12 + én(e)
 SFX n0 ar ene ar	ds:subjunctive+present is:first+plural	# T12 + én(e)
 SFX n0 r n er	ds:subjunctive+present is:first+plural	# T12 + én(e)
@@ -1635,8 +1630,6 @@ SFX n0 rò n erò	ds:subjunctive+present is:first+plural	# T12 + én(e)
 SFX n0 rò ne erò	ds:subjunctive+present is:first+plural	# T12 + én(e)
 SFX n0 ir en ir	ds:subjunctive+present is:first+plural	# T12 + én(e)
 SFX n0 ir ene ir	ds:subjunctive+present is:first+plural	# T12 + én(e)
-SFX n0 o en o	ds:subjunctive+present is:first+plural	# T12 + én(e)
-SFX n0 o ene o	ds:subjunctive+present is:first+plural	# T12 + én(e)
 SFX n0 ar é/J4I4 ar	ds:indicative+present is:second+plural	# T12 + é
 SFX n0 er é/J4I4 er	ds:indicative+present is:second+plural	# T12 + é
 SFX n0 erò é/J4I4 erò	ds:indicative+present is:second+plural	# T12 + é
