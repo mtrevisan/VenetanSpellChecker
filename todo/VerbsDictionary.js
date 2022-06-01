@@ -6069,6 +6069,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "poc",			"",			1,	1,	"g",	"1775",			"Inpastrocar, inbratar.",
 "poc",			"in",			1,	1,	"g",	"1854",			"Inpastrocar.",
 "pod",			"",			2,	1,	"g",	"1867",			"",
+"puod",			"",			2,	1,	"g",	"1550",			"(belumat)",
 "pođ",			"",			1,	1,	"a",	"1560",			"",
 "pođ",			"re",			1,	1,	"a",	"1509",			"",
 "pođ",			"stra",		1,	1,	"a",	"1821",			"",

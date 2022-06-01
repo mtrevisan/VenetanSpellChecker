@@ -3037,7 +3037,7 @@ SFX xD er 0/J5 céner	ds:indicative+present is:third	# T10 = T8 + e
 SFX xD er lo/I5 céner	ds:indicative+present is:third ds:interrogative	# T10
 
 # vèrbi -ér inregolari: (des|re)(c|t[iu]?)oler, (ben|mal|re)(vu?|ʼ)oler
-SFX xE Y 140
+SFX xE Y 141
 SFX xE ler r/P0PlP7Bu oler	ds:infinitive+simple	# T1
 SFX xE ler re [ct]oler	ds:infinitive+simple	# T1 + r(e)
 SFX xE ler re t[iu]oler	ds:infinitive+simple	# T1 + r(e)
@@ -3149,6 +3149,7 @@ SFX xE ler i [vʼ]oler	ds:indicative+present is:first+singular	# T8 + o
 SFX xE ler i vuoler	ds:indicative+present is:first+singular	# T8 + o
 SFX xE oler òi [vʼ]oler	ds:indicative+present is:first+singular	# T8 + o
 SFX xE oler òi vuoler	ds:indicative+present is:first+singular	# T8 + o
+SFX xE oler uòs/J3I3 [vʼ]oler	ds:indicative+present is:second+singular	# T8 + e, 2s=3, belumat
 SFX xE oler òʼ/J3 [vʼ]oler	ds:indicative+present is:second+singular	# T8 + e, 2s=3, coxòto
 SFX xE oler òʼ/J3 vuoler	ds:indicative+present is:second+singular	# T8 + e, 2s=3, coxòto
 SFX xE oler òtu/I3 [vʼ]oler	ds:indicative+present is:second+singular ds:interrogative	# T8 + e, 2s=3, coxòto
@@ -3297,7 +3298,7 @@ SFX xK éver ebiede éver	ds:subjunctive+present is:second+plural	# T12 + é([dg
 SFX xK éver ebiege éver	ds:subjunctive+present is:second+plural	# T12 + é([dg]e)
 
 # vèrbi '-er inregolari: (re)èser
-SFX xL Y 522
+SFX xL Y 523
 SFX xL ser ra/J1 èser	ds:indicative+imperfect is:first+singular	# T2 + (v)a
 SFX xL èser éra/J1 èser	ds:indicative+imperfect is:first+singular	# T2 + (v)a
 SFX xL ser rami/I1 èser	ds:indicative+imperfect is:first+singular ds:interrogative	# T2 + (v)a
@@ -3364,6 +3365,7 @@ SFX xL èser fosi/J3 èser	ds:subjunctive+imperfect is:second+singular	# T2 + si
 SFX xL èser fósitu/j3I3 èser	ds:subjunctive+imperfect is:second+singular ds:interrogative	# T2 + si
 SFX xL èser fosi/J4I4 èser	ds:subjunctive+imperfect is:second+plural	# T2 + si
 SFX xL èser fose/P0PlP7FS èser	ds:subjunctive+imperfect is:third	# T2 + se
+SFX xL èser fuòse/P0PlP7FS èser	ds:subjunctive+imperfect is:third	# T2 + se, belumat
 SFX xL èser fóselo/I5 èser	ds:subjunctive+imperfect is:third ds:pronomenal+reflexive	# T2 + se
 SFX xL èser fóseƚo/i5 èser	ds:subjunctive+imperfect is:third ds:pronomenal+reflexive	# T2 + se
 SFX xL èser esesto/A1FS èser	ds:participle+passive+weak is:singular+masculine	# T2 + st[oiae]
@@ -3822,7 +3824,7 @@ SFX xL èser saríse/J5j5N0 èser	ds:conditional+present is:third ds:interrogati
 SFX xL èser saràƚo/i5 èser	ds:indicative+future is:third ds:interrogative	# T4 + rà
 
 # vèrbi '-er inregolari: rïèser
-SFX xM Y 473
+SFX xM Y 474
 SFX xM ser ra/J1 èser	ds:indicative+imperfect is:first+singular	# T2 + (v)a
 SFX xM èser éra/J1 èser	ds:indicative+imperfect is:first+singular	# T2 + (v)a
 SFX xM ser rami/I1 èser	ds:indicative+imperfect is:first+singular ds:interrogative	# T2 + (v)a
@@ -3888,6 +3890,7 @@ SFX xM ïèser ifosi/J3 ïèser	ds:subjunctive+imperfect is:second+singular	# T2
 SFX xM ïèser ifósitu/j3I3 ïèser	ds:subjunctive+imperfect is:second+singular ds:interrogative	# T2 + si
 SFX xM ïèser ifosi/J4I4 ïèser	ds:subjunctive+imperfect is:second+plural	# T2 + si
 SFX xM ïèser ifose/P0PlP7FS ïèser	ds:subjunctive+imperfect is:third	# T2 + se
+SFX xM ïèser ifuòse/P0PlP7FS ïèser	ds:subjunctive+imperfect is:third	# T2 + se, belumat
 SFX xM ïèser ifóselo/I5 ïèser	ds:subjunctive+imperfect is:third ds:pronomenal+reflexive	# T2 + se
 SFX xM ïèser ifóseƚo/i5 ïèser	ds:subjunctive+imperfect is:third ds:pronomenal+reflexive	# T2 + se
 SFX xM èser esesto/A1FS èser	ds:participle+passive+weak is:singular+masculine	# T2 + st[oiae]
@@ -6388,11 +6391,12 @@ SFX j3 0 s-tu [èé]ri	ds:interrogative	# coxòto
 SFX j3 tu s-tu tu	ds:interrogative	# coxòto
 
 # interogativi sekonda parsona singolar (takai)
-SFX I3 Y 22
+SFX I3 Y 23
 SFX I3 as àstu as	ds:interrogative
 SFX I3 es ístu es	ds:interrogative	# veneŧian
 SFX I3 es éstu es	ds:interrogative
 SFX I3 is ístu is	ds:interrogative
+SFX I3 0 tu òs	ds:interrogative	# belumat
 SFX I3 0 tu [àèéií]s	ds:interrogative
 SFX I3 u o tu	ds:interrogative
 SFX I3 etu istu etu	ds:interrogative	# veneŧian
