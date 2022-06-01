@@ -457,6 +457,18 @@ COMPOUNDRULE (|5)(--)(|6)	# sento-mi[lƚ]e
 # '-er:	kréder/t1c0c1c7n1P0PlP7R0RlR7, (kredo/t8n8tElE7EJ1P0PlP7, krédomi/t8n8tElE7EI1Q0QlQ7 | gòdo/T8N8tClC7CJ1I1P0PlP7 | supòno/n0T8N8tClC7CJ1I1P0PlP7FS), krederò/t0n0t4lF7Fn4l070p4l474J1I1
 # -ír:	dormir/t0l070n0t4lF7Fn4t1P0PlP7Q0QlQ7, (dòrmo/t8n8tElE7EJ1P0PlP7, dòrmomi/t8n8tElE7EI1Q0QlQ7 | feniso/n0N9T8N8tClC7CJ1I1P0PlP7Q0QlQ7)
 
+#([^/\r\n]+)/T8l878N8tBlB7BJ1I1P0PlP7FS([^\t]*)	po:verb ds:indicative\+present is:first\+singular([^\r\n]+)
+#([^/\r\n]+)/T8l878N8tBlBJ1I1P0PlFS([^\t]*)	po:verb ds:indicative\+present is:first\+singular([^\r\n]+)
+#$1/t8n8tAlA7AJ1P0PlP7FS$2	po:verb ds:indicative+present is:first+singular$3\r\n$1mi/t8n8l8tAlA7AI1Q0QlQ7$2	po:verb ds:indicative+present is:first+singular ds:interrogative$3
+
+#([^/\r\n]+)/T8l8N8tBlBJ1I1P0PlFS([^\t]*)	po:verb ds:indicative\+present is:first\+singular([^\r\n]+)
+#$1/t8n8tAlAJ1P0PlFS$2	po:verb ds:indicative+present is:first+singular$3\r\n$1mi/t8n8l8tAlAI1Q0Ql$2	po:verb ds:indicative+present is:first+singular ds:interrogative$3
+
+#([^/\r\n]+)/T878tB7BJ1I1P0P7([^\t]*)	po:verb ds:indicative\+present is:first\+singular([^\r\n]+)
+#$1/t8tA7AJ1P0P7$2	po:verb ds:indicative+present is:first+singular$3\r\n$1mi/t878tA7AI1Q0Q7$2	po:verb ds:indicative+present is:first+singular ds:interrogative$3
+
+find ds:interrogative+
+
 
 # baxe:
 # tèma 2 (from T1: aŧento PVT > VT)
