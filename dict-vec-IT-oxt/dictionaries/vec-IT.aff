@@ -454,9 +454,12 @@ COMPOUNDRULE (|5)(--)(|6)	# sento-mi[lƚ]e
 #
 # -àr:	kantar/t0l070n0t4lF7Fn4t1P0PlP7Q0QlQ7, kanto/t8n8tAlA7AJ1P0PlP7, kàntomi/t8n8l8tAlA7AI1Q0QlQ7
 # -ér:	valer/t0l070n0t4lF7Fn4t1p4l474P0PlP7Q0QlQ7, (valo/t8n8tElE7EJ1P0PlP7, vàlomi/t8n8tElE7EI1Q0QlQ7 | reflèto/T8N8tClC7CJ1I1P0PlP7)
-# '-er:	kréder/t1c0c1c7n1P0PlP7R0RlR7, (kredo/t8n8tElE7EJ1P0PlP7, krédomi/t8n8tElE7EI1Q0QlQ7 | gòdo/T8N8tClC7CJ1I1P0PlP7FS), krederò/t0n0t4lF7Fn4l070p4l474J1I1
+# '-er:	kréder/t1c0c1c7n1P0PlP7R0RlR7, kredo/t8n8tElE7EJ1P0PlP7, krédomi/t8n8tElE7EI1Q0QlQ7, krederò/t0n0t4lF7Fn4l070p4l474J1I1
 # -ír:	dormir/t0l070n0t4lF7Fn4t1P0PlP7Q0QlQ7, (dòrmo/t8n8tElE7EJ1P0PlP7, dòrmomi/t8n8tElE7EI1Q0QlQ7 | feniso/n0N9T8N8tClC7CJ1I1P0PlP7Q0QlQ7)
 
+
+#([^/\r\n]+)/T8N8tClC7CJ1I1P0PlP7FS([^\t]*)	po:verb ds:indicative\+present is:first\+singular([^\r\n]+)
+#$1/t8n8tElE7EJ1P0PlP7FS$2	po:verb ds:indicative+present is:first+singular$3\r\n$1mi/t8n8tElE7EI1Q0QlQ7$2	po:verb ds:indicative+present is:first+singular ds:interrogative$3
 
 #([^/\r\n]+)/T8l878N8tBlB7BJ1I1P0PlP7FS([^\t]*)	po:verb ds:indicative\+present is:first\+singular([^\r\n]+)
 #([^/\r\n]+)/T8l878N8tBlBJ1I1P0PlFS([^\t]*)	po:verb ds:indicative\+present is:first\+singular([^\r\n]+)
