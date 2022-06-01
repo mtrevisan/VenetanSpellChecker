@@ -452,10 +452,10 @@ COMPOUNDRULE (|5)(--)(|6)	# sento-mi[lƚ]e
 # metaplaxmo 3a > 2a:	partiŧipio pasivo e xerundio
 # '-er- > '-ar-: ge pòl èser un xbasamento de `e` nò tònega in `a` vanti `r`
 #
-# -àr:	kantar/t0l070n0t4lF7Fn4t1P0PlP7Q0QlQ7, (kanto/t8n8tAlA7AJ1P0PlP7, kàntomi/t8n8tAlA7AI1Q0QlQ7 | exàmino/T8N8tBlB7BJ1I1P0PlP7)
+# -àr:	kantar/t0l070n0t4lF7Fn4t1P0PlP7Q0QlQ7, (kanto/t8n8tAlA7AJ1P0PlP7, kàntomi/t8n8l8tAlA7AI1Q0QlQ7)
 # -ér:	valer/t0l070n0t4lF7Fn4t1p4l474P0PlP7Q0QlQ7, (valo/t8n8tElE7EJ1P0PlP7, vàlomi/t8n8tElE7EI1Q0QlQ7 | reflèto/T8N8tClC7CJ1I1P0PlP7)
-# '-er:	kréder/t1c1clc7n1P0PlP7R0RlR7, (kredo/t8n8tElE7EJ1P0PlP7, krédomi/t8n8tElE7EI1Q0QlQ7 | gòdo/T8N8tClC7CJ1I1P0PlP7 | supòno/n0T8N8tClC7CJ1I1P0PlP7FS), krederò/t0n0t4lF7Fn4l070p4l474J1I1
-# -ír:	dormir/t0l070n0t4lF7Fn4t1P0PlP7Q0QlQ7, (dòrmo/t8n8tElE7EJ1P0PlP7, dòrmomi/t8n8tElE7EI1Q0QlQ7 | (dòrmo|feniso)/n0N9T8N8tClC7CJ1I1P0PlP7Q0QlQ7)
+# '-er:	kréder/t1c0c1c7n1P0PlP7R0RlR7, (kredo/t8n8tElE7EJ1P0PlP7, krédomi/t8n8tElE7EI1Q0QlQ7 | gòdo/T8N8tClC7CJ1I1P0PlP7 | supòno/n0T8N8tClC7CJ1I1P0PlP7FS), krederò/t0n0t4lF7Fn4l070p4l474J1I1
+# -ír:	dormir/t0l070n0t4lF7Fn4t1P0PlP7Q0QlQ7, (dòrmo/t8n8tElE7EJ1P0PlP7, dòrmomi/t8n8tElE7EI1Q0QlQ7 | feniso/n0N9T8N8tClC7CJ1I1P0PlP7Q0QlQ7)
 
 
 # baxe:
@@ -2089,7 +2089,12 @@ SFX 78 o geƚo/Q7 io	ds:indicative+present is:second+singular ds:interrogative	#
 
 # tèma 8, paròla ko asento (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: VT > Ø)
 # -àr, -ér, '-er, -ír, -ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
-SFX T8 Y 24
+SFX T8 Y 28
+SFX T8 o io [^s]o	ds:indicative+present is:first+singular ds:interrogative	# T8 + o, venethian
+SFX T8 o itu/Q0j3I3 [^is]o	ds:indicative+present is:second+singular ds:interrogative	# T8 + i
+SFX T8 o io [^i]so	ds:indicative+present is:first+singular ds:interrogative	# T8 + o, venethian
+SFX T8 o itu/Q0j3I3 [^i]so	ds:indicative+present is:second+singular ds:interrogative	# T8 + i
+SFX T8 o tu/Q0j3I3 io	ds:indicative+present is:second+singular ds:interrogative	# T8 + i
 SFX T8 iso ísomi/I1 iso	ds:indicative+present is:first+singular ds:interrogative	# T8 + i
 SFX T8 0 jo [^is]o	ds:indicative+present is:first+singular ds:interrogative
 SFX T8 0 ɉo [^is]o	ds:indicative+present is:first+singular ds:interrogative	# venethian
@@ -2100,8 +2105,7 @@ SFX T8 0 ɉu [^i]so	ds:indicative+present is:first+singular ds:interrogative	# c
 SFX T8 iso ísojo iso	ds:indicative+present is:first+singular ds:interrogative
 SFX T8 iso ísoɉo iso	ds:indicative+present is:first+singular ds:interrogative	# venethian
 SFX T8 iso ísoɉu iso	ds:indicative+present is:first+singular ds:interrogative	# coxòto
-SFX T8 o i/P0J3 [^is]o	ds:indicative+present is:second+singular	# T8 + i
-SFX T8 o itu/Q0j3I3 [^is]o	ds:indicative+present is:second+singular ds:interrogative	# T8 + i
+SFX T8 o i/P0J3Pd [^is]o	ds:indicative+present is:second+singular	# T8 + i
 SFX T8 o 0/P0J3 io	ds:indicative+present is:second+singular	# T8 + i
 SFX T8 o tu/j3I3 io	ds:indicative+present is:second+singular ds:interrogative	# T8 + i
 SFX T8 o i/P0J3 [^i]so	ds:indicative+present is:second+singular	# T8 + i
@@ -2109,25 +2113,27 @@ SFX T8 o itu/I3 [^i]so	ds:indicative+present is:second+singular ds:interrogative
 SFX T8 o i/P0J3 iso	ds:indicative+present is:second+singular	# T8 + i
 SFX T8 iso ísitu/Q0j3I3 iso	ds:indicative+present is:second+singular ds:interrogative	# T8 + i
 SFX T8 o a o	ds:subjunctive+present is:first+singular	# T8 + a
-SFX T8 o i/P0 [^is]o	ds:subjunctive+present is:second+singular	# T8 + i
+SFX T8 o i/P0Pd [^is]o	ds:subjunctive+present is:second+singular	# T8 + i
 SFX T8 io i/P0 io	ds:subjunctive+present is:second+singular	# T8 + i
-SFX T8 o i/P0 [^i]so	ds:subjunctive+present is:second+singular	# T8 + i
+SFX T8 o i/P0Pd [^i]so	ds:subjunctive+present is:second+singular	# T8 + i
 SFX T8 o i/P0 iso	ds:subjunctive+present is:second+singular	# T8 + i
 SFX T8 o e o	ds:subjunctive+present is:third	# T8 + e
 
-SFX N8 Y 21
+SFX N8 Y 22
 SFX N8 o e/J1 [^s]o	ds:indicative+present is:first+singular	# T8 + e
 SFX N8 o emi/I1 [^s]o	ds:indicative+present is:first+singular ds:interrogative	# T8 + e
 SFX N8 o e/J1 [^i]so	ds:indicative+present is:first+singular	# T8 + e
 SFX N8 o emi/I1 [^i]so	ds:indicative+present is:first+singular ds:interrogative	# T8 + e
 SFX N8 o e/J1FS iso	ds:indicative+present is:first+singular	# T8 + e
 SFX N8 iso ísemi/I1 iso	ds:indicative+present is:first+singular ds:interrogative	# T8 + e
-SFX N8 o e/J3I3 [^s]o	ds:indicative+present is:second+singular	# T8 + e, 2s=3
-SFX N8 o e/J3I3 [^i]so	ds:indicative+present is:second+singular	# T8 + e, 2s=3
+SFX N8 o e/J3 [^s]o	ds:indicative+present is:second+singular	# T8 + e, 2s=3
+SFX N8 o e/J3 [^i]so	ds:indicative+present is:second+singular	# T8 + e, 2s=3
 SFX N8 o e/J3FS iso	ds:indicative+present is:second+singular	# T8 + e, 2s=3
 SFX N8 o es [^s]o	ds:indicative+present is:second+singular	# T8 + e, 2s=3, belumat
 SFX N8 o es [^i]so	ds:indicative+present is:second+singular	# T8 + e, 2s=3, belumat
 SFX N8 o es iso	ds:indicative+present is:second+singular	# T8 + e, 2s=3, belumat
+SFX N8 o etu/j3I3 [^s]o	ds:indicative+present is:second+singular ds:interrogative	# T8 + e, 2s=3
+SFX N8 o etu/j3I3 [^i]so	ds:indicative+present is:second+singular ds:interrogative	# T8 + e, 2s=3
 SFX N8 iso ísetu/j3I3 iso	ds:indicative+present is:second+singular ds:interrogative	# T8 + e, 2s=3
 SFX N8 o e [^ls]o	ds:indicative+present is:third	# T8 + e
 SFX N8 o 0 [aàeèéiíïoòóuúü]lo	ds:indicative+present is:third	# T8 + e
@@ -2136,7 +2142,6 @@ SFX N8 o e o	ds:subjunctive+present is:first+singular	# T8 + e
 SFX N8 o e o	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3
 SFX N8 o a o	ds:subjunctive+present is:third	# T8 + a
 SFX N8 0 ni/I2 o	ds:indicative+present is:first+plural ds:interrogative	# T12 + ón
-SFX N8 o eni/I2 o	ds:indicative+present is:first+plural ds:interrogative	# T12 + én
 
 
 # baxe:
@@ -5011,7 +5016,7 @@ SFX P7 0 -veƚe [raeoò]	is:plural+femenine ds:pronomenal+reflexive
 
 
 # vèrbi pronomenali (takai)
-SFX Q0 Y 220
+SFX Q0 Y 272
 SFX Q0 0 ge r	ds:pronomenal+genitive+locative
 SFX Q0 0 de r	ds:pronomenal+genitive+locative
 SFX Q0 0 n ge	ds:pronomenal+genitive+locative
@@ -5206,6 +5211,58 @@ SFX Q0 mi ve omi	ds:pronomenal+reflexive
 SFX Q0 mi ven omi	ds:pronomenal+reflexive
 SFX Q0 mi vene omi	ds:pronomenal+reflexive
 SFX Q0 mi vende omi	ds:pronomenal+reflexive
+SFX Q0 0 ge [^s]o	ds:pronomenal+locative
+SFX Q0 0 gen [^s]o	ds:pronomenal+genitive+locative
+SFX Q0 0 gin [^s]o	ds:pronomenal+genitive+locative
+SFX Q0 0 gene [^s]o	ds:pronomenal+genitive+locative
+SFX Q0 0 gende [^s]o	ds:pronomenal+genitive+locative
+SFX Q0 0 gine [^s]o	ds:pronomenal+genitive+locative
+SFX Q0 0 ginde [^s]o	ds:pronomenal+genitive+locative
+SFX Q0 0 me [^s]o	ds:pronomenal+reflexive
+SFX Q0 0 men [^s]o	ds:pronomenal+reflexive
+SFX Q0 0 mene [^s]o	ds:pronomenal+reflexive
+SFX Q0 0 mende [^s]o	ds:pronomenal+reflexive
+SFX Q0 0 n [^s]o	ds:pronomenal+genitive
+SFX Q0 0 ne [^s]o	ds:pronomenal+genitive
+SFX Q0 0 nde [^s]o	ds:pronomenal+genitive
+SFX Q0 0 se [^s]o	ds:pronomenal+reflexive
+SFX Q0 0 sen [^s]o	ds:pronomenal+reflexive
+SFX Q0 0 sene [^s]o	ds:pronomenal+reflexive
+SFX Q0 0 sende [^s]o	ds:pronomenal+reflexive
+SFX Q0 0 te [^s]o	ds:pronomenal+reflexive
+SFX Q0 0 ten [^s]o	ds:pronomenal+reflexive
+SFX Q0 0 tene [^s]o	ds:pronomenal+reflexive
+SFX Q0 0 tende [^s]o	ds:pronomenal+reflexive
+SFX Q0 0 ve [^s]o	ds:pronomenal+reflexive
+SFX Q0 0 ven [^s]o	ds:pronomenal+reflexive
+SFX Q0 0 vene [^s]o	ds:pronomenal+reflexive
+SFX Q0 0 vende [^s]o	ds:pronomenal+reflexive
+SFX Q0 0 ge [^i]so	ds:pronomenal+locative
+SFX Q0 0 gen [^i]so	ds:pronomenal+genitive+locative
+SFX Q0 0 gin [^i]so	ds:pronomenal+genitive+locative
+SFX Q0 0 gene [^i]so	ds:pronomenal+genitive+locative
+SFX Q0 0 gende [^i]so	ds:pronomenal+genitive+locative
+SFX Q0 0 gine [^i]so	ds:pronomenal+genitive+locative
+SFX Q0 0 ginde [^i]so	ds:pronomenal+genitive+locative
+SFX Q0 0 me [^i]so	ds:pronomenal+reflexive
+SFX Q0 0 men [^i]so	ds:pronomenal+reflexive
+SFX Q0 0 mene [^i]so	ds:pronomenal+reflexive
+SFX Q0 0 mende [^i]so	ds:pronomenal+reflexive
+SFX Q0 0 n [^i]so	ds:pronomenal+genitive
+SFX Q0 0 ne [^i]so	ds:pronomenal+genitive
+SFX Q0 0 nde [^i]so	ds:pronomenal+genitive
+SFX Q0 0 se [^i]so	ds:pronomenal+reflexive
+SFX Q0 0 sen [^i]so	ds:pronomenal+reflexive
+SFX Q0 0 sene [^i]so	ds:pronomenal+reflexive
+SFX Q0 0 sende [^i]so	ds:pronomenal+reflexive
+SFX Q0 0 te [^i]so	ds:pronomenal+reflexive
+SFX Q0 0 ten [^i]so	ds:pronomenal+reflexive
+SFX Q0 0 tene [^i]so	ds:pronomenal+reflexive
+SFX Q0 0 tende [^i]so	ds:pronomenal+reflexive
+SFX Q0 0 ve [^i]so	ds:pronomenal+reflexive
+SFX Q0 0 ven [^i]so	ds:pronomenal+reflexive
+SFX Q0 0 vene [^i]so	ds:pronomenal+reflexive
+SFX Q0 0 vende [^i]so	ds:pronomenal+reflexive
 SFX Q0 iso ísoge iso	ds:pronomenal+locative
 SFX Q0 iso ísogen iso	ds:pronomenal+genitive+locative
 SFX Q0 iso ísogin iso	ds:pronomenal+genitive+locative
@@ -5234,7 +5291,7 @@ SFX Q0 iso ísovene iso	ds:pronomenal+reflexive
 SFX Q0 iso ísovende iso	ds:pronomenal+reflexive
 
 # vèrbi pronomenali (takai senŧa èle vanesente)
-SFX Ql Y 178
+SFX Ql Y 278
 SFX Ql ar àrgel ar	is:singular+masculine ds:pronomenal+locative
 SFX Ql ar àrgelo ar	is:singular+masculine ds:pronomenal+locative
 SFX Ql ar àrgeli ar	is:plural+masculine ds:pronomenal+locative
@@ -5363,31 +5420,131 @@ SFX Ql gelo velo gelo	is:singular+masculine ds:pronomenal+reflexive
 SFX Ql gelo vela gelo	is:singular+femenine ds:pronomenal+reflexive
 SFX Ql gelo veli gelo	is:plural+masculine ds:pronomenal+reflexive
 SFX Ql gelo vele gelo	is:plural+femenine ds:pronomenal+reflexive
-SFX Ql mi gel omi	is:singular+masculine ds:pronomenal+locative
-SFX Ql mi gelo omi	is:singular+masculine ds:pronomenal+locative
-SFX Ql mi geli omi	is:plural+masculine ds:pronomenal+locative
-SFX Ql mi gela omi	is:singular+femenine ds:pronomenal+locative
-SFX Ql mi gele omi	is:plural+femenine ds:pronomenal+locative
-SFX Ql i el omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Ql i elo omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Ql i eli omi	is:plural+masculine ds:pronomenal+reflexive
-SFX Ql i ela omi	is:singular+femenine ds:pronomenal+reflexive
-SFX Ql i ele omi	is:plural+femenine ds:pronomenal+reflexive
-SFX Ql mi sel omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Ql mi selo omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Ql mi seli omi	is:plural+masculine ds:pronomenal+reflexive
-SFX Ql mi sela omi	is:singular+femenine ds:pronomenal+reflexive
-SFX Ql mi sele omi	is:plural+femenine ds:pronomenal+reflexive
-SFX Ql mi tel omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Ql mi telo omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Ql mi teli omi	is:plural+masculine ds:pronomenal+reflexive
-SFX Ql mi tela omi	is:singular+femenine ds:pronomenal+reflexive
-SFX Ql mi tele omi	is:plural+femenine ds:pronomenal+reflexive
-SFX Ql mi vel omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Ql mi velo omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Ql mi veli omi	is:plural+masculine ds:pronomenal+reflexive
-SFX Ql mi vela omi	is:singular+femenine ds:pronomenal+reflexive
-SFX Ql mi vele omi	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql 0 gel omi	is:singular+masculine ds:pronomenal+locative
+SFX Ql 0 gelo omi	is:singular+masculine ds:pronomenal+locative
+SFX Ql 0 geli omi	is:plural+masculine ds:pronomenal+locative
+SFX Ql 0 gela omi	is:singular+femenine ds:pronomenal+locative
+SFX Ql 0 gele omi	is:plural+femenine ds:pronomenal+locative
+SFX Ql 0 mel omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 melo omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 meli omi	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql 0 mela omi	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql 0 mele omi	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql 0 sel omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 selo omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 seli omi	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql 0 sela omi	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql 0 sele omi	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql 0 tel omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 telo omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 teli omi	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql 0 tela omi	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql 0 tele omi	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql 0 vel omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 velo omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 veli omi	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql 0 vela omi	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql 0 vele omi	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql 0 gel [^ls]o	is:singular+masculine ds:pronomenal+locative
+SFX Ql 0 gelo [^ls]o	is:singular+masculine ds:pronomenal+locative
+SFX Ql 0 geli [^ls]o	is:plural+masculine ds:pronomenal+locative
+SFX Ql 0 gela [^ls]o	is:singular+femenine ds:pronomenal+locative
+SFX Ql 0 gele [^ls]o	is:plural+femenine ds:pronomenal+locative
+SFX Ql 0 mel [^ls]o	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 melo [^ls]o	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 meli [^ls]o	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql 0 mela [^ls]o	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql 0 mele [^ls]o	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql 0 sel [^ls]o	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 selo [^ls]o	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 seli [^ls]o	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql 0 sela [^ls]o	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql 0 sele [^ls]o	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql 0 tel [^ls]o	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 telo [^ls]o	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 teli [^ls]o	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql 0 tela [^ls]o	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql 0 tele [^ls]o	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql 0 vel [^ls]o	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 velo [^ls]o	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 veli [^ls]o	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql 0 vela [^ls]o	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql 0 vele [^ls]o	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql 0 gel [^e]lo	is:singular+masculine ds:pronomenal+locative
+SFX Ql 0 gelo [^e]lo	is:singular+masculine ds:pronomenal+locative
+SFX Ql 0 geli [^e]lo	is:plural+masculine ds:pronomenal+locative
+SFX Ql 0 gela [^e]lo	is:singular+femenine ds:pronomenal+locative
+SFX Ql 0 gele [^e]lo	is:plural+femenine ds:pronomenal+locative
+SFX Ql 0 mel [^e]lo	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 melo [^e]lo	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 meli [^e]lo	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql 0 mela [^e]lo	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql 0 mele [^e]lo	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql 0 sel [^e]lo	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 selo [^e]lo	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 seli [^e]lo	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql 0 sela [^e]lo	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql 0 sele [^e]lo	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql 0 tel [^e]lo	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 telo [^e]lo	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 teli [^e]lo	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql 0 tela [^e]lo	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql 0 tele [^e]lo	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql 0 vel [^e]lo	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 velo [^e]lo	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 veli [^e]lo	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql 0 vela [^e]lo	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql 0 vele [^e]lo	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql 0 gel [^g]elo	is:singular+masculine ds:pronomenal+locative
+SFX Ql 0 gelo [^g]elo	is:singular+masculine ds:pronomenal+locative
+SFX Ql 0 geli [^g]elo	is:plural+masculine ds:pronomenal+locative
+SFX Ql 0 gela [^g]elo	is:singular+femenine ds:pronomenal+locative
+SFX Ql 0 gele [^g]elo	is:plural+femenine ds:pronomenal+locative
+SFX Ql 0 mel [^g]elo	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 melo [^g]elo	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 meli [^g]elo	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql 0 mela [^g]elo	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql 0 mele [^g]elo	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql 0 sel [^g]elo	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 selo [^g]elo	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 seli [^g]elo	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql 0 sela [^g]elo	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql 0 sele [^g]elo	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql 0 tel [^g]elo	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 telo [^g]elo	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 teli [^g]elo	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql 0 tela [^g]elo	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql 0 tele [^g]elo	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql 0 vel [^g]elo	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 velo [^g]elo	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 veli [^g]elo	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql 0 vela [^g]elo	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql 0 vele [^g]elo	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql 0 gel [^i]so	is:singular+masculine ds:pronomenal+locative
+SFX Ql 0 gelo [^i]so	is:singular+masculine ds:pronomenal+locative
+SFX Ql 0 geli [^i]so	is:plural+masculine ds:pronomenal+locative
+SFX Ql 0 gela [^i]so	is:singular+femenine ds:pronomenal+locative
+SFX Ql 0 gele [^i]so	is:plural+femenine ds:pronomenal+locative
+SFX Ql 0 mel [^i]so	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 melo [^i]so	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 meli [^i]so	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql 0 mela [^i]so	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql 0 mele [^i]so	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql 0 sel [^i]so	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 selo [^i]so	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 seli [^i]so	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql 0 sela [^i]so	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql 0 sele [^i]so	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql 0 tel [^i]so	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 telo [^i]so	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 teli [^i]so	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql 0 tela [^i]so	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql 0 tele [^i]so	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql 0 vel [^i]so	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 velo [^i]so	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql 0 veli [^i]so	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql 0 vela [^i]so	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql 0 vele [^i]so	is:plural+femenine ds:pronomenal+reflexive
 SFX Ql iso ísogel iso	is:singular+masculine ds:pronomenal+locative
 SFX Ql iso ísogelo iso	is:singular+masculine ds:pronomenal+locative
 SFX Ql iso ísogeli iso	is:plural+masculine ds:pronomenal+locative
@@ -5415,7 +5572,7 @@ SFX Ql iso ísovela iso	is:singular+femenine ds:pronomenal+reflexive
 SFX Ql iso ísovele iso	is:plural+femenine ds:pronomenal+reflexive
 
 # vèrbi pronomenali (takai ko èle vanesente)
-SFX Q7 Y 143
+SFX Q7 Y 223
 SFX Q7 ar àrgeƚo ar	is:singular+masculine ds:pronomenal+locative
 SFX Q7 ar àrgeƚi ar	is:plural+masculine ds:pronomenal+locative
 SFX Q7 ar àrgeƚa ar	is:singular+femenine ds:pronomenal+locative
@@ -5519,26 +5676,106 @@ SFX Q7 geƚo veƚo geƚo	is:singular+masculine ds:pronomenal+reflexive
 SFX Q7 geƚo veƚa geƚo	is:singular+femenine ds:pronomenal+reflexive
 SFX Q7 geƚo veƚi geƚo	is:plural+masculine ds:pronomenal+reflexive
 SFX Q7 geƚo veƚe geƚo	is:plural+femenine ds:pronomenal+reflexive
-SFX Q7 mi geƚo omi	is:singular+masculine ds:pronomenal+locative
-SFX Q7 mi geƚi omi	is:plural+masculine ds:pronomenal+locative
-SFX Q7 mi geƚa omi	is:singular+femenine ds:pronomenal+locative
-SFX Q7 mi geƚe omi	is:plural+femenine ds:pronomenal+locative
-SFX Q7 i eƚo omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Q7 i eƚi omi	is:plural+masculine ds:pronomenal+reflexive
-SFX Q7 i eƚa omi	is:singular+femenine ds:pronomenal+reflexive
-SFX Q7 i eƚe omi	is:plural+femenine ds:pronomenal+reflexive
-SFX Q7 mi seƚo omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Q7 mi seƚi omi	is:plural+masculine ds:pronomenal+reflexive
-SFX Q7 mi seƚa omi	is:singular+femenine ds:pronomenal+reflexive
-SFX Q7 mi seƚe omi	is:plural+femenine ds:pronomenal+reflexive
-SFX Q7 mi teƚo omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Q7 mi teƚi omi	is:plural+masculine ds:pronomenal+reflexive
-SFX Q7 mi teƚa omi	is:singular+femenine ds:pronomenal+reflexive
-SFX Q7 mi teƚe omi	is:plural+femenine ds:pronomenal+reflexive
-SFX Q7 mi veƚo omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Q7 mi veƚi omi	is:plural+masculine ds:pronomenal+reflexive
-SFX Q7 mi veƚa omi	is:singular+femenine ds:pronomenal+reflexive
-SFX Q7 mi veƚe omi	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 0 geƚo omi	is:singular+masculine ds:pronomenal+locative
+SFX Q7 0 geƚi omi	is:plural+masculine ds:pronomenal+locative
+SFX Q7 0 geƚa omi	is:singular+femenine ds:pronomenal+locative
+SFX Q7 0 geƚe omi	is:plural+femenine ds:pronomenal+locative
+SFX Q7 0 meƚo omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 0 meƚi omi	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 0 meƚa omi	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 0 meƚe omi	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 0 seƚo omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 0 seƚi omi	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 0 seƚa omi	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 0 seƚe omi	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 0 teƚo omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 0 teƚi omi	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 0 teƚa omi	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 0 teƚe omi	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 0 veƚo omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 0 veƚi omi	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 0 veƚa omi	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 0 veƚe omi	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 0 geƚo [^ƚs]o	is:singular+masculine ds:pronomenal+locative
+SFX Q7 0 geƚi [^ƚs]o	is:plural+masculine ds:pronomenal+locative
+SFX Q7 0 geƚa [^ƚs]o	is:singular+femenine ds:pronomenal+locative
+SFX Q7 0 geƚe [^ƚs]o	is:plural+femenine ds:pronomenal+locative
+SFX Q7 0 meƚo [^ƚs]o	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 0 meƚi [^ƚs]o	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 0 meƚa [^ƚs]o	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 0 meƚe [^ƚs]o	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 0 seƚo [^ƚs]o	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 0 seƚi [^ƚs]o	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 0 seƚa [^ƚs]o	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 0 seƚe [^ƚs]o	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 0 teƚo [^ƚs]o	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 0 teƚi [^ƚs]o	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 0 teƚa [^ƚs]o	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 0 teƚe [^ƚs]o	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 0 veƚo [^ƚs]o	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 0 veƚi [^ƚs]o	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 0 veƚa [^ƚs]o	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 0 veƚe [^ƚs]o	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 0 geƚo [^e]ƚo	is:singular+masculine ds:pronomenal+locative
+SFX Q7 0 geƚi [^e]ƚo	is:plural+masculine ds:pronomenal+locative
+SFX Q7 0 geƚa [^e]ƚo	is:singular+femenine ds:pronomenal+locative
+SFX Q7 0 geƚe [^e]ƚo	is:plural+femenine ds:pronomenal+locative
+SFX Q7 0 meƚo [^e]ƚo	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 0 meƚi [^e]ƚo	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 0 meƚa [^e]ƚo	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 0 meƚe [^e]ƚo	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 0 seƚo [^e]ƚo	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 0 seƚi [^e]ƚo	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 0 seƚa [^e]ƚo	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 0 seƚe [^e]ƚo	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 0 teƚo [^e]ƚo	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 0 teƚi [^e]ƚo	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 0 teƚa [^e]ƚo	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 0 teƚe [^e]ƚo	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 0 veƚo [^e]ƚo	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 0 veƚi [^e]ƚo	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 0 veƚa [^e]ƚo	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 0 veƚe [^e]ƚo	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 0 geƚo [^g]eƚo	is:singular+masculine ds:pronomenal+locative
+SFX Q7 0 geƚi [^g]eƚo	is:plural+masculine ds:pronomenal+locative
+SFX Q7 0 geƚa [^g]eƚo	is:singular+femenine ds:pronomenal+locative
+SFX Q7 0 geƚe [^g]eƚo	is:plural+femenine ds:pronomenal+locative
+SFX Q7 0 meƚo [^g]eƚo	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 0 meƚi [^g]eƚo	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 0 meƚa [^g]eƚo	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 0 meƚe [^g]eƚo	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 0 seƚo [^g]eƚo	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 0 seƚi [^g]eƚo	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 0 seƚa [^g]eƚo	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 0 seƚe [^g]eƚo	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 0 teƚo [^g]eƚo	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 0 teƚi [^g]eƚo	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 0 teƚa [^g]eƚo	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 0 teƚe [^g]eƚo	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 0 veƚo [^g]eƚo	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 0 veƚi [^g]eƚo	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 0 veƚa [^g]eƚo	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 0 veƚe [^g]eƚo	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 0 geƚo [^i]so	is:singular+masculine ds:pronomenal+locative
+SFX Q7 0 geƚi [^i]so	is:plural+masculine ds:pronomenal+locative
+SFX Q7 0 geƚa [^i]so	is:singular+femenine ds:pronomenal+locative
+SFX Q7 0 geƚe [^i]so	is:plural+femenine ds:pronomenal+locative
+SFX Q7 0 meƚo [^i]so	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 0 meƚi [^i]so	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 0 meƚa [^i]so	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 0 meƚe [^i]so	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 0 seƚo [^i]so	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 0 seƚi [^i]so	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 0 seƚa [^i]so	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 0 seƚe [^i]so	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 0 teƚo [^i]so	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 0 teƚi [^i]so	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 0 teƚa [^i]so	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 0 teƚe [^i]so	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 0 veƚo [^i]so	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 0 veƚi [^i]so	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 0 veƚa [^i]so	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 0 veƚe [^i]so	is:plural+femenine ds:pronomenal+reflexive
 SFX Q7 iso ísogeƚo iso	is:singular+masculine ds:pronomenal+locative
 SFX Q7 iso ísogeƚi iso	is:plural+masculine ds:pronomenal+locative
 SFX Q7 iso ísogeƚa iso	is:singular+femenine ds:pronomenal+locative
@@ -6247,7 +6484,7 @@ SFX FS xo s xo	is:masculine
 SFX FS o 0 [^i]ño	is:masculine
 SFX FS ño in [^i]ño	is:masculine
 SFX FS ño n iño	is:masculine
-SFX FS ño nk ño	is:masculine
+SFX FS ño nk ño	is:masculine	# belunexe
 SFX FS ño nc ño	is:masculine	# belunexe
 SFX FS i 0 i
 

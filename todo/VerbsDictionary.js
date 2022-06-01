@@ -2970,6 +2970,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "ɉonf",			"x",			4,	4,	"a",	"1877",			"",
 "ɉostr",			"",			1,	1,	"g",	"",				"",
 "ɉostr",			"in",			1,	1,	"g",	"1829",			"",
+"ɉot",			"",			1,	1,	"g",	"1550",			"(belumat)",
 "ɉot",			"in",			1,	1,	"g",	"1306",			"",
 "ɉòt",			"in",			3,	1,	"g",	"1306",			"",
 "ɉót",			"in",			3,	1,	"g",	"1980",			"(vitoriexe)",
