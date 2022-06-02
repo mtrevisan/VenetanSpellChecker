@@ -452,10 +452,10 @@ COMPOUNDRULE (|5)(--)(|6)	# sento-mi[lƚ]e
 # metaplaxmo 3a > 2a:	partiŧipio pasivo e xerundio
 # '-er- > '-ar-: ge pòl èser un xbasamento de `e` nò tònega in `a` vanti `r`
 #
-# -àr:	kantar/t0l070n0t4lF7Fn4t1P0PlP7Q0QlQ7, kanto/t8n8tAlA7AJ1P0PlP7, kàntomi/t8n8l8tAlA7AI1Q0QlQ7
-# -ér:	valer/t0l070n0t4lF7Fn4t1p4l474P0PlP7Q0QlQ7, (valo/t8n8tElE7EJ1P0PlP7, vàlomi/t8n8tElE7EI1Q0QlQ7 | reflèto/T8N8tClC7CJ1I1P0PlP7)
-# '-er:	kréder/t1c0c1c7n1P0PlP7R0RlR7, kredo/t8n8tElE7EJ1P0PlP7, krédomi/t8n8tElE7EI1Q0QlQ7, krederò/t0n0t4lF7Fn4l070p4l474J1I1
-# -ír:	dormir/t0l070n0t4lF7Fn4t1P0PlP7Q0QlQ7, (dòrmo/t8n8tElE7EJ1P0PlP7, dòrmomi/t8n8tElE7EI1Q0QlQ7 | feniso/n0N9T8N8tClC7CJ1I1P0PlP7Q0QlQ7)
+# -àr:	kantar/t0l070n0t4lF7Fn4t1P0PlP7Q0QlQ7, (kanto/t8n8tAlA7AJ1P0PlP7FS, kàntomi/t8n8l8tAlA7AI1Q0QlQ7 | exàmino/T8l878N8tBlB7BJ1I1P0PlP7FS)
+# -ér:	remaner/t0l070n0t4lF7Fn4t1c0c1c7t2p4l474P0PlP7Q0QlQ7, (remano/t8n8tElE7EJ1P0PlP7FS, remànomi/t8n8l8tElE7EI1Q0QlQ7 | pòdo/T8N8tClC7CJ1I1P0PlP7FS)
+# '-er:	kréder/t1c0c1c7n1P0PlP7R0RlR7, (kredo/t8n8tElE7EJ1P0PlP7FS, krédomi/t8n8l8tElE7EI1Q0QlQ7 | gòdo/T8N8tClC7CJ1I1P0PlP7FS), krederò/t0n0t4lF7Fn4l070p4l474J1I1
+# -ír:	ensir/t0l070n0t4lF7Fn4t1P0PlP7Q0QlQ7, (enso/t8n8tElE7EJ1P0PlP7FS, énsomi/t8n8l878tElE7EI1Q0QlQ7 | dòrmo/T8l878N8tBlB7BJ1I1P0PlP7FS | feniso/n0N9T8N8tClC7CJ1I1P0PlP7Q0QlQ7FS)
 
 
 #([^/\r\n]+)/T8N8tClC7CJ1I1P0PlP7FS([^\t]*)	po:verb ds:indicative\+present is:first\+singular([^\r\n]+)
@@ -2043,10 +2043,9 @@ SFX 74 erò arave/i7j7N0 erò	ds:conditional+present is:third	# T4 + rà(v)e
 # baxe:
 # tèma 8 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: VT > Ø)
 # -àr, -ér, '-er, -ír, -ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
-SFX t8 Y 9
+SFX t8 Y 8
 SFX t8 o i/P0J3Pd [^i]o	ds:indicative+present is:second+singular	# T8 + i
 SFX t8 o 0/P0J3 io	ds:indicative+present is:second+singular	# T8 + i
-SFX t8 omi io omi	ds:indicative+present is:first+singular ds:interrogative	# T8 + o, venethian
 SFX t8 omi itu/Q0j3I3 [^i]omi	ds:indicative+present is:second+singular ds:interrogative	# T8 + i
 SFX t8 omi tu/Q0j3I3 iomi	ds:indicative+present is:second+singular ds:interrogative	# T8 + i
 SFX t8 o a o	ds:subjunctive+present is:first+singular	# T8 + a
@@ -2100,12 +2099,7 @@ SFX 78 o geƚo/Q7 io	ds:indicative+present is:second+singular ds:interrogative	#
 
 # tèma 8, paròla ko asento (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: VT > Ø)
 # -àr, -ér, '-er, -ír, -ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
-SFX T8 Y 28
-SFX T8 o io [^s]o	ds:indicative+present is:first+singular ds:interrogative	# T8 + o, venethian
-SFX T8 o itu/Q0j3I3 [^is]o	ds:indicative+present is:second+singular ds:interrogative	# T8 + i
-SFX T8 o io [^i]so	ds:indicative+present is:first+singular ds:interrogative	# T8 + o, venethian
-SFX T8 o itu/Q0j3I3 [^i]so	ds:indicative+present is:second+singular ds:interrogative	# T8 + i
-SFX T8 o tu/Q0j3I3 io	ds:indicative+present is:second+singular ds:interrogative	# T8 + i
+SFX T8 Y 25
 SFX T8 iso ísomi/I1 iso	ds:indicative+present is:first+singular ds:interrogative	# T8 + i
 SFX T8 0 jo [^is]o	ds:indicative+present is:first+singular ds:interrogative
 SFX T8 0 ɉo [^is]o	ds:indicative+present is:first+singular ds:interrogative	# venethian
@@ -2117,8 +2111,9 @@ SFX T8 iso ísojo iso	ds:indicative+present is:first+singular ds:interrogative
 SFX T8 iso ísoɉo iso	ds:indicative+present is:first+singular ds:interrogative	# venethian
 SFX T8 iso ísoɉu iso	ds:indicative+present is:first+singular ds:interrogative	# coxòto
 SFX T8 o i/P0J3Pd [^is]o	ds:indicative+present is:second+singular	# T8 + i
+SFX T8 o itu/Q0j3I3 [^is]o	ds:indicative+present is:second+singular ds:interrogative	# T8 + i
 SFX T8 o 0/P0J3 io	ds:indicative+present is:second+singular	# T8 + i
-SFX T8 o tu/j3I3 io	ds:indicative+present is:second+singular ds:interrogative	# T8 + i
+SFX T8 o tu/Q0j3I3 io	ds:indicative+present is:second+singular ds:interrogative	# T8 + i
 SFX T8 o i/P0J3 [^i]so	ds:indicative+present is:second+singular	# T8 + i
 SFX T8 o itu/I3 [^i]so	ds:indicative+present is:second+singular ds:interrogative	# T8 + i
 SFX T8 o i/P0J3 iso	ds:indicative+present is:second+singular	# T8 + i
@@ -2129,6 +2124,7 @@ SFX T8 io i/P0 io	ds:subjunctive+present is:second+singular	# T8 + i
 SFX T8 o i/P0Pd [^i]so	ds:subjunctive+present is:second+singular	# T8 + i
 SFX T8 o i/P0 iso	ds:subjunctive+present is:second+singular	# T8 + i
 SFX T8 o e o	ds:subjunctive+present is:third	# T8 + e
+SFX T8 o io [^i]o	ds:indicative+present is:first+singular ds:interrogative	# T8 + o, venethian
 
 SFX N8 Y 22
 SFX N8 o e/J1 [^s]o	ds:indicative+present is:first+singular	# T8 + e
@@ -2152,7 +2148,6 @@ SFX N8 o e [^i]so	ds:indicative+present is:third	# T8 + e
 SFX N8 o e o	ds:subjunctive+present is:first+singular	# T8 + e
 SFX N8 o e o	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3
 SFX N8 o a o	ds:subjunctive+present is:third	# T8 + a
-SFX N8 0 ni/I2 o	ds:indicative+present is:first+plural ds:interrogative	# T12 + ón
 
 
 # baxe:
@@ -5431,31 +5426,31 @@ SFX Ql gelo velo gelo	is:singular+masculine ds:pronomenal+reflexive
 SFX Ql gelo vela gelo	is:singular+femenine ds:pronomenal+reflexive
 SFX Ql gelo veli gelo	is:plural+masculine ds:pronomenal+reflexive
 SFX Ql gelo vele gelo	is:plural+femenine ds:pronomenal+reflexive
-SFX Ql 0 gel omi	is:singular+masculine ds:pronomenal+locative
-SFX Ql 0 gelo omi	is:singular+masculine ds:pronomenal+locative
-SFX Ql 0 geli omi	is:plural+masculine ds:pronomenal+locative
-SFX Ql 0 gela omi	is:singular+femenine ds:pronomenal+locative
-SFX Ql 0 gele omi	is:plural+femenine ds:pronomenal+locative
-SFX Ql 0 mel omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Ql 0 melo omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Ql 0 meli omi	is:plural+masculine ds:pronomenal+reflexive
-SFX Ql 0 mela omi	is:singular+femenine ds:pronomenal+reflexive
-SFX Ql 0 mele omi	is:plural+femenine ds:pronomenal+reflexive
-SFX Ql 0 sel omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Ql 0 selo omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Ql 0 seli omi	is:plural+masculine ds:pronomenal+reflexive
-SFX Ql 0 sela omi	is:singular+femenine ds:pronomenal+reflexive
-SFX Ql 0 sele omi	is:plural+femenine ds:pronomenal+reflexive
-SFX Ql 0 tel omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Ql 0 telo omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Ql 0 teli omi	is:plural+masculine ds:pronomenal+reflexive
-SFX Ql 0 tela omi	is:singular+femenine ds:pronomenal+reflexive
-SFX Ql 0 tele omi	is:plural+femenine ds:pronomenal+reflexive
-SFX Ql 0 vel omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Ql 0 velo omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Ql 0 veli omi	is:plural+masculine ds:pronomenal+reflexive
-SFX Ql 0 vela omi	is:singular+femenine ds:pronomenal+reflexive
-SFX Ql 0 vele omi	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql mi gel omi	is:singular+masculine ds:pronomenal+locative
+SFX Ql mi gelo omi	is:singular+masculine ds:pronomenal+locative
+SFX Ql mi geli omi	is:plural+masculine ds:pronomenal+locative
+SFX Ql mi gela omi	is:singular+femenine ds:pronomenal+locative
+SFX Ql mi gele omi	is:plural+femenine ds:pronomenal+locative
+SFX Ql i el omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql i elo omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql i eli omi	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql i ela omi	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql i ele omi	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql mi sel omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql mi selo omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql mi seli omi	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql mi sela omi	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql mi sele omi	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql mi tel omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql mi telo omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql mi teli omi	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql mi tela omi	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql mi tele omi	is:plural+femenine ds:pronomenal+reflexive
+SFX Ql mi vel omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql mi velo omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Ql mi veli omi	is:plural+masculine ds:pronomenal+reflexive
+SFX Ql mi vela omi	is:singular+femenine ds:pronomenal+reflexive
+SFX Ql mi vele omi	is:plural+femenine ds:pronomenal+reflexive
 SFX Ql 0 gel [^ls]o	is:singular+masculine ds:pronomenal+locative
 SFX Ql 0 gelo [^ls]o	is:singular+masculine ds:pronomenal+locative
 SFX Ql 0 geli [^ls]o	is:plural+masculine ds:pronomenal+locative
@@ -5687,26 +5682,26 @@ SFX Q7 geƚo veƚo geƚo	is:singular+masculine ds:pronomenal+reflexive
 SFX Q7 geƚo veƚa geƚo	is:singular+femenine ds:pronomenal+reflexive
 SFX Q7 geƚo veƚi geƚo	is:plural+masculine ds:pronomenal+reflexive
 SFX Q7 geƚo veƚe geƚo	is:plural+femenine ds:pronomenal+reflexive
-SFX Q7 0 geƚo omi	is:singular+masculine ds:pronomenal+locative
-SFX Q7 0 geƚi omi	is:plural+masculine ds:pronomenal+locative
-SFX Q7 0 geƚa omi	is:singular+femenine ds:pronomenal+locative
-SFX Q7 0 geƚe omi	is:plural+femenine ds:pronomenal+locative
-SFX Q7 0 meƚo omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Q7 0 meƚi omi	is:plural+masculine ds:pronomenal+reflexive
-SFX Q7 0 meƚa omi	is:singular+femenine ds:pronomenal+reflexive
-SFX Q7 0 meƚe omi	is:plural+femenine ds:pronomenal+reflexive
-SFX Q7 0 seƚo omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Q7 0 seƚi omi	is:plural+masculine ds:pronomenal+reflexive
-SFX Q7 0 seƚa omi	is:singular+femenine ds:pronomenal+reflexive
-SFX Q7 0 seƚe omi	is:plural+femenine ds:pronomenal+reflexive
-SFX Q7 0 teƚo omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Q7 0 teƚi omi	is:plural+masculine ds:pronomenal+reflexive
-SFX Q7 0 teƚa omi	is:singular+femenine ds:pronomenal+reflexive
-SFX Q7 0 teƚe omi	is:plural+femenine ds:pronomenal+reflexive
-SFX Q7 0 veƚo omi	is:singular+masculine ds:pronomenal+reflexive
-SFX Q7 0 veƚi omi	is:plural+masculine ds:pronomenal+reflexive
-SFX Q7 0 veƚa omi	is:singular+femenine ds:pronomenal+reflexive
-SFX Q7 0 veƚe omi	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 mi geƚo omi	is:singular+masculine ds:pronomenal+locative
+SFX Q7 mi geƚi omi	is:plural+masculine ds:pronomenal+locative
+SFX Q7 mi geƚa omi	is:singular+femenine ds:pronomenal+locative
+SFX Q7 mi geƚe omi	is:plural+femenine ds:pronomenal+locative
+SFX Q7 i eƚo omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 i eƚi omi	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 i eƚa omi	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 i eƚe omi	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 mi seƚo omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 mi seƚi omi	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 mi seƚa omi	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 mi seƚe omi	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 mi teƚo omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 mi teƚi omi	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 mi teƚa omi	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 mi teƚe omi	is:plural+femenine ds:pronomenal+reflexive
+SFX Q7 mi veƚo omi	is:singular+masculine ds:pronomenal+reflexive
+SFX Q7 mi veƚi omi	is:plural+masculine ds:pronomenal+reflexive
+SFX Q7 mi veƚa omi	is:singular+femenine ds:pronomenal+reflexive
+SFX Q7 mi veƚe omi	is:plural+femenine ds:pronomenal+reflexive
 SFX Q7 0 geƚo [^ƚs]o	is:singular+masculine ds:pronomenal+locative
 SFX Q7 0 geƚi [^ƚs]o	is:plural+masculine ds:pronomenal+locative
 SFX Q7 0 geƚa [^ƚs]o	is:singular+femenine ds:pronomenal+locative
@@ -6523,7 +6518,7 @@ SFX J1 0 -e .	ds:interrogative
 # varda anka `varar`
 SFX I1 Y 62
 SFX I1 mi i [aeoòónu]mi	ds:interrogative	# trevixan, venethian, padoan, vithentin, polexan, veronexe
-SFX I1 mi jo [aeòn]mi	ds:interrogative	# venethian
+SFX I1 mi jo [aeoòn]mi	ds:interrogative	# venethian
 SFX I1 omi io [dftv]àgomi	ds:interrogative	# venethian
 SFX I1 mi ɉo [aeoòn]mi	ds:interrogative	# venethian
 SFX I1 omi io [àéí]vomi	ds:interrogative	# venethian
