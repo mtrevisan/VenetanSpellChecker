@@ -3581,6 +3581,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "konomiđ",		"",			1,	6,	"a",	"1855",			"(belumat)",
 "konp",			"",			4,	4,	"a",	"",				"",
 "konp",			"in",			4,	4,	"a",	"",				"",
+"konp",			"s",			4,	4,	"a",	"1550",			"(belumat)",
 "konpl",			"",			4,	4,	"a",	"XV",				"Konpir.",
 "konpl",			"in",			4,	4,	"a",	"",				"Inkonpir.",
 "konpajin",		"s",			1,	4,	"g",	"1775",			"",
