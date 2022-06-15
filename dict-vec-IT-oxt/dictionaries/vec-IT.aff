@@ -6643,7 +6643,7 @@ SFX I2 i ne [^n]i	ds:interrogative
 SFX I2 i ni [^n]i	ds:interrogative	# veronexe
 SFX I2 i te [oó]ni	ds:interrogative
 SFX I2 i ti [oó]ni	ds:interrogative	# veronexe
-SFX I2 i e [oó]ni	ds:interrogative
+SFX I2 i e [oó]ni	ds:interrogative	# belumat
 SFX I2 i e [eé]ni	ds:interrogative
 SFX I2 i e íni	ds:interrogative
 SFX I2 o io [àéí]vimo	ds:interrogative	# venethian
@@ -7704,7 +7704,7 @@ SFX w0 ente ènte ente
 
 
 # sostantivi koletivi, ...
-SFX y0 Y 33
+SFX y0 Y 34
 SFX y0 da a [aeo]da	is:singular+femenine
 SFX y0 da e [aeo]da	is:plural+femenine
 SFX y0 da a [aeiouàèéíòóúïü]ida	is:singular+femenine	# -ITA(M) > -ida > -ia
@@ -7731,6 +7731,7 @@ SFX y0 do o [aeiouàèéíòóúïü]ido	is:singular+masculine
 SFX y0 do i [aeiouàèéíòóúïü]ido	is:singular+masculine
 SFX y0 ido ío [^aeiouàèéíòóúïü]ido	is:singular+masculine
 SFX y0 ido íi [^aeiouàèéíòóúïü]ido	is:singular+masculine
+SFX y0 do 0 òdo	is:singular+masculine
 SFX y0 do o òdo	is:singular+masculine
 SFX y0 do i òdo	is:plural+masculine
 SFX y0 udo ú udo	is:masculine

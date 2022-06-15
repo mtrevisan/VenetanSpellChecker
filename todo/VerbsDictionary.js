@@ -3633,6 +3633,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "koñ",			"",			1,	1,	"g",	"1852",			"Koniar.",
 "koñ",			"s",			1,	1,	"g",	"1855",			"(belumat)",
 "kòñ",			"",			3,	1,	"g",	"1775",			"(paduan, viŧentin, valsuganòto, belumat) Konvèñer, bexoñar, èser oblegài a far.",
+"kòñ",			"s",			3,	1,	"g",	"1550",			"(belumat)",
 "koñós",			"",			3,	3,	"a",	"1867",			"",
 "koñós",			"re",			3,	3,	"a",	"1829",			"",
 "koñós",			"s",			3,	3,	"a",	"1747",			"(veneŧian)",
