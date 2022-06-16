@@ -3252,7 +3252,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "karg",			"in",			1,	1,	"g",	"1775",			"",
 "karg",			"s",			1,	1,	"g",	"1867",			"",
 "kar",			"in",			4,	3,	"a",	"1775",			"Deventar karo.",
-"kari",			"",			1,	3,	"a",	"1980",			"(vitoriexe) Kaređar.",
+"karï",			"",			1,	3,	"a",	"1980",			"(vitoriexe) Kaređar.",
 "kariđ",			"",			1,	3,	"a",	"1829",			"Kaređar.",
 "kariol",		"",			1,	4,	"g",	"1852",			"",
 "kariol",		"in",			1,	4,	"g",	"1884",			"",
