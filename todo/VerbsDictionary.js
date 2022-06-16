@@ -6663,6 +6663,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "rónp",			"inte",		3,	1,	"a",	"",				"",
 "rónp",			"ko",			3,	1,	"a",	"",				"",
 "rónp",			"inko",		3,	1,	"a",	"1660",			"(veneŧian)",
+"ronŧin",		"",			1,	4,	"a",	"1550",			"(belumat) Ranŧiñar.",
 "ronx",			"",			1,	1,	"a",	"1896",			"",
 "roñ",			"",			1,	1,	"g",	"1998",			"Brontolar, protestar.",
 "roñ",			"dex",		1,	1,	"g",	"1854",			"",

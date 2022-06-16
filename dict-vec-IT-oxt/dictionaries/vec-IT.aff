@@ -484,7 +484,7 @@ find ds:interrogative+
 # tèma 7 (from T1: aŧento PVT > VT, then T2: í > é)
 # -àr, -ér, -ír, -ír/is: skomenŧiando da 'l infenío
 # '-er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
-SFX t0 Y 247
+SFX t0 Y 249
 SFX t0 r va/J1 [aei]r	ds:indicative+imperfect is:first+singular	# T2 + (v)a
 SFX t0 ar àvami/I1 ar	ds:indicative+imperfect is:first+singular ds:interrogative	# T2 + (v)a
 SFX t0 er évami/I1 er	ds:indicative+imperfect is:first+singular ds:interrogative	# T2 + (v)a
@@ -553,11 +553,13 @@ SFX t0 r a [aeiouàèéíòóúïü]ir	ds:indicative+imperfect is:third	# T2 + (
 SFX t0 ir ía [^aeiouàèéíòóúïü]ir	ds:indicative+imperfect is:third	# T2 + (v)a
 SFX t0 rò va erò	ds:indicative+imperfect is:third	# T2 + (v)a
 SFX t0 rò a erò	ds:indicative+imperfect is:third	# T2 + (v)a
-SFX t0 r se [aei]r	ds:subjunctive+imperfect is:first+singular	# T2 + se
+SFX t0 r se/J1 [aei]r	ds:subjunctive+imperfect is:first+singular	# T2 + se
+SFX t0 er ésemi/I1 er	ds:subjunctive+imperfect is:first+singular	# T2 + se
 SFX t0 ar àsjo ar	ds:subjunctive+imperfect is:first+singular ds:interrogative	# T2 + se, veneŧian
 SFX t0 er ésjo er	ds:subjunctive+imperfect is:first+singular ds:interrogative	# T2 + se, veneŧian
 SFX t0 ir ísjo ir	ds:subjunctive+imperfect is:first+singular ds:interrogative	# T2 + se, veneŧian
-SFX t0 rò se erò	ds:subjunctive+imperfect is:first+singular	# T2 + se
+SFX t0 rò se/J1 erò	ds:subjunctive+imperfect is:first+singular	# T2 + se
+SFX t0 erò ésemi/I1 erò	ds:subjunctive+imperfect is:first+singular	# T2 + se
 SFX t0 erò ésjo erò	ds:subjunctive+imperfect is:first+singular ds:interrogative	# T2 + se, veneŧian
 SFX t0 ar àsimo ar	ds:subjunctive+imperfect is:first+plural	# T2 + simo
 SFX t0 ar àsemo ar	ds:subjunctive+imperfect is:first+plural	# T2 + simo
@@ -1168,7 +1170,7 @@ SFX n0 ar eva ar	ds:indicative+imperfect is:third	# T2 + (v)a, T2 = T1: aŧento 
 SFX n0 ar ea ar	ds:indicative+imperfect is:third	# T2 + (v)a, T2 = T1: aŧento PVT > VT | à > é
 SFX n0 r se/FS [aei]r	ds:subjunctive+imperfect is:second+singular	# T2 + se, 2s=3
 SFX n0 rò se/FS erò	ds:subjunctive+imperfect is:second+singular	# T2 + se, 2s=3
-SFX n0 ar ese/FS ar	ds:subjunctive+imperfect is:first+singular	# T2 + se, T2 = T1: aŧento PVT > VT | à > é
+SFX n0 ar ese/FSJ1 ar	ds:subjunctive+imperfect is:first+singular	# T2 + se, T2 = T1: aŧento PVT > VT | à > é
 SFX n0 ar esi/J3 ar	ds:subjunctive+imperfect is:second+singular	# T2 + si, T2 = T1: aŧento PVT > VT | à > é
 SFX n0 ar ésitu/I3 ar	ds:subjunctive+imperfect is:second+singular ds:interrogative	# T2 + si, T2 = T1: aŧento PVT > VT | à > é
 SFX n0 ar esi/J4I4 ar	ds:subjunctive+imperfect is:second+plural	# T2 + si, T2 = T1: aŧento PVT > VT | à > é
@@ -2452,9 +2454,9 @@ SFX xB aver éva aver	ds:indicative+imperfect is:third	# T2 + (v)a
 SFX xB er éa [aʼ]ver	ds:indicative+imperfect is:third	# T2 + (v)a
 SFX xB aver éa aver	ds:indicative+imperfect is:third	# T2 + (v)a
 SFX xB er ía [aʼ]ver	ds:indicative+imperfect is:third	# T2 + (v)a
-SFX xB r se/FS [aʼ]ver	ds:subjunctive+imperfect is:first+singular	# T2 + se
+SFX xB r se/FSJ1 [aʼ]ver	ds:subjunctive+imperfect is:first+singular	# T2 + se
 SFX xB er ésjo [aʼ]ver	ds:subjunctive+imperfect is:first+singular ds:interrogative	# T2 + se, veneŧian
-SFX xB aver ese/FS aver	ds:subjunctive+imperfect is:first+singular	# T2 + se
+SFX xB aver ese/FSJ1 aver	ds:subjunctive+imperfect is:first+singular	# T2 + se
 SFX xB aver ésjo aver	ds:subjunctive+imperfect is:first+singular ds:interrogative	# T2 + se, veneŧian
 SFX xB er ésimo [aʼ]ver	ds:subjunctive+imperfect is:first+plural	# T2 + simo
 SFX xB aver ésimo aver	ds:subjunctive+imperfect is:first+plural	# T2 + simo
@@ -2475,7 +2477,7 @@ SFX xB r sé/J4I4 [aʼ]ver	ds:subjunctive+imperfect is:second+plural	# T2 + si, 
 SFX xB aver esé/J4I4 aver	ds:subjunctive+imperfect is:second+plural	# T2 + si, coxòto
 SFX xB r si [aʼ]ver	ds:subjunctive+imperfect is:third	# T2 + si
 SFX xB r se/FS [aʼ]ver	ds:subjunctive+imperfect is:third	# T2 + se
-SFX xB ver ése/FS [aʼ]ver	ds:subjunctive+imperfect is:first+singular	# T2 + se
+SFX xB ver ése/FSJ1 [aʼ]ver	ds:subjunctive+imperfect is:first+singular	# T2 + se
 SFX xB ver ésimo [aʼ]ver	ds:subjunctive+imperfect is:first+plural	# T2 + simo
 SFX xB ver ésemo [aʼ]ver	ds:subjunctive+imperfect is:first+plural	# T2 + simo, coxòto
 SFX xB ver ési [aʼ]ver	ds:subjunctive+imperfect is:first+singular	# T2 + si
@@ -3371,8 +3373,8 @@ SFX xL èser xèritu/j3I3 èser	ds:indicative+imperfect is:second+singular ds:in
 SFX xL èser xèri/J4 èser	ds:indicative+imperfect is:second+plural	# T2 + (v)i
 SFX xL èser xèrïu/I4 èser	ds:indicative+imperfect is:second+plural ds:interrogative	# T2 + (v)i
 SFX xL èser xèra/J5j5 èser	ds:indicative+imperfect is:third	# T2 + (v)a
-SFX xL èser fuse èser	ds:subjunctive+imperfect is:first+singular	# T2 + se
-SFX xL èser furese èser	ds:subjunctive+imperfect is:first+singular	# T2 + se
+SFX xL èser fuse/J1 èser	ds:subjunctive+imperfect is:first+singular	# T2 + se
+SFX xL èser furese/J1 èser	ds:subjunctive+imperfect is:first+singular	# T2 + se
 SFX xL èser fúsjo èser	ds:subjunctive+imperfect is:first+singular ds:interrogative	# T2 + se, veneŧian
 SFX xL èser fúsimo èser	ds:subjunctive+imperfect is:first+plural	# T2 + simo
 SFX xL èser fúsemo èser	ds:subjunctive+imperfect is:first+plural	# T2 + simo, coxòto
@@ -3384,7 +3386,7 @@ SFX xL èser fuse/P0PlP7 èser	ds:subjunctive+imperfect is:third	# T2 + se
 SFX xL èser furese/P0PlP7 èser	ds:subjunctive+imperfect is:third	# T2 + se
 SFX xL èser fúselo/I5 èser	ds:subjunctive+imperfect is:third ds:pronomenal+reflexive	# T2 + se
 SFX xL èser fúseƚo/i5 èser	ds:subjunctive+imperfect is:third ds:pronomenal+reflexive	# T2 + se
-SFX xL èser fose èser	ds:subjunctive+imperfect is:first+singular	# T2 + se
+SFX xL èser fose/J1 èser	ds:subjunctive+imperfect is:first+singular	# T2 + se
 SFX xL èser fósjo èser	ds:subjunctive+imperfect is:first+singular ds:interrogative	# T2 + se, veneŧian
 SFX xL èser fósimo èser	ds:subjunctive+imperfect is:first+plural	# T2 + simo
 SFX xL èser fonsi èser	ds:subjunctive+imperfect is:first+plural	# T2 + simo
@@ -3910,8 +3912,8 @@ SFX xM ïèser ixèritu/j3I3 ïèser	ds:indicative+imperfect is:second+singular 
 SFX xM ïèser ixèri/J4 ïèser	ds:indicative+imperfect is:second+plural	# T2 + (v)i
 SFX xM ïèser ixèrïu/I4 ïèser	ds:indicative+imperfect is:second+plural ds:interrogative	# T2 + (v)i
 SFX xM ïèser ixèra/J5j5 ïèser	ds:indicative+imperfect is:third	# T2 + (v)a
-SFX xM ïèser ifuse ïèser	ds:subjunctive+imperfect is:first+singular	# T2 + se
-SFX xM ïèser ifurese ïèser	ds:subjunctive+imperfect is:first+singular	# T2 + se
+SFX xM ïèser ifuse/J1 ïèser	ds:subjunctive+imperfect is:first+singular	# T2 + se
+SFX xM ïèser ifurese/J1 ïèser	ds:subjunctive+imperfect is:first+singular	# T2 + se
 SFX xM ïèser ifúsjo ïèser	ds:subjunctive+imperfect is:first+singular ds:interrogative	# T2 + se, veneŧian
 SFX xM ïèser ifúsimo ïèser	ds:subjunctive+imperfect is:first+plural	# T2 + simo
 SFX xM ïèser ifúsemo ïèser	ds:subjunctive+imperfect is:first+plural	# T2 + simo, coxòto
@@ -3923,7 +3925,7 @@ SFX xM ïèser ifuse/P0PlP7 ïèser	ds:subjunctive+imperfect is:third	# T2 + se
 SFX xM ïèser ifurese/P0PlP7 ïèser	ds:subjunctive+imperfect is:third	# T2 + se
 SFX xM ïèser ifúselo/I5 ïèser	ds:subjunctive+imperfect is:third ds:pronomenal+reflexive	# T2 + se
 SFX xM ïèser ifúseƚo/i5 ïèser	ds:subjunctive+imperfect is:third ds:pronomenal+reflexive	# T2 + se
-SFX xM ïèser ifose ïèser	ds:subjunctive+imperfect is:first+singular	# T2 + se
+SFX xM ïèser ifose/J1 ïèser	ds:subjunctive+imperfect is:first+singular	# T2 + se
 SFX xM ïèser ifósjo ïèser	ds:subjunctive+imperfect is:first+singular ds:interrogative	# T2 + se, veneŧian
 SFX xM ïèser ifósimo ïèser	ds:subjunctive+imperfect is:first+plural	# T2 + simo
 SFX xM ïèser ifonsi ïèser	ds:subjunctive+imperfect is:first+plural	# T2 + simo
@@ -4638,7 +4640,7 @@ SFX xR ir ívïu/I4 [fd]ir	ds:indicative+imperfect is:second+plural ds:interroga
 SFX xR r i/J4I4 [fd]ir	ds:indicative+imperfect is:second+plural	# T2 + (v)i
 SFX xR r va [fd]ir	ds:indicative+imperfect is:third	# T2 + (v)a
 SFX xR r a [fd]ir	ds:indicative+imperfect is:third	# T2 + (v)a
-SFX xR r se [fd]ir	ds:subjunctive+imperfect is:first+singular	# T2 + se
+SFX xR r se/J1 [fd]ir	ds:subjunctive+imperfect is:first+singular	# T2 + se
 SFX xR ir ísjo [fd]ir	ds:subjunctive+imperfect is:first+singular ds:interrogative	# T2 + se, veneŧian
 SFX xR ir ísimo [fd]ir	ds:subjunctive+imperfect is:first+plural	# T2 + simo
 SFX xR ir esemo [fd]ir	ds:subjunctive+imperfect is:first+plural	# T2 + simo, coxòto
@@ -9037,7 +9039,7 @@ PFX '0 kon ʼ kon
 
 
 # paròle ŧonkae a la fine
-SFX '9 Y 20
+SFX '9 Y 21
 SFX '9 r ʼ r
 SFX '9 u ʼ u
 SFX '9 ra ʼ ra
@@ -9047,6 +9049,7 @@ SFX '9 èxa àʼ èxa
 SFX '9 é ʼ é
 SFX '9 me ʼ me
 SFX '9 de ʼ de
+SFX '9 ke ʼ ke
 SFX '9 te ʼ te
 SFX '9 do ʼ do	# (kuanʼ + C)
 SFX '9 ko ʼ ko
