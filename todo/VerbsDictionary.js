@@ -1313,6 +1313,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "dol",			"kon",		1,	1,	"g",	"1829",			"",
 "dol",			"",			2,	1,	"g",	"1867",			"",
 "dol",			"kon",		2,	1,	"g",	"1856",			"(veneŧian)",
+"dolentr",		"",			1,	3,	"a",	"1550",			"(belumat)",
 "dolentr",		"in",			1,	3,	"a",	"1847",			"Indolenŧir, adolorar.",
 "dolor",			"",			1,	3,	"a",	"1867",			"",
 "dolor",			"a",			1,	3,	"a",	"1560",			"",
