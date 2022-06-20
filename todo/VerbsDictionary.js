@@ -1393,6 +1393,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "drom",			"",			5,	2,	"g",	"1560",			"",
 "drom",			"in",			5,	2,	"g",	"1560",			"",
 "dromenŧ",		"in",			1,	4,	"a",	"1560",			"",
+"duni",			"",			1,	1,	"a",	"1550",			"(belumat) Kortejar, far a ʼl amor.",
 "dubit",			"",			1,	1,	"a",	"",				"",
 "dubit",			"in",			1,	1,	"a",	"1887",			"",
 "dul",			"a",			1,	1,	"a",	"1560",			"",
