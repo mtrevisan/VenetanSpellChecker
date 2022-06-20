@@ -6617,6 +6617,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "riŧol",			"in",			4,	5,	"a",	"1829",			"Far deventar riŧo.",
 "riv",			"",			1,	1,	"a",	"1433",			"",
 "riv",			"de",			1,	1,	"a",	"1867",			"",
+"riv",			"mal",		1,	1,	"a",	"1550",			"(belumat) Malkapitar.",
 "rixeg",			"",			1,	1,	"a",	"1847",			"Riscar.",
 "rixig",			"",			1,	1,	"a",	"1855",			"(belumat) Riscar.",
 "ro",				"",			1,	1,	"a",	"1590",			"Rotar, rotear.",
