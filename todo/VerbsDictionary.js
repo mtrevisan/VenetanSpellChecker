@@ -6019,6 +6019,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "pitur",			"in",			1,	3,	"a",	"",				"",
 "pium",			"in",			1,	2,	"a",	"1867",			"",
 "pium",			"s",			1,	2,	"a",	"1854",			"",
+"piur",			"",			1,	2,	"a",	"1550",			"(belumat) Piànđer.",
 "piŧ",			"",			1,	1,	"a",	"1775",			"Spiŧar.",
 "piŧ",			"in",			1,	1,	"a",	"1412",			"",
 "piŧ",			"s",			1,	1,	"a",	"1852",			"",
