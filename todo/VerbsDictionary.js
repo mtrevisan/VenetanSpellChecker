@@ -1848,6 +1848,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "ferm",			"in",			1,	1,	"a",	"1855",			"(belumat)",
 "ferment",		"",			1,	4,	"a",	"1867",			"",
 "fervor",		"in",			1,	4,	"a",	"1660",			"(veneŧian)",
+"fers",			"",			1,	1,	"g",	"1881",			"",
 "fersor",		"",			1,	4,	"a",	"1829",			"",
 "fes",			"pro",		1,	1,	"g",	"1867",			"",
 "festeđ",		"",			1,	4,	"a",	"1415",			"",
