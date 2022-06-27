@@ -2559,6 +2559,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "god",			"",			2,	3,	"g",	"1683",			"(veneŧian) Gòder.",
 "godeg",			"",			1,	1,	"g",	"1854",			"Inporar, inporir.",
 "goern",			"",			1,	2,	"g",	"1590",			"",
+"gol",			"de",			1,	1,	"a",	"1882",			"Dekapitar.",
 "gol",			"x",			1,	1,	"a",	"1590",			"Xvolar.",
 "golaŧ",			"x",			1,	3,	"a",	"184609",		"(trevixan)",
 "golf",			"in",			1,	1,	"a",	"1775",			"Kargar, oprímer.",
