@@ -1712,6 +1712,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "fant",			"stra",		1,	1,	"g",	"1896",			"",
 "fantasteg",	"",			1,	4,	"g",	"1856",			"",
 "faoređ",		"",			1,	4,	"a",	"1560",			"",
+"fardim",		"",			1,	4,	"a",	"1882",			"Rakòjer i prodoti autunali.",
 "farfuñ",		"",			1,	4,	"a",	"",				"Balbetar.",
 "farin",			"des",		1,	3,	"a",	"1854",			"",
 "farin",			"in",			1,	3,	"a",	"1560",			"",
