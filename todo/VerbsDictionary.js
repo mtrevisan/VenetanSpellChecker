@@ -8623,6 +8623,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "ŧit",			"in",			1,	-2,"a",	"",				"",
 "ŧit",			"re",			1,	-1,"g",	"",				"",
 "ŧit",			"",			4,	3,	"a",	"1775",			"",
+"ŧitadin",		"in",			1,	5,	"a",	"1882",			"(belumat) Deventar un ŧitadin.",
 "ŧiton",			"",			1,	3,	"a",	"1897",			"",
 "ŧiŧon",			"",			1,	3,	"a",	"1829",			"Skarmejar.",
 "ŧivet",			"",			1,	3,	"a",	"1855",			"(belumat)",
