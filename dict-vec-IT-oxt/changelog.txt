@@ -1,6 +1,28 @@
-version 4.?.?, 2022/02/25:
-- added ?-51443377 new words to the dictionary, reaching a total of ? unique words
-- added ?-23643 new synonyms to the dictionary, reaching a total of ?
+version 4.?.?, 2022/07/??:
+- added ?-64622879 new words to the dictionary, reaching a total of ? unique words
+- added ?-25296 new synonyms to the dictionary, reaching a total of ?
+
+version 4.1.0, 2022/07/09:
+- added 13.179.502 new words to the dictionary, reaching a total of 53.920.863 unique words
+- added 1.653 new synonyms to the dictionary, reaching a total of 25.296
+- processed "Zini, Pietro. La volpe hà lassà el pelo sotto Vienna. Venezia, 1684."
+- processed "Ninni, Alessandro Pericle. Scritti dialettologici e folkloristici veneti - Materiali per un vocabolario della lingua rusticana del contado di Treviso. Serie I e II. Venezia, 1891."
+- processed "Ninni, Alessandro Pericle. Scritti dialettologici e folkloristici veneti - Materiali per un vocabolario della lingua rusticana del contado di Treviso. Serie III. Venezia, 189210."
+- processed "Ninni, Alessandro Pericle. Scritti dialettologici e folkloristici veneti - Opuscoli vari - La caccia degli uccelli acquatici nelle valli del veneto estuario. Venezia, 1890."
+- processed "Ninni, Alessandro Pericle. Scritti dialettologici e folkloristici veneti - Opuscoli vari - Voci bambinesche della lingua vernacola veneziana. Venezia, 18900709."
+- processed "Ninni, Alessandro Pericle. Giunte e correzioni al dizionario del dialetto veneziano. Serie I e II. Venezia, 1890."
+- processed "Ninni, Alessandro Pericle. Giunte e correzioni al dizionario del dialetto veneziano. Serie III. Venezia, 18900722."
+- processed "Musatti, Cesare. Amor materno nel dialetto veneziano. Venezia, 18860919."
+- processed "El castelo d'amor - Festa Trevisana fata el secondo dì dele Pentecoste l'ano 1214. Treviso, 184609."
+- processed "Barbaro, Nicolò. Giornale dell'assedio di Costantinopoli 1453. Vienna, 185511."
+- processed "Bonicelli, Giovanni. Pantalone bullo, overo La pusillanimità coverta. Venezia, 1688."
+- processed "Bonicelli, Giovanni. Pantalon spezier. Venezia, 1693."
+- processed "Mondini, Tomaso. Pantalone mercante fallito. Venezia, 1693."
+- processed "Formentin, Vittorio. Rendiconti duecenteschi in volgare dall'archivio dei Procuratori di san Marco. Bologna. 201406."
+- processed "Canzone di Auliver. Treviso. XIII."
+- processed "Panontin, Francesca. Antichi testi trevigiani. 2017."
+- processed "Cavassico, Bartolomeo. Le rime di Bartolomeo Cavassico notaio bellunese della prima metà del secolo XVI. Bologna, 1893."
+- processed "Pasqualigo, Cristoforo. Raccolta di proverbi veneti. III ed. Treviso, 1882."
 
 version 4.0.0, 2022/02/25:
 - added 19.340.126 new words to the dictionary, reaching a total of 51.443.377 unique words
@@ -19,15 +41,15 @@ version 4.0.0, 2022/02/25:
   Usually in closed syllables where after the vowel there is an `l`, `r`, or `s` is grave, if instead there is an `n` it is acute.
   In open syllables, on the other hand, we usually have that if the following syllable begins with `l` it is grave, with `t` it is acute if it is an `e` or grave if it is an `o`.
   Lastly, if the vowel comes after the consonant `j` it is usually open.
-- processed "Nardo Cibele, Angela. Studi sul dialetto di Burano. Venezia. 1898."
-- processed "Atti del podestà di Torcello. Torcello. 13120614, 13120619, 13120621, 13120701."
-- processed "Garlato, Agostino. Canti del popolo di Chioggia. Venezia. 1883."
+- processed "Nardo Cibele, Angela. Studi sul dialetto di Burano. Venezia, 1898."
+- processed "Atti del podestà di Torcello. Torcello, 13120614, 13120619, 13120621, 13120701."
+- processed "Garlato, Agostino. Canti del popolo di Chioggia. Venezia, 1883."
 - processed "Navigatio Sancti Brendani. XV sec."
-- processed "Nardo, Giovanni Domenico. Considerazioni filologiche sull'importanza dello studio comparativo dei dialetti rustici. Venezia. 1869."
+- processed "Nardo, Giovanni Domenico. Considerazioni filologiche sull'importanza dello studio comparativo dei dialetti rustici. Venezia, 1869."
 - processed "Mazzaro, Stefano. Alcune osservazioni sulla lingua di Paolo da Castello. In "Saggi dialettologici in area italo-romanza". Padova. 2002."
-- processed "Mondini, Tomaso. El Goffredo del Tasso cantà alla Barcariola. Venezia. 1683."
-- processed "Marcone, Valentina. I dizionari dialetta moderni del veronese (1986-2005). Venezia. 2012."
-- processed "Balbi, Domenico. Il Ligamatti - Cioè raccolte morali in lingua venetiana, estese in quaderni. Venezia. 16750626."
+- processed "Mondini, Tomaso. El Goffredo del Tasso cantà alla Barcariola. Venezia, 1683."
+- processed "Marcone, Valentina. I dizionari dialetta moderni del veronese (1986-2005). Venezia, 2012."
+- processed "Balbi, Domenico. Il Ligamatti - Cioè raccolte morali in lingua venetiana, estese in quaderni. Venezia, 16750626."
 
 version 3.4.0, 2021/10/06:
 - added 707.530 new words to the dictionary, reaching a total of 32.103.251 unique words
@@ -35,7 +57,7 @@ version 3.4.0, 2021/10/06:
 - corrected some rules in the affix file (among others: added missing interrogative and gerund forms for `dar/far/star`, `díxer`, `èser`, `aver/saver`, `tràer`)
 - perfected the `ï` and `ü` management
 - corrected and simplified a bit the thesaurus
-- processed "Pichi, Iseppo. Traduzion dal toscan in lengua veneziana de Bertoldo, Bertoldin, e Cacasseno : con i argomenti, allegorìe, spiegazion dele parole, e frase veneziane, che no fusse capìe in ogni logo, stampae in sto caratere. Padova. 1747."
+- processed "Pichi, Iseppo. Traduzion dal toscan in lengua veneziana de Bertoldo, Bertoldin, e Cacasseno : con i argomenti, allegorìe, spiegazion dele parole, e frase veneziane, che no fusse capìe in ogni logo, stampae in sto caratere. Padova, 1747."
 
 version 3.3.0, 2021/07/24:
 - added 6.847.938 new words to the dictionary, reaching a total of 31.395.721 unique words
@@ -46,23 +68,23 @@ version 3.3.0, 2021/07/24:
 - processed "nodaro Belli Niccolò di Venezia, Settembre 1297."
 - processed "codice Palatino 2613. ante 1333."
 - processed "atti giudiziari Lio Mazor. 1312-1314."
-- processed "chiostro della Scuola Grande di Santa Maria della Carità, Venezia. 1348. (https://www.treccani.it/enciclopedia/la-formazione-dello-stato-patrizio-la-vita-civile-e-religiosa-la-lingua_(Storia-di-Venezia)/)"
+- processed "chiostro della Scuola Grande di Santa Maria della Carità, Venezia, 1348. (https://www.treccani.it/enciclopedia/la-formazione-dello-stato-patrizio-la-vita-civile-e-religiosa-la-lingua_(Storia-di-Venezia)/)"
 - processed "chiesa di San Matteo di Rialto. 1384."
 - processed "Capitolar dale broche. 1376."
 - processed "Venier, Maffío. La strazzosa. 1550-1586."
 - processed "Ingegneri, Angelo. Poeti antichi del dialetto veneziano. 1550-1613."
-- processed "terminazione. Venezia. 16270308, 16280311."
+- processed "terminazione. Venezia, 16270308, 16280311."
 - processed "Barbaro, Marco. Orazioni criminali. 1786."
-- processed "de las Casas, Cristobal. Vocabulario de las dos lenguas toscana y castellana. Seville. 1582."
-- processed "Ricci, Teodora. lettere. Venezia. 17740722, 178309."
-- processed "Clario, Benedetto. Il primo canto de Orlando furioso in lingua venetiana. Composto per Benedetto Clario per dar piacer a gli suoi amici (framento). Venezia. 1554."
+- processed "de las Casas, Cristobal. Vocabulario de las dos lenguas toscana y castellana. Seville, 1582."
+- processed "Ricci, Teodora. lettere. Venezia, 17740722, 178309."
+- processed "Clario, Benedetto. Il primo canto de Orlando furioso in lingua venetiana. Composto per Benedetto Clario per dar piacer a gli suoi amici (framento). Venezia, 1554."
 - processed "Reffo, Irene. Lingua e storia degli antichi mestieri veneziani. Padova. 2017."
-- processed "Zaratin, Zanin. deliberazione del Consiglio dei Dieci. Venezia. 1399."
-- processed "mariégola de i remèri. Venezia. 1381, 1411, 1419, 1519, 1653."
-- processed "Canal, Cristoforo. Dialogo sul remo. Venezia. 1553-1554."
-- processed "mariégola de i barcaroli. Venezia. 1517."
-- processed "nodaro Novello Giuliano di Treviso. Treviso. 15451121."
-- processed "Boschini, Marco. La carta del navegar pitoresco. Venezia. 1660."
+- processed "Zaratin, Zanin. deliberazione del Consiglio dei Dieci. Venezia, 1399."
+- processed "mariégola de i remèri. Venezia, 1381, 1411, 1419, 1519, 1653."
+- processed "Canal, Cristoforo. Dialogo sul remo. Venezia, 1553-1554."
+- processed "mariégola de i barcaroli. Venezia, 1517."
+- processed "nodaro Novello Giuliano di Treviso. Treviso, 15451121."
+- processed "Boschini, Marco. La carta del navegar pitoresco. Venezia, 1660."
 - added numerals in letters up to `100.000`
 - added missing final sonorization for words ending in `ɉo`.
 - restored back the final sonorization for `-ñ[oe]` into `-nc`
@@ -123,7 +145,7 @@ version 2.2.4, 2019/03/27:
 
 version 2.2.3, 2019/02/24:
 - added 137.727 (effective) new words to the dictionary, reaching a total of 35.806.908 unique words
-- processed the dictionary "Nazari, Giulio. Dizionario veneziano-italiano e regole di grammatica ad uso delle scuole elementari di Venezia. Belluno, 1876."
+- processed the dictionary "Nazari, Giulio. Dizionario veneziano-italiano e regole di grammatica ad uso delle scuole elementari di Venezia, Belluno, 1876."
 
 version 2.2.2, 2019/01/27:
 - added 3.309.022 (effective) new words to the dictionary, reaching a total of 35.669.181 unique words
