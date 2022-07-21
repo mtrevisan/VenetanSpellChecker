@@ -5139,6 +5139,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "nod",			"",			1,	1,	"g",	"1775",			"Noar.",
 "nod",			"dex",		1,	1,	"g",	"1560",			"",
 "nod",			"x",			1,	1,	"g",	"1900",			"(veronexe)",
+"nodr",			"",			4,	4,	"a",	"1789",			"(veneŧian))",
 "nodrig",		"",			1,	1,	"g",	"1560",			"",
 "noɉ",			"",			1,	1,	"g",	"1867",			"Anojar.",
 "nol",			"",			1,	1,	"g",	"1775",			"Dar a nolo.",
