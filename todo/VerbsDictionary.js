@@ -5028,6 +5028,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "mustaŧ",		"",			1,	4,	"g",	"1775",			"Aricar el naxo.",
 "mustax",		"",			1,	4,	"g",	"",				"Rinproverar.",
 "mut",			"",			1,	1,	"a",	"",				"",
+"mut",			"ko",			1,	-1,"g",	"1789",			"(veneŧian)",
 "mut",			"per",		1,	-2,"g",	"",				"",
 "mut",			"",			4,	3,	"a",	"1775",			"",
 "mut",			"in",			4,	3,	"a",	"1775",			"",
