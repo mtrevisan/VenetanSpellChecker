@@ -1181,6 +1181,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "cucol",			"",			1,	1,	"a",	"1829",			"",
 "cucot",			"",			1,	3,	"g",	"1900",			"(veronexe) Bixbiliar, far pisi pisi. (franŧ. chuchoter)",
 "cúd",			"",			3,	1,	"a",	"1829",			"Serar.",
+"cúd",			"kon",		3,	1,	"a",	"1789",			"(veneŧian)",
 "cuk",			"des",		1,	1,	"a",	"2012",			"(arsedexe)",
 "cuk",			"in",			1,	1,	"a",	"1998",			"Inbriagar.",
 "cunb",			"",			1,	1,	"a",	"1852",			"Bonbar, xbevaŧar.",
