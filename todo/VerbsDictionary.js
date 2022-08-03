@@ -2247,6 +2247,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "fregol",		"",			1,	2,	"a",	"1560",			"Far fregole, sfraselar.",
 "fregol",		"des",		1,	2,	"a",	"1775",			"Sfregolar.",
 "fregol",		"s",			1,	2,	"a",	"1560",			"Ridúxer in fregole.",
+"fregon",		"",			1,	4,	"a",	"1789",			"(veneŧian)",
 "fregon",		"s",			1,	4,	"a",	"1900",			"(veronexe) Fadegar fregando.",
 "frèm",			"",			3,	2,	"g",	"1867",			"",
 "frem",			"",			4,	4,	"a",	"1829",			"Frèmer.",
