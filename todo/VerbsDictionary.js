@@ -9057,6 +9057,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "vèrt",			"so",			3,	1,	"g",	"",				"",
 "vèrt",			"sub",		3,	1,	"g",	"",				"",
 "verđen",		"dex",		1,	1,	"g",	"1867",			"",
+"verđen",		"x",			1,	1,	"g",	"1798",			"(veneŧian)",
 "ves",			"",			1,	1,	"a",	"1561",			"",
 "ves",			"re",			1,	1,	"a",	"",				"Reversar.",
 "vesig",			"",			1,	3,	"a",	"1775",			"",
