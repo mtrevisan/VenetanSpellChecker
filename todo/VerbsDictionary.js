@@ -2716,6 +2716,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "grénđ",			"x",			3,	2,	"a",	"",				"De roba kome un formajo ke sgriđola in boka.",
 "grenden",		"dex",		1,	2,	"a",	"1852",			"",
 "grenden",		"x",			1,	2,	"a",	"1775",			"",
+"gresp",			"dex",		1,	2,	"a",	"1789",			"(veneŧian)",
 "gresp",			"in",			1,	2,	"a",	"1775",			"",
 "gretol",		"",			1,	2,	"a",	"1867",			"Skriŧar.",
 "gretol",		"x",			1,	2,	"a",	"1847",			"Skriŧar.",
