@@ -2019,6 +2019,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "fiskalej",		"",			1,	6,	"a",	"1829",			"",
 "fisteg",		"in",			1,	1,	"a",	"1854",			"(termine di Coxa) Akokarla a uno.",
 "fistol",		"des",		1,	1,	"a",	"1900",			"(veronexe) Sfibrar.",
+"fistol",		"in",			4,	3,	"a",	"1789",			"(veneŧian)",
 "fit",			"",			1,	1,	"a",	"1775",			"",
 "fit",			"a",			1,	1,	"a",	"1854",			"",
 "fit",			"des",		1,	1,	"a",	"1867",			"",
