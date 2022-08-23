@@ -2105,7 +2105,7 @@ SFX 78 o geƚo/Q7 io	ds:indicative+present is:second+singular ds:interrogative	#
 
 # tèma 8, paròla ko asento (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: VT > Ø)
 # -àr, -ér, '-er, -ír, -ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
-SFX T8 Y 25
+SFX T8 Y 26
 SFX T8 iso ísomi/I1 iso	ds:indicative+present is:first+singular ds:interrogative	# T8 + i
 SFX T8 0 jo [^is]o	ds:indicative+present is:first+singular ds:interrogative
 SFX T8 0 ɉo [^is]o	ds:indicative+present is:first+singular ds:interrogative	# venethian
@@ -2130,7 +2130,8 @@ SFX T8 io i/P0 io	ds:subjunctive+present is:second+singular	# T8 + i
 SFX T8 o i/P0Pd [^i]so	ds:subjunctive+present is:second+singular	# T8 + i
 SFX T8 o i/P0 iso	ds:subjunctive+present is:second+singular	# T8 + i
 SFX T8 o e o	ds:subjunctive+present is:third	# T8 + e
-SFX T8 o io [^i]o	ds:indicative+present is:first+singular ds:interrogative	# T8 + o, venethian
+SFX T8 o ïo [^aàeèéiíïoòóuúü]o	ds:indicative+present is:first+singular ds:interrogative	# T8 + o, venethian
+SFX T8 o io [iíï]o	ds:indicative+present is:first+singular ds:interrogative	# T8 + o, venethian
 
 SFX N8 Y 21
 SFX N8 o e/J1 [^s]o	ds:indicative+present is:first+singular	# T8 + e
@@ -4346,8 +4347,9 @@ SFX xM ïèser isaràƚo/i5 ïèser	ds:indicative+future is:third ds:interrogati
 # vèrbi '-er inregolari: pu?oder
 # TODO pòser? poser?
 # TODO dover => dòxer? doxer?
-SFX xN Y 88
+SFX xN Y 89
 SFX xN oder òso/J1FS oder	ds:indicative+present is:first+singular	# T8 + o
+SFX xN oder òsïo oder	ds:indicative+present is:first+singular ds:interrogative	# T8 + o, venethian
 SFX xN oder òl oder	ds:indicative+present is:first+singular	# T8 + o
 SFX xN oder òlo/J1 oder	ds:indicative+present is:first+singular	# T8 + o
 SFX xN oder òƚo/J1 oder	ds:indicative+present is:first+singular	# T8 + o
@@ -6706,9 +6708,9 @@ SFX I4 u o í[sv]ïu	ds:interrogative
 SFX I4 0 o [àéií]i	ds:interrogative
 SFX I4 0 u [àéií]i	ds:interrogative
 SFX I4 evi évïu evi	ds:interrogative
-SFX I4 evi évïo evi	ds:interrogative
+SFX I4 evi évïo evi	ds:interrogative	# venethian
 SFX I4 i ïu éri	ds:interrogative
-SFX I4 i ïo éri	ds:interrogative
+SFX I4 i ïo éri	ds:interrogative	# venethian
 SFX I4 ai àiu ai	ds:interrogative
 SFX I4 ai àio ai	ds:interrogative
 SFX I4 i íu ii	ds:interrogative
@@ -6728,15 +6730,15 @@ SFX I4 ei éio ei	ds:interrogative
 SFX I4 ii íiu ii	ds:interrogative
 SFX I4 ii íio ii	ds:interrogative
 SFX I4 asi àsïu asi	ds:interrogative
-SFX I4 asi àsïo asi	ds:interrogative
+SFX I4 asi àsïo asi	ds:interrogative	# venethian
 SFX I4 esi ésïu esi	ds:interrogative
-SFX I4 esi ésïo esi	ds:interrogative
+SFX I4 esi ésïo esi	ds:interrogative	# venethian
 SFX I4 isi ísïu isi	ds:interrogative
-SFX I4 isi ísïo isi	ds:interrogative
+SFX I4 isi ísïo isi	ds:interrogative	# venethian
 SFX I4 usi úsïu usi	ds:interrogative
-SFX I4 usi úsïo usi	ds:interrogative
+SFX I4 usi úsïo usi	ds:interrogative	# venethian
 SFX I4 osi ósïu osi	ds:interrogative
-SFX I4 osi ósïo osi	ds:interrogative
+SFX I4 osi ósïo osi	ds:interrogative	# venethian
 
 # interogativi tèrŧa parsona (destakai senŧa èle vanesente)
 SFX J5 Y 17
