@@ -8520,6 +8520,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "ŧendrol",		"in",			1,	1,	"a",	"1900",			"(veronexe) Inŧenerir.",
 "ŧénd",			"in",			3,	1,	"a",	"1775",			"Rénder amaro, aver de ʼl amaro, provokar iritaŧion kutànea, friŧar, koròder.",
 "ŧendi",			"in",			1,	1,	"a",	"1867",			"",
+"ŧendi",			"in",			4,	5,	"a",	"1789",			"(veneŧian)",
 "ŧénđ",			"",			3,	1,	"a",	"1530",			"",
 "ŧener",			"",			1,	1,	"a",	"1896",			"",
 "ŧener",			"in",			4,	5,	"a",	"1877",			"",
