@@ -9082,6 +9082,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "vest",			"stra",		5,	1,	"g",	"1560",			"Travestir.",
 "vest",			"strax",		5,	1,	"g",	"1896",			"Travixar.",
 "vest",			"tra",		5,	1,	"g",	"1867",			"",
+"vest",			"trax",		5,	1,	"g",	"1789",			"(veneŧian)",
 "vest",			"x",			5,	1,	"g",	"",				"",
 "vestig",		"in",			1,	1,	"g",	"",				"",
 "vetol",			"x",			1,	1,	"a",	"1775",			"Dar bòte.",
