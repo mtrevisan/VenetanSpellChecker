@@ -7637,6 +7637,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "stop",			"",			4,	4,	"a",	"1590",			"",
 "stopin",		"",			1,	4,	"a",	"1829",			"",
 "stor",			"re",			1,	2,	"a",	"1775",			"",
+"storn",			"des",		1,	1,	"a",	"",				"",
 "storn",			"",			4,	5,	"a",	"1775",			"Stordir, frastornar.",
 "storn",			"in",			4,	5,	"a",	"1560",			"Deventar stornio, barkolar.",
 "storpi",		"",			1,	2,	"a",	"",				"",
