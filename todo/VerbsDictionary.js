@@ -7158,6 +7158,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "skalv",			"",			1,	2,	"g",	"1775",			"Potar.",
 "skandaj",		"",			1,	5,	"g",	"1548",			"",
 "skandaɉ",		"",			1,	5,	"g",	"1775",			"",
+"skandaleđ",	"",			1,	7,	"a",	"1789",			"(veneŧian)",
 "skandaliđ",	"",			1,	7,	"a",	"1867",			"",
 "skank",			"",			4,	5,	"a",	"1896",			"Skeletrir.",
 "skaol",			"",			1,	2,	"g",	"1855",			"Separar el gran, la kastaña, la noxe, evd da la lopa, riŧo, xgusa, evd (el skaolo el xe ʼl enbrion de na kastaña).",
