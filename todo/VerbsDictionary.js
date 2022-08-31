@@ -5540,6 +5540,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "par",			"tras",		4,	3,	"a",	"1683",			"(veneŧian)",
 "parabolan",	"",			1,	7,	"g",	"1810",			"",
 "paraden",		"",			1,	5,	"a",	"1829",			"",
+"paradix",		"in",			1,	5,	"a",	"1789",			"(veneŧian)",
 "paraf",			"",			1,	3,	"g",	"1829",			"Firmar ko un númaro.",
 "pare",			"",			1,	3,	"a",	"1364",			"",
 "parec",			"",			1,	3,	"a",	"1560",			"",
