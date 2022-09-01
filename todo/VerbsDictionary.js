@@ -8826,6 +8826,8 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "vari",			"x",			1,	1,	"g",	"1560",			"",
 "varik",			"pre",		1,	1,	"g",	"1829",			"",
 "variol",		"",			1,	3,	"g",	"1775",			"Tòrse el vajòl",
+"varn",			"",			4,	5,	"a",	"1301",			"(veneŧian) Guarnir.",
+"varn",			"x",			4,	5,	"a",	"",				"Xguarnir.",
 "varol",			"",			1,	3,	"g",	"1775",			"Tòrse el vajòl",
 "vaskon",		"",			1,	4,	"a",	"1829",			"Bular.",
 "vast",			"",			1,	1,	"g",	"1867",			"Guastar.",
