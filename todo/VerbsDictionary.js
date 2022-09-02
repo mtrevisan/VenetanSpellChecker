@@ -8993,6 +8993,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "veñ",			"",			5,	1,	"a",	"XIV",			"(trevixan)",
 "veñ",			"a",			5,	1,	"a",	"",				"",
 "veñ",			"ar",			5,	1,	"a",	"",				"",
+"veñ",			"are",		5,	1,	"a",	"1873",			"(veneŧian)",
 "veñ",			"de",			5,	1,	"a",	"",				"",
 "veñ",			"dex",		5,	1,	"a",	"",				"Dar indrio, ritirar.",
 "veñ",			"dexskon",	5,	1,	"a",	"1829",			"",
