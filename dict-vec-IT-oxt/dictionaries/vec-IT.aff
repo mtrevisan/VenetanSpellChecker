@@ -7360,33 +7360,23 @@ SFX v0 r toreta/F0 [^èo]r	ds:eto
 SFX v0 r oreto/M0FSPd [^èo]r	ds:eto
 SFX v0 r doreto/M0FSPd [^èo]r	ds:eto
 SFX v0 r toreto/M0FSPd [^èo]r	ds:eto
-SFX v0 ol òl/M0B1 [dđñrsŧx]ol
-SFX v0 ol uòl/M0B1 [dđñrsŧx]ol
-SFX v0 0 eto/M0FSPd [dđñrsŧx]ol	ds:eto
-SFX v0 ol iol/M0B1Pd [dđrsŧx]ol
-SFX v0 ol ioleto/M0FSPd [dđrsŧx]ol	ds:eto
-SFX v0 ol iòl/M0B1 [dđrsŧx]ol
-SFX v0 ola òla/F0 [dđñrsŧx]ola
-SFX v0 ola uòla/F0 [dđñrsŧx]ola
-SFX v0 a eta/F0 [dđñrsŧx]ola	ds:eto
-SFX v0 ola iola/F0 [dđrsŧx]ola
-SFX v0 ola ioleta/F0 [dđrsŧx]ola	ds:eto
-SFX v0 ola iòla/F0 [dđrsŧx]ola
+SFX v0 òl uòl/M0B1 [dđñrsŧx]òl	# faxe 1: XIV-XV sèk.
+SFX v0 òl uoleto/M0FSPd [dđñrsŧx]òl	ds:eto	# faxe 1: XIV-XV sèk.
+SFX v0 òl iòl/M0B1Pd [dđrsŧx]òl	# faxe 2: XVI-XVIII sèk.
+SFX v0 òl ioleto/M0FSPd [dđrsŧx]òl	ds:eto	# faxe 2: XVI-XVIII sèk.
+SFX v0 òl ol/M0B1 [dđñrsŧx]òl	# faxe 3: XIX sèk.
+SFX v0 òl oleto/M0FSPd [dđñrsŧx]òl	ds:eto	# faxe 3: XIX sèk.
+SFX v0 òla uola/F0 [dđñrsŧx]òla	# faxe 1: XIV-XV sèk.
+SFX v0 òla uoleta/F0 [dđrsŧx]òla	ds:eto	# faxe 1: XIV-XV sèk.
+SFX v0 òla iòla/F0 [dđrsŧx]òla	# faxe 2: XVI-XVIII sèk.
+SFX v0 òla ioleta/F0 [dđrsŧx]òla	ds:eto	# faxe 2: XVI-XVIII sèk.
+SFX v0 òla ola/F0 [dđñrsŧx]òla	# faxe 3: XIX sèk.
+SFX v0 òla oleta/F0 [dđñrsŧx]òla	ds:eto	# faxe 3: XIX sèk.
 
 # piante e mistièri ko èle vanesente (-èr, -aro, -(i)oƚo/-(i)òƚo)
-SFX v7 Y 70
-SFX v7 a eta/F0 [ñrsx]oƚa	ds:eto
-SFX v7 o eto/M0Pd [dñrsx]oƚo	ds:eto
+SFX v7 Y 72
 SFX v7 0 eto/M0Pd [aei]dor	ds:eto
 SFX v7 èr er/M0Pd ièr
-SFX v7 oƚa òƚa/F0 [ñrsx]oƚa
-SFX v7 oƚa ioƚa/F0 [rsx]oƚa
-SFX v7 oƚa iòƚa/F0 [rsx]oƚa
-SFX v7 oƚa ioƚeta/F0 [rsx]oƚa	ds:eto
-SFX v7 oƚo òƚo/M0 [dñrsx]oƚo
-SFX v7 oƚo iòƚo/M0 [drsx]oƚo
-SFX v7 oƚo ioƚo/M0Pd [drsx]oƚo
-SFX v7 oƚo ioƚeto/M0Pd [drsx]oƚo	ds:eto
 SFX v7 ièr èr/M0 ièr
 SFX v7 ièr ar/M0 ièr
 SFX v7 ièr er/M0Pd ièr
@@ -7445,6 +7435,18 @@ SFX v7 èra areta/F0 [^i]èra	ds:eto
 SFX v7 èra ereta/F0 [^i]èra	ds:eto
 SFX v7 èra iareta/F0 [^aeoucijɉñ]èra	ds:eto
 SFX v7 èra iereta/F0 [^aeoucijɉñ]èra	ds:eto
+SFX v7 òƚo uòƚo/M0 [dñrsx]òƚo	# faxe 1: XIV-XV sèk.
+SFX v7 òƚo uoƚeto/M0Pd [dñrsx]òƚo	ds:eto	# faxe 1: XIV-XV sèk.
+SFX v7 òƚo iòƚo/M0Pd [drsx]òƚo	# faxe 2: XVI-XVIII sèk.
+SFX v7 òƚo ioƚeto/M0Pd [drsx]òƚo	ds:eto	# faxe 2: XVI-XVIII sèk.
+SFX v7 òƚo oƚo/M0 [dñrsx]òƚo	# faxe 3: XIX sèk.
+SFX v7 òƚo oƚeto/M0Pd [dñrsx]òƚo	ds:eto	# faxe 3: XIX sèk.
+SFX v7 òƚa uoƚa/F0 [dñrsx]òƚa	# faxe 1: XIV-XV sèk.
+SFX v7 òƚa uoƚeta/F0 [drsx]òƚa	ds:eto	# faxe 1: XIV-XV sèk.
+SFX v7 òƚa iòƚa/F0 [drsx]òƚa	# faxe 2: XVI-XVIII sèk.
+SFX v7 òƚa ioƚeta/F0 [drsx]òƚa	ds:eto	# faxe 2: XVI-XVIII sèk.
+SFX v7 òƚa oƚa/F0 [dñrsx]òƚa	# faxe 3: XIX sèk.
+SFX v7 òƚa oƚeta/F0 [dñrsx]òƚa	ds:eto	# faxe 3: XIX sèk.
 
 
 # nominali deajetivali (-eŧa)
