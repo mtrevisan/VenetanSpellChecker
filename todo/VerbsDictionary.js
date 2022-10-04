@@ -7737,6 +7737,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "studi",			"",			1,	2,	"a",	"1384",			"",
 "stufiñ",		"",			1,	5,	"a",	"1900",			"(veronexe) Fufiñar.",
 "stuj",			"",			1,	2,	"a",	"1560",			"Studiar.",
+"stul",			"tra",		1,	2,	"a",	"XVI",			"(veneŧian)",
 "stul",			"",			4,	4,	"a",	"1884",			"(veneŧian) Bruxar un fià fin ke ʼl divente bruno.",
 "stup",			"",			1,	2,	"a",	"1538",			"Sarar.",
 "stup",			"de",			1,	2,	"a",	"1810",			"Sturar.",
