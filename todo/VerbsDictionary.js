@@ -5219,6 +5219,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 
 "ñ",				"",			1,	1,	"g",	"1829",			"Niar.",
 "ñaf",			"x",			1,	1,	"g",	"",				"Pianđotar.",
+"ñaker",			"",			1,	1,	"g",	"1521",			"(veneŧian)",
 "ñanf",			"x",			1,	1,	"g",	"1775",			"Parlar kol naxo, fifar.",
 "ñanfeđ",		"x",			1,	4,	"a",	"1896",			"",
 "ñanfiđ",		"x",			1,	4,	"a",	"1867",			"",
