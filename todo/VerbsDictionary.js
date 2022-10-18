@@ -3911,6 +3911,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "kuadr",			"s",			1,	2,	"g",	"1775",			"",
 "kuadret",		"",			1,	5,	"a",	"1829",			"",
 "kuadriđ",		"",			1,	5,	"a",	"1854",			"Rikuadrar, kuadrar.",
+"kuadriđ",		"s",			1,	5,	"a",	"1521",			"(veneŧian)",
 "kuadron",		"s",			1,	5,	"a",	"1867",			"",
 "kuaɉ",			"",			1,	2,	"g",	"1775",			"Andar par kuaje.",
 "kuaɉ",			"des",		1,	2,	"g",	"1928",			"(veneŧian)",
