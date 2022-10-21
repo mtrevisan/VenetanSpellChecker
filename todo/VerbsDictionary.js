@@ -138,7 +138,6 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "argü",			"",			4,	4,	"a",	"1348",			"",
 "ark",			"",			1,	0,	"g",	"1854",			"Piegar, mòver el braŧ par dar na xberla.",
 "ark",			"in",			1,	0,	"g",	"1597",			"Piegar a arko.",
-"arkibuj",		"",			1,	5,	"a",	"1563",			"",
 "arkibux",		"",			1,	5,	"a",	"1587",			"",
 "arlekin",		"",			1,	5,	"a",	"1810",			"",
 "arlikin",		"",			1,	5,	"a",	"1847",			"",
