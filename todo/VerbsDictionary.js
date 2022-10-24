@@ -1459,6 +1459,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "đèm",			"",			3,	1,	"g",	"1560",			"",
 "đeme",			"",			1,	1,	"g",	"1560",			"Xèmer.",
 "đenariđ",		"",			1,	5,	"a",	"1980",			"(vitoriexe)",
+"đenb",			"",			1,	1,	"a",	"1521",			"(veneŧian)",
 "đenbr",			"",			1,	1,	"a",	"1829",			"Tonfar, bastonar.",
 "đener",			"",			1,	1,	"g",	"1867",			"",
 "đener",			"in",			1,	1,	"g",	"1775",			"",
