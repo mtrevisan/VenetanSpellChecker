@@ -2746,6 +2746,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "grint",			"in",			1,	2,	"a",	"1775",			"Inrabiar, ingrespar.",
 "grinŧ",			"",			1,	2,	"a",	"1896",			"",
 "grinŧ",			"in",			1,	2,	"a",	"1852",			"Agrinŧar.",
+"grinŧ",			"ra",			1,	2,	"a",	"1613",			"(veneŧian)",
 "griñ",			"",			1,	2,	"a",	"1560",			"Ríder.",
 "griñ",			"re",			1,	2,	"a",	"1829",			"Ragrinŧir.",
 "griñ",			"re",			1,	2,	"a",	"1530",			"(torŧelexe) Tratèñer.",
