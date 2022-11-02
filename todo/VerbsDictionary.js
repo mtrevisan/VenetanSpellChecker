@@ -9073,6 +9073,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "versur",		"",			1,	4,	"a",	"1560",			"Far versi.",
 "vert",			"",			4,	4,	"a",	"1867",			"",
 "vert",			"a",			4,	4,	"a",	"1562",			"",
+"vert",			"de",			4,	4,	"a",	"early XVIII",	"(veneŧian)",
 "vert",			"di",			4,	4,	"a",	"1775",			"",
 "vert",			"kon",		4,	4,	"a",	"1503",			"",
 "vert",			"in",			4,	4,	"a",	"1590",			"",
