@@ -4724,6 +4724,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "menestr",		"in",			1,	3,	"g",	"",				"Adomestegar, konvínŧer.",
 "ment",			"",			5,	1,	"a",	"1371",			"",
 "ment",			"de",			5,	1,	"a",	"1867",			"Mentir.",
+"ment",			"dex",		5,	1,	"a",	"1767",			"(veneŧian)",
 "ment",			"x",			4,	4,	"a",	"",				"",
 "menteg",		"dex",		1,	1,	"a",	"1463",			"",
 "menteg",		"x",			1,	1,	"a",	"",				"Dexmentegar.",
