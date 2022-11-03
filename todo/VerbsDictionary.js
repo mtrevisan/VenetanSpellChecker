@@ -3461,6 +3461,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "kit",			"",			1,	1,	"a",	"1829",			"Renunŧiar a ʼl servixo, otèñer el konɉèdo.",
 "kl",				"soper",		1,-2,	"a",	"XV",				"",
 "klam",			"",			1,	2,	"g",	"XV",				"",
+"klam",			"de",			1,	2,	"g",	"1767",			"(veneŧian)",
 "klam",			"es",			1,	2,	"g",	"",				"",
 "klam",			"pro",		1,	2,	"g",	"1775",			"",
 "klam",			"s",			1,	2,	"g",	"1894",			"Esklamar.",
