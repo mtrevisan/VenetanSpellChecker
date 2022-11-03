@@ -3924,6 +3924,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "kuakuer",		"s",			1,	2,	"g",	"1855",			"(belumat)",
 "kuarel",		"",			1,	4,	"g",	"1433",			"",
 "kuart",			"in",			1,	2,	"g",	"1854",			"",
+"kuart",			"des",		1,	2,	"g",	"1775",			"(veneŧian)",
 "kuart",			"s",			1,	2,	"g",	"1852",			"Divíder in kuarti.",
 "kuas",			"kon",		1,	2,	"g",	"1867",			"Roinar.",
 "kuas",			"skon",		1,	2,	"g",	"1867",			"",
