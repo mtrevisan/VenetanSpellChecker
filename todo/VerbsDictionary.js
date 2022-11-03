@@ -7310,6 +7310,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "sog",			"",			1,	1,	"a",	"1900",			"(veronexe) Kalar na fune.",
 "soɉ",			"",			1,	1,	"g",	"1775",			"Méter in sedili la bote, inpantanar.",
 "soɉet",			"",			1,	3,	"g",	"",				"",
+"soɉet",			"a",			1,	3,	"g",	"1767",			"(veneŧian)",
 "sol",			"",			1,	1,	"a",	"1854",			"Soletar [1854]. Splénder de ʼl Sol [1884].",
 "sol",			"ar",			1,	1,	"a",	"",				"Resoletar.",
 "sol",			"de",			1,	1,	"a",	"1852",			"Dexligar.",
