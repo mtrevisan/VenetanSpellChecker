@@ -7839,6 +7839,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "suspir",		"",			1,	4,	"a",	"1560",			"",
 "sust",			"",			1,	1,	"a",	"1775",			"Rénder inrabià, sospirar, brontolar lamenti, anojar, dolerse.",
 "sust",			"in",			1,	1,	"a",	"2004",			"Inrabiar.",
+"sustanŧi",		"",			1,	4,	"a",	"1779",			"(veneŧian)",
 "susur",			"",			1,	3,	"a",	"1854",			"",
 "sutil",			"",			1,	3,	"a",	"1854",			"Asotiliar.",
 "sutil",			"",			4,	5,	"a",	"1854",			"Asotiliar.",
