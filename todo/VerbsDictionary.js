@@ -3840,6 +3840,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "krepol",		"",			1,	2,	"a",	"1775",			"",
 "krepol",		"s",			1,	2,	"a",	"1852",			"",
 "kresp",			"in",			1,	2,	"a",	"1854",			"",
+"krespon",		"in",			1,	5,	"a",	"1785",			"(trevixan)",
 "krés",			"",			3,	2,	"a",	"1292",			"",
 "krés",			"de",			3,	2,	"a",	"",				"",
 "krés",			"in",			3,	2,	"a",	"XV",				"",
