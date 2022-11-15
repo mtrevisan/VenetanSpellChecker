@@ -5227,6 +5227,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "nul",			"a",			1,	1,	"a",	"",				"",
 "numer",			"",			1,	1,	"a",	"",				"",
 "nunŧi",			"",			1,	1,	"a",	"1829",			"",
+"nunŧi",			"pro",		1,	1,	"a",	"1806",			"(veneŧian)",
 "nunŧi",			"ra",			1,	1,	"a",	"1896",			"",
 "nunŧi",			"re",			1,	1,	"a",	"1775",			"",
 "nuòŧ",			"",			3,	1,	"g",	"XV",				"",
