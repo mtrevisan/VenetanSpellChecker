@@ -1896,6 +1896,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "fiabeđ",		"s",			1,	4,	"a",	"1560",			"Fiabar.",
 "fiad",			"s",			1,	2,	"g",	"",				"(bixiak) Dar fià.",
 "fiak",			"",			1,	2,	"g",	"",				"Rénder fiako.",
+"fiak",			"",			4,	4,	"a",	"18060515",		"(veneŧian)",
 "fiak",			"in",			4,	4,	"a",	"",				"",
 "fiam",			"",			1,	2,	"g",	"1852",			"",
 "fiam",			"des",		1,	2,	"g",	"",				"(bixiak)",

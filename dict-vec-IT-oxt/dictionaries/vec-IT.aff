@@ -8671,8 +8671,8 @@ PFX ^6 0 stra- .	dp:stra
 
 # sostantivi/vèrbi alterai (mal-)
 PFX ^7 Y 2
-PFX ^7 0 mal .	dp:mal
-PFX ^7 0 mal- .	dp:mal
+PFX ^7 0 mal [^ƚ]	dp:mal
+PFX ^7 0 mal- [^ƚ]	dp:mal
 
 # sostantivi/vèrbi alterai (ben-)
 PFX ^8 Y 2
@@ -8688,7 +8688,7 @@ PFX -1 Y 4
 PFX -1 0 de x	dp:des
 PFX -1 0 des [cfkpstŧ]	dp:des
 PFX -1 0 des- s	dp:des
-PFX -1 0 dex [^cfkpstŧ]	dp:des
+PFX -1 0 dex [^cfkƚpstŧ]	dp:des
 
 # sostantivi/vèrbi deajetivali (i(n)-)
 # NÒTA: `insidiar` must be added because `*isidiar` does not exists
@@ -8702,7 +8702,7 @@ PFX +0 0 en [^ƚ]	dp:in
 # prefiso par aŧion kontraria o privativa–peđorativa, xlontanamento, esía, separaŧion (s/x-)
 PFX *0 Y 2
 PFX *0 0 s [cfkpstŧ]	dp:s
-PFX *0 0 x [^cfkpstŧ]	dp:s
+PFX *0 0 x [^cfkƚpstŧ]	dp:s
 
 # prefiso par aŧion repetúa (r[ea]-/ar-)
 PFX .0 Y 3
@@ -8719,7 +8719,7 @@ PFX @0 0 a .	dp:a
 # prefiso par union, parteŧipaŧion, kolegamento (kon-)
 PFX :0 Y 2
 PFX :0 0 ko [mn]	dp:kon
-PFX :0 0 kon .	dp:kon
+PFX :0 0 kon [^ƚ]	dp:kon
 
 # prefiso par raforŧar (arŧ[iï]-)
 PFX @1 Y 3
