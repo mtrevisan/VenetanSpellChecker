@@ -2929,6 +2929,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "intr",			"",			1,	0,	"a",	"1775",			"",
 "intr",			"sub",		1,	0,	"a",	"1775",			"",
 "intron",		"",			1,	4,	"a",	"1852",			"Stordir, xbalordir.",
+"inventari",	"",			1,	6,	"a",	"181101",		"(veneŧian)",
 "invenŧion",	"",			1,	7,	"a",	"1867",			"Reinvenir, deskovrir un kontrabando.",
 "invidi",		"",			1,	3,	"a",	"1775",			"",
 "injuri",		"",			1,	3,	"a",	"",				"",
