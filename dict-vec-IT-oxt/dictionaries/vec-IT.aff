@@ -5335,7 +5335,7 @@ SFX Q0 iso ísovene iso	ds:pronomenal+reflexive
 SFX Q0 iso ísovende iso	ds:pronomenal+reflexive
 
 # vèrbi pronomenali (takai senŧa èle vanesente)
-SFX Ql Y 278
+SFX Ql Y 280
 SFX Ql ar àrgel ar	is:singular+masculine ds:pronomenal+locative
 SFX Ql ar àrgelo ar	is:singular+masculine ds:pronomenal+locative
 SFX Ql ar àrgeli ar	is:plural+masculine ds:pronomenal+locative
@@ -5358,8 +5358,10 @@ SFX Ql 0 lo r	is:singular+masculine ds:pronomenal+accusative
 SFX Ql 0 la r	is:singular+femenine ds:pronomenal+accusative
 SFX Ql 0 li r	is:plural+masculine ds:pronomenal+accusative
 SFX Ql 0 le r	is:plural+femenine ds:pronomenal+accusative
-SFX Ql gelo l [^àéíóú]gelo	is:singular+masculine ds:pronomenal+accusative
-SFX Ql gelo lo [^àéíóú]gelo	is:singular+masculine ds:pronomenal+accusative
+SFX Ql gelo l [^àéíóúnr]gelo	is:singular+masculine ds:pronomenal+accusative
+SFX Ql gelo lo [^àéíóúnr]gelo	is:singular+masculine ds:pronomenal+accusative
+SFX Ql gelo lo [^éó]ngelo	is:singular+masculine ds:pronomenal+accusative
+SFX Ql gelo lo [^éó]rgelo	is:singular+masculine ds:pronomenal+accusative
 SFX Ql gelo la [^àéíóú]gelo	is:singular+femenine ds:pronomenal+accusative
 SFX Ql gelo li [^àéíóú]gelo	is:plural+masculine ds:pronomenal+accusative
 SFX Ql gelo le [^àéíóú]gelo	is:plural+femenine ds:pronomenal+accusative
@@ -6344,10 +6346,11 @@ SFX D0 gen vende [^i]gen	ds:pronomenal+reflexive
 SFX D0 gen vege [^i]gen	ds:pronomenal+reflexive
 
 # vèrbi pronomenali (takai senŧa èle vanesente)
-SFX Dl Y 92
-SFX Dl gelo l [^àéín]gelo	ds:pronomenal+accusative
-SFX Dl gelo lo [^àéín]gelo	ds:pronomenal+accusative
+SFX Dl Y 93
+SFX Dl gelo l [^àéíóúnr]gelo	ds:pronomenal+accusative
+SFX Dl gelo lo [^àéíóúnr]gelo	ds:pronomenal+accusative
 SFX Dl gelo lo [^éó]ngelo	ds:pronomenal+accusative
+SFX Dl gelo lo [^éó]rgelo	ds:pronomenal+accusative
 SFX Dl éngelo enlo éngelo	ds:pronomenal+accusative
 SFX Dl óngelo enlo óngelo	ds:pronomenal+accusative
 SFX Dl gelo la [^àéín]gelo	ds:pronomenal+accusative
