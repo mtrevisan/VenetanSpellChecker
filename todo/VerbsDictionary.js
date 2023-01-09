@@ -8345,6 +8345,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "traj",			"in",			1,	2,	"g",	"",				"Intralcar.",
 "traj",			"s",			1,	2,	"g",	"1590",			"",
 "tramac",		"",			1,	4,	"g",	"",				"Trafegar, tramar.",
+"tramont",		"",			1,	4,	"g",	"1817",			"(veneŧian)",
 "tranbal",		"",			1,	2,	"g",	"1867",			"Ondexar.",
 "tranbal",		"s",			1,	2,	"g",	"1867",			"",
 "tranc",			"",			1,	2,	"g",	"",				"ʼver paura, tèmer.",
