@@ -5040,7 +5040,37 @@ SFX P0 0 -vene .	ds:pronomenal+reflexive
 SFX P0 0 -vende .	ds:pronomenal+reflexive
 
 # vèrbi pronomenali (destakai senŧa èle vanesente)
-SFX P1 Y 30
+SFX P1 Y 60
+SFX P1 0 -gel .	is:singular+masculine ds:pronomenal+locative
+SFX P1 0 -gelo .	is:singular+masculine ds:pronomenal+locative
+SFX P1 0 -gela .	is:singular+femenine ds:pronomenal+locative
+SFX P1 0 -geli .	is:plural+masculine ds:pronomenal+locative
+SFX P1 0 -gele .	is:plural+femenine ds:pronomenal+locative
+SFX P1 0 -l .	is:singular+masculine ds:pronomenal+accusative
+SFX P1 0 -lo .	is:singular+masculine ds:pronomenal+accusative
+SFX P1 0 -la .	is:singular+femenine ds:pronomenal+accusative
+SFX P1 0 -li .	is:plural+masculine ds:pronomenal+accusative
+SFX P1 0 -le .	is:plural+femenine ds:pronomenal+accusative
+SFX P1 0 -mel .	is:singular+masculine ds:pronomenal+reflexive
+SFX P1 0 -melo .	is:singular+masculine ds:pronomenal+reflexive
+SFX P1 0 -mela .	is:singular+femenine ds:pronomenal+reflexive
+SFX P1 0 -meli .	is:plural+masculine ds:pronomenal+reflexive
+SFX P1 0 -mele .	is:plural+femenine ds:pronomenal+reflexive
+SFX Pl 0 -sel .	is:singular+masculine ds:pronomenal+reflexive
+SFX Pl 0 -selo .	is:singular+masculine ds:pronomenal+reflexive
+SFX Pl 0 -sela .	is:singular+femenine ds:pronomenal+reflexive
+SFX Pl 0 -seli .	is:plural+masculine ds:pronomenal+reflexive
+SFX Pl 0 -sele .	is:plural+femenine ds:pronomenal+reflexive
+SFX Pl 0 -tel .	is:singular+masculine ds:pronomenal+reflexive
+SFX Pl 0 -telo .	is:singular+masculine ds:pronomenal+reflexive
+SFX Pl 0 -tela .	is:singular+femenine ds:pronomenal+reflexive
+SFX Pl 0 -teli .	is:plural+masculine ds:pronomenal+reflexive
+SFX Pl 0 -tele .	is:plural+femenine ds:pronomenal+reflexive
+SFX Pl 0 -vel .	is:singular+masculine ds:pronomenal+reflexive
+SFX Pl 0 -velo .	is:singular+masculine ds:pronomenal+reflexive
+SFX Pl 0 -vela .	is:singular+femenine ds:pronomenal+reflexive
+SFX Pl 0 -veli .	is:plural+masculine ds:pronomenal+reflexive
+SFX Pl 0 -vele .	is:plural+femenine ds:pronomenal+reflexive
 SFX P1 0 -gel .	is:singular+masculine ds:pronomenal+locative
 SFX P1 0 -gelo .	is:singular+masculine ds:pronomenal+locative
 SFX P1 0 -gela .	is:singular+femenine ds:pronomenal+locative
