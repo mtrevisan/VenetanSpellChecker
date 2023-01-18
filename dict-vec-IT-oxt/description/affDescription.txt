@@ -3,24 +3,24 @@ This file is a summary of the options used in the affix file.
 
 The vec.aff affix file was created from scratch by Mauro Trevisan.
 
-2021/10/06
+2023/01/18
 
 ---------------------------------------------------------------------
 
-t0/l0/70: theme 2, 5, 6, 7 (-àr, -ér, '-er, -ír, -ír/is: base/no vanishing el variant/vanishing el variant)
-t4/1F/7F: theme 4 (-àr, -ér, '-er, -ír, -ír/is: base/northern variant/northern variant for unstressed word)
-c0/c1/c7: theme 1 ('-er: paduan variant)
-n0/n4: theme 2, 4, 7, 11, 12 (-àr, -ér, '-er, -ír, -ír/is: northern variant)
-t1/n1/N9: theme 1 (-àr, -ér, '-er, -ír, -ír/is: base/northern variant/northern variant for unstressed word)
-t2: theme 1 (-ér, '-er: buranèl and coxòto variant)
-p4/l4/74: theme 1, 2, 4 (base central variant/no vanishing el variant central variant/vanishing el variant central variant)
-t8/u8/n8/l8/78: theme 8 (base/base with ü/northern variant/no vanishing el variant/vanishing el variant)
-T8/N8: theme 8 for stressed word (base/northern variant)
-tA/lA/7A: theme 9, 10 (-àr: base/no vanishing el variant/vanishing el variant)
-tE/lE/7E: theme 9, 10 (-ér, '-er, -ír, -ír/is: base/no vanishing el variant/vanishing el variant)
-tB/lB/7B: theme 9, 10 for stressed words (-àr: base/no vanishing el variant/vanishing el variant)
-tC/lC/7C: theme 9, 10 for stressed words (-ér, '-er, -ír, -ír/is: base/no vanishing el variant/vanishing el variant)
-tG/lG/7G: gerund simple (-àr, '-er: base/no vanishing el variant/vanishing el variant)
+tA/lA/7A: theme 2, 5, 6, 7 (-àr, -ér, '-er, -ír, -ír/is: base/no vanishing el variant/vanishing el variant)
+tB/1F/7B: theme 4 (-àr, -ér, '-er, -ír, -ír/is: base/northern variant/northern variant for unstressed word)
+tC/lC/7C: theme 1 ('-er: paduan variant)
+tD/iD: theme 2, 4, 7, 11, 12 (-àr, -ér, '-er, -ír, -ír/is: northern variant)
+tE/n1/n9: theme 1 (-àr, -ér, '-er, -ír, -ír/is: base/northern variant/northern variant for unstressed word)
+tF: theme 1 (-ér, '-er: buranèl and coxòto variant)
+tG/lG/7G: theme 1, 2, 4 (base central variant/no vanishing el variant central variant/vanishing el variant central variant)
+tH/uH/nH/lH/7H: theme 8 (base/base with ü/northern variant/no vanishing el variant/vanishing el variant)
+tI/nI: theme 8 for stressed word (base/northern variant)
+tJ/lJ/7J: theme 9, 10 (-àr: base/no vanishing el variant/vanishing el variant)
+tK/lK/7K: theme 9, 10 (-ér, '-er, -ír, -ír/is: base/no vanishing el variant/vanishing el variant)
+tL/lL/7L: theme 9, 10 for stressed words (-àr: base/no vanishing el variant/vanishing el variant)
+tM/lM/7M: theme 9, 10 for stressed words (-ér, '-er, -ír, -ír/is: base/no vanishing el variant/vanishing el variant)
+tN/lN/7N: gerund simple (-àr, '-er: base/no vanishing el variant/vanishing el variant)
 
 xA: irregular verb (re-?)andar
 xB/xC: irregular verb (re-?)av?er, (re-?)g(av)er, ʼ(v)er
@@ -43,21 +43,24 @@ V0-6 + W0-6: pronomenal verbs, detached (-[gmnstv]e(ne) / -([gmstv]e)l([oaie]) /
 P0/P1/P2: pronomenal verbs, attached ([gmnstv]e(ne) / ([gmstv]e)l([oaie]) / ([gmstv]e)ƚ[oaie])
 P3/P4/P5: pronomenal verbs for '-er, attached ([gmnstv]e(ne) / ([gmstv]e)l([oaie]) / ([gmstv]e)ƚ[oaie])
 P6/P7/P8: pronomenal verbs for -ír/is, attached ([gmnstv]e(ne) / ([gmstv]e)l([oaie]) / ([gmstv]e)ƚ[oaie])
-R1/R2/R3: pronomenal verbs for the imperative, attached ([gmnstv]e(ne) / ([gmstv]e)l([oaie]) / ([gmstv]e)ƚ[oaie])
-FS: sonorization of final consonants (ñ.>nc|ñ[oei], ñ.>in|ñ[oei], ñ.>n|ñ[oei], ñ.>ñ|ñ[oei], b.>p|b[oei], p.>p|p[oei], ...)
+R0/R1/R2: pronomenal verbs for the imperative, detached
+R3/R4/R5: pronomenal verbs for the imperative, attached
+
 U0-3 + K0-3: interrogatives for first singular, detached (-(m)i, -[jɉ]o, -ɉu, [eo]>-io, -n(t)[ei], -[ei], -(v)e)
-I1: interrogatives for first singular, attached ((m)i, n(t)[ei], [ei])
 U4-6 + K4-6: interrogatives for first plural, detached (-i, -n(t)[ei], -(t)[ei])
-I2: interrogatives for first plural, attached (i, n(t)[ei], [ei])
 U7-9 + K7-9: interrogatives for second singular, detached (-(s)tu, -to)
-J3/I3: interrogatives for second singular, detached / attached ((s)tu, to)
 Z1 + L1: interrogatives for second plural, detached (-[uo])
-I4: interrogatives for second plural, detached (-[uo]) / attached ([uo])
 Z2-4 + L2-4: interrogatives for second plural, detached (-l([oaie]), -ƚ[oaie])
+Z5 + L5: interrogatives for conditional present first singular, detached (-io)
+I1: interrogatives for first singular, attached ((m)i, n(t)[ei], [ei])
+I2: interrogatives for first plural, attached (i, n(t)[ei], [ei])
+J3/I3: interrogatives for second singular, detached / attached ((s)tu, to)
+I4: interrogatives for second plural, detached (-[uo]) / attached ([uo])
 J5/j5: interrogatives for third, detached (-l[oaie] / -ƚ[oaie])
 I5/i5: interrogatives for third, attached (l[oaie] / ƚ[oaie])
-Z5 + L5: interrogatives for conditional present first singular, detached (-io)
-J6/I6: interrogatives for conditional present first singular, attached (ïo)
+J6/I6: interrogatives for conditional present first singular, detached / attached (ïo)
+
+FS: sonorization of final consonants (ñ.>nc|ñ[oei], ñ.>in|ñ[oei], ñ.>n|ñ[oei], ñ.>ñ|ñ[oei], b.>p|b[oei], p.>p|p[oei], ...)
 
 A1: all declinations, adjectives of first class (0>[oaie]|[^oaie], o>i|[^ij]o, .o>i|[ij]o, o>[ae])
 A2: adjectives of second class (0>[aie]|[^oaie], a>[ie])
