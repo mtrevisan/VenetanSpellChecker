@@ -38,9 +38,8 @@ KEY esdr|redft|trfg|uhji|iujko|oiklp|polòè|èpòà|as|saedx|dserfcx|fdrtgvc|gf
 
 WORDCHARS -‘ʼ'
 
-# figure and en-dashes
-BREAK 2
-BREAK –
+# en-dashes
+BREAK 1
 BREAK --
 
 # affix rules can strip full words, not only one less characters
@@ -1866,7 +1865,7 @@ SFX iD àr aróelo/A1FS àr	ds:conditional+present is:third ds:interrogative	# T
 
 # baxe:
 # tèma 1
-# -àr, -ér, -ír, -ír/is: skomenŧiando da 'l infenío
+# -àr, -ér, '-er, -ír, -ír/is: skomenŧiando da 'l infenío
 SFX tE Y 12
 SFX tE ar àʼ ar	ds:infinitive+simple	# T1, buranèl
 SFX tE ïar íi ïar	ds:infinitive+simple	# T1, coxòto
@@ -1883,7 +1882,7 @@ SFX tE ir i [^ü]ir	ds:infinitive+simple	# T1, coxòto
 
 # baxe, variante buranèla e coxòta:
 # tèma 1
-# -ér, '-er: skomenŧiando da 'l infenío
+# -àr, -ér, '-er, -ír, -ír/is: skomenŧiando da 'l infenío
 SFX tF Y 5
 SFX tF ïar ii ïar	ds:infinitive+simple	# T1, coxòto
 SFX tF üar ui üar	ds:infinitive+simple	# T1, coxòto
@@ -6241,16 +6240,9 @@ SFX i5 o e [ʼaàeèéi]ƚo	is:plural+femenine ds:interrogative
 SFX i5 aƚo iƚe aƚo	is:plural+femenine ds:interrogative	# Arkade, Sprexian, Povejan
 SFX i5 eƚo iƚe eƚo	is:plural+femenine ds:interrogative	# Arkade, Sprexian, Povejan
 
-# FIXME J6??
-# interogativi kondiŧional prexente prima parsona plural (destakai)
-SFX J6 Y 1
-SFX J6 e 0/Z5|| e	ds:interrogative	# venethian
-
-# FIXME I6??
 # interogativi kondiŧional prexente prima parsona plural (takai)
-SFX I6 Y 2
-SFX I6 emi io ràvemi	ds:interrogative	# venethian
-SFX I6 emi io r[àé]emi	ds:interrogative	# venethian
+SFX I6 Y 1
+SFX I6 emi io emi	ds:interrogative	# venethian
 
 
 
@@ -8031,6 +8023,9 @@ PFX ^2 0 pre .	dp:pre
 PFX ^2 0 pre- .	dp:pre
 
 # sostantivi/vèrbi alterai (kapo-)
+# https://italianochefatica.it/it/plurale-dei-nomi-composti-nella-lingua-italiana/#cambianoentrambielementi
+# 1. Se ’l sostantivo ko “kapo” el defenise la parsona ke la xé a kapo de kalkòsa, el plural lo tòle sol ke la paròla “kapo”
+# 2. Se ’l sostantivo ko “kapo” el defenise la parsona ke la ga un ròl superior a kuelo de kelaltri ke i fà la stesa atività, opur no se referise diretamente a na parsona ko un ròl de komando (kapolaor, kapovèrso), el plural lo tòle sol ke el sekondo elemento
 PFX ^3 Y 2
 PFX ^3 0 kapo .	dp:kapo
 PFX ^3 0 kapo- .	dp:kapo
