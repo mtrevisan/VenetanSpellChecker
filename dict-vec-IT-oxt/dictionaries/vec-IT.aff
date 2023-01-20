@@ -402,7 +402,7 @@ COMPOUNDRULE (|5)(-b)(|6)	# sento-mi[lƚ]e
 #
 # -àr:	kantar/tAlA7AtDtBlF7BiDtEV0V1V3V5P1P2p0P7P8P9, (kanto/tHnHtJlJ7JU0U2V0V2V3V4V5V6FS, kàntomi/tHnHlHtJlJ7JI1P1P2p0P7P8P9 | exàmino/tIlH7HnItLlL7LU0U2I1V0V2V3V4V5V6FS)
 # -ér:	remaner/tAlA7AtDtBlF7BiDtEtClC7CtFtGlG7GV0V1V2V3V5P2p0P7P8P9, (remano/tHnHtKlK7KU0U2V0V2V3V4V5V6FS, remànomi/tHnHlHtKlK7KI1P1P2p0P7P8P9 | pòdo/tInItMlM7MU0U2I1V0V2V3V4V5V6FS)
-# '-er:	kréder/tEtClC7Cn1V0V1V3V5p1p2P6, (kredo/tHnHtKlK7KU0U2V0V2V3V4V5V6FS, krédomi/tHnHlHtKlK7KI1P1P2p0P7P8P9 | gòdo/tInItMlM7MU0U2I1V0V2V3V4V5V6FS), krederò/tAtDtBlF7BiDlA7AtGlG7GU0U2I1
+# '-er:	kréder/tEtClC7CnEV0V1V3V5p1p2P6, (kredo/tHnHtKlK7KU0U2V0V2V3V4V5V6FS, krédomi/tHnHlHtKlK7KI1P1P2p0P7P8P9 | gòdo/tInItMlM7MU0U2I1V0V2V3V4V5V6FS), krederò/tAtDtBlF7BiDlA7AtGlG7GU0U2I1
 # -ír:	ensir/tAlA7AtDtBlF7BiDtEV0V1V3V5P1P2p0P7P8P9, (enso/tHnHtKlK7KU0U2V0V2V3V4V5V6FS, énsomi/tHnHlH7HtKlK7KI1P1P2p0P7P8P9 | dòrmo/tIlH7HnItLlL7LU0U2I1V0V2V3V4V5V6FS | feniso/tDn9tInItMlM7MU0U2I1V0V2V3V4V5V6P1P2p0P7P8P9FS)
 
 
@@ -1696,10 +1696,6 @@ SFX tD erò aréeu/I4 erò	ds:conditional+present is:second+plural ds:interrogat
 SFX tD erò aree erò	ds:conditional+present is:third	# T4 + rà(v)e
 SFX tD er ut [^u]er	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae]
 
-SFX n9 Y 2
-SFX n9 o óni/I2 o	ds:indicative+present is:first+plural ds:interrogative	# T12 + ón
-SFX n9 o éni/I2 o	ds:indicative+present is:first+plural ds:interrogative	# T12 + én
-
 # variante feltrina-belumata e liventina:
 # tèma 4 (from T1: senŧa aŧento)
 # -àr, -ér, -ír, -ír/is: skomenŧiando da 'l infenío
@@ -1911,30 +1907,32 @@ SFX 7C er ar/P2P8N0 er	ds:infinitive+simple	# T1
 # tèma 1
 # '-er: skomenŧiando da 'l infenío
 # [drstx][ei]r > [drstx]r[ei]
-SFX n1 Y 23
-SFX n1 ànder andre ànder	ds:infinitive+simple
-SFX n1 àter atre àter	ds:infinitive+simple
-SFX n1 éter etre éter	ds:infinitive+simple
-SFX n1 énder endre énder	ds:infinitive+simple
-SFX n1 ónder ondre ónder	ds:infinitive+simple
-SFX n1 ónxer onxre ónxer	ds:infinitive+simple
-SFX n1 únder undre únder	ds:infinitive+simple
-SFX n1 éver evre éver	ds:infinitive+simple
-SFX n1 íver ivre íver	ds:infinitive+simple
-SFX n1 er re èder	ds:infinitive+simple
-SFX n1 er re èđer	ds:infinitive+simple
-SFX n1 er re òder	ds:infinitive+simple
-SFX n1 er re òver	ds:infinitive+simple
-SFX n1 er tre èser	ds:infinitive+simple
-SFX n1 er dre èner	ds:infinitive+simple
-SFX n1 er re èser	ds:infinitive+simple	# pavan
-SFX n1 er re [èò][nr]der	ds:infinitive+simple
-SFX n1 àder adre àder	ds:infinitive+simple
-SFX n1 éder edre éder	ds:infinitive+simple
-SFX n1 íder idre íder	ds:infinitive+simple
-SFX n1 úder udre úder	ds:infinitive+simple
-SFX n1 àlder aldre àlder	ds:infinitive+simple
-SFX n1 àrder ardre àrder	ds:infinitive+simple
+SFX nE Y 25
+SFX nE ànder andre ànder	ds:infinitive+simple
+SFX nE àter atre àter	ds:infinitive+simple
+SFX nE éter etre éter	ds:infinitive+simple
+SFX nE énder endre énder	ds:infinitive+simple
+SFX nE ónder ondre ónder	ds:infinitive+simple
+SFX nE ónxer onxre ónxer	ds:infinitive+simple
+SFX nE únder undre únder	ds:infinitive+simple
+SFX nE éver evre éver	ds:infinitive+simple
+SFX nE íver ivre íver	ds:infinitive+simple
+SFX nE er re èder	ds:infinitive+simple
+SFX nE er re èđer	ds:infinitive+simple
+SFX nE er re òder	ds:infinitive+simple
+SFX nE er re òver	ds:infinitive+simple
+SFX nE er tre èser	ds:infinitive+simple
+SFX nE er dre èner	ds:infinitive+simple
+SFX nE er re èser	ds:infinitive+simple	# pavan
+SFX nE er re [èò][nr]der	ds:infinitive+simple
+SFX nE àder adre àder	ds:infinitive+simple
+SFX nE éder edre éder	ds:infinitive+simple
+SFX nE íder idre íder	ds:infinitive+simple
+SFX nE úder udre úder	ds:infinitive+simple
+SFX nE àlder aldre àlder	ds:infinitive+simple
+SFX nE àrder ardre àrder	ds:infinitive+simple
+SFX nE o óni/I2 o	ds:indicative+present is:first+plural ds:interrogative	# T12 + ón
+SFX nE o éni/I2 o	ds:indicative+present is:first+plural ds:interrogative	# T12 + én
 
 
 # variante padoana:
