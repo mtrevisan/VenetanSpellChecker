@@ -499,6 +499,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "beket",			"x",			1,	3,	"a",	"",				"Xbekotar.",
 "bekol",			"",			1,	1,	"g",	"1775",			"Bekar ripetutamente, spicolar, far kualke pikolo guadaño.",
 "bekol",			"re",			1,	1,	"g",	"",				"Rebàter, bisticar.",
+"bekol",			"x",			1,	1,	"g",	"1817",			"(veneŧian)",
 "bekolaŧ",		"x",			1,	5,	"g",	"1829",			"",
 "bekon",			"",			1,	3,	"a",	"1854",			"Ferir kol beko.",
 "bekot",			"",			1,	3,	"g",	"1884",			"",
@@ -4869,6 +4870,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "modeg",			"x",			1,	1,	"a",	"1855",			"(belumat) Far na gran gadiga.",
 "moder",			"",			1,	1,	"g",	"1660",			"(veneŧian)",
 "moder",			"in",			1,	1,	"g",	"1683",			"(veneŧian)",
+"moder",			"x",			1,	1,	"g",	"1817",			"(veneŧian)",
 "modern",		"re",			1,	3,	"g",	"1775",			"",
 "modul",			"",			1,	1,	"g",	"",				"",
 "modul",			"x",			1,	1,	"g",	"1829",			"Far pèrder a un de i xogadori tuta la mòkola, i skèi.",
@@ -9372,6 +9374,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "vud",			"",			1,	1,	"a",	"1520",			"Vodar.",
 "ʼud",			"",			1,	1,	"a",	"1810",			"Vodar.",
 "vulner",		"",			1,	1,	"a",	"",				"",
+"vulsion",		"kon",		1,	1,	"a",	"1817",			"(veneŧian)",
 
 "xaɉer",			"",			1,	2,	"g",	"1980",			"(vitoriexe) Exajerar.",
 "xal",			"tra",		5,	3,	"a",	"",				"",
