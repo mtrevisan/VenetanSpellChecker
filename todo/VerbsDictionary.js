@@ -1241,6 +1241,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "demand",		"re",			1,	3,	"g",	"",				"",
 "demoni",		"in",			1,	3,	"g",	"1561",			"",
 "demor",			"",			1,	3,	"g",	"1675",			"(veneŧian)",
+"dens",			"kon",		1,	1,	"a",	"1817",			"(veneŧian)",
 "dent",			"",			1,	1,	"a",	"1854",			"Adentar.",
 "dent",			"dex",		1,	1,	"a",	"1900",			"(veronexe)",
 "dent",			"in",			1,	1,	"a",	"1854",			"",
