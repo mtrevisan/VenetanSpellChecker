@@ -2937,6 +2937,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "invidi",		"",			1,	3,	"a",	"1775",			"",
 "injuri",		"",			1,	3,	"a",	"",				"",
 "inxuri",		"",			1,	3,	"a",	"1414",			"",
+"iñor",			"",			1,	3,	"a",	"1838",			"",
 "ipotiđ",		"",			1,	4,	"a",	"",				"",
 "irit",			"",			1,	0,	"a",	"1775",			"",
 "is",				"",			1,	0,	"a",	"1775",			"(franko) kórer kofà un mato.",
