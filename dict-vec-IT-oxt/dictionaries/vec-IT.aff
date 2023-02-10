@@ -1860,14 +1860,20 @@ SFX iD àr aróelo/A1FS àr	ds:conditional+present is:third ds:interrogative	# T
 # baxe:
 # tèma 1
 # -àr, -ér, '-er, -ír, -ír/is: skomenŧiando da 'l infenío
-SFX tE Y 12
+SFX tE Y 18
 SFX tE ar àʼ ar	ds:infinitive+simple	# T1, buranèl
 SFX tE ïar íi ïar	ds:infinitive+simple	# T1, coxòto
 SFX tE üar úi üar	ds:infinitive+simple	# T1, coxòto
 SFX tE ar i [^ïü]ar	ds:infinitive+simple	# T1, coxòto
-SFX tE óner or/P0P1P2P6P7P8 póner	ds:infinitive+simple	# T1 + r(e)
+SFX tE óner or/P0P1P2 póner	ds:infinitive+simple	# T1 + r(e)
+SFX tE óner orge/P3 póner	ds:infinitive+simple	# T1 + r(e)
+SFX tE ner rgel/P4 póner	ds:infinitive+simple	# T1 + r(e)
+SFX tE ner rgeƚo/P5 póner	ds:infinitive+simple	# T1 + r(e)
 SFX tE óner ore póner	ds:infinitive+simple	# T1 + r(e)
-SFX tE úxer ur/P0P1P2P6P7P8 dúxer	ds:infinitive+simple	# T1 + r(e)
+SFX tE úxer ur/P0P1P2 dúxer	ds:infinitive+simple	# T1 + r(e)
+SFX tE úxer urge/P3 dúxer	ds:infinitive+simple	# T1 + r(e)
+SFX tE xer rgel/P4 dúxer	ds:infinitive+simple	# T1 + r(e)
+SFX tE xer rgeƚo/P5 dúxer	ds:infinitive+simple	# T1 + r(e)
 SFX tE úxer ure dúxer	ds:infinitive+simple	# T1 + r(e)
 SFX tE 0 e r	ds:infinitive+simple	# T1 + r(e), padoan/coxòto
 SFX tE ir íʼ ir	ds:infinitive+simple	# T1, buranèl
@@ -5376,7 +5382,7 @@ SFX P1 0 0/V4 [^r]
 SFX P1 0 0/V3 .
 
 # vèrbi pronomenali (takai senŧa èle vanesente)
-SFX P4 Y 153
+SFX P4 Y 183
 SFX P4 0 lo r	is:singular+masculine ds:pronomenal+accusative
 SFX P4 0 la r	is:singular+femenine ds:pronomenal+accusative
 SFX P4 0 li r	is:plural+masculine ds:pronomenal+accusative
@@ -5391,6 +5397,11 @@ SFX P4 ar àrmelo ar	is:singular+masculine ds:pronomenal+reflexive
 SFX P4 ar àrmeli ar	is:plural+masculine ds:pronomenal+reflexive
 SFX P4 ar àrmela ar	is:singular+femenine ds:pronomenal+reflexive
 SFX P4 ar àrmele ar	is:plural+femenine ds:pronomenal+reflexive
+SFX P4 ar àrnel ar	is:singular+masculine ds:pronomenal+reflexive
+SFX P4 ar àrnelo ar	is:singular+masculine ds:pronomenal+reflexive
+SFX P4 ar àrneli ar	is:plural+masculine ds:pronomenal+reflexive
+SFX P4 ar àrnela ar	is:singular+femenine ds:pronomenal+reflexive
+SFX P4 ar àrnele ar	is:plural+femenine ds:pronomenal+reflexive
 SFX P4 ar àrsel ar	is:singular+masculine ds:pronomenal+reflexive
 SFX P4 ar àrselo ar	is:singular+masculine ds:pronomenal+reflexive
 SFX P4 ar àrseli ar	is:plural+masculine ds:pronomenal+reflexive
@@ -5416,6 +5427,11 @@ SFX P4 er érmelo er	is:singular+masculine ds:pronomenal+reflexive
 SFX P4 er érmeli er	is:plural+masculine ds:pronomenal+reflexive
 SFX P4 er érmela er	is:singular+femenine ds:pronomenal+reflexive
 SFX P4 er érmele er	is:plural+femenine ds:pronomenal+reflexive
+SFX P4 er érnel er	is:singular+masculine ds:pronomenal+reflexive
+SFX P4 er érnelo er	is:singular+masculine ds:pronomenal+reflexive
+SFX P4 er érneli er	is:plural+masculine ds:pronomenal+reflexive
+SFX P4 er érnela er	is:singular+femenine ds:pronomenal+reflexive
+SFX P4 er érnele er	is:plural+femenine ds:pronomenal+reflexive
 SFX P4 er érsel er	is:singular+masculine ds:pronomenal+reflexive
 SFX P4 er érselo er	is:singular+masculine ds:pronomenal+reflexive
 SFX P4 er érseli er	is:plural+masculine ds:pronomenal+reflexive
@@ -5441,6 +5457,11 @@ SFX P4 ir írmelo ir	is:singular+masculine ds:pronomenal+reflexive
 SFX P4 ir írmeli ir	is:plural+masculine ds:pronomenal+reflexive
 SFX P4 ir írmela ir	is:singular+femenine ds:pronomenal+reflexive
 SFX P4 ir írmele ir	is:plural+femenine ds:pronomenal+reflexive
+SFX P4 ir írnel ir	is:singular+masculine ds:pronomenal+reflexive
+SFX P4 ir írnelo ir	is:singular+masculine ds:pronomenal+reflexive
+SFX P4 ir írneli ir	is:plural+masculine ds:pronomenal+reflexive
+SFX P4 ir írnela ir	is:singular+femenine ds:pronomenal+reflexive
+SFX P4 ir írnele ir	is:plural+femenine ds:pronomenal+reflexive
 SFX P4 ir írsel ir	is:singular+masculine ds:pronomenal+reflexive
 SFX P4 ir írselo ir	is:singular+masculine ds:pronomenal+reflexive
 SFX P4 ir írseli ir	is:plural+masculine ds:pronomenal+reflexive
@@ -5465,6 +5486,11 @@ SFX P4 gel melo gel	is:singular+masculine ds:pronomenal+reflexive
 SFX P4 gel mela gel	is:singular+femenine ds:pronomenal+reflexive
 SFX P4 gel meli gel	is:plural+masculine ds:pronomenal+reflexive
 SFX P4 gel mele gel	is:plural+femenine ds:pronomenal+reflexive
+SFX P4 gel nel gel	is:singular+masculine ds:pronomenal+reflexive
+SFX P4 gel nelo gel	is:singular+masculine ds:pronomenal+reflexive
+SFX P4 gel nela gel	is:singular+femenine ds:pronomenal+reflexive
+SFX P4 gel neli gel	is:plural+masculine ds:pronomenal+reflexive
+SFX P4 gel nele gel	is:plural+femenine ds:pronomenal+reflexive
 SFX P4 gel sel gel	is:singular+masculine ds:pronomenal+reflexive
 SFX P4 gel selo gel	is:singular+masculine ds:pronomenal+reflexive
 SFX P4 gel sela gel	is:singular+femenine ds:pronomenal+reflexive
@@ -5490,6 +5516,11 @@ SFX P4 i elo omi	is:singular+masculine ds:pronomenal+reflexive
 SFX P4 i eli omi	is:plural+masculine ds:pronomenal+reflexive
 SFX P4 i ela omi	is:singular+femenine ds:pronomenal+reflexive
 SFX P4 i ele omi	is:plural+femenine ds:pronomenal+reflexive
+SFX P4 mi nel omi	is:singular+masculine ds:pronomenal+reflexive
+SFX P4 mi nelo omi	is:singular+masculine ds:pronomenal+reflexive
+SFX P4 mi neli omi	is:plural+masculine ds:pronomenal+reflexive
+SFX P4 mi nela omi	is:singular+femenine ds:pronomenal+reflexive
+SFX P4 mi nele omi	is:plural+femenine ds:pronomenal+reflexive
 SFX P4 mi sel omi	is:singular+masculine ds:pronomenal+reflexive
 SFX P4 mi selo omi	is:singular+masculine ds:pronomenal+reflexive
 SFX P4 mi seli omi	is:plural+masculine ds:pronomenal+reflexive
@@ -5515,6 +5546,11 @@ SFX P4 0 melo o	is:singular+masculine ds:pronomenal+reflexive
 SFX P4 0 meli o	is:plural+masculine ds:pronomenal+reflexive
 SFX P4 0 mela o	is:singular+femenine ds:pronomenal+reflexive
 SFX P4 0 mele o	is:plural+femenine ds:pronomenal+reflexive
+SFX P4 0 nel o	is:singular+masculine ds:pronomenal+reflexive
+SFX P4 0 nelo o	is:singular+masculine ds:pronomenal+reflexive
+SFX P4 0 neli o	is:plural+masculine ds:pronomenal+reflexive
+SFX P4 0 nela o	is:singular+femenine ds:pronomenal+reflexive
+SFX P4 0 nele o	is:plural+femenine ds:pronomenal+reflexive
 SFX P4 0 sel o	is:singular+masculine ds:pronomenal+reflexive
 SFX P4 0 selo o	is:singular+masculine ds:pronomenal+reflexive
 SFX P4 0 seli o	is:plural+masculine ds:pronomenal+reflexive
@@ -5553,10 +5589,10 @@ SFX P5 ir írgeƚe ir	is:plural+femenine ds:pronomenal+locative
 SFX P5 o a geƚo	is:singular+femenine ds:pronomenal+locative
 SFX P5 o i geƚo	is:plural+masculine ds:pronomenal+locative
 SFX P5 o e geƚo	is:plural+femenine ds:pronomenal+locative
-SFX P5 geƚo ƚo [^àéíóú]geƚo	is:singular+masculine ds:pronomenal+accusative
-SFX P5 geƚo ƚa [^àéíóú]geƚo	is:singular+femenine ds:pronomenal+accusative
-SFX P5 geƚo ƚi [^àéíóú]geƚo	is:plural+masculine ds:pronomenal+accusative
-SFX P5 geƚo ƚe [^àéíóú]geƚo	is:plural+femenine ds:pronomenal+accusative
+SFX P5 geƚo ƚo [^àéíóúr]geƚo	is:singular+masculine ds:pronomenal+accusative
+SFX P5 geƚo ƚa [^àéíóúr]geƚo	is:singular+femenine ds:pronomenal+accusative
+SFX P5 geƚo ƚi [^àéíóúr]geƚo	is:plural+masculine ds:pronomenal+accusative
+SFX P5 geƚo ƚe [^àéíóúr]geƚo	is:plural+femenine ds:pronomenal+accusative
 SFX P5 àgeƚo aƚo àgeƚo	is:singular+masculine ds:pronomenal+accusative
 SFX P5 àgeƚo aƚa àgeƚo	is:singular+femenine ds:pronomenal+accusative
 SFX P5 àgeƚo aƚi àgeƚo	is:plural+masculine ds:pronomenal+accusative
@@ -5753,7 +5789,7 @@ SFX Q3 iso ísovene iso	ds:pronomenal+reflexive
 SFX Q3 iso ísovende iso	ds:pronomenal+reflexive
 
 # vèrbi pronomenali par -ír/is (takai senŧa èle vanesente)
-SFX Q4 Y 25
+SFX Q4 Y 30
 SFX Q4 iso ísogel iso	is:singular+masculine ds:pronomenal+locative
 SFX Q4 iso ísogelo iso	is:singular+masculine ds:pronomenal+locative
 SFX Q4 iso ísogeli iso	is:plural+masculine ds:pronomenal+locative
@@ -5764,6 +5800,11 @@ SFX Q4 iso ísomelo iso	is:singular+masculine ds:pronomenal+reflexive
 SFX Q4 iso ísomeli iso	is:plural+masculine ds:pronomenal+reflexive
 SFX Q4 iso ísomela iso	is:singular+femenine ds:pronomenal+reflexive
 SFX Q4 iso ísomele iso	is:plural+femenine ds:pronomenal+reflexive
+SFX Q4 iso ísonel iso	is:singular+masculine ds:pronomenal+reflexive
+SFX Q4 iso ísonelo iso	is:singular+masculine ds:pronomenal+reflexive
+SFX Q4 iso ísoneli iso	is:plural+masculine ds:pronomenal+reflexive
+SFX Q4 iso ísonela iso	is:singular+femenine ds:pronomenal+reflexive
+SFX Q4 iso ísonele iso	is:plural+femenine ds:pronomenal+reflexive
 SFX Q4 iso ísosel iso	is:singular+masculine ds:pronomenal+reflexive
 SFX Q4 iso ísoselo iso	is:singular+masculine ds:pronomenal+reflexive
 SFX Q4 iso ísoseli iso	is:plural+masculine ds:pronomenal+reflexive
@@ -5781,7 +5822,7 @@ SFX Q4 iso ísovela iso	is:singular+femenine ds:pronomenal+reflexive
 SFX Q4 iso ísovele iso	is:plural+femenine ds:pronomenal+reflexive
 
 # vèrbi pronomenali par -ír/is (takai ko èle vanesente)
-SFX Q5 Y 20
+SFX Q5 Y 24
 SFX Q5 iso ísogeƚo iso	is:singular+masculine ds:pronomenal+locative
 SFX Q5 iso ísogeƚi iso	is:plural+masculine ds:pronomenal+locative
 SFX Q5 iso ísogeƚa iso	is:singular+femenine ds:pronomenal+locative
@@ -5790,6 +5831,10 @@ SFX Q5 iso ísomeƚo iso	is:singular+masculine ds:pronomenal+reflexive
 SFX Q5 iso ísomeƚi iso	is:plural+masculine ds:pronomenal+reflexive
 SFX Q5 iso ísomeƚa iso	is:singular+femenine ds:pronomenal+reflexive
 SFX Q5 iso ísomeƚe iso	is:plural+femenine ds:pronomenal+reflexive
+SFX Q5 iso ísoneƚo iso	is:singular+masculine ds:pronomenal+reflexive
+SFX Q5 iso ísoneƚi iso	is:plural+masculine ds:pronomenal+reflexive
+SFX Q5 iso ísoneƚa iso	is:singular+femenine ds:pronomenal+reflexive
+SFX Q5 iso ísoneƚe iso	is:plural+femenine ds:pronomenal+reflexive
 SFX Q5 iso ísoseƚo iso	is:singular+masculine ds:pronomenal+reflexive
 SFX Q5 iso ísoseƚi iso	is:plural+masculine ds:pronomenal+reflexive
 SFX Q5 iso ísoseƚa iso	is:singular+femenine ds:pronomenal+reflexive
@@ -5837,7 +5882,7 @@ SFX P6 0 vende r	ds:pronomenal+reflexive
 SFX P6 0 vege r	ds:pronomenal+reflexive
 
 # vèrbi pronomenali par '-er (takai senŧa èle vanesente)
-SFX P7 Y 29
+SFX P7 Y 34
 SFX P7 0 gel r	is:singular+masculine ds:pronomenal+locative
 SFX P7 0 gelo r	is:singular+masculine ds:pronomenal+locative
 SFX P7 0 gela r	is:singular+femenine ds:pronomenal+locative
@@ -5852,6 +5897,11 @@ SFX P7 0 melo r	is:singular+masculine ds:pronomenal+reflexive
 SFX P7 0 mela r	is:singular+femenine ds:pronomenal+reflexive
 SFX P7 0 meli r	is:plural+masculine ds:pronomenal+reflexive
 SFX P7 0 mele r	is:plural+femenine ds:pronomenal+reflexive
+SFX P7 0 nel r	is:singular+masculine ds:pronomenal+reflexive
+SFX P7 0 nelo r	is:singular+masculine ds:pronomenal+reflexive
+SFX P7 0 nela r	is:singular+femenine ds:pronomenal+reflexive
+SFX P7 0 neli r	is:plural+masculine ds:pronomenal+reflexive
+SFX P7 0 nele r	is:plural+femenine ds:pronomenal+reflexive
 SFX P7 0 sel r	is:singular+masculine ds:pronomenal+reflexive
 SFX P7 0 selo r	is:singular+masculine ds:pronomenal+reflexive
 SFX P7 0 sela r	is:singular+femenine ds:pronomenal+reflexive
@@ -5869,7 +5919,7 @@ SFX P7 0 veli r	is:plural+masculine ds:pronomenal+reflexive
 SFX P7 0 vele r	is:plural+femenine ds:pronomenal+reflexive
 
 # vèrbi pronomenali par '-er (takai ko èle vanesente)
-SFX P8 Y 20
+SFX P8 Y 24
 SFX P8 0 geƚo r	is:singular+masculine ds:pronomenal+locative
 SFX P8 0 geƚa r	is:singular+femenine ds:pronomenal+locative
 SFX P8 0 geƚi r	is:plural+masculine ds:pronomenal+locative
@@ -5878,6 +5928,10 @@ SFX P8 0 meƚo r	is:singular+masculine ds:pronomenal+reflexive
 SFX P8 0 meƚa r	is:singular+femenine ds:pronomenal+reflexive
 SFX P8 0 meƚi r	is:plural+masculine ds:pronomenal+reflexive
 SFX P8 0 meƚe r	is:plural+femenine ds:pronomenal+reflexive
+SFX P8 0 neƚo r	is:singular+masculine ds:pronomenal+reflexive
+SFX P8 0 neƚa r	is:singular+femenine ds:pronomenal+reflexive
+SFX P8 0 neƚi r	is:plural+masculine ds:pronomenal+reflexive
+SFX P8 0 neƚe r	is:plural+femenine ds:pronomenal+reflexive
 SFX P8 0 seƚo r	is:singular+masculine ds:pronomenal+reflexive
 SFX P8 0 seƚa r	is:singular+femenine ds:pronomenal+reflexive
 SFX P8 0 seƚi r	is:plural+masculine ds:pronomenal+reflexive
@@ -5942,7 +5996,7 @@ SFX R3 ge vende ge	ds:pronomenal+reflexive
 SFX R3 ge vege ge	ds:pronomenal+reflexive
 
 # vèrbi pronomenali (takai senŧa èle vanesente)
-SFX R4 Y 25
+SFX R4 Y 30
 SFX R4 gel l [aàeéèiïíoóòuüú]gel	ds:pronomenal+accusative
 SFX R4 gel lo gel	ds:pronomenal+accusative
 SFX R4 gel la gel	ds:pronomenal+accusative
@@ -5953,6 +6007,11 @@ SFX R4 gel melo gel	ds:pronomenal+reflexive
 SFX R4 gel mela gel	ds:pronomenal+reflexive
 SFX R4 gel meli gel	ds:pronomenal+reflexive
 SFX R4 gel mele gel	ds:pronomenal+reflexive
+SFX R4 gel nel gel	ds:pronomenal+reflexive
+SFX R4 gel nelo gel	ds:pronomenal+reflexive
+SFX R4 gel nela gel	ds:pronomenal+reflexive
+SFX R4 gel neli gel	ds:pronomenal+reflexive
+SFX R4 gel nele gel	ds:pronomenal+reflexive
 SFX R4 gel sel gel	ds:pronomenal+reflexive
 SFX R4 gel selo gel	ds:pronomenal+reflexive
 SFX R4 gel sela gel	ds:pronomenal+reflexive
@@ -5970,7 +6029,7 @@ SFX R4 gel veli gel	ds:pronomenal+reflexive
 SFX R4 gel vele gel	ds:pronomenal+reflexive
 
 # vèrbi pronomenali (takai ko èle vanesente)
-SFX R5 Y 20
+SFX R5 Y 24
 SFX R5 geƚo ƚo [aàeéèiïíoóòuüú]geƚo	ds:pronomenal+accusative
 SFX R5 geƚo ƚa [aàeéèiïíoóòuüú]geƚo	ds:pronomenal+accusative
 SFX R5 geƚo ƚi [aàeéèiïíoóòuüú]geƚo	ds:pronomenal+accusative
@@ -5979,6 +6038,10 @@ SFX R5 geƚo meƚo geƚo	ds:pronomenal+reflexive
 SFX R5 geƚo meƚa geƚo	ds:pronomenal+reflexive
 SFX R5 geƚo meƚi geƚo	ds:pronomenal+reflexive
 SFX R5 geƚo meƚe geƚo	ds:pronomenal+reflexive
+SFX R5 geƚo neƚo geƚo	ds:pronomenal+reflexive
+SFX R5 geƚo neƚa geƚo	ds:pronomenal+reflexive
+SFX R5 geƚo neƚi geƚo	ds:pronomenal+reflexive
+SFX R5 geƚo neƚe geƚo	ds:pronomenal+reflexive
 SFX R5 geƚo seƚo geƚo	ds:pronomenal+reflexive
 SFX R5 geƚo seƚa geƚo	ds:pronomenal+reflexive
 SFX R5 geƚo seƚi geƚo	ds:pronomenal+reflexive
