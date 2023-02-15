@@ -4755,6 +4755,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "ment",			"x",			4,	4,	"a",	"",				"",
 "menteg",		"dex",		1,	1,	"a",	"1463",			"",
 "menteg",		"x",			1,	1,	"a",	"",				"Dexmentegar.",
+"menŧion",		"",			1,	4,	"a",	"1874",			"(veneŧian)",
 "menŧon",		"",			1,	4,	"a",	"1560",			"",
 "menü",			"x",			4,	4,	"a",	"1855",			"(belumat)",
 "menuŧ",			"",			1,	3,	"a",	"",				"",
