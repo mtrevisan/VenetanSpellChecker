@@ -228,10 +228,10 @@ NEEDAFFIX N0
 NOSUGGEST NS
 
 
-# Non-word that may be part of a compound
+# Non–word that may be part of a compound
 ONLYINCOMPOUND ||
 
-# don't compound on case-different word borders
+# don't compound on case–different word borders
 CHECKCOMPOUNDCASE
 
 # minimum length of words in compound words
@@ -245,26 +245,26 @@ COMPOUNDMIN 1
 # N5/|5 = ŧento / sento
 # N6/|6 = mi[lƚ][ei] / mi[lƚ]ia
 COMPOUNDRULE 100
-COMPOUNDRULE (V0)(-a)(W0)	# 0>-(gi)?ne?, 0>-[gmstv]en?, 0>-[gmstv]end?e
-COMPOUNDRULE (V1)(-a)(W1)	# 0>-de|r
-COMPOUNDRULE (V2)(-a)(W2)	# 0>-n(de)?|[^r]
-COMPOUNDRULE (V3)(-a)(W3)	# 0>-([gmstv]e)?l[oaie]
-COMPOUNDRULE (V4)(-a)(W4)	# 0>-l|[oe]
-COMPOUNDRULE (V5)(-a)(W5)	# 0>-([gmstv]e)?ƚ[oaie]
-COMPOUNDRULE (V6)(-a)(W6)	# 0>-ƚo|[oe]
-COMPOUNDRULE (U0)(-a)(K0)	# 0>-([jɉ]o|ɉu|m?i|v?e)
-COMPOUNDRULE (U1)(-a)(K1)	# [eo]>-io|[eo]
-COMPOUNDRULE (U2)(-a)(K2)	# 0>-nt?[ei]|[^n]
-COMPOUNDRULE (U3)(-a)(K3)	# 0>-t[ei]|n
-COMPOUNDRULE (U6)(-a)(K6)	# 0>-[ie]
-COMPOUNDRULE (U7)(-a)(K7)	# 0>-tu
-COMPOUNDRULE (U8)(-a)(K8)	# 0>-stu|[^s]
-COMPOUNDRULE (U9)(-a)(K9)	# 0>-to
-COMPOUNDRULE (Z1)(-a)(L1)	# 0>-[uo]
-COMPOUNDRULE (Z2)(-a)(L2)	# 0>-l
-COMPOUNDRULE (Z3)(-a)(L3)	# 0>-l[oaie]
-COMPOUNDRULE (Z4)(-a)(L4)	# 0>-ƚ[oaie]
-COMPOUNDRULE (Z5)(-a)(L5)	# 0>-io
+COMPOUNDRULE (V0)(-a)(W0)	# 0>–(gi)?ne?, 0>–[gmstv]en?, 0>–[gmstv]end?e
+COMPOUNDRULE (V1)(-a)(W1)	# 0>–de|r
+COMPOUNDRULE (V2)(-a)(W2)	# 0>–n(de)?|[^r]
+COMPOUNDRULE (V3)(-a)(W3)	# 0>–([gmstv]e)?l[oaie]
+COMPOUNDRULE (V4)(-a)(W4)	# 0>–l|[oe]
+COMPOUNDRULE (V5)(-a)(W5)	# 0>–([gmstv]e)?ƚ[oaie]
+COMPOUNDRULE (V6)(-a)(W6)	# 0>–ƚo|[oe]
+COMPOUNDRULE (U0)(-a)(K0)	# 0>–([jɉ]o|ɉu|m?i|v?e)
+COMPOUNDRULE (U1)(-a)(K1)	# [eo]>–io|[eo]
+COMPOUNDRULE (U2)(-a)(K2)	# 0>–nt?[ei]|[^n]
+COMPOUNDRULE (U3)(-a)(K3)	# 0>–t[ei]|n
+COMPOUNDRULE (U6)(-a)(K6)	# 0>–[ie]
+COMPOUNDRULE (U7)(-a)(K7)	# 0>–tu
+COMPOUNDRULE (U8)(-a)(K8)	# 0>–stu|[^s]
+COMPOUNDRULE (U9)(-a)(K9)	# 0>–to
+COMPOUNDRULE (Z1)(-a)(L1)	# 0>–[uo]
+COMPOUNDRULE (Z2)(-a)(L2)	# 0>–l
+COMPOUNDRULE (Z3)(-a)(L3)	# 0>–l[oaie]
+COMPOUNDRULE (Z4)(-a)(L4)	# 0>–ƚ[oaie]
+COMPOUNDRULE (Z5)(-a)(L5)	# 0>–io
 COMPOUNDRULE (N4)(-b)(N1)	# [vinti..ŧinkuanta..novanta]‒[un..ŧinkue..nòve]
 COMPOUNDRULE (N5)(-b)(N1)	# ŧento‒[un..ŧinkue..nòve]
 COMPOUNDRULE (N5)(-b)(N3)	# ŧento‒[dièxe..dixnòve+vinti..ŧinkuanta..novanta]
@@ -349,7 +349,7 @@ COMPOUNDRULE (|5)(-b)(|6)	# sento-mi[lƚ]e
 # ---
 
 # koniugaŧion verbal:
-#															-àr		-ér		'-er			-ír			-ír/is
+#															–àr		–ér		'–er			–ír			–ír/is
 # T1														kantà		valé		kréde			dormí			fení
 # T2	=	T1: aŧento PVT > VT						kantà		valé		kredé			dormí			fení
 # T3	=	T1: aŧento VT > (A)PVT | í > <ís>i	kànta		vàle		kréde			dòrmi			fenísi
@@ -396,14 +396,14 @@ COMPOUNDRULE (|5)(-b)(|6)	# sento-mi[lƚ]e
 #						T7 + n[dt]o
 #
 # mòdi ko 'l asterisko i vòl díxer ke i gà anka la deklinaŧion interogativa
-# metaplaxmo 1a > 2a:	par tuti i mòdi e i tenpi fora ke inté ʼl infenío, partiŧipio pasivo in -d-, e xerundio
+# metaplaxmo 1a > 2a:	par tuti i mòdi e i tenpi fora ke inté ʼl infenío, partiŧipio pasivo in –d–, e xerundio
 # metaplaxmo 3a > 2a:	partiŧipio pasivo e xerundio
-# '-er- > '-ar-: ge pòl èser un xbasamento de `e` nò tònega in `a` vanti `r`
+# '–er– > '–ar–: ge pòl èser un xbasamento de `e` nò tònega in `a` vanti `r`
 #
-# -àr:	kantar/tAlA7AtDtBlF7BiDtEV0V1V3V5P1P2P6P7P8P9, (kanto/tHnHtJlJ7JU0U2V0V2V3V4V5V6FS, kàntomi/tHnHlHtJlJ7JI1P1P2P6P7P8P9 | exàmino/tIlH7HnItLlL7LU0U2I1V0V2V3V4V5V6FS)
-# -ér:	remaner/tAlA7AtDtBlF7BiDtEtClC7CtFtGlG7GV0V1V2V3V5P2P6P7P8P9, (remano/tHnHtKlK7KU0U2V0V2V3V4V5V6FS, remànomi/tHnHlHtKlK7KI1P1P2P6P7P8P9 | pòdo/tInItMlM7MU0U2I1V0V2V3V4V5V6FS)
-# '-er:	kréder/tEtClC7CnEV0V1V3V5P4P5P6, (kredo/tHnHtKlK7KU0U2V0V2V3V4V5V6FS, krédomi/tHnHlHtKlK7KI1P1P2P6P7P8P9 | gòdo/tInItMlM7MU0U2I1V0V2V3V4V5V6FS), krederò/tAtDtBlF7BiDlA7AtGlG7GU0U2I1
-# -ír:	ensir/tAlA7AtDtBlF7BiDtEV0V1V3V5P1P2P6P7P8P9, (enso/tHnHtKlK7KU0U2V0V2V3V4V5V6FS, énsomi/tHnHlH7HtKlK7KI1P1P2P6P7P8P9 | dòrmo/tIlH7HnItLlL7LU0U2I1V0V2V3V4V5V6FS | feniso/tDn9tInItMlM7MU0U2I1V0V2V3V4V5V6P1P2P6P7P8P9FS)
+# –àr:	kantar/tAlA7AtDtBlF7BiDtEV0V1V3V5P1P2P6P7P8P9, (kanto/tHnHtJlJ7JU0U2V0V2V3V4V5V6FS, kàntomi/tHnHlHtJlJ7JI1P1P2P6P7P8P9 | exàmino/tIlH7HnItLlL7LU0U2I1V0V2V3V4V5V6FS)
+# –ér:	remaner/tAlA7AtDtBlF7BiDtEtClC7CtFtGlG7GV0V1V2V3V5P2P6P7P8P9, (remano/tHnHtKlK7KU0U2V0V2V3V4V5V6FS, remànomi/tHnHlHtKlK7KI1P1P2P6P7P8P9 | pòdo/tInItMlM7MU0U2I1V0V2V3V4V5V6FS)
+# '–er:	kréder/tEtClC7CnEV0V1V3V5P4P5P6, (kredo/tHnHtKlK7KU0U2V0V2V3V4V5V6FS, krédomi/tHnHlHtKlK7KI1P1P2P6P7P8P9 | gòdo/tInItMlM7MU0U2I1V0V2V3V4V5V6FS), krederò/tAtDtBlF7BiDlA7AtGlG7GU0U2I1
+# –ír:	ensir/tAlA7AtDtBlF7BiDtEV0V1V3V5P1P2P6P7P8P9, (enso/tHnHtKlK7KU0U2V0V2V3V4V5V6FS, énsomi/tHnHlH7HtKlK7KI1P1P2P6P7P8P9 | dòrmo/tIlH7HnItLlL7LU0U2I1V0V2V3V4V5V6FS | feniso/tDn9tInItMlM7MU0U2I1V0V2V3V4V5V6P1P2P6P7P8P9FS)
 
 
 # baxe:
@@ -411,8 +411,8 @@ COMPOUNDRULE (|5)(-b)(|6)	# sento-mi[lƚ]e
 # tèma 5 (from T1: aŧento PVT > VT, then T2: à > é | (é > í) | (í > é))
 # tèma 6 (from T1: aŧento PVT > VT, then T2: é > ú)
 # tèma 7 (from T1: aŧento PVT > VT, then T2: í > é)
-# -àr, -ér, -ír, -ír/is: skomenŧiando da 'l infenío
-# '-er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
+# –àr, –ér, –ír, –ír/is: skomenŧiando da 'l infenío
+# '–er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
 SFX tA Y 252
 SFX tA ar emo/J2 ar	ds:indicative+present is:first+plural	# T5 + mo
 SFX tA ar émoge/P3 ar	ds:indicative+present is:first+plural ds:pronomenal+genitive+locative	# T5 + mo
@@ -672,8 +672,8 @@ SFX tA r ènto/P0 [^cijɉñ]ir	ds:gerund+simple	# T7 + nto
 # tèma 5 (from T1: aŧento PVT > VT, then T2: à > é | (é > í) | (í > é))
 # tèma 6 (from T1: aŧento PVT > VT, then T2: é > ú)
 # tèma 7 (from T1: aŧento PVT > VT, then T2: í > é)
-# -àr, -ér, -ír, -ír/is: skomenŧiando da 'l infenío
-# '-er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
+# –àr, –ér, –ír, –ír/is: skomenŧiando da 'l infenío
+# '–er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
 SFX lA Y 98
 SFX lA ar émogel/P4A1 ar	ds:indicative+present is:first+plural ds:pronomenal+locative	# T5 + mo
 SFX lA ir émogel/P4A1 ir	ds:indicative+present is:first+plural ds:pronomenal+locative	# T5 + mo
@@ -779,8 +779,8 @@ SFX lA r èntogel/P4A1 [^cijɉñ]ir	ds:gerund+simple ds:pronomenal+locative	# T7
 # tèma 5 (from T1: aŧento PVT > VT, then T2: à > é | (é > í) | (í > é))
 # tèma 6 (from T1: aŧento PVT > VT, then T2: é > ú)
 # tèma 7 (from T1: aŧento PVT > VT, then T2: í > é)
-# -àr, -ér, -ír, -ír/is: skomenŧiando da 'l infenío
-# '-er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
+# –àr, –ér, –ír, –ír/is: skomenŧiando da 'l infenío
+# '–er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
 SFX 7A Y 102
 SFX 7A ar émogeƚo/R5A1 ar	ds:indicative+present is:first+plural ds:pronomenal+locative	# T5 + mo
 SFX 7A ir émogeƚo/R5A1 ir	ds:indicative+present is:first+plural ds:pronomenal+locative	# T5 + mo
@@ -888,8 +888,8 @@ SFX 7A r èntogeƚo/P5 [^cijɉñ]ir	ds:gerund+simple ds:pronomenal+locative	# T7
 
 # baxe:
 # tèma 4 (from T1: senŧa aŧento)
-# -àr, -ér, -ír, -ír/is: skomenŧiando da 'l infenío
-# '-er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
+# –àr, –ér, –ír, –ír/is: skomenŧiando da 'l infenío
+# '–er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
 SFX tB Y 106
 SFX tB 0 ò/J1I1 [aei]r	ds:indicative+future is:first+singular	# T4 + rò
 SFX tB 0 à/J1I1 [aei]r	ds:indicative+future is:first+singular	# T4 + rà
@@ -1000,8 +1000,8 @@ SFX tB ir aría ir	ds:conditional+present is:third	# T4 + ría, vithentin
 
 # senŧa èle vanesente:
 # tèma 4 (from T1: senŧa aŧento)
-# -àr, -ér, -ír, -ír/is: skomenŧiando da 'l infenío
-# '-er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
+# –àr, –ér, –ír, –ír/is: skomenŧiando da 'l infenío
+# '–er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
 SFX lF Y 19
 SFX lF 0 émogel/P4A1 [aei]r	ds:indicative+future is:first+plural ds:pronomenal+locative	# T4 + r[éí]mo
 SFX lF ò émogel/P4A1 erò	ds:indicative+future is:first+plural ds:pronomenal+locative	# T4 + r[éí]mo
@@ -1025,8 +1025,8 @@ SFX lF ò ísel/A1 erò	ds:conditional+present is:third ds:interrogative	# T4 + 
 
 # ko èle vanesente:
 # tèma 4 (from T1: senŧa aŧento)
-# -àr, -ér, -ír, -ír/is: skomenŧiando da 'l infenío
-# '-er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
+# –àr, –ér, –ír, –ír/is: skomenŧiando da 'l infenío
+# '–er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
 SFX 7B Y 19
 SFX 7B 0 émogeƚo/R5A1 [aei]r	ds:indicative+future is:first+plural ds:pronomenal+locative	# T4 + r[éí]mo
 SFX 7B ò émogeƚo/R5A1 erò	ds:indicative+future is:first+plural ds:pronomenal+locative	# T4 + r[éí]mo
@@ -1048,16 +1048,16 @@ SFX 7B ò ise/j5|| erò	ds:conditional+present is:third	# T4 + rà(v)e
 SFX 7B ò àveƚo/A1 erò	ds:conditional+present is:third ds:interrogative	# T4 + rà(v)e
 SFX 7B ò íseƚo/A1 erò	ds:conditional+present is:third ds:interrogative	# T4 + rà(v)e
 
-# variante feltrina-belumata e liventina:
+# variante feltrina–belumata e liventina:
 # tèma 2 (from T1: aŧento PVT > VT)
 # tèma 4 (from T1: senŧa aŧento)
 # tèma 7 (from T1: aŧento PVT > VT, then T2: í > é)
 # tèma 11 (from T1: senŧa aŧento, then T4: VT > Ø)
 # tèma 12 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: VT > Ø, then T8: senŧa aŧento)
-# -àr, -ér, -ír, -ír/is: skomenŧiando da 'l infenío
-# -àr, -ér, -ír: skomenŧiando da 'l infenío (tèma 12 solke)
-# '-er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
-# -ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar (tèma 12 solke)
+# –àr, –ér, –ír, –ír/is: skomenŧiando da 'l infenío
+# –àr, –ér, –ír: skomenŧiando da 'l infenío (tèma 12 solke)
+# '–er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
+# –ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar (tèma 12 solke)
 SFX tD Y 636
 SFX tD r ve/J1 [aei]r	ds:indicative+imperfect is:first+singular	# T2 + (v)e
 SFX tD ar àvemi/I1 ar	ds:indicative+imperfect is:first+singular ds:interrogative	# T2 + (v)e
@@ -1696,12 +1696,12 @@ SFX tD erò aréeu/I4 erò	ds:conditional+present is:second+plural ds:interrogat
 SFX tD erò aree erò	ds:conditional+present is:third	# T4 + rà(v)e
 SFX tD er ut [^u]er	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae]
 
-# variante feltrina-belumata e liventina:
+# variante feltrina–belumata e liventina:
 # tèma 4 (from T1: senŧa aŧento)
-# -àr, -ér, -ír, -ír/is: skomenŧiando da 'l infenío
-# -àr, -ér, -ír: skomenŧiando da 'l infenío (tèma 12 solke)
-# '-er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
-# -ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar (tèma 12 solke)
+# –àr, –ér, –ír, –ír/is: skomenŧiando da 'l infenío
+# –àr, –ér, –ír: skomenŧiando da 'l infenío (tèma 12 solke)
+# '–er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
+# –ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar (tèma 12 solke)
 SFX iD Y 150
 SFX iD 0 ou/J1 [aei]r	ds:conditional+present is:first+singular	# T4 + ro(v)e
 SFX iD 0 oo/J1 [aei]r	ds:conditional+present is:first+singular	# T4 + ro(v)e
@@ -1859,7 +1859,7 @@ SFX iD àr aróelo/A1FS àr	ds:conditional+present is:third ds:interrogative	# T
 
 # baxe:
 # tèma 1
-# -àr, -ér, '-er, -ír, -ír/is: skomenŧiando da 'l infenío
+# –àr, –ér, '–er, –ír, –ír/is: skomenŧiando da 'l infenío
 SFX tE Y 18
 SFX tE ar àʼ ar	ds:infinitive+simple	# T1, buranèl
 SFX tE ïar íi ïar	ds:infinitive+simple	# T1, coxòto
@@ -1882,7 +1882,7 @@ SFX tE ir i [^ü]ir	ds:infinitive+simple	# T1, coxòto
 
 # baxe, variante buranèla e coxòta:
 # tèma 1
-# -àr, -ér, '-er, -ír, -ír/is: skomenŧiando da 'l infenío
+# –àr, –ér, '–er, –ír, –ír/is: skomenŧiando da 'l infenío
 SFX tF Y 5
 SFX tF ïar ii ïar	ds:infinitive+simple	# T1, coxòto
 SFX tF üar ui üar	ds:infinitive+simple	# T1, coxòto
@@ -1892,26 +1892,26 @@ SFX tF üir ui üir	ds:infinitive+simple	# T1, coxòto
 
 # variante padoana:
 # tèma 1
-# '-er: skomenŧiando da 'l infenío, senŧa èle vanesente
+# '–er: skomenŧiando da 'l infenío, senŧa èle vanesente
 SFX tC Y 2
 SFX tC er are er	ds:infinitive+simple	# T1 + r(e)
 SFX tC er ar/P0P6 er	ds:infinitive+simple	# T1
 
 # variante padoana:
 # tèma 1
-# '-er: skomenŧiando da 'l infenío, senŧa èle vanesente
+# '–er: skomenŧiando da 'l infenío, senŧa èle vanesente
 SFX lC Y 1
 SFX lC er ar/P1P7N0 er	ds:infinitive+simple	# T1
 
 # variante padoana:
 # tèma 1
-# '-er: skomenŧiando da 'l infenío, ko èle vanesente
+# '–er: skomenŧiando da 'l infenío, ko èle vanesente
 SFX 7C Y 1
 SFX 7C er ar/P2P8N0 er	ds:infinitive+simple	# T1
 
-# variante feltrina-belumata e liventina:
+# variante feltrina–belumata e liventina:
 # tèma 1
-# '-er: skomenŧiando da 'l infenío
+# '–er: skomenŧiando da 'l infenío
 # [drstx][ei]r > [drstx]r[ei]
 SFX nE Y 25
 SFX nE ànder andre ànder	ds:infinitive+simple
@@ -1943,8 +1943,8 @@ SFX nE o éni/I2 o	ds:indicative+present is:first+plural ds:interrogative	# T12 
 
 # variante padoana:
 # tèma 4 (from T1: senŧa aŧento)
-# -àr, -ér, -ír, -ír/is: skomenŧiando da 'l infenío
-# '-er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
+# –àr, –ér, –ír, –ír/is: skomenŧiando da 'l infenío
+# '–er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
 SFX tG Y 105
 SFX tG er are er	ds:infinitive+simple	# T1 + r(e)
 SFX tG er ar/P0P6 er	ds:infinitive+simple	# T1
@@ -2090,7 +2090,7 @@ SFX 7G erò aríseƚo/A1 erò	ds:conditional+present is:third ds:interrogative	#
 
 # baxe:
 # tèma 8 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: VT > Ø)
-# -àr, -ér, '-er, -ír, -ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
+# –àr, –ér, '–er, –ír, –ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
 SFX tH Y 8
 SFX tH o i/P0J3Pd [^i]o	ds:indicative+present is:second+singular	# T8 + i
 SFX tH o 0/P0J3 io	ds:indicative+present is:second+singular	# T8 + i
@@ -2103,7 +2103,7 @@ SFX tH o e o	ds:subjunctive+present is:third	# T8 + e
 
 # baxe:
 # tèma 8 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: VT > Ø)
-# -àr: skomenŧiando da 'l indikativo prexente de prima parsona singolar
+# –àr: skomenŧiando da 'l indikativo prexente de prima parsona singolar
 SFX uH Y 9
 SFX uH o i/P0J3 o	ds:indicative+present is:second+singular	# T8 + i
 SFX uH uo úitu/j3I3 uo	ds:indicative+present is:second+singular ds:interrogative	# T8 + i, coxòto
@@ -2115,9 +2115,9 @@ SFX uH o e o	ds:subjunctive+present is:third	# T8 + e
 SFX uH io íitu/j3I3 io	ds:indicative+present is:second+singular ds:interrogative	# T8 + i, coxòto
 SFX uH io ïio [^aeiouàèéíïòóúü]io	ds:indicative+present is:first+singular ds:interrogative	# T8 + o, venethian
 
-# variante feltrina-belumata e liventina:
+# variante feltrina–belumata e liventina:
 # tèma 8 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: VT > Ø)
-# -àr, -ér, '-er, -ír, -ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
+# –àr, –ér, '–er, –ír, –ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
 SFX nH Y 9
 SFX nH o e/J1 o	ds:indicative+present is:first+singular	# T8 + e
 SFX nH omi emi/I1 omi	ds:indicative+present is:first+singular ds:interrogative	# T8 + e
@@ -2131,7 +2131,7 @@ SFX nH o a o	ds:subjunctive+present is:third	# T8 + a
 
 # senŧa èle vanesente
 # tèma 8 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: VT > Ø)
-# -àr, -ér, '-er, -ír: skomenŧiando da 'l indikativo prexente de prima parsona singolar
+# –àr, –ér, '–er, –ír: skomenŧiando da 'l indikativo prexente de prima parsona singolar
 SFX lH Y 4
 SFX lH omi egel/P4A1 [^i]omi	ds:indicative+present is:second+singular ds:interrogative	# T8 + i
 SFX lH iomi egel/P4A1 iomi	ds:indicative+present is:second+singular ds:interrogative	# T8 + i
@@ -2140,7 +2140,7 @@ SFX lH io egel/P4A1 io	ds:indicative+present is:second+singular ds:interrogative
 
 # ko èle vanesente
 # tèma 8 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: VT > Ø)
-# -àr, -ér, '-er, -ír, -ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
+# –àr, –ér, '–er, –ír, –ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
 SFX 7H Y 4
 SFX 7H omi egeƚo/P5 [^i]omi	ds:indicative+present is:second+singular ds:interrogative	# T8 + i
 SFX 7H iomi egeƚo/P5 iomi	ds:indicative+present is:second+singular ds:interrogative	# T8 + i
@@ -2148,7 +2148,7 @@ SFX 7H o egeƚo/P5 [^i]o	ds:indicative+present is:second+singular ds:interrogati
 SFX 7H io egeƚo/P5 io	ds:indicative+present is:second+singular ds:interrogative	# T8 + i
 
 # tèma 8, paròla ko asento (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: VT > Ø)
-# -àr, -ér, '-er, -ír, -ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
+# –àr, –ér, '–er, –ír, –ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
 SFX tI Y 26
 SFX tI iso ísomi/I1 iso	ds:indicative+present is:first+singular ds:interrogative	# T8 + i
 SFX tI 0 jo [^is]o	ds:indicative+present is:first+singular ds:interrogative
@@ -2204,7 +2204,7 @@ SFX nI o a o	ds:subjunctive+present is:third	# T8 + a
 # baxe:
 # tèma 9 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: e > i)
 # tèma 10 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: i > e)
-# -àr: skomenŧiando da 'l indikativo prexente de prima parsona singolar
+# –àr: skomenŧiando da 'l indikativo prexente de prima parsona singolar
 SFX tJ Y 3
 SFX tJ o a/R0 o	ds:imperative+present is:second+singular	# T9
 SFX tJ omi ege/R3 omi	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
@@ -2213,7 +2213,7 @@ SFX tJ o a o	ds:indicative+present is:third	# T10
 # baxe:
 # tèma 9 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: e > i)
 # tèma 10 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: i > e)
-# -ér, '-er, -ír, -ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
+# –ér, '–er, –ír, –ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
 SFX tK Y 2
 SFX tK o i/R0 o	ds:imperative+present is:second+singular	# T9
 SFX tK omi ege/R3 omi	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
@@ -2222,7 +2222,7 @@ SFX tK omi ege/R3 omi	ds:imperative+present is:second+singular ds:pronomenal+loc
 # senŧa èle vanesente:
 # tèma 9 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: e > i)
 # tèma 10 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: i > e)
-# -àr: skomenŧiando da 'l indikativo prexente de prima parsona singolar
+# –àr: skomenŧiando da 'l indikativo prexente de prima parsona singolar
 SFX lJ Y 4
 SFX lJ o e/R1|| o	ds:imperative+present is:second+singular	# T9
 SFX lJ omi egel/R4A1 omi	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
@@ -2232,7 +2232,7 @@ SFX lJ omi el/I5 omi	ds:indicative+present is:third ds:interrogative	# T10
 # senŧa èle vanesente:
 # tèma 9 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: e > i)
 # tèma 10 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: i > e)
-# -ér, '-er, -ír, -ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
+# –ér, '–er, –ír, –ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
 SFX lK Y 4
 SFX lK o e/R1|| o	ds:imperative+present is:second+singular	# T9
 SFX lK omi egel/R4A1 omi	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
@@ -2242,7 +2242,7 @@ SFX lK omi el/I5 omi	ds:indicative+present is:third ds:interrogative	# T10
 # ko èle vanesente:
 # tèma 9 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: e > i)
 # tèma 10 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: i > e)
-# -àr: skomenŧiando da 'l indikativo prexente de prima parsona singolar
+# –àr: skomenŧiando da 'l indikativo prexente de prima parsona singolar
 SFX 7J Y 4
 SFX 7J o e/R2|| o	ds:imperative+present is:second+singular	# T9
 SFX 7J omi egeƚo/R5A1	omi	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
@@ -2252,7 +2252,7 @@ SFX 7J omi eƚo/i5 omi	ds:indicative+present is:third ds:interrogative	# T10
 # ko èle vanesente:
 # tèma 9 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: e > i)
 # tèma 10 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: i > e)
-# -ér, '-er, -ír, -ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
+# –ér, '–er, –ír, –ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
 SFX 7K Y 4
 SFX 7K o e/R2|| o	ds:imperative+present is:second+singular	# T9
 SFX 7K omi egeƚo/R5A1	omi	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
@@ -2263,7 +2263,7 @@ SFX 7K omi eƚo/i5 omi	ds:indicative+present is:third ds:interrogative	# T10
 # baxe, ko asento:
 # tèma 9 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: e > i)
 # tèma 10 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: i > e)
-# -àr: skomenŧiando da 'l indikativo prexente de prima parsona singolar
+# –àr: skomenŧiando da 'l indikativo prexente de prima parsona singolar
 SFX tL Y 3
 SFX tL o a/R0 o	ds:imperative+present is:second+singular	# T9
 SFX tL o ege/R3 o	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
@@ -2272,7 +2272,7 @@ SFX tL o a o	ds:indicative+present is:third	# T10
 # senŧa èle vanesente, ko asento:
 # tèma 9 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: e > i)
 # tèma 10 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: i > e)
-# -àr: skomenŧiando da 'l indikativo prexente de prima parsona singolar
+# –àr: skomenŧiando da 'l indikativo prexente de prima parsona singolar
 SFX lL Y 4
 SFX lL o e/R1|| o	ds:imperative+present is:second+singular	# T9
 SFX lL o egel/R4A1 o	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
@@ -2282,7 +2282,7 @@ SFX lL o el/I5 o	ds:indicative+present is:third ds:interrogative	# T10
 # ko èle vanesente, ko asento:
 # tèma 9 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: e > i)
 # tèma 10 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: i > e)
-# -àr: skomenŧiando da 'l indikativo prexente de prima parsona singolar
+# –àr: skomenŧiando da 'l indikativo prexente de prima parsona singolar
 SFX 7L Y 4
 SFX 7L o e/R2|| o	ds:imperative+present is:second+singular	# T9
 SFX 7L o egeƚo/R5A1	o	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
@@ -2292,7 +2292,7 @@ SFX 7L o eƚo/i5 o	ds:indicative+present is:third ds:interrogative	# T10
 # baxe, ko asento:
 # tèma 9 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: e > i)
 # tèma 10 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: i > e)
-# -ér, '-er, -ír, -ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
+# –ér, '–er, –ír, –ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
 SFX tM Y 8
 SFX tM o i/R0 [^s]o	ds:imperative+present is:second+singular	# T9
 SFX tM o ege/R3 [^s]o	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
@@ -2307,7 +2307,7 @@ SFX tM o e iso	ds:indicative+present is:third	# T10
 # senŧa èle vanesente, ko asento:
 # tèma 9 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: e > i)
 # tèma 10 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: i > e)
-# -ér, '-er, -ír, -ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
+# –ér, '–er, –ír, –ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
 SFX lM Y 14
 SFX lM o e/R1|| [^s]o	ds:imperative+present is:second+singular	# T9
 SFX lM o egel/R4A1 [^s]o	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
@@ -2327,7 +2327,7 @@ SFX lM iso ísel/I5 iso	ds:indicative+present is:third ds:interrogative	# T10
 # ko èle vanesente, ko asento:
 # tèma 9 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: e > i)
 # tèma 10 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: i > e)
-# -ér, '-er, -ír, -ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
+# –ér, '–er, –ír, –ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
 SFX 7M Y 12
 SFX 7M o e/R2|| [^s]o	ds:imperative+present is:second+singular	# T9
 SFX 7M o egeƚo/R5A1	[^s]o	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
@@ -2344,8 +2344,8 @@ SFX 7M iso íseƚo/i5 iso	ds:indicative+present is:third ds:interrogative	# T10
 
 
 # xerundio:
-# -àr: skomenŧiando da 'l infenío
-# '-er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
+# –àr: skomenŧiando da 'l infenío
+# '–er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
 SFX tN Y 16
 SFX tN r gando/P0 ar	ds:gerund+simple	# T2 + ndo = T7 + ndo
 SFX tN r gàndoge/P3 ar	ds:gerund+simple ds:pronomenal+genitive+locative	# T2 + ndo = T7 + ndo
@@ -2365,8 +2365,8 @@ SFX tN erò gande/P0 aerò	ds:gerund+simple	# T2 + ndo, buranèl
 SFX tN erò gàndege/P3 aerò	ds:gerund+simple ds:pronomenal+genitive+locative	# T2 + ndo, buranèl
 
 # xerundio, senŧa èle vanesente:
-# -àr: skomenŧiando da 'l infenío
-# '-er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
+# –àr: skomenŧiando da 'l infenío
+# '–er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
 SFX lN Y 16
 SFX lN r gando/P1|| ar	ds:gerund+simple ds:pronomenal+accusative	# T2 + ndo = T7 + ndo
 SFX lN r gàndogel/P4A1 ar	ds:gerund+simple ds:pronomenal+locative	# T2 + ndo = T7 + ndo
@@ -2386,8 +2386,8 @@ SFX lN erò gande/P1|| aerò	ds:gerund+simple ds:pronomenal+accusative	# T2 + nd
 SFX lN erò gàndegel/P4A1 aerò	ds:gerund+simple ds:pronomenal+locative	# T2 + ndo = T7 + ndo, buranèl
 
 # xerundio, ko èle vanesente:
-# -àr: skomenŧiando da 'l infenío
-# '-er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
+# –àr: skomenŧiando da 'l infenío
+# '–er: skomenŧiando da 'l indikativo futuro de prima parsona singolar
 SFX 7N Y 16
 SFX 7N r gando/P2|| ar	ds:gerund+simple ds:pronomenal+accusative	# T2 + ndo = T7 + ndo
 SFX 7N r gàndogeƚo/P5 ar	ds:gerund+simple ds:pronomenal+locative	# T2 + ndo = T7 + ndo
@@ -2410,7 +2410,7 @@ SFX 7N erò gàndegeƚo/P5 aerò	ds:gerund+simple ds:pronomenal+locative	# T2 + 
 # ---
 
 
-# vèrbi -àr inregolari: (re)andar
+# vèrbi –àr inregolari: (re)andar
 SFX xA Y 50
 SFX xA andar vemo/J2 andar	ds:indicative+present is:first+plural	# T5 + mo
 SFX xA andar vémoi/I2 andar	ds:indicative+present is:first+plural ds:interrogative	# T5 + mo
@@ -2463,7 +2463,7 @@ SFX xA r eson andar	ds:conditional+present is:first+plural	# T4 + r(is)(i)ón(se
 SFX xA r esonse andar	ds:conditional+present is:first+plural	# T4 + r(is)(i)ón(se)
 SFX xA r esonsi andar	ds:conditional+present is:first+plural	# T4 + r(is)(i)ón(se)
 
-# vèrbi -ér inregolari: (re)av?er, (re)g(av)er, ʼ(v)er
+# vèrbi –ér inregolari: (re)av?er, (re)g(av)er, ʼ(v)er
 SFX xB Y 592
 SFX xB r on/J2 er	ds:indicative+present is:first+plural	# T12 + ón
 SFX xB r óni/I2 er	ds:indicative+present is:first+plural ds:interrogative	# T12 + ón
@@ -3059,7 +3059,7 @@ SFX xB er aràe/J3 [aʼ]ver	ds:conditional+present is:second+singular	# T4 + rà
 SFX xB er aràe/J4 [aʼ]ver	ds:conditional+present is:second+plural	# T4 + rà(v)e
 
 
-# vèrbi -ér inregolari: (re)aver
+# vèrbi –ér inregolari: (re)aver
 SFX xC Y 8
 SFX xC aver vepion aver	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
 SFX xC aver vepione aver	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
@@ -3070,7 +3070,7 @@ SFX xC aver vepie aver	ds:subjunctive+present is:first+singular	# T8 + e
 SFX xC aver vepie aver	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3
 SFX xC aver vepie aver	ds:subjunctive+present is:third	# T8 + a
 
-# vèrbi -ér inregolari: (a(s)|apar|de|(in)kon|intra|man|(re)o|re|sos|tra)[ct][èé]ñer, (a(r)|ben|de(x)|(des|re)kon|in|inter|intr[ae]|kontra|mal|per|pre|(re)so|pro|rin|sko(n)|sora|x)[vʼ][èéí]ñer/ʼñer
+# vèrbi –ér inregolari: (a(s)|apar|de|(in)kon|intra|man|(re)o|re|sos|tra)[ct][èé]ñer, (a(r)|ben|de(x)|(des|re)kon|in|inter|intr[ae]|kontra|mal|per|pre|(re)so|pro|rin|sko(n)|sora|x)[vʼ][èéí]ñer/ʼñer
 # t[èé]ñer > ŧ[èé]ñer > c[èé]ñer
 SFX xD Y 52
 SFX xD èñer ièn/BuR0R1J3 [^c]èñer	ds:imperative+present is:second+singular	# T9
@@ -3100,9 +3100,9 @@ SFX xD rò n/R0R1 eñerò	ds:imperative+present is:first+plural	# T12 + én
 SFX xD erò énge/R3 eñerò	ds:imperative+present is:first+plural	# T12 + én
 SFX xD erò éngel/R4A1 eñerò	ds:imperative+present is:first+plural	# T12 + én
 SFX xD èñer ièn/BuJ5 [^c]èñer	ds:indicative+present is:third	# T10 = T8 + e
-SFX xD èñer iènl/I5 [^c]èñer	ds:indicative+present is:third ds:interrogative	# T10
+SFX xD èñer iènl/I5|| [^c]èñer	ds:indicative+present is:third ds:interrogative	# T10
 SFX xD ñer n/J5 èñer	ds:indicative+present is:third	# T10 = T8 + e
-SFX xD ñer nl/I5 èñer	ds:indicative+present is:third ds:interrogative	# T10
+SFX xD ñer nl/I5|| èñer	ds:indicative+present is:third ds:interrogative	# T10
 SFX xD éner en/BuR0R1J3 céner	ds:imperative+present is:second+singular	# T9
 SFX xD er tu/I3 céner	ds:imperative+present is:second+singular ds:interrogative	# T9
 SFX xD er 0/R0R1 céner	ds:imperative+present is:second+singular	# T9
@@ -3124,9 +3124,9 @@ SFX xD rò n/R0R1 enerò	ds:imperative+present is:first+plural	# T12 + én
 SFX xD erò énge/R3 enerò	ds:imperative+present is:first+plural	# T12 + én
 SFX xD erò éngel/R4A1 enerò	ds:imperative+present is:first+plural	# T12 + én
 SFX xD er 0/J5 céner	ds:indicative+present is:third	# T10 = T8 + e
-SFX xD er l/I5 céner	ds:indicative+present is:third ds:interrogative	# T10
+SFX xD er l/I5|| céner	ds:indicative+present is:third ds:interrogative	# T10
 
-# vèrbi -ér inregolari: (des|re)(c|t[iu]?)oler, (ben|mal|re)(vu?|ʼ)oler
+# vèrbi –ér inregolari: (des|re)(c|t[iu]?)oler, (ben|mal|re)(vu?|ʼ)oler
 SFX xE Y 163
 SFX xE ler r/P0P1P2Bu oler	ds:infinitive+simple	# T1
 SFX xE ler re [ct]oler	ds:infinitive+simple	# T1 + r(e)
@@ -3286,13 +3286,13 @@ SFX xE oler upiene [vʼ]oler	ds:subjunctive+present is:first+plural	# T12 + én(
 SFX xE oler upiede [vʼ]oler	ds:subjunctive+present is:second+plural	# T12 + é([dg]e)
 SFX xE oler upiege [vʼ]oler	ds:subjunctive+present is:second+plural	# T12 + é([dg]e)
 SFX xE oler upiège [vʼ]oler	ds:subjunctive+present is:second+plural	# T12 + é([dg]e)
-SFX xE ler rl/I5 [ctvʼ]oler	ds:indicative+present is:third ds:interrogative	# T10
-SFX xE ler rl/I5 [tv]uoler	ds:indicative+present is:third ds:interrogative	# T10
-SFX xE oler òrl/I5 [tv]uoler	ds:indicative+present is:third ds:interrogative	# T10
-SFX xE ler rl/I5 tioler	ds:indicative+present is:third ds:interrogative	# T10
-SFX xE oler òrl/I5 tioler	ds:indicative+present is:third ds:interrogative	# T10
+SFX xE ler rl/I5|| [ctvʼ]oler	ds:indicative+present is:third ds:interrogative	# T10
+SFX xE ler rl/I5|| [tv]uoler	ds:indicative+present is:third ds:interrogative	# T10
+SFX xE oler òrl/I5|| [tv]uoler	ds:indicative+present is:third ds:interrogative	# T10
+SFX xE ler rl/I5|| tioler	ds:indicative+present is:third ds:interrogative	# T10
+SFX xE oler òrl/I5|| tioler	ds:indicative+present is:third ds:interrogative	# T10
 
-# vèrbi -àr inregolari: (dex)dar, ((dex)asue|des|kon(tra)|[lƚ]iku[ei]|putre|(ra)?re|sastu|sat[iu]s|sodis|sora|stra|stupe|tore|tume)far, (kon(tra)|mal|move|o|re|so(ra|to))star
+# vèrbi –àr inregolari: (dex)dar, ((dex)asue|des|kon(tra)|[lƚ]iku[ei]|putre|(ra)?re|sastu|sat[iu]s|sodis|sora|stra|stupe|tore|tume)far, (kon(tra)|mal|move|o|re|so(ra|to))star
 SFX xF Y 25
 SFX xF ar àgo/J1I1 ar	ds:indicative+present is:first+singular	# T8 + o
 SFX xF ar àgomi/I1 ar	ds:indicative+present is:first+singular ds:interrogative	# T8 + o
@@ -3320,21 +3320,21 @@ SFX xF r eson ar	ds:subjunctive+imperfect is:first+plural	# T11 + (es)(i)ón(e|s
 SFX xF ar à/R0|| ar	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
 SFX xF ar àge/R3 ar	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
 
-# vèrbi -àr inregolari: liku[ei]far
+# vèrbi –àr inregolari: liku[ei]far
 SFX xG Y 4
 SFX xG ar à/J5 ar	ds:indicative+present is:third	# T8 + e
 SFX xG ar àl/I5 ar	ds:indicative+present is:third ds:interrogative	# T8 + e
 SFX xG r to/A1FS ar	ds:participle+passive+strong is:singular+masculine
 SFX xG ar àgel/R4A1 ar	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
 
-# vèrbi -àr inregolari: ƚiku[ei]far
+# vèrbi –àr inregolari: ƚiku[ei]far
 SFX xH Y 4
 SFX xH ar à/j5 ar	ds:indicative+present is:third	# T8 + e
 SFX xH ar àƚo/i5 ar	ds:indicative+present is:third ds:interrogative	# T8 + e
 SFX xH r to/A1 ar	ds:participle+passive+strong is:singular+masculine
 SFX xH ar àgeƚo/R5A1	ar	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
 
-# vèrbi '-er inregolari: (bene|d[ei]x|in|inter|intr[ae]|kontra|ma[lƚ]e|pre|re)díxer
+# vèrbi '–er inregolari: (bene|d[ei]x|in|inter|intr[ae]|kontra|ma[lƚ]e|pre|re)díxer
 SFX xI Y 51
 SFX xI íxer ixo/J1 díxer	ds:indicative+present is:first+singular	# T8 + o
 SFX xI er omi/I1 díxer	ds:indicative+present is:first+singular ds:interrogative	# T8 + o
@@ -3388,7 +3388,7 @@ SFX xI íxer irisié díxer	ds:conditional+present is:second+singular	# T4 + r(i
 SFX xI íxer irisiè díxer	ds:conditional+present is:second+singular	# T4 + r(is)iè
 SFX xI íxer iríe díxer	ds:conditional+present is:third	# T4 + ríe
 
-# vèrbi '-er inregolari: mal[ae]díxer senŧa èle vanesente
+# vèrbi '–er inregolari: mal[ae]díxer senŧa èle vanesente
 SFX xJ Y 5
 SFX xJ íxer ixe/FS díxer	ds:subjunctive+present is:first+singular	# T8 + e
 SFX xJ íxer igo/J1FS díxer	ds:indicative+present is:first+singular	# T8 + o
@@ -3396,7 +3396,7 @@ SFX xJ íxer is díxer	ds:indicative+present is:first+singular	# T8 + o/e
 SFX xJ íxer is díxer	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3
 SFX xJ íxer is díxer	ds:subjunctive+present is:third	# T8 + e
 
-# vèrbi '-er inregolari: di?éver
+# vèrbi '–er inregolari: di?éver
 SFX xK Y 17
 SFX xK éver ebia éver	ds:subjunctive+present is:first+singular	# T8 + a
 SFX xK éver ebi éver	ds:subjunctive+present is:second+singular	# T8 + i
@@ -3416,7 +3416,7 @@ SFX xK éver ebiene éver	ds:subjunctive+present is:first+plural	# T12 + én(e)
 SFX xK éver ebiede éver	ds:subjunctive+present is:second+plural	# T12 + é([dg]e)
 SFX xK éver ebiege éver	ds:subjunctive+present is:second+plural	# T12 + é([dg]e)
 
-# vèrbi '-er inregolari: (re)èser
+# vèrbi '–er inregolari: (re)èser
 SFX xL Y 590
 SFX xL èser ser/iDP0P1P2 èser	ds:infinitive+simple	# T1 + r(e)
 SFX xL ser ra/J1 èser	ds:indicative+imperfect is:first+singular	# T2 + (v)a
@@ -4009,7 +4009,7 @@ SFX xL èser sarae èser	ds:conditional+present is:third	# T4 + rà(v)e
 SFX xL èser sarèe èser	ds:conditional+present is:third	# T4 + rà(v)e
 SFX xL èser saríse/J5j5|| èser	ds:conditional+present is:third	# T4 + rà(v)e
 
-# vèrbi '-er inregolari: rïèser
+# vèrbi '–er inregolari: rïèser
 SFX xM Y 527
 SFX xM ïèser iser/iDP0P1P2 ïèser	ds:infinitive+simple	# T1 + r(e)
 SFX xM ser ra/J1 èser	ds:indicative+imperfect is:first+singular	# T2 + (v)a
@@ -4539,7 +4539,7 @@ SFX xM ïèser isarae/J4I4 ïèser	ds:conditional+present is:second+plural	# T4 
 SFX xM ïèser isarae ïèser	ds:conditional+present is:third	# T4 + rà(v)e
 SFX xM ïèser isaríse/J5j5|| ïèser	ds:conditional+present is:third	# T4 + rà(v)e
 
-# vèrbi '-er inregolari: pu?oder
+# vèrbi '–er inregolari: pu?oder
 # TODO pòser? poser?
 # TODO dover => dòxer? doxer?
 SFX xN Y 91
@@ -4635,7 +4635,7 @@ SFX xN der risié oder	ds:conditional+present is:second+singular	# T4 + r(is)ié
 SFX xN der risiè oder	ds:conditional+present is:second+singular	# T4 + r(is)iè
 SFX xN der ríe oder	ds:conditional+present is:third	# T4 + ríe
 
-# vèrbi '-er inregolari: (pre|re|stra)sav?er
+# vèrbi '–er inregolari: (pre|re|stra)sav?er
 SFX xO Y 54
 SFX xO aver à/J3I3 aver	ds:indicative+present is:second+singular	# T8 + i, 2s=3
 SFX xO aver às/J3I3 aver	ds:indicative+present is:second+singular	# T8 + i, 2s=3
@@ -4692,7 +4692,7 @@ SFX xO aer àl/I5 aer	ds:indicative+present is:third ds:interrogative	# T10
 SFX xO aer àgeƚo/R5A1 aer	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
 SFX xO aer àƚo/i5 aer	ds:indicative+present is:third ds:interrogative	# T10
 
-# vèrbi '-er inregolari: (a|as|de|des|es|kon|pro|re|so)tràer
+# vèrbi '–er inregolari: (a|as|de|des|es|kon|pro|re|so)tràer
 SFX xP Y 98
 SFX xP er r/iDP0P1P2 tràer	ds:infinitive+simple	# T1 + r(e)
 SFX xP er re tràer	ds:infinitive+simple	# T1 + r(e)
@@ -4793,7 +4793,7 @@ SFX xP erò émoge/R3 erò	ds:imperative+present is:first+plural	# T5 + mo
 SFX xP erò imo/R0 erò	ds:imperative+present is:first+plural	# T5 + mo
 SFX xP erò ímoge/R3 erò	ds:imperative+present is:first+plural	# T5 + mo
 
-# vèrbi -ar inregolari: [vʼ]ardar
+# vèrbi –ar inregolari: [vʼ]ardar
 SFX xQ Y 17
 SFX xQ dar a/J3 ardar	ds:indicative+present is:second+singular	# T8 + a, 2s=3
 SFX xQ dar àtu/I3 ardar	ds:indicative+present is:second+singular ds:interrogative	# T8 + a, 2s=3
@@ -4813,7 +4813,7 @@ SFX xQ vàrdomi úrdege/R3 vàrdomi	ds:imperative+present is:second+singular ds:
 SFX xQ vàrdomi úrdegel/R4A1 vàrdomi	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
 SFX xQ vàrdomi úrdegeƚo/R5A1	vàrdomi	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
 
-# vèrbo -ir regolar: [fd]ir
+# vèrbo –ir regolar: [fd]ir
 # FIXME đir? (điando)
 SFX xR Y 356
 SFX xR r va/J1 [fd]ir	ds:indicative+imperfect is:first+singular	# T2 + (v)a
@@ -5759,7 +5759,7 @@ SFX P5 0 veƚa [^g]eƚo	is:singular+femenine ds:pronomenal+reflexive
 SFX P5 0 veƚe [^g]eƚo	is:plural+femenine ds:pronomenal+reflexive
 
 
-# vèrbi pronomenali par -ír/is (takai)
+# vèrbi pronomenali par –ír/is (takai)
 SFX Q3 Y 26
 SFX Q3 iso ísoge iso	ds:pronomenal+locative
 SFX Q3 iso ísogen iso	ds:pronomenal+genitive+locative
@@ -5788,7 +5788,7 @@ SFX Q3 iso ísoven iso	ds:pronomenal+reflexive
 SFX Q3 iso ísovene iso	ds:pronomenal+reflexive
 SFX Q3 iso ísovende iso	ds:pronomenal+reflexive
 
-# vèrbi pronomenali par -ír/is (takai senŧa èle vanesente)
+# vèrbi pronomenali par –ír/is (takai senŧa èle vanesente)
 SFX Q4 Y 30
 SFX Q4 iso ísogel iso	is:singular+masculine ds:pronomenal+locative
 SFX Q4 iso ísogelo iso	is:singular+masculine ds:pronomenal+locative
@@ -5821,7 +5821,7 @@ SFX Q4 iso ísoveli iso	is:plural+masculine ds:pronomenal+reflexive
 SFX Q4 iso ísovela iso	is:singular+femenine ds:pronomenal+reflexive
 SFX Q4 iso ísovele iso	is:plural+femenine ds:pronomenal+reflexive
 
-# vèrbi pronomenali par -ír/is (takai ko èle vanesente)
+# vèrbi pronomenali par –ír/is (takai ko èle vanesente)
 SFX Q5 Y 24
 SFX Q5 iso ísogeƚo iso	is:singular+masculine ds:pronomenal+locative
 SFX Q5 iso ísogeƚi iso	is:plural+masculine ds:pronomenal+locative
@@ -5849,7 +5849,7 @@ SFX Q5 iso ísoveƚa iso	is:singular+femenine ds:pronomenal+reflexive
 SFX Q5 iso ísoveƚe iso	is:plural+femenine ds:pronomenal+reflexive
 
 
-# vèrbi pronomenali par '-er (takai)
+# vèrbi pronomenali par '–er (takai)
 SFX P6 Y 29
 SFX P6 0 ge r	ds:pronomenal+locative
 SFX P6 0 gen r	ds:pronomenal+genitive+locative
@@ -5881,7 +5881,7 @@ SFX P6 0 vene r	ds:pronomenal+reflexive
 SFX P6 0 vende r	ds:pronomenal+reflexive
 SFX P6 0 vege r	ds:pronomenal+reflexive
 
-# vèrbi pronomenali par '-er (takai senŧa èle vanesente)
+# vèrbi pronomenali par '–er (takai senŧa èle vanesente)
 SFX P7 Y 34
 SFX P7 0 gel r	is:singular+masculine ds:pronomenal+locative
 SFX P7 0 gelo r	is:singular+masculine ds:pronomenal+locative
@@ -5918,7 +5918,7 @@ SFX P7 0 vela r	is:singular+femenine ds:pronomenal+reflexive
 SFX P7 0 veli r	is:plural+masculine ds:pronomenal+reflexive
 SFX P7 0 vele r	is:plural+femenine ds:pronomenal+reflexive
 
-# vèrbi pronomenali par '-er (takai ko èle vanesente)
+# vèrbi pronomenali par '–er (takai ko èle vanesente)
 SFX P8 Y 24
 SFX P8 0 geƚo r	is:singular+masculine ds:pronomenal+locative
 SFX P8 0 geƚa r	is:singular+femenine ds:pronomenal+locative
@@ -6089,11 +6089,11 @@ SFX FS i 0 i
 
 # interogativi prima parsona singolar (destakai)
 SFX J1 Y 5
-SFX J1 0 0/U0 .
-SFX J1 e 0/U1 e
-SFX J1 o 0/U1 o
-SFX J1 0 0/U2 [^n]
-SFX J1 0 0/U3 n
+SFX J1 0 0/U0|| .
+SFX J1 e 0/U1|| e
+SFX J1 o 0/U1|| o
+SFX J1 0 0/U2|| [^n]
+SFX J1 0 0/U3|| n
 
 # interogativi prima parsona singolar (takai)
 # varda anka `varar`
@@ -6165,9 +6165,9 @@ SFX I1 iso ísoe iso	ds:interrogative
 
 # interogativi prima parsona plural (destakai)
 SFX J2 Y 3
-SFX J2 0 0/U2 [^n]
-SFX J2 0 0/U3 n
-SFX J2 0 0/U6 .
+SFX J2 0 0/U2|| [^n]
+SFX J2 0 0/U3|| n
+SFX J2 0 0/U6|| .
 
 # interogativi prima parsona plural (takai)
 SFX I2 Y 14
@@ -6188,8 +6188,8 @@ SFX I2 oi io ímoi	ds:interrogative	# venethian
 
 # interogativi sekonda parsona singolar (destakai)
 SFX J3 Y 2
-SFX J3 0 0/U7U9 .
-SFX J3 0 0/U8 [^s]
+SFX J3 0 0/U7U9|| .
+SFX J3 0 0/U8|| [^s]
 
 # interogativi sekonda parsona singolar (destakai)
 SFX j3 Y 14
@@ -6217,7 +6217,7 @@ SFX I3 is ístu is	ds:interrogative
 SFX I3 0 tu òs	ds:interrogative	# belumat
 SFX I3 0 tu [àèéií]s	ds:interrogative
 SFX I3 u o tu	ds:interrogative
-SFX I3 tu stu tu	ds:interrogative	# coxòto
+SFX I3 tu stu [^s]tu	ds:interrogative	# coxòto
 SFX I3 0 to [^a]e	ds:interrogative
 SFX I3 0 tu [^a]e	ds:interrogative
 SFX I3 ae àeto ae	ds:interrogative
@@ -6235,7 +6235,7 @@ SFX I3 0 tu [àèéí]	ds:interrogative
 
 # interogativi sekonda parsona plural (destakai)
 SFX J4 Y 1
-SFX J4 0 0/Z1 .
+SFX J4 0 0/Z1|| .
 
 # interogativi sekonda parsona plural (takai)
 SFX I4 Y 35
@@ -6315,7 +6315,7 @@ SFX I6 emi io emi	ds:interrogative	# venethian
 
 
 
-# tute le deklinaŧion, ajetivi de prima klase (-o/i, -a/e)
+# tute le deklinaŧion, ajetivi de prima klase (–o/i, –a/e)
 SFX A1 Y 8
 SFX A1 0 o [^aeio]
 SFX A1 0 a [^aeio]
@@ -6326,7 +6326,7 @@ SFX A1 o e o	is:plural
 SFX A1 o i [^i]o	is:plural+masculine
 SFX A1 io i io	is:plural+masculine
 
-# ajetivi de sekonda klase (-i, -a/e)
+# ajetivi de sekonda klase (–i, –a/e)
 SFX A2 Y 6
 SFX A2 0 a [^aeio]
 SFX A2 0 i [^aeio]	is:plural
@@ -6335,7 +6335,7 @@ SFX A2 a e [^iƚ]a	is:plural+femenine
 SFX A2 a e [iƚ]a	is:plural+femenine
 SFX A2 a i a	is:plural+femenine
 
-# sostantivi plurali femenili, ajetivi de tèrŧa klase (-a/e)
+# sostantivi plurali femenili, ajetivi de tèrŧa klase (–a/e)
 SFX F0 Y 5
 SFX F0 0 e [^aeio]	is:plural+femenine
 SFX F0 0 i [^aeio]	is:plural+femenine
@@ -6343,7 +6343,7 @@ SFX F0 e i [^i]e	is:plural+femenine
 SFX F0 e 0 ie	is:plural+femenine
 SFX F0 a e a	is:plural+femenine
 
-# sostantivi plurali maskili (-o/i)
+# sostantivi plurali maskili (–o/i)
 SFX M0 Y 10
 SFX M0 0 i [^aàeioó]	is:plural+masculine
 SFX M0 0 o [^aàeioó]	is:singular+masculine
@@ -6356,7 +6356,7 @@ SFX M0 io i io	is:plural+masculine
 SFX M0 a i a	is:plural+masculine
 SFX M0 e i e	is:plural+masculine
 
-# sostantivi plurali maskili, ajetivi de tèrŧa klase (-e/i)
+# sostantivi plurali maskili, ajetivi de tèrŧa klase (–e/i)
 SFX MF Y 6
 SFX MF 0 e [èlnr]	is:singular+masculine
 SFX MF a e a	is:singular+masculine
@@ -6365,32 +6365,32 @@ SFX MF e i e	is:plural+masculine
 SFX MF 0 i [èlnr]	is:plural+masculine
 SFX MF é ei é	is:plural+masculine
 
-# sostantivi singolari: đontamento de -io/a a le paròle in -o/a (-[lnr] > -[lnr]io, -o/e > -io, -a > -ia)
+# sostantivi singolari: đontamento de –io/a a le paròle in –o/a (–[lnr] > –[lnr]io, –o/e > –io, –a > –ia)
 SFX M1 Y 4
 SFX M1 a ia/F0 a	is:singular+femenine
 SFX M1 e io e	is:singular+masculine
 SFX M1 o io [^i]o	is:singular+masculine
 SFX M1 0 io [lnr]	is:singular+masculine
 
-# sostantivi plurali senŧa đèner (-e > -i, -[lnr] > -[lnr]i)
+# sostantivi plurali senŧa đèner (–e > –i, –[lnr] > –[lnr]i)
 SFX X0 Y 4
 SFX X0 a i a	is:plural
 SFX X0 e i e	is:plural
 SFX X0 0 e [lnr]	is:singular
 SFX X0 0 i [lnr]	is:plural
 
-# sostantivi astrati senŧa đèner (-ade > -ae/à/è, -ude > -ú(e))
+# sostantivi astrati senŧa đèner (–ade > –ae/à/è, –ude > –ú(e))
 SFX X1 Y 5
-SFX X1 ade à ade	is:femenine	# -TATE(M) > -ade > -at > -à
-SFX X1 de e ade	is:femenine	# -TATE(M) > -ade > -ae
-SFX X1 ade è ade	is:femenine	# pavan, -TATE(M) > -ade > -ae > -è
+SFX X1 ade à ade	is:femenine	# –TATE(M) > –ade > –at > –à
+SFX X1 de e ade	is:femenine	# –TATE(M) > –ade > –ae
+SFX X1 ade è ade	is:femenine	# pavan, –TATE(M) > –ade > –ae > –è
 SFX X1 ude ú ude	is:femenine
 SFX X1 ude úe ude	is:femenine
 
 
 ### Fèltre–Belun ###
 
-# trasformaŧion feltrin–belunexe ('[aeou][ln] > 'Vi - despò na sekuenŧa: -ni > -ñi (palatiđaŧion) > -in (depalatiđaŧion) > -i (kaskaa de la `n`))
+# trasformaŧion feltrin–belunexe ('[aeou][ln] > 'Vi — despò na sekuenŧa: –ni > –ñi (palatiđaŧion) > –in (depalatiđaŧion) > –i (kaskaa de la `n`))
 SFX B1 Y 12
 SFX B1 l i [aeèoò]l	is:plural+masculine+northern
 SFX B1 l i [aeiouàèéíòóúïü][iu]l	is:plural+masculine+northern
@@ -6418,7 +6418,7 @@ SFX B2 ul üi [^aeiouàèéíòóúïü]ul    is:plural+masculine+northern
 
 ### Arsiè ###
 
-# trasformaŧion arsedexe (-'[aiò]vo > -'Vu, neve > neu)
+# trasformaŧion arsedexe (–'[aiò]vo > –'Vu, neve > neu)
 SFX A5 Y 4
 SFX A5 vo u [aò]vo	is:arsedexe
 SFX A5 vo u [aeiouàèéíòóúïü]ivo	is:arsedexe
@@ -6674,7 +6674,7 @@ SFX Pd obrioxo ubriuxi obrioxo	is:plural+masculine+padoan
 
 ### Viŧenŧa ###
 
-# trasformaŧion viŧentina (re- > ra-, se- > sa-, per- > par-)
+# trasformaŧion viŧentina (re– > ra–, se– > sa–, per– > par–)
 PFX Vs Y 14
 PFX Vs be ba be
 PFX Vs fe fa fe
@@ -6694,7 +6694,7 @@ PFX Vs Te Ta Te
 
 ### Verona ###
 
-# trasformaŧion veronexe (-ente > -ènte/X0FS, -en[pstŧ]o > -èn[pstŧ]o/M0FSPd, -en[dstŧ]a > -èn[dstŧ]a/F0, -osto > -òsto/M0FS, -ongo > -òngo/M0FS, -evo > -èvo/M0)
+# trasformaŧion veronexe (–ente > –ènte/X0FS, –en[pstŧ]o > –èn[pstŧ]o/M0FSPd, –en[dstŧ]a > –èn[dstŧ]a/F0, –osto > –òsto/M0FS, –ongo > –òngo/M0FS, –evo > –èvo/M0)
 SFX Vr Y 26
 SFX Vr eva èva/F0 eva
 SFX Vr evo èvo/M0 evo
@@ -6723,7 +6723,7 @@ SFX Vr enŧia ènŧia/F0 enŧia
 SFX Vr enbro ènbro/M0 enbro
 SFX Vr ontro òntro/M0 ontro
 
-# trasformaŧion veronexe ko èle vanesente (-ente > -ènte/M0, -ento > -ènto/M0Pd, -evo > -èvo/M0)
+# trasformaŧion veronexe ko èle vanesente (–ente > –ènte/M0, –ento > –ènto/M0Pd, –evo > –èvo/M0)
 SFX VR Y 14
 SFX VR evo èvo/M0 evo
 SFX VR enda ènda/F0 enda
@@ -6741,7 +6741,7 @@ SFX VR enbro ènbro/M0 enbro
 SFX VR osko òsko/M0 osko
 
 
-# piante e mistièri (-(i)èr/-(i)er, -aro, -dor/-tor, -(i)ol/-(i)òl)
+# piante e mistièri (–(i)èr/–(i)er, –aro, –dor/–tor, –(i)ol/–(i)òl)
 SFX v0 Y 76
 SFX v0 èr er/M0Pd èr
 SFX v0 èr ar/M0 èr
@@ -6805,22 +6805,22 @@ SFX v0 r toreta/F0 [^èo]r	ds:eto
 SFX v0 r oreto/M0FSPd [^èo]r	ds:eto
 SFX v0 r doreto/M0FSPd [^èo]r	ds:eto
 SFX v0 r toreto/M0FSPd [^èo]r	ds:eto
-SFX v0 òl uòl/M0B1 [dđñrsŧx]òl	# faxe 1: XIV-XV sèk.
-SFX v0 òl uoleto/M0FSPd [dđñrsŧx]òl	ds:eto	# faxe 1: XIV-XV sèk.
-SFX v0 òl iòl/M0B1Pd [dđrsŧx]òl	# faxe 2: XVI-XVIII sèk.
-SFX v0 òl ioleto/M0FSPd [dđrsŧx]òl	ds:eto	# faxe 2: XVI-XVIII sèk.
+SFX v0 òl uòl/M0B1 [dđñrsŧx]òl	# faxe 1: XIV–XV sèk.
+SFX v0 òl uoleto/M0FSPd [dđñrsŧx]òl	ds:eto	# faxe 1: XIV–XV sèk.
+SFX v0 òl iòl/M0B1Pd [dđrsŧx]òl	# faxe 2: XVI–XVIII sèk.
+SFX v0 òl ioleto/M0FSPd [dđrsŧx]òl	ds:eto	# faxe 2: XVI–XVIII sèk.
 SFX v0 òl ol/M0B1 [dđñrsŧx]òl	# faxe 3: XIX sèk.
 SFX v0 òl oleto/M0FSPd [dđñrsŧx]òl	ds:eto	# faxe 3: XIX sèk.
 SFX v0 òl iol/M0B1 [dđrsŧx]òl	# faxe 3: XIX sèk.
-SFX v0 òla uòla/F0 [dđñrsŧx]òla	# faxe 1: XIV-XV sèk.
-SFX v0 òla uoleta/F0 [dđrsŧx]òla	ds:eto	# faxe 1: XIV-XV sèk.
-SFX v0 òla iòla/F0 [dđrsŧx]òla	# faxe 2: XVI-XVIII sèk.
-SFX v0 òla ioleta/F0 [dđrsŧx]òla	ds:eto	# faxe 2: XVI-XVIII sèk.
+SFX v0 òla uòla/F0 [dđñrsŧx]òla	# faxe 1: XIV–XV sèk.
+SFX v0 òla uoleta/F0 [dđrsŧx]òla	ds:eto	# faxe 1: XIV–XV sèk.
+SFX v0 òla iòla/F0 [dđrsŧx]òla	# faxe 2: XVI–XVIII sèk.
+SFX v0 òla ioleta/F0 [dđrsŧx]òla	ds:eto	# faxe 2: XVI–XVIII sèk.
 SFX v0 òla ola/F0 [dđñrsŧx]òla	# faxe 3: XIX sèk.
 SFX v0 òla oleta/F0 [dđñrsŧx]òla	ds:eto	# faxe 3: XIX sèk.
 SFX v0 òla iola/F0 [dđrsŧx]òla	# faxe 3: XIX sèk.
 
-# piante e mistièri ko èle vanesente (-èr, -aro, -(i)oƚo/-(i)òƚo)
+# piante e mistièri ko èle vanesente (–èr, –aro, –(i)oƚo/–(i)òƚo)
 SFX v7 Y 74
 SFX v7 0 eto/M0Pd [aei]dor	ds:eto
 SFX v7 èr er/M0Pd ièr
@@ -6882,23 +6882,23 @@ SFX v7 èra areta/F0 [^i]èra	ds:eto
 SFX v7 èra ereta/F0 [^i]èra	ds:eto
 SFX v7 èra iareta/F0 [^aeoucijɉñ]èra	ds:eto
 SFX v7 èra iereta/F0 [^aeoucijɉñ]èra	ds:eto
-SFX v7 òƚo uòƚo/M0 [dđñrsŧx]òƚo	# faxe 1: XIV-XV sèk.
-SFX v7 òƚo uoƚeto/M0Pd [dđñrsŧx]òƚo	ds:eto	# faxe 1: XIV-XV sèk.
-SFX v7 òƚo iòƚo/M0Pd [dđrsŧx]òƚo	# faxe 2: XVI-XVIII sèk.
-SFX v7 òƚo ioƚeto/M0Pd [dđrsŧx]òƚo	ds:eto	# faxe 2: XVI-XVIII sèk.
+SFX v7 òƚo uòƚo/M0 [dđñrsŧx]òƚo	# faxe 1: XIV–XV sèk.
+SFX v7 òƚo uoƚeto/M0Pd [dđñrsŧx]òƚo	ds:eto	# faxe 1: XIV–XV sèk.
+SFX v7 òƚo iòƚo/M0Pd [dđrsŧx]òƚo	# faxe 2: XVI–XVIII sèk.
+SFX v7 òƚo ioƚeto/M0Pd [dđrsŧx]òƚo	ds:eto	# faxe 2: XVI–XVIII sèk.
 SFX v7 òƚo oƚo/M0 [dđñrsŧx]òƚo	# faxe 3: XIX sèk.
 SFX v7 òƚo oƚeto/M0Pd [dđñrsŧx]òƚo	ds:eto	# faxe 3: XIX sèk.
 SFX v7 òƚo ioƚo/M0 [dđrsŧx]òƚo	# faxe 3: XIX sèk.
-SFX v7 òƚa uòƚa/F0 [dđñrsŧx]òƚa	# faxe 1: XIV-XV sèk.
-SFX v7 òƚa uoƚeta/F0 [dđrsŧx]òƚa	ds:eto	# faxe 1: XIV-XV sèk.
-SFX v7 òƚa iòƚa/F0 [dđrsŧx]òƚa	# faxe 2: XVI-XVIII sèk.
-SFX v7 òƚa ioƚeta/F0 [dđrsŧx]òƚa	ds:eto	# faxe 2: XVI-XVIII sèk.
+SFX v7 òƚa uòƚa/F0 [dđñrsŧx]òƚa	# faxe 1: XIV–XV sèk.
+SFX v7 òƚa uoƚeta/F0 [dđrsŧx]òƚa	ds:eto	# faxe 1: XIV–XV sèk.
+SFX v7 òƚa iòƚa/F0 [dđrsŧx]òƚa	# faxe 2: XVI–XVIII sèk.
+SFX v7 òƚa ioƚeta/F0 [dđrsŧx]òƚa	ds:eto	# faxe 2: XVI–XVIII sèk.
 SFX v7 òƚa oƚa/F0 [dđñrsŧx]òƚa	# faxe 3: XIX sèk.
 SFX v7 òƚa oƚeta/F0 [dđñrsŧx]òƚa	ds:eto	# faxe 3: XIX sèk.
 SFX v7 òƚa ioƚa/F0 [dđrsŧx]òƚa	# faxe 3: XIX sèk.
 
 
-# nominali deajetivali (-eŧa)
+# nominali deajetivali (–eŧa)
 SFX eZ Y 10
 SFX eZ a eŧa/F0 [^jɉ]a	is:singular+femenine
 SFX eZ a eŧa/F0 [^ò][jɉ]a	is:singular+femenine
@@ -6911,7 +6911,7 @@ SFX eZ òɉo oɉeŧa/F0 òɉo	is:singular+femenine
 SFX eZ 0 ŧa/F0 [^d]e	is:singular+femenine
 SFX eZ òde odeŧa/F0 òde	is:singular+femenine
 
-# nominali deajetivali (-esa)
+# nominali deajetivali (–esa)
 SFX eS Y 10
 SFX eS a esa/F0 [^jɉ]a	is:singular+femenine
 SFX eS a esa/F0 [^ò][jɉ]a	is:singular+femenine
@@ -6924,19 +6924,19 @@ SFX eS òɉo oɉesa/F0 òɉo	is:singular+femenine
 SFX eS 0 sa/F0 [^d]e	is:singular+femenine
 SFX eS òde odesa/F0 òde	is:singular+femenine
 
-# nominali deajetivali (-iŧia)
+# nominali deajetivali (–iŧia)
 SFX iZ Y 2
 SFX iZ 0 iŧia/F0 l	is:singular+femenine
 SFX iZ o iŧia/F0 o	is:singular+femenine
 
-# nominali deajetivali (-isia)
+# nominali deajetivali (–isia)
 SFX iS Y 3
 SFX iS 0 isia/F0 l	is:singular+femenine
 SFX iS e isia/F0 ƚe	is:singular+femenine
 SFX iS o isia/F0 o	is:singular+femenine
 
 
-# nominali deverbali (-mento)
+# nominali deverbali (–mento)
 SFX m0 Y 9
 SFX m0 0 mento/M0FSPd a	is:singular+masculine ds:mento
 SFX m0 0 amento/M0FSPd n	ds:mento
@@ -6948,12 +6948,12 @@ SFX m0 òco ocamènto/M0FS òco	ds:mento
 SFX m0 òto otamento/M0FSPd òto	ds:mento
 SFX m0 òto otamènto/M0FS òto	ds:mento
 
-# nominali deverbali ko èle vanesente (-mento)
+# nominali deverbali ko èle vanesente (–mento)
 #SFX m7 Y 2
 #SFX m7 r mento/M0Pd r	ds:mento
 #SFX m7 r mènto/M0 r	ds:mento
 
-# nominali deverbali (-ŧion)
+# nominali deverbali (–ŧion)
 #SFX z0 Y 16
 #SFX z0 r ŧion/F0BBu1Pd ar
 #SFX z0 erò ŧion/F0B1BuPd aerò
@@ -6972,7 +6972,7 @@ SFX m0 òto otamènto/M0FS òto	ds:mento
 #SFX z0 xerò ŧion/F0B1BuPd [^r]xerò
 #SFX z0 orxerò ureŧion/F0B1BuPd orxerò
 
-# nominali deverbali (-sion)
+# nominali deverbali (–sion)
 #SFX s0 Y 15
 #SFX s0 r sion/F0B1BuPd [^i]r
 #SFX s0 erò sion/F0B1BuPd aerò
@@ -6990,14 +6990,14 @@ SFX m0 òto otamènto/M0FS òto	ds:mento
 #SFX s0 xerò sion/F0B1BuPd [^r]xerò
 #SFX s0 orxerò uresion/F0B1BuPd orxerò
 
-# nominali deverbali ko èle vanesente (-sion)
+# nominali deverbali ko èle vanesente (–sion)
 #SFX s7 Y 4
 #SFX s7 r sion/F0BuPd r
 #SFX s7 xerò sion/F0BuPd xerò
 #SFX s7 lderò ƚusion/F0BuPd lderò
 #SFX s7 lverò ƚusion/F0BuPd lverò
 
-# nominali deverbali (-dur/M0eT, -dura/F0eT)
+# nominali deverbali (–dur/M0eT, –dura/F0eT)
 SFX d0 Y 12
 SFX d0 dur ur/M0 [^i]dur
 SFX d0 dur ur/M0 [aeiou]idur
@@ -7012,7 +7012,7 @@ SFX d0 dura ureta/F0 [^i]dura	ds:eto
 SFX d0 dura ureta/F0 [aeiou]idura	ds:eto
 SFX d0 idura ïureta/F0 [^aeiou]idura	ds:eto
 
-# nominali deverbali ko èle vanesente (-dur(eto)/M0, -dur(et)a/F0)
+# nominali deverbali ko èle vanesente (–dur(eto)/M0, –dur(et)a/F0)
 SFX d7 Y 8
 SFX d7 dur ur/M0 dur
 SFX d7 dur ureto/M0Pd dur	ds:eto
@@ -7024,19 +7024,19 @@ SFX d7 dura ureta/F0 [aeiou]idura	ds:eto
 SFX d7 idura ïureta/F0 [^aeiou]idura	ds:eto
 
 
-# nominali deaverbiali (-ixmo)
+# nominali deaverbiali (–ixmo)
 SFX x0 Y 3
 SFX x0 o ixmo/M0 o	ds:ixmo
 SFX x0 0 ixmo/M0 [nr]	ds:ixmo
 SFX x0 ía ixmo/M0 ía	ds:ixmo
 
-# nominali deaverbiali ko èle vanesente (-ixmo)
+# nominali deaverbiali ko èle vanesente (–ixmo)
 SFX x7 Y 2
 SFX x7 0 ixmo/M0 n	ds:ixmo
 SFX x7 ía ixmo/M0 ía	ds:ixmo
 
 
-# negòŧi, atività komerŧali o industriali, aŧion, scapi de ròbe o de parsone (-ría/F0eT)
+# negòŧi, atività komerŧali o industriali, aŧion, scapi de ròbe o de parsone (–ría/F0eT)
 SFX r0 Y 84
 SFX r0 0 ría/F0 e	is:singular+femenine
 SFX r0 0 rïeta/F0 e	is:singular+femenine ds:eto
@@ -7123,7 +7123,7 @@ SFX r0 ía ïeta/F0 [^aeiou]ería	is:singular+femenine ds:eto
 SFX r0 ería aría/F0 ería	is:singular+femenine
 SFX r0 ería arïeta/F0 ería	is:singular+femenine ds:eto
 
-# nominali denominali (-ista)
+# nominali denominali (–ista)
 SFX i0 Y 19
 SFX i0 e ista/A2 e	is:singular ds:ista
 SFX i0 0 ista/A2 n	is:singular ds:ista
@@ -7145,7 +7145,7 @@ SFX i0 ònia onista/A2 ònia	is:singular ds:ista
 SFX i0 èlio elista/A2 èlio	is:singular ds:ista
 SFX i0 èƚio eƚista/A2 èƚio	is:singular ds:ista
 
-# avèrbi (-mente)
+# avèrbi (–mente)
 SFX w0 Y 3
 SFX w0 e re te
 SFX w0 te 0 te
@@ -7156,21 +7156,21 @@ SFX w0 ente ènte ente
 SFX y0 Y 34
 SFX y0 da a [aeo]da	is:singular+femenine
 SFX y0 da e [aeo]da	is:plural+femenine
-SFX y0 da a [aeiouàèéíòóúïü]ida	is:singular+femenine	# -ITA(M) > -ida > -ia
+SFX y0 da a [aeiouàèéíòóúïü]ida	is:singular+femenine	# –ITA(M) > –ida > –ia
 SFX y0 da e [aeiouàèéíòóúïü]ida	is:singular+femenine
-SFX y0 ida ía [^aeiouàèéíòóúïü]ida	is:singular+femenine	# -ITA(M) > -ida > -ia
+SFX y0 ida ía [^aeiouàèéíòóúïü]ida	is:singular+femenine	# –ITA(M) > –ida > –ia
 SFX y0 ida íe [^aeiouàèéíòóúïü]ida	is:singular+femenine
-SFX y0 da a [aeiouàèéíòóúïü]uda	is:singular+femenine	# -UTA(M) > -uda > -ua
+SFX y0 da a [aeiouàèéíòóúïü]uda	is:singular+femenine	# –UTA(M) > –uda > –ua
 SFX y0 da e [aeiouàèéíòóúïü]uda	is:singular+femenine
-SFX y0 uda úa [^aeiouàèéíòóúïü]uda	is:singular+femenine	# -UTA(M) > -uda > -ua
+SFX y0 uda úa [^aeiouàèéíòóúïü]uda	is:singular+femenine	# –UTA(M) > –uda > –ua
 SFX y0 uda úe [^aeiouàèéíòóúïü]uda	is:singular+femenine
 SFX y0 ede é ede	is:femenine
-SFX y0 ado ò ado	is:masculine	# pavan, -ATU(M) > -ado > -ao > -ò
-SFX y0 ado à ado	is:masculine	# -ATU(M) > -ado > -at > -à
-SFX y0 do o ado	is:singular+masculine	# -ATU(M) > -ado > -ao
+SFX y0 ado ò ado	is:masculine	# pavan, –ATU(M) > –ado > –ao > –ò
+SFX y0 ado à ado	is:masculine	# –ATU(M) > –ado > –at > –à
+SFX y0 do o ado	is:singular+masculine	# –ATU(M) > –ado > –ao
 SFX y0 do i ado	is:plural+masculine
-SFX y0 ado è ado	is:masculine	# -ATU(M) > -ado > -ao > -è
-SFX y0 ado èo ado	is:singular+masculine	# -ATU(M) > -ado > -ao > -èo
+SFX y0 ado è ado	is:masculine	# –ATU(M) > –ado > –ao > –è
+SFX y0 ado èo ado	is:singular+masculine	# –ATU(M) > –ado > –ao > –èo
 SFX y0 ado èi ado	is:plural+masculine
 SFX y0 edo é edo	is:masculine
 SFX y0 do o edo	is:singular+masculine
@@ -7189,7 +7189,7 @@ SFX y0 do i [aeiouàèéíòóúïü]udo	is:singular+masculine
 SFX y0 udo úo [^aeiouàèéíòóúïü]udo	is:singular+masculine
 SFX y0 udo úi [^aeiouàèéíòóúïü]udo	is:singular+masculine
 
-# sostantivi koletivi, ... (-ada > -à)
+# sostantivi koletivi, ... (–ada > –à)
 SFX y1 Y 1
 SFX y1 ada à ada	is:femenine
 
@@ -7205,7 +7205,7 @@ SFX y2 ado èo ado	is:singular+masculine
 SFX y2 ado à ado	is:masculine
 SFX y2 ado è ado	is:masculine
 SFX y2 ado ò ado	is:masculine
-SFX y2 da a ida	is:singular+femenine	# -ITA(M) > -ida > -ia
+SFX y2 da a ida	is:singular+femenine	# –ITA(M) > –ida > –ia
 SFX y2 da e ida	is:plural+femenine
 SFX y2 ido í ido	is:masculine
 SFX y2 do o [aeiouàèéíòóúïü]ido	is:singular+masculine
@@ -7214,7 +7214,7 @@ SFX y2 do o [^aeiouàèéíòóúïü]ido	is:singular+masculine
 SFX y2 do i [^aeiouàèéíòóúïü]ido	is:singular+masculine
 
 
-# sostantivi/ajetivi alterai — demenutivi (-eto/a)
+# sostantivi/ajetivi alterai — demenutivi (–eto/a)
 SFX eT Y 91
 SFX eT à aeto/M0FSPd à	ds:eto
 SFX eT 0 ta/F0 e	ds:eto
@@ -7308,7 +7308,7 @@ SFX eT o eto/M0FSPd [^ò][bdnñpt]o	ds:eto
 SFX eT o eto/M0FSPd [^èò][cđgjɉkmsŧvx]o	ds:eto
 SFX eT èrna erneta/F0 èrna	ds:eto
 
-# sostantivi/ajetivi alterai — demenutivi ko èle vanesente (-eto/a)
+# sostantivi/ajetivi alterai — demenutivi ko èle vanesente (–eto/a)
 SFX e1 Y 35
 SFX e1 0 ta/F0 e	ds:eto
 SFX e1 è eeto/M0Pd è	ds:eto
@@ -7346,7 +7346,7 @@ SFX e1 o eto/M0Pd [^ò][kst]o	ds:eto
 SFX e1 a eta/F0 [^è][dgr]a	ds:eto
 SFX e1 èrna erneta/F0 èrna	ds:eto
 
-# sostantivi/ajetivi alterai — demenutivi (-èl/-èla)
+# sostantivi/ajetivi alterai — demenutivi (–èl/–èla)
 SFX eL Y 32
 SFX eL e èl/M0B1 e	ds:èl
 SFX eL 0 èl/M0B1 [ln]	ds:èl
@@ -7381,7 +7381,7 @@ SFX eL a èla/F0 [^èò]ka	ds:èl
 SFX eL a èla/F0 [^ò][dlnrsŧv]a	ds:èl
 SFX eL o èl/M0B1 [^ò][cdjɉstŧv]o	ds:èl
 
-# sostantivi/ajetivi alterai — demenutivi ko èle vanesente (-èƚo/a)
+# sostantivi/ajetivi alterai — demenutivi ko èle vanesente (–èƚo/a)
 SFX e7 Y 30
 SFX e7 e èƚo/M0 e	ds:èl
 SFX e7 0 èƚo/M0 n	ds:èl
@@ -7414,7 +7414,7 @@ SFX e7 a èƚa/F0 [^èò][kr]a	ds:èl
 SFX e7 a èƚa/F0 [^ò][dƚnsv]a	ds:èl
 SFX e7 o èƚo/M0 [^ò][cdjɉstv]o	ds:èl
 
-# sostantivi/ajetivi alterai — demenutivi (-in/-ina)
+# sostantivi/ajetivi alterai — demenutivi (–in/–ina)
 SFX iN Y 61
 SFX iN 0 in/M0Bu n	ds:in
 SFX iN ò oin/M0Bu ò	ds:in
@@ -7478,14 +7478,14 @@ SFX iN o in/M0Bu [^ò][dkp]o	ds:in
 SFX iN o in/M0Bu [^è][đx]o	ds:in
 SFX iN o in/M0Bu [^èò][cjɉƚstŧ]o	ds:in
 
-# sostantivi alterai — demenutivi (-?)
+# sostantivi alterai — demenutivi (–?)
 #SFX 00 . (e)đin/A1 [?]
 #SFX 00 . (e)ŧin/A1 [?]
 #SFX 00 . (o)lin/A1 [?]
 #SFX 00 . (e)rin/A1 [?]
 
 
-# sostantivi/ajetivi alterai — kresitivi (-on/B1BuPd)
+# sostantivi/ajetivi alterai — kresitivi (–on/B1BuPd)
 SFX o0 Y 59
 SFX o0 0 on/B1BuPd n	is:singular+masculine ds:on
 SFX o0 èa eon/B1BuPd èa	is:singular+masculine ds:on
@@ -7547,7 +7547,7 @@ SFX o0 a on/B1BuPd [^ò][cđfnsŧx]a	is:singular+masculine ds:on
 SFX o0 0 n/B1BuPd [^ò][bdkmp]o	is:singular+masculine ds:on
 SFX o0 0 n/B1BuPd [^èò][cjɉstŧ]o	is:singular+masculine ds:on
 
-# sostantivi/ajetivi alterai — kresitivi (-on/BuPd)
+# sostantivi/ajetivi alterai — kresitivi (–on/BuPd)
 SFX o7 Y 20
 SFX o7 e on/PdBu e	is:singular+masculine ds:on
 SFX o7 0 on/PdBu n	is:singular+masculine ds:on
@@ -7570,7 +7570,7 @@ SFX o7 a on/BuPd [^èò]ƚa	is:singular+masculine ds:on
 SFX o7 0 n/BuPd [^èò]ƚo	is:singular+masculine ds:on
 SFX o7 0 n/BuPd [^ò]to	is:singular+masculine ds:on
 
-# sostantivi/ajetivi alterai — kresitivi (-ona)
+# sostantivi/ajetivi alterai — kresitivi (–ona)
 SFX o1 Y 40
 SFX o1 e ona e	is:singular+femenine ds:on
 SFX o1 0 ona n	is:singular+femenine ds:on
@@ -7613,7 +7613,7 @@ SFX o1 a ona [^èò]ta	is:singular+femenine ds:on
 SFX o1 0 na [^èò][cjɉƚt]o	is:singular+femenine ds:on
 SFX o1 0 na [^ò][ksŧ]o	is:singular+femenine ds:on
 
-# sostantivi/ajetivi alterai — kresitivi maskolini (-one)
+# sostantivi/ajetivi alterai — kresitivi maskolini (–one)
 SFX o2 Y 62
 SFX o2 e one [^t]e	is:plural+masculine ds:on
 SFX o2 e one [^è]te	is:plural+masculine ds:on
@@ -7678,7 +7678,7 @@ SFX o2 0 ne [^èò][lƚpt]a	is:plural+masculine ds:on
 SFX o2 0 ne [^èò][cjɉƚstŧ]o	is:plural+masculine ds:on
 SFX o2 0 ne [^ò][bdkmp]o	is:plural+masculine ds:on
 
-# sostantivi/ajetivi alterai — kresitivi femenili (-one)
+# sostantivi/ajetivi alterai — kresitivi femenili (–one)
 SFX o3 Y 41
 SFX o3 e one e	is:plural+femenine ds:on
 SFX o3 0 one n	is:plural+femenine ds:on
@@ -7722,7 +7722,7 @@ SFX o3 0 ne [^èò]ƚo	is:plural+femenine ds:on
 SFX o3 0 ne [^èò][cjɉt]o	is:plural+femenine ds:on
 SFX o3 0 ne [^ò][ksŧ]o	is:plural+femenine ds:on
 
-# sostantivi/ajetivi alterai — kresitivi (-oni)
+# sostantivi/ajetivi alterai — kresitivi (–oni)
 SFX o4 Y 62
 SFX o4 0 oni n	is:plural+masculine ds:on
 SFX o4 èa eoni èa	is:plural+masculine ds:on
@@ -7788,7 +7788,7 @@ SFX o4 0 ni [^ò][bdkmp]o	is:plural+masculine ds:on
 SFX o4 0 ni [^èò][cjɉƚstŧ]o	is:plural+masculine ds:on
 
 
-# sostantivi/ajetivi alterai — kresitivi (-òto/a)
+# sostantivi/ajetivi alterai — kresitivi (–òto/a)
 SFX oT Y 32
 SFX oT 0 òto/M0FS n	ds:òto
 SFX oT èa eòta/F0 èa	ds:òto
@@ -7823,7 +7823,7 @@ SFX oT a òta/F0 [^èò][cr]a	ds:òto
 SFX oT a òta/F0 [^è][jɉlsŧ]a	ds:òto
 SFX oT o òto/M0FS [^è][jɉ]o	ds:òto
 
-# sostantivi/ajetivi alterai — kresitivi ko èle vanesente (-òto/a)
+# sostantivi/ajetivi alterai — kresitivi ko èle vanesente (–òto/a)
 SFX oL Y 13
 SFX oL e òto/M0 ƚe	ds:òto
 SFX oL o òto/M0 [^è]ƚo	ds:òto
@@ -7840,7 +7840,7 @@ SFX oL a òta/F0 [^è]ƚa	ds:òto
 SFX oL èƚa eƚòta/F0 èƚa	ds:òto
 
 
-# sostantivi/ajetivi alterai — peđorativi (-ato/a)
+# sostantivi/ajetivi alterai — peđorativi (–ato/a)
 SFX aT Y 35
 SFX aT 0 ato/M0FS [nr]	ds:ato
 SFX aT úa uata/F0 [aeiou]úa	ds:ato
@@ -7878,7 +7878,7 @@ SFX aT 0 ta/F0 [^ò][bkns]a	ds:ato
 SFX aT o ato/M0FS [^èò][cjɉ]o	ds:ato
 SFX aT o ato/M0FS [^ò][kmst]o	ds:ato
 
-# sostantivi/ajetivi alterai — peđorativi ko èle vanesente (-ato/a)
+# sostantivi/ajetivi alterai — peđorativi ko èle vanesente (–ato/a)
 SFX a1 Y 8
 SFX a1 0 ato/M0 n	ds:ato
 SFX a1 o ato/M0 [^ƚ]o	ds:ato
@@ -7889,7 +7889,7 @@ SFX a1 òƚa oƚata/F0 òƚa	ds:ato
 SFX a1 0 ta/F0 [^ƚ]a	ds:ato
 SFX a1 0 ta/F0 [^èò]ƚa	ds:ato
 
-# sostantivi/ajetivi alterai — peđorativi (-aŧo/a)
+# sostantivi/ajetivi alterai — peđorativi (–aŧo/a)
 SFX aZ Y 60
 SFX aZ í iaŧo/M0FS [aeiou]í	ds:aŧo
 SFX aZ í ïaŧo/M0FS [^aeiou]í	ds:aŧo
@@ -7952,7 +7952,7 @@ SFX aZ o aŧo/M0FS [^èò][jɉt]o	ds:aŧo
 SFX aZ o aŧo/M0FS [^ò][gkmv]o	ds:aŧo
 SFX aZ o aŧo/M0FS [^è][sŧ]o	ds:aŧo
 
-# sostantivi/ajetivi alterai — peđorativi (-aso/a)
+# sostantivi/ajetivi alterai — peđorativi (–aso/a)
 SFX aS Y 59
 SFX aS e aso/M0FS [^t]e	ds:aŧo
 SFX aS e aso/M0FS [^è]te	ds:aŧo
@@ -8014,7 +8014,7 @@ SFX aS 0 sa/F0 [^ò][bdknñstxv]a	ds:aŧo
 SFX aS o aso/M0FS [^èò][jɉt]o	ds:aŧo
 SFX aS o aso/M0FS [^ò][kmv]o	ds:aŧo
 
-# sostantivi/ajetivi alterai — peđorativi ko èle vanesente (-aso/a)
+# sostantivi/ajetivi alterai — peđorativi ko èle vanesente (–aso/a)
 SFX aL Y 13
 SFX aL e aso/M0 e	ds:aŧo
 SFX aL 0 aso/M0 [nr]	ds:aŧo
@@ -8031,7 +8031,7 @@ SFX aL èƚa eƚasa/F0 èƚa	ds:aŧo
 SFX aL òƚa oƚasa/F0 òƚa	ds:aŧo
 
 
-# sostantivi/ajetivi alterai — peđorativi (-uŧo/a)
+# sostantivi/ajetivi alterai — peđorativi (–uŧo/a)
 SFX uZ Y 12
 SFX uZ a uŧa/F0 [^l]a	ds:uŧo
 SFX uZ a uŧa/F0 [^ò]la	ds:uŧo
@@ -8046,7 +8046,7 @@ SFX uZ ète etuŧo/M0FS ète	ds:uŧo
 SFX uZ èto etuŧo/M0FS èto	ds:uŧo
 SFX uZ o uŧo/M0FS [^è]to	ds:uŧo
 
-# sostantivi/ajetivi alterai — peđorativi (-uso/a)
+# sostantivi/ajetivi alterai — peđorativi (–uso/a)
 SFX uS Y 12
 SFX uS a usa/F0 [^l]a	ds:uŧo
 SFX uS a usa/F0 [^ò]la	ds:uŧo
@@ -8061,7 +8061,7 @@ SFX uS ète etuso/M0FS ète	ds:uŧo
 SFX uS èto etuso/M0FS èto	ds:uŧo
 SFX uS o uso/M0FS [^è]to	ds:uŧo
 
-# sostantivi/ajetivi alterai — peđorativi ko èle vanesente (-uso/a)
+# sostantivi/ajetivi alterai — peđorativi ko èle vanesente (–uso/a)
 SFX uL Y 9
 SFX uL o uso/M0 [^ƚt]o	ds:uŧo
 SFX uL o uso/M0 [^èò]ƚo	ds:uŧo
@@ -8074,134 +8074,134 @@ SFX uL a usa/F0 [^ò]ƚa	ds:uŧo
 SFX uL òƚa oƚusa/F0 òƚa	ds:uŧo
 
 
-# sostantivi alterai — peđorativi (-òl, -uko)
+# sostantivi alterai — peđorativi (–òl, –uko)
 #SFX 00 . òl/A1 ?
 #SFX 00 . uko/A1 ?
 
 
-# sostantivi/vèrbi alterai (anti-)
+# sostantivi/vèrbi alterai (anti–)
 PFX ^0 Y 1
 PFX ^0 0 anti .	dp:ante
 
-# sostantivi/vèrbi alterai (tra-)
+# sostantivi/vèrbi alterai (tra–)
 PFX ^1 Y 1
 PFX ^1 0 tra .	dp:tra
 
-# sostantivi/vèrbi alterai (pre-)
+# sostantivi/vèrbi alterai (pre–)
 PFX ^2 Y 2
 PFX ^2 0 pre .	dp:pre
-PFX ^2 0 pre- .	dp:pre
+PFX ^2 0 pre– .	dp:pre
 
-# sostantivi/vèrbi alterai (kapo-)
+# sostantivi/vèrbi alterai (kapo–)
 # https://italianochefatica.it/it/plurale-dei-nomi-composti-nella-lingua-italiana/#cambianoentrambielementi
 # 1. Se ’l sostantivo ko “kapo” el defenise la parsona ke la xé a kapo de kalkòsa, el plural lo tòle sol ke la paròla “kapo”
 # 2. Se ’l sostantivo ko “kapo” el defenise la parsona ke la ga un ròl superior a kuelo de kelaltri ke i fà la stesa atività, opur no se referise diretamente a na parsona ko un ròl de komando (kapolaor, kapovèrso), el plural lo tòle sol ke el sekondo elemento
 PFX ^3 Y 2
 PFX ^3 0 kapo .	dp:kapo
-PFX ^3 0 kapo- .	dp:kapo
+PFX ^3 0 kapo– .	dp:kapo
 
-# sostantivi/vèrbi alterai (kontra-)
+# sostantivi/vèrbi alterai (kontra–)
 PFX ^4 Y 2
 PFX ^4 0 kontra .	dp:kontro
-PFX ^4 0 kontra- .	dp:kontro
+PFX ^4 0 kontra– .	dp:kontro
 
-# sostantivi/vèrbi alterai (kontro-)
+# sostantivi/vèrbi alterai (kontro–)
 PFX ^5 Y 2
 PFX ^5 0 kontro .	dp:kontro
-PFX ^5 0 kontro- .	dp:kontro
+PFX ^5 0 kontro– .	dp:kontro
 
-# sostantivi/vèrbi alterai (stra-)
+# sostantivi/vèrbi alterai (stra–)
 PFX ^6 Y 2
 PFX ^6 0 stra .	dp:stra
-PFX ^6 0 stra- .	dp:stra
+PFX ^6 0 stra– .	dp:stra
 
-# sostantivi/vèrbi alterai (mal-)
+# sostantivi/vèrbi alterai (mal–)
 PFX ^7 Y 2
 PFX ^7 0 mal [^ƚ]	dp:mal
-PFX ^7 0 mal- [^ƚ]	dp:mal
+PFX ^7 0 mal– [^ƚ]	dp:mal
 
-# sostantivi/vèrbi alterai (ben-)
+# sostantivi/vèrbi alterai (ben–)
 PFX ^8 Y 2
 PFX ^8 0 ben [^ƚ]	dp:ben
-PFX ^8 0 ben- [^ƚ]	dp:ben
+PFX ^8 0 ben– [^ƚ]	dp:ben
 
-# prefiso par lontanamento o sbasamento (de-)
+# prefiso par lontanamento o sbasamento (de–)
 PFX -0 Y 1
 PFX -0 0 de .	dp:de
 
-# prefiso par lontanamento o sbasamento, eufònego a de- (de(s/x)-)
+# prefiso par lontanamento o sbasamento, eufònego a de– (de(s/x)–)
 PFX -1 Y 4
 PFX -1 0 de x	dp:des
 PFX -1 0 des [cfkpstŧ]	dp:des
-PFX -1 0 des- s	dp:des
+PFX -1 0 des– s	dp:des
 PFX -1 0 dex [^cfkƚpstŧ]	dp:des
 
-# sostantivi/vèrbi deajetivali (i(n)-)
+# sostantivi/vèrbi deajetivali (i(n)–)
 # NÒTA: `insidiar` must be added because `*isidiar` does not exists
 PFX +0 Y 5
-PFX +0 0 in- n	dp:in
+PFX +0 0 in– n	dp:in
 PFX +0 0 in [^ƚ]	dp:in
 PFX +0 0 i [ƚmnñrsx]	dp:in
-PFX +0 0 en- n	dp:in
+PFX +0 0 en– n	dp:in
 PFX +0 0 en [^ƚ]	dp:in
 
-# prefiso par aŧion kontraria o privativa–peđorativa, xlontanamento, esía, separaŧion (s/x-)
+# prefiso par aŧion kontraria o privativa–peđorativa, xlontanamento, esía, separaŧion (s/x–)
 PFX *0 Y 2
 PFX *0 0 s [cfkpstŧ]	dp:s
 PFX *0 0 x [^cfkƚpstŧ]	dp:s
 
-# prefiso par aŧion repetúa (r[ea]-/ar-)
+# prefiso par aŧion repetúa (r[ea]–/ar–)
 PFX .0 Y 3
 PFX .0 0 r e	dp:re
 PFX .0 0 re .	dp:re
-PFX .0 0 re- .	dp:re
+PFX .0 0 re– .	dp:re
 #PFX .0 0 ra [^a]	dp:re
 #PFX .0 0 ar [^ƚ]	dp:re
 
-# prefiso par direŧion, veŧinamento, đontamento, valor intensivo (a-)
+# prefiso par direŧion, veŧinamento, đontamento, valor intensivo (a–)
 PFX @0 Y 1
 PFX @0 0 a .	dp:a
 
-# prefiso par union, parteŧipaŧion, kolegamento (kon-)
+# prefiso par union, parteŧipaŧion, kolegamento (kon–)
 PFX :0 Y 2
 PFX :0 0 ko [mn]	dp:kon
 PFX :0 0 kon [^ƚ]	dp:kon
 
-# prefiso par raforŧar (arŧ[iï]-)
+# prefiso par raforŧar (arŧ[iï]–)
 PFX @1 Y 3
 PFX @1 0 arŧi [^aeiouàèéíòóúïü]	dp:arŧi
 PFX @1 0 arŧï [aeiouàèéíòóúïü]	dp:arŧi
-PFX @1 0 arŧi- .	dp:arŧi
+PFX @1 0 arŧi– .	dp:arŧi
 #PFX @1 0 arŧe .	dp:arŧi
-#PFX @1 0 arŧe- .	dp:arŧi
+#PFX @1 0 arŧe– .	dp:arŧi
 
-# prefiso par raforŧar (ars[iï]-)
+# prefiso par raforŧar (ars[iï]–)
 PFX @2 Y 3
 PFX @2 0 arsi [^aeiouàèéíòóúïü]	dp:arŧi
 PFX @2 0 arsï [aeiouàèéíòóúïü]	dp:arŧi
-PFX @2 0 arsi- .	dp:arŧi
+PFX @2 0 arsi– .	dp:arŧi
 #PFX @2 0 arse .	dp:arŧi
-#PFX @2 0 arse- .	dp:arŧi
+#PFX @2 0 arse– .	dp:arŧi
 
 
-# prefiso par "do ʼòlte" (bi-)
+# prefiso par "do ʼòlte" (bi–)
 PFX b2 Y 2
 PFX b2 0 bi [^aeiouàèéíòóúïü]	dp:bi
 PFX b2 0 bï [aeiouàèéíòóúïü]	dp:bi
 
-# prefiso par "trè ʼòlte" (tri-)
+# prefiso par "trè ʼòlte" (tri–)
 PFX b3 Y 3
 PFX b3 0 tri [^aeiouàèéíòóúïü]	dp:tri
 PFX b3 0 trï [aeiouàèéíòóúïü]	dp:tri
 PFX b3 0 tre .	dp:tri
 
 
-# leniŧion iniŧial (gu[ae]- > v[ae]-)
+# leniŧion iniŧial (gu[ae]– > v[ae]–)
 PFX gv Y 1
 PFX gv gu v gu[aàè]
 
 
-# numerali — koletivi (-èna)
+# numerali — koletivi (–èna)
 SFX %0 Y 68
 SFX %0 ète etena/F0 ète
 SFX %0 ète etèna/F0 ète
@@ -8272,13 +8272,13 @@ SFX %0 0 ar/A1 ion
 SFX %0 o èr/A1 iardo
 SFX %0 o ar/A1 iardo
 
-# numerali — koletivi (-ando)
+# numerali — koletivi (–ando)
 SFX %1 Y 3
 SFX %1 0 ndo nta
 SFX %1 i ando/FS nti
 SFX %1 o anto nto
 
-# numerali — koletivi (-èx[ei]mo)
+# numerali — koletivi (–èx[ei]mo)
 SFX %a Y 48
 SFX %a ète etèxemo/A1 ète
 SFX %a ète etèximo/A1 ète
@@ -8329,7 +8329,7 @@ SFX %a índexe indèsemo/M0 índexe
 SFX %a índexe indèŧimo/M0 índexe
 SFX %a índexe indèsimo/M0 índexe
 
-# numerali — koletivi ko èle vanesente (-èximo)
+# numerali — koletivi ko èle vanesente (–èximo)
 SFX %7 Y 6
 SFX %7 e èxemo/A1 miƚe
 SFX %7 e èximo/A1 miƚe
