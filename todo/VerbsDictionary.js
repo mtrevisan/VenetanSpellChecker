@@ -1756,6 +1756,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "fatur",			"",			1,	3,	"a",	"1854",			"",
 "faŧ",			"",			1,	1,	"g",	"1775",			"Far a la fenestra.",
 "faŧ",			"des",		1,	1,	"g",	"1852",			"Sfaŧar.",
+"faŧ",			"in",			1,	1,	"g",	"18780713",		"(veneŧian)",
 "faŧ",			"ren",		1,	1,	"g",	"1775",			"",
 "faŧ",			"rin",		1,	1,	"g",	"",				"",
 "faŧ",			"s",			1,	1,	"g",	"1980",			"(vitoriexe)",
