@@ -6209,6 +6209,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "polver",		"",			1,	1,	"a",	"1829",			"",
 "polver",		"des",		1,	1,	"a",	"1867",			"",
 "polver",		"in",			1,	1,	"a",	"1867",			"",
+"polver",		"ins",		1,	1,	"a",	"18780713",		"(veneŧian)",
 "polver",		"s",			1,	1,	"a",	"1775",			"",
 "polveriđ",		"",			1,	6,	"a",	"1775",			"",
 "polveriđ",		"s",			1,	6,	"a",	"1867",			"",
