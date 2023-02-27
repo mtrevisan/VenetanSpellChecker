@@ -567,6 +567,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "bexen",			"in",			1,	1,	"a",	"1829",			"Infangar.",
 "bexoñ",			"",			1,	3,	"g",	"1560",			"",
 "biak",			"x",			1,	2,	"g",	"1854",			"Kovèrđer de biaka.",
+"biakiđ",		"x",			1,	4,	"a",	"18780713",		"(veneŧian)",
 "bian",			"",			1,	2,	"g",	"",				"Inmojar.",
 "biank",			"in",			1,	2,	"g",	"1775",			"",
 "biank",			"x",			1,	2,	"g",	"1867",			"",
