@@ -4429,6 +4429,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "luŧid",			"de",			1,	1,	"a",	"1767",			"(veneŧian)",
 "luvi",			"de",			1,	1,	"a",	"1775",			"",
 "luvi",			"dex",		1,	1,	"a",	"1854",			"Deluviar.",
+"lux",			"x",			5,	1,	"a",	"1873",			"(veneŧian)",
 "luxing",		"",			1,	3,	"a",	"",				"",
 
 "mac",			"",			1,	1,	"g",	"1535",			"",
@@ -5313,7 +5314,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "odi",			"",			1,	0,	"g",	"1867",			"",
 "odor",			"",			1,	2,	"g",	"",				"",
 "odor",			"sub",		1,	2,	"g",	"1867",			"Aver sentor de na notiŧia.",
-"ofer",			"",			5,	0,	"g",	"1660",			"(veneŧian) Ofrir.",
+"ofer",			"",			4,	4,	"g",	"1660",			"(veneŧian) Ofrir.",
 "ofeŧ",			"",			1,	2,	"a",	"",				"",
 "ofeŧi",			"",			1,	2,	"a",	"1829",			"",
 "ofiŧ",			"",			1,	2,	"a",	"1775",			"",
