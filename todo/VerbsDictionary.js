@@ -1863,6 +1863,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "ferd",			"",			4,	4,	"a",	"1893",			"Fredar.",
 "ferd",			"s",			4,	4,	"a",	"1775",			"Sfredar.",
 "ferm",			"",			1,	1,	"a",	"1415",			"",
+"ferm",			"a",			1,	1,	"a",	"12990508",		"(veneŧian)",
 "ferm",			"kon",		1,	1,	"a",	"1445",			"",
 "ferm",			"deskon",	1,	1,	"a",	"1775",			"",
 "ferm",			"in",			1,	1,	"a",	"1855",			"(belumat)",
