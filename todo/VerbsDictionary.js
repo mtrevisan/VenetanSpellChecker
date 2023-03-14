@@ -7742,7 +7742,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "strénđ",		"",			3,	3,	"a",	"1509",			"",
 "strénđ",		"a",			3,	3,	"a",	"1775",			"",
 "strénđ",		"ko",			3,	3,	"a",	"1867",			"",
-"strénđ",		"kon",		3,	3,	"a",	"1376",			"",
+"strénđ",		"kon",		3,	3,	"a",	"13050301",		"(veneŧian)",
 "strénđ",		"ra",			3,	3,	"a",	"1896",			"",
 "strénđ",		"re",			3,	3,	"a",	"1519",			"",
 "strentor",		"",			1,	6,	"a",	"1560",			"",

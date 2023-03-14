@@ -1999,7 +1999,7 @@ SFX tE úxer urge/P3 dúxer	ds:infinitive+simple	# T1 + r(e)
 SFX tE xer rgel/P4 dúxer	ds:infinitive+simple	# T1 + r(e)
 SFX tE xer rgeƚo/P5 dúxer	ds:infinitive+simple	# T1 + r(e)
 SFX tE úxer ure dúxer	ds:infinitive+simple	# T1 + r(e)
-SFX tE 0 e r	ds:infinitive+simple	# T1 + r(e), padoan/coxòto
+SFX tE 0 e/P0P1P2P3P4P5 r	ds:infinitive+simple	# T1 + r(e), padoan/coxòto
 SFX tE ir íʼ ir	ds:infinitive+simple	# T1, buranèl
 SFX tE üir úi üir	ds:infinitive+simple	# T1, coxòto
 SFX tE ir i [^ü]ir	ds:infinitive+simple	# T1, coxòto
@@ -3039,7 +3039,7 @@ SFX xB ver piege [aʼ]ver	ds:subjunctive+present is:second+plural	# T12 + é([dg
 SFX xB aver éde aver	ds:subjunctive+imperfect is:second+plural	# T11 + (is)ié([dg]e)
 SFX xB ver biege [aʼ]ver	ds:subjunctive+present is:second+plural	# T12 + é([dg]e)
 SFX xB aver epiege aver	ds:subjunctive+present is:second+plural	# T12 + é([dg]e)
-SFX xB 0 e [aʼ]ver	ds:infinitive+simple	# T1 + r(e)
+SFX xB 0 e/P0P1P2P3P4P5 [aʼ]ver	ds:infinitive+simple	# T1 + r(e)
 SFX xB er area [aʼ]ver	ds:conditional+present is:first+singular	# T4 + réa
 SFX xB er aríimo [aʼ]ver	ds:conditional+present is:first+plural	# T4 + ríimo
 SFX xB er area [aʼ]ver	ds:conditional+present is:second+singular	# T4 + réa
@@ -5323,7 +5323,7 @@ SFX P0 0 0/V1|| r
 SFX P0 0 0/V2|| [^r]
 
 # vèrbi pronomenali (takai)
-SFX P3 Y 193
+SFX P3 Y 286
 SFX P3 0 ge r	ds:pronomenal+genitive+locative
 SFX P3 0 de r	ds:pronomenal+genitive+locative
 SFX P3 ar àrgen ar	ds:pronomenal+genitive+locative
@@ -5399,6 +5399,99 @@ SFX P3 ir írven ir	ds:pronomenal+reflexive
 SFX P3 ir írvene ir	ds:pronomenal+reflexive
 SFX P3 ir írvende ir	ds:pronomenal+reflexive
 SFX P3 ir írvege ir	ds:pronomenal+reflexive
+SFX P3 ar àrege ar	ds:pronomenal+genitive+locative
+SFX P3 er érege er	ds:pronomenal+genitive+locative
+SFX P3 ir írege ir	ds:pronomenal+genitive+locative
+SFX P3 ar àrede ar	ds:pronomenal+genitive+locative
+SFX P3 er érede er	ds:pronomenal+genitive+locative
+SFX P3 ir írede ir	ds:pronomenal+genitive+locative
+SFX P3 ar àregen ar	ds:pronomenal+genitive+locative
+SFX P3 ar àregin ar	ds:pronomenal+genitive+locative
+SFX P3 ar àregene ar	ds:pronomenal+genitive+locative
+SFX P3 ar àregende ar	ds:pronomenal+genitive+locative
+SFX P3 ar àregine ar	ds:pronomenal+genitive+locative
+SFX P3 ar àreginde ar	ds:pronomenal+genitive+locative
+SFX P3 ar àreme ar	ds:pronomenal+reflexive
+SFX P3 er éreme er	ds:pronomenal+reflexive
+SFX P3 ir íreme ir	ds:pronomenal+reflexive
+SFX P3 ar àren ar	ds:pronomenal+genitive
+SFX P3 er éren er	ds:pronomenal+genitive
+SFX P3 ir íren ir	ds:pronomenal+genitive
+SFX P3 ar àrene ar	ds:pronomenal+genitive
+SFX P3 er érene er	ds:pronomenal+genitive
+SFX P3 ir írene ir	ds:pronomenal+genitive
+SFX P3 ar àrede ar	ds:pronomenal+genitive
+SFX P3 er érede er	ds:pronomenal+genitive
+SFX P3 ir írede ir	ds:pronomenal+genitive
+SFX P3 ar àremen ar	ds:pronomenal+reflexive
+SFX P3 ar àremene ar	ds:pronomenal+reflexive
+SFX P3 ar àremende ar	ds:pronomenal+reflexive
+SFX P3 ar àremege ar	ds:pronomenal+reflexive
+SFX P3 ar àrese ar	ds:pronomenal+reflexive
+SFX P3 er érese er	ds:pronomenal+reflexive
+SFX P3 ir írese ir	ds:pronomenal+reflexive
+SFX P3 ar àresen ar	ds:pronomenal+reflexive
+SFX P3 ar àresene ar	ds:pronomenal+reflexive
+SFX P3 ar àresende ar	ds:pronomenal+reflexive
+SFX P3 ar àresege ar	ds:pronomenal+reflexive
+SFX P3 ar àrete ar	ds:pronomenal+reflexive
+SFX P3 er érete er	ds:pronomenal+reflexive
+SFX P3 ir írete ir	ds:pronomenal+reflexive
+SFX P3 ar àreten ar	ds:pronomenal+reflexive
+SFX P3 ar àretene ar	ds:pronomenal+reflexive
+SFX P3 ar àretende ar	ds:pronomenal+reflexive
+SFX P3 ar àretege ar	ds:pronomenal+reflexive
+SFX P3 ar àreve ar	ds:pronomenal+reflexive
+SFX P3 er éreve er	ds:pronomenal+reflexive
+SFX P3 ir íreve ir	ds:pronomenal+reflexive
+SFX P3 ar àreven ar	ds:pronomenal+reflexive
+SFX P3 ar àrevene ar	ds:pronomenal+reflexive
+SFX P3 ar àrevende ar	ds:pronomenal+reflexive
+SFX P3 ar àrevege ar	ds:pronomenal+reflexive
+SFX P3 er éregen er	ds:pronomenal+genitive+locative
+SFX P3 er éregin er	ds:pronomenal+genitive+locative
+SFX P3 er éregene er	ds:pronomenal+genitive+locative
+SFX P3 er éregende er	ds:pronomenal+genitive+locative
+SFX P3 er éregine er	ds:pronomenal+genitive+locative
+SFX P3 er éreginde er	ds:pronomenal+genitive+locative
+SFX P3 er éremen er	ds:pronomenal+reflexive
+SFX P3 er éremene er	ds:pronomenal+reflexive
+SFX P3 er éremende er	ds:pronomenal+reflexive
+SFX P3 er éremege er	ds:pronomenal+reflexive
+SFX P3 er éresen er	ds:pronomenal+reflexive
+SFX P3 er éresene er	ds:pronomenal+reflexive
+SFX P3 er éresende er	ds:pronomenal+reflexive
+SFX P3 er éresege er	ds:pronomenal+reflexive
+SFX P3 er éreten er	ds:pronomenal+reflexive
+SFX P3 er éretene er	ds:pronomenal+reflexive
+SFX P3 er éretende er	ds:pronomenal+reflexive
+SFX P3 er éretege er	ds:pronomenal+reflexive
+SFX P3 er éreven er	ds:pronomenal+reflexive
+SFX P3 er érevene er	ds:pronomenal+reflexive
+SFX P3 er érevende er	ds:pronomenal+reflexive
+SFX P3 er érevege er	ds:pronomenal+reflexive
+SFX P3 ir íregen ir	ds:pronomenal+genitive+locative
+SFX P3 ir íregin ir	ds:pronomenal+genitive+locative
+SFX P3 ir íregene ir	ds:pronomenal+genitive+locative
+SFX P3 ir íregende ir	ds:pronomenal+genitive+locative
+SFX P3 ir íregine ir	ds:pronomenal+genitive+locative
+SFX P3 ir íreginde ir	ds:pronomenal+genitive+locative
+SFX P3 ir íremen ir	ds:pronomenal+reflexive
+SFX P3 ir íremene ir	ds:pronomenal+reflexive
+SFX P3 ir íremende ir	ds:pronomenal+reflexive
+SFX P3 ir íremege ir	ds:pronomenal+reflexive
+SFX P3 ir íresen ir	ds:pronomenal+reflexive
+SFX P3 ir íresene ir	ds:pronomenal+reflexive
+SFX P3 ir íresende ir	ds:pronomenal+reflexive
+SFX P3 ir íresege ir	ds:pronomenal+reflexive
+SFX P3 ir íreten ir	ds:pronomenal+reflexive
+SFX P3 ir íretene ir	ds:pronomenal+reflexive
+SFX P3 ir íretende ir	ds:pronomenal+reflexive
+SFX P3 ir íretege ir	ds:pronomenal+reflexive
+SFX P3 ir íreven ir	ds:pronomenal+reflexive
+SFX P3 ir írevene ir	ds:pronomenal+reflexive
+SFX P3 ir írevende ir	ds:pronomenal+reflexive
+SFX P3 ir írevege ir	ds:pronomenal+reflexive
 SFX P3 0 n ge	ds:pronomenal+genitive+locative
 SFX P3 e in ge	ds:pronomenal+genitive+locative
 SFX P3 0 ne ge	ds:pronomenal+genitive+locative
@@ -5992,7 +6085,7 @@ SFX Q5 iso ísoveƚe iso	is:plural+femenine ds:pronomenal+reflexive
 
 
 # vèrbi pronomenali par '–er (takai)
-SFX P6 Y 29
+SFX P6 Y 58
 SFX P6 0 ge r	ds:pronomenal+locative
 SFX P6 0 gen r	ds:pronomenal+genitive+locative
 SFX P6 0 gin r	ds:pronomenal+genitive+locative
@@ -6022,9 +6115,38 @@ SFX P6 0 ven r	ds:pronomenal+reflexive
 SFX P6 0 vene r	ds:pronomenal+reflexive
 SFX P6 0 vende r	ds:pronomenal+reflexive
 SFX P6 0 vege r	ds:pronomenal+reflexive
+SFX P6 0 ege r	ds:pronomenal+locative
+SFX P6 0 egen r	ds:pronomenal+genitive+locative
+SFX P6 0 egin r	ds:pronomenal+genitive+locative
+SFX P6 0 egene r	ds:pronomenal+genitive+locative
+SFX P6 0 egende r	ds:pronomenal+genitive+locative
+SFX P6 0 egine r	ds:pronomenal+genitive+locative
+SFX P6 0 eme r	ds:pronomenal+reflexive
+SFX P6 0 emen r	ds:pronomenal+reflexive
+SFX P6 0 emene r	ds:pronomenal+reflexive
+SFX P6 0 emende r	ds:pronomenal+reflexive
+SFX P6 0 emege r	ds:pronomenal+reflexive
+SFX P6 0 en r	ds:pronomenal+genitive
+SFX P6 0 ene r	ds:pronomenal+genitive
+SFX P6 0 ede r	ds:pronomenal+genitive
+SFX P6 0 ese r	ds:pronomenal+reflexive
+SFX P6 0 esen r	ds:pronomenal+reflexive
+SFX P6 0 esene r	ds:pronomenal+reflexive
+SFX P6 0 esende r	ds:pronomenal+reflexive
+SFX P6 0 esege r	ds:pronomenal+reflexive
+SFX P6 0 ete r	ds:pronomenal+reflexive
+SFX P6 0 eten r	ds:pronomenal+reflexive
+SFX P6 0 etene r	ds:pronomenal+reflexive
+SFX P6 0 etende r	ds:pronomenal+reflexive
+SFX P6 0 etege r	ds:pronomenal+reflexive
+SFX P6 0 eve r	ds:pronomenal+reflexive
+SFX P6 0 even r	ds:pronomenal+reflexive
+SFX P6 0 evene r	ds:pronomenal+reflexive
+SFX P6 0 evende r	ds:pronomenal+reflexive
+SFX P6 0 evege r	ds:pronomenal+reflexive
 
 # vèrbi pronomenali par '–er (takai senŧa èle vanesente)
-SFX P7 Y 34
+SFX P7 Y 68
 SFX P7 0 gel r	is:singular+masculine ds:pronomenal+locative
 SFX P7 0 gelo r	is:singular+masculine ds:pronomenal+locative
 SFX P7 0 gela r	is:singular+femenine ds:pronomenal+locative
@@ -6059,9 +6181,43 @@ SFX P7 0 velo r	is:singular+masculine ds:pronomenal+reflexive
 SFX P7 0 vela r	is:singular+femenine ds:pronomenal+reflexive
 SFX P7 0 veli r	is:plural+masculine ds:pronomenal+reflexive
 SFX P7 0 vele r	is:plural+femenine ds:pronomenal+reflexive
+SFX P7 0 egel r	is:singular+masculine ds:pronomenal+locative
+SFX P7 0 egelo r	is:singular+masculine ds:pronomenal+locative
+SFX P7 0 egela r	is:singular+femenine ds:pronomenal+locative
+SFX P7 0 egeli r	is:plural+masculine ds:pronomenal+locative
+SFX P7 0 egele r	is:plural+femenine ds:pronomenal+locative
+SFX P7 0 elo r	is:singular+masculine ds:pronomenal+accusative
+SFX P7 0 ela r	is:singular+femenine ds:pronomenal+accusative
+SFX P7 0 eli r	is:plural+masculine ds:pronomenal+accusative
+SFX P7 0 ele r	is:plural+femenine ds:pronomenal+accusative
+SFX P7 0 emel r	is:singular+masculine ds:pronomenal+reflexive
+SFX P7 0 emelo r	is:singular+masculine ds:pronomenal+reflexive
+SFX P7 0 emela r	is:singular+femenine ds:pronomenal+reflexive
+SFX P7 0 emeli r	is:plural+masculine ds:pronomenal+reflexive
+SFX P7 0 emele r	is:plural+femenine ds:pronomenal+reflexive
+SFX P7 0 enel r	is:singular+masculine ds:pronomenal+reflexive
+SFX P7 0 enelo r	is:singular+masculine ds:pronomenal+reflexive
+SFX P7 0 enela r	is:singular+femenine ds:pronomenal+reflexive
+SFX P7 0 eneli r	is:plural+masculine ds:pronomenal+reflexive
+SFX P7 0 enele r	is:plural+femenine ds:pronomenal+reflexive
+SFX P7 0 esel r	is:singular+masculine ds:pronomenal+reflexive
+SFX P7 0 eselo r	is:singular+masculine ds:pronomenal+reflexive
+SFX P7 0 esela r	is:singular+femenine ds:pronomenal+reflexive
+SFX P7 0 eseli r	is:plural+masculine ds:pronomenal+reflexive
+SFX P7 0 esele r	is:plural+femenine ds:pronomenal+reflexive
+SFX P7 0 etel r	is:singular+masculine ds:pronomenal+reflexive
+SFX P7 0 etelo r	is:singular+masculine ds:pronomenal+reflexive
+SFX P7 0 etela r	is:singular+femenine ds:pronomenal+reflexive
+SFX P7 0 eteli r	is:plural+masculine ds:pronomenal+reflexive
+SFX P7 0 etele r	is:plural+femenine ds:pronomenal+reflexive
+SFX P7 0 evel r	is:singular+masculine ds:pronomenal+reflexive
+SFX P7 0 evelo r	is:singular+masculine ds:pronomenal+reflexive
+SFX P7 0 evela r	is:singular+femenine ds:pronomenal+reflexive
+SFX P7 0 eveli r	is:plural+masculine ds:pronomenal+reflexive
+SFX P7 0 evele r	is:plural+femenine ds:pronomenal+reflexive
 
 # vèrbi pronomenali par '–er (takai ko èle vanesente)
-SFX P8 Y 24
+SFX P8 Y 48
 SFX P8 0 geƚo r	is:singular+masculine ds:pronomenal+locative
 SFX P8 0 geƚa r	is:singular+femenine ds:pronomenal+locative
 SFX P8 0 geƚi r	is:plural+masculine ds:pronomenal+locative
@@ -6086,6 +6242,30 @@ SFX P8 0 veƚo r	is:singular+masculine ds:pronomenal+reflexive
 SFX P8 0 veƚa r	is:singular+femenine ds:pronomenal+reflexive
 SFX P8 0 veƚi r	is:plural+masculine ds:pronomenal+reflexive
 SFX P8 0 veƚe r	is:plural+femenine ds:pronomenal+reflexive
+SFX P8 0 egeƚo r	is:singular+masculine ds:pronomenal+locative
+SFX P8 0 egeƚa r	is:singular+femenine ds:pronomenal+locative
+SFX P8 0 egeƚi r	is:plural+masculine ds:pronomenal+locative
+SFX P8 0 egeƚe r	is:plural+femenine ds:pronomenal+locative
+SFX P8 0 emeƚo r	is:singular+masculine ds:pronomenal+reflexive
+SFX P8 0 emeƚa r	is:singular+femenine ds:pronomenal+reflexive
+SFX P8 0 emeƚi r	is:plural+masculine ds:pronomenal+reflexive
+SFX P8 0 emeƚe r	is:plural+femenine ds:pronomenal+reflexive
+SFX P8 0 eneƚo r	is:singular+masculine ds:pronomenal+reflexive
+SFX P8 0 eneƚa r	is:singular+femenine ds:pronomenal+reflexive
+SFX P8 0 eneƚi r	is:plural+masculine ds:pronomenal+reflexive
+SFX P8 0 eneƚe r	is:plural+femenine ds:pronomenal+reflexive
+SFX P8 0 eseƚo r	is:singular+masculine ds:pronomenal+reflexive
+SFX P8 0 eseƚa r	is:singular+femenine ds:pronomenal+reflexive
+SFX P8 0 eseƚi r	is:plural+masculine ds:pronomenal+reflexive
+SFX P8 0 eseƚe r	is:plural+femenine ds:pronomenal+reflexive
+SFX P8 0 eteƚo r	is:singular+masculine ds:pronomenal+reflexive
+SFX P8 0 eteƚa r	is:singular+femenine ds:pronomenal+reflexive
+SFX P8 0 eteƚi r	is:plural+masculine ds:pronomenal+reflexive
+SFX P8 0 eteƚe r	is:plural+femenine ds:pronomenal+reflexive
+SFX P8 0 eveƚo r	is:singular+masculine ds:pronomenal+reflexive
+SFX P8 0 eveƚa r	is:singular+femenine ds:pronomenal+reflexive
+SFX P8 0 eveƚi r	is:plural+masculine ds:pronomenal+reflexive
+SFX P8 0 eveƚe r	is:plural+femenine ds:pronomenal+reflexive
 
 
 # vèrbi pronomenali pal komandativo (destakai)
