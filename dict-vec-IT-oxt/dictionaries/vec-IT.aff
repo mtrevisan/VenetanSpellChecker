@@ -1981,25 +1981,23 @@ SFX iD xerò róelo/A1FS dixerò	ds:conditional+present is:third ds:interrogativ
 # baxe:
 # tèma 1
 # –àr, –ér, '–er, –ír, –ír/is: skomenŧiando da 'l infenío
-SFX tE Y 21
+SFX tE Y 19
 SFX tE ar àʼ ar	ds:infinitive+simple	# T1, buranèl
 SFX tE ïar íi ïar	ds:infinitive+simple	# T1, coxòto
 SFX tE üar úi üar	ds:infinitive+simple	# T1, coxòto
 SFX tE ar i [^ïü]ar	ds:infinitive+simple	# T1, coxòto
-SFX tE íxer ir/P0 díxer	ds:infinitive+simple	# T1 + r(e)
-SFX tE íxer irge/P3 díxer	ds:infinitive+simple	# T1 + r(e)
 SFX tE íxer ire díxer	ds:infinitive+simple	# T1 + r(e)
-SFX tE óner ir/P0P1P2 póner	ds:infinitive+simple	# T1 + r(e)
+SFX tE óner ir póner	ds:infinitive+simple	# T1 + r(e)
 SFX tE óner orge/P3 póner	ds:infinitive+simple	# T1 + r(e)
 SFX tE ner rgel/P4 póner	ds:infinitive+simple	# T1 + r(e)
 SFX tE ner rgeƚo/P5 póner	ds:infinitive+simple	# T1 + r(e)
 SFX tE óner ore póner	ds:infinitive+simple	# T1 + r(e)
-SFX tE úxer ur/P0P1P2 dúxer	ds:infinitive+simple	# T1 + r(e)
+SFX tE úxer ur dúxer	ds:infinitive+simple	# T1 + r(e)
 SFX tE úxer urge/P3 dúxer	ds:infinitive+simple	# T1 + r(e)
 SFX tE xer rgel/P4 dúxer	ds:infinitive+simple	# T1 + r(e)
 SFX tE xer rgeƚo/P5 dúxer	ds:infinitive+simple	# T1 + r(e)
 SFX tE úxer ure dúxer	ds:infinitive+simple	# T1 + r(e)
-SFX tE 0 e/P0P1P2P3P4P5 r	ds:infinitive+simple	# T1 + r(e), padoan/coxòto
+SFX tE 0 e r	ds:infinitive+simple	# T1 + r(e), padoan/coxòto
 SFX tE ir íʼ ir	ds:infinitive+simple	# T1, buranèl
 SFX tE üir úi üir	ds:infinitive+simple	# T1, coxòto
 SFX tE ir i [^ü]ir	ds:infinitive+simple	# T1, coxòto
@@ -3039,7 +3037,7 @@ SFX xB ver piege [aʼ]ver	ds:subjunctive+present is:second+plural	# T12 + é([dg
 SFX xB aver éde aver	ds:subjunctive+imperfect is:second+plural	# T11 + (is)ié([dg]e)
 SFX xB ver biege [aʼ]ver	ds:subjunctive+present is:second+plural	# T12 + é([dg]e)
 SFX xB aver epiege aver	ds:subjunctive+present is:second+plural	# T12 + é([dg]e)
-SFX xB 0 e/P0P1P2P3P4P5 [aʼ]ver	ds:infinitive+simple	# T1 + r(e)
+SFX xB 0 e [aʼ]ver	ds:infinitive+simple	# T1 + r(e)
 SFX xB er area [aʼ]ver	ds:conditional+present is:first+singular	# T4 + réa
 SFX xB er aríimo [aʼ]ver	ds:conditional+present is:first+plural	# T4 + ríimo
 SFX xB er area [aʼ]ver	ds:conditional+present is:second+singular	# T4 + réa
@@ -5323,7 +5321,7 @@ SFX P0 0 0/V1|| r
 SFX P0 0 0/V2|| [^r]
 
 # vèrbi pronomenali (takai)
-SFX P3 Y 286
+SFX P3 Y 193
 SFX P3 0 ge r	ds:pronomenal+genitive+locative
 SFX P3 0 de r	ds:pronomenal+genitive+locative
 SFX P3 ar àrgen ar	ds:pronomenal+genitive+locative
@@ -5399,99 +5397,6 @@ SFX P3 ir írven ir	ds:pronomenal+reflexive
 SFX P3 ir írvene ir	ds:pronomenal+reflexive
 SFX P3 ir írvende ir	ds:pronomenal+reflexive
 SFX P3 ir írvege ir	ds:pronomenal+reflexive
-SFX P3 ar àrege ar	ds:pronomenal+genitive+locative
-SFX P3 er érege er	ds:pronomenal+genitive+locative
-SFX P3 ir írege ir	ds:pronomenal+genitive+locative
-SFX P3 ar àrede ar	ds:pronomenal+genitive+locative
-SFX P3 er érede er	ds:pronomenal+genitive+locative
-SFX P3 ir írede ir	ds:pronomenal+genitive+locative
-SFX P3 ar àregen ar	ds:pronomenal+genitive+locative
-SFX P3 ar àregin ar	ds:pronomenal+genitive+locative
-SFX P3 ar àregene ar	ds:pronomenal+genitive+locative
-SFX P3 ar àregende ar	ds:pronomenal+genitive+locative
-SFX P3 ar àregine ar	ds:pronomenal+genitive+locative
-SFX P3 ar àreginde ar	ds:pronomenal+genitive+locative
-SFX P3 ar àreme ar	ds:pronomenal+reflexive
-SFX P3 er éreme er	ds:pronomenal+reflexive
-SFX P3 ir íreme ir	ds:pronomenal+reflexive
-SFX P3 ar àren ar	ds:pronomenal+genitive
-SFX P3 er éren er	ds:pronomenal+genitive
-SFX P3 ir íren ir	ds:pronomenal+genitive
-SFX P3 ar àrene ar	ds:pronomenal+genitive
-SFX P3 er érene er	ds:pronomenal+genitive
-SFX P3 ir írene ir	ds:pronomenal+genitive
-SFX P3 ar àrede ar	ds:pronomenal+genitive
-SFX P3 er érede er	ds:pronomenal+genitive
-SFX P3 ir írede ir	ds:pronomenal+genitive
-SFX P3 ar àremen ar	ds:pronomenal+reflexive
-SFX P3 ar àremene ar	ds:pronomenal+reflexive
-SFX P3 ar àremende ar	ds:pronomenal+reflexive
-SFX P3 ar àremege ar	ds:pronomenal+reflexive
-SFX P3 ar àrese ar	ds:pronomenal+reflexive
-SFX P3 er érese er	ds:pronomenal+reflexive
-SFX P3 ir írese ir	ds:pronomenal+reflexive
-SFX P3 ar àresen ar	ds:pronomenal+reflexive
-SFX P3 ar àresene ar	ds:pronomenal+reflexive
-SFX P3 ar àresende ar	ds:pronomenal+reflexive
-SFX P3 ar àresege ar	ds:pronomenal+reflexive
-SFX P3 ar àrete ar	ds:pronomenal+reflexive
-SFX P3 er érete er	ds:pronomenal+reflexive
-SFX P3 ir írete ir	ds:pronomenal+reflexive
-SFX P3 ar àreten ar	ds:pronomenal+reflexive
-SFX P3 ar àretene ar	ds:pronomenal+reflexive
-SFX P3 ar àretende ar	ds:pronomenal+reflexive
-SFX P3 ar àretege ar	ds:pronomenal+reflexive
-SFX P3 ar àreve ar	ds:pronomenal+reflexive
-SFX P3 er éreve er	ds:pronomenal+reflexive
-SFX P3 ir íreve ir	ds:pronomenal+reflexive
-SFX P3 ar àreven ar	ds:pronomenal+reflexive
-SFX P3 ar àrevene ar	ds:pronomenal+reflexive
-SFX P3 ar àrevende ar	ds:pronomenal+reflexive
-SFX P3 ar àrevege ar	ds:pronomenal+reflexive
-SFX P3 er éregen er	ds:pronomenal+genitive+locative
-SFX P3 er éregin er	ds:pronomenal+genitive+locative
-SFX P3 er éregene er	ds:pronomenal+genitive+locative
-SFX P3 er éregende er	ds:pronomenal+genitive+locative
-SFX P3 er éregine er	ds:pronomenal+genitive+locative
-SFX P3 er éreginde er	ds:pronomenal+genitive+locative
-SFX P3 er éremen er	ds:pronomenal+reflexive
-SFX P3 er éremene er	ds:pronomenal+reflexive
-SFX P3 er éremende er	ds:pronomenal+reflexive
-SFX P3 er éremege er	ds:pronomenal+reflexive
-SFX P3 er éresen er	ds:pronomenal+reflexive
-SFX P3 er éresene er	ds:pronomenal+reflexive
-SFX P3 er éresende er	ds:pronomenal+reflexive
-SFX P3 er éresege er	ds:pronomenal+reflexive
-SFX P3 er éreten er	ds:pronomenal+reflexive
-SFX P3 er éretene er	ds:pronomenal+reflexive
-SFX P3 er éretende er	ds:pronomenal+reflexive
-SFX P3 er éretege er	ds:pronomenal+reflexive
-SFX P3 er éreven er	ds:pronomenal+reflexive
-SFX P3 er érevene er	ds:pronomenal+reflexive
-SFX P3 er érevende er	ds:pronomenal+reflexive
-SFX P3 er érevege er	ds:pronomenal+reflexive
-SFX P3 ir íregen ir	ds:pronomenal+genitive+locative
-SFX P3 ir íregin ir	ds:pronomenal+genitive+locative
-SFX P3 ir íregene ir	ds:pronomenal+genitive+locative
-SFX P3 ir íregende ir	ds:pronomenal+genitive+locative
-SFX P3 ir íregine ir	ds:pronomenal+genitive+locative
-SFX P3 ir íreginde ir	ds:pronomenal+genitive+locative
-SFX P3 ir íremen ir	ds:pronomenal+reflexive
-SFX P3 ir íremene ir	ds:pronomenal+reflexive
-SFX P3 ir íremende ir	ds:pronomenal+reflexive
-SFX P3 ir íremege ir	ds:pronomenal+reflexive
-SFX P3 ir íresen ir	ds:pronomenal+reflexive
-SFX P3 ir íresene ir	ds:pronomenal+reflexive
-SFX P3 ir íresende ir	ds:pronomenal+reflexive
-SFX P3 ir íresege ir	ds:pronomenal+reflexive
-SFX P3 ir íreten ir	ds:pronomenal+reflexive
-SFX P3 ir íretene ir	ds:pronomenal+reflexive
-SFX P3 ir íretende ir	ds:pronomenal+reflexive
-SFX P3 ir íretege ir	ds:pronomenal+reflexive
-SFX P3 ir íreven ir	ds:pronomenal+reflexive
-SFX P3 ir írevene ir	ds:pronomenal+reflexive
-SFX P3 ir írevende ir	ds:pronomenal+reflexive
-SFX P3 ir írevege ir	ds:pronomenal+reflexive
 SFX P3 0 n ge	ds:pronomenal+genitive+locative
 SFX P3 e in ge	ds:pronomenal+genitive+locative
 SFX P3 0 ne ge	ds:pronomenal+genitive+locative
