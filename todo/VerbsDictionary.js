@@ -3030,6 +3030,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "jol",			"",			2,	3,	"g",	"1855",			"(belumat) Doler.",
 "ɉubil",			"",			1,	1,	"a",	"1775",			"",
 "judeg",			"",			1,	1,	"a",	"1415",			"",
+"judeg",			"pre",		1,	1,	"a",	"13070307",		"(veneŧian)",
 "ɉugul",			"",			1,	1,	"a",	"1829",			"Méter a le strete.",
 "junt",			"",			1,	1,	"a",	"1509",			"",
 "jur",			"",			1,	1,	"a",	"1509",			"",
