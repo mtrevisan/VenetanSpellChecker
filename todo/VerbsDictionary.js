@@ -1782,6 +1782,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "feg",			"boni",		1,	-1,"a",	"1851",			"",
 "feg",			"deversi",	1,	-1,"a",	"",				"",
 "feg",			"dei",		1,	-1,"a",	"1660",			"(veneŧian)",
+"feg",			"di",			1,	-1,"a",	"",				"",
 "feg",			"dolŧi",		1,	-1,"a",	"",				"",
 "feg",			"edi",		1,	-1,"a",	"1412",			"",
 "feg",			"falsi",		1,	-1,"a",	"1775",			"",
