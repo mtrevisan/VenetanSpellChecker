@@ -3,24 +3,24 @@ This file is a summary of the options used in the affix file.
 
 The vec.aff affix file was created from scratch by Mauro Trevisan.
 
-2021/10/06
+2023/01/18
 
 ---------------------------------------------------------------------
 
-t0/l0/70: theme 2, 5, 6, 7 (-àr, -ér, '-er, -ír, -ír/is: base/no vanishing el variant/vanishing el variant)
-t4/1F/7F: theme 4 (-àr, -ér, '-er, -ír, -ír/is: base/northern variant/northern variant for unstressed word)
-c0/c1/c7: theme 1 ('-er: paduan variant)
-n0/n4: theme 2, 4, 7, 11, 12 (-àr, -ér, '-er, -ír, -ír/is: northern variant)
-t1/n1/N9: theme 1 (-àr, -ér, '-er, -ír, -ír/is: base/northern variant/northern variant for unstressed word)
-t2: theme 1 (-ér, '-er: buranèl and coxòto variant)
-p4/l4/74: theme 1, 2, 4 (base central variant/no vanishing el variant central variant/vanishing el variant central variant)
-t8/u8/n8/l8/78: theme 8 (base/base with ü/northern variant/no vanishing el variant/vanishing el variant)
-T8/N8: theme 8 for stressed word (base/northern variant)
-tA/lA/7A: theme 9, 10 (-àr: base/no vanishing el variant/vanishing el variant)
-tE/lE/7E: theme 9, 10 (-ér, '-er, -ír, -ír/is: base/no vanishing el variant/vanishing el variant)
-tB/lB/7B: theme 9, 10 for stressed words (-àr: base/no vanishing el variant/vanishing el variant)
-tC/lC/7C: theme 9, 10 for stressed words (-ér, '-er, -ír, -ír/is: base/no vanishing el variant/vanishing el variant)
-tG/lG/7G: gerund simple (-àr, '-er: base/no vanishing el variant/vanishing el variant)
+tA/lA/7A: theme 2, 5, 6, 7 (-àr, -ér, '-er, -ír, -ír/is: base/no vanishing el variant/vanishing el variant)
+tB/lB/7B: theme 4 (-àr, -ér, '-er, -ír, -ír/is: base/northern variant/northern variant for unstressed word)
+tC/lC/7C: theme 1 ('-er: paduan variant)
+tD/iD: theme 2, 4, 7, 11, 12 (-àr, -ér, '-er, -ír, -ír/is: northern variant)
+tE/nE: theme 1 (-àr, -ér, '-er, -ír, -ír/is: base/northern variant/northern variant for unstressed word)
+tF: theme 1 (-ér, '-er: buranèl and coxòto variant)
+tG/lG/7G: theme 1, 2, 4 (base central variant/no vanishing el variant central variant/vanishing el variant central variant)
+tH/uH/nH/lH/7H: theme 8 (base/base with ü/northern variant/no vanishing el variant/vanishing el variant)
+tI/nI: theme 8 for stressed word (base/northern variant)
+tJ/lJ/7J: theme 9, 10 (-àr: base/no vanishing el variant/vanishing el variant)
+tK/lK/7K: theme 9, 10 (-ér, '-er, -ír, -ír/is: base/no vanishing el variant/vanishing el variant)
+tL/lL/7L: theme 9, 10 for stressed words (-àr: base/no vanishing el variant/vanishing el variant)
+tM/lM/7M: theme 9, 10 for stressed words (-ér, '-er, -ír, -ír/is: base/no vanishing el variant/vanishing el variant)
+tN/lN/7N: gerund simple (-àr, '-er: base/no vanishing el variant/vanishing el variant)
 
 xA: irregular verb (re-?)andar
 xB/xC: irregular verb (re-?)av?er, (re-?)g(av)er, ʼ(v)er
@@ -37,28 +37,34 @@ xN : irregular verb poder
 xO : irregular verb (pre|re|stra)sav?er
 xP : irregular verb (a|as|de|des|es|kon|pro|re|so)tràer
 xQ : irregular verb vardar
-xR : verb fir/[ie]n-dir/re-?dir
+xR : verb (fir|[ie]n-dir|re-?dir)
 
-P0/Pl/P7: pronomenal verbs, detached (-[gmnstv]e(ne) / -([gmstv]e)l[oaie] / -([gmstv]e)ƚ[oaie])
-Q0/Ql/Q7: pronomenal verbs, attached ([gmnstv]e(ne) / ([gmstv]e)l[oaie] / ([gmstv]e)ƚ[oaie])
-R0/Rl/R7: pronomenal verbs for '-er, attached ([gmnstv]e(ne) / ([gmstv]e)l[oaie] / ([gmstv]e)ƚ[oaie])
-S0/Sl/S7: pronomenal verbs for the imperative, detached (-[gmnstv]e(ne) / -([gmstv]e)l[oaie] / -([gmstv]e)ƚ[oaie])
-D0/Dl/D7: pronomenal verbs for the imperative, attached ([gmnstv]e(ne) / ([gmstv]e)l[oaie] / ([gmstv]e)ƚ[oaie])
-FS: sonorization of final consonants (ñ.>nc|ñ[oei], ñ.>in|ñ[oei], ñ.>n|ñ[oei], ñ.>ñ|ñ[oei], b.>p|b[oei], p.>p|p[oei], ...)
-J1/I1: interrogatives for first singular, detached (-(m)i, -n(t)[ei], -[ei]) / attached ((m)i, n(t)[ei], [ei])
-J2/I2: interrogatives for first plural, detached (-i, -n(t)[ei], -[ei]) / attached (i, n(t)[ei], [ei])
-J3/I3/j3: interrogatives for second singular, detached (-(s)tu, -to) / attached ((s)tu, to)
-J4/I4: interrogatives for second plural, detached (-[uo]) / attached ([uo])
+P0-2 + V0-6 + W0-6: pronomenal verbs, detached (-[gmnstv]e(ne) / -([gmstv]e)l([oaie]) / -([gmstv]e)ƚ[oaie])
+P3/P4/P5: pronomenal verbs, attached ([gmnstv]e(ne) / ([gmstv]e)l([oaie]) / ([gmstv]e)ƚ[oaie])
+P6/P7/P8: pronomenal verbs for '-er, attached ([gmnstv]e(ne) / ([gmstv]e)l([oaie]) / ([gmstv]e)ƚ[oaie])
+R0/R1/R2: pronomenal verbs for the imperative, detached
+R3/R4/R5: pronomenal verbs for the imperative, attached
+
+U0-3 + K0-3: interrogatives for first singular, detached (-(m)i, -[jɉ]o, -ɉu, [eo]>-io, -n(t)[ei], -[ei], -(v)e)
+U2-3+U6 + K2-3+K6: interrogatives for first plural, detached (-i, -n(t)[ei], -(t)[ei])
+U7-9 + K7-9: interrogatives for second singular, detached (-(s)tu, -to)
+Z1 + L1: interrogatives for second plural, detached (-[uo])
+Z2-4 + L2-4: interrogatives for second plural, detached (-l([oaie]), -ƚ[oaie])
+Z5 + L5: interrogatives for conditional present first singular, detached (-io)
+I1: interrogatives for first singular, attached ((m)i, n(t)[ei], [ei])
+I2: interrogatives for first plural, attached (i, n(t)[ei], [ei])
+J3/I3: interrogatives for second singular, detached / attached ((s)tu, to)
+I4: interrogatives for second plural, detached (-[uo]) / attached ([uo])
 J5/j5: interrogatives for third, detached (-l[oaie] / -ƚ[oaie])
 I5/i5: interrogatives for third, attached (l[oaie] / ƚ[oaie])
-J6/I6: interrogatives for conditional present first singular, detached (-ïo) / attached (ïo)
-J7/j7: interrogatives for conditional present third, detached (-ave > -ise-l[oaie] / -ave > -ise-ƚ[oaie])
-I7/i7: interrogatives for conditional present third, attached (-ave > -ísel[oaie], -ave > -íseƚ[oaie])
+I6: interrogatives for conditional present first singular, attached (io)
 
-A1: all declinations, adjectives of first class (a>[oaie]|[^oaie], o>i|[^ij]o, .o>i|[ij]o, o>[ae])
-A2: adjectives of second class (a>[aie]|[^oaie], a>[ie])
-F0: feminine plural nouns, adjectives of third class (a>[ei]|[^oaie], a>e, e>i)
-M0: masculine plural nouns (a>[oi]|[^oaie], o>i|[^i]o, .o>i|io, [ae]>i)
+FS: sonorization of final consonants (ñ.>nc|ñ[oei], ñ.>in|ñ[oei], ñ.>n|ñ[oei], ñ.>ñ|ñ[oei], b.>p|b[oei], p.>p|p[oei], ...)
+
+A1: all declinations, adjectives of first class (0>[oaie]|[^oaie], o>i|[^ij]o, .o>i|[ij]o, o>[ae])
+A2: adjectives of second class (0>[aie]|[^oaie], a>[ie])
+F0: feminine plural nouns, adjectives of third class (0>[ei]|[^oaie], a>e, e>i)
+M0: masculine plural nouns (0>[oi]|[^oaie], o>i|[^i]o, .o>i|io, [ae]>i)
 MF: masculine plural nouns (0>e|[èélnr], e>i, 0>i|[aèélnr])
 M1: adding of -io/a to the words in -o/a ([lnr]>.io, [oe]>io, a>ia)
 X0: genderless plural nouns (e>i, [nr]>[nr]i)
@@ -67,7 +73,7 @@ X1: genderless abstract nouns (ade>ae|à|è, ude>úe?)
 B1: feltrin-belumat transformation, plural with transformation '[aeou][ln] > 'Vi (.>i|[èò][ln], a.>ài|a[ln], e.>éi|e[ln], o.>ói|o[ln], u.>úi|u[ln])
 B2: feltrin-belumat transformation, plural with transformation '[aeou][^-]+[aeou][ln] > 'V[^-]+Vi (l>i|[aeouàèéòóú]l, n>i|[aeouàèéòóú]n)
 A5/A6: arsedexe transformation, singular with transformation -'[aiò]vo > -'Vu, neve > neu / '-[ai]vo > '-Vu ([aiò]vo>[àíò]u|[aeiò]vo, ve>u|neve)
-V3/V4/V7: venetian transformation (l>ƚ, j>ɉ, ŧ>s, đ>x)
+Y3/Y4/Y7: venetian transformation (l>ƚ, j>ɉ, ŧ>s, đ>x)
 Vf/Vm/Vx: venetian transformation for femenine/masculine/neuter words (-l>-ƚe)
 Vp: prefix for venetian transformation (lV->ƚV-, jV->ɉV-, ŧV->sV-, đV->xV-)
 Bu: buran language transformation (a[lnr] > à, on > ó)
@@ -100,8 +106,12 @@ o2/o3: altered nouns (-one masc., -one fem.)
 o4: altered nouns (-oni masc.)
 oT/oL: altered nouns (-òto/a, -ƚ-òto/a)
 uZ/uS/uL: altered nouns (-uŧo/a, -uso/a, -ƚ-uso/a)
+?: altered nouns (-oso)
+?: altered nouns (-eso)
+?: altered nouns (-[aeiòu]ko)
+?: altered nouns (-ur)
 
-p2/p3: prefix for bi-/tr[ie]-
+b2/b3: prefix for bi-/tr[ie]-
 ^0/^1/^2/^3/^4/^5/^6/^7/^8: prefix for altered nouns (anti-/tra-/pre-/kapo-/kontra-/kontro-/stra-/mal-/ben-)
 -0/-1: prefix for removal or lowering, and euphonic of de- (de-/de[sx]-)
 +0: prefix for deajectival verbs (i(n)-)
@@ -137,97 +147,106 @@ The following minor suffixes have been ignored, based on frequency counts in the
 
 Dictionaries, works, and documents used:
 
- 1. [20160228] http://www.roebasse.it/diz/zzaa.htm. 20141208, 2269 voci.
- 2. [20160301] Patriarchi, Gasparo. Vocabolario veneziano e padovano coʼ termini e mòdi corrispondenti toscani. I ed. Padova, 1775.
- 3. [20160525] Patriarchi, Gasparo. Vocabolario veneziano e padovano coʼ termini e mòdi corrispondenti toscani. II ed. Padova, 1796.
- 4. [20160530] Patriarchi, Gasparo. Vocabolario veneziano e padovano coʼ termini e mòdi corrispondenti toscani. III ed. Padova, 1821.
- 5. [20160612] Bortolan, Domenico. Vocabolario del dialetto antico vicentino (dal secolo XIV a tutto il secolo XVI). Vicenza, 1893.
- 6. [20160704] Venturi, Giuseppe. Saggio di un dizionario veronese-italiano. Verona, 1810.
- 7. [20160706] Angeli, Gaetano. Piccolo vocabolario veronese e toscano. Verona, 1821.
- 8. [20160717] Dizionario tascabile del dialetto veneziano: come viene usitato anche nelle provincie di Padova di Vicenza e di Treviso, coi termini toscani corrispondenti or ora abbreviato e ridotto a comodità di tutti. Padova, 1847.
- 9. [20160725] Mutinelli, Fabio. Lessico veneto: compilato per agevolare la lettura della storia dellʼantica repubblica veneta e lo studio dei documenti ad esse relativi. Venezia, 1852.
-10. [20160731] Contarini, Pietro. Dizionario tascabile delle voci e frasi particolari del dialetto veneziano. II ed. Venezia, 1852.
-11. [20160816] da Schio, Giovanni. Saggio del dialetto vicentino, uno dei veneti, ossia, raccolta di voci usate a Vicenza, per servire alla storia del suo popolo e della sua civiltà. Estratto dʼopera assai maggiore. Padova, 1855.
-12. [20160817] Boerio, Giuseppe. Dizionario del dialetto veneziano. I ed. Venezia, 1829.
-13. [20180322] Boerio, Giuseppe. Dizionario del dialetto veneziano. II ed. Venezia, 1856.
-14. [20180329] Boerio, Giuseppe. Dizionario del dialetto veneziano. III ed. Venezia, 1867.
-15. [20180329] Paoletti, Ermolao. Dizionario tascabile veneziano-italiano. I ed. Venezia, 1851.
-16. [20181122] Paoletti, Ermolao. Dizionario tascabile veneziano-italiano. II ed. Venezia, 1874.
-17. [20181122] Pajello, Luigi. Dizionario vicentino-italiano e italiano-vicentino. Vicenza, 1896.
-18. [20190127] Nazari, Giulio. Dizionario veneziano-italiano e regole di grammatica ad uso delle scuole elementari di Venezia. II ed. Belluno, 1876.
-19. [20190223] Nazari, Giulio. Dizionario vicentino-italiano e regole di grammatica ad uso delle scuole elementari di Vicenza. Oderzo, 1876.
-20. [20190327] Contarini, Pietro. Vocabolario portabile del dialetto veneziano. III ed. Venezia, 1888.
-21. [20190417] Bindoni, Vincenzo. Vocabolarietto del dialetto trevigiano ad uso delle scuole. Treviso, 1884.
-22. [20190430] Nazari, Giulio. Parallelo fra il dialetto bellunese rustico e la lingua italiana. Belluno, 1894.
-23. [20190619] Kosovitz, Ernesto. Dizionario del dialetto triestino e della lingua italiana. Trieste, 1877.
-24. [20190710] Patuzzi, Gaetano Lionello; Bolognini, Giorgio; Bolognini, Adolfo. Piccolo dizionario del dialetto moderno della città di Verona. Verona, 1900.
-25. [20190904] Padoan, Lorenzo. Saggiuoli clodiensi - Un poʼ dʼappendice al Boerio, a maggior illustrazione del dialetto di Chioggia. Adria, 1906.
-26. [20190909] Piccio, Giuseppe. Dizionario veneziano-italiano. II ed. Venezia, 1928.
-27. [20191107] Vienna, Carlo. Vocabolario bellunese-italiano. 1844-1855.
-28. [20200527] Zanette, Emilio. Dizionario del dialetto di Vittorio Veneto. II ed. Vittorio Veneto, 1980.
-29. [20210129] Varotari, Dario. Il vespaio stuzzicato - satire veneziane. Venezia, 1671.
-30. [20210130] da Castello, Paolo. Egloga minore (di Busat e Croch). primi 1500.
-31. [20210202] Zancanaro, Walter. Dizionario di Incino d'Arsiè. 2012.
-32. [20210204] de Marchi, Valentino. Su Rivai dʼArsié e il suo dialetto. 2016.
-33. [20210209] Marcato, Carla. La parlata canevese. 1997.
-34. [20210210] https://www.vieceli.it/curiosita/dialetto-de-belun. 2018.
-35. [20210217] Forzatè, Claudio (poeta e nobile padovano, noto con lo pseudonimo di Scareggio Tandarello). ca. 1550-1610.
-36. [20210219] deʼ Calderari, Giovan Battista (poeta vicentino, noto con lo pseudonimo di Caldiera Braghin di Forabusi da Bolzan). ca. 1541-15900105.
-37. [20210302] Tomasin, Lorenzo. Calendario trecentesco delle feste per la scuola di san Martino di Belluno. In "Storia della lingua e filologia". Firenze, 2004. pp. 159-76.
-38. [20210303] Tomasin, Lorenzo. Quindici testi veneziani 1300-1310. In "Lingua e stile", XLVIII. 201306. pp 3-48.
-39. [20210305] https://www.fierun.com/blank. 2021.
-40. [20210305] nodaro Belli Niccolò di Venezia. Venezia, 129709.
-41. [20210305] codice Palatino 2613. Venezia, ante 1333.
-42. [20210305] atti giudiziari Lio Mazor. Venezia, 1312-1314.
-43. [20210305] chiostro della Scuola Grande di Santa Maria della Carità. Venezia, 1348. (https://www.treccani.it/enciclopedia/la-formazione-dello-stato-patrizio-la-vita-civile-e-religiosa-la-lingua_(Storia-di-Venezia)/)
-44. [20210305] chiesa di San Matteo di Rialto. Venezia, 1384.
-45. [20210305] Capitolar dale broche. Venezia, 1376.
-46. [20210308] Venier, Maffío. La strazzosa. Venezia, 1550-1586.
-47. [20210308] Ingegneri, Angelo. Poeti antichi del dialetto veneziano. Venezia, 1550-1613.
-48. [20210308] terminazione. Venezia, 16270308, 16280311.
-49. [20210308] Barbaro, Marco. Orazioni criminali. Venezia, 1786.
-50. [20210308] de las Casas, Cristóbal. Vocabulario de las dos lenguas toscana y castellana. Seville, 1582.
-51. [20210308] Ricci, Teodora. lettere. Venezia, 17740722, 178309.
-52. [20210308] Clario, Benedetto. Il primo canto de Orlando furioso in lingua venetiana. Composto per Benedetto Clario per dar piacer a gli suoi amici (framento). Venezia, 1554.
-53. [20210310] Reffo, Irene. Lingua e storia degli antichi mestieri veneziani. Padova, 2017.
-54. [20210311] Zaratin, Zanin. deliberazione del Consiglio dei Dieci. Venezia, 1399.
-55. [20210311] mariégola de i remèri. Venezia, 1381, 1411, 1419, 1519, 1653.
-56. [20210311] Canal, Cristoforo. Dialogo sul remo. Venezia, 1553-1554.
-57. [20210311] mariégola de i barcaroli. Venezia, 1517.
-58. [20210311] nodaro Novello Giuliano di Treviso. Treviso, 15451121.
-59. [20210316] Boschini, Marco. La carta del navegar pitoresco. Venezia, 1660.
-60. [20210722] Nàccari, Ricardo; Boscolo, Giorgio. Vocabolario del dialetto chioggiotto. Chioggia, 1982. [parziale]
-61. [20210722] Doria, Mario. Grande dizionario del dialetto triestino. Trieste, 1987. [parziale]
-62. [20210722] Pichi, Iseppo. Traduzion dal toscan in lengua veneziana de Bertoldo, Bertoldin, e Cacasseno : con i argomenti, allegorìe, spiegazion dele parole, e frase veneziane, che no fusse capìe in ogni logo, stampae in sto caratere. Padova, 1747.
-63. [20211007] Nardo Cibele, Angela. Studi sul dialetto di Burano. Venezia, 1898.
-64. [20211007] Atti del podestà di Torcello. Torcello, 13120614, 13120619, 13120621, 13120701.
-65. [20211013] Garlato, Agostino. Canti del popolo di Chioggia. Venezia, 1883.
-66. [20211023] Navigatio Sancti Brendani. XV sec.
-67. [20211109] Nardo, Giovanni Domenico. Considerazioni filologiche sull'importanza dello studio comparativo dei dialetti rustici. Venezia, 1869.
-68. [20211110] Mazzaro, Stefano. Alcune osservazioni sulla lingua di Paolo da Castello. In "Saggi dialettologici in area italo-romanza". Padova, 2002.
-69. [20211110] Mondini, Tomaso. El Goffredo del Tasso cantà alla Barcariola. Venezia, 1683.
-70. [20220209] Marcone, Valentina. I dizionari dialettali moderni del veronese (1986-2005). Venezia, 2012.
-71. [20220209] Balbi, Domenico. Il Ligamatti - Cioè raccolte morali in lingua venetiana, estese in quaderni. Venezia, 16750626.
-72. [20220225] Balbi, Domenico. Il Castigamatti, opera morale quaderni in lingua venetiana. Venezia, 16830521.
-73. [20220314] Zini, Pietro. La volpe hà lassà el pelo sotto Vienna. Venezia, 1684.
-74. [20220317] Ninni, Alessandro Pericle. Scritti dialettologici e folkloristici veneti - Materiali per un vocabolario della lingua rusticana del contado di Treviso. Serie I e II. Venezia, 1891.
-75. [20220401] Ninni, Alessandro Pericle. Scritti dialettologici e folkloristici veneti - Materiali per un vocabolario della lingua rusticana del contado di Treviso. Serie III. Venezia, 189210.
-76. [20220407] Ninni, Alessandro Pericle. Scritti dialettologici e folkloristici veneti - Opuscoli vari - La caccia degli uccelli acquatici nelle valli del veneto estuario. Venezia, 1890.
-77. [20220407] Ninni, Alessandro Pericle. Scritti dialettologici e folkloristici veneti - Opuscoli vari - Voci bambinesche della lingua vernacola veneziana. Venezia, 18900709.
-78. [20220408] Ninni, Alessandro Pericle. Giunte e correzioni al dizionario del dialetto veneziano. Serie I e II. Venezia, 1890.
-79. [20220415] Ninni, Alessandro Pericle. Giunte e correzioni al dizionario del dialetto veneziano. Serie III. Venezia, 18900722.
-80. [20220429] Musatti, Cesare. Amor materno nel dialetto veneziano. Venezia, 18860919.
-81. [20220503] El castelo d'amor - Festa Trevisana fata el secondo dì dele Pentecoste l'ano 1214. Treviso, 184609.
-82. [20220505] Barbaro, Nicolò. Giornale dell'assedio di Costantinopoli 1453. Vienna, 185511.
-83. [20220518] Bonicelli, Giovanni. Pantalone bullo, overo La pusillanimità coverta. Venezia, 1688.
-84. [20220519] Bonicelli, Giovanni. Pantalon spezier. Venezia, 1693.
-85. [20220519] Mondini, Tomaso. Pantalone mercante fallito. Venezia, 1693.
-86. [20220523] Formentin, Vittorio. Rendiconti duecenteschi in volgare dall'archivio dei Procuratori di san Marco. Bologna. 201406.
-87. [20220524] Canzone di Auliver. Treviso. XIII.
-88. [20220524] Panontin, Francesca. Antichi testi trevigiani [1347-1350]. 2017.
-89. [20220526] Cavassico, Bartolomeo. Le rime di Bartolomeo Cavassico notaio bellunese della prima metà del secolo XVI. Bologna, 1893.
-90. [20220621] Pasqualigo, Cristoforo. Raccolta di proverbi veneti. III ed. Treviso, 1882.
-91. [20220706] Baffo, Giorgio. Raccolta universale delle opere di Giorgio Baffo veneto. Cosmopoli, 1789.
+  1. [20160228] http://www.roebasse.it/diz/. 20141208, 2269 voci.
+  2. [20160301] Patriarchi, Gasparo. Vocabolario veneziano e padovano coʼ termini e mòdi corrispondenti toscani. I ed. Padova, 1775.
+  3. [20160525] Patriarchi, Gasparo. Vocabolario veneziano e padovano coʼ termini e mòdi corrispondenti toscani. II ed. Padova, 1796.
+  4. [20160530] Patriarchi, Gasparo. Vocabolario veneziano e padovano coʼ termini e mòdi corrispondenti toscani. III ed. Padova, 1821.
+  5. [20160612] Bortolan, Domenico. Vocabolario del dialetto antico vicentino (dal secolo XIV a tutto il secolo XVI). Vicenza, 1893.
+  6. [20160704] Venturi, Giuseppe. Saggio di un dizionario veronese–italiano. Verona, 1810.
+  7. [20160706] Angeli, Gaetano. Piccolo vocabolario veronese e toscano. Verona, 1821.
+  8. [20160717] Dizionario tascabile del dialetto veneziano: come viene usitato anche nelle provincie di Padova di Vicenza e di Treviso, coi termini toscani corrispondenti or ora abbreviato e ridotto a comodità di tutti. Padova, 1847.
+  9. [20160725] Mutinelli, Fabio. Lessico veneto: compilato per agevolare la lettura della storia dellʼantica repubblica veneta e lo studio dei documenti ad esse relativi. Venezia, 1852.
+ 10. [20160731] Contarini, Pietro. Dizionario tascabile delle voci e frasi particolari del dialetto veneziano. II ed. Venezia, 1852.
+ 11. [20160816] da Schio, Giovanni. Saggio del dialetto vicentino, uno dei veneti, ossia, raccolta di voci usate a Vicenza, per servire alla storia del suo popolo e della sua civiltà. Estratto dʼopera assai maggiore. Padova, 1855.
+ 12. [20160817] Boerio, Giuseppe. Dizionario del dialetto veneziano. I ed. Venezia, 1829.
+ 13. [20180322] Boerio, Giuseppe. Dizionario del dialetto veneziano. II ed. Venezia, 1856.
+ 14. [20180329] Boerio, Giuseppe. Dizionario del dialetto veneziano. III ed. Venezia, 1867.
+ 15. [20180329] Paoletti, Ermolao. Dizionario tascabile veneziano–italiano. I ed. Venezia, 1851.
+ 16. [20181122] Paoletti, Ermolao. Dizionario tascabile veneziano–italiano. II ed. Venezia, 1874.
+ 17. [20181122] Pajello, Luigi. Dizionario vicentino–italiano e italiano–vicentino. Vicenza, 1896.
+ 18. [20190127] Nazari, Giulio. Dizionario veneziano–italiano e regole di grammatica ad uso delle scuole elementari di Venezia. II ed. Belluno, 1876.
+ 19. [20190223] Nazari, Giulio. Dizionario vicentino–italiano e regole di grammatica ad uso delle scuole elementari di Vicenza. Oderzo, 1876.
+ 20. [20190327] Contarini, Pietro. Vocabolario portabile del dialetto veneziano. III ed. Venezia, 1888.
+ 21. [20190417] Bindoni, Vincenzo. Vocabolarietto del dialetto trevigiano ad uso delle scuole. Treviso, 1884.
+ 22. [20190430] Nazari, Giulio. Parallelo fra il dialetto bellunese rustico e la lingua italiana. Belluno, 1894.
+ 23. [20190619] Kosovitz, Ernesto. Dizionario del dialetto triestino e della lingua italiana. Trieste, 1877.
+ 24. [20190710] Patuzzi, Gaetano Lionello; Bolognini, Giorgio; Bolognini, Adolfo. Piccolo dizionario del dialetto moderno della città di Verona. Verona, 1900.
+ 25. [20190904] Padoan, Lorenzo. Saggiuoli clodiensi — Un poʼ dʼappendice al Boerio, a maggior illustrazione del dialetto di Chioggia. Adria, 1906.
+ 26. [20190909] Piccio, Giuseppe. Dizionario veneziano–italiano. II ed. Venezia, 1928.
+ 27. [20191107] Vienna, Carlo. Vocabolario bellunese–italiano. 1844–1855.
+ 28. [20200527] Zanette, Emilio. Dizionario del dialetto di Vittorio Veneto. II ed. Vittorio Veneto, 1980.
+ 29. [20210129] Varotari, Dario. Il vespaio stuzzicato — satire veneziane. Venezia, 1671.
+ 30. [20210130] da Castello, Paolo. Egloga minore (di Busat e Croch). primi 1500.
+ 31. [20210202] Zancanaro, Walter. Dizionario di Incino dʼArsiè. 2012.
+ 32. [20210204] de Marchi, Valentino. Su Rivai dʼArsié e il suo dialetto. 2016.
+ 33. [20210209] Marcato, Carla. La parlata canevese. 1997.
+ 34. [20210210] https://www.vieceli.it/curiosita/dialetto-de-belun. 2018.
+ 35. [20210217] Forzatè, Claudio (poeta e nobile padovano, noto con lo pseudonimo di Scareggio Tandarello). ca. 1550–1610.
+ 36. [20210219] deʼ Calderari, Giovan Battista (poeta vicentino, noto con lo pseudonimo di Caldiera Braghin di Forabusi da Bolzan). ca. 1541–15900105.
+ 37. [20210302] Tomasin, Lorenzo. Calendario trecentesco delle feste per la scuola di san Martino di Belluno. In "Storia della lingua e filologia". Firenze, 2004. pp. 159–76.
+ 38. [20210303] Tomasin, Lorenzo. Quindici testi veneziani 1300–1310. In "Lingua e stile", XLVIII. 201306. pp 3–48.
+ 39. [20210305] https://www.fierun.com/blank. 2021.
+ 40. [20210305] nodaro Belli Niccolò di Venezia. Venezia, 129709.
+ 41. [20210305] codice Palatino 2613. Venezia, ante 1333.
+ 42. [20210305] atti giudiziari Lio Mazor. Venezia, 1312–1314.
+ 43. [20210305] chiostro della Scuola Grande di Santa Maria della Carità. Venezia, 1348. (https://www.treccani.it/enciclopedia/la-formazione-dello-stato-patrizio-la-vita-civile-e-religiosa-la-lingua_(Storia-di-Venezia)/)
+ 44. [20210305] chiesa di San Matteo di Rialto. Venezia, 1384.
+ 45. [20210305] Capitolar dale broche. Venezia, 1376.
+ 46. [20210308] Venier, Maffío. La strazzosa. Venezia, 1550–1586.
+ 47. [20210308] Ingegneri, Angelo. Poeti antichi del dialetto veneziano. Venezia, 1550–1613.
+ 48. [20210308] terminazione. Venezia, 16270308, 16280311.
+ 49. [20210308] Barbaro, Marco. Orazioni criminali. Venezia, 1786.
+ 50. [20210308] de las Casas, Cristóbal. Vocabulario de las dos lenguas toscana y castellana. Seville, 1582.
+ 51. [20210308] Ricci, Teodora. lettere. Venezia, 17740722, 178309.
+ 52. [20210308] Clario, Benedetto. Il primo canto de Orlando furioso in lingua venetiana. Composto per Benedetto Clario per dar piacer a gli suoi amici (framento). Venezia, 1554.
+ 53. [20210310] Reffo, Irene. Lingua e storia degli antichi mestieri veneziani. Padova, 2017.
+ 54. [20210311] Zaratin, Zanin. deliberazione del Consiglio dei Dieci. Venezia, 1399.
+ 55. [20210311] mariégola de i remèri. Venezia, 1381, 1411, 1419, 1519, 1653.
+ 56. [20210311] Canal, Cristoforo. Dialogo sul remo. Venezia, 1553–1554.
+ 57. [20210311] mariégola de i barcaroli. Venezia, 1517.
+ 58. [20210311] nodaro Novello Giuliano di Treviso. Treviso, 15451121.
+ 59. [20210316] Boschini, Marco. La carta del navegar pitoresco. Venezia, 1660.
+ 60. [20210722] Nàccari, Ricardo; Boscolo, Giorgio. Vocabolario del dialetto chioggiotto. Chioggia, 1982. [parziale]
+ 61. [20210722] Doria, Mario. Grande dizionario del dialetto triestino. Trieste, 1987. [parziale]
+ 62. [20210722] Pichi, Iseppo. Traduzion dal toscan in lengua veneziana de Bertoldo, Bertoldin, e Cacasseno : con i argomenti, allegorìe, spiegazion dele parole, e frase veneziane, che no fusse capìe in ogni logo, stampae in sto caratere. Padova, 1747.
+ 63. [20211007] Nardo Cibele, Angela. Studi sul dialetto di Burano. Venezia, 1898.
+ 64. [20211007] Atti del podestà di Torcello. Torcello, 13120614, 13120619, 13120621, 13120701.
+ 65. [20211013] Garlato, Agostino. Canti del popolo di Chioggia. Venezia, 1883.
+ 66. [20211023] Navigatio Sancti Brendani. XV sec.
+ 67. [20211109] Nardo, Giovanni Domenico. Considerazioni filologiche sullʼimportanza dello studio comparativo dei dialetti rustici. Venezia, 1869.
+ 68. [20211110] Mazzaro, Stefano. Alcune osservazioni sulla lingua di Paolo da Castello. In "Saggi dialettologici in area italo–romanza". Padova, 2002.
+ 69. [20211110] Mondini, Tomaso. El Goffredo del Tasso cantà alla Barcariola. Venezia, 1683.
+ 70. [20220209] Marcone, Valentina. I dizionari dialettali moderni del veronese (1986–2005). Venezia, 2012.
+ 71. [20220209] Balbi, Domenico. Il Ligamatti — Cioè raccolte morali in lingua venetiana, estese in quaderni. Venezia, 16750626.
+ 72. [20220225] Balbi, Domenico. Il Castigamatti, opera morale quaderni in lingua venetiana. Venezia, 16830521.
+ 73. [20220314] Zini, Pietro. La volpe hà lassà el pelo sotto Vienna. Venezia, 1684.
+ 74. [20220317] Ninni, Alessandro Pericle. Scritti dialettologici e folkloristici veneti — Materiali per un vocabolario della lingua rusticana del contado di Treviso. Serie I e II. Venezia, 1891.
+ 75. [20220401] Ninni, Alessandro Pericle. Scritti dialettologici e folkloristici veneti — Materiali per un vocabolario della lingua rusticana del contado di Treviso. Serie III. Venezia, 189210.
+ 76. [20220407] Ninni, Alessandro Pericle. Scritti dialettologici e folkloristici veneti — Opuscoli vari — La caccia degli uccelli acquatici nelle valli del veneto estuario. Venezia, 1890.
+ 77. [20220407] Ninni, Alessandro Pericle. Scritti dialettologici e folkloristici veneti — Opuscoli vari — Voci bambinesche della lingua vernacola veneziana. Venezia, 18900709.
+ 78. [20220408] Ninni, Alessandro Pericle. Giunte e correzioni al dizionario del dialetto veneziano. Serie I e II. Venezia, 1890.
+ 79. [20220415] Ninni, Alessandro Pericle. Giunte e correzioni al dizionario del dialetto veneziano. Serie III. Venezia, 18900722.
+ 80. [20220429] Musatti, Cesare. Amor materno nel dialetto veneziano. Venezia, 18860919.
+ 81. [20220503] El castelo dʼamor — Festa Trevisana fata el secondo dí dele Pentecoste lʼano 1214. Treviso, 184609.
+ 82. [20220505] Barbaro, Nicolò. Giornale dellʼassedio di Costantinopoli 1453. Vienna, 185511.
+ 83. [20220518] Bonicelli, Giovanni. Pantalone bullo, overo La pusillanimità coverta. Venezia, 1688.
+ 84. [20220519] Bonicelli, Giovanni. Pantalon spezier. Venezia, 1693.
+ 85. [20220519] Mondini, Tomaso. Pantalone mercante fallito. Venezia, 1693.
+ 86. [20220523] Formentin, Vittorio. Rendiconti duecenteschi in volgare dallʼarchivio dei Procuratori di san Marco. Bologna. 201406.
+ 87. [20220524] Canzone di Auliver. Treviso. XIII.
+ 88. [20220524] Panontin, Francesca. Antichi testi trevigiani [1347–1350]. 2017.
+ 89. [20220526] Cavassico, Bartolomeo. Le rime di Bartolomeo Cavassico notaio bellunese della prima metà del secolo XVI. Bologna, 1893.
+ 90. [20220621] Pasqualigo, Cristoforo. Raccolta di proverbi veneti. III ed. Treviso, 1882.
+ 91. [20220706] Baffo, Giorgio. Raccolta universale delle opere di Giorgio Baffo veneto. Cosmopoli, 1789.
+ 92. [20220901] Tomasin, Lorenzo. Il volgare nella cancelleria veneziana fra Tre e Quattrocento. In "Medioevo letterario dʼItalia", vol. 4. Pisa, 2007.
+ 93. [20220901] Bernoni, Domenico Giuseppe. Fiabe e novelle popolari veneziane. Venezia, 187305.
+ 94. [20220915] Gamba, Bartolommeo. Raccolta di poesie in dialetto veneziano dʼogni secolo nuovamente ordinata ed accresciuta. Venezia, 1845.
+ 95. [20230215] Bernoni, Domenico Giuseppe. Credenze popolari veneziane raccolte da Domenico Giuseppe Bernoni. Venezia, 187408.
+ 99. [20230216] Bernoni, Domenico Giuseppe. Tradizioni popolari veneziane raccolte da Domenico Giuseppe Bernoni. Venezia, 1875.
+100. [20230227] Bernoni, Domenico Giuseppe. Leggende fantastiche popolari veneziane raccolte da Domenico Giuseppe Bernoni. Venezia, 1873.
+101. [20230227] Bernoni, Domenico Giuseppe. Le strighe — Leggende popolari veneziane raccolte da Domenico Giuseppe Bernoni. Venezia, 1874.
+102. [20230302] Bernoni, Domenico Giuseppe. Indovinelli popolari veneziani raccolti da Domenico Giuseppe Bernoni. Venezia, 1874.
+103. [20230302] Bertanza, Enrico; Lazzarini, Vittorio. Il dialetto veneziano - fino alla morte di Dante Alighieri, 1321. Venezia, 1891.
 
 ---------------------------------------------------------------------
 
@@ -292,7 +311,7 @@ NO: -r[lm], -ndr
 
 -u[m]e
 -ul[đx]e
--u[dkfgmñpstŧx]o
+-u[dkfgjmñpstŧx]o
 -ul[đsx]o
 -ur[t]o
 -us[kt]o
