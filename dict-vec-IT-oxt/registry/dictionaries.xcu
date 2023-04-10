@@ -4,35 +4,35 @@
 	<node oor:name="Dictionaries">
 		<node oor:name="HunSpellDic_vec" oor:op="fuse">
 			<prop oor:name="Locations" oor:type="oor:string-list">
-				<value>%origin%/../dictionaries/vec-IT.aff %origin%/../dictionaries/vec-IT.dic</value>
+				<value>%origin%/../dictionaries/vec.aff %origin%/../dictionaries/vec.dic</value>
 			</prop>
 			<prop oor:name="Format" oor:type="xs:string">
 				<value>DICT_SPELL</value>
 			</prop>
 			<prop oor:name="Locales" oor:type="oor:string-list">
-				<value>vec-IT</value>
+				<value>vec</value>
 			</prop>
 		</node>
 		<node oor:name="HyphDic_vec" oor:op="fuse">
 			<prop oor:name="Locations" oor:type="oor:string-list">
-				<value>%origin%/../dictionaries/hyph_vec-IT.dic</value>
+				<value>%origin%/../dictionaries/hyph_vec.dic</value>
 			</prop>
 			<prop oor:name="Format" oor:type="xs:string">
 				<value>DICT_HYPH</value>
 			</prop>
 			<prop oor:name="Locales" oor:type="oor:string-list">
-				<value>vec-IT</value>
+				<value>vec</value>
 			</prop>
 		</node>
 		<node oor:name="ThesDic_vec" oor:op="fuse">
 			<prop oor:name="Locations" oor:type="oor:string-list">
-				<value>%origin%/../dictionaries/th_vec-IT_v2.dat %origin%/../dictionaries/th_vec-IT_v2.idx</value>
+				<value>%origin%/../dictionaries/th_vec_v2.dat %origin%/../dictionaries/th_vec_v2.idx</value>
 			</prop>
 			<prop oor:name="Format" oor:type="xs:string">
 				<value>DICT_THES</value>
 			</prop>
 			<prop oor:name="Locales" oor:type="oor:string-list">
-				<value>vec-IT</value>
+				<value>vec</value>
 			</prop>
 		</node>
 	</node>
