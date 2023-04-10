@@ -11,7 +11,72 @@
 			</prop>
 			<prop oor:name="Locales" oor:type="oor:string-list">
 				<value>vec</value>
+			</prop>
+		</node>
+		<node oor:name="HunSpellDic_vec_IT" oor:op="fuse">
+			<prop oor:name="Locations" oor:type="oor:string-list">
+				<value>%origin%/../dictionaries/vec.aff %origin%/../dictionaries/vec.dic</value>
+			</prop>
+			<prop oor:name="Format" oor:type="xs:string">
+				<value>DICT_SPELL</value>
+			</prop>
+			<prop oor:name="Locales" oor:type="oor:string-list">
 				<value>vec-IT</value>
+			</prop>
+		</node>
+		<node oor:name="HunSpellDic_vec_HR" oor:op="fuse">
+			<prop oor:name="Locations" oor:type="oor:string-list">
+				<value>%origin%/../dictionaries/vec.aff %origin%/../dictionaries/vec.dic</value>
+			</prop>
+			<prop oor:name="Format" oor:type="xs:string">
+				<value>DICT_SPELL</value>
+			</prop>
+			<prop oor:name="Locales" oor:type="oor:string-list">
+				<value>vec-HR</value>
+			</prop>
+		</node>
+		<node oor:name="HunSpellDic_vec_SI" oor:op="fuse">
+			<prop oor:name="Locations" oor:type="oor:string-list">
+				<value>%origin%/../dictionaries/vec.aff %origin%/../dictionaries/vec.dic</value>
+			</prop>
+			<prop oor:name="Format" oor:type="xs:string">
+				<value>DICT_SPELL</value>
+			</prop>
+			<prop oor:name="Locales" oor:type="oor:string-list">
+				<value>vec-SI</value>
+			</prop>
+		</node>
+		<node oor:name="HunSpellDic_vec_BR" oor:op="fuse">
+			<prop oor:name="Locations" oor:type="oor:string-list">
+				<value>%origin%/../dictionaries/vec.aff %origin%/../dictionaries/vec.dic</value>
+			</prop>
+			<prop oor:name="Format" oor:type="xs:string">
+				<value>DICT_SPELL</value>
+			</prop>
+			<prop oor:name="Locales" oor:type="oor:string-list">
+				<value>vec-BR</value>
+			</prop>
+		</node>
+		<node oor:name="HunSpellDic_vec_MX" oor:op="fuse">
+			<prop oor:name="Locations" oor:type="oor:string-list">
+				<value>%origin%/../dictionaries/vec.aff %origin%/../dictionaries/vec.dic</value>
+			</prop>
+			<prop oor:name="Format" oor:type="xs:string">
+				<value>DICT_SPELL</value>
+			</prop>
+			<prop oor:name="Locales" oor:type="oor:string-list">
+				<value>vec-MX</value>
+			</prop>
+		</node>
+		<node oor:name="HunSpellDic_vec_RO" oor:op="fuse">
+			<prop oor:name="Locations" oor:type="oor:string-list">
+				<value>%origin%/../dictionaries/vec.aff %origin%/../dictionaries/vec.dic</value>
+			</prop>
+			<prop oor:name="Format" oor:type="xs:string">
+				<value>DICT_SPELL</value>
+			</prop>
+			<prop oor:name="Locales" oor:type="oor:string-list">
+				<value>vec-RO</value>
 			</prop>
 		</node>
 		<node oor:name="HyphDic_vec" oor:op="fuse">
@@ -23,7 +88,73 @@
 			</prop>
 			<prop oor:name="Locales" oor:type="oor:string-list">
 				<value>vec</value>
+			</prop>
+		</node>
+		<node oor:name="HyphDic_vec" oor:op="fuse">
+			<prop oor:name="Locations" oor:type="oor:string-list">
+				<value>%origin%/../dictionaries/hyph_vec.dic</value>
+			</prop>
+			<prop oor:name="Format" oor:type="xs:string">
+				<value>DICT_HYPH</value>
+			</prop>
+			<prop oor:name="Locales" oor:type="oor:string-list">
+				<value>vec</value>
+			</prop>
+		</node>
+		<node oor:name="HyphDic_vec_IT" oor:op="fuse">
+			<prop oor:name="Locations" oor:type="oor:string-list">
+				<value>%origin%/../dictionaries/hyph_vec.dic</value>
+			</prop>
+			<prop oor:name="Format" oor:type="xs:string">
+				<value>DICT_HYPH</value>
+			</prop>
+			<prop oor:name="Locales" oor:type="oor:string-list">
 				<value>vec-IT</value>
+			</prop>
+		</node>
+		<node oor:name="HyphDic_vec_HR" oor:op="fuse">
+			<prop oor:name="Locations" oor:type="oor:string-list">
+				<value>%origin%/../dictionaries/hyph_vec.dic</value>
+			</prop>
+			<prop oor:name="Format" oor:type="xs:string">
+				<value>DICT_HYPH</value>
+			</prop>
+			<prop oor:name="Locales" oor:type="oor:string-list">
+				<value>vec-HR</value>
+			</prop>
+		</node>
+		<node oor:name="HyphDic_vec_SI" oor:op="fuse">
+			<prop oor:name="Locations" oor:type="oor:string-list">
+				<value>%origin%/../dictionaries/hyph_vec.dic</value>
+			</prop>
+			<prop oor:name="Format" oor:type="xs:string">
+				<value>DICT_HYPH</value>
+			</prop>
+			<prop oor:name="Locales" oor:type="oor:string-list">
+				<value>vec-SI</value>
+			</prop>
+		</node>
+		<node oor:name="HyphDic_vec_BR" oor:op="fuse">
+			<prop oor:name="Locations" oor:type="oor:string-list">
+				<value>%origin%/../dictionaries/hyph_vec.dic</value>
+			</prop>
+			<prop oor:name="Format" oor:type="xs:string">
+				<value>DICT_HYPH</value>
+			</prop>
+			<prop oor:name="Locales" oor:type="oor:string-list">
+				<value>vec-BR</value>
+			</prop>
+		</node>
+		<node oor:name="HyphDic_vec_MX" oor:op="fuse">
+			<prop oor:name="Locations" oor:type="oor:string-list">
+				<value>%origin%/../dictionaries/hyph_vec.dic</value>
+			</prop>
+			<prop oor:name="Format" oor:type="xs:string">
+				<value>DICT_HYPH</value>
+			</prop>
+			<prop oor:name="Locales" oor:type="oor:string-list">
+				<value>vec-MX</value>
+				<value>vec-RO</value>
 			</prop>
 		</node>
 		<node oor:name="ThesDic_vec" oor:op="fuse">
@@ -35,7 +166,72 @@
 			</prop>
 			<prop oor:name="Locales" oor:type="oor:string-list">
 				<value>vec</value>
+			</prop>
+		</node>
+		<node oor:name="ThesDic_vec_IT" oor:op="fuse">
+			<prop oor:name="Locations" oor:type="oor:string-list">
+				<value>%origin%/../dictionaries/th_vec_v2.dat %origin%/../dictionaries/th_vec_v2.idx</value>
+			</prop>
+			<prop oor:name="Format" oor:type="xs:string">
+				<value>DICT_THES</value>
+			</prop>
+			<prop oor:name="Locales" oor:type="oor:string-list">
 				<value>vec-IT</value>
+			</prop>
+		</node>
+		<node oor:name="ThesDic_vec_HR" oor:op="fuse">
+			<prop oor:name="Locations" oor:type="oor:string-list">
+				<value>%origin%/../dictionaries/th_vec_v2.dat %origin%/../dictionaries/th_vec_v2.idx</value>
+			</prop>
+			<prop oor:name="Format" oor:type="xs:string">
+				<value>DICT_THES</value>
+			</prop>
+			<prop oor:name="Locales" oor:type="oor:string-list">
+				<value>vec-HR</value>
+			</prop>
+		</node>
+		<node oor:name="ThesDic_vec_SI" oor:op="fuse">
+			<prop oor:name="Locations" oor:type="oor:string-list">
+				<value>%origin%/../dictionaries/th_vec_v2.dat %origin%/../dictionaries/th_vec_v2.idx</value>
+			</prop>
+			<prop oor:name="Format" oor:type="xs:string">
+				<value>DICT_THES</value>
+			</prop>
+			<prop oor:name="Locales" oor:type="oor:string-list">
+				<value>vec-SI</value>
+			</prop>
+		</node>
+		<node oor:name="ThesDic_vec_BR" oor:op="fuse">
+			<prop oor:name="Locations" oor:type="oor:string-list">
+				<value>%origin%/../dictionaries/th_vec_v2.dat %origin%/../dictionaries/th_vec_v2.idx</value>
+			</prop>
+			<prop oor:name="Format" oor:type="xs:string">
+				<value>DICT_THES</value>
+			</prop>
+			<prop oor:name="Locales" oor:type="oor:string-list">
+				<value>vec-BR</value>
+			</prop>
+		</node>
+		<node oor:name="ThesDic_vec_MX" oor:op="fuse">
+			<prop oor:name="Locations" oor:type="oor:string-list">
+				<value>%origin%/../dictionaries/th_vec_v2.dat %origin%/../dictionaries/th_vec_v2.idx</value>
+			</prop>
+			<prop oor:name="Format" oor:type="xs:string">
+				<value>DICT_THES</value>
+			</prop>
+			<prop oor:name="Locales" oor:type="oor:string-list">
+				<value>vec-MX</value>
+			</prop>
+		</node>
+		<node oor:name="ThesDic_vec_RO" oor:op="fuse">
+			<prop oor:name="Locations" oor:type="oor:string-list">
+				<value>%origin%/../dictionaries/th_vec_v2.dat %origin%/../dictionaries/th_vec_v2.idx</value>
+			</prop>
+			<prop oor:name="Format" oor:type="xs:string">
+				<value>DICT_THES</value>
+			</prop>
+			<prop oor:name="Locales" oor:type="oor:string-list">
+				<value>vec-RO</value>
 			</prop>
 		</node>
 	</node>
