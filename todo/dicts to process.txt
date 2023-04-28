@@ -54,6 +54,9 @@ vitoriexi > konejanexi: inprestaòs
 belumat > agordini: nhas
 
 
+folioxamente > follemente
+
+
 /([^\t\n\s]*)ğ([^\t\n\s]*[\t\s\n]+) > /($1)GV$2 # substitute flags
 # [^\n]+\n > # remove # comments
 / [^\n]*\n > # remove / comments
