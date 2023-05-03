@@ -2056,30 +2056,27 @@ SFX iD xerò róelo/A1FS dixerò	ds:conditional+present is:third ds:interrogativ
 # baxe:
 # tèma 1
 # –àr, –ér, '–er, –ír, –ír/is: skomenŧiando da 'l infenío
-SFX tE Y 23
+SFX tE Y 20
+SFX tE 0 e r	ds:infinitive+simple	# T1 + r(e), padoan/coxòto
 SFX tE ar àʼ ar	ds:infinitive+simple	# T1, buranèl
 SFX tE ïar íi ïar	ds:infinitive+simple	# T1, coxòto
 SFX tE üar úi üar	ds:infinitive+simple	# T1, coxòto
 SFX tE ar i [^ïü]ar	ds:infinitive+simple	# T1, coxòto
-SFX tE éver er béver	ds:infinitive+simple	# T1 + r(e)
-SFX tE éver ere béver	ds:infinitive+simple	# T1 + r(e)
-SFX tE ver rge/P3 béver	ds:infinitive+simple	# T1 + r(e)
-SFX tE àer ar ràer	ds:infinitive+simple	# T1 + r(e)
-SFX tE àer are ràer	ds:infinitive+simple	# T1 + r(e)
-SFX tE er rge/P3 ràer	ds:infinitive+simple	# T1 + r(e)
-SFX tE íxer ir díxer	ds:infinitive+simple	# T1 + r(e)
-SFX tE íxer ire díxer	ds:infinitive+simple	# T1 + r(e)
-SFX tE xer rge/P3 díxer	ds:infinitive+simple	# T1 + r(e)
-SFX tE óner or póner	ds:infinitive+simple	# T1 + r(e)
-SFX tE óner ore póner	ds:infinitive+simple	# T1 + r(e)
-SFX tE ner rge/P3 póner	ds:infinitive+simple	# T1 + r(e)
-SFX tE úxer ur dúxer	ds:infinitive+simple	# T1 + r(e)
-SFX tE úxer ure dúxer	ds:infinitive+simple	# T1 + r(e)
-SFX tE xer rge/P3 dúxer	ds:infinitive+simple	# T1 + r(e)
-SFX tE 0 e r	ds:infinitive+simple	# T1 + r(e), padoan/coxòto
 SFX tE ir íʼ ir	ds:infinitive+simple	# T1, buranèl
 SFX tE üir úi üir	ds:infinitive+simple	# T1, coxòto
 SFX tE ir i [^ü]ir	ds:infinitive+simple	# T1, coxòto
+SFX tE ver r béver	ds:infinitive+simple	# T1 + r(e)
+SFX tE ver re béver	ds:infinitive+simple	# T1 + r(e)
+SFX tE ver rge/P3 béver	ds:infinitive+simple	# T1 + r(e)
+SFX tE er r tràer	ds:infinitive+simple	# T1 + r(e)
+SFX tE er re tràer	ds:infinitive+simple	# T1 + r(e)
+SFX tE er rge/P3 tràer	ds:infinitive+simple	# T1 + r(e)
+SFX tE xer r d[íú]xer	ds:infinitive+simple	# T1 + r(e)
+SFX tE xer re d[íú]xer	ds:infinitive+simple	# T1 + r(e)
+SFX tE xer rge/P3 d[íú]xer	ds:infinitive+simple	# T1 + r(e)
+SFX tE ner r póner	ds:infinitive+simple	# T1 + r(e)
+SFX tE ner re póner	ds:infinitive+simple	# T1 + r(e)
+SFX tE ner rge/P3 póner	ds:infinitive+simple	# T1 + r(e)
 
 # senŧa èle vanesente
 SFX lE Y 6
@@ -4919,7 +4916,7 @@ SFX xO aer àgeƚo/R5A1 aer	ds:imperative+present is:second+singular ds:pronomen
 SFX xO aer àƚo/i5 aer	ds:indicative+present is:third ds:interrogative	# T10
 
 # vèrbi '–er inregolari: (a|as|de|des|es|kon|pro|re|so)tràer
-SFX xP Y 98
+SFX xP Y 106
 SFX xP er r/iDP0P1P2 tràer	ds:infinitive+simple	# T1 + r(e)
 SFX xP er re tràer	ds:infinitive+simple	# T1 + r(e)
 SFX xP er go/J1 tràer	ds:indicative+present is:first+singular	# T8 + o
@@ -4928,6 +4925,14 @@ SFX xP er ga tràer	ds:subjunctive+present is:first+singular	# T8 + a
 SFX xP er gi tràer	ds:subjunctive+present is:second+singular	# T8 + e
 SFX xP er ga tràer	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3
 SFX xP er ga tràer	ds:subjunctive+present is:third	# T8 + a
+SFX xP er se/J1 tràer	ds:subjunctive+imperfect is:first+singular	# T2 + se
+SFX xP er simo tràer	ds:subjunctive+imperfect is:first+plural	# T2 + simo
+SFX xP er semo tràer	ds:subjunctive+imperfect is:first+plural	# T2 + simo, coxòto
+SFX xP er si/J3 tràer	ds:subjunctive+imperfect is:second+singular	# T2 + si
+SFX xP er situ/j3I3 tràer	ds:subjunctive+imperfect is:second+singular ds:interrogative	# T2 + si
+SFX xP er si/J4I4 tràer	ds:subjunctive+imperfect is:second+plural	# T2 + si
+SFX xP àer asé/J4I4 tràer	ds:subjunctive+imperfect is:second+plural	# T2 + si, coxòto
+SFX xP er se tràer	ds:subjunctive+imperfect is:third	# T2 + se
 SFX xP er to/A1FS tràer	ds:participle+passive+strong is:singular+masculine
 SFX xP àer arò/J1I1 tràer	ds:indicative+future is:first+singular	# T4 + rò
 SFX xP àer arà/J1I1 tràer	ds:indicative+future is:first+singular	# T4 + rà
@@ -6560,7 +6565,7 @@ SFX J4 Y 1
 SFX J4 0 0/Z1|| .
 
 # interogativi sekonda parsona plural (takai)
-SFX I4 Y 35
+SFX I4 Y 37
 SFX I4 u o u	ds:interrogative
 SFX I4 0 o [àéií]i	ds:interrogative
 SFX I4 0 u [àéií]i	ds:interrogative
@@ -6588,6 +6593,8 @@ SFX I4 ii íiu ii	ds:interrogative
 SFX I4 ii íio ii	ds:interrogative
 SFX I4 asi àsïu asi	ds:interrogative
 SFX I4 asi àsïo asi	ds:interrogative	# venethian
+SFX I4 i ïu àsi	ds:interrogative
+SFX I4 i ïo àsi	ds:interrogative	# venethian
 SFX I4 esi ésïu esi	ds:interrogative
 SFX I4 esi ésïo esi	ds:interrogative	# venethian
 SFX I4 isi ísïu isi	ds:interrogative
