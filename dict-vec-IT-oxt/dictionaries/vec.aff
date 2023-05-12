@@ -248,27 +248,7 @@ COMPOUNDMIN 1
 # N4/|4 = [vinti..ŧinkuanta..novanta] / [vinti..sinkuanta..novanta]
 # N5/|5 = ŧento / sento
 # N6/|6 = mi[lƚ][ei] / mi[lƚ]ia
-COMPOUNDRULE 100
-COMPOUNDRULE (V0)(-a)(W0)	# 0>-(gi)?ne?, 0>-[gmstv]en?, 0>-[gmstv]end?e
-COMPOUNDRULE (V1)(-a)(W1)	# 0>-de|r
-COMPOUNDRULE (V2)(-a)(W2)	# 0>-n(de)?|[^r]
-COMPOUNDRULE (V3)(-a)(W3)	# 0>-([gmstv]e)?l[oaie]
-COMPOUNDRULE (V4)(-a)(W4)	# 0>-l|[oe]
-COMPOUNDRULE (V5)(-a)(W5)	# 0>-([gmstv]e)?ƚ[oaie]
-COMPOUNDRULE (V6)(-a)(W6)	# 0>-ƚo|[oe]
-COMPOUNDRULE (U0)(-a)(K0)	# 0>-([jɉ]o|ɉu|m?i|v?e)
-COMPOUNDRULE (U1)(-a)(K1)	# [eo]>-io|[eo]
-COMPOUNDRULE (U2)(-a)(K2)	# 0>-nt?[ei]|[^n]
-COMPOUNDRULE (U3)(-a)(K3)	# 0>-t[ei]|n
-COMPOUNDRULE (U6)(-a)(K6)	# 0>-[ie]
-COMPOUNDRULE (U7)(-a)(K7)	# 0>-tu
-COMPOUNDRULE (U8)(-a)(K8)	# 0>-stu|[^s]
-COMPOUNDRULE (U9)(-a)(K9)	# 0>-to
-COMPOUNDRULE (Z1)(-a)(L1)	# 0>-[uo]
-COMPOUNDRULE (Z2)(-a)(L2)	# 0>-l
-COMPOUNDRULE (Z3)(-a)(L3)	# 0>-l[oaie]
-COMPOUNDRULE (Z4)(-a)(L4)	# 0>-ƚ[oaie]
-COMPOUNDRULE (Z5)(-a)(L5)	# 0>-io
+COMPOUNDRULE 80
 COMPOUNDRULE (N4)(-b)(N1)	# [vinti..ŧinkuanta..novanta]‒[un..ŧinkue..nòve]
 COMPOUNDRULE (N5)(-b)(N1)	# ŧento‒[un..ŧinkue..nòve]
 COMPOUNDRULE (N5)(-b)(N3)	# ŧento‒[dièxe..dixnòve+vinti..ŧinkuanta..novanta]
@@ -6380,6 +6360,175 @@ SFX R5 geƚo veƚi geƚo	ds:pronomenal+reflexive
 SFX R5 geƚo veƚe geƚo	ds:pronomenal+reflexive
 
 
+# sufisi pronomenali: 0>-(gi)?ne?, 0>-[gmstv]en?, 0>-[gmstv]end?e
+SFX V0 Y 23
+SFX V0 0 -ge	.	ds:pronomenal+genitive+locative
+SFX V0 0 -gen	.	ds:pronomenal+genitive+locative
+SFX V0 0 -gin	.	ds:pronomenal+genitive+locative
+SFX V0 0 -gene	.	ds:pronomenal+genitive+locative
+SFX V0 0 -gende	.	ds:pronomenal+genitive+locative
+SFX V0 0 -gine	.	ds:pronomenal+genitive+locative
+SFX V0 0 -me	.	ds:pronomenal+reflexive
+SFX V0 0 -men	.	ds:pronomenal+reflexive
+SFX V0 0 -mene	.	ds:pronomenal+reflexive
+SFX V0 0 -mende	.	ds:pronomenal+reflexive
+SFX V0 0 -ne	.	ds:pronomenal+genitive
+SFX V0 0 -se	.	ds:pronomenal+reflexive
+SFX V0 0 -sen	.	ds:pronomenal+reflexive
+SFX V0 0 -sene	.	ds:pronomenal+reflexive
+SFX V0 0 -sende	.	ds:pronomenal+reflexive
+SFX V0 0 -te	.	ds:pronomenal+reflexive
+SFX V0 0 -ten	.	ds:pronomenal+reflexive
+SFX V0 0 -tene	.	ds:pronomenal+reflexive
+SFX V0 0 -tende	.	ds:pronomenal+reflexive
+SFX V0 0 -ve	.	ds:pronomenal+reflexive
+SFX V0 0 -ven	.	ds:pronomenal+reflexive
+SFX V0 0 -vene	.	ds:pronomenal+reflexive
+SFX V0 0 -vende	.	ds:pronomenal+reflexive
+
+# sufisi pronomenali: 0>-de|r
+SFX V1 Y 1
+SFX V1 0 -de r	ds:pronomenal+genitive
+
+# sufisi pronomenali: 0>-n(de)?|[^r]
+SFX V2 Y 2
+SFX V2 0 -n [^r]	ds:pronomenal+genitive
+SFX V2 0 -nde [^r]	ds:pronomenal+genitive
+
+# sufisi pronomenali: 0>-([gmstv]e)?l[oaie]
+SFX V3 Y 29
+SFX V3 0 -lo .	is:singular+masculine ds:pronomenal+accusative
+SFX V3 0 -la .	is:singular+femenine ds:pronomenal+accusative
+SFX V3 0 -li .	is:plural+masculine ds:pronomenal+accusative
+SFX V3 0 -le .	is:plural+femenine ds:pronomenal+accusative
+SFX V3 0 -gel .	is:singular+masculine ds:pronomenal+locative
+SFX V3 0 -gelo .	is:singular+masculine ds:pronomenal+locative
+SFX V3 0 -gela .	is:singular+femenine ds:pronomenal+locative
+SFX V3 0 -geli .	is:plural+masculine ds:pronomenal+locative
+SFX V3 0 -gele .	is:plural+femenine ds:pronomenal+locative
+SFX V3 0 -mel .	is:singular+masculine ds:pronomenal+reflexive
+SFX V3 0 -melo .	is:singular+masculine ds:pronomenal+reflexive
+SFX V3 0 -mela .	is:singular+femenine ds:pronomenal+reflexive
+SFX V3 0 -meli .	is:plural+masculine ds:pronomenal+reflexive
+SFX V3 0 -mele .	is:plural+femenine ds:pronomenal+reflexive
+SFX V3 0 -sel .	is:singular+masculine ds:pronomenal+reflexive
+SFX V3 0 -selo .	is:singular+masculine ds:pronomenal+reflexive
+SFX V3 0 -sela .	is:singular+femenine ds:pronomenal+reflexive
+SFX V3 0 -seli .	is:plural+masculine ds:pronomenal+reflexive
+SFX V3 0 -sele .	is:plural+femenine ds:pronomenal+reflexive
+SFX V3 0 -tel .	is:singular+masculine ds:pronomenal+reflexive
+SFX V3 0 -telo .	is:singular+masculine ds:pronomenal+reflexive
+SFX V3 0 -tela .	is:singular+femenine ds:pronomenal+reflexive
+SFX V3 0 -teli .	is:plural+masculine ds:pronomenal+reflexive
+SFX V3 0 -tele .	is:plural+femenine ds:pronomenal+reflexive
+SFX V3 0 -vel .	is:singular+masculine ds:pronomenal+reflexive
+SFX V3 0 -velo .	is:singular+masculine ds:pronomenal+reflexive
+SFX V3 0 -vela .	is:singular+femenine ds:pronomenal+reflexive
+SFX V3 0 -veli .	is:plural+masculine ds:pronomenal+reflexive
+SFX V3 0 -vele .	is:plural+femenine ds:pronomenal+reflexive
+
+# sufisi pronomenali: 0>-l|[oe]
+SFX V4 Y 1
+SFX V4 0 -l .	is:singular+masculine ds:pronomenal+accusative
+
+# sufisi pronomenali: 0>-([gmstv]e)?ƚ[oaie]
+SFX V5 Y 20
+SFX V5 0 -geƚo .	is:singular+masculine ds:pronomenal+locative
+SFX V5 0 -geƚa .	is:singular+femenine ds:pronomenal+locative
+SFX V5 0 -geƚi .	is:plural+masculine ds:pronomenal+locative
+SFX V5 0 -geƚe .	is:plural+femenine ds:pronomenal+locative
+SFX V5 0 -meƚo .	is:singular+masculine ds:pronomenal+reflexive
+SFX V5 0 -meƚa .	is:singular+femenine ds:pronomenal+reflexive
+SFX V5 0 -meƚi .	is:plural+masculine ds:pronomenal+reflexive
+SFX V5 0 -meƚe .	is:plural+femenine ds:pronomenal+reflexive
+SFX V5 0 -seƚo .	is:singular+masculine ds:pronomenal+reflexive
+SFX V5 0 -seƚa .	is:singular+femenine ds:pronomenal+reflexive
+SFX V5 0 -seƚi .	is:plural+masculine ds:pronomenal+reflexive
+SFX V5 0 -seƚe .	is:plural+femenine ds:pronomenal+reflexive
+SFX V5 0 -teƚo .	is:singular+masculine ds:pronomenal+reflexive
+SFX V5 0 -teƚa .	is:singular+femenine ds:pronomenal+reflexive
+SFX V5 0 -teƚi .	is:plural+masculine ds:pronomenal+reflexive
+SFX V5 0 -teƚe .	is:plural+femenine ds:pronomenal+reflexive
+SFX V5 0 -veƚo .	is:singular+masculine ds:pronomenal+reflexive
+SFX V5 0 -veƚa .	is:singular+femenine ds:pronomenal+reflexive
+SFX V5 0 -veƚi .	is:plural+masculine ds:pronomenal+reflexive
+SFX V5 0 -veƚe .	is:plural+femenine ds:pronomenal+reflexive
+
+# sufisi pronomenali: 0>-ƚo|[aoe]
+SFX V6 Y 4
+SFX V6 0 -ƚo [aoòe]	is:singular+masculine ds:pronomenal+accusative
+SFX V6 0 -ƚa [aoòe]	is:singular+femenine ds:pronomenal+accusative
+SFX V6 0 -ƚi [aoòe]	is:plural+masculine ds:pronomenal+accusative
+SFX V6 0 -ƚe [aoòe]	is:plural+femenine ds:pronomenal+accusative
+
+# sufisi interogativi prima parsona singolar: 0>-([jɉ]o|ɉu|m?i|v?e), 0>-[ie]
+SFX U0 Y 7
+SFX U0 0 -jo .	ds:interrogative	# venethian
+SFX U0 0 -ɉo .	ds:interrogative	# venethian
+SFX U0 0 -ve .	ds:interrogative	# venethian
+SFX U0 0 -ɉu .	ds:interrogative	# coxòto
+SFX U0 0 -mi .	ds:interrogative	# cipileño
+SFX U0 0 -i .	ds:interrogative	# trevixan, venethian, padoan, vithentin, polexan, veronexe
+SFX U0 0 -e .	ds:interrogative	# venethian
+
+# sufisi interogativi prima parsona singolar: [eo]>-io|[eo]
+SFX U1 Y 1
+SFX U1 0 -io [eo]	ds:interrogative	# venethian
+
+# sufisi interogativi prima parsona singolar e plural: 0>-nt?[ei]|[^n]
+SFX U2 Y 4
+SFX U2 0 -nti [^n]	ds:interrogative	# veronexe
+SFX U2 0 -ni [^n]	ds:interrogative	# veronexe
+SFX U2 0 -nte [^n]	ds:interrogative
+SFX U2 0 -ne [^n]	ds:interrogative
+
+# sufisi interogativi prima parsona singolar e plural: 0>-t[ei]|n
+SFX U3 Y 2
+SFX U3 0 -ti [ns]	ds:interrogative	# veronexe
+SFX U3 0 -te [ns]	ds:interrogative
+
+# sufisi interogativi prima parsona plural: 0>-[ie]
+SFX U6 Y 2
+SFX U6 0 -i .	ds:interrogative	# trevixan, venethian, padoan, vithentin, polexan, veronexe
+SFX U6 0 -e .	ds:interrogative	# venethian
+
+# sufisi interogativi sekonda parsona singolar: 0>-t[uo]
+SFX U7 Y 2
+SFX U7 0 -tu .	ds:interrogative
+SFX U7 0 -to .	ds:interrogative	# padoan de thità, vithentin de thità, polexan de thità, veronexe de thità
+
+# sufisi interogativi sekonda parsona singolar: 0>-stu|[^s]
+SFX U8 Y 1
+SFX U8 0 -stu [^s]	ds:interrogative	# coxòto
+
+# sufisi interogativi sekonda parsona plural: 0>-[uo]
+SFX Z1 Y 2
+SFX Z1 0 -u .	ds:interrogative
+SFX Z1 0 -o .	ds:interrogative	# padoan de thità, vithentin de thità, polexan de thità, veronexe de thità
+
+# sufisi interogativi tèrŧa parsona: 0>-l
+SFX Z2 Y 1
+SFX Z2 0 -l .	is:singular+masculine ds:interrogative
+
+# sufisi interogativi tèrŧa parsona: 0>-l[oaie]
+SFX Z3 Y 4
+SFX Z3 0 -lo .	is:singular+masculine ds:interrogative
+SFX Z3 0 -la .	is:singular+femenine ds:interrogative
+SFX Z3 0 -li .	is:plural+masculine ds:interrogative
+SFX Z3 0 -le .	is:plural+femenine ds:interrogative
+
+# sufisi interogativi tèrŧa parsona: 0>-ƚ[oaie]
+SFX Z4 Y 4
+SFX Z4 0 -ƚo .	is:singular+masculine ds:interrogative
+SFX Z4 0 -ƚa .	is:singular+femenine ds:interrogative
+SFX Z4 0 -ƚi .	is:plural+masculine ds:interrogative
+SFX Z4 0 -ƚe .	is:plural+femenine ds:interrogative
+
+# sufisi interogativi prima parsona plural: 0>-io
+SFX Z5 Y 1
+SFX Z5 0 -io .	ds:interrogative	# venethian
+
+
 # sonoriđaŧion finali
 # NÒTA: tute le vokali le pòl kaskar, fòra ke la `a` e la `e` derivante da un femenil plural de la prima deklinaŧion latina
 # NÒTA: na koa konsonàntega ʼté la sílaba ke la vièn prima la ostàkola de pi lʼ apòkope
@@ -6512,7 +6661,7 @@ SFX I2 oi io ímoi	ds:interrogative	# venethian
 
 # interogativi sekonda parsona singolar (destakai)
 SFX J3 Y 2
-SFX J3 0 0/U7U9|| .
+SFX J3 0 0/U7|| .
 SFX J3 0 0/U8|| [^s]
 
 # interogativi sekonda parsona singolar (destakai)
@@ -7547,7 +7696,7 @@ SFX y2 do i [^aeiouàèéíòóúïü]ido	is:singular+masculine
 
 
 # sostantivi/ajetivi alterai — demenutivi (–eto/a)
-SFX eT Y 91
+SFX eT Y 94
 SFX eT à aeto/M0FSPd à	ds:eto
 SFX eT 0 ta/F0 e	ds:eto
 SFX eT è eeto/M0FSPd è	ds:eto
@@ -7568,7 +7717,7 @@ SFX eT úo üeto/M0FSPd [^aeiou]úo	ds:eto
 SFX eT èr ereto/M0FSPd èr	ds:eto
 SFX eT òr oreto/M0FSPd òr	ds:eto
 SFX eT a eta/F0 [^àbcdđgíjɉklmnñprstŧúvx]a	ds:eto
-SFX eT o eto/M0FSPd [^àbcdđgíjɉkmnñòpstŧúvx]o	ds:eto
+SFX eT o eto/M0FSPd [^àbcdđgiíjɉkmnñòpstŧúvx]o	ds:eto
 SFX eT 0 eto/M0FSPd [^èò][lr]	ds:eto
 SFX eT èba ebeta/F0 èba	ds:eto
 SFX eT òba obeta/F0 òba	ds:eto
@@ -7636,6 +7785,9 @@ SFX eT a eta/F0 [^òr]na	ds:eto
 SFX eT a eta/F0 [^ò][mñt]a	ds:eto
 SFX eT a eta/F0 [^è]ra	ds:eto
 SFX eT a eta/F0 [^èò][bcdđgjɉklpsŧvx]a	ds:eto
+SFX eT o eto/M0FSPd [^n]io	ds:eto
+SFX eT o eto/M0FSPd [^ò]nio	ds:eto
+SFX eT ònio onieto/M0FSPd ònio	ds:eto
 SFX eT o eto/M0FSPd [^ò][bdnñpt]o	ds:eto
 SFX eT o eto/M0FSPd [^èò][cđgjɉkmsŧvx]o	ds:eto
 SFX eT èrna erneta/F0 èrna	ds:eto
