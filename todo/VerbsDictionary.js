@@ -5321,6 +5321,8 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "nev",			"",			1,	1,	"a",	"1829",			"",
 "neveg",			"",			1,	1,	"a",	"1560",			"",
 "never",			"",			1,	1,	"a",	"1829",			"",
+"nevol",			"",			1,	1,	"a",	"XV",				"",
+"nevol",			"i",			1,	1,	"a",	"",				"",
 "nï",				"",			1,	1,	"a",	"1854",			"Kovar, apolajar.",
 "nï",				"ar",			1,	1,	"a",	"1560",			"",
 "nï",				"dex",		1,	1,	"a",	"1852",			"Xnidar.",
