@@ -2095,6 +2095,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "fit",			"des",		1,	1,	"a",	"1867",			"",
 "fit",			"dexa",		1,	1,	"a",	"1867",			"",
 "fit",			"ina",		1,	1,	"a",	"1867",			"",
+"fit",			"skon",		1,	1,	"a",	"XV",				"",
 "fit",			"suba",		1,	1,	"a",	"1867",			"",
 "fiŧ",			"in",			1,	1,	"a",	"1894",			"Despóner a piège (de un drapo).",
 "fiŧi",			"bene",		1,	1,	"a",	"1375",			"",
