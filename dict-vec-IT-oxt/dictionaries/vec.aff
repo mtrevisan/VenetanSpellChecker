@@ -37,7 +37,7 @@ TRY eaoinrtlƚsdkpvmuèxgfàòbíhéŧójɉñcúSđLȽIPETKVAMDNFBRJGCOUĐXÀÈ�
 # account for qwerty, hungarian, slovenian, brazilian, and romanian layout
 KEY esđdr|redđft|trfg|uhji|iujko|oiklp|polòèé-|èépòà|úó|aísđ|sđaxde|dsđxcfre|fdđcvgtr|gfvbht|hgbnju|jhnmkiu|kjmloi|lkéòpo|ñlp-|òlàèép-|àòèé-|ùà|élp-|xcdsđ|cxvfdđ|vcbgf|bvnhg|nbmjh|mnkj|ìèé
 
-WORDCHARS w-‘ʼ'
+WORDCHARS -‘ʼ'
 
 # en-dashes
 BREAK 1
@@ -96,7 +96,7 @@ ICONV û ur
 ICONV Û UR
 
 # frequently switched character groups
-REP 121
+REP 122
 REP a à
 REP e è
 REP e é
@@ -218,6 +218,7 @@ REP ^invèr$ in_vèrʼ
 REP ^ninpòrta$ nʼ_inpòrta
 REP ^darekao$ da_rekao
 REP ^darekavo$ da_rekavo
+REP ^malgrado$ mal_grado
 
 
 FLAG long
