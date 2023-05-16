@@ -5211,6 +5211,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "mucar",			"in",			1,	1,	"a",	"",				"",
 "mud",			"",			1,	1,	"a",	"1854",			"",
 "mud",			"per",		1,	1,	"a",	"1433",			"",
+"mud",			"re",			1,	1,	"a",	"XV",				"",
 "mud",			"stra",		1,	1,	"a",	"",				"",
 "mud",			"tra",		1,	1,	"a",	"",				"",
 "mud",			"tras",		1,	1,	"a",	"1660",			"(veneŧian)",
