@@ -96,15 +96,17 @@ ICONV û ur
 ICONV Û UR
 
 # frequently switched character groups
-REP 109
+REP 112
 REP a à
 REP e è
 REP e é
+REP è é
 REP i í
 REP i ï
 REP ì í
 REP o ò
 REP o ó
+REP ò ó
 REP u ú
 REP u ü
 REP ù ú
@@ -206,6 +208,7 @@ REP ^ninpòrta$ nʼ_inpòrta
 REP ^darekao$ da_rekao
 REP ^darekavo$ da_rekavo
 REP ^malgrado$ mal_grado
+REP ^daprèso$ da_prèso
 
 
 FLAG long
