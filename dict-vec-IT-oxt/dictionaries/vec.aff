@@ -96,7 +96,7 @@ ICONV û ur
 ICONV Û UR
 
 # frequently switched character groups
-REP 112
+REP 115
 REP a à
 REP e è
 REP e é
@@ -121,6 +121,7 @@ REP – -
 REP ‒ -
 REP ‒ –
 REP mb nb
+REP mf nf
 REP mp np
 REP sb xb
 REP xc sc
@@ -209,6 +210,8 @@ REP ^darekao$ da_rekao
 REP ^darekavo$ da_rekavo
 REP ^malgrado$ mal_grado
 REP ^daprèso$ da_prèso
+REP ^infratanto$ infra_tanto
+REP ^fratanto$ fra_tanto
 
 
 FLAG long
@@ -3713,7 +3716,7 @@ SFX xK éver ebiede éver	ds:subjunctive+present is:second+plural	# T12 + é([dg
 SFX xK éver ebiege éver	ds:subjunctive+present is:second+plural	# T12 + é([dg]e)
 
 # vèrbi '–er inregolari: (re)èser
-SFX xL Y 624
+SFX xL Y 630
 SFX xL èser ser/iDP0P1P2 èser	ds:infinitive+simple	# T1 + r(e)
 SFX xL ser ra/J1 èser	ds:indicative+imperfect is:first+singular	# T2 + (v)a
 SFX xL èser éra/J1 èser	ds:indicative+imperfect is:first+singular	# T2 + (v)a
@@ -3787,11 +3790,15 @@ SFX xL èser furese-ƚo/V5 èser	ds:gerund+simple ds:pronomenal+accusative	# T2 
 SFX xL èser fúselo/I5 èser	ds:subjunctive+imperfect is:third ds:pronomenal+reflexive	# T2 + se
 SFX xL èser fúseƚo/i5 èser	ds:subjunctive+imperfect is:third ds:pronomenal+reflexive	# T2 + se
 SFX xL èser fose/J1 èser	ds:subjunctive+imperfect is:first+singular	# T2 + se
+SFX xL èser fuòse/J1 èser	ds:subjunctive+imperfect is:first+singular	# T2 + se
 SFX xL èser fósimo èser	ds:subjunctive+imperfect is:first+plural	# T2 + simo
 SFX xL èser fonsi èser	ds:subjunctive+imperfect is:first+plural	# T2 + simo
 SFX xL èser fosi/J3 èser	ds:subjunctive+imperfect is:second+singular	# T2 + si
 SFX xL èser fósitu/j3I3 èser	ds:subjunctive+imperfect is:second+singular ds:interrogative	# T2 + si
+SFX xL èser fuòsi/J3 èser	ds:subjunctive+imperfect is:second+singular	# T2 + si
+SFX xL èser fuòsitu/j3I3 èser	ds:subjunctive+imperfect is:second+singular ds:interrogative	# T2 + si
 SFX xL èser fosi/J4I4 èser	ds:subjunctive+imperfect is:second+plural	# T2 + si
+SFX xL èser fuòsi/J4I4 èser	ds:subjunctive+imperfect is:second+plural	# T2 + si
 SFX xL èser fose/P0FS èser	ds:subjunctive+imperfect is:third	# T2 + se
 SFX xL èser fose-lo/V3 èser	ds:subjunctive+imperfect is:third ds:pronomenal+accusative	# T2 + se
 SFX xL èser fose-ƚo/V5 èser	ds:gerund+simple ds:pronomenal+accusative	# T2 + se
@@ -4102,7 +4109,9 @@ SFX xL èser fuse èser	ds:subjunctive+imperfect is:second+singular	# T2 + se, 2
 SFX xL èser furese èser	ds:subjunctive+imperfect is:second+singular	# T2 + se, 2s=3
 SFX xL èser fusa èser	ds:subjunctive+imperfect is:second+singular	# T2 + se, 2s=3
 SFX xL èser fose èser	ds:subjunctive+imperfect is:second+singular	# T2 + se, 2s=3
+SFX xL èser fuòse èser	ds:subjunctive+imperfect is:second+singular	# T2 + se, 2s=3
 SFX xL èser fosa èser	ds:subjunctive+imperfect is:second+singular	# T2 + se, 2s=3
+SFX xL èser fuòsa èser	ds:subjunctive+imperfect is:second+singular	# T2 + se, 2s=3
 SFX xL èser seron/J2 èser	ds:indicative+future is:first+plural	# T4 + rón
 SFX xL èser seróni/I2 èser	ds:indicative+future is:first+plural ds:interrogative	# T4 + rón
 SFX xL èser sereon/J2 èser	ds:indicative+future is:first+plural	# T4 + rón, belumat
@@ -4340,7 +4349,7 @@ SFX xL èser sarísi-lo/J5 èser	ds:conditional+present is:third is:singular+mas
 SFX xL èser sarísi-ƚo/j5 èser	ds:conditional+present is:third is:plural+femenine ds:interrogative	# T4 + rà(v)e
 
 # vèrbi '–er inregolari: rïèser
-SFX xM Y 562
+SFX xM Y 568
 SFX xM ïèser iser/iDP0P1P2 ïèser	ds:infinitive+simple	# T1 + r(e)
 SFX xM ser ra/J1 ïèser	ds:indicative+imperfect is:first+singular	# T2 + (v)a
 SFX xM èser éra/J1 ïèser	ds:indicative+imperfect is:first+singular	# T2 + (v)a
@@ -4413,11 +4422,15 @@ SFX xM ïèser ifurese-ƚo/V5 ïèser	ds:subjunctive+imperfect is:third ds:prono
 SFX xM ïèser ifúselo/I5 ïèser	ds:subjunctive+imperfect is:third ds:pronomenal+reflexive	# T2 + se
 SFX xM ïèser ifúseƚo/i5 ïèser	ds:subjunctive+imperfect is:third ds:pronomenal+reflexive	# T2 + se
 SFX xM ïèser ifose/J1 ïèser	ds:subjunctive+imperfect is:first+singular	# T2 + se
+SFX xM ïèser ifuòse/J1 ïèser	ds:subjunctive+imperfect is:first+singular	# T2 + se
 SFX xM ïèser ifósimo ïèser	ds:subjunctive+imperfect is:first+plural	# T2 + simo
 SFX xM ïèser ifonsi ïèser	ds:subjunctive+imperfect is:first+plural	# T2 + simo
 SFX xM ïèser ifosi/J3 ïèser	ds:subjunctive+imperfect is:second+singular	# T2 + si
 SFX xM ïèser ifósitu/j3I3 ïèser	ds:subjunctive+imperfect is:second+singular ds:interrogative	# T2 + si
+SFX xM ïèser ifuòsi/J3 ïèser	ds:subjunctive+imperfect is:second+singular	# T2 + si
+SFX xM ïèser ifuòsitu/j3I3 ïèser	ds:subjunctive+imperfect is:second+singular ds:interrogative	# T2 + si
 SFX xM ïèser ifosi/J4I4 ïèser	ds:subjunctive+imperfect is:second+plural	# T2 + si
+SFX xM ïèser ifuòsi/J4I4 ïèser	ds:subjunctive+imperfect is:second+plural	# T2 + si
 SFX xM ïèser ifose/P0FS ïèser	ds:subjunctive+imperfect is:third	# T2 + se
 SFX xM ïèser ifose-lo/V3 ïèser	ds:gerund+simple ds:pronomenal+accusative	# T2 + se
 SFX xM ïèser ifose-ƚo/V5 ïèser	ds:subjunctive+imperfect is:third ds:pronomenal+accusative	# T2 + se
@@ -4682,7 +4695,9 @@ SFX xM ïèser ifuse ïèser	ds:subjunctive+imperfect is:second+singular	# T2 + 
 SFX xM ïèser ifurese ïèser	ds:subjunctive+imperfect is:second+singular	# T2 + se, 2s=3
 SFX xM ïèser ifusa ïèser	ds:subjunctive+imperfect is:second+singular	# T2 + se, 2s=3
 SFX xM ïèser ifose ïèser	ds:subjunctive+imperfect is:second+singular	# T2 + se, 2s=3
+SFX xM ïèser ifuòse ïèser	ds:subjunctive+imperfect is:second+singular	# T2 + se, 2s=3
 SFX xM ïèser ifosa ïèser	ds:subjunctive+imperfect is:second+singular	# T2 + se, 2s=3
+SFX xM ïèser ifuòsa ïèser	ds:subjunctive+imperfect is:second+singular	# T2 + se, 2s=3
 SFX xM ïèser iseron/J2 ïèser	ds:indicative+future is:first+plural	# T4 + rón
 SFX xM ïèser iseróni/I2 ïèser	ds:indicative+future is:first+plural ds:interrogative	# T4 + rón
 SFX xM ïèser iseren/J2 ïèser	ds:indicative+future is:first+plural	# T4 + rén
@@ -7136,7 +7151,7 @@ SFX J4 0 -u .	ds:interrogative
 SFX J4 0 -o .	ds:interrogative	# padoan de thità, vithentin de thità, polexan de thità, veronexe de thità
 
 # interogativi sekonda parsona plural (takai)
-SFX I4 Y 37
+SFX I4 Y 39
 SFX I4 u o u	ds:interrogative
 SFX I4 0 o [àéií]i	ds:interrogative
 SFX I4 0 u [àéií]i	ds:interrogative
@@ -7174,6 +7189,8 @@ SFX I4 usi úsïu usi	ds:interrogative
 SFX I4 usi úsïo usi	ds:interrogative	# venethian
 SFX I4 osi ósïu osi	ds:interrogative
 SFX I4 osi ósïo osi	ds:interrogative	# venethian
+SFX I4 i ïu òsi	ds:interrogative
+SFX I4 i ïo òsi	ds:interrogative	# venethian
 
 # interogativi tèrŧa parsona (destakai senŧa èle vanesente) (a > e, e > i, i > i)
 SFX J5 Y 4
@@ -7249,9 +7266,9 @@ SFX F0 e 0 ie	is:plural+femenine
 SFX F0 a e a	is:plural+femenine
 
 # sostantivi plurali maskili (–o/i)
-SFX M0 Y 10
-SFX M0 0 i [^aàeioó]	is:plural+masculine
-SFX M0 0 o [^aàeioó]	is:singular+masculine
+SFX M0 Y 12
+SFX M0 0 i [^aàeéioó]	is:plural+masculine
+SFX M0 0 o [^aàeéioó]	is:singular+masculine
 SFX M0 à ai à	is:plural+masculine
 SFX M0 à ao à	is:singular+masculine
 SFX M0 ó oi ó	is:plural+masculine
@@ -7260,6 +7277,8 @@ SFX M0 o i [^i]o	is:plural+masculine
 SFX M0 io i io	is:plural+masculine
 SFX M0 a i a	is:plural+masculine
 SFX M0 e i e	is:plural+masculine
+SFX M0 é ee é	is:singular+masculine
+SFX M0 é ei é	is:plural+masculine
 
 # sostantivi plurali maskili, ajetivi de tèrŧa klase (–e/i)
 SFX MF Y 6
@@ -9069,8 +9088,7 @@ PFX *0 0 s [cfkpstŧ]	dp:s
 PFX *0 0 x [^cfkƚpstŧ]	dp:s
 
 # prefiso par aŧion repetúa (r[ea]–/ar–)
-PFX .0 Y 3
-PFX .0 0 r e	dp:re
+PFX .0 Y 2
 PFX .0 0 re .	dp:re
 PFX .0 0 re– .	dp:re
 #PFX .0 0 ra [^a]	dp:re
@@ -9215,7 +9233,7 @@ SFX %a o èximo/A1 nto
 SFX %a o ièximo/A1 nto
 SFX %a i èxemo/A1 nti
 SFX %a i èximo/A1 nti
-SFX %a i ièximo/A1 nti
+SFX %a 0 èximo/A1 nti
 SFX %a a èxemo/A1 nta
 SFX %a a èximo/A1 nta
 SFX %a a ièximo/A1 nta
