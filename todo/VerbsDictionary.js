@@ -4695,6 +4695,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "malmor",		"x",			5,	4,	"g",	"1590",			"Xmemorar.",
 "malmuor",		"in",			5,	4,	"g",	"",				"",
 "malmuor",		"x",			5,	4,	"g",	"primi 1500",	"(belumat)",
+"malt",			"i",			1,	1,	"g",	"192209",		"(đulian) Inmaltar.",
 "malt",			"in",			1,	1,	"g",	"1810",			"",
 "malt",			"x",			1,	1,	"g",	"1495",			"",
 "malt",			"x",			4,	4,	"a",	"1867",			"",
