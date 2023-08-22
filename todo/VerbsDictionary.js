@@ -4108,6 +4108,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "krud",			"des",		4,	5,	"a",	"1980",			"(vitoriexe) Skrudir.",
 "krud",			"s",			4,	5,	"a",	"1980",			"(vitoriexe)",
 "krudel",		"in",			4,	6,	"a",	"1683",			"(veneŧian)",
+"krufol",		"s",			1,	2,	"a",	"192209",		"(đulian) Kufolar.",
 "kruk",			"des",		1,	2,	"a",	"1980",			"(vitoriexe) Liberar na màkina blokada, un sifon intaxà.",
 "kruk",			"in",			1,	2,	"a",	"1775",			"Intrigar, inpacar, méter via lontan.",
 "krukol",		"in",			1,	2,	"a",	"XIII",			"(trevixan) Ligar.",
