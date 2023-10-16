@@ -8690,6 +8690,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "torbi",			"",			1,	1,	"a",	"1854",			"",
 "torbi",			"in",			1,	1,	"a",	"1292",			"Far deventar torbio.",
 "torbid",		"in",			1,	1,	"a",	"1855",			"(belumat)",
+"torbid",		"",			4,	6,	"a",	"",				"Deventar torbio.",
 "torbid",		"in",			4,	6,	"a",	"1854",			"Deventar torbio.",
 "torbol",		"",			1,	1,	"a",	"1893",			"",
 "torbol",		"in",			1,	1,	"a",	"1900",			"(veronexe)",
