@@ -1487,7 +1487,6 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "dúx",			"tra",		3,	1,	"a",	"1867",			"",
 
 "đaf",			"",			1,	1,	"g",	"1829",			"(Muran) Acufar.",
-"đafran",		"",			1,	4,	"g",	"1829",			"",
 "đal",			"in",			1,	1,	"g",	"1854",			"",
 "đal",			"in",			4,	3,	"a",	"1775",			"",
 "đaliđ",			"",			1,	3,	"a",	"1854",			"Tràxer al đalo.",
@@ -8940,6 +8939,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "ŧabat",			"",			1,	3,	"g",	"",				"",
 "ŧabat",			"mal",		1,	3,	"g",	"1775",			"Indispóner, malarse.",
 "ŧabot",			"",			1,	3,	"g",	"1884",			"Balbetar.",
+"ŧafran",		"",			1,	4,	"g",	"1829",			"",
 "ŧak",			"",			1,	1,	"g",	"1998",			"Mastegar.",
 "ŧak",			"in",			4,	3,	"a",	"1747",			"(veneŧian) Èser mèđi insonài.",
 "ŧakol",			"",			1,	1,	"g",	"1851",			"",
