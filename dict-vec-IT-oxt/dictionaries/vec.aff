@@ -3765,7 +3765,7 @@ SFX xK éver ebiede éver	ds:subjunctive+present is:second+plural	# T12 + é([dg
 SFX xK éver ebiege éver	ds:subjunctive+present is:second+plural	# T12 + é([dg]e)
 
 # vèrbi '–er inregolari: (re)èser
-SFX xL Y 635
+SFX xL Y 636
 SFX xL èser ser/iDP0P1P2 èser	ds:infinitive+simple	# T1 + r(e)
 SFX xL ser ra/J1 èser	ds:indicative+imperfect is:first+singular	# T2 + (v)a
 SFX xL èser éra/J1 èser	ds:indicative+imperfect is:first+singular	# T2 + (v)a
@@ -4147,6 +4147,7 @@ SFX xL èser sí/R0R1 èser	ds:imperative+present is:second+singular	# T9
 SFX xL èser síge/R3 èser	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
 SFX xL èser sígel/R4A1 èser	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
 SFX xL èser sígeƚo/R5A1	èser	ds:imperative+present is:second+singular ds:pronomenal+locative	# T9
+SFX xL èser ʼlo/I5 èser	ds:indicative+present is:third ds:interrogative	# T10
 SFX xL èser ʼƚo/i5 èser	ds:indicative+present is:third ds:interrogative	# T10
 SFX xL ser re/J1 èser	ds:indicative+imperfect is:first+singular	# T2 + (v)e
 SFX xL ser remi/I1 èser	ds:indicative+imperfect is:first+singular ds:interrogative	# T2 + (v)e
@@ -7204,8 +7205,10 @@ SFX J3 0 -to .	ds:interrogative	# padoan de thità, vithentin de thità, polexan
 SFX J3 0 -stu [^s]	ds:interrogative	# coxòto
 
 # interogativi sekonda parsona singolar (takai)
-SFX I3 Y 20
+SFX I3 Y 22
 SFX I3 s tu [aà]s	ds:interrogative
+SFX I3 as etu as	ds:interrogative
+SFX I3 às étu às	ds:interrogative
 SFX I3 es itu es	ds:interrogative
 SFX I3 s tu es	ds:interrogative
 SFX I3 s tu is	ds:interrogative
@@ -7227,8 +7230,9 @@ SFX I3 s to [àèéíòóú]s	ds:interrogative	# padoan
 SFX I3 s to ns	ds:interrogative	# padoan
 
 # interogativi sekonda parsona singolar (takai ko asento)
-SFX i3 Y 9
+SFX i3 Y 10
 SFX i3 as àtu as	ds:interrogative
+SFX i3 as étu as	ds:interrogative
 SFX i3 es ítu es	ds:interrogative
 SFX i3 es étu es	ds:interrogative
 SFX i3 as àstu as	ds:interrogative	# coxòto
