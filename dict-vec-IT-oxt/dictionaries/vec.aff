@@ -96,7 +96,7 @@ ICONV û ur
 ICONV Û UR
 
 # frequently switched character groups
-REP 118
+REP 147
 REP a à
 REP e è
 REP e é
@@ -215,6 +215,35 @@ REP ^fratanto$ fra_tanto
 REP ^debando$ de_bando
 REP ^debòto$ de_bòto
 REP ^desora$ de_sora
+REP ^dapò$ dapòʼ
+REP ^fià$ fiàʼ
+REP ^bomò$ bomòʼ
+REP ^bonmò$ bonmòʼ
+REP ^tramò$ tramòʼ
+REP ^trumò$ trumòʼ
+REP ^dađamò$ dađamòʼ
+REP ^daxamò$ daxamòʼ
+REP ^deđamò$ deđamòʼ
+REP ^dexamò$ dexamòʼ
+REP ^potamò$ potamòʼ
+REP ^inađamò$ inađamòʼ
+REP ^inaxamò$ inaxamòʼ
+REP ^inđamò$ inđamòʼ
+REP ^inxamò$ inxamòʼ
+REP ^despò$ despòʼ
+REP ^infinamò$ infinamòʼ
+REP ^dospuò$ dospuòʼ
+REP ^inpò$ inpòʼ
+REP ^ankò$ ankòʼ
+REP ^anpuò$ anpuòʼ
+REP ^onkó$ onkóʼ
+REP ^unkò$ unkòʼ
+REP ^unkuò$ unkuòʼ
+REP ^daspò$ daspòʼ
+REP ^dapuò$ dapuòʼ
+REP ^daspuò$ daspuòʼ
+REP ^depò$ depòʼ
+REP ^mò$ mòʼ
 
 
 FLAG long
@@ -2309,9 +2338,9 @@ SFX 7G erò arísiƚo/A1 erò	ds:conditional+present is:third is:plural+femenine
 # tèma 8 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: VT > Ø)
 # –àr, –ér, '–er, –ír, –ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
 SFX tH Y 10
-SFX tH o is/J3i3 [^i]o	ds:indicative+present is:second+singular	# T8 + i
+SFX tH o is/J3I3 [^i]o	ds:indicative+present is:second+singular	# T8 + i
 SFX tH o i/P0Pd [^i]o	ds:indicative+present is:second+singular	# T8 + i
-SFX tH o s/J3i3 io	ds:indicative+present is:second+singular	# T8 + i
+SFX tH o s/J3I3 io	ds:indicative+present is:second+singular	# T8 + i
 SFX tH o 0/P0 io	ds:indicative+present is:second+singular	# T8 + i
 SFX tH omi is/P3J3I3 [^i]omi	ds:indicative+present is:second+singular	# T8 + i
 SFX tH omi s/P3J3I3 iomi	ds:indicative+present is:second+singular	# T8 + i
@@ -2324,7 +2353,7 @@ SFX tH o e o	ds:subjunctive+present is:third	# T8 + e
 # tèma 8 (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: VT > Ø)
 # –àr: skomenŧiando da 'l indikativo prexente de prima parsona singolar
 SFX uH Y 10
-SFX uH o is/J3i3 o	ds:indicative+present is:second+singular	# T8 + i
+SFX uH o is/J3I3 o	ds:indicative+present is:second+singular	# T8 + i
 SFX uH o i/P0 o	ds:indicative+present is:second+singular	# T8 + i
 SFX uH uo úis/J3I3 uo	ds:indicative+present is:second+singular	# T8 + i, coxòto
 SFX uH uo üio [^aeiouàèéíïòóúü]uo	ds:indicative+present is:first+singular ds:interrogative	# T8 + o, venethian
@@ -2378,7 +2407,7 @@ SFX 7H iso ísegeƚo/P5A1 iso	ds:indicative+present is:second+singular ds:interr
 
 # tèma 8, paròla ko asento (from T1: aŧento VT > (A)PVT | í > <ís>i, then T3: VT > Ø)
 # –àr, –ér, '–er, –ír, –ír/is: skomenŧiando da 'l indikativo prexente de prima parsona singolar
-SFX tI Y 31
+SFX tI Y 30
 SFX tI iso ísomi/I1 iso	ds:indicative+present is:first+singular ds:interrogative	# T8 + i
 SFX tI 0 jo [^is]o	ds:indicative+present is:first+singular ds:interrogative
 SFX tI 0 ɉo [^is]o	ds:indicative+present is:first+singular ds:interrogative	# venethian
@@ -2395,7 +2424,6 @@ SFX tI o 0/P0 io	ds:indicative+present is:second+singular	# T8 + i
 SFX tI o s/P3J3I3 io	ds:indicative+present is:second+singular	# T8 + i
 SFX tI o is/J3I3 [^i]so	ds:indicative+present is:second+singular	# T8 + i
 SFX tI o i/P0 [^i]so	ds:indicative+present is:second+singular	# T8 + i
-SFX tI o is/J3i3 iso	ds:indicative+present is:second+singular	# T8 + i
 SFX tI o i/P0 iso	ds:indicative+present is:second+singular	# T8 + i
 SFX tI iso ísis/J3I3 iso	ds:indicative+present is:second+singular	# T8 + i
 SFX tI o a o	ds:subjunctive+present is:first+singular	# T8 + a
@@ -7205,8 +7233,10 @@ SFX J3 0 -to .	ds:interrogative	# padoan de thità, vithentin de thità, polexan
 SFX J3 0 -stu [^s]	ds:interrogative	# coxòto
 
 # interogativi sekonda parsona singolar (takai)
-SFX I3 Y 20
+SFX I3 Y 22
 SFX I3 s tu [aà]s	ds:interrogative
+SFX I3 as etu as	ds:interrogative
+SFX I3 às étu às	ds:interrogative
 SFX I3 es itu es	ds:interrogative
 SFX I3 s tu es	ds:interrogative
 SFX I3 s tu is	ds:interrogative
@@ -7228,8 +7258,9 @@ SFX I3 s to [àèéíòóú]s	ds:interrogative	# padoan
 SFX I3 s to ns	ds:interrogative	# padoan
 
 # interogativi sekonda parsona singolar (takai ko asento)
-SFX i3 Y 9
+SFX i3 Y 10
 SFX i3 as àtu as	ds:interrogative
+SFX i3 as étu as	ds:interrogative
 SFX i3 es ítu es	ds:interrogative
 SFX i3 es étu es	ds:interrogative
 SFX i3 as àstu as	ds:interrogative	# coxòto
@@ -7467,7 +7498,7 @@ SFX Y3 lia ƚia/F0 [aeiouàèéíòóúïü]lia
 SFX Y3 ŧia sia/F0 ŧia
 SFX Y3 lía ƚía/F0 [aeiouàèéíòóúïü]lía
 SFX Y3 ŧía sía/F0 ŧía
-SFX Y3 liè ƚiè [aeiouàèéíòóúïü]liè
+SFX Y3 lié ƚié [aeiouàèéíòóúïü]lié
 SFX Y3 lan ƚan/M0Bu [aeiouàèéíòóúïü]lan
 SFX Y3 len ƚen/M0Pd [aeiouàèéíòóúïü]len
 SFX Y3 lin ƚin/M0 [aeiouàèéíòóúïü]lin
