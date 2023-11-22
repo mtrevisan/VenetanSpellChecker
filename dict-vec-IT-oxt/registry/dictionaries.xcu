@@ -154,6 +154,16 @@
 			</prop>
 			<prop oor:name="Locales" oor:type="oor:string-list">
 				<value>vec-MX</value>
+			</prop>
+		</node>
+		<node oor:name="HyphDic_vec_RO" oor:op="fuse">
+			<prop oor:name="Locations" oor:type="oor:string-list">
+				<value>%origin%/../dictionaries/hyph_vec.dic</value>
+			</prop>
+			<prop oor:name="Format" oor:type="xs:string">
+				<value>DICT_HYPH</value>
+			</prop>
+			<prop oor:name="Locales" oor:type="oor:string-list">
 				<value>vec-RO</value>
 			</prop>
 		</node>

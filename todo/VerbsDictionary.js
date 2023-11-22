@@ -5703,6 +5703,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "ovr",			"",			1,	0,	"g",	"1560",			"Doparar.",
 "ovr",			"man",		1,	0,	"g",	"1867",			"",
 "ox",				"",			1,	0,	"g",	"1684",			"(veneŧian)",
+"ʼox",			"",			1,	0,	"a",	"1884",			"(belumat) it. vociare.",
 "oxel",			"",			1,	2,	"g",	"1775",			"Andar a kaŧa.",
 
 "p",				"in",			4,	1,	"a",	"1412",			"",
