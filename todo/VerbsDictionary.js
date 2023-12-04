@@ -9082,6 +9082,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "ŧervel",		"dex",		1,	4,	"g",	"1854",			"",
 "ŧes",			"",			1,	1,	"g",	"1415",			"",
 "ŧes",			"pro",		1,	1,	"g",	"1775",			"",
+"ŧes",			"re",			1,	1,	"g",	"1884",			"(belumat) Indietreggiare.",
 "ŧest",			"",			1,	1,	"a",	"1829",			"",
 "ŧet",			"",			1,	1,	"a",	"1894",			"",
 "ŧet",			"a",			1,	1,	"a",	"1829",			"",
