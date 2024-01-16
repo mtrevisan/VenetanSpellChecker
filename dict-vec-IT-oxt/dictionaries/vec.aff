@@ -1068,7 +1068,7 @@ SFX l4 r ganto-ƚo/k2 star	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt
 
 # group: indicative present
 # used if word does not contains ƚ
-SFX N0 Y 18
+SFX N0 Y 9
 SFX N0 ar on/J2 ar	ds:indicative+present is:first+plural	# T12 + ón
 SFX N0 ar en/J2 ar	ds:indicative+present is:first+plural	# T12 + én
 SFX N0 er on/J2 er	ds:indicative+present is:first+plural	# T12 + ón
@@ -1078,15 +1078,6 @@ SFX N0 rò n/J2 erò	ds:indicative+present is:first+plural	# T12 + én
 SFX N0 0 0/J3 e	ds:indicative+present is:second+singular	# T10 = T8 + e, 2s=3, belumat
 SFX N0 er è/J4 er	ds:indicative+present is:second+plural	# T12 + [èé]
 SFX N0 erò è/J4 erò	ds:indicative+present is:second+plural	# T12 + [èé]
-SFX N0 ixerò ís/J3 dixerò	ds:indicative+present is:second+singular	# T8 + i, irregular díxer
-SFX N0 uxerò ús/J3 duxerò	ds:indicative+present is:second+singular	# T8 + i, irregular dúxer
-SFX N0 ixerò ís/J5 dixerò	ds:indicative+present is:third	# T10 = T8 + e, irregular díxer
-SFX N0 uxerò ús/J5 duxerò	ds:indicative+present is:third	# T10 = T8 + e, irregular dúxer
-SFX N0 aerò on/J2 traerò	ds:indicative+present is:first+plural	# T12 + ón, irregular tràer
-SFX N0 aerò en/J2 traerò	ds:indicative+present is:first+plural	# T12 + én, irregular tràer
-SFX N0 r 0/J3 tràer	ds:indicative+present is:second+singular	# T10 = T8 + e, 2s=3, belumat, irregular tràer
-SFX N0 aerò è/J4 traerò	ds:indicative+present is:second+plural	# T12 + [èé], irregular tràer
-SFX N0 aerò é/J4 traerò	ds:indicative+present is:second+plural	# T12 + [èé], irregular tràer
 
 # group: indicative imperfect, indicative future, subjunctive imperfect, conditional present
 # used if word does not contains ƚ
@@ -2172,7 +2163,7 @@ SFX xA r ganto-ƚo/k2 [aʼ]ndar	ds:gerund+simple	# T2 + n[dt]o
 # vèrbi –ér inregolari: (re)av?er, (re)g(av?)er, ʼv?er
 # different conjugation in indicative present, subjunctive present, imperative present
 # subjunctive present of "apier"
-SFX xB Y 32
+SFX xB Y 34
 SFX xB r mo/J2 er	ds:indicative+present is:first+plural	# T5 + mo
 SFX xB er imo/J2 er	ds:indicative+present is:first+plural	# T5 + mo
 SFX xB er é/J4 er	ds:indicative+present is:second+plural	# T5
@@ -2189,6 +2180,8 @@ SFX xB er é-l/k1 er	ds:imperative+present is:second+plural ds:pronomenal+accusa
 SFX xB er í-l/k1 er	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
 SFX xB aver àpia aver	ds:subjunctive+present is:first+singular	# T8 + a
 SFX xB aver àpie aver	ds:subjunctive+present is:first+singular	# T8 + e
+SFX xB aver àpi aver	ds:subjunctive+present is:second+singular	# T8 + a
+SFX xB aver àpis aver	ds:subjunctive+present is:second+singular	# T8 + a
 SFX xB aver àpia aver	ds:subjunctive+present is:second+singular	# T8 + a
 SFX xB aver àpias aver	ds:subjunctive+present is:second+singular	# T8 + a
 SFX xB aver àpie aver	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3, belumat
@@ -2209,9 +2202,11 @@ SFX xB er é/K0k1 aver	ds:imperative+present is:second+plural	# T12 + [èé]
 # vèrbi –ér inregolari: (a(s)|apar|de|(in)kon|intra|man|(re)o|re|sos|tra)[ct][èé][nñ]er, (a(r)|ben|de(x)|(des|re)kon|in|inter|intr[ae]|kontra|mal|per|pre|(re)so|pro|rin|sko(n)|sora|x)[vʼ][èéí][nñ]er/ʼñer
 # t[èé][nñ]er > ŧ[èé][nñ]er > c[èé][nñ]er
 # changes in indicative present, imperative present
-SFX xC Y 12
+SFX xC Y 14
 SFX xC èñer ièn/BuJ5 [^c]èñer	ds:indicative+present is:third	# T10 = T8 + e
 SFX xC ñer n/BuJ5 èñer	ds:indicative+present is:third	# T10 = T8 + e
+SFX xC er i [ct][èé][nñ]er	ds:subjunctive+present is:second+singular	# T8 + i
+SFX xC er i [vʼ][èéí][nñ]er	ds:subjunctive+present is:second+singular	# T8 + i
 SFX xC er is [ct][èé][nñ]er	ds:subjunctive+present is:second+singular	# T8 + i
 SFX xC er is [vʼ][èéí][nñ]er	ds:subjunctive+present is:second+singular	# T8 + i
 SFX xC r s [ct][èé][nñ]er	ds:subjunctive+present is:second+singular	# T8 + [ea]
@@ -2225,7 +2220,7 @@ SFX xC er 0/K0k1 céner	ds:imperative+present is:second+singular	# T9
 
 # vèrbi –ér inregolari: (des|re)(t[iu]?|c)oler, (ben|mal|re)(vu?|ʼ)oler
 # changes in indicative present, indicative future, subjunctive present, conditional present, imperative present, infinitive simple, participle passive
-SFX xD Y 124
+SFX xD Y 126
 SFX xD ler jo/J1 [vʼ][oò]ler	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xD ler ɉo/J1 [vʼ][oò]ler	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xD oler ògo/J1 [ct]oler	ds:indicative+present is:first+singular	# T8 + [oe]
@@ -2270,8 +2265,10 @@ SFX xD oler òge t[iu]oler	ds:subjunctive+present is:first+singular	# T8 + e
 SFX xD oler úpie [vʼ]oler	ds:subjunctive+present is:first+singular	# T8 + e
 SFX xD oler upiemo [vʼ]oler	ds:subjunctive+present is:first+plural
 SFX xD oler upimo [vʼ]oler	ds:subjunctive+present is:first+plural
-SFX xD oler úpi [vʼ]oler	ds:subjunctive+present is:second+singular
-SFX xD oler upie [vʼ]oler	ds:subjunctive+present is:second+singular	# T8 + i
+SFX xD oler úpi [vʼ]oler	ds:subjunctive+present is:second+singular	# T8 + i
+SFX xD oler úpis [vʼ]oler	ds:subjunctive+present is:second+singular	# T8 + i
+SFX xD oler ògi [ct]oler	ds:subjunctive+present is:second+singular	# T8 + i
+SFX xD oler ògis [ct]oler	ds:subjunctive+present is:second+singular	# T8 + i
 SFX xD oler òga [ct]oler	ds:subjunctive+present is:second+singular	# T8 + a
 SFX xD oler ògas [ct]oler	ds:subjunctive+present is:second+singular	# T8 + a
 SFX xD oler òga t[iu]oler	ds:subjunctive+present is:second+singular	# T8 + a
@@ -2364,14 +2361,14 @@ SFX xE ar às/J3 ar	ds:indicative+present is:second+singular	# T8 + e
 SFX xE ar àa ar	ds:subjunctive+present is:first+singular	# T8 + a
 SFX xE ar àga ar	ds:subjunctive+present is:first+singular	# T8 + a
 SFX xE ar àe ar	ds:subjunctive+present is:first+singular	# T8 + e
-SFX xE ar ài ar	ds:subjunctive+present is:second+singular	# T8 + e
-SFX xE ar àis ar	ds:subjunctive+present is:second+singular	# T8 + e
-SFX xE ar àgi ar	ds:subjunctive+present is:second+singular	# T8 + e
-SFX xE ar àgis ar	ds:subjunctive+present is:second+singular	# T8 + e
-SFX xE ar àa ar	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3
-SFX xE ar àas ar	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3
-SFX xE ar àga ar	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3
-SFX xE ar àgas ar	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3
+SFX xE ar ài ar	ds:subjunctive+present is:second+singular	# T8 + i
+SFX xE ar àis ar	ds:subjunctive+present is:second+singular	# T8 + i
+SFX xE ar àgi ar	ds:subjunctive+present is:second+singular	# T8 + i
+SFX xE ar àgis ar	ds:subjunctive+present is:second+singular	# T8 + i
+SFX xE ar àa ar	ds:subjunctive+present is:second+singular	# T8 + a, 2s=3
+SFX xE ar àas ar	ds:subjunctive+present is:second+singular	# T8 + a, 2s=3
+SFX xE ar àga ar	ds:subjunctive+present is:second+singular	# T8 + a, 2s=3
+SFX xE ar àgas ar	ds:subjunctive+present is:second+singular	# T8 + a, 2s=3
 SFX xE ar àe ar	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3
 SFX xE ar àes ar	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3
 SFX xE ar àa ar	ds:subjunctive+present is:third	# T8 + a
@@ -2385,7 +2382,7 @@ SFX xE r ganto/K0 ar	ds:gerund+simple	# T2 + n[dt]o
 # vèrbi '–er inregolari: (bene|d[ei]x|in|inter|intr[ae]|kontra|ma[lƚ]e|pre|re)díxer, (a|(pre)de|(re)(kon|pro)|in(tro)|pre|se|tra)dúxer
 # changes in indicative present, indicative future, subjunctive present, conditional present, infinitive simple, participle passive
 # indicative future, conditional present of "dir"
-SFX xF Y 46
+SFX xF Y 50
 SFX xF xer go/J1 íxer	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xF xer ge/J1 íxer	ds:indicative+present is:first+singular	# T8 + [oe], belumat
 SFX xF íxer irò/J1 íxer	ds:indicative+future is:first+singular	# T4 + r[òàè]
@@ -2396,6 +2393,10 @@ SFX xF íxer irà/J3 íxer	ds:indicative+future is:second+singular	# T4 + r[àé
 SFX xF íxer iré/J3 íxer	ds:indicative+future is:second+singular	# T4 + r[àé]
 SFX xF íxer iras/J3 íxer	ds:indicative+future is:second+singular	# T4 + r[àé]s
 SFX xF íxer ires/J3 íxer	ds:indicative+future is:second+singular	# T4 + r[àé]s
+SFX xF ixerò ís/J3 dixerò	ds:indicative+present is:second+singular	# T8 + i, belumat
+SFX xF uxerò ús/J3 duxerò	ds:indicative+present is:second+singular	# T8 + i, belumat
+SFX xF ixerò ís/J5 dixerò	ds:indicative+present is:third	# T10 = T8 + e, belumat
+SFX xF uxerò ús/J5 duxerò	ds:indicative+present is:third	# T10 = T8 + e, belumat
 SFX xF íxer irè/J4 íxer	ds:indicative+future is:second+plural	# T4 + r[èéí]
 SFX xF íxer iré/J4 íxer	ds:indicative+future is:second+plural	# T4 + r[èéí], arkade
 SFX xF íxer irí/J4 íxer	ds:indicative+future is:second+plural	# T4 + r[èéí]
@@ -2608,7 +2609,7 @@ SFX xK èser sí/J3K0 èser	ds:indicative+present is:second+singular	# T8 + i
 SFX xK èser sís/J3 èser	ds:indicative+present is:second+singular	# T8 + i
 SFX xK èser sipia èser	ds:subjunctive+present is:first+singular	# T8 + a
 SFX xK èser sipi èser	ds:subjunctive+present is:second+singular	# T8 + i
-SFX xK èser sipis èser	ds:subjunctive+present is:second+singular	# T8 + i
+SFX xK èser sípis èser	ds:subjunctive+present is:second+singular	# T8 + i
 SFX xK èser son/J1 èser	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xK èser sun/J1 èser	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xK èser súʼ èser	ds:indicative+present is:first+singular	# T8 + [oe], coxòto
@@ -3268,17 +3269,41 @@ SFX xM der rae oder	ds:conditional+present is:third	# T4 + rà(v)[ei]
 
 # vèrbi '–er inregolari: (a|pre|re|stra)sav?er
 # different conjugation in indicative present, subjunctive present, imperative present
-SFX xN Y 12
+SFX xN Y 36
 SFX xN aver ào/J1 saver	ds:indicative+present is:first+singular	# T8 + [oe]
+SFX xN aver ò/J1 saver	ds:indicative+present is:first+singular	# T8 + [oe]
+SFX xN aver àe/J1 saver	ds:indicative+present is:first+singular	# T8 + [oe], belumat
+SFX xN r mo/J2 saver	ds:indicative+present is:first+plural	# T5 + mo
+SFX xN er imo/J2 saver	ds:indicative+present is:first+plural	# T5 + mo
 SFX xN aver ài/J3 saver	ds:indicative+present is:second+singular	# T8 + i
 SFX xN aver à/J3 saver	ds:indicative+present is:second+singular	# T10 = T8 + e, 2s=3, belumat
 SFX xN aver às/J3 saver	ds:indicative+present is:second+singular	# T10 = T8 + es, 2s=3, belumat
-SFX xN aver àa saver	ds:subjunctive+present is:first+singular	# T8 + a
+SFX xN er é/J4 saver	ds:indicative+present is:second+plural	# T5
+SFX xN er í/J4 saver	ds:indicative+present is:second+plural	# T5
+SFX xN er è/J4 saver	ds:indicative+present is:second+plural	# T12 + [èé]
+SFX xN aver à/k1k2 saver	ds:indicative+present is:third	# T10
+SFX xN aver ài/k1k2 saver	ds:indicative+present is:third	# T10, dhulian
+SFX xN ver pia saver	ds:subjunctive+present is:first+singular	# T8 + a
+SFX xN ver pie saver	ds:subjunctive+present is:first+singular	# T8 + e
 SFX xN ver piemo saver	ds:subjunctive+present is:first+plural	# T5 + mo
+SFX xN ver pion saver	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
+SFX xN ver pione saver	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e), baso belumat, liventin, seguxin, cipileño
+SFX xN ver pien saver	ds:subjunctive+present is:first+plural	# T12 + én(e)
+SFX xN ver piene saver	ds:subjunctive+present is:first+plural	# T12 + én(e)
+SFX xN ver pi saver	ds:subjunctive+present is:second+singular	# T8 + i
+SFX xN aver àpis saver	ds:subjunctive+present is:second+singular	# T8 + i
+SFX xN ver pia saver	ds:subjunctive+present is:second+singular	# T8 + a
+SFX xN aver àpias saver	ds:subjunctive+present is:second+singular	# T8 + a
+SFX xN ver pie saver	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3, belumat
+SFX xN aver àpies saver	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3, belumat
 SFX xN ver piè saver	ds:subjunctive+present is:second+plural	# T5, venethian
 SFX xN ver pié saver	ds:subjunctive+present is:second+plural	# T5, arkade
-SFX xN ver pií saver	ds:subjunctive+present is:second+plural	# T5
-SFX xN aver à/K0 saver	ds:imperative+present is:second+singular	# T9
+SFX xN ver pí saver	ds:subjunctive+present is:second+plural	# T5
+SFX xN ver piede saver	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), baso belumat
+SFX xN ver piege saver	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), seguxin, cipileño
+SFX xN ver pie saver	ds:subjunctive+present is:third	# T8 + e
+SFX xN ver pia saver	ds:subjunctive+present is:third	# T8 + a
+SFX xN aver à/K0k1k2 saver	ds:imperative+present is:second+singular	# T9
 SFX xN er é/K0k1k2 saver	ds:imperative+present is:second+plural	# T5
 SFX xN er í/K0k1k2 saver	ds:imperative+present is:second+plural	# T5
 
@@ -3286,14 +3311,18 @@ SFX xN er í/K0k1k2 saver	ds:imperative+present is:second+plural	# T5
 # changes in indicative present, indicative future, subjunctive present, conditional present, imperative present, infinitive simple, participle passive
 # indicative present of "trar", but not the first singular
 # indicative future, conditional present, imperative present, infinitive simple of "trar"
-SFX xO Y 57
+SFX xO Y 61
 SFX xO er go/J1 tràer	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xO er ge/J1 tràer	ds:indicative+present is:first+singular	# T8 + [oe], belumat
 SFX xO àer emo/J2 tràer	ds:indicative+present is:first+plural	# T5 + mo
 SFX xO àer imo/J2 tràer	ds:indicative+present is:first+plural	# T5 + mo
+SFX xO àer on/J2 tràer	ds:indicative+present is:first+plural	# T12 + ón, belumat
+SFX xO àer en/J2 tràer	ds:indicative+present is:first+plural	# T12 + én, liventin
 SFX xO er gi/J3 tràer	ds:indicative+present is:second+singular	# T8 + i
-SFX xO àer é/J4 tràer	ds:indicative+present is:second+plural	# T5
+SFX xO er e/J3 tràer	ds:indicative+present is:second+singular	# T10 = T8 + e, 2s=3, belumat
 SFX xO àer í/J4 tràer	ds:indicative+present is:second+plural	# T5
+SFX xO àer è/J4 tràer	ds:indicative+present is:second+plural	# T12 + [èé], belumat
+SFX xO àer é/J4 tràer	ds:indicative+present is:second+plural	# T5 = T12 + [èé], belumat
 SFX xO àer arò/J1 tràer	ds:indicative+future is:first+singular	# T4 + r[òàè]
 SFX xO àer arà/J1 tràer	ds:indicative+future is:first+singular	# T4 + r[òàè]
 SFX xO àer aremo/J2 tràer	ds:indicative+future is:first+plural	# T4 + r[éí]mo
