@@ -437,7 +437,7 @@ COMPOUNDRULE (|5)(-b)(|6)	# sento-mi[lƚ]e
 
 # -àr, -ér, '-er, -ír, '–ir/–iso–
 # group: indicative present
-SFX T0 Y 15
+SFX T0 Y 18
 SFX T0 ar emo/J2 ar	ds:indicative+present is:first+plural	# T5 + mo
 SFX T0 r mo/J2 er	ds:indicative+present is:first+plural	# T5 + mo
 SFX T0 er imo/J2 er	ds:indicative+present is:first+plural	# T5 + mo
@@ -445,6 +445,7 @@ SFX T0 rò mo/J2 erò	ds:indicative+present is:first+plural	# T5 + mo
 SFX T0 erò imo/J2 erò	ds:indicative+present is:first+plural	# T5 + mo
 SFX T0 r mo/J2 ir	ds:indicative+present is:first+plural	# T5 + mo
 SFX T0 ir emo/J2 ir	ds:indicative+present is:first+plural	# T5 + mo, metaplaxmo
+SFX T0 e a/K0 e	ds:imperative+present is:second+singular	# T9
 SFX T0 ar é/J4 ar	ds:indicative+present is:second+plural	# T5
 SFX T0 ar è/J4 ar	ds:indicative+present is:second+plural	# T5
 SFX T0 er é/J4 er	ds:indicative+present is:second+plural	# T5
@@ -453,9 +454,11 @@ SFX T0 erò é/J4 erò	ds:indicative+present is:second+plural	# T5 = T12 + [èé
 SFX T0 erò í/J4 erò	ds:indicative+present is:second+plural	# T5
 SFX T0 ir í/J4 ir	ds:indicative+present is:second+plural	# T5 = T12 + [èé]
 SFX T0 ir é/J4 ir	ds:indicative+present is:second+plural	# T12 + [èé]
+SFX T0 e a e	ds:indicative+present is:third	# T10
+SFX T0 e i e	ds:indicative+present is:third	# T10, dhulian
 
 # '–er
-# group: indicative present
+# group: indicative present second singular
 SFX t0 Y 2
 SFX t0 er is/J3 er	ds:indicative+present is:second+singular	# T8 + is
 SFX t0 r s/J3 er	ds:indicative+present is:second+singular	# T10 = T8 + es, 2s=3, belumat
@@ -714,7 +717,7 @@ SFX T2 ir í ir	ds:subjunctive+present is:second+plural	# T5, arkade, venethian
 SFX T2 ir é ir	ds:subjunctive+present is:second+plural	# T5 = T12 + é([dg]e)
 
 # -àr, -ér, '-er, -ír, '–ir/–iso–
-# group: imperative present
+# group: imperative present second plural
 SFX T3 Y 7
 SFX T3 ar é/K0 ar	ds:imperative+present is:second+plural	# T5
 SFX T3 ar è/K0 ar	ds:imperative+present is:second+plural	# T5
@@ -774,7 +777,7 @@ SFX T4 ir anto/K0 ir	ds:gerund+simple	# T7 + n[dt]o, metaplaxmo
 
 
 # -àr, -ér, '-er, -ír, '–ir/–iso–
-# group: indicative present
+# group: indicative present third
 # used if word does not contains ƚ
 SFX L0 Y 5
 SFX L0 e a-lo/J6 e	ds:indicative+present is:third	# T10
@@ -783,7 +786,6 @@ SFX L0 e o-lo/J6 ise	ds:indicative+present is:third	# T10
 SFX L0 e a-lo/J6 ise	ds:indicative+present is:third	# T10
 SFX L0 e i-lo/J6 ise	ds:indicative+present is:third	# T10, dhulian
 
-# (senŧa èle vanesente)
 # group: indicative imperfect, indicative future, subjunctive imperfect, conditional present
 # used if word does not contains ƚ
 SFX L1 Y 64
@@ -852,22 +854,17 @@ SFX L1 ler ravi-lo/J6 [tv][iu]oler	ds:conditional+present ds:interrogative is:th
 SFX L1 ler rai-lo/J6 [ctvʼ]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular toler, voler
 SFX L1 ler rai-lo/J6 [tv][iu]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular toler, voler
 
-# (senŧa èle vanesente)
-# group: imperative present
+# group: imperative present second singular
 # used if word does not contains ƚ
 SFX L2 Y 2
 SFX L2 e i-l/k1 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
 SFX L2 0 -l/k1 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
 
-# (senŧa èle vanesente)
 # group: imperative present
 # used if word does not contains ƚ
-SFX L3 Y 20
-SFX L3 r -l/k1 ar	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
-SFX L3 ar e-l/k1 ar	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9, metaplaxmo
-SFX L3 er i-l/k1 er	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
-SFX L3 r -l/k1 er	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
-SFX L3 r -l/k1 ir	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
+SFX L3 Y 15
+SFX L3 a e-l/k1 a	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
+SFX L3 e i-l/k1 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
 SFX L3 ar é-l/k1 ar	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
 SFX L3 ar è-l/k1 ar	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
 SFX L3 er é-l/k1 er	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
@@ -875,8 +872,6 @@ SFX L3 er í-l/k1 er	ds:imperative+present is:second+plural ds:pronomenal+accusa
 SFX L3 erò é-l/k1 erò	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
 SFX L3 erò í-l/k1 erò	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
 SFX L3 ir í-l/k1 ir	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
-SFX L3 aerò é-l/k1 traerò	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5, irregular tràer
-SFX L3 aerò í-l/k1 traerò	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5, irregular tràer
 SFX L3 e -l/k1 [df]àe	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9, irregular dar, far
 SFX L3 e -l/k1 stàe	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9, irregular star
 SFX L3 àe é-l/k1 [df]àe	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5, irregular dar, far
@@ -884,10 +879,9 @@ SFX L3 àe é-l/k1 stàe	ds:imperative+present is:second+plural ds:pronomenal+ac
 SFX L3 àe è-l/k1 [df]àe	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5, irregular dar, far
 SFX L3 àe è-l/k1 stàe	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5, irregular star
 
-# (senŧa èle vanesente)
 # group: indefinitive form
 # used if word does not contains ƚ
-SFX L4 Y 22
+SFX L4 Y 14
 SFX L4 r ndo-l/k1 ar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
 SFX L4 r ndo-l/k1 [ei]r	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
 SFX L4 rò ndo-l/k1 erò	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
@@ -902,19 +896,11 @@ SFX L4 rò nto-l/k1 erò	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
 SFX L4 erò anto-l/k1 erò	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
 SFX L4 ir ento-l/k1 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
 SFX L4 ir anto-l/k1 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX L4 r gando-l/k1 [aʼ]ndar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, irregular andar
-SFX L4 r ganto-l/k1 [aʼ]ndar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, irregular andar
-SFX L4 r gando-l/k1 dar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, irregular dar
-SFX L4 r ganto-l/k1 dar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, irregular dar
-SFX L4 r gando-l/k1 far	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, irregular far
-SFX L4 r ganto-l/k1 far	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, irregular far
-SFX L4 r gando-l/k1 star	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, irregular star
-SFX L4 r ganto-l/k1 star	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, irregular star
 
 
 # (ko èle vanesente)
 # -àr, -ér, '-er, -ír, '–ir/–iso–
-# group: indicative present
+# group: indicative present third
 # used if word does contains ƚ
 SFX l0 Y 5
 SFX l0 e a-ƚo/J8 e	ds:indicative+present is:third ds:pronomenal+accusative	# T10
@@ -993,7 +979,7 @@ SFX l1 ler rai-ƚo/J8 [ctvʼ]oler	ds:conditional+present ds:interrogative is:thi
 SFX l1 ler rai-ƚo/J8 [tv][iu]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular toler, voler
 
 # (ko èle vanesente)
-# group: imperative present
+# group: imperative present second singular
 # used if word does contains ƚ
 SFX l2 Y 2
 SFX l2 e i-ƚo/k2 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
@@ -1002,12 +988,9 @@ SFX l2 0 -ƚo/k2 e	ds:imperative+present is:second+singular ds:pronomenal+accusa
 # (ko èle vanesente)
 # group: imperative present
 # used if word does contains ƚ
-SFX l3 Y 20
-SFX l3 r -ƚo/k2 ar	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
-SFX l3 ar e-ƚo/k2 ar	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9, metaplaxmo
-SFX l3 er i-ƚo/k2 er	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
-SFX l3 r -ƚo/k2 er	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
-SFX l3 r -ƚo/k2 ir	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
+SFX l3 Y 15
+SFX l3 a e-ƚo/k2 a	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
+SFX l3 e i-ƚo/k2 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
 SFX l3 ar é-ƚo/k2 ar	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
 SFX l3 ar è-ƚo/k2 ar	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
 SFX l3 er é-ƚo/k2 er	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
@@ -1015,8 +998,6 @@ SFX l3 er í-ƚo/k2 er	ds:imperative+present is:second+plural ds:pronomenal+accu
 SFX l3 erò é-ƚo/k2 erò	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
 SFX l3 erò í-ƚo/k2 erò	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
 SFX l3 ir í-ƚo/k2 ir	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
-SFX l3 aerò é-ƚo/k2 traerò	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5, irregular tràer
-SFX l3 aerò í-ƚo/k2 traerò	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5, irregular tràer
 SFX l3 e -ƚo/k2 [df]àe	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9, irregular dar, far
 SFX l3 e -ƚo/k2 stàe	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9, irregular star
 SFX l3 àe é-ƚo/k2 [df]àe	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5, irregular dar, far
@@ -1027,7 +1008,7 @@ SFX l3 àe è-ƚo/k2 stàe	ds:imperative+present is:second+plural ds:pronomenal+
 # (ko èle vanesente)
 # group: indefinitive form
 # used if word does contains ƚ
-SFX l4 Y 22
+SFX l4 Y 14
 SFX l4 r ndo-ƚo/k2 ar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
 SFX l4 r ndo-ƚo/k2 [ei]r	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
 SFX l4 rò ndo-ƚo/k2 erò	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
@@ -1042,14 +1023,6 @@ SFX l4 rò nto-ƚo/k2 erò	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt
 SFX l4 erò anto-ƚo/k2 erò	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
 SFX l4 ir ento-ƚo/k2 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
 SFX l4 ir anto-ƚo/k2 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX l4 r gando-ƚo/k2 [aʼ]ndar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, irregular andar
-SFX l4 r ganto-ƚo/k2 [aʼ]ndar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, irregular andar
-SFX l4 r gando-ƚo/k2 dar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, irregular dar
-SFX l4 r ganto-ƚo/k2 dar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, irregular dar
-SFX l4 r gando-ƚo/k2 far	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, irregular far
-SFX l4 r ganto-ƚo/k2 far	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, irregular far
-SFX l4 r gando-ƚo/k2 star	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, irregular star
-SFX l4 r ganto-ƚo/k2 star	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, irregular star
 
 
 # group: indicative present
@@ -1872,7 +1845,7 @@ SFX N2 éver ebiede diéver	ds:subjunctive+present is:second+plural	# T12 + é([
 SFX N2 éver ebiege diéver	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), seguxin, cipileño, irregular déver
 
 # -ér, '-er
-# group: imperative present
+# group: imperative present second plural
 # used if word does not contains ƚ
 SFX N3 Y 2
 SFX N3 er è/K0k1 er	ds:imperative+present is:second+plural	# T12 + [èé]
@@ -1915,11 +1888,13 @@ SFX W0 e i/J3 e	ds:indicative+present is:second+singular	# T8 + i
 SFX W0 e a e	ds:subjunctive+present is:first+singular	# T8 + a
 
 # -àr, -ér, '-er, -ír
+# group: subjunctive present second singular
 SFX W8 Y 2
 SFX W8 e i [^i]e	ds:subjunctive+present is:second+singular	# T8 + i, na sílaba solke (xvie > xvii)
 SFX W8 e 0 ie	ds:subjunctive+present is:second+singular	# T8 + i, se do o pí sílabe ke le fenise par –ie (studie > studi)
 
 # for '–[aei]r
+# group: indicative present second singular
 SFX V0 Y 1
 SFX V0 0 0/J3 is	ds:indicative+present is:second+singular	# T8 + is
 
@@ -1992,34 +1967,21 @@ SFX l5 e a-ƚo/k2 ise	ds:indicative+present is:second+singular	# T10
 SFX l5 e è-ƚo/k2 ise	ds:imperative+present is:second+plural	# T12 + [èé]
 SFX l5 e é-ƚo/k2 ise	ds:imperative+present is:second+plural	# T12 + [èé]
 
-# from T3, T4, for –ar
-SFX W1 Y 3
-SFX W1 e a e	ds:indicative+present is:third	# T10
-SFX W1 e i e	ds:indicative+present is:third	# T10, dhulian
-SFX W1 e a/K0 e	ds:imperative+present is:second+singular	# T9
-
-# from T3, T4, for –ar
-# used if word does not contains ƚ
-SFX L6 Y 1
-SFX L6 e a-l/k1 e	ds:imperative+present is:second+singular	# T9
-
-# from T3, T4, for –ar
-# used if word does contains ƚ
-SFX l6 Y 1
-SFX l6 e a-ƚo/k2 e	ds:imperative+present is:second+singular	# T9
-
 # from T3, T4, for -ér, '-er, -ír
+# group: imperative present second singular
 SFX W2 Y 2
 SFX W2 e i/K0 e	ds:imperative+present is:second+singular	# T9
 SFX W2 0 0/K0 e	ds:imperative+present is:second+singular	# T9
 
 # from T3, T4, for -ér, '-er, -ír
+# group: imperative present second singular
 # used if word does not contains ƚ
 SFX L7 Y 2
 SFX L7 e i-l/k1 e	ds:imperative+present is:second+singular	# T9
 SFX L7 0 -l/k1 e	ds:imperative+present is:second+singular	# T9
 
 # from T3, T4, for -ér, '-er, -ír
+# group: imperative present second singular
 # used if word does contains ƚ
 SFX l7 Y 2
 SFX l7 e i-ƚo/k2 e	ds:imperative+present is:second+singular	# T9
@@ -2035,11 +1997,13 @@ SFX W3 0 0 e	ds:subjunctive+present is:third	# T8 + e
 SFX W3 e a e	ds:subjunctive+present is:third	# T8 + a
 
 # -ar with è or ò stress
+# group: indicative present second singular
 SFX W4 Y 2
 SFX W4 e a/J3 e	ds:indicative+present is:second+singular	# T10
 SFX W4 0 0/J3 e	ds:indicative+present is:second+singular	# T8 + e, 2s=3, belumat
 
 # for '–ar
+# group: indicative present second singular
 SFX W5 Y 4
 SFX W5 e as/J3 e	ds:indicative+present is:second+singular	# T10 + s
 SFX W5 0 s/J3 e	ds:indicative+present is:second+singular	# T8 + es, 2s=3, belumat
@@ -2322,7 +2286,7 @@ SFX xD er sudo/A1FS vuoler	ds:participle+passive+strong is:singular+masculine
 
 # vèrbi –àr inregolari: (dex)dar, ((dex)asue|des|kon(tra)|[lƚ]iku[ei]|mansue|putre|(ra)?re|sastu|sat[iu]s|statu|so[dt]is|sosti|sora|stra|st[ou]pe|tore|tume)far, (kon(tra)|mal|move|o|re|so(v?ra|to))star
 # different conjugation in indicative present, subjunctive present
-SFX xE Y 27
+SFX xE Y 29
 SFX xE ar ào/J1 ar	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xE ar àgo/J1 ar	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xE ar àe/J1 ar	ds:indicative+present is:first+singular	# T8 + [oe]
@@ -2348,13 +2312,15 @@ SFX xE ar àga ar	ds:subjunctive+present is:third	# T8 + a
 SFX xE ar àe ar	ds:subjunctive+present is:third	# T8 + e
 SFX xE ar àge ar	ds:subjunctive+present is:third	# T8 + e
 SFX xE r nde/FSK0k1 ar	ds:gerund+simple	# T2 + nde, FIXME ƚiku[ei]far should not have FS
-SFX xE r gando/K0 ar	ds:gerund+simple	# T2 + n[dt]o
-SFX xE r ganto/K0 ar	ds:gerund+simple	# T2 + n[dt]o
+SFX xE r gando/K0k1 ar	ds:gerund+simple	# T2 + n[dt]o
+SFX xE r ganto/K0k1 ar	ds:gerund+simple	# T2 + n[dt]o
+SFX xE r gando-ƚo/k2 ar	ds:gerund+simple	# T2 + n[dt]o
+SFX xE r ganto-ƚo/k2 ar	ds:gerund+simple	# T2 + n[dt]o
 
 # vèrbi '–er inregolari: (bene|d[ei]x|in|inter|intr[ae]|kontra|ma[lƚ]e|pre|re)díxer, (a|(pre)de|(re)(kon|pro)|in(tro)|pre|se|tra)dúxer
 # changes in indicative present, indicative future, subjunctive present, conditional present, infinitive simple, participle passive
 # indicative future, conditional present of "dir"
-SFX xF Y 50
+SFX xF Y 54
 SFX xF xer go/J1 díxer	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xF xer ge/J1 díxer	ds:indicative+present is:first+singular	# T8 + [oe], belumat
 SFX xF íxer irò/J1 díxer	ds:indicative+future is:first+singular	# T4 + r[òàè]
@@ -2405,6 +2371,10 @@ SFX xF íxer irae díxer	ds:conditional+present is:second+plural	# T4 + rà(v)[e
 SFX xF íxer irave díxer	ds:conditional+present is:third	# T4 + rà(v)[ei]
 SFX xF íxer irae díxer	ds:conditional+present is:third	# T4 + rà(v)[ei]
 SFX xF xer re d[íú]xer	ds:infinitive+simple	# T1 + r(e), padoan/coxòto
+SFX xF r gando/K0k1 [aʼ]ndar	ds:gerund+simple	# T2 + n[dt]o
+SFX xF r ganto/K0k1 [aʼ]ndar	ds:gerund+simple	# T2 + n[dt]o
+SFX xF r gando-ƚo/k2 [aʼ]ndar	ds:gerund+simple	# T2 + n[dt]o
+SFX xF r ganto-ƚo/k2 [aʼ]ndar	ds:gerund+simple	# T2 + n[dt]o
 
 # vèrbi '–er inregolari: di?éver
 # different conjugation in subjunctive present
@@ -3339,7 +3309,7 @@ SFX xO àer arae tràer	ds:conditional+present is:second+plural	# T4 + rà(v)[ei
 SFX xO àer arave tràer	ds:conditional+present is:third	# T4 + rà(v)[ei]
 SFX xO àer arae tràer	ds:conditional+present is:third	# T4 + rà(v)[ei]
 SFX xO er 0/K0k1k2 tràer	ds:imperative+present is:second+singular	# T9
-SFX xO àer é/K0 tràer	ds:imperative+present is:second+plural	# T5
+SFX xO àer é/K0k1k2 tràer	ds:imperative+present is:second+plural	# T5
 SFX xO àer í/K0k1k2 tràer	ds:imperative+present is:second+plural	# T5
 SFX xO àer è/K0k1k2 tràer	ds:imperative+present is:second+plural	# T12 + [èé]
 SFX xO er r/K0k1k2 tràer	ds:infinitive+simple	# T1 + r(e)
@@ -3356,9 +3326,9 @@ SFX xP dar é ardar	ds:indicative+future is:second+singular	# T4 + ré
 SFX xP dar es/J3 ardar	ds:indicative+future is:second+singular	# T4 + ré
 SFX xP dar é/J4 ardar	ds:indicative+future is:second+plural	# T4 + ré
 SFX xP dar í/J4 ardar	ds:indicative+future is:second+plural	# T4 + rí
-SFX xP ardo àʼ vardo	ds:imperative+present is:second+singular	# T9
-SFX xP ardo àra/K0k1k2 ardo	ds:imperative+present is:second+singular	# T9
-SFX xP vardo urda/K0k1k2 vardo	ds:imperative+present is:second+singular	# T9
+SFX xP ardar àʼ ardar	ds:imperative+present is:second+singular	# T9
+SFX xP ardar àra/K0k1k2 ardar	ds:imperative+present is:second+singular	# T9
+SFX xP ardar urda/K0k1k2 ardar	ds:imperative+present is:second+singular	# T9
 
 # vèrbo –ir regolar: [fd]ir
 # TODO changes/different conjugation in indicative present, indicative imperfect, indicative future, subjunctive present, subjunctive imperfect, conditional present, imperative present
