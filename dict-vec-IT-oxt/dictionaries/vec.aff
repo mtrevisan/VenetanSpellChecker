@@ -430,7 +430,7 @@ COMPOUNDRULE (|5)(-b)(|6)	# sento-mi[lƚ]e
 
 # –àr:	kantar/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W5W6K0k1, kante/W0T2L3l3W2W3L0l0J5J7FS, kàntis/T0W4; examinar/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W5W6K0k1, exàmine/W0T2L0l0L3l3W2W3W4J5J7
 # –ér:	remaner/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N3N4W5W6K0k1, remane/W0T2W2N0L0l0L2l2J5J7, remànis/T0N0; goder/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N3N4W5W6K0k1, gòde/W0T2W2W4N0L0l0L2l2J5J7FS, gòdis/T0N0
-# '–er:	gòder/t0W5W7K0k1, gòde/W0T2W2N0L0l0L2l2J5J7FS, goderò/T0T1T2T3T4L3L4l1l3l4N0N1N2N3N4W6 (TODO gòdar)
+# '–er:	gòder/t0W5W7K0k1k2, gòde/W0T2W2N0L0l0L2l2J5J7FS, goderò/T0T1T2T3T4L3L4l1l3l4N0N1N2N3N4W6 (TODO gòdar)
 # –ír:	avrir/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W1W5W6K0k1, avre/W0T2W2N0L0l0L2l2J5J7, àvris/T0N0; dormir/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W1W5W6K0k1, dòrme/W0T2W2N0L0l0L2l2J5J7
 # –ír/–iso–:	fenir/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W5W6K0k1, fenise/T5L5l5W1L5l5W2N0L0l0J5J7FS
 
@@ -1519,8 +1519,8 @@ SFX N1 ar eró/J5 ar	ds:conditional+present is:third	# T4 + ró, metaplaxmo
 SFX N1 ò ó/J5 erò	ds:conditional+present is:third	# T4 + ró
 SFX N1 ir eró/J5 ir	ds:conditional+present is:third	# T4 + ró, metaplaxmo
 SFX N1 xerò rè/J1 dixerò	ds:indicative+future is:first+singular	# T4 + r[òàè], irregular díxer
-SFX N1 xerò rón/J2 dixerò	ds:indicative+future is:first+plural	# T4 + rón, irregular díxer
-SFX N1 xerò rén/J2 dixerò	ds:indicative+future is:first+plural	# T4 + rén, irregular díxer
+SFX N1 xerò ron/J2 dixerò	ds:indicative+future is:first+plural	# T4 + rón, irregular díxer
+SFX N1 xerò ren/J2 dixerò	ds:indicative+future is:first+plural	# T4 + rén, irregular díxer
 SFX N1 xerò ron/J2 dixerò	ds:conditional+present is:first+plural	# T4 + r(is)(i)ón(s[ei]), irregular díxer
 SFX N1 xerò ronse dixerò	ds:conditional+present is:first+plural	# T4 + r(is)(i)ón(s[ei]), baso belumat, liventin, seguxin, cipileño, irregular díxer
 SFX N1 xerò ronsi dixerò	ds:conditional+present is:first+plural	# T4 + r(is)(i)ón(s[ei]), irregular díxer
@@ -1987,17 +1987,17 @@ SFX W5 0 e r	ds:infinitive+simple	# T1 + r(e), padoan, coxòto
 
 # used if word does not contains đ or ŧ
 SFX W6 Y 11
-SFX W6 ar àʼ ar	ds:infinitive+simple	# T1, buranèl
-SFX W6 ar íʼ [^ïü]ar	ds:infinitive+simple	# T1, coxòto
-SFX W6 ïar iíʼ ïar	ds:infinitive+simple	# T1, coxòto
-SFX W6 üar uíʼ üar	ds:infinitive+simple	# T1, coxòto
-SFX W6 er íʼ er	ds:infinitive+simple	# T1, coxòto
-SFX W6 erò íʼ erò	ds:infinitive+simple	# T1, coxòto
-SFX W6 er éʼ er	ds:infinitive+simple	# T1, buranèl
-SFX W6 erò éʼ erò	ds:infinitive+simple	# T1, buranèl
-SFX W6 ir íʼ [^ïü]ir	ds:infinitive+simple	# T1, buranèl, coxòto
-SFX W6 üir uíʼ üir	ds:infinitive+simple	# T1, buranèl, coxòto
-SFX W6 ïir iíʼ ïir	ds:infinitive+simple	# T1, buranèl, coxòto
+SFX W6 ar àʼ ar	ds:infinitive+simple	# T1 + r(e), buranèl
+SFX W6 ar íʼ [^ïü]ar	ds:infinitive+simple	# T1 + r(e), coxòto
+SFX W6 ïar iíʼ ïar	ds:infinitive+simple	# T1 + r(e), coxòto
+SFX W6 üar uíʼ üar	ds:infinitive+simple	# T1 + r(e), coxòto
+SFX W6 er íʼ er	ds:infinitive+simple	# T1 + r(e), coxòto
+SFX W6 erò íʼ erò	ds:infinitive+simple	# T1 + r(e), coxòto
+SFX W6 er éʼ er	ds:infinitive+simple	# T1 + r(e), buranèl
+SFX W6 erò éʼ erò	ds:infinitive+simple	# T1 + r(e), buranèl
+SFX W6 ir íʼ [^ïü]ir	ds:infinitive+simple	# T1 + r(e), buranèl, coxòto
+SFX W6 üir uíʼ üir	ds:infinitive+simple	# T1 + r(e), buranèl, coxòto
+SFX W6 ïir iíʼ ïir	ds:infinitive+simple	# T1 + r(e), buranèl, coxòto
 
 # used if word does not contains ƚ
 SFX W7 Y 6
@@ -2235,12 +2235,12 @@ SFX xD ler rave [ctvʼ]oler	ds:conditional+present is:third	# T4 + rà(v)[ei]
 SFX xD ler rave [tv][iu]oler	ds:conditional+present is:third	# T4 + rà(v)[ei]
 SFX xD ler rae [ctvʼ]oler	ds:conditional+present is:third	# T4 + rà(v)[ei]
 SFX xD ler rae [tv][iu]oler	ds:conditional+present is:third	# T4 + rà(v)[ei]
-SFX xD oler òr/BuK0k1 [ct]oler	ds:infinitive+simple	# T1
-SFX xD oler òr/BuK0k1 [tv][iu]oler	ds:infinitive+simple	# T1
+SFX xD oler òr/BuK0k1 [ct]oler	ds:infinitive+simple	# T1 + r(e)
+SFX xD oler òr/BuK0k1 [tv][iu]oler	ds:infinitive+simple	# T1 + r(e)
 SFX xD oler òre [ct]oler	ds:infinitive+simple	# T1 + r(e), padoan/coxòto
 SFX xD oler òre [tv][iu]oler	ds:infinitive+simple	# T1 + r(e), padoan/coxòto
-SFX xD oler ór/K0k1 [ct]oler	ds:infinitive+simple	# T1
-SFX xD oler ór/K0k1 [tv][iu]oler	ds:infinitive+simple	# T1
+SFX xD oler ór/K0k1 [ct]oler	ds:infinitive+simple	# T1 + r(e)
+SFX xD oler ór/K0k1 [tv][iu]oler	ds:infinitive+simple	# T1 + r(e)
 SFX xD oler óre [ct]oler	ds:infinitive+simple	# T1 + r(e), padoan/coxòto
 SFX xD oler óre [tv][iu]oler	ds:infinitive+simple	# T1 + r(e), padoan/coxòto
 SFX xD er to/A1 [ct]oler	ds:participle+passive+strong is:singular+masculine
@@ -2287,25 +2287,44 @@ SFX xE r ganto-ƚo/k2 ar	ds:gerund+simple	# T2 + n[dt]o
 # vèrbi '–er inregolari: (bene|d[ei]x|in|inter|intr[ae]|kontra|ma[lƚ]e|pre|re)díxer, (a|(pre)de|(re)(kon|pro)|in(tro)|pre|se|tra)dúxer
 # changes in indicative present, indicative future, subjunctive present, conditional present, infinitive simple, participle passive
 # indicative future, conditional present of "dir"
-SFX xF Y 54
-SFX xF xer go/J1 díxer	ds:indicative+present is:first+singular	# T8 + [oe]
+SFX xF Y 77
+SFX xF er o/J1 díxer	ds:indicative+present is:first+singular	# T8 + [oe]
+SFX xF r 0/J1 díxer	ds:indicative+present is:first+singular	# T8 + [oe], belumat
 SFX xF xer ge/J1 díxer	ds:indicative+present is:first+singular	# T8 + [oe], belumat
+SFX xF xer go/J1 díxer	ds:indicative+present is:first+singular	# T8 + [oe]
+SFX xF íxer ixon/J2 díxer	ds:indicative+present is:first+plural	# T12 + ón
+SFX xF íxer ixen/J2 díxer	ds:indicative+present is:first+plural	# T12 + én
+SFX xF er i/J3 díxer	ds:indicative+present is:second+singular	# T8 + i
+SFX xF r 0/J3 díxer	ds:indicative+present is:second+singular	# T10 = T8 + e, 2s=3, belumat
+SFX xF xer s/J3 d[íú]xer	ds:indicative+present is:second+singular	# T8 + i, belumat
+SFX xF íxer ixè/J4 díxer	ds:indicative+present is:second+plural	# T12 + [èé]
+SFX xF er a/J5J7 díxer	ds:indicative+present is:third	# T10
+SFX xF er i/J5J7 díxer	ds:indicative+present is:third	# T10, dhulian
+SFX xF xer s d[íú]xer	ds:indicative+present is:third	# T10 = T8 + e, belumat
 SFX xF íxer irò/J1 díxer	ds:indicative+future is:first+singular	# T4 + r[òàè]
 SFX xF íxer irà/J1 díxer	ds:indicative+future is:first+singular	# T4 + r[òàè]
+SFX xF íxer irè/J1 díxer	ds:indicative+future is:first+singular	# T4 + r[òàè]
 SFX xF íxer iremo/J2 díxer	ds:indicative+future is:first+plural	# T4 + r[éí]mo
 SFX xF íxer irimo/J2 díxer	ds:indicative+future is:first+plural	# T4 + r[éí]mo
+SFX xF íxer iron/J2 díxer	ds:indicative+future is:first+plural	# T4 + rón
+SFX xF íxer iren/J2 díxer	ds:indicative+future is:first+plural	# T4 + rén
 SFX xF íxer irà/J3 díxer	ds:indicative+future is:second+singular	# T4 + r[àé]
 SFX xF íxer iré/J3 díxer	ds:indicative+future is:second+singular	# T4 + r[àé]
 SFX xF íxer iras/J3 díxer	ds:indicative+future is:second+singular	# T4 + r[àé]s
 SFX xF íxer ires/J3 díxer	ds:indicative+future is:second+singular	# T4 + r[àé]s
-SFX xF xer s/J3 díxer	ds:indicative+present is:second+singular	# T8 + i, belumat
-SFX xF xer s/J3 dúxer	ds:indicative+present is:second+singular	# T8 + i, belumat
-SFX xF xer s díxer	ds:indicative+present is:third	# T10 = T8 + e, belumat
-SFX xF xer s dúxer	ds:indicative+present is:third	# T10 = T8 + e, belumat
 SFX xF íxer irè/J4 díxer	ds:indicative+future is:second+plural	# T4 + r[èéí]
 SFX xF íxer iré/J4 díxer	ds:indicative+future is:second+plural	# T4 + r[èéí], arkade
 SFX xF íxer irí/J4 díxer	ds:indicative+future is:second+plural	# T4 + r[èéí]
 SFX xF íxer irà díxer	ds:indicative+future is:third	# T4 + rà
+SFX xF íxer ixemo díxer	ds:subjunctive+present is:first+plural	# T5 + mo
+SFX xF íxer iximo díxer	ds:subjunctive+present is:first+plural	# T5 + mo
+SFX xF íxer ixon díxer	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
+SFX xF íxer ixone díxer	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e), baso belumat, liventin, seguxin, cipileño
+SFX xF íxer ixen díxer	ds:subjunctive+present is:first+plural	# T12 + én(e)
+SFX xF íxer ixene díxer	ds:subjunctive+present is:first+plural	# T12 + én(e)
+SFX xF íxer ixede díxer	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), baso belumat
+SFX xF íxer ixege díxer	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), seguxin, cipileño
+SFX xF er a d[íú]xer	ds:subjunctive+present is:first+singular	# T8 + a
 SFX xF xer ga d[íú]xer	ds:subjunctive+present is:first+singular	# T8 + a
 SFX xF xer ge d[íú]xer	ds:subjunctive+present is:first+singular	# T8 + e
 SFX xF xer gi d[íú]xer	ds:subjunctive+present is:second+singular	# T8 + i
@@ -2338,10 +2357,14 @@ SFX xF íxer irae díxer	ds:conditional+present is:second+plural	# T4 + rà(v)[e
 SFX xF íxer irave díxer	ds:conditional+present is:third	# T4 + rà(v)[ei]
 SFX xF íxer irae díxer	ds:conditional+present is:third	# T4 + rà(v)[ei]
 SFX xF xer re d[íú]xer	ds:infinitive+simple	# T1 + r(e), padoan/coxòto
-SFX xF r gando/K0k1 [aʼ]ndar	ds:gerund+simple	# T2 + n[dt]o
-SFX xF r ganto/K0k1 [aʼ]ndar	ds:gerund+simple	# T2 + n[dt]o
-SFX xF r gando-ƚo/k2 [aʼ]ndar	ds:gerund+simple	# T2 + n[dt]o
-SFX xF r ganto-ƚo/k2 [aʼ]ndar	ds:gerund+simple	# T2 + n[dt]o
+SFX xF íxer igando/K0k1 díxer	ds:gerund+simple	# T2 + n[dt]o, FIXME maƚadíxer should not have -l
+SFX xF íxer iganto/K0k1 díxer	ds:gerund+simple	# T2 + n[dt]o, FIXME maƚadíxer should not have -l
+SFX xF íxer igando-ƚo/k2 díxer	ds:gerund+simple	# T2 + n[dt]o, FIXME maladíxer should not have -ƚo
+SFX xF íxer iganto-ƚo/k2 díxer	ds:gerund+simple	# T2 + n[dt]o, FIXME maladíxer should not have -ƚo
+SFX xF úxer ugando/K0k1 dúxer	ds:gerund+simple	# T2 + n[dt]o, FIXME maƚadíxer should not have -l
+SFX xF úxer uganto/K0k1 dúxer	ds:gerund+simple	# T2 + n[dt]o, FIXME maƚadíxer should not have -l
+SFX xF úxer ugando-ƚo/k2 dúxer	ds:gerund+simple	# T2 + n[dt]o, FIXME maladíxer should not have -ƚo
+SFX xF úxer uganto-ƚo/k2 dúxer	ds:gerund+simple	# T2 + n[dt]o, FIXME maladíxer should not have -ƚo
 
 # vèrbi '–er inregolari: di?éver
 # different conjugation in subjunctive present, gerund simple
