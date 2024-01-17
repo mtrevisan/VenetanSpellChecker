@@ -7,23 +7,18 @@ The vec.aff affix file was created from scratch by Mauro Trevisan.
 
 ---------------------------------------------------------------------
 
-T0/T1/T2/T3/T4: conjugation for -àr, -ér, '-er, -ír, -ír/is (T0 is indicative present, T1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, T2 is subjunctive present, T3 is imperative present, T4 is indefinitive form)
+T0/T1/T2/T3/T4/T5: conjugation for -àr, -ér, '-er, -ír, -ír/is (T0 is indicative present, T1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, T2 is subjunctive present, T3 is imperative present, T4 is indefinitive form, T5 is conjugation for -ír/is)
 t0: indicative present second singular for stressed third person of '-er
-L0/L1/L2/L3/L4: conjugation for -àr, -ér, '-er, -ír, -ír/is for third person pronomenal verbs, non-vanishing el (L0 is indicative present, L1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, L2/L3 is imperative present, L4 is indefinitive form)
-l0/l1/l2/l3/l4: conjugation for -àr, -ér, '-er, -ír, -ír/is for third person pronomenal verbs, vanishing el (l0 is indicative present, l1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, l2/l3 is imperative present, l4 is indefinitive form)
+L0/L1/L2/L3/L4/L5: conjugation for -àr, -ér, '-er, -ír, -ír/is for third person pronomenal verbs, non-vanishing el (L0 is indicative present, L1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, L2/L3 is imperative present, L4 is indefinitive form, L5 is conjugation for -ír/is)
+l0/l1/l2/l3/l4/l5: conjugation for -àr, -ér, '-er, -ír, -ír/is for third person pronomenal verbs, vanishing el (l0 is indicative present, l1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, l2/l3 is imperative present, l4 is indefinitive form, l5 is conjugation for -ír/is)
 N0/N1/N2/N3/N4: conjugation for -àr, -ér, '-er, -ír, -ír/is, northern variant (N0 is indicative present, N1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, N2 is subjunctive present, N3 is imperative present, N4 is indefinitive form)
 W0: conjugation for -àr, -ér, '-er, -ír
-W8: subjunctive present for -àr, -ér, '-er, -ír
-V0: indicative present for -àr, -ér, -ír
-V1/L5/l5: conjugation for -ír/is (L5 non-vanishing el, l5 vanishing el)
-V2: conjugation for -ír, -ír/is, northern variant
-W2/L7/l7: imperative present for theme 3 for -ér, '-er, -ír (L7 non-vanishing el, l7 vanishing el)
-W3: conjugation for -àr, -ér, '-er, -ír, -ír/is
-W4: indicative present for -àr
-W5: indicative present for stressed forms of -àr, -ér
-V7: infinitive simple for -àr, -ér, '-er, -ír, -ír/is, padoan and coxòto variants
-V8: infinitive simple for -àr, -ér, '-er, -ír, -ír/is, lagunar variant
-V9: infinitive simple for '-er, non-vanishing el variant
+W1: conjugation for -ír, -ír/is, northern variant
+W2: conjugation for -àr, -ér, '-er, -ír, -ír/is
+W3: indicative present for -àr
+W4: indicative present for stressed forms of -àr, -ér
+W5/W6: infinitive simple for -àr, -ér, '-er, -ír, -ír/is (W5 is padoan and coxòto variants, W6 is lagunar variant)
+W7: infinitive simple for '-er, non-vanishing el variant
 
 replace: ([aeiouàèéòíóüïú]l[aeiouàèéóòíüïú][^\r\n]+)l6 > $1, ([ŧđ][^\r\n]+)l7 > $1, (ƚ[^\r\n]+)L6 > $1
 
