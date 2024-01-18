@@ -437,7 +437,7 @@ COMPOUNDRULE (|5)(-b)(|6)	# sento-mi[lƚ]e
 
 # -àr, -ér, '-er, -ír, '–ir/–iso–
 # group: indicative present
-SFX T0 Y 16
+SFX T0 Y 17
 SFX T0 ar emo/J2 ar	ds:indicative+present is:first+plural	# T5 + mo
 SFX T0 r mo/J2 er	ds:indicative+present is:first+plural	# T5 + mo
 SFX T0 er imo/J2 er	ds:indicative+present is:first+plural	# T5 + mo
@@ -445,6 +445,8 @@ SFX T0 rò mo/J2 erò	ds:indicative+present is:first+plural	# T5 + mo
 SFX T0 erò imo/J2 erò	ds:indicative+present is:first+plural	# T5 + mo
 SFX T0 r mo/J2 ir	ds:indicative+present is:first+plural	# T5 + mo
 SFX T0 ir emo/J2 ir	ds:indicative+present is:first+plural	# T5 + mo, metaplaxmo
+SFX T0 0 0/J3 is	ds:indicative+present is:second+singular	# T8 + is
+SFX T0 is es/J3 is	ds:indicative+present is:second+singular	# T8 + e
 SFX T0 ar é/J4 ar	ds:indicative+present is:second+plural	# T5
 SFX T0 ar è/J4 ar	ds:indicative+present is:second+plural	# T5
 SFX T0 er é/J4 er	ds:indicative+present is:second+plural	# T5
@@ -453,7 +455,6 @@ SFX T0 erò é/J4 erò	ds:indicative+present is:second+plural	# T5 = T12 + [èé
 SFX T0 erò í/J4 erò	ds:indicative+present is:second+plural	# T5
 SFX T0 ir í/J4 ir	ds:indicative+present is:second+plural	# T5 = T12 + [èé]
 SFX T0 ir é/J4 ir	ds:indicative+present is:second+plural	# T12 + [èé]
-SFX T0 0 0/J3 is	ds:indicative+present is:second+singular	# T8 + is
 
 # '–er
 # group: indicative present second singular
@@ -1855,6 +1856,12 @@ SFX N3 erò è/K0k1 erò	ds:imperative+present is:second+plural	# T12 + [èé]
 # group: indefinitive form
 # used if word does not contains ƚ
 SFX N4 Y 36
+SFX N4 r nde/FSK0k1 ar	ds:gerund+simple	# T2 + nde
+SFX N4 r nde/FSK0k1 [ei]r	ds:gerund+simple	# T2 + nde
+SFX N4 rò nde/FSK0k1 erò	ds:gerund+simple	# T2 + nde
+SFX N4 er ande/FSK0k1 er	ds:gerund+simple	# T7 + n[dt]o, metaplaxmo
+SFX N4 ir ende/FSK0k1 ir	ds:gerund+simple	# T2 + nde, metaplaxmo
+SFX N4 ir ande/FSK0k1 ir	ds:gerund+simple	# T2 + nde, metaplaxmo
 SFX N4 r nt [ae]r	ds:participle+active	# T7 + nte, sonoriđaŧion final
 SFX N4 er ant er	ds:participle+active	# T7 + nte, metaplaxmo, sonoriđaŧion final
 SFX N4 ir ant ir	ds:participle+active	# T7 + nte, metaplaxmo, sonoriđaŧion final
@@ -1885,12 +1892,6 @@ SFX N4 r st ir	ds:participle+passive+weak is:singular+masculine	# T2 + st[oiae],
 SFX N4 rò st erò	ds:participle+passive+weak is:singular+masculine	# T2 + st[oiae], sonoriđaŧion final
 SFX N4 ir est ir	ds:participle+passive+weak is:singular+masculine	# T7 + st[oiae], metaplaxmo, sonoriđaŧion final
 SFX N4 ir ast ir	ds:participle+passive+weak is:singular+masculine	# T7 + st[oiae], metaplaxmo, sonoriđaŧion final
-SFX N4 r nde/FSK0k1 ar	ds:gerund+simple	# T2 + nde
-SFX N4 r nde/FSK0k1 [ei]r	ds:gerund+simple	# T2 + nde
-SFX N4 rò nde/FSK0k1 erò	ds:gerund+simple	# T2 + nde
-SFX N4 er ande/FSK0k1 er	ds:gerund+simple	# T7 + n[dt]o, metaplaxmo
-SFX N4 ir ende/FSK0k1 ir	ds:gerund+simple	# T2 + nde, metaplaxmo
-SFX N4 ir ande/FSK0k1 ir	ds:gerund+simple	# T2 + nde, metaplaxmo
 
 
 # -àr, -ér, '-er, -ír
@@ -2141,15 +2142,16 @@ SFX xC er 0/K0k1 céner	ds:imperative+present is:second+singular	# T9
 
 # vèrbi –ér inregolari: (des|re)(t[iu]?|c)o[lƚ]er, (ben|mal|re)(vu?|ʼ)o[lƚ]er
 # changes in indicative present, indicative future, subjunctive present, conditional present, imperative present, infinitive simple, participle passive
-# TODO check
-SFX xD Y 122
-SFX xD ler jo/J1 [vʼ][oò]ler	ds:indicative+present is:first+singular	# T8 + [oe]
-SFX xD ler ɉo/J1 [vʼ][oò]ler	ds:indicative+present is:first+singular	# T8 + [oe]
+SFX xD Y 128
+SFX xD ler jo/J1 [vʼ]oler	ds:indicative+present is:first+singular	# T8 + [oe]
+SFX xD ler ɉo/J1 [vʼ]oler	ds:indicative+present is:first+singular	# T8 + [oe]
+SFX xD oler òɉo/J1 [vʼ]oler	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xD oler ògo/J1 [ct]oler	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xD oler ògo/J1 t[iu]oler	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xD oler òge/J1 [ct]oler	ds:indicative+present is:first+singular	# T8 + [oe], belumat
 SFX xD oler òge/J1 t[iu]oler	ds:indicative+present is:first+singular	# T8 + [oe], belumat
-SFX xD ler i/J3 [vʼ][oò]ler	ds:indicative+present is:second+singular	# T8 + i
+SFX xD ler i/J3 [vʼ]oler	ds:indicative+present is:second+singular	# T8 + i
+SFX xD oler òi/J3 [vʼ]oler	ds:indicative+present is:second+singular	# T8 + i
 SFX xD oler uòs/J3 vuoler	ds:indicative+present is:second+singular	# T8 + i
 SFX xD oler òs/J3 [vʼ]oler	ds:indicative+present is:second+singular	# T8 + i
 SFX xD oler ús/J3 [vʼ]oler ds:indicative+present is:second+singular	# T8 + i
@@ -2222,6 +2224,8 @@ SFX xD ler ría/J3 [tv][iu]oler	ds:conditional+present is:second+singular	# T4 +
 SFX xD ler rías/J3 [tv][iu]oler	ds:conditional+present is:second+singular	# T4 + ría
 SFX xD ler risi/J3 [ctvʼ]oler	ds:conditional+present is:second+singular	# T4 + rísi, pavan, arkade
 SFX xD ler risi/J3 [tv][iu]oler	ds:conditional+present is:second+singular	# T4 + rísi, pavan, arkade
+SFX xD ler rísis/J3 [ctvʼ]oler	ds:conditional+present is:second+singular	# T4 + rísi, pavan, arkade
+SFX xD ler rísis/J3 [tv][iu]oler	ds:conditional+present is:second+singular	# T4 + rísi, pavan, arkade
 SFX xD ler resi/J4 [ctvʼ]oler	ds:conditional+present is:second+plural	# T4 + rési
 SFX xD ler resi/J4 [tv][iu]oler	ds:conditional+present is:second+plural	# T4 + rési
 SFX xD ler risi/J4 [ctvʼ]oler	ds:conditional+present is:second+plural	# T4 + rísi, pavan, arkade
@@ -2252,12 +2256,14 @@ SFX xD ler rave [ctvʼ]oler	ds:conditional+present is:third	# T4 + rà(v)[ei]
 SFX xD ler rave [tv][iu]oler	ds:conditional+present is:third	# T4 + rà(v)[ei]
 SFX xD ler rae [ctvʼ]oler	ds:conditional+present is:third	# T4 + rà(v)[ei]
 SFX xD ler rae [tv][iu]oler	ds:conditional+present is:third	# T4 + rà(v)[ei]
-SFX xD oler òr/BuK0k1 [ct]oler	ds:infinitive+simple	# T1 + r(e)
-SFX xD oler òr/BuK0k1 [tv][iu]oler	ds:infinitive+simple	# T1 + r(e)
+SFX xD oler òr/BuK0k1k2 [ct]oler	ds:infinitive+simple	# T1 + r(e)
+SFX xD oler òr/BuK0k1k2 [tv][iu]oler	ds:infinitive+simple	# T1 + r(e)
+SFX xD oler òre [ct]oler	ds:infinitive+simple	# T1 + r(e), padoan/coxòto
+SFX xD oler òre [tv][iu]oler	ds:infinitive+simple	# T1 + r(e), padoan/coxòto
 SFX xD ler re [ct]oler	ds:infinitive+simple	# T1 + r(e), padoan/coxòto
 SFX xD ler re [tv][iu]oler	ds:infinitive+simple	# T1 + r(e), padoan/coxòto
-SFX xD oler ór/K0k1 [ct]oler	ds:infinitive+simple	# T1 + r(e)
-SFX xD oler ór/K0k1 [tv][iu]oler	ds:infinitive+simple	# T1 + r(e)
+SFX xD oler ór/BuK0k1k2 [ct]oler	ds:infinitive+simple	# T1 + r(e)
+SFX xD oler ór/BuK0k1k2 [tv][iu]oler	ds:infinitive+simple	# T1 + r(e)
 SFX xD er to/A1 [ct]oler	ds:participle+passive+strong is:singular+masculine
 SFX xD er to/A1 [tv][iu]oler	ds:participle+passive+strong is:singular+masculine
 SFX xD oler òlto/A1FS [ct]oler	ds:participle+passive+strong is:singular+masculine
@@ -2317,7 +2323,7 @@ SFX xH ar é/J4 [ciɉñ]ar	ds:indicative+imperfect is:second+plural	# T11 + (iv)
 # changes in indicative present, indicative future, subjunctive present, conditional present, infinitive simple, participle passive
 # indicative future, conditional present of "dir"
 # TODO check
-SFX xI Y 63
+SFX xI Y 64
 SFX xI íxer ixo/J1 díxer	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xI íxer igo/J1 díxer	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xI íxer ixi/J3 díxer	ds:indicative+present is:second+singular	# T8 + i
@@ -2360,6 +2366,7 @@ SFX xI íxer irísimo/J2 díxer	ds:conditional+present is:first+plural	# T4 + r[
 SFX xI íxer iría/J3 díxer	ds:conditional+present is:second+singular	# T4 + ría
 SFX xI íxer irías/J3 díxer	ds:conditional+present is:second+singular	# T4 + ría
 SFX xI íxer irísi/J3 díxer	ds:conditional+present is:second+singular	# T4 + rísi, pavan, arkade
+SFX xI íxer irísis/J3 díxer	ds:conditional+present is:second+singular	# T4 + rísi, pavan, arkade
 SFX xI íxer irési/J4 díxer	ds:conditional+present is:second+plural	# T4 + rési
 SFX xI íxer irísi/J4 díxer	ds:conditional+present is:second+plural	# T4 + rísi, pavan, arkade
 SFX xI íxer iría díxer	ds:conditional+present is:third	# T4 + rí[ae]
@@ -2601,7 +2608,7 @@ SFX xN èser stado/M0y0 èser	ds:participle+passive+weak is:singular+masculine	#
 SFX xN èser stada/F0y0 èser	ds:participle+passive+weak is:singular+femenine	# T6 + d[ae]
 SFX xN èser esente/FS èser	ds:participle+active	# T7 + nte
 SFX xN èser siante èser	ds:participle+active	# T7 + nte, metaplaxmo
-SFX xN èser esènte/FS èser	ds:participle+active	# T7 + nte
+SFX xN èser esènte/FS èser	ds:participle+active	# T7 + nte, veronexe
 SFX xN èser sè/K0k1k2 èser	ds:imperative+present is:second+plural	# T5 = 12 + é
 SFX xN èser sé/K0k1k2 èser	ds:imperative+present is:second+plural	# T5 = 12 + é
 SFX xN èser sí/K0k1k2 èser	ds:imperative+present is:second+plural	# T5
@@ -2979,7 +2986,7 @@ SFX xO ïèser istado/M0y0 ïèser	ds:participle+passive+weak is:singular+mascul
 SFX xO ïèser istada/F0y0 ïèser	ds:participle+passive+weak is:singular+femenine	# T6 + d[ae]
 SFX xO èser esente/FS ïèser	ds:participle+active	# T7 + nte
 SFX xO ïèser isiante ïèser	ds:participle+active	# T7 + nte, metaplaxmo
-SFX xO èser esènte/FS ïèser	ds:participle+active	# T7 + nte
+SFX xO èser esènte/FS ïèser	ds:participle+active	# T7 + nte, veronexe
 SFX xO ïèser isè/K0k1k2 ïèser	ds:imperative+present is:second+plural	# T5 = 12 + é
 SFX xO ïèser isé/K0k1k2 ïèser	ds:imperative+present is:second+plural	# T5 = 12 + é
 SFX xO ïèser isí/K0k1k2 ïèser	ds:imperative+present is:second+plural	# T5
@@ -3485,9 +3492,9 @@ SFX xT o é/K0k1k2 [fd]iso	ds:imperative+present is:second+plural	# T12 + é
 SFX xT r do/M0y2 [fd]ir	ds:participle+passive+weak is:singular+masculine	# T6 + d[oi]
 SFX xT r da/F0y2 [fd]ir	ds:participle+passive+weak is:singular+femenine	# T6 + d[ae]
 SFX xT ir ente [fd]ir	ds:participle+active	# T7 + nte
-SFX xT ir ènte [fd]ir	ds:participle+active	# T7 + nte
+SFX xT ir ènte [fd]ir	ds:participle+active	# T7 + nte, veronexe
 SFX xT r ente [fd]ir	ds:participle+active	# T7 + nte
-SFX xT r ènte [fd]ir	ds:participle+active	# T7 + nte
+SFX xT r ènte [fd]ir	ds:participle+active	# T7 + nte, veronexe
 SFX xT ir esto/A1 [fd]ir	ds:participle+passive+weak is:singular+masculine	# T7 + st[oiae]
 SFX xT ir endo/K0FS [fd]ir	ds:gerund+simple	# T7 + ndo
 SFX xT ir ando/K0FS [fd]ir	ds:gerund+simple	# T7 + ndo
@@ -4211,7 +4218,7 @@ PFX Vp Ŧ S Ŧ
 ### Buran ###
 
 # trasformaŧion intra varianti (a[lnr] > à, on > ó)
-SFX Bu Y 18
+SFX Bu Y 19
 SFX Bu al àʼ al
 SFX Bu aƚe àʼ aƚe
 SFX Bu an àʼ an
@@ -4224,6 +4231,7 @@ SFX Bu in íʼ in
 SFX Bu on óʼ on
 SFX Bu un úʼ un
 SFX Bu or óʼ or
+SFX Bu r ʼ ór
 SFX Bu ora óʼ ora
 SFX Bu ur úʼ ur
 SFX Bu ño ʼ ño
