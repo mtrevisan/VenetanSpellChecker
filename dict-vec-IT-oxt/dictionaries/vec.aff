@@ -779,15 +779,12 @@ SFX T4 ir anto/K0 ir	ds:gerund+simple	# T7 + n[dt]o, metaplaxmo
 # -àr, -ér, '-er, -ír, '–ir/–iso–
 # group: indicative present third
 # used if word does not contains ƚ
-SFX L0 Y 8
+SFX L0 Y 5
 SFX L0 e a-lo/J6 e	ds:indicative+present is:third	# T10
 SFX L0 e i-lo/J6 e	ds:indicative+present is:third	# T10, dhulian
 SFX L0 e o-lo/J6 ise	ds:indicative+present is:third	# T10
 SFX L0 e a-lo/J6 ise	ds:indicative+present is:third	# T10
 SFX L0 e i-lo/J6 ise	ds:indicative+present is:third	# T10, dhulian
-SFX L0 e a-l/k1 e	ds:imperative+present is:second+singular	# T9
-SFX L0 e i-l/k1 e	ds:imperative+present is:second+singular	# T9
-SFX L0 0 -l/k1 e	ds:imperative+present is:second+singular	# T9
 
 # group: indicative imperfect, indicative future, subjunctive imperfect, conditional present
 # used if word does not contains ƚ
@@ -905,15 +902,12 @@ SFX L4 ir anto-l/k1 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, 
 # -àr, -ér, '-er, -ír, '–ir/–iso–
 # group: indicative present third
 # used if word does contains ƚ
-SFX l0 Y 8
+SFX l0 Y 5
 SFX l0 e a-ƚo/J8 e	ds:indicative+present is:third ds:pronomenal+accusative	# T10
 SFX l0 e i-ƚo/J8 e	ds:indicative+present is:third ds:pronomenal+accusative	# T10, dhulian
 SFX l0 e o-ƚo/J8 ise	ds:indicative+present is:third ds:pronomenal+accusative	# T10
 SFX l0 e a-ƚo/J8 ise	ds:indicative+present is:third ds:pronomenal+accusative	# T10
 SFX l0 e i-ƚo/J8 ise	ds:indicative+present is:third ds:pronomenal+accusative	# T10, dhulian
-SFX l0 e a-ƚo/k2 e	ds:imperative+present is:second+singular	# T9
-SFX l0 e i-ƚo/k2 e	ds:imperative+present is:second+singular	# T9
-SFX l0 0 -ƚo/k2 e	ds:imperative+present is:second+singular	# T9
 
 # group: indicative imperfect, indicative future, subjunctive imperfect, conditional present
 # used if word does contains ƚ
@@ -2129,7 +2123,6 @@ SFX xB er é/K0k1 aver	ds:imperative+present is:second+plural	# T12 + [èé]
 # vèrbi –ér inregolari: (a(s)|apar|de|(in)kon|intra|man|(re)o|re|sos|tra)[ct][èé][nñ]er, (a(r)|ben|de(x)|(des|re)kon|in|inter|intr[ae]|kontra|mal|per|pre|(re)so|pro|rin|sko(n)|sora|x)[vʼ][èéí][nñ]er/ʼñer
 # t[èé][nñ]er > ŧ[èé][nñ]er > c[èé][nñ]er
 # changes in indicative present, imperative present
-# TODO check
 SFX xC Y 14
 SFX xC èñer ièn/BuJ5 [^c]èñer	ds:indicative+present is:third	# T10 = T8 + e
 SFX xC ñer n/BuJ5 èñer	ds:indicative+present is:third	# T10 = T8 + e
