@@ -785,79 +785,79 @@ SFX T4 ir ande/P0 ir	ds:gerund+simple	# T7 + n[dt]o, liventin
 # group: indicative present third
 # used if word does not contains ƚ
 SFX L0 Y 5
-SFX L0 e a-lo/I6 e	ds:indicative+present is:third	# T10
-SFX L0 e i-lo/I6 e	ds:indicative+present is:third	# T10, dhulian
-SFX L0 e o-lo/I6 ise	ds:indicative+present is:third	# T10
-SFX L0 e a-lo/I6 ise	ds:indicative+present is:third	# T10
-SFX L0 e i-lo/I6 ise	ds:indicative+present is:third	# T10, dhulian
+SFX L0 e a-lo/I6 e	ds:indicative+present is:third ds:interrogative is:singular+masculine	# T10
+SFX L0 e i-lo/I6 e	ds:indicative+present is:third ds:interrogative is:singular+masculine	# T10, dhulian
+SFX L0 e o-lo/I6 ise	ds:indicative+present is:third ds:interrogative is:singular+masculine	# T10
+SFX L0 e a-lo/I6 ise	ds:indicative+present is:third ds:interrogative is:singular+masculine	# T10
+SFX L0 e i-lo/I6 ise	ds:indicative+present is:third ds:interrogative is:singular+masculine	# T10, dhulian
 
 # group: indicative imperfect, indicative future, subjunctive imperfect, conditional present
 # used if word does not contains ƚ
 SFX L1 Y 64
-SFX L1 r va-lo/I6 [aei]r	ds:indicative+imperfect ds:interrogative is:third is:singular+masculine	# T2 + (v)a
-SFX L1 ar eva-lo/I6 ar	ds:indicative+imperfect ds:interrogative is:third is:singular+masculine	# T2 + (v)a, metaplaxmo, liventin
-SFX L1 rò va-lo/I6 erò	ds:indicative+imperfect ds:interrogative is:third is:singular+masculine	# T2 + (v)a
-SFX L1 ir eva-lo/I6 ir	ds:indicative+imperfect ds:interrogative is:third is:singular+masculine	# T2 + (v)a, metaplaxmo
-SFX L1 r a-lo/I6 [ae]r	ds:indicative+imperfect ds:interrogative is:third is:singular+masculine	# T2 + (v)a
-SFX L1 ir ía-lo/I6 [^aeiouïü]ir	ds:indicative+imperfect ds:interrogative is:third is:singular+masculine	# T2 + (v)a
-SFX L1 r a-lo/I6 [aeiouïü]ir	ds:indicative+imperfect ds:interrogative is:third is:singular+masculine	# T2 + (v)a
-SFX L1 ar ea-lo/I6 ar	ds:indicative+imperfect ds:interrogative is:third is:singular+masculine	# T2 + (v)a, metaplaxmo, liventin
-SFX L1 rò a-lo/I6 erò	ds:indicative+imperfect ds:interrogative is:third is:singular+masculine	# T2 + (v)a
-SFX L1 ir ea-lo/I6 ir	ds:indicative+imperfect ds:interrogative is:third is:singular+masculine	# T2 + (v)a, metaplaxmo
-SFX L1 0 à-lo/I6 [aei]r	ds:indicative+future ds:interrogative is:third is:singular+masculine	# T4 + rà
-SFX L1 ar erà-lo/I6 ar	ds:indicative+future ds:interrogative is:third is:singular+masculine	# T4 + rà, metaplaxmo
-SFX L1 ò à-lo/I6 erò	ds:indicative+future ds:interrogative is:third is:singular+masculine	# T4 + rà
-SFX L1 ir erà-lo/I6 ir	ds:indicative+future ds:interrogative is:third is:singular+masculine	# T4 + rà, metaplaxmo
-SFX L1 r se-lo/I6 [aei]r	ds:subjunctive+imperfect ds:interrogative is:third	# T2 + se
-SFX L1 ar ese-lo/I6 ar	ds:subjunctive+imperfect ds:interrogative is:third	# T2 + se, metaplaxmo
-SFX L1 rò se-lo/I6 erò	ds:subjunctive+imperfect ds:interrogative is:third	# T2 + se
-SFX L1 ir ese-lo/I6 ir	ds:subjunctive+imperfect ds:interrogative is:third	# T2 + se, metaplaxmo
-SFX L1 0 ise-lo/I6 [aei]r	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rí[ae]
-SFX L1 ar erise-lo/I6 ar	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rí[ae], metaplaxmo
-SFX L1 ò ise-lo/I6 erò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rí[ae]
-SFX L1 ir erise-lo/I6 ir	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rí[ae], metaplaxmo
-SFX L1 0 ave-lo/I6 [aei]r	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei]
-SFX L1 ar erave-lo/I6 ar	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], metaplaxmo
-SFX L1 ò ave-lo/I6 erò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei]
-SFX L1 0 ae-lo/I6 [aei]r	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei]
-SFX L1 ar erae-lo/I6 ar	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], metaplaxmo
-SFX L1 ò ae-lo/I6 erò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei]
-SFX L1 0 avi-lo/I6 [aei]r	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan
-SFX L1 ar eravi-lo/I6 ar	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], metaplaxmo, pavan
-SFX L1 ò avi-lo/I6 erò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan
-SFX L1 0 ai-lo/I6 [aei]r	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan
-SFX L1 ar erai-lo/I6 ar	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], metaplaxmo, pavan
-SFX L1 ò ai-lo/I6 erò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan
-SFX L1 xerò rà-lo/I6 dixerò	ds:indicative+future ds:interrogative is:third is:singular+masculine	# T4 + rà, irregular díxer
-SFX L1 xerò rise-lo/I6 dixerò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rí[ae], irregular díxer
-SFX L1 xerò rave-lo/I6 dixerò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], irregular díxer
-SFX L1 xerò rae-lo/I6 dixerò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], irregular díxer
-SFX L1 xerò ravi-lo/I6 dixerò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular díxer
-SFX L1 xerò rai-lo/I6 dixerò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular díxer
-SFX L1 der rà-lo/I6 oder	ds:indicative+future ds:interrogative is:third is:singular+masculine	# T4 + rà, irregular poder
-SFX L1 der rise-lo/I6 oder	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rí[ae], irregular poder
-SFX L1 der rave-lo/I6 oder	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], irregular poder
-SFX L1 der rae-lo/I6 oder	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], irregular poder
-SFX L1 der ravi-lo/I6 oder	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular poder
-SFX L1 der rai-lo/I6 oder	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular poder
-SFX L1 erò rà-lo/I6 traerò	ds:indicative+future ds:interrogative is:third is:singular+masculine	# T4 + rà, irregular tràer
-SFX L1 erò rise-lo/I6 traerò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rí[ae], irregular tràer
-SFX L1 erò rave-lo/I6 traerò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], irregular tràer
-SFX L1 erò rae-lo/I6 traerò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], irregular tràer
-SFX L1 erò ravi-lo/I6 traerò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular tràer
-SFX L1 erò rai-lo/I6 traerò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular tràer
-SFX L1 ler rà-lo/I6 [ctvʼ]oler	ds:indicative+future ds:interrogative is:third is:singular+masculine	# T4 + rà, irregular toler, voler
-SFX L1 ler rà-lo/I6 [tv][iu]oler	ds:indicative+future ds:interrogative is:third is:singular+masculine	# T4 + rà, irregular toler, voler
-SFX L1 ler rise-lo/I6 [ctvʼ]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rí[ae], irregular toler, voler
-SFX L1 ler rise-lo/I6 [tv][iu]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rí[ae], irregular toler, voler
-SFX L1 ler rave-lo/I6 [ctvʼ]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], irregular toler, voler
-SFX L1 ler rave-lo/I6 [tv][iu]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], irregular toler, voler
-SFX L1 ler rae-lo/I6 [ctvʼ]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], irregular toler, voler
-SFX L1 ler rae-lo/I6 [tv][iu]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], irregular toler, voler
-SFX L1 ler ravi-lo/I6 [ctvʼ]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular toler, voler
-SFX L1 ler ravi-lo/I6 [tv][iu]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular toler, voler
-SFX L1 ler rai-lo/I6 [ctvʼ]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular toler, voler
-SFX L1 ler rai-lo/I6 [tv][iu]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular toler, voler
+SFX L1 r va-lo/I6 [aei]r	ds:indicative+imperfect is:third ds:interrogative is:singular+masculine	# T2 + (v)a
+SFX L1 ar eva-lo/I6 ar	ds:indicative+imperfect is:third ds:interrogative is:singular+masculine	# T2 + (v)a, metaplaxmo, liventin
+SFX L1 rò va-lo/I6 erò	ds:indicative+imperfect is:third ds:interrogative is:singular+masculine	# T2 + (v)a
+SFX L1 ir eva-lo/I6 ir	ds:indicative+imperfect is:third ds:interrogative is:singular+masculine	# T2 + (v)a, metaplaxmo
+SFX L1 r a-lo/I6 [ae]r	ds:indicative+imperfect is:third ds:interrogative is:singular+masculine	# T2 + (v)a
+SFX L1 ir ía-lo/I6 [^aeiouïü]ir	ds:indicative+imperfect is:third ds:interrogative is:singular+masculine	# T2 + (v)a
+SFX L1 r a-lo/I6 [aeiouïü]ir	ds:indicative+imperfect is:third ds:interrogative is:singular+masculine	# T2 + (v)a
+SFX L1 ar ea-lo/I6 ar	ds:indicative+imperfect is:third ds:interrogative is:singular+masculine	# T2 + (v)a, metaplaxmo, liventin
+SFX L1 rò a-lo/I6 erò	ds:indicative+imperfect is:third ds:interrogative is:singular+masculine	# T2 + (v)a
+SFX L1 ir ea-lo/I6 ir	ds:indicative+imperfect is:third ds:interrogative is:singular+masculine	# T2 + (v)a, metaplaxmo
+SFX L1 0 à-lo/I6 [aei]r	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà
+SFX L1 ar erà-lo/I6 ar	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà, metaplaxmo
+SFX L1 ò à-lo/I6 erò	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà
+SFX L1 ir erà-lo/I6 ir	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà, metaplaxmo
+SFX L1 r se-lo/I6 [aei]r	ds:subjunctive+imperfect is:third ds:interrogative	# T2 + se
+SFX L1 ar ese-lo/I6 ar	ds:subjunctive+imperfect is:third ds:interrogative	# T2 + se, metaplaxmo
+SFX L1 rò se-lo/I6 erò	ds:subjunctive+imperfect is:third ds:interrogative	# T2 + se
+SFX L1 ir ese-lo/I6 ir	ds:subjunctive+imperfect is:third ds:interrogative	# T2 + se, metaplaxmo
+SFX L1 0 ise-lo/I6 [aei]r	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae]
+SFX L1 ar erise-lo/I6 ar	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae], metaplaxmo
+SFX L1 ò ise-lo/I6 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae]
+SFX L1 ir erise-lo/I6 ir	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae], metaplaxmo
+SFX L1 0 ave-lo/I6 [aei]r	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
+SFX L1 ar erave-lo/I6 ar	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], metaplaxmo
+SFX L1 ò ave-lo/I6 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
+SFX L1 0 ae-lo/I6 [aei]r	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
+SFX L1 ar erae-lo/I6 ar	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], metaplaxmo
+SFX L1 ò ae-lo/I6 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
+SFX L1 0 avi-lo/I6 [aei]r	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan
+SFX L1 ar eravi-lo/I6 ar	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], metaplaxmo, pavan
+SFX L1 ò avi-lo/I6 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan
+SFX L1 0 ai-lo/I6 [aei]r	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan
+SFX L1 ar erai-lo/I6 ar	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], metaplaxmo, pavan
+SFX L1 ò ai-lo/I6 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan
+SFX L1 xerò rà-lo/I6 dixerò	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà, irregular díxer
+SFX L1 xerò rise-lo/I6 dixerò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae], irregular díxer
+SFX L1 xerò rave-lo/I6 dixerò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], irregular díxer
+SFX L1 xerò rae-lo/I6 dixerò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], irregular díxer
+SFX L1 xerò ravi-lo/I6 dixerò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular díxer
+SFX L1 xerò rai-lo/I6 dixerò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular díxer
+SFX L1 der rà-lo/I6 oder	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà, irregular poder
+SFX L1 der rise-lo/I6 oder	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae], irregular poder
+SFX L1 der rave-lo/I6 oder	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], irregular poder
+SFX L1 der rae-lo/I6 oder	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], irregular poder
+SFX L1 der ravi-lo/I6 oder	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular poder
+SFX L1 der rai-lo/I6 oder	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular poder
+SFX L1 erò rà-lo/I6 traerò	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà, irregular tràer
+SFX L1 erò rise-lo/I6 traerò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae], irregular tràer
+SFX L1 erò rave-lo/I6 traerò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], irregular tràer
+SFX L1 erò rae-lo/I6 traerò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], irregular tràer
+SFX L1 erò ravi-lo/I6 traerò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular tràer
+SFX L1 erò rai-lo/I6 traerò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular tràer
+SFX L1 ler rà-lo/I6 [ctvʼ]oler	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà, irregular toler, voler
+SFX L1 ler rà-lo/I6 [tv][iu]oler	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà, irregular toler, voler
+SFX L1 ler rise-lo/I6 [ctvʼ]oler	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae], irregular toler, voler
+SFX L1 ler rise-lo/I6 [tv][iu]oler	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae], irregular toler, voler
+SFX L1 ler rave-lo/I6 [ctvʼ]oler	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], irregular toler, voler
+SFX L1 ler rave-lo/I6 [tv][iu]oler	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], irregular toler, voler
+SFX L1 ler rae-lo/I6 [ctvʼ]oler	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], irregular toler, voler
+SFX L1 ler rae-lo/I6 [tv][iu]oler	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], irregular toler, voler
+SFX L1 ler ravi-lo/I6 [ctvʼ]oler	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular toler, voler
+SFX L1 ler ravi-lo/I6 [tv][iu]oler	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular toler, voler
+SFX L1 ler rai-lo/I6 [ctvʼ]oler	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular toler, voler
+SFX L1 ler rai-lo/I6 [tv][iu]oler	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular toler, voler
 
 # from T3, T4, for -ér, '-er, -ír
 # group: imperative present second singular
@@ -915,70 +915,70 @@ SFX l0 e i-ƚo/P2 ise	ds:indicative+present is:third ds:pronomenal+accusative	# 
 # group: indicative imperfect, indicative future, subjunctive imperfect, conditional present
 # used if word does contains ƚ
 SFX l1 Y 64
-SFX l1 r va-ƚo/I8 [aei]r	ds:indicative+imperfect ds:interrogative is:third is:singular+masculine	# T2 + (v)a
-SFX l1 ar eva-ƚo/I8 ar	ds:indicative+imperfect ds:interrogative is:third is:singular+masculine	# T2 + (v)a, metaplaxmo, liventin
-SFX l1 rò va-ƚo/I8 erò	ds:indicative+imperfect ds:interrogative is:third is:singular+masculine	# T2 + (v)a
-SFX l1 ir eva-ƚo/I8 ir	ds:indicative+imperfect ds:interrogative is:third is:singular+masculine	# T2 + (v)a, metaplaxmo
-SFX l1 r a-ƚo/I8 [ae]r	ds:indicative+imperfect ds:interrogative is:third is:singular+masculine	# T2 + (v)a
-SFX l1 ir ía-ƚo/I8 [^aeiouïü]ir	ds:indicative+imperfect ds:interrogative is:third is:singular+masculine	# T2 + (v)a
-SFX l1 r a-ƚo/I8 [aeiouïü]ir	ds:indicative+imperfect ds:interrogative is:third is:singular+masculine	# T2 + (v)a
-SFX l1 ar ea-ƚo/I8 ar	ds:indicative+imperfect ds:interrogative is:third is:singular+masculine	# T2 + (v)a, metaplaxmo, liventin
-SFX l1 rò a-ƚo/I8 erò	ds:indicative+imperfect ds:interrogative is:third is:singular+masculine	# T2 + (v)a
-SFX l1 ir ea-ƚo/I8 ir	ds:indicative+imperfect ds:interrogative is:third is:singular+masculine	# T2 + (v)a, metaplaxmo
-SFX l1 0 à-ƚo/I8 [aei]r	ds:indicative+future ds:interrogative is:third is:singular+masculine	# T4 + rà
-SFX l1 ar erà-ƚo/I8 ar	ds:indicative+future ds:interrogative is:third is:singular+masculine	# T4 + rà, metaplaxmo
-SFX l1 ò à-ƚo/I8 erò	ds:indicative+future ds:interrogative is:third is:singular+masculine	# T4 + rà
-SFX l1 ir erà-ƚo/I8 ir	ds:indicative+future ds:interrogative is:third is:singular+masculine	# T4 + rà, metaplaxmo
-SFX l1 r se-ƚo/I8 [aei]r	ds:subjunctive+imperfect ds:interrogative is:third is:singular+masculine	# T2 + se
-SFX l1 ar ese-ƚo/I8 ar	ds:subjunctive+imperfect ds:interrogative is:third is:singular+masculine	# T2 + se, metaplaxmo
-SFX l1 rò se-ƚo/I8 erò	ds:subjunctive+imperfect ds:interrogative is:third is:singular+masculine	# T2 + se
-SFX l1 ir ese-ƚo/I8 ir	ds:subjunctive+imperfect ds:interrogative is:third is:singular+masculine	# T2 + se, metaplaxmo
-SFX l1 0 ise-ƚo/I8 [aei]r	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rí[ae]
-SFX l1 ar erise-ƚo/I8 ar	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rí[ae], metaplaxmo
-SFX l1 ò ise-ƚo/I8 erò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rí[ae]
-SFX l1 ir erise-ƚo/I8 ir	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rí[ae], metaplaxmo
-SFX l1 0 ave-ƚo/I8 [aei]r	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei]
-SFX l1 ar erave-ƚo/I8 ar	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], metaplaxmo
-SFX l1 ò ave-ƚo/I8 erò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei]
-SFX l1 0 ae-ƚo/I8 [aei]r	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei]
-SFX l1 ar erae-ƚo/I8 ar	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], metaplaxmo
-SFX l1 ò ae-ƚo/I8 erò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei]
-SFX l1 0 avi-ƚo/I8 [aei]r	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan
-SFX l1 ar eravi-ƚo/I8 ar	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, metaplaxmo
-SFX l1 ò avi-ƚo/I8 erò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan
-SFX l1 0 ai-ƚo/I8 [aei]r	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan
-SFX l1 ar erai-ƚo/I8 ar	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, metaplaxmo
-SFX l1 ò ai-ƚo/I8 erò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan
-SFX l1 xerò rà-ƚo/I8 dixerò	ds:indicative+future ds:interrogative is:third is:singular+masculine	# T4 + rà, irregular díxer
-SFX l1 xerò rise-ƚo/I8 dixerò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rí[ae], irregular díxer
-SFX l1 xerò rave-ƚo/I8 dixerò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], irregular díxer
-SFX l1 xerò rae-ƚo/I8 dixerò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], irregular díxer
-SFX l1 xerò ravi-ƚo/I8 dixerò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular díxer
-SFX l1 xerò rai-ƚo/I8 dixerò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular díxer
-SFX l1 der rà-ƚo/I8 oder	ds:indicative+future ds:interrogative is:third is:singular+masculine	# T4 + rà, irregular poder
-SFX l1 der rise-ƚo/I8 oder	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rí[ae], irregular poder
-SFX l1 der rave-ƚo/I8 oder	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], irregular poder
-SFX l1 der rae-ƚo/I8 oder	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], irregular poder
-SFX l1 der ravi-ƚo/I8 oder	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular poder
-SFX l1 der rai-ƚo/I8 oder	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular poder
-SFX l1 erò rà-ƚo/I8 traerò	ds:indicative+future ds:interrogative is:third is:singular+masculine	# T4 + rà, irregular tràer
-SFX l1 erò rise-ƚo/I8 traerò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rí[ae], irregular tràer
-SFX l1 erò rave-ƚo/I8 traerò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], irregular tràer
-SFX l1 erò rae-ƚo/I8 traerò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], irregular tràer
-SFX l1 erò ravi-ƚo/I8 traerò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular tràer
-SFX l1 erò rai-ƚo/I8 traerò	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular tràer
-SFX l1 ler rà-ƚo/I6 [ctvʼ]oler	ds:indicative+future ds:interrogative is:third is:singular+masculine	# T4 + rà, irregular toler, voler
-SFX l1 ler rà-ƚo/I6 [tv][iu]oler	ds:indicative+future ds:interrogative is:third is:singular+masculine	# T4 + rà, irregular toler, voler
-SFX l1 ler rise-ƚo/I8 [ctvʼ]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rí[ae], irregular toler, voler
-SFX l1 ler rise-ƚo/I8 [tv][iu]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rí[ae], irregular toler, voler
-SFX l1 ler rave-ƚo/I8 [ctvʼ]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], irregular toler, voler
-SFX l1 ler rave-ƚo/I8 [tv][iu]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], irregular toler, voler
-SFX l1 ler rae-ƚo/I8 [ctvʼ]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], irregular toler, voler
-SFX l1 ler rae-ƚo/I8 [tv][iu]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], irregular toler, voler
-SFX l1 ler ravi-ƚo/I8 [ctvʼ]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular toler, voler
-SFX l1 ler ravi-ƚo/I8 [tv][iu]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular toler, voler
-SFX l1 ler rai-ƚo/I8 [ctvʼ]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular toler, voler
-SFX l1 ler rai-ƚo/I8 [tv][iu]oler	ds:conditional+present ds:interrogative is:third is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular toler, voler
+SFX l1 r va-ƚo/I8 [aei]r	ds:indicative+imperfect is:third ds:interrogative is:singular+masculine	# T2 + (v)a
+SFX l1 ar eva-ƚo/I8 ar	ds:indicative+imperfect is:third ds:interrogative is:singular+masculine	# T2 + (v)a, metaplaxmo, liventin
+SFX l1 rò va-ƚo/I8 erò	ds:indicative+imperfect is:third ds:interrogative is:singular+masculine	# T2 + (v)a
+SFX l1 ir eva-ƚo/I8 ir	ds:indicative+imperfect is:third ds:interrogative is:singular+masculine	# T2 + (v)a, metaplaxmo
+SFX l1 r a-ƚo/I8 [ae]r	ds:indicative+imperfect is:third ds:interrogative is:singular+masculine	# T2 + (v)a
+SFX l1 ir ía-ƚo/I8 [^aeiouïü]ir	ds:indicative+imperfect is:third ds:interrogative is:singular+masculine	# T2 + (v)a
+SFX l1 r a-ƚo/I8 [aeiouïü]ir	ds:indicative+imperfect is:third ds:interrogative is:singular+masculine	# T2 + (v)a
+SFX l1 ar ea-ƚo/I8 ar	ds:indicative+imperfect is:third ds:interrogative is:singular+masculine	# T2 + (v)a, metaplaxmo, liventin
+SFX l1 rò a-ƚo/I8 erò	ds:indicative+imperfect is:third ds:interrogative is:singular+masculine	# T2 + (v)a
+SFX l1 ir ea-ƚo/I8 ir	ds:indicative+imperfect is:third ds:interrogative is:singular+masculine	# T2 + (v)a, metaplaxmo
+SFX l1 0 à-ƚo/I8 [aei]r	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà
+SFX l1 ar erà-ƚo/I8 ar	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà, metaplaxmo
+SFX l1 ò à-ƚo/I8 erò	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà
+SFX l1 ir erà-ƚo/I8 ir	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà, metaplaxmo
+SFX l1 r se-ƚo/I8 [aei]r	ds:subjunctive+imperfect is:third ds:interrogative is:singular+masculine	# T2 + se
+SFX l1 ar ese-ƚo/I8 ar	ds:subjunctive+imperfect is:third ds:interrogative is:singular+masculine	# T2 + se, metaplaxmo
+SFX l1 rò se-ƚo/I8 erò	ds:subjunctive+imperfect is:third ds:interrogative is:singular+masculine	# T2 + se
+SFX l1 ir ese-ƚo/I8 ir	ds:subjunctive+imperfect is:third ds:interrogative is:singular+masculine	# T2 + se, metaplaxmo
+SFX l1 0 ise-ƚo/I8 [aei]r	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae]
+SFX l1 ar erise-ƚo/I8 ar	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae], metaplaxmo
+SFX l1 ò ise-ƚo/I8 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae]
+SFX l1 ir erise-ƚo/I8 ir	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae], metaplaxmo
+SFX l1 0 ave-ƚo/I8 [aei]r	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
+SFX l1 ar erave-ƚo/I8 ar	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], metaplaxmo
+SFX l1 ò ave-ƚo/I8 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
+SFX l1 0 ae-ƚo/I8 [aei]r	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
+SFX l1 ar erae-ƚo/I8 ar	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], metaplaxmo
+SFX l1 ò ae-ƚo/I8 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
+SFX l1 0 avi-ƚo/I8 [aei]r	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan
+SFX l1 ar eravi-ƚo/I8 ar	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, metaplaxmo
+SFX l1 ò avi-ƚo/I8 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan
+SFX l1 0 ai-ƚo/I8 [aei]r	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan
+SFX l1 ar erai-ƚo/I8 ar	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, metaplaxmo
+SFX l1 ò ai-ƚo/I8 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan
+SFX l1 xerò rà-ƚo/I8 dixerò	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà, irregular díxer
+SFX l1 xerò rise-ƚo/I8 dixerò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae], irregular díxer
+SFX l1 xerò rave-ƚo/I8 dixerò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], irregular díxer
+SFX l1 xerò rae-ƚo/I8 dixerò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], irregular díxer
+SFX l1 xerò ravi-ƚo/I8 dixerò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular díxer
+SFX l1 xerò rai-ƚo/I8 dixerò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular díxer
+SFX l1 der rà-ƚo/I8 oder	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà, irregular poder
+SFX l1 der rise-ƚo/I8 oder	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae], irregular poder
+SFX l1 der rave-ƚo/I8 oder	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], irregular poder
+SFX l1 der rae-ƚo/I8 oder	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], irregular poder
+SFX l1 der ravi-ƚo/I8 oder	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular poder
+SFX l1 der rai-ƚo/I8 oder	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular poder
+SFX l1 erò rà-ƚo/I8 traerò	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà, irregular tràer
+SFX l1 erò rise-ƚo/I8 traerò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae], irregular tràer
+SFX l1 erò rave-ƚo/I8 traerò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], irregular tràer
+SFX l1 erò rae-ƚo/I8 traerò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], irregular tràer
+SFX l1 erò ravi-ƚo/I8 traerò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular tràer
+SFX l1 erò rai-ƚo/I8 traerò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular tràer
+SFX l1 ler rà-ƚo/I8 [ctvʼ]oler	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà, irregular toler, voler
+SFX l1 ler rà-ƚo/I8 [tv][iu]oler	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà, irregular toler, voler
+SFX l1 ler rise-ƚo/I8 [ctvʼ]oler	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae], irregular toler, voler
+SFX l1 ler rise-ƚo/I8 [tv][iu]oler	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae], irregular toler, voler
+SFX l1 ler rave-ƚo/I8 [ctvʼ]oler	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], irregular toler, voler
+SFX l1 ler rave-ƚo/I8 [tv][iu]oler	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], irregular toler, voler
+SFX l1 ler rae-ƚo/I8 [ctvʼ]oler	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], irregular toler, voler
+SFX l1 ler rae-ƚo/I8 [tv][iu]oler	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], irregular toler, voler
+SFX l1 ler ravi-ƚo/I8 [ctvʼ]oler	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular toler, voler
+SFX l1 ler ravi-ƚo/I8 [tv][iu]oler	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular toler, voler
+SFX l1 ler rai-ƚo/I8 [ctvʼ]oler	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular toler, voler
+SFX l1 ler rai-ƚo/I8 [tv][iu]oler	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan, irregular toler, voler
 
 # from T3, T4, for -ér, '-er, -ír
 # group: imperative present second singular
@@ -2137,8 +2137,9 @@ SFX xC ñer n/BuP0P1 èñer	ds:imperative+present is:second+singular	# T9
 SFX xC er 0/P0P1 céner	ds:imperative+present is:second+singular	# T9
 
 # vèrbi –ér inregolari: (des|re)(t[iu]?|c)o[lƚ]er, (ben|mal|re)(vu?|ʼ)o[lƚ]er
-# changes in indicative present, indicative future, subjunctive present, conditional present, imperative present, infinitive simple, participle passive
-SFX xD Y 128
+# changes in indicative present, indicative future, subjunctive present, conditional present, imperative present, infinitive simple, participle passive, gerund simple
+# NOTA: del congiuntivo sono note le forme in tòja
+SFX xD Y 130
 SFX xD ler jo/I1 [vʼ]oler	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xD ler ɉo/I1 [vʼ]oler	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xD oler òɉo/I1 [vʼ]oler	ds:indicative+present is:first+singular	# T8 + [oe]
@@ -2267,6 +2268,8 @@ SFX xD oler òlto/A1FS [tv][iu]oler	ds:participle+passive+strong is:singular+mas
 SFX xD ler sudo/A1FS [vʼ]oler	ds:participle+passive+strong is:singular+masculine
 SFX xD er sudo/A1FS [vʼ]oler	ds:participle+passive+strong is:singular+masculine
 SFX xD er sudo/A1FS vuoler	ds:participle+passive+strong is:singular+masculine
+SFX xD er ando/P0P1 toler	ds:gerund+simple	# T2 + n[dt]o
+SFX xD ler ƚando-ƚo/P2 toler	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
 
 # vèrbi –àr inregolari: (dex)dar, ((dex)asue|des|kon(tra)|[lƚ]iku[ei]|mansue|putre|(ra)?re|sastu|sat[iu]s|statu|so[dt]is|sosti|sora|stra|st[ou]pe|tore|tume)far, (kon(tra)|mal|move|o|re|so(v?ra|to))star
 # different conjugation in indicative present, subjunctive present, imperative present, gerund present
@@ -2455,6 +2458,7 @@ SFX xL xer ges d[íú]xer	ds:subjunctive+present is:second+singular	# T8 + e, 2s
 # vèrbi '–er inregolari: di?éver
 # different conjugation in subjunctive present, gerund simple
 # subjunctive present of "débier"
+# NOTA: del congiuntivo sono note le forme in deba/depi/debia
 SFX xM Y 32
 SFX xM éver ebia éver	ds:subjunctive+present is:first+singular	# T8 + a
 SFX xM éver ebie éver	ds:subjunctive+present is:first+singular	# T8 + e
@@ -3295,8 +3299,8 @@ SFX xP der rave oder	ds:conditional+present is:third	# T4 + rà(v)[ei]
 SFX xP der rae oder	ds:conditional+present is:third	# T4 + rà(v)[ei]
 
 # vèrbi '–er inregolari: (a|pre|re|stra)saver
-# different conjugation in indicative present, subjunctive present, imperative present
-SFX xQ Y 36
+# different conjugation in indicative present, subjunctive present, imperative present, gerund simple
+SFX xQ Y 38
 SFX xQ ver o/I1 saver	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xQ aver ò/I1 saver	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xQ ver e/I1 saver	ds:indicative+present is:first+singular	# T8 + [oe], belumat
@@ -3333,13 +3337,14 @@ SFX xQ ver pia saver	ds:subjunctive+present is:third	# T8 + a
 SFX xQ aver à/P0P1P2 saver	ds:imperative+present is:second+singular	# T9
 SFX xQ er é/P0P1P2 saver	ds:imperative+present is:second+plural	# T5
 SFX xQ er í/P0P1P2 saver	ds:imperative+present is:second+plural	# T5
+SFX xQ ver piando/P0P1 saver	ds:gerund+simple	# T2 + n[dt]o
+SFX xQ ver piando-ƚo/P2 saver	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
 
 # vèrbi '–er inregolari: (a|as|de|des|es|kon|pro|re|so)tràer
 # changes in indicative present, indicative future, subjunctive present, conditional present, imperative present, infinitive simple, participle passive
 # indicative present of "trar", but not the first singular
 # indicative future, conditional present, imperative present, infinitive simple of "trar"
-# TODO check
-SFX xR Y 62
+SFX xR Y 63
 SFX xR àer ago/I1 tràer	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xR àer age/I1 tràer	ds:indicative+present is:first+singular	# T8 + [oe], belumat
 SFX xR àer emo/I2 tràer	ds:indicative+present is:first+plural	# T5 + mo
@@ -3351,8 +3356,8 @@ SFX xR àer ae/I3 tràer	ds:indicative+present is:second+singular	# T10 = T8 + e
 SFX xR àer í/I4 tràer	ds:indicative+present is:second+plural	# T5
 SFX xR àer è/I4 tràer	ds:indicative+present is:second+plural	# T12 + [èé], belumat
 SFX xR àer é/I4 tràer	ds:indicative+present is:second+plural	# T5 = T12 + [èé], belumat
-SFX xR àer arò/I1 tràer	ds:indicative+future is:first+singular	# T4 + r[òàè]
 SFX xR àer arà/I1 tràer	ds:indicative+future is:first+singular	# T4 + r[òàè]
+SFX xR àer arò/I1 tràer	ds:indicative+future is:first+singular	# T4 + r[òàè]
 SFX xR àer aremo/I2 tràer	ds:indicative+future is:first+plural	# T4 + r[éí]mo
 SFX xR àer arimo/I2 tràer	ds:indicative+future is:first+plural	# T4 + r[éí]mo
 SFX xR àer arà/I3 tràer	ds:indicative+future is:second+singular	# T4 + r[àé]
@@ -3401,7 +3406,8 @@ SFX xR àer í/P0P1P2 tràer	ds:imperative+present is:second+plural	# T5
 SFX xR àer è/P0P1P2 tràer	ds:imperative+present is:second+plural	# T12 + [èé]
 SFX xR er r/P0P1P2 tràer	ds:infinitive+simple	# T1 + r(e)
 SFX xR er re tràer	ds:infinitive+simple	# T1 + r(e), padoan/coxòto
-SFX xR er to/A1FS tràer	ds:participle+passive+strong is:singular+masculine
+SFX xR àer ato/A1FS tràer	ds:participle+passive+strong is:singular+masculine
+SFX xR àer asto/A1FS tràer	ds:participle+passive+strong is:singular+masculine
 
 # vèrbi –ar inregolari: [vʼ]ardar
 # changes in indicative future, imperative present
@@ -4003,27 +4009,27 @@ SFX I5 Y 5
 SFX I5 0 -l [^lnr]	ds:interrogative is:singular+masculine
 SFX I5 0 -lo .	ds:interrogative is:singular+masculine
 SFX I5 0 -la .	ds:interrogative is:singular+femenine
-SFX I5 0 -li .	is:plural+masculine ds:interrogative
+SFX I5 0 -li .	ds:interrogative is:plural+masculine
 SFX I5 0 -le .	ds:interrogative is:plural+femenine
 
 # interogativi tèrŧa parsona (senŧa èle vanesente) (a > e, e > i, i > i)
 SFX I6 Y 4
 SFX I6 o 0 [^n]-lo	ds:interrogative is:singular+masculine
 SFX I6 o a -lo	ds:interrogative is:singular+femenine
-SFX I6 o i -lo	is:plural+masculine ds:interrogative
+SFX I6 o i -lo	ds:interrogative is:plural+masculine
 SFX I6 o e -lo	ds:interrogative is:plural+femenine
 
 # interogativi tèrŧa parsona (ko èle vanesente)
 SFX I7 Y 4
-SFX I7 0 -ƚo .	ds:interrogative is:singular+femenine
+SFX I7 0 -ƚo .	ds:interrogative is:singular+masculine
 SFX I7 0 -ƚa .	ds:interrogative is:singular+femenine
-SFX I7 0 -ƚi .	is:plural+masculine ds:interrogative
+SFX I7 0 -ƚi .	ds:interrogative is:plural+masculine
 SFX I7 0 -ƚe .	ds:interrogative is:plural+femenine
 
 # interogativi tèrŧa parsona (ko èle vanesente)
 SFX I8 Y 3
 SFX I8 o a -ƚo	ds:interrogative is:singular+femenine
-SFX I8 o i -ƚo	is:plural+masculine ds:interrogative
+SFX I8 o i -ƚo	ds:interrogative is:plural+masculine
 SFX I8 o e -ƚo	ds:interrogative is:plural+femenine
 
 
