@@ -2270,8 +2270,9 @@ SFX xD er sudo/A1FS vuoler	ds:participle+passive+strong is:singular+masculine
 
 # vèrbi –àr inregolari: (dex)dar, ((dex)asue|des|kon(tra)|[lƚ]iku[ei]|mansue|putre|(ra)?re|sastu|sat[iu]s|statu|so[dt]is|sosti|sora|stra|st[ou]pe|tore|tume)far, (kon(tra)|mal|move|o|re|so(v?ra|to))star
 # different conjugation in indicative present, subjunctive present, imperative present, gerund present
-# TODO check
-SFX xE Y 44
+SFX xE Y 48
+SFX xE r o/I1 ar	ds:indicative+present is:first+singular	# T8 + [oe]
+SFX xE ar ò/I1 ar	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xE r go/I1 ar	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xE r ge/I1 ar	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xE ar emo/I2 ar	ds:indicative+present is:first+plural	# T5 + mo
@@ -2289,13 +2290,15 @@ SFX xE ar í ar	ds:indicative+present is:third	# T10, dhulian
 SFX xE r a ar	ds:subjunctive+present is:first+singular	# T8 + a
 SFX xE r ga ar	ds:subjunctive+present is:first+singular	# T8 + a
 SFX xE r e ar	ds:subjunctive+present is:first+singular	# T8 + e
+SFX xE ar emo ar	ds:subjunctive+present is:first+plural	# T5 + mo
 SFX xE ar on ar	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
 SFX xE ar one ar	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e), baso belumat, liventin, seguxin, cipileño
 SFX xE ar ion ar	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
 SFX xE ar ione ar	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
 SFX xE ar en ar	ds:subjunctive+present is:first+plural	# T12 + én(e), metaplaxmo
 SFX xE ar ene ar	ds:subjunctive+present is:first+plural	# T12 + én(e), metaplaxmo
-SFX xE ar àis ar	ds:subjunctive+present is:second+singular	# T8 + i
+SFX xE ar à ar	ds:subjunctive+present is:second+singular	# T8 + i
+SFX xE ar às ar	ds:subjunctive+present is:second+singular	# T8 + i
 SFX xE r gi ar	ds:subjunctive+present is:second+singular	# T8 + i
 SFX xE ar àgis ar	ds:subjunctive+present is:second+singular	# T8 + i
 SFX xE r a ar	ds:subjunctive+present is:second+singular	# T8 + a, 2s=3
@@ -2304,6 +2307,8 @@ SFX xE r ga ar	ds:subjunctive+present is:second+singular	# T8 + a, 2s=3
 SFX xE ar àgas ar	ds:subjunctive+present is:second+singular	# T8 + a, 2s=3
 SFX xE r e ar	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3
 SFX xE ar àes ar	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3
+SFX xE ar è ar	ds:subjunctive+present is:second+plural	# T5, venethian
+SFX xE ar é ar	ds:subjunctive+present is:second+plural	# T5, arkade
 SFX xE ar ede ar	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), metaplaxmo
 SFX xE ar ege ar	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), metaplaxmo
 SFX xE r a ar	ds:subjunctive+present is:third	# T8 + a
@@ -2311,13 +2316,10 @@ SFX xE r ga ar	ds:subjunctive+present is:third	# T8 + a
 SFX xE r e ar	ds:subjunctive+present is:third	# T8 + e
 SFX xE r ge ar	ds:subjunctive+present is:third	# T8 + e
 SFX xE ar à/P0 ar	ds:imperative+present is:second+singular	# T9
-SFX xE ar é/P0 ar	ds:imperative+present is:second+plural	# T5
-SFX xE ar è/P0 ar	ds:imperative+present is:second+plural	# T5
 SFX xE r gando/P0 ar	ds:gerund+simple	# T2 + n[dt]o
 SFX xE r ganto/P0 ar	ds:gerund+simple	# T2 + n[dt]o
 SFX xE r gande/P0 ar	ds:gerund+simple	# T2 + n[dt]o, liventin
 
-# TODO check
 SFX xF Y 8
 SFX xF ar à-l/P1 ar	ds:indicative+present is:third ds:pronomenal+accusative	# T10
 SFX xF ar í-l/P1 ar	ds:indicative+present is:third ds:pronomenal+accusative	# T10, dhulian
@@ -2328,7 +2330,6 @@ SFX xF r gando-l/P1 ar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
 SFX xF r ganto-l/P1 ar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
 SFX xF r gande-l/P1 ar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, liventin
 
-# TODO check
 SFX xG Y 8
 SFX xG ar à-ƚo/P2 ar	ds:indicative+present is:third ds:pronomenal+accusative	# T10
 SFX xG ar í-ƚo/P2 ar	ds:indicative+present is:third ds:pronomenal+accusative	# T10, dhulian
@@ -2339,7 +2340,6 @@ SFX xG r gando-ƚo/P2 ar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
 SFX xG r ganto-ƚo/P2 ar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
 SFX xG r gande-ƚo/P2 ar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, liventin
 
-# TODO check
 SFX xH Y 6
 SFX xH r gand ar	ds:gerund+simple	# T2 + n[dt]o, sonoriđaŧion final
 SFX xH r gant ar	ds:gerund+simple	# T2 + n[dt]o, sonoriđaŧion final
