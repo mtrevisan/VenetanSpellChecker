@@ -7,8 +7,7 @@ The vec.aff affix file was created from scratch by Mauro Trevisan.
 
 ---------------------------------------------------------------------
 
-T0/T1/T2/T3/T4/T5: conjugation for -àr, -ér, '-er, -ír, -ír/is (T0 is indicative present, T1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, T2 is subjunctive present, T3 is imperative present, T4 is indefinitive form, T5 is conjugation for -ír/is)
-t0: indicative present second singular for stressed third person of '-er
+T0/T1/T2/T3/T4/T5/T6: conjugation for -àr, -ér, '-er, -ír, -ír/is (T0 is indicative present, T1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, T2 is subjunctive present, T3 is imperative present, T4 is indefinitive form, T5 is conjugation for -ír/is, T6 is indicative present second singular for stressed third person of '-er)
 L0/L1/L2/L3/L4/L5: conjugation for -àr, -ér, '-er, -ír, -ír/is for third person pronomenal verbs, non-vanishing el (L0 is indicative present, L1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, L2/L3 is imperative present, L4 is indefinitive form, L5 is conjugation for -ír/is)
 l0/l1/l2/l3/l4/l5: conjugation for -àr, -ér, '-er, -ír, -ír/is for third person pronomenal verbs, vanishing el (l0 is indicative present, l1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, l2/l3 is imperative present, l4 is indefinitive form, l5 is conjugation for -ír/is)
 N0/N1/N2/N3/N4: conjugation for -àr, -ér, '-er, -ír, -ír/is, northern variant (N0 is indicative present, N1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, N2 is subjunctive present, N3 is imperative present, N4 is indefinitive form)
@@ -20,49 +19,46 @@ W4: indicative present for stressed forms of -àr, -ér
 W5/W6: infinitive simple for -àr, -ér, '-er, -ír, -ír/is (W5 is padoan and coxòto variants, W6 is lagunar variant)
 W7: infinitive simple for '-er, non-vanishing el variant
 
-replace: ([aeiouàèéòíóüïú]l[aeiouàèéóòíüïú][^\r\n]+)l6, ([ŧđ][^\r\n]+)l7, (ƚ[^\r\n]+)L6 with $1
-
-xA: irregular verb (re-?)andar
-xB: irregular verb (re-?)av?er, (re-?)g(av)er, ʼ(v)er / northern variant
-xC : irregular verb (a(s)|apar|de|(in)kon|intra|man|(re)o|re|sos|tra)[ct][èé]ñer, (a(r)|ben|de(x)|(des|re)kon|in|inter|intr[ae]|kontra|mal|per|pre|(re)so|pro|rin|sko(n)|sora|x)v[èéí]ñer/ʼñer
-xD/xE/xF/xG : irregular verb (des|re)(t[iu]?|c)o[lƚ]er, (ben|mal|re)(vu?|ʼ)o[lƚ]er (xE is non-vanishing el, xF is vanishing el, xG is norther variant)
-xH/xI/xJ/xK : irregular verb (dex)dar, ((dex)asue|des|kon(tra)|[lƚ]iku[ei]|putre|(ra)?re|sastu|sat[iu]s|sodis|sora|stra|stupe|tore|tume)far, (kon(tra)|mal|move|o|re|so(ra|to))star (xI is non-vanishing el, xJ is vanishing el, xK is norther variant)
-xL/xM/xN/xO : irregular verb (bene|d[ei]x|in|inter|intr[ae]|kontra|ma[lƚ][ae]|pre|re)díxer (xM is non-vanishing el, xN is vanishing el, xO is norther variant)
-xP : irregular verb déver
-xQ/xR/xS : irregular verb (re)èser/rïèser (xQ us for èser, xR for rïèser, xS for common part)
-xT : irregular verb poder
-xU : irregular verb (pre|re|stra)sav?er
-xV : irregular verb (a|as|de|des|es|kon|pro|re|so)tràer
+xA: irregular verb (re)?andar
+xB: irregular verb (re)?av?er, (re)?g(av)?er, ʼv?er / northern variant
+xC : irregular verb (as?|apar|de|(in)?kon|intra|man|(re)?o|re|sos|tra)?[ct][èé]ñer, (ar?|ben|dex?|(des|re)?kon|in|inter|intr[ae]|kontra|mal|per|pre|(re)?so|pro|rin|skon?|sora|x)?v[èéí]ñer/ʼñer
+xD/xE/xF/xG : irregular verb (des|re)?(t[iu]?|c)o[lƚ]er, (ben|mal|re)?(vu?|ʼ)o[lƚ]er (xE is non-vanishing el, xF is vanishing el, xG is norther variant)
+xH/xI/xJ/xK : irregular verb (dex)?dar, ((dex)?asue|des|kon(tra)?|[lƚ]iku[ei]|putre|(ra)?re|sastu|sat[iu]s|sodis|sora|stra|stupe|tore|tume)?far, (kon(tra)?|mal|move|o|re|so(ra|to)?)?star (xI is non-vanishing el, xJ is vanishing el, xK is norther variant)
+xL/xM/xN/xO : irregular verb (bene|d[ei]x|in|inter|intr[ae]|kontra|ma[lƚ][ae]|pre|re)?díxer, (a|(pre)?de|re|re(kon|pro)?|in(tro)?|pre|se|tra)?dúxer (xM is non-vanishing el, xN is vanishing el, xO is norther variant)
+xP : irregular verb di?éver
+xQ/xR/xS : irregular verb (re)?èser, rïèser (xQ us for èser, xR for rïèser, xS for common part)
+xT : irregular verb pu?oder
+xU : irregular verb (pre|re|stra)?sav?er
+xV : irregular verb (as?|des?|es|kon|pro|re|so)?tràer
 
 P0/P1/P2: pronomenals (0>–(gi)?ne?, 0>–[gmstv]en?, 0>–[gmstv]end?e, 0>–n?(de)?|[^r] / 0>–([gmstv]e)?l[oaie]? / 0>-([gmstv]e)?ƚ[oaie])
-I1: interrogatives for first singular (-[ei], -[jɉ]o, -ɉu, -(m)i, [eo]>-io, -(v)e, -n(t)[ei])
-I2: interrogatives for first plural (-i, -(t)[ei], -n(t)[ei])
-I3: interrogatives for second singular (-(s)tu, -to)
+I1: interrogatives for first singular (-[ei], -[jɉ]o, -ɉu, -m?i, [eo]>-io, -v?e, -nt?[ei])
+I2: interrogatives for first plural (-i, -t?[ei], -nt?[ei])
+I3: interrogatives for second singular (-s?tu, -to)
 I4: interrogatives for second plural (-[uo], -vu)
-I5/I6: interrogatives for third (-l([oaie]))
-I7/I8: interrogatives for third (-ƚ[oaie])
+I5/I6: interrogatives for third (0>-l[oaie]?, -lo>-l[aie]?)
+I7/I8: interrogatives for third (0>-ƚ[oaie], -ƚo>-ƚ[aie])
 
-FS: sonorization of final consonants (ñ.>nc|ñ[oei], ñ.>in|ñ[oei], ñ.>n|ñ[oei], ñ.>ñ|ñ[oei], b.>p|b[oei], p.>p|p[oei], ...)
-
+A0: sonorization of final consonants (ñ.>nc|ñ[oei], ñ.>in|ñ[oei], ñ.>n|ñ[oei], ñ.>ñ|ñ[oei], b.>p|b[oei], p.>p|p[oei], ...)
 A1: all declinations, adjectives of first class (0>[oaie]|[^oaie], o>i|[^ij]o, .o>i|[ij]o, o>[ae])
 A2: adjectives of second class (0>[aie]|[^oaie], a>[ie])
+A3: masculine plural nouns, adjectives of third class (0>e|[èélnr], e>i, 0>i|[aèélnr])
+A4: adding of -io/a to the words in -o/a ([lnr]>.io, [oe]>io, a>ia)
 F0: feminine plural nouns, adjectives of third class (0>[ei]|[^oaie], a>e, e>i)
 M0: masculine plural nouns (0>[oi]|[^oaie], o>i|[^i]o, .o>i|io, [ae]>i)
-MF: masculine plural nouns (0>e|[èélnr], e>i, 0>i|[aèélnr])
-M1: adding of -io/a to the words in -o/a ([lnr]>.io, [oe]>io, a>ia)
 X0: genderless plural nouns (e>i, [nr]>[nr]i)
 X1: genderless abstract nouns (ade>ae|à|è, ude>úe?)
 
 B1: feltrin-belumat transformation, plural with transformation '[aeou][ln] > 'Vi (.>i|[èò][ln], a.>ài|a[ln], e.>éi|e[ln], o.>ói|o[ln], u.>úi|u[ln])
 B2: feltrin-belumat transformation, plural with transformation '[aeou][^-]+[aeou][ln] > 'V[^-]+Vi (l>i|[aeouàèéòóú]l, n>i|[aeouàèéòóú]n)
-A5/A6: arsedexe transformation, singular with transformation -'[aiò]vo > -'Vu, neve > neu / '-[ai]vo > '-Vu ([aiò]vo>[àíò]u|[aeiò]vo, ve>u|neve)
-Y3/Y4/Y7: venetian transformation (l>ƚ, j>ɉ, ŧ>s, đ>x)
+B3: arsedexe transformation, singular with transformation -'[aiò]vo > -'Vu, neve > neu / '-[ai]vo > '-Vu ([aiò]vo>[àíò]u|[aeiò]vo, ve>u|neve)
+V0/V1/v1: venetian transformation (l>ƚ, j>ɉ, ŧ>s, đ>x)
 Vf/Vm/Vx: venetian transformation for femenine/masculine/neuter words (-l>-ƚe)
 Vp: prefix for venetian transformation (lV->ƚV-, jV->ɉV-, ŧV->sV-, đV->xV-)
 Bu: buran language transformation (a[lnr] > à, on > ó)
 Pd: paduan transformation: metaphonesis (-oxo>-uxi)
 Vs: prefix for vicentine transformation (re->ra-/ar-, se->sa-, per- > par-)
-Vr/VR: veronexe transformation (-ente > -ènte/M0FS, -en[pstŧ]o > -èn[pstŧ]o/M0FSPd, -en[dstŧ]a > -èn[dstŧ]a/F0, -osto > -òsto/M0FS, -ongo > -òngo/M0FS, -evo > -èvo/M0)
+Vr/VR: veronexe transformation (-ente > -ènte/M0A0, -en[pstŧ]o > -èn[pstŧ]o/M0A0Pd, -en[dstŧ]a > -èn[dstŧ]a/F0, -osto > -òsto/M0A0, -ongo > -òngo/M0A0, -evo > -èvo/M0)
 
 v0/v7: plants and crafts ((i)èr>ar(o/a/i/e), dor>(t)or(a/i/e)|[aeiou]dor, ol>i[oò]l(o/a/i/e)|[dđñrsŧx]ol, ol>òl(o/a/i/e)|[dđñrsŧx]ol, ...)
 m0/m7: deverbal nominals (-ment(o/i))
@@ -230,7 +226,7 @@ Dictionaries, works, and documents used:
 101. [20230227] Bernoni, Domenico Giuseppe. Le strighe — Leggende popolari veneziane raccolte da Domenico Giuseppe Bernoni. Venezia, 1874.
 102. [20230302] Bernoni, Domenico Giuseppe. Indovinelli popolari veneziani raccolti da Domenico Giuseppe Bernoni. Venezia, 1874.
 103. [20230302] Bertanza, Enrico; Lazzarini, Vittorio. Il dialetto veneziano - fino alla morte di Dante Alighieri, 1321. Venezia, 1891.
-104. [20230411] Libro de misser Tristan. XV sec. (http://www.bibliotecaitaliana.it/testo/bibit000362)
+104. [20230411] Libro de misser Tristan. XV sec. (http://www.bibliotecaitaliana.it/testo/bibiT600362)
 105. [20230523] Rosman, Enrico. Vocabolarietto veneto giuliano. Roma, 192209.
 106. [20231031] Nazari, Giulio. Dizionario bellunese–italiano e osservazioni di grammatica ad uso delle scuole elementari di Belluno. Oderzo, 1884.
 
@@ -310,3 +306,5 @@ La ricerca è basata sull'analisi di un centinaio di vocabolari che vanno dal 14
 
 TODO accenti!
 https://archivioladin-venas.blogspot.com/2007/09/glossario-ladino-cadorino-venas-italiano.html
+
+replace: ([aeiouàèéòíóüïú]l[aeiouàèéóòíüïú][^\r\n]+)l6, ([ŧđ][^\r\n]+)l7, (ƚ[^\r\n]+)L6 with $1
