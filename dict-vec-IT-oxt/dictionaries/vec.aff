@@ -431,7 +431,7 @@ COMPOUNDRULE (|5)(-b)(|6)	# sento-mi[lƚ]e
 
 # –àr:	kantar/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W5W6P0P1, kante/W0T2L3l3W2W3L0l0I5I7A0, kàntis/T0W4; examinar/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W5W6P0P1, exàmine/W0T2L0l0L3l3W2W3W4I5I7
 # –ér:	remaner/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N3N4W5W6P0P1, remane/W0T2W2N0L0l0L2l2I5I7, remànis/T0N0; goder/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N3N4W5W6P0P1, gòde/W0T2W2W4N0L0l0L2l2I5I7A0, gòdis/T0N0
-# '–er:	gòder/T6W5W7P0P1P2, gòde/W0T2W2N0L0l0L2l2I5I7A0, goderò/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N3N4W6 (TODO gòdar)
+# '–er:	gòder/T6T7W5W7P0P1P2, gòde/W0T2W2N0L0l0L2l2I5I7A0, goderò/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N3N4W6 (TODO gòdar)
 # –ír:	avrir/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W1W5W6P0P1, avre/W0T2W2N0L0l0L2l2I5I7, àvris/T0N0; dormir/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W1W5W6P0P1, dòrme/W0T2W2N0L0l0L2l2I5I7
 # –ír/–iso–:	fenir/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W5W6P0P1, fenise/T5L5l5W1L5l5W2N0L0l0I5I7A0
 
@@ -462,6 +462,63 @@ SFX T0 ir é/I4 ir	ds:indicative+present is:second+plural	# T12 + [èé]
 SFX T6 Y 2
 SFX T6 er is/I3 er	ds:indicative+present is:second+singular	# T8 + is
 SFX T6 r s/I3 er	ds:indicative+present is:second+singular	# T10 = T8 + es, 2s=3, belumat
+
+# '–er
+# group: indicative+future, conditional+present, infinitive simple
+SFX T7 Y 35
+SFX T7 erò arò/I1 erò	ds:indicative+future is:first+singular	# T4 + r[òàè]
+SFX T7 erò arà/I1 erò	ds:indicative+future is:first+singular	# T4 + r[òàè]
+SFX T7 erò aremo/I2 erò	ds:indicative+future is:first+plural	# T4 + r[éí]mo
+SFX T7 erò arimo/I2 erò	ds:indicative+future is:first+plural	# T4 + r[éí]mo
+SFX T7 erò arà/I3 erò	ds:indicative+future is:second+singular	# T4 + r[àé]
+SFX T7 erò aras/I3 erò	ds:indicative+future is:second+singular	# T4 + r[àé]s
+SFX T7 erò aré/I3 erò	ds:indicative+future is:second+singular	# T4 + r[àé]
+SFX T7 erò ares/I3 erò	ds:indicative+future is:second+singular	# T4 + r[àé]s
+SFX T7 erò arè/I4 erò	ds:indicative+future is:second+plural	# T4 + r[èéí]
+SFX T7 erò arí/I4 erò	ds:indicative+future is:second+plural	# T4 + r[èéí]
+SFX T7 erò arà erò	ds:indicative+future is:third	# T4 + rà
+SFX T7 erò aría erò	ds:conditional+present is:first+singular	# T4 + rí[ae]
+SFX T7 erò arésimo/I2 erò	ds:conditional+present is:first+plural	# T4 + r[éí]simo
+SFX T7 erò arísimo/I2 erò	ds:conditional+present is:first+plural	# T4 + r[éí]simo, pavan
+SFX T7 erò aría/I3 erò	ds:conditional+present is:second+singular	# T4 + ría
+SFX T7 erò arías/I3 erò	ds:conditional+present is:second+singular	# T4 + ría
+SFX T7 erò arisi/I3 erò	ds:conditional+present is:second+singular	# T4 + rísi, pavan
+SFX T7 erò arísis/I3 erò	ds:conditional+present is:second+singular	# T4 + rísi, pavan
+SFX T7 erò aresi/I4 erò	ds:conditional+present is:second+plural	# T4 + rési
+SFX T7 erò arisi/I4 erò	ds:conditional+present is:second+plural	# T4 + rísi, pavan
+SFX T7 erò aría erò	ds:conditional+present is:third	# T4 + rí[ae], FIXME interrogatives
+SFX T7 erò arave erò	ds:conditional+present is:first+singular	# T4 + rà(v)[ei]
+SFX T7 erò arae erò	ds:conditional+present is:first+singular	# T4 + rà(v)[ei]
+SFX T7 erò aravi erò	ds:conditional+present is:first+singular	# T4 + rà(v)[ei], pavan
+SFX T7 erò arai erò	ds:conditional+present is:first+singular	# T4 + rà(v)[ei], pavan
+SFX T7 erò arave erò	ds:conditional+present is:first+plural	# T4 + rà(v)[ei]
+SFX T7 erò arae erò	ds:conditional+present is:first+plural	# T4 + rà(v)[ei]
+SFX T7 erò arave erò	ds:conditional+present is:second+singular	# T4 + rà(v)[ei]
+SFX T7 erò arae erò	ds:conditional+present is:second+singular	# T4 + rà(v)[ei]
+SFX T7 erò arave erò	ds:conditional+present is:second+plural	# T4 + rà(v)[ei]
+SFX T7 erò arae erò	ds:conditional+present is:second+plural	# T4 + rà(v)[ei]
+SFX T7 erò arave erò	ds:conditional+present is:third	# T4 + rà(v)[ei]
+SFX T7 erò arae erò	ds:conditional+present is:third	# T4 + rà(v)[ei]
+SFX T7 er ar er	ds:infinitive+simple	# T1 + r(e)
+SFX T7 er are er	ds:infinitive+simple	# T1 + r(e)
+
+# '–er
+# group: conditional+present
+SFX L7 Y 5
+SFX L7 erò arise-lo/I6 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae]
+SFX L7 erò arave-lo/I6 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
+SFX L7 erò arae-lo/I6 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
+SFX L7 erò aravi-lo/I6 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan
+SFX L7 erò arai-lo/I6 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan
+
+# '–er
+# group: conditional+present
+SFX l7 Y 5
+SFX l7 erò arise-ƚo/I8 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae]
+SFX l7 erò arave-ƚo/I8 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
+SFX l7 erò arae-ƚo/I8 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
+SFX l7 erò aravi-ƚo/I8 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan
+SFX l7 erò arai-ƚo/I8 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], pavan
 
 # -àr, -ér, '-er, -ír, –ír/–iso–
 # group: indicative imperfect, indicative future, subjunctive imperfect, conditional present
