@@ -29,7 +29,7 @@ HOME http://parnodexmentegar.orgfree.com/
 LANG vec
 
 
-TRY eaoinrtlƚsdkpvmuèxgfàòbíhéŧójɉñcúSđLȽIPETKVAMDNFBRJGCOUĐXÀÈŦHɈÒÑÍÉÓÚ’ïÏüÜ-‐‒–
+TRY eaoinrtlƚsdkpvmuèxgfàòbíhéŧójɉñcúSđLȽIPETKVAMDNFBRJGCOUĐXÀÈŦHɈÒÑÍÉÓÚ’ïÏüÜ--‒–
 
 # the complete alphabet is: aàbcdđeéèfghiïíjɉklƚmnñoóòprstŧuüúvx
 
@@ -37,11 +37,12 @@ TRY eaoinrtlƚsdkpvmuèxgfàòbíhéŧójɉñcúSđLȽIPETKVAMDNFBRJGCOUĐXÀÈ�
 # account for qwerty, hungarian, slovenian, brazilian, and romanian layout
 KEY esđdr|redđft|trfg|uhji|iujko|oiklp|polòèé-|èépòà|úó|aísđ|sđaxde|dsđxcfre|fdđcvgtr|gfvbht|hgbnju|jhnmkiu|kjmloi|lkéòpo|ñlp-|òlàèép-|àòèé-|ùà|élp-|xcdsđ|cxvfdđ|vcbgf|bvnhg|nbmjh|mnkj|ìèé
 
-WORDCHARS -‘’'
+#WORDCHARS -‘’'
+WORDCHARS ‘’'
 
 # en–dashes
 BREAK 1
-BREAK --
+BREAK –
 
 # affix rules can strip full words, not only one less characters
 FULLSTRIP
@@ -62,7 +63,7 @@ MAP UÜÚ
 MAP DĐ
 
 # replace input characters
-ICONV 31
+ICONV 30
 ICONV dh đ
 ICONV Dh Đ
 ICONV DH Đ
@@ -82,7 +83,6 @@ ICONV th ŧ
 ICONV Th Ŧ
 ICONV TH Ŧ
 ICONV ' ’
-ICONV ’ ’
 ICONV ‘ ’
 ICONV â ar
 ICONV Â AR
@@ -116,14 +116,14 @@ REP x s
 REP ’ ’_
 REP - ‒
 REP - –
-REP - ‐
+REP - -
 REP – ‒
 REP – -
 REP – ‒
-REP – ‐
+REP – -
 REP ‒ -
 REP ‒ –
-REP ‒ ‐
+REP ‒ -
 REP mb nb
 REP mf nf
 REP mp np
@@ -1780,12 +1780,10 @@ SFX W6 üir uí’ üir	ds:infinitive+simple	# T1 + r(e), buranèl, coxòto
 
 # '-er
 # used if word does not contains ƚ
-SFX W7 Y 6
+SFX W7 Y 4
 SFX W7 er re [àèéòóíú][dđtv]er	ds:infinitive+simple	# T1 + r(e)
 SFX W7 er re [àèéòóíú][lnr][dx]er	ds:infinitive+simple	# T1 + r(e)
 SFX W7 er re èser	ds:infinitive+simple	# T1 + r(e), pavan
-SFX W7 er tre èser	ds:infinitive+simple	# T1 + r(e)
-SFX W7 èser sér/P0P1 èser	ds:infinitive+simple	# T1 + r(e)
 SFX W7 er dre èner	ds:infinitive+simple	# T1 + r(e)
 
 # -ír/is, northern variant
@@ -3589,7 +3587,7 @@ SFX xR ïèser isianto-ƚo/P2 ïèser	ds:gerund+simple ds:pronomenal+accusative	
 # vèrbi '-er inregolari: (re)?èser, rïèser
 # different conjugation in indicative present, indicative imperfect, indicative future, subjunctive present, subjunctive imperfect, conditional present, imperative present
 # changes in participle passive
-SFX xS Y 123
+SFX xS Y 125
 SFX xS èser é/I3 èser	ds:indicative+present is:second+singular	# T10 = T8 + e, 2s=3, belumat
 SFX xS èser és/I3 èser	ds:indicative+present is:second+singular	# T10s = T8 + es, 2s=3, belumat
 SFX xS èser é/I5I7 èser	ds:indicative+present is:third	# T10
@@ -3694,6 +3692,8 @@ SFX xS er are èser	ds:infinitive+simple	# T1 + r(e)
 SFX xS 0 e èser	ds:infinitive+simple	# T1 + r(e), padoan, coxòto
 SFX xS èser esí’ èser	ds:infinitive+simple	# T1 + r(e), coxòto
 SFX xS èser esé’ èser	ds:infinitive+simple	# T1 + r(e), buranèl
+SFX xS er tre èser	ds:infinitive+simple	# T1 + r(e)
+SFX xS èser ’sér/P0P1 èser	ds:infinitive+simple	# T1 + r(e)
 SFX xS èser esente/A0 èser	ds:participle+active	# T7 + nte
 SFX xS èser esante/A0 èser	ds:participle+active	# T7 + nte, metaplaxmo
 SFX xS èser esiante èser	ds:participle+active	# T7 + nte, metaplaxmo
@@ -4254,56 +4254,56 @@ SFX P2 ƚo geƚe -ƚo	ds:pronomenal+locative+accusative is:third ds:pronomenal+a
 # interogativi prima parsona singolar
 # TODO https://babel.hathitrust.org/cgi/pt?id=nyp.33433071394559&seq=345&q1=baldon
 SFX I1 Y 15
-SFX I1 0 ‐i .	ds:interrogative	# trevixan, veneŧian, padoan, viŧentin, polexan, veronexe
-SFX I1 0 ‐e .	ds:interrogative	# veneŧian
-SFX I1 0 ‐jo .	ds:interrogative	# veneŧian
-SFX I1 0 ‐ɉo .	ds:interrogative	# veneŧian
-SFX I1 0 ‐ɉu .	ds:interrogative	# coxòto
-SFX I1 0 ‐mi .	ds:interrogative	# cipileño
-SFX I1 0 ‐io o	ds:interrogative	# veneŧian
-SFX I1 e ‐io ve	ds:interrogative	# veneŧian
-SFX I1 0 ‐ve .	ds:interrogative	# veneŧian
-SFX I1 0 ‐nti [^nr]	ds:interrogative	# veronexe
-SFX I1 0 ‐ni [^nr]	ds:interrogative	# veronexe
-SFX I1 0 ‐nte [^nr]	ds:interrogative
-SFX I1 0 ‐ne [^nr]	ds:interrogative
-SFX I1 0 ‐ti [ns]	ds:interrogative	# veronexe
-SFX I1 0 ‐te [ns]	ds:interrogative
+SFX I1 0 -i .	ds:interrogative	# trevixan, veneŧian, padoan, viŧentin, polexan, veronexe
+SFX I1 0 -e .	ds:interrogative	# veneŧian
+SFX I1 0 -jo .	ds:interrogative	# veneŧian
+SFX I1 0 -ɉo .	ds:interrogative	# veneŧian
+SFX I1 0 -ɉu .	ds:interrogative	# coxòto
+SFX I1 0 -mi .	ds:interrogative	# cipileño
+SFX I1 0 -io o	ds:interrogative	# veneŧian
+SFX I1 e -io ve	ds:interrogative	# veneŧian
+SFX I1 0 -ve .	ds:interrogative	# veneŧian
+SFX I1 0 -nti [^nr]	ds:interrogative	# veronexe
+SFX I1 0 -ni [^nr]	ds:interrogative	# veronexe
+SFX I1 0 -nte [^nr]	ds:interrogative
+SFX I1 0 -ne [^nr]	ds:interrogative
+SFX I1 0 -ti [ns]	ds:interrogative	# veronexe
+SFX I1 0 -te [ns]	ds:interrogative
 
 # interogativi prima parsona plural
 SFX I2 Y 9
-SFX I2 0 ‐i .	ds:interrogative	# trevixan, veneŧian, padoan, viŧentin, polexan, veronexe
-SFX I2 o ‐io [ei]mo	ds:interrogative	# veneŧian
-SFX I2 0 ‐e .	ds:interrogative	# veneŧian
-SFX I2 0 ‐ti [ns]	ds:interrogative	# veronexe
-SFX I2 0 ‐te [ns]	ds:interrogative
-SFX I2 0 ‐nti [^n]	ds:interrogative	# veronexe
-SFX I2 0 ‐ni [^n]	ds:interrogative	# veronexe
-SFX I2 0 ‐nte [^n]	ds:interrogative
-SFX I2 0 ‐ne [^n]	ds:interrogative
+SFX I2 0 -i .	ds:interrogative	# trevixan, veneŧian, padoan, viŧentin, polexan, veronexe
+SFX I2 o -io [ei]mo	ds:interrogative	# veneŧian
+SFX I2 0 -e .	ds:interrogative	# veneŧian
+SFX I2 0 -ti [ns]	ds:interrogative	# veronexe
+SFX I2 0 -te [ns]	ds:interrogative
+SFX I2 0 -nti [^n]	ds:interrogative	# veronexe
+SFX I2 0 -ni [^n]	ds:interrogative	# veronexe
+SFX I2 0 -nte [^n]	ds:interrogative
+SFX I2 0 -ne [^n]	ds:interrogative
 
 # interogativi sekonda parsona singolar
 SFX I3 Y 2
-SFX I3 0 ‐tu .	ds:interrogative	# trevixan
-SFX I3 0 ‐to .	ds:interrogative	# padoan de ŧità, viŧentin de ŧità, polexan de ŧità, veronexe de ŧità
+SFX I3 0 -tu .	ds:interrogative	# trevixan
+SFX I3 0 -to .	ds:interrogative	# padoan de ŧità, viŧentin de ŧità, polexan de ŧità, veronexe de ŧità
 
 # interogativi sekonda parsona plural
 SFX I4 Y 3
-SFX I4 0 ‐u .	ds:interrogative
-SFX I4 0 ‐o .	ds:interrogative	# padoan de ŧità, viŧentin de ŧità, polexan de ŧità, veronexe de ŧità
-SFX I4 0 ‐vu .	ds:interrogative
+SFX I4 0 -u .	ds:interrogative
+SFX I4 0 -o .	ds:interrogative	# padoan de ŧità, viŧentin de ŧità, polexan de ŧità, veronexe de ŧità
+SFX I4 0 -vu .	ds:interrogative
 
 # interogativi tèrŧa parsona (senŧa èle vanesente)
 SFX I5 Y 9
-SFX I5 0 ‐l [^lnr]	ds:interrogative is:singular+masculine
-SFX I5 0 ‐lo [^a]	ds:interrogative is:singular+masculine
-SFX I5 0 ‐la [^a]	ds:interrogative is:singular+femenine
-SFX I5 0 ‐li [^a]	ds:interrogative is:plural+masculine
-SFX I5 0 ‐le [^a]	ds:interrogative is:plural+femenine
-SFX I5 a e‐lo a	ds:interrogative is:singular+masculine
-SFX I5 a e‐la a	ds:interrogative is:singular+femenine
-SFX I5 a e‐li a	ds:interrogative is:plural+masculine
-SFX I5 a e‐le a	ds:interrogative is:plural+femenine
+SFX I5 0 -l [^lnr]	ds:interrogative is:singular+masculine
+SFX I5 0 -lo [^a]	ds:interrogative is:singular+masculine
+SFX I5 0 -la [^a]	ds:interrogative is:singular+femenine
+SFX I5 0 -li [^a]	ds:interrogative is:plural+masculine
+SFX I5 0 -le [^a]	ds:interrogative is:plural+femenine
+SFX I5 a e-lo a	ds:interrogative is:singular+masculine
+SFX I5 a e-la a	ds:interrogative is:singular+femenine
+SFX I5 a e-li a	ds:interrogative is:plural+masculine
+SFX I5 a e-le a	ds:interrogative is:plural+femenine
 
 # interogativi tèrŧa parsona (senŧa èle vanesente)
 SFX I6 Y 4
@@ -4521,7 +4521,7 @@ SFX B1 jo i [aeiouàèéíòóúïü][iu]jo	is:plural+masculine+northern
 SFX B1 ijo íi [^aeiouàèéíòóúïü]ijo	is:plural+masculine+northern
 SFX B1 ujo úi [^aeiouàèéíòóúïü]ujo	is:plural+masculine+northern
 
-# trasformaŧion feltrin–belunexe ('[aeou][^–-‐]+[aeou][ln] > 'V[^–-‐]+Vi)
+# trasformaŧion feltrin–belunexe ('[aeou][^–--]+[aeou][ln] > 'V[^–--]+Vi)
 SFX B2 Y 7
 SFX B2 n i [^u]n	is:plural+masculine+northern
 SFX B2 n i [aeiouàèéíòóúïü]un	is:plural+masculine+northern
