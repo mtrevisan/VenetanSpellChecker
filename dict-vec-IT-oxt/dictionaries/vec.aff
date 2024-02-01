@@ -1813,7 +1813,7 @@ SFX W8 r sege ir	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), meta
 #----
 
 
-# vèrbi -àr inregolari: (re)?andar
+# vèrbi -àr inregolari: (re)?[a’]ndar
 # changes in indicative present, subjunctive present, imperative present, gerund simple
 SFX xA Y 54
 SFX xA andar vao/I1 andar	ds:indicative+present is:first+singular	# T8 + [oe]
@@ -1864,19 +1864,19 @@ SFX xA andar vaga andar	ds:subjunctive+present is:third	# T8 + a
 SFX xA andar và/P0P1P2 andar	ds:imperative+present is:second+singular	# T9
 SFX xA andar vé/P0P1P2 andar	ds:imperative+present is:second+plural	# T5
 SFX xA andar vè/P0P1P2 andar	ds:imperative+present is:second+plural	# T5, vitoriexe
-SFX xA r gando/P0P1 [a’]ndar	ds:gerund+simple	# T2 + n[dt]o
-SFX xA r gando-ƚo/P2 [a’]ndar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
-SFX xA r ganto/P0P1 [a’]ndar	ds:gerund+simple	# T2 + n[dt]o
-SFX xA r ganto-ƚo/P2 [a’]ndar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
-SFX xA r gande/P0P1 [a’]ndar	ds:gerund+simple	# T2 + n[dt]o, liventin
-SFX xA r gande-ƚo/P2 [a’]ndar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, liventin
+SFX xA r gando/P0P1 andar	ds:gerund+simple	# T2 + n[dt]o
+SFX xA r gando-ƚo/P2 andar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
+SFX xA r ganto/P0P1 andar	ds:gerund+simple	# T2 + n[dt]o
+SFX xA r ganto-ƚo/P2 andar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
+SFX xA r gande/P0P1 andar	ds:gerund+simple	# T2 + n[dt]o, liventin
+SFX xA r gande-ƚo/P2 andar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, liventin
 
 # vèrbi -ér inregolari: (re)?av?er, (re)?g(av?)?er, ’v?er
 # different conjugation in indicative present, subjunctive present, imperative present, participle passive, gerund simple
 # subjunctive present of "apier"
 # NOTE: see also other derivations in dic file!
 # NOTE: does not have procomplementar form for imperative
-SFX xB Y 179
+SFX xB Y 181
 SFX xB aver ò/I1 aver	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xB aver à/I1 aver	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xB aver è/I1 aver	ds:indicative+present is:first+singular	# T8 + [oe], belumat
@@ -2038,6 +2038,8 @@ SFX xB ver biante aver	ds:participle+active	# T7 + nte, metaplaxmo
 SFX xB ver biènte aver	ds:participle+active	# T7 + nte, veronexe
 SFX xB r ndo/P0P1 aver	ds:gerund+simple	# T2 + n[dt]o, veronexe
 SFX xB r ndo-ƚo/P2 aver	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, veronexe
+SFX xB ver endo/P0P1 ’ver	ds:gerund+simple	# T2 + n[dt]o
+SFX xB ver endo-ƚo/P2 ’ver	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
 SFX xB ver biendo/P0P1 aver	ds:gerund+simple	# T2 + n[dt]o
 SFX xB ver biendo-ƚo/P2 aver	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
 SFX xB ver biando/P0P1 aver	ds:gerund+simple	# T7 + n[dt]o, metaplaxmo
@@ -2849,7 +2851,7 @@ SFX xP éver ebianto-ƚo/P2 éver	ds:gerund+simple ds:pronomenal+accusative	# T7
 # changes in participle passive
 # NOTE: see also other derivations in dic file!
 # NOTE: does not have procomplementar form for imperative
-SFX xQ Y 370
+SFX xQ Y 373
 SFX xQ èser só’/I1 èser	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xQ èser són/I1 èser	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xQ èser sion/I1 èser	ds:indicative+present is:first+singular	# T8 + [oe]
@@ -2884,6 +2886,8 @@ SFX xQ èser jèrimo/I2 èser	ds:indicative+imperfect is:first+plural	# T2 + (v)
 SFX xQ èser ɉèrimo/I2 èser	ds:indicative+imperfect is:first+plural	# T2 + (v)imo
 SFX xQ èser xèrimo/I2 èser	ds:indicative+imperfect is:first+plural	# T2 + (v)imo
 SFX xQ èser erion/I2 èser	ds:indicative+imperfect is:first+plural	# T11 + (iv)(i)ón(s[ei]), belumat
+SFX xQ èser erison/I2 èser	ds:indicative+imperfect is:first+plural	# T11 + (iv)(i)ón(s[ei]), belumat
+SFX xQ èser erision/I2 èser	ds:indicative+imperfect is:first+plural	# T11 + (iv)(i)ón(s[ei]), belumat
 SFX xQ èser jerensi èser	ds:indicative+imperfect is:first+plural	# T11 + (iv)[éí]n(s[ei])
 SFX xQ èser jèri/I3 èser	ds:indicative+imperfect is:second+singular	# T2 + (v)i
 SFX xQ èser ɉèri/I3 èser	ds:indicative+imperfect is:second+singular	# T2 + (v)i
@@ -2971,6 +2975,7 @@ SFX xQ èser sipiede èser	ds:subjunctive+present is:second+plural	# T12 + é([d
 SFX xQ èser sipiege èser	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), seguxin, cipileño
 SFX xQ èser sede èser	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), baso belumat
 SFX xQ èser siede èser	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), baso belumat
+SFX xQ èser sipiège èser	ds:subjunctive+present is:second+plural	# T12 + ège, metaplaxmo, vitoriexe
 SFX xQ èser sipie èser	ds:subjunctive+present is:third	# T8 + e
 SFX xQ èser sipia èser	ds:subjunctive+present is:third	# T8 + a
 SFX xQ èser síe èser	ds:subjunctive+present is:third	# T8 + e, belumat
@@ -3225,7 +3230,7 @@ SFX xQ èser sianto-ƚo/P2 èser	ds:gerund+simple ds:pronomenal+accusative	# T7 
 # different conjugation in indicative present, indicative imperfect, indicative future, subjunctive present, subjunctive imperfect, conditional present, imperative present
 # changes in participle passive
 # NOTE: does not have procomplementar form for imperative
-SFX xR Y 357
+SFX xR Y 358
 SFX xR ïèser iso’ ïèser	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xR ïèser ison/I1 ïèser	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xR ïèser ision/I1 ïèser	ds:indicative+present is:first+singular	# T8 + [oe]
@@ -3337,6 +3342,7 @@ SFX xR ïèser isipiede ïèser	ds:subjunctive+present is:second+plural	# T12 + 
 SFX xR ïèser isipiege ïèser	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), seguxin, cipileño
 SFX xR ïèser isede ïèser	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), baso belumat
 SFX xR ïèser isiede ïèser	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), baso belumat
+SFX xR ïèser isipiège ïèser	ds:subjunctive+present is:second+plural	# T12 + ège, metaplaxmo, vitoriexe
 SFX xR ïèser isipie ïèser	ds:subjunctive+present is:third	# T8 + e
 SFX xR ïèser isipia ïèser	ds:subjunctive+present is:third	# T8 + a
 SFX xR ïèser ifuse/I1A0 ïèser	ds:subjunctive+imperfect is:first+singular	# T2 + se
@@ -3587,7 +3593,7 @@ SFX xR ïèser isianto-ƚo/P2 ïèser	ds:gerund+simple ds:pronomenal+accusative	
 # vèrbi '-er inregolari: (re)?èser, rïèser
 # different conjugation in indicative present, indicative imperfect, indicative future, subjunctive present, subjunctive imperfect, conditional present, imperative present
 # changes in participle passive
-SFX xS Y 125
+SFX xS Y 127
 SFX xS èser é/I3 èser	ds:indicative+present is:second+singular	# T10 = T8 + e, 2s=3, belumat
 SFX xS èser és/I3 èser	ds:indicative+present is:second+singular	# T10s = T8 + es, 2s=3, belumat
 SFX xS èser é/I5I7 èser	ds:indicative+present is:third	# T10
@@ -3704,6 +3710,8 @@ SFX xS èser esesto/A1A0 èser	ds:participle+passive+weak is:singular+masculine	
 SFX xS èser esasto/A1 èser	ds:participle+passive+weak is:singular+masculine	# T7 + st[oiae], metaplaxmo
 SFX xS èser esèndo/P0P1 èser	ds:gerund+simple	# T2 + n[dt]o, veronexe
 SFX xS èser esèndo-ƚo/P2 èser	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, veronexe
+SFX xS èser ’sendo/P0P1 èser	ds:gerund+simple	# T2 + n[dt]o
+SFX xS èser ’sendo-ƚo/P2 èser	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
 SFX xS èser esendo/P0P1 èser	ds:gerund+simple	# T2 + n[dt]o
 SFX xS èser esendo-ƚo/P2 èser	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
 SFX xS èser esando/P0P1 èser	ds:gerund+simple	# T7 + n[dt]o, metaplaxmo
