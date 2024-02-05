@@ -4519,104 +4519,90 @@ SFX I8 o a -ƚo	ds:interrogative is:singular+femenine
 SFX I8 o i -ƚo	ds:interrogative is:plural+masculine
 SFX I8 o e -ƚo	ds:interrogative is:plural+femenine
 
-# sonoriđaŧion finali
+# sonoriđaŧion final
 # NÒTA: tute le vokali le pòl kaskar, fòra ke la `a` e la `e` derivante da un femenil plural de la prima deklinaŧion latina
 # NÒTA: na koa konsonàntega ’té la sílaba ke la vièn prima la ostàkola de pi l’ apòkope
-# NÒTA: le konsonanti ke le favorise de pi l’ apòkope le xe, in órden: r, l, n, m (ponto krítego), frikative (f/v, ŧ/đ, s/x), afrikae (c/ɉ), okluxive (b/d, g/k, p, m, n, ñ)
-SFX A0 Y 25
-SFX A0 e 0 [^aàeéèiïíoóòuüúñ]e
-SFX A0 de t de
-SFX A0 đe ŧ đe
-SFX A0 me n me
-SFX A0 ve f ve
-SFX A0 xe s xe
-SFX A0 e 0 [^i]ñe
-SFX A0 ñe in [^i]ñe
+# NÒTA: le konsonanti ke le favorise de pi l’ apòkope le xe, in órden: r, l, n, m (ponto krítego), frikative (f/v, ŧ/đ, s/x), afrikae (c/ɉ), okluxive (t/d, g/k, p/b, m, n, ñ)
+SFX A0 Y 47
+SFX A0 e 0 [aeèiíoòuú][^aàeéèiïíoóòuüúñ]e
+SFX A0 o 0 [aeèiíoòuú][^aàeéèiïíoóòuüúgñ]o	# -igo sol ke par `figo`
+SFX A0 o 0 [^i]go	# -igo sol ke par `figo`
+SFX A0 o 0 figo	# -igo sol ke par `figo`
+SFX A0 e 0 [aeèiíoòuú][lrn][^aàeéèiïíoóòuüúñ]e
+SFX A0 o 0 [aeèiíoòuú][lrn][^aàeéèiïíoóòuüúñ]o
+SFX A0 e 0 [aeèiíoòuú]s[kpt]e
+SFX A0 o 0 [aeèiíoòuú]s[kpt]o
+SFX A0 be p [aeèiíoòuú][lrns]be
+SFX A0 bo p [aeèiíoòuú][lrns]bo
+SFX A0 de t [aeèiíoòuú][lrns]de
+SFX A0 do t [aeèiíoòuú][lrns]do
+SFX A0 đe ŧ [aeèiíoòuú]đe
+SFX A0 đe ŧ [aeèiíoòuú][lrn]đe
+SFX A0 đo ŧ [aeèiíoòuú]đo
+SFX A0 đo ŧ [aeèiíoòuú][lrn]đo
+SFX A0 ŧe f [aeèiíoòuú]ŧe
+SFX A0 ŧe f [aeèiíoòuú][lrn]ŧe
+SFX A0 ŧo f [aeèiíoòuú]ŧo
+SFX A0 ŧo f [aeèiíoòuú][lrn]ŧo
+SFX A0 ɉe c [aeèiíoòuú]ɉe
+SFX A0 ɉe c [aeèiíoòuú][lrn]ɉe
+SFX A0 ɉo c [aeèiíoòuú]ɉo
+SFX A0 ɉo c [aeèiíoòuú][lrn]ɉo
+SFX A0 me n [aeèiíoòuú]me
+SFX A0 me n [aeèiíoòuú][lrn]me
+SFX A0 mo n [aeèiíoòuú]mo
+SFX A0 mo n [aeèiíoòuú][lrn]mo
+SFX A0 ve f [aeèiíoòuú]ve
+SFX A0 ve f [aeèiíoòuú][lrn]ve
+SFX A0 vo f [aeèiíoòuú]vo
+SFX A0 vo f [aeèiíoòuú][lrn]vo
+SFX A0 xe s [aeèiíoòuú]xe
+SFX A0 xe s [aeèiíoòuú][lrn]xe
+SFX A0 xo s [aeèiíoòuú]xo
+SFX A0 xo s [aeèiíoòuú][lrn]xo
+SFX A0 e 0 [aeèoòuú]ñe
+SFX A0 o 0 [aeèoòuú]ño
+SFX A0 ñe in [aeèoòuú]ñe
+SFX A0 ño in [aeèoòuú]ño
 SFX A0 ñe n iñe
-SFX A0 ñe nc ñe	# belunexe
-SFX A0 o 0 [^aàeéèiïíoóòuüúñ]o
-SFX A0 bo p bo
-SFX A0 đo ŧ đo
-SFX A0 fo ŧ fo
-SFX A0 ɉo c ɉo
-SFX A0 do t do
-SFX A0 go k go
-SFX A0 mo n mo
-SFX A0 vo f vo
-SFX A0 xo s xo
-SFX A0 o 0 [^i]ño
-SFX A0 ño in [^i]ño
 SFX A0 ño n iño
-SFX A0 ño nc ño	# belunexe
+SFX A0 ñe nc [aeèiíoòuú]ñe	# belunexe
+SFX A0 ño nc [aeèiíoòuú]ño	# belunexe
+SFX A0 e 0 [aeèiíoòuú][lrn]ñe
+SFX A0 o 0 [aeèiíoòuú][lrn]ño
 SFX A0 i 0 i
 
-#SFX A0 Y 66
-#SFX A0 o 0 [lnr]o
-#SFX A0 e 0 [lnr]e
-#SFX A0 e 0 a[mstŧvx]e
-#SFX A0 me n ame
-#SFX A0 ve f ave
-#SFX A0 xe s axe
-#SFX A0 e 0 al[sŧ]e
-#SFX A0 e 0 an[dđt]e
-#SFX A0 de t ande
-#SFX A0 đe ŧ anđe
-#SFX A0 e 0 arte
-#SFX A0 o 0 a[cdđgkmñpstŧvx]o
-#SFX A0 o 0 al[dkstŧ]o
-#SFX A0 o 0 an[cdđkfgpstŧx]o
-#SFX A0 o 0 ar[bdgkstŧ]o
-#SFX A0 o 0 as[kpt]o
-#SFX A0 e 0 e[đmsvx]e
-#SFX A0 e 0 ète
-#SFX A0 e 0 el[sŧ]e
-#SFX A0 o 0 èlfo
-#SFX A0 e 0 èr[mp]e
-#SFX A0 e 0 èste
-#SFX A0 e 0 [eè]nte
-#SFX A0 o 0 e[dmñv]o
-#SFX A0 o 0 è[đx]o
-#SFX A0 o 0 [eè][kfgpstŧx]o
-#SFX A0 o 0 en[gs]o
-#SFX A0 o 0 [eè]n[ptŧ]o
-#SFX A0 o 0 erdo
-#SFX A0 o 0 èr[nsŧv]o
-#SFX A0 o 0 [eè]rto
-#SFX A0 o 0 es[k]o
-#SFX A0 o 0 [eè]sto
-#SFX A0 e 0 i[dsx]e
-#SFX A0 o 0 i[dkfgmpstŧvx]o
-#SFX A0 o 0 ilŧo
-#SFX A0 o 0 in[kfstŧ]o
-#SFX A0 o 0 is[kpt]o
-#SFX A0 e 0 o[sx]e
-#SFX A0 e 0 òme
-#SFX A0 e 0 [oò]te
-#SFX A0 e 0 ol[pŧ]e
-#SFX A0 e 0 [oò]nte
-#SFX A0 e 0 or[đfx]e
-#SFX A0 e 0 òrte
-#SFX A0 o 0 oxo
-#SFX A0 o 0 ò[cd]o
-#SFX A0 o 0 [oò][gkfmñpstŧv]o
-#SFX A0 o 0 ol[fpsŧ]o
-#SFX A0 o 0 òldo
-#SFX A0 o 0 [oò]lto
-#SFX A0 o 0 on[bdkfstŧ]o
-#SFX A0 o 0 [oò]n[g]o
-#SFX A0 o 0 or[dgfn]o
-#SFX A0 o 0 òr[bfptŧ]o
-#SFX A0 o 0 [oò]r[kstv]o
-#SFX A0 o 0 osko
-#SFX A0 o 0 òspo
-#SFX A0 o 0 [oò]sto
-#SFX A0 e 0 ume
-#SFX A0 me n ume
-#SFX A0 e 0 ul[đx]e
-#SFX A0 o 0 u[dkfgjmñpstŧx]o
-#SFX A0 o 0 ul[đsx]o
-#SFX A0 o 0 urto
-#SFX A0 o 0 us[kt]o
+#SFX A0 e 0 [^aàeéèiïíoóòuüúlrnñ]e
+#SFX A0 e 0 [aeèioòu][lr]e
+#SFX A0 e 0 [aeèioòur]ne
+#SFX A0 de t de
+#SFX A0 đe ŧ đe
+#SFX A0 me n me
+#SFX A0 ve f ve
+#SFX A0 xe s xe
+#SFX A0 e 0 [^i]ñe
+#SFX A0 ñe in [^i]ñe
+#SFX A0 ñe n iñe
+#SFX A0 ñe nc ñe	# belunexe
+#SFX A0 o 0 [^aàeéèiïíoóòuüúlrnñ]o
+#SFX A0 o 0 [aeèioòu][lr]o
+#SFX A0 o 0 [aeèioòur]no
+#SFX A0 bo p bo
+#SFX A0 đo ŧ đo
+#SFX A0 fo ŧ fo
+#SFX A0 ɉo c ɉo
+#SFX A0 do t do
+#SFX A0 go k figo	# -igo sol ke par `figo`
+#SFX A0 go k [^i]go	# -igo sol ke par `figo`
+#SFX A0 go k [^f]igo	# -igo sol ke par `figo`
+#SFX A0 mo n [^r]mo
+#SFX A0 vo f vo
+#SFX A0 xo s xo
+#SFX A0 o 0 [^i]ño
+#SFX A0 ño in [^i]ño
+#SFX A0 ño n iño
+#SFX A0 ño nc ño	# belunexe
+#SFX A0 i 0 i
 
 # tute le deklinaŧion, ajetivi de prima klase (-o/i, -a/e)
 SFX A1 Y 8
