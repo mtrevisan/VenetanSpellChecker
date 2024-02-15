@@ -431,11 +431,11 @@ COMPOUNDRULE (|5)(-b)(|6)	# sento-mi[lƚ]e
 # 6) LA 3A PARS. INTEL KONDITHIONAL INTEROGATIVO, VANTI DE ‘L PRONÒME KLÍTEGO INTEROGATIVO, LA FENISE PAR -ríse (veñerise-lo?).
 # 7) ‘TÉ LA 2A e 3A DEKLINATHION, KO VANTI DE -ér/-ír GE XÉ NA d, r, s, t, x SE PÒL ‘VER SONORIDHATHION FINAL ‘TÉ LA 1A E 2A SING. E ‘TÉ LA 3A DE L‘ ENDEGATIVO (TODO NARATIVO) E DHONTATIVO.
 
-# -àr:	kantar/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W2W3P0P1, kante/T0T2T3L3l3N0N2L0l0I5I7A0, kàntis/T0N0; examinar/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W2W3P0P1, exàmine/T0T2T3L0l0L3l3N0N2I5I7
-# -ér:	remaner/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N3N4W2W3P0P1, remane/T0T2T3N0L0l0L2l2I5I7, remànis/T0N0; goder/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N3N4W2W3P0P1, gòde/T0T2T3N0L0l0L2l2I5I7A0, gòdis/T0N0
-# '-er:	gòder/T6T7L7l7N7W2W4P0P1P2, gòde/T0T2T3N0L0l0L2l2I5I7A0, goderò/T0T1T2T3T4T7L1L3L4L7l1l3l4l7N0N1N2N3N4N7W3
-# -ír:	avrir/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W0W2W3P0P1, avre/T0T2T3N0L0l0L2l2I5I7, àvris/T0N0; dormir/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W0W2W3P0P1, dòrme/T0T2T3N0L0l0L2l2I5I7
-# -ír/is:	fenir/T0T1T2T3T4T5L1L3L4L5l1l3l4l5N1N4N5W0W2W3W1N0P0P1
+# -àr:	(kantar|examinar)/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W2W3P0P1P2, (kante|exàmine)/T0T2T3L0L3l0l3N0N2I5I7A0, kàntis/T0N0
+# -ér:	(remaner|goder)/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N3N4W2W3P0P1P2, (remane|gòde)/T0T2T3L0L2l0l2N0I5I7A0, (remànis|gòdis)/T0N0
+# '-er:	gòder/T6T7L7l7N7W2W4P0P1P2, gòde/T0T2T3L0L2l0l2N0I5I7A0, goderò/T0T1T2T3T4T7L1L3L4L7l1l3l4l7N0N1N2N3N4N7W3
+# -ír:	(avrir|dormir)/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W0W2W3P0P1P2, (avre|dòrme)/T0T2T3L0L2l0l2N0I5I7A0, àvris/T0N0; 
+# -ír/is:	fenir/T0T1T2T3T4T5L1L3L4L5l1l3l4l5N1N2N4N5W0W1W2W3P0P1P2
 
 # -àr, -ér, '-er, -ír, -ír/is
 # group: indicative present
@@ -954,7 +954,7 @@ SFX L2 Y 2
 SFX L2 e i-l/P1 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
 SFX L2 0 -l/P1 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
 
-# -àr, -ér, '-er, -ír, -ír/is
+# -àr, -ér, '-er, -ír
 # group: imperative present
 # used if word does not contains ƚ
 SFX L3 Y 9
@@ -1067,7 +1067,7 @@ SFX l2 Y 2
 SFX l2 e i-ƚo/P2 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
 SFX l2 0 -ƚo/P2 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
 
-# -àr, -ér, '-er, -ír, -ír/is
+# -àr, -ér, '-er, -ír
 # group: imperative present
 # used if word does contains ƚ
 SFX l3 Y 9
@@ -1855,7 +1855,7 @@ SFX N7 er aró/I5 er	ds:conditional+present is:third	# T4 + ró
 SFX N7 erò aró/I5 erò	ds:conditional+present is:third	# T4 + ró
 
 
-# -ír, northern variant
+# -ír, -ír/is, northern variant
 # used if word does not contains ƚ
 SFX W0 Y 20
 SFX W0 r s/I5 ir	ds:indicative+present is:first+singular	# T8 + [oe], belumat, ko sonoriđaŧion final
