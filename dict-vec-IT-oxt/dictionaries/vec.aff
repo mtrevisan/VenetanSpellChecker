@@ -431,11 +431,11 @@ COMPOUNDRULE (|5)(-b)(|6)	# sento-mi[lƚ]e
 # 6) LA 3A PARS. INTEL KONDITHIONAL INTEROGATIVO, VANTI DE ‘L PRONÒME KLÍTEGO INTEROGATIVO, LA FENISE PAR -ríse (veñerise-lo?).
 # 7) ‘TÉ LA 2A e 3A DEKLINATHION, KO VANTI DE -ér/-ír GE XÉ NA d, r, s, t, x SE PÒL ‘VER SONORIDHATHION FINAL ‘TÉ LA 1A E 2A SING. E ‘TÉ LA 3A DE L‘ ENDEGATIVO (TODO NARATIVO) E DHONTATIVO.
 
-# -àr:	(kantar|examinar)/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W2W3P0P1P2, (kante|exàmine)/T0T2T3L0L3l0l3N0N2I5I7A0, kàntis/T0N0
+# -àr:	(kantar|examinar)/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W2P0P1P2, (kante|exàmine)/T0T2T3L0L3l0l3N0N2I5I7A0, kàntis/T0N0
 # -ér:	(remaner|goder)/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N3N4W2W3P0P1P2, (remane|gòde)/T0T2T3L0L2l0l2N0I5I7A0, (remànis|gòdis)/T0N0
-# '-er:	gòder/T6T7L7l7N7W2W4P0P1P2, gòde/T0T2T3L0L2l0l2N0I5I7A0, goderò/T0T1T2T3T4T7L1L3L4L7l1l3l4l7N0N1N2N3N4N7W3
-# -ír:	(avrir|dormir)/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W0W2W3P0P1P2, (avre|dòrme)/T0T2T3L0L2l0l2N0I5I7A0, àvris/T0N0; 
-# -ír/is:	fenir/T0T1T2T3T4T5L1L3L4L5l1l3l4l5N1N2N4N5W0W1W2W3P0P1P2
+# '-er:	gòder/T6T7L7l7N7W4W5P0P1P2, gòde/T0T2T3L0L2l0l2N0I5I7A0, goderò/T0T1T2T3T4T7L1L3L4L7l1l3l4l7N0N1N2N3N4N7W4
+# -ír:	(avrir|dormir)/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W0W2P0P1P2, (avre|dòrme)/T0T2T3L0L2l0l2N0I5I7A0, àvris/T0N0; 
+# -ír/is:	fenir/T0T1T2T3T4T5L1L3L4L5l1l3l4l5N1N2N4N5W0W1W2P0P1P2
 
 # -àr, -ér, '-er, -ír, -ír/is
 # group: indicative present
@@ -1902,33 +1902,38 @@ SFX W1 r sé ir	ds:subjunctive+present is:second+plural	# T12 + é([dg]e)
 SFX W1 r sede ir	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), metaplaxmo, baso belumat
 SFX W1 r sege ir	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), metaplaxmo, seguxin, cipileño
 
-# -àr, -ér, '-er, -ír, -ír/is
+# -àr, -ír, -ír/is
 # used if word does not contains đ or ŧ
-SFX W2 Y 1
-SFX W2 0 e [aei]r	ds:infinitive+simple	# T1 + r(e), padoan, coxòto
+SFX W2 Y 8
+SFX W2 0 e [ai]r	ds:infinitive+simple	# T1 + r(e), padoan, coxòto
+SFX W2 ar à’ ar	ds:infinitive+simple	# T1 + r(e), buranèl
+SFX W2 ar í’ [^ïü]ar	ds:infinitive+simple	# T1 + r(e), coxòto
+SFX W2 ïar ií’ ïar	ds:infinitive+simple	# T1 + r(e), coxòto
+SFX W2 üar uí’ üar	ds:infinitive+simple	# T1 + r(e), coxòto
+SFX W2 ir í’ [^ïü]ir	ds:infinitive+simple	# T1 + r(e), buranèl, coxòto
+SFX W2 ïir ií’ ïir	ds:infinitive+simple	# T1 + r(e), buranèl, coxòto
+SFX W2 üir uí’ üir	ds:infinitive+simple	# T1 + r(e), buranèl, coxòto
 
-# -àr, -ér, '-er, -ír, -ír/is
+# -ér
 # used if word does not contains đ or ŧ
-SFX W3 Y 11
-SFX W3 ar à’ ar	ds:infinitive+simple	# T1 + r(e), buranèl
-SFX W3 ar í’ [^ïü]ar	ds:infinitive+simple	# T1 + r(e), coxòto
-SFX W3 ïar ií’ ïar	ds:infinitive+simple	# T1 + r(e), coxòto
-SFX W3 üar uí’ üar	ds:infinitive+simple	# T1 + r(e), coxòto
+SFX W3 Y 2
 SFX W3 er í’ er	ds:infinitive+simple	# T1 + r(e), coxòto
-SFX W3 erò í’ erò	ds:infinitive+simple	# T1 + r(e), coxòto
 SFX W3 er é’ er	ds:infinitive+simple	# T1 + r(e), buranèl
-SFX W3 erò é’ erò	ds:infinitive+simple	# T1 + r(e), buranèl
-SFX W3 ir í’ [^ïü]ir	ds:infinitive+simple	# T1 + r(e), buranèl, coxòto
-SFX W3 ïir ií’ ïir	ds:infinitive+simple	# T1 + r(e), buranèl, coxòto
-SFX W3 üir uí’ üir	ds:infinitive+simple	# T1 + r(e), buranèl, coxòto
+
+# '-er
+# used if word does not contains đ or ŧ
+SFX W4 Y 3
+SFX W4 0 e er	ds:infinitive+simple	# T1 + r(e), padoan, coxòto
+SFX W4 erò í’ erò	ds:infinitive+simple	# T1 + r(e), coxòto
+SFX W4 erò é’ erò	ds:infinitive+simple	# T1 + r(e), buranèl
 
 # '-er
 # used if word does not contains ƚ
-SFX W4 Y 4
-SFX W4 er re [àèéòóíú][dđtv]er	ds:infinitive+simple	# T1 + r(e)
-SFX W4 er re [àèéòóíú][lnr][dx]er	ds:infinitive+simple	# T1 + r(e)
-SFX W4 er re èser	ds:infinitive+simple	# T1 + r(e), pavan
-SFX W4 er dre èner	ds:infinitive+simple	# T1 + r(e)
+SFX W5 Y 4
+SFX W5 er re [àèéòóíú][dđtv]er	ds:infinitive+simple	# T1 + r(e)
+SFX W5 er re [àèéòóíú][lnr][dx]er	ds:infinitive+simple	# T1 + r(e)
+SFX W5 er re èser	ds:infinitive+simple	# T1 + r(e), pavan
+SFX W5 er dre èner	ds:infinitive+simple	# T1 + r(e)
 
 
 #----
