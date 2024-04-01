@@ -1904,15 +1904,11 @@ SFX W1 r sege ir	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), meta
 
 # -àr, -ír, -ír/is
 # used if word does not contains đ or ŧ
-SFX W2 Y 8
+SFX W2 Y 4
 SFX W2 0 e [ai]r	ds:infinitive+simple	# T1 + r(e), padoan, coxòto
 SFX W2 ar à’ ar	ds:infinitive+simple	# T1 + r(e), buranèl
-SFX W2 ar í’ [^ïü]ar	ds:infinitive+simple	# T1 + r(e), coxòto
-SFX W2 ïar ií’ ïar	ds:infinitive+simple	# T1 + r(e), coxòto
-SFX W2 üar uí’ üar	ds:infinitive+simple	# T1 + r(e), coxòto
-SFX W2 ir í’ [^ïü]ir	ds:infinitive+simple	# T1 + r(e), buranèl, coxòto
-SFX W2 ïir ií’ ïir	ds:infinitive+simple	# T1 + r(e), buranèl, coxòto
-SFX W2 üir uí’ üir	ds:infinitive+simple	# T1 + r(e), buranèl, coxòto
+SFX W2 ar í’ ar	ds:infinitive+simple	# T1 + r(e), coxòto
+SFX W2 ir í’ ir	ds:infinitive+simple	# T1 + r(e), buranèl, coxòto
 
 # -ér
 # used if word does not contains đ or ŧ
@@ -4513,53 +4509,54 @@ SFX I8 o e -ƚo	ds:interrogative is:plural+femenine
 # NÒTA: tute le vokali le pòl kaskar, fòra ke la `a` e la `e` derivante da un femenil plural de la prima deklinaŧion latina
 # NÒTA: na koa konsonàntega ’té la sílaba ke la vièn prima la ostàkola de pi l’ apòkope
 # NÒTA: le konsonanti ke le favorise de pi l’ apòkope le xe, in órden: r, l, n, m (ponto krítego), frikative (f/v, ŧ/đ, s/x), afrikae (c/ɉ), okluxive (t/d, g/k, p/b, m, n, ñ)
-SFX A0 Y 47
-SFX A0 e 0 [aeèiíoòuú][^aàeéèiïíoóòuüúñ]e
-SFX A0 o 0 [aeèiíoòuú][^aàeéèiïíoóòuüúgñ]o	# -igo sol ke par `figo`
+SFX A0 Y 48
+SFX A0 e 0 [aeèiíoòu][^aàeéèiïíoóòuüúñ]e
+SFX A0 go k [aeèoòu]go
+SFX A0 o 0 [aeèiíoòu][^aàeéèiïíoóòuüúgñ]o	# -igo sol ke par `figo`
 SFX A0 o 0 [^i]go	# -igo sol ke par `figo`
-SFX A0 o 0 figo	# -igo sol ke par `figo`
-SFX A0 e 0 [aeèiíoòuú][lrn][^aàeéèiïíoóòuüúñ]e
-SFX A0 o 0 [aeèiíoòuú][lrn][^aàeéèiïíoóòuüúñ]o
-SFX A0 e 0 [aeèiíoòuú]s[kpt]e
-SFX A0 o 0 [aeèiíoòuú]s[kpt]o
-SFX A0 be p [aeèiíoòuú][lrns]be
-SFX A0 bo p [aeèiíoòuú][lrns]bo
-SFX A0 de t [aeèiíoòuú][lrns]de
-SFX A0 do t [aeèiíoòuú][lrns]do
-SFX A0 đe ŧ [aeèiíoòuú]đe
-SFX A0 đe ŧ [aeèiíoòuú][lrn]đe
-SFX A0 đo ŧ [aeèiíoòuú]đo
-SFX A0 đo ŧ [aeèiíoòuú][lrn]đo
-SFX A0 ŧe f [aeèiíoòuú]ŧe
-SFX A0 ŧe f [aeèiíoòuú][lrn]ŧe
-SFX A0 ŧo f [aeèiíoòuú]ŧo
-SFX A0 ŧo f [aeèiíoòuú][lrn]ŧo
-SFX A0 ɉe c [aeèiíoòuú]ɉe
-SFX A0 ɉe c [aeèiíoòuú][lrn]ɉe
-SFX A0 ɉo c [aeèiíoòuú]ɉo
-SFX A0 ɉo c [aeèiíoòuú][lrn]ɉo
-SFX A0 me n [aeèiíoòuú]me
-SFX A0 me n [aeèiíoòuú][lrn]me
-SFX A0 mo n [aeèiíoòuú]mo
-SFX A0 mo n [aeèiíoòuú][lrn]mo
-SFX A0 ve f [aeèiíoòuú]ve
-SFX A0 ve f [aeèiíoòuú][lrn]ve
-SFX A0 vo f [aeèiíoòuú]vo
-SFX A0 vo f [aeèiíoòuú][lrn]vo
-SFX A0 xe s [aeèiíoòuú]xe
-SFX A0 xe s [aeèiíoòuú][lrn]xe
-SFX A0 xo s [aeèiíoòuú]xo
-SFX A0 xo s [aeèiíoòuú][lrn]xo
-SFX A0 e 0 [aeèoòuú]ñe
-SFX A0 o 0 [aeèoòuú]ño
-SFX A0 ñe in [aeèoòuú]ñe
-SFX A0 ño in [aeèoòuú]ño
+SFX A0 o 0 [^f]igo	# -igo sol ke par `figo`
+SFX A0 e 0 [aeèiíoòu][lrn][^aàeéèiïíoóòuüúñ]e
+SFX A0 o 0 [aeèiíoòu][lrn][^aàeéèiïíoóòuüúñ]o
+SFX A0 e 0 [aeèiíoòu]s[kpt]e
+SFX A0 o 0 [aeèiíoòu]s[kpt]o
+SFX A0 be p [aeèiíoòu][lrns]be
+SFX A0 bo p [aeèiíoòu][lrns]bo
+SFX A0 de t [aeèiíoòu][lrns]de
+SFX A0 do t [aeèiíoòu][lrns]do
+SFX A0 đe ŧ [aeèiíoòu]đe
+SFX A0 đe ŧ [aeèiíoòu][lrn]đe
+SFX A0 đo ŧ [aeèiíoòu]đo
+SFX A0 đo ŧ [aeèiíoòu][lrn]đo
+SFX A0 ŧe f [aeèiíoòu]ŧe
+SFX A0 ŧe f [aeèiíoòu][lrn]ŧe
+SFX A0 ŧo f [aeèiíoòu]ŧo
+SFX A0 ŧo f [aeèiíoòu][lrn]ŧo
+SFX A0 ɉe c [aeèiíoòu]ɉe
+SFX A0 ɉe c [aeèiíoòu][lrn]ɉe
+SFX A0 ɉo c [aeèiíoòu]ɉo
+SFX A0 ɉo c [aeèiíoòu][lrn]ɉo
+SFX A0 me n [aeèiíoòu]me
+SFX A0 me n [aeèiíoòu][lrn]me
+SFX A0 mo n [aeèiíoòu]mo
+SFX A0 mo n [aeèiíoòu][lrn]mo
+SFX A0 ve f [aeèiíoòu]ve
+SFX A0 ve f [aeèiíoòu][lrn]ve
+SFX A0 vo f [aeèiíoòu]vo
+SFX A0 vo f [aeèiíoòu][lrn]vo
+SFX A0 xe s [aeèiíoòu]xe
+SFX A0 xe s [aeèiíoòu][lrn]xe
+SFX A0 xo s [aeèiíoòu]xo
+SFX A0 xo s [aeèiíoòu][lrn]xo
+SFX A0 e 0 [aeèoòu]ñe
+SFX A0 o 0 [aeèoòu]ño
+SFX A0 ñe in [aeèoòu]ñe
+SFX A0 ño in [aeèoòu]ño
 SFX A0 ñe n iñe
 SFX A0 ño n iño
-SFX A0 ñe nc [aeèiíoòuú]ñe	# belunexe
-SFX A0 ño nc [aeèiíoòuú]ño	# belunexe
-SFX A0 e 0 [aeèiíoòuú][lrn]ñe
-SFX A0 o 0 [aeèiíoòuú][lrn]ño
+SFX A0 ñe nc [aeèiíoòu]ñe	# belunexe
+SFX A0 ño nc [aeèiíoòu]ño	# belunexe
+SFX A0 e 0 [aeèiíoòu][lrn]ñe
+SFX A0 o 0 [aeèiíoòu][lrn]ño
 SFX A0 i 0 i
 
 #SFX A0 e 0 [^aàeéèiïíoóòuüúlrnñ]e
