@@ -256,6 +256,8 @@ FLAG long
 # avoid wrong spelling of letterwords (km, GHz, DVD, ...)
 KEEPCASE Z0
 
+NEEDAFFIX Z1
+
 # `-` is part of a word, this line avoid marking a lone `–` as an error
 NOSUGGEST NS
 
@@ -6460,11 +6462,12 @@ PFX -0 Y 1
 PFX -0 0 de .	dp:de
 
 # prefiso par lontanamento o xbasamento, eufònego a de- (de[sx]?-)
-PFX -1 Y 4
+PFX -1 Y 5
 PFX -1 0 de x	dp:des
 PFX -1 0 des [cfkpstŧ]	dp:des
 PFX -1 0 des- s	dp:des
 PFX -1 0 dex [^cfkƚpstŧ]	dp:des
+PFX -1 0 dex- x	dp:des
 
 # sostantivi/vèrbi deajetivali (in?-)
 # NÒTA: `insidiar` must be added because `*isidiar` does not exists
@@ -6492,8 +6495,9 @@ PFX @0 Y 1
 PFX @0 0 a .	dp:a
 
 # prefiso par union, parteŧipaŧion, kolegamento (kon-)
-PFX :0 Y 2
+PFX :0 Y 3
 PFX :0 0 ko [mn]	dp:kon
+PFX :0 0 kon- [mn]	dp:kon
 PFX :0 0 kon [^ƚ]	dp:kon
 
 # prefiso par raforŧar (arŧ[iï]-)
