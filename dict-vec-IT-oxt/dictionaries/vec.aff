@@ -1993,7 +1993,7 @@ SFX xA r gande-ƚo/P2 andar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[d
 SFX xB Y 209
 SFX xB aver ò/I1 aver	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xB aver à/I1 aver	ds:indicative+present is:first+singular	# T8 + [oe]
-SFX xB aver è/I1 aver	ds:indicative+present is:first+singular	# T8 + [oe], belumat
+SFX xB aver è/I1 aver	ds:indicative+present is:first+singular	# T8 + [oe], belumat, buranèl
 SFX xB r mo/I2 aver	ds:indicative+present is:first+plural	# T5 + mo
 SFX xB aver emo/I2 aver	ds:indicative+present is:first+plural	# T5 + mo
 SFX xB er imo/I2 aver	ds:indicative+present is:first+plural	# T5 + mo
@@ -4588,34 +4588,33 @@ SFX A0 i 0 i
 #SFX A0 ño nc ño	# belunexe
 #SFX A0 i 0 i
 
-# tute le deklinaŧion, ajetivi de prima klase (-o/i, -a/e)
+# tute le deklinaŧion, ajetivi de prima klase (-C > -o/-a/-e/-i, -o > -a/-e/-i)
 SFX A1 Y 8
 SFX A1 0 o [^aeio]
-SFX A1 0 a [^aeio]
 SFX A1 0 i [^aeio]	is:plural+masculine
+SFX A1 0 a [^aeio]
 SFX A1 0 e [^aeio]	is:plural+femenine
 SFX A1 o a o	is:singular+femenine
 SFX A1 o e o	is:plural
 SFX A1 o i [^i]o	is:plural+masculine
 SFX A1 io i io	is:plural+masculine
 
-# ajetivi de sekonda klase (-i, -a/e)
+# sostantivi plurali maskili, ajetivi de sekonda klase (-C/-a > -e, -C/-e > -i)
 SFX A2 Y 6
-SFX A2 0 a [^aeio]
-SFX A2 0 i [^aeio]	is:plural
-SFX A2 0 e [^aeio]	is:plural
-SFX A2 a e [^iƚ]a	is:plural+femenine
-SFX A2 a e [iƚ]a	is:plural+femenine
-SFX A2 a i a	is:plural+femenine
+SFX A2 a e a	is:singular+masculine
+SFX A2 e i e	is:plural+masculine
+SFX A2 0 e [èlnr]	is:singular+masculine
+SFX A2 0 i [èlnr]	is:plural+masculine
+SFX A2 é ee é	is:singular+masculine
+SFX A2 é ei é	is:plural+masculine
 
-# sostantivi plurali maskili, ajetivi de tèrŧa klase (-e/i)
-SFX A3 Y 6
-SFX A3 0 e [èlnr]	is:singular+masculine
-SFX A3 a e a	is:singular+masculine
-SFX A3 é ee é	is:singular+masculine
-SFX A3 e i e	is:plural+masculine
-SFX A3 0 i [èlnr]	is:plural+masculine
-SFX A3 é ei é	is:plural+masculine
+# ajetivi de tèrŧa klase (-C > -a, -C/-a > -e, -C/-a > -i)
+SFX A3 Y 5
+SFX A3 0 a [^aeio]
+SFX A3 0 e [^aeio]	is:plural
+SFX A3 0 i [^aeio]	is:plural
+SFX A3 a e a	is:plural+femenine
+SFX A3 a i a	is:plural+masculine
 
 # sostantivi singolari: đontamento de -io/a a le paròle in -o/a (-[lnr] > -[lnr]io, -o/e > -io, -a > -ia)
 SFX A4 Y 4
@@ -4626,26 +4625,26 @@ SFX A4 0 io [lnr]	is:singular+masculine
 
 # sostantivi plurali femenili, ajetivi de tèrŧa klase (-a/e)
 SFX F0 Y 5
-SFX F0 0 e [^aeio]	is:plural+femenine
+SFX F0 0 e [^aeio]	is:singular+femenine
 SFX F0 0 i [^aeio]	is:plural+femenine
 SFX F0 e i [^i]e	is:plural+femenine
 SFX F0 e 0 ie	is:plural+femenine
 SFX F0 a e a	is:plural+femenine
 
-# sostantivi plurali maskili (-o/i)
+# sostantivi plurali maskili (-C/-o/-a/-e > -i)
 SFX M0 Y 12
 SFX M0 0 i [^aàeéioó]	is:plural+masculine
 SFX M0 0 o [^aàeéioó]	is:singular+masculine
-SFX M0 à ai à	is:plural+masculine
-SFX M0 à ao à	is:singular+masculine
-SFX M0 ó oi ó	is:plural+masculine
-SFX M0 ó oo ó	is:singular+masculine
 SFX M0 o i [^i]o	is:plural+masculine
 SFX M0 io i io	is:plural+masculine
 SFX M0 a i a	is:plural+masculine
 SFX M0 e i e	is:plural+masculine
+SFX M0 à ai à	is:plural+masculine
+SFX M0 à ao à	is:singular+masculine
 SFX M0 é ee é	is:singular+masculine
 SFX M0 é ei é	is:plural+masculine
+SFX M0 ó oi ó	is:plural+masculine
+SFX M0 ó oo ó	is:singular+masculine
 
 # sostantivi plurali senŧa đèner (-e > -i, -[lnr] > -[lnr]i)
 SFX X0 Y 4
@@ -5436,25 +5435,25 @@ SFX r0 ería arïeta/F0 ería	is:singular+femenine ds:eto
 
 # nominali denominali (-ista)
 SFX i0 Y 19
-SFX i0 e ista/A2 e	is:singular ds:ista
-SFX i0 0 ista/A2 n	is:singular ds:ista
-SFX i0 ía ista/A2 ía	is:singular ds:ista
-SFX i0 èl elista/A2 èl	is:singular ds:ista
-SFX i0 èr erista/A2 èr	is:singular ds:ista
-SFX i0 òr orista/A2 òr	is:singular ds:ista
-SFX i0 a ista/A2 [^diír]a	is:singular ds:ista
-SFX i0 o ista/A2 [^iƚ]o	is:singular ds:ista
-SFX i0 0 ista/A2 [^èò]r	is:singular ds:ista
-SFX i0 0 ista/A2 [^è]l	is:singular ds:ista
-SFX i0 òda odista/A2 òda	is:singular ds:ista
-SFX i0 òra orista/A2 òra	is:singular ds:ista
-SFX i0 èƚo eƚista/A2 èƚo	is:singular ds:ista
-SFX i0 a ista/A2 [^ò]ra	is:singular ds:ista
-SFX i0 o sta/A2 [^lƚ]io	is:singular ds:ista
-SFX i0 o ista/A2 [^è]ƚo	is:singular ds:ista
-SFX i0 ònia onista/A2 ònia	is:singular ds:ista
-SFX i0 èlio elista/A2 èlio	is:singular ds:ista
-SFX i0 èƚio eƚista/A2 èƚio	is:singular ds:ista
+SFX i0 e ista/A3 e	is:singular ds:ista
+SFX i0 0 ista/A3 n	is:singular ds:ista
+SFX i0 ía ista/A3 ía	is:singular ds:ista
+SFX i0 èl elista/A3 èl	is:singular ds:ista
+SFX i0 èr erista/A3 èr	is:singular ds:ista
+SFX i0 òr orista/A3 òr	is:singular ds:ista
+SFX i0 a ista/A3 [^diír]a	is:singular ds:ista
+SFX i0 o ista/A3 [^iƚ]o	is:singular ds:ista
+SFX i0 0 ista/A3 [^èò]r	is:singular ds:ista
+SFX i0 0 ista/A3 [^è]l	is:singular ds:ista
+SFX i0 òda odista/A3 òda	is:singular ds:ista
+SFX i0 òra orista/A3 òra	is:singular ds:ista
+SFX i0 èƚo eƚista/A3 èƚo	is:singular ds:ista
+SFX i0 a ista/A3 [^ò]ra	is:singular ds:ista
+SFX i0 o sta/A3 [^lƚ]io	is:singular ds:ista
+SFX i0 o ista/A3 [^è]ƚo	is:singular ds:ista
+SFX i0 ònia onista/A3 ònia	is:singular ds:ista
+SFX i0 èlio elista/A3 èlio	is:singular ds:ista
+SFX i0 èƚio eƚista/A3 èƚio	is:singular ds:ista
 
 # avèrbi (-mente)
 SFX w0 Y 3
