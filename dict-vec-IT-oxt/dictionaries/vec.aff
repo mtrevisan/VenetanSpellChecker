@@ -4725,9 +4725,9 @@ SFX V0 len ƚen/M0Pd [aeiouàèéíòóúïü]len
 SFX V0 lin ƚin/M0 [aeiouàèéíòóúïü]lin
 SFX V0 đin xin/M0 đin
 SFX V0 ŧin sin/M0 ŧin
-SFX V0 jon ɉon/A3B1BuPd jon
-SFX V0 lon ƚon/A3BuPd [aeiouàèéíòóúïü]lon
-SFX V0 ŧon son/A3B1BuPd ŧon
+SFX V0 jon ɉon/A2B1BuPd jon
+SFX V0 lon ƚon/A2BuPd [aeiouàèéíòóúïü]lon
+SFX V0 ŧon son/A2B1BuPd ŧon
 SFX V0 lio ƚio/M0 [aeiouàèéíòóúïü]lio
 SFX V0 ŧio sio/M0 ŧio
 SFX V0 đio xio/M0 đio
@@ -4753,8 +4753,8 @@ SFX V0 lòto ƚòto/M0 [aeiouàèéíòóúïü]lòto
 
 # trasformaŧion intra varianti (li?on > ƚi?on, jon > ɉon, ŧi?on > si?on)
 SFX V1 Y 2
-SFX V1 lion ƚion/A3BuPd [aeiouàèéíòóúïü]lion
-SFX V1 ŧion sion/A3B1BuPd ŧion
+SFX V1 lion ƚion/A2BuPd [aeiouàèéíòóúïü]lion
+SFX V1 ŧion sion/A2B1BuPd ŧion
 
 # trasformaŧion intra varianti ko èle vanesente (j > ɉ)
 SFX v1 Y 1
@@ -4766,7 +4766,7 @@ SFX Vf l ƚe/F0 [aeiouàèéíòóúïü]l	is:singular+femenine+veneŧian
 
 # trasformaŧion intra varianti (maskil l > ƚe)
 SFX Vm Y 1
-SFX Vm l ƚe/A3 [aeiouàèéíòóúïü]l	is:singular+masculine+veneŧian
+SFX Vm l ƚe/A2 [aeiouàèéíòóúïü]l	is:singular+masculine+veneŧian
 
 # trasformaŧion intra varianti (nèutro l > ƚe)
 SFX Vx Y 1
