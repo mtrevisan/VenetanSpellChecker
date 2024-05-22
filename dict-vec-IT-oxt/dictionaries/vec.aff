@@ -427,7 +427,7 @@ COMPOUNDRULE (|5)(-b)(|6)	# sento-mi[lƚ]e
 # -àr:	(kantar|examinar)/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W2P0P1P2, (kante|exàmine)/T0T2T3L0L3l0l3N0N2I5I7A0, kàntis/T0N0
 # -ér:	(remaner|goder)/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N3N4W2W3P0P1P2, (remane|gòde)/T0T2T3L0L2l0l2N0I5I7A0, (remànis|gòdis)/T0N0
 # '-er:	gòder/T6T7L7l7N7W4W5P0P1P2, gòde/T0T2T3L0L2l0l2N0I5I7A0, goderò/T0T1T2T3T4T7L1L3L4L7l1l3l4l7N0N1N2N3N4N7W4
-# -ír:	(avrir|dormir)/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W0W2P0P1P2, (avre|dòrme)/T0T2T3L0L2l0l2N0I5I7A0, àvris/T0N0; 
+# -ír:	(avrir|dormir)/T0T1T2T3T4L1L3L4l1l3l4N1N2N4W0W2P0P1P2, (avre|dòrme)/T0T2T3L0L2l0l2N0I5I7A0, àvris/T0N0; 
 # -ír/is:	fenir/T0T1T2T3T4T5L1L3L4L5l1l3l4l5N1N2N4N5W0W1W2P0P1P2
 
 # -àr, -ér, '-er, -ír, -ír/is
@@ -1137,7 +1137,7 @@ SFX N0 0 0/A0 e	ds:indicative+present is:third	# T10, belumat
 # -àr, -ér, '-er, -ír, -ír/is
 # group: indicative imperfect, indicative future, subjunctive imperfect, conditional present
 # used if word does not contains ƚ
-SFX N1 Y 497
+SFX N1 Y 478
 SFX N1 r ve/I1A0 [ae]r	ds:indicative+imperfect is:first+singular	# T2 + (v)[aeo]
 SFX N1 ar eve/I1A0 ar	ds:indicative+imperfect is:first+singular	# T2 + (v)[aeo], metaplaxmo, liventin
 SFX N1 r ve/I1 ir	ds:indicative+imperfect is:first+singular	# T2 + (v)[aeo]
@@ -3729,7 +3729,7 @@ SFX xR ïèser isianto-ƚo/P2 ïèser	ds:gerund+simple ds:pronomenal+accusative	
 # vèrbi '-er inregolari: (re)?èser, rïèser
 # different conjugation in indicative present, indicative imperfect, indicative future, subjunctive present, subjunctive imperfect, conditional present, imperative present
 # changes in participle passive
-SFX xS Y 128
+SFX xS Y 122
 SFX xS èser é/I3 èser	ds:indicative+present is:second+singular	# T10 = T8 + e, 2s=3, belumat
 SFX xS èser és/I3 èser	ds:indicative+present is:second+singular	# T10s = T8 + es, 2s=3, belumat
 SFX xS èser é/I5I7 èser	ds:indicative+present is:third	# T10
