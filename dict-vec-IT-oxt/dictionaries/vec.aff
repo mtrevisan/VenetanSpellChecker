@@ -1230,9 +1230,9 @@ SFX N1 erò isen/P3P4 erò	ds:subjunctive+imperfect is:first+plural	# T11 + (is)
 SFX N1 ir en/P3P4 ir	ds:subjunctive+imperfect is:first+plural	# T11 + (is)én(e|s[ei])
 SFX N1 r sen/P3P4 ir	ds:subjunctive+imperfect is:first+plural	# T11 + (is)én(e|s[ei])
 SFX N1 r se/A0 [aei]r	ds:subjunctive+imperfect is:second+singular	# T2 + se
-SFX N1 ar é-se/A0 ar	ds:subjunctive+imperfect is:second+singular	# T2 + se, metaplaxmo, liventin
-SFX N1 erò é-se/A0 erò	ds:subjunctive+imperfect is:second+singular	# T2 + se
-SFX N1 ir é-se/A0 ir	ds:subjunctive+imperfect is:second+singular	# T2 + se, metaplaxmo
+SFX N1 ar ese/A0 ar	ds:subjunctive+imperfect is:second+singular	# T2 + se, metaplaxmo, liventin
+SFX N1 rò se/A0 erò	ds:subjunctive+imperfect is:second+singular	# T2 + se
+SFX N1 ir ese/A0 ir	ds:subjunctive+imperfect is:second+singular	# T2 + se, metaplaxmo
 SFX N1 ar ié/P5 [^cijɉñ]ar	ds:subjunctive+imperfect is:second+plural	# T11 + (is)ié([dg]e)/isiè
 SFX N1 ar é/P5 [cijɉñ]ar	ds:subjunctive+imperfect is:second+plural	# T11 + (is)ié([dg]e)/isiè
 SFX N1 er ié/P5 [^cijɉñ]er	ds:subjunctive+imperfect is:second+plural	# T11 + (is)ié([dg]e)/isiè
@@ -1488,7 +1488,7 @@ SFX N5 ir íses/I3 ir	ds:indicative+present is:second+singular	# T10s = T8 + es,
 # '-er
 # group: indicative+future, conditional+present, infinitive simple
 # used if word does not contains ƚ
-SFX N7 Y 117
+SFX N7 Y 93
 SFX N7 er arè/I1 er	ds:indicative+future is:first+singular	# T4 + r[òàè]
 SFX N7 erò arè/I1 erò	ds:indicative+future is:first+singular	# T4 + r[òàè]
 SFX N7 er aron/I2 er	ds:indicative+future is:first+plural	# T4 + rón
@@ -1599,7 +1599,7 @@ SFX W0 r on/P3 ir	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
 SFX W0 ir en/P3 ir	ds:subjunctive+present is:first+plural	# T12 + én(e), metaplaxmo
 SFX W0 r n/P3 ir	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e), belumat, ŧenedexe
 SFX W0 ir é/P5 ir	ds:subjunctive+present is:second+plural	# T12 + é([dg]e)
-SFX W0 ir í-ge ir	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), belumat
+SFX W0 ir í/P5 ir	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), belumat
 SFX W0 ir è/P0 ir	ds:imperative+present is:second+plural	# T12 + [èé]
 SFX W0 ir é/P0 ir	ds:imperative+present is:second+plural	# T12 + [èé]
 
@@ -1656,7 +1656,7 @@ SFX W5 er dre èner	ds:infinitive+simple	# T1 + r(e)
 
 # vèrbi -àr inregolari: (re)?[a’]ndar
 # changes in indicative present, subjunctive present, imperative present, gerund simple
-SFX xA Y 54
+SFX xA Y 49
 SFX xA andar vao/I1 andar	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xA andar vago/I1 andar	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xA andar vae/I1 andar	ds:indicative+present is:first+singular	# T8 + [oe], belumat
@@ -1694,7 +1694,7 @@ SFX xA andar vage andar	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3
 SFX xA andar vàges andar	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3, belumat
 SFX xA andar vè andar	ds:subjunctive+present is:second+plural	# T5, veneŧian
 SFX xA andar vé/P5 andar	ds:subjunctive+present is:second+plural	# T5, arkade
-SFX xA andar vè-ge andar	ds:subjunctive+present is:second+plural	# T12 + ège, metaplaxmo, ŧenedexe
+SFX xA andar vè/P5 andar	ds:subjunctive+present is:second+plural	# T12 + ège, metaplaxmo, ŧenedexe
 SFX xA andar vaa andar	ds:subjunctive+present is:third	# T8 + a
 SFX xA andar vaga andar	ds:subjunctive+present is:third	# T8 + a
 SFX xA andar và/P0P1P2 andar	ds:imperative+present is:second+singular	# T9
@@ -1712,7 +1712,7 @@ SFX xA r gande-ƚo/P2 andar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[d
 # subjunctive present of "apier"
 # NOTE: see also other derivations in dic file!
 # NOTE: does not have procomplementar form for imperative
-SFX xB Y 223
+SFX xB Y 213
 SFX xB aver ò/I1 aver	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xB aver à/I1 aver	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xB aver è/I1 aver	ds:indicative+present is:first+singular	# T8 + [oe], belumat, buranèl
@@ -1976,7 +1976,7 @@ SFX xC èñer eñarae èñer	ds:conditional+present is:third	# T4 + rà(v)[ei]
 # changes in indicative present, indicative future, subjunctive present, conditional present, imperative present, infinitive simple, participle passive, gerund simple
 # NOTA: del congiuntivo sono note le forme in tòja
 # NOTE: see also other derivations in dic file!
-SFX xD Y 256
+SFX xD Y 232
 SFX xD ler jo/I1 [v’]oler	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xD ler ɉo/I1 [v’]oler	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xD oler òɉo/I1 [v’]oler	ds:indicative+present is:first+singular	# T8 + [oe]
@@ -2280,7 +2280,7 @@ SFX xH r e ar	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3
 SFX xH ar àes ar	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3
 SFX xH ar è ar	ds:subjunctive+present is:second+plural	# T5, veneŧian
 SFX xH ar é/P5 ar	ds:subjunctive+present is:second+plural	# T5, arkade
-SFX xH ar è-ge ar	ds:subjunctive+present is:second+plural	# T12 + ège, metaplaxmo, ŧenedexe
+SFX xH ar è/P5 ar	ds:subjunctive+present is:second+plural	# T12 + ège, metaplaxmo, ŧenedexe
 SFX xH r a ar	ds:subjunctive+present is:third	# T8 + a
 SFX xH r ga ar	ds:subjunctive+present is:third	# T8 + a
 SFX xH r e ar	ds:subjunctive+present is:third	# T8 + e
@@ -2789,9 +2789,9 @@ SFX xQ èser síes èser	ds:subjunctive+present is:second+singular	# T8 + [ea]s,
 SFX xQ èser sipiè èser	ds:subjunctive+present is:second+plural	# T5, veneŧian
 SFX xQ èser sipié/P5 èser	ds:subjunctive+present is:second+plural	# T5 = T12 + é([dg]e), arkade
 SFX xQ èser sipí èser	ds:subjunctive+present is:second+plural	# T5
-SFX xQ èser sé-de èser	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), baso belumat
-SFX xQ èser sié-de èser	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), baso belumat
-SFX xQ èser sipiè-ge èser	ds:subjunctive+present is:second+plural	# T12 + ège, metaplaxmo, ŧenedexe
+SFX xQ èser sé/P5 èser	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), baso belumat
+SFX xQ èser sié/P5 èser	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), baso belumat
+SFX xQ èser sipiè/P5 èser	ds:subjunctive+present is:second+plural	# T12 + ège, metaplaxmo, ŧenedexe
 SFX xQ èser sipie èser	ds:subjunctive+present is:third	# T8 + e
 SFX xQ èser sipia èser	ds:subjunctive+present is:third	# T8 + a
 SFX xQ èser síe èser	ds:subjunctive+present is:third	# T8 + e, belumat
@@ -3116,9 +3116,9 @@ SFX xR ïèser isípias ïèser	ds:subjunctive+present is:second+singular	# T8 +
 SFX xR ïèser isipiè ïèser	ds:subjunctive+present is:second+plural	# T5, veneŧian
 SFX xR ïèser isipié/P5 ïèser	ds:subjunctive+present is:second+plural	# T5 = T12 + é([dg]e), arkade
 SFX xR ïèser isipí ïèser	ds:subjunctive+present is:second+plural	# T5
-SFX xR ïèser isé-de ïèser	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), baso belumat
-SFX xR ïèser isié-de ïèser	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), baso belumat
-SFX xR ïèser isipiè-ge ïèser	ds:subjunctive+present is:second+plural	# T12 + ège, metaplaxmo, ŧenedexe
+SFX xR ïèser isé/P5 ïèser	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), baso belumat
+SFX xR ïèser isié/P5 ïèser	ds:subjunctive+present is:second+plural	# T12 + é([dg]e), baso belumat
+SFX xR ïèser isipiè/P5 ïèser	ds:subjunctive+present is:second+plural	# T12 + ège, metaplaxmo, ŧenedexe
 SFX xR ïèser isipie ïèser	ds:subjunctive+present is:third	# T8 + e
 SFX xR ïèser isipia ïèser	ds:subjunctive+present is:third	# T8 + a
 SFX xR ïèser ifuse/A0 ïèser	ds:subjunctive+imperfect is:first+singular	# T2 + se
@@ -3939,11 +3939,11 @@ SFX P4 0 -se n	# ón(s[ei]), baso belumat, liventin
 SFX P4 0 -si n	# ón(s[ei])
 
 # vèrbo prokonplementar
-SFX P5 Y 2
+SFX P5 Y 4
 SFX P5 0 -de é	# éde, baso belumat
 SFX P5 0 -ge é	# ége, seguxinexe, cipileño
-
-é([dg]e
+SFX P5 0 -ge è	# ége, ŧenedexe
+SFX P5 0 -ge í	# ége, belumat
 
 # forme ko ’l interogativo: indikativo prexente/inperfèto/futuro, kondiŧional
 
