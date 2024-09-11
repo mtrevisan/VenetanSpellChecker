@@ -6388,8 +6388,9 @@ PFX '0 kon ’ kon
 
 
 # paròle ŧonkae a la fine
-SFX '9 Y 21
-SFX '9 i ’ i
+SFX '9 Y 22
+SFX '9 i ’ [^aàeèéiíïoòóiúü]i
+SFX '9 i 0 [aàeèéiíïoòóiúü]i
 SFX '9 r ’ r
 SFX '9 u ’ u
 SFX '9 ra ’ ra
