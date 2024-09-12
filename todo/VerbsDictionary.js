@@ -6437,6 +6437,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "pituf",			"",			1,	3,	"a",	"",				"",
 "pitur",			"",			1,	3,	"a",	"1775",			"",
 "pitur",			"in",			1,	3,	"a",	"",				"",
+"pitur",			"in",			4,	5,	"a",	"2001",			"(vedelagexe)",
 "pium",			"in",			1,	2,	"a",	"1867",			"",
 "pium",			"s",			1,	2,	"a",	"1854",			"",
 "piur",			"",			1,	2,	"a",	"1550",			"(belumat) Piànđer.",
