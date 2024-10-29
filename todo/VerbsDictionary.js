@@ -3685,6 +3685,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "koat",			"s",			1,	2,	"g",	"1896",			"",
 "kód",			"s",			3,	1,	"g",	"1900",			"(veronexe) Skòder.",
 "kòd",			"s",			3,	1,	"g",	"1412",			"Exíxer, reskuòter.",
+"kuòd",			"s",			3,	1,	"g",	"2001",			"Skòder.",
 "kòd",			"res",		3,	1,	"g",	"XIV",			"(trevixan)",
 "kodeg",			"des",		1,	1,	"g",	"1867",			"",
 "kodeg",			"in",			1,	1,	"g",	"1854",			"Piotar, se dixe de ʼl teren ke ʼl é kuerto da ŧope ko ankora lʼ erba takàa.",
