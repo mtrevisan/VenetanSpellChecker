@@ -2653,6 +2653,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "garofol",		"x",			1,	3,	"g",	"1775",			"Mañar senŧa riguardi.",
 "garofol",		"",			4,	7,	"a",	"1867",			"Dar ʼl odor de ʼl garofolo.",
 "garofol",		"in",			4,	7,	"a",	"1775",			"Ingavasar.",
+"garuc",			"x",			1,	3,	"a",	"2001",			"it. 'Cercare di far uscire qualcosa'.",
 "garuj",			"x",			1,	3,	"a",	"1560",			"Kavar.",
 "garuɉ",			"x",			1,	3,	"a",	"1775",			"Frugar, ŧerkar.",
 "garđ",			"",			1,	1,	"g",	"1415",			"Skardasar, laorar la lana.",
