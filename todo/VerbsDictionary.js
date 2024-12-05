@@ -355,7 +355,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "baox",			"in",			1,	2,	"g",	"1775",			"Inbavar, inbavajar.",
 "baox",			"x",			1,	2,	"g",	"1894",			"Sporkar de bava.",
 "bapor",			"x",			1,	1,	"g",	"",				"(bixiak)",
-"bar",			"",			1,	1,	"g",	"1775",			"",
+"bar",			"",			1,	1,	"g",	"XVI",			"",
 "bar",			"x",			1,	1,	"g",	"1775",			"Blokar el paso.",
 "barafuxol",	"",			1,	5,	"a",	"1867",			"Barufar.",
 "barak",			"",			1,	3,	"g",	"1852",			"Goŧovejar.",
