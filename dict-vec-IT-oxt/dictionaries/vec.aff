@@ -5195,11 +5195,11 @@ SFX e1 a eta/F0 [^è][dgr]a	ds:eto
 SFX e1 èrna erneta/F0 èrna	ds:eto
 
 # sostantivi/ajetivi alterai — demenutivi (-èl/-èla)
-SFX eL Y 32
+SFX eL Y 33
 SFX eL e èl/M0B1 e	ds:èl
 SFX eL 0 èl/M0B1 [ln]	ds:èl
 SFX eL òr orèl/M0B1 òr	ds:èl
-SFX eL a èla/F0 [^dklnrsŧúv]a	ds:èl
+SFX eL a èla/F0 [^cdklnrsŧúv]a	ds:èl
 SFX eL o èl/M0B1 [^cdíjɉòstŧv]o	ds:èl
 SFX eL 0 èl/M0B1 [^ò]r	ds:èl
 SFX eL úa uèla/F0 [aeiou]úa	ds:èl
@@ -5208,6 +5208,7 @@ SFX eL ío ièl/M0B1 [aeiou]ío	ds:èl
 SFX eL ío ïèl/M0B1 [^aeiou]ío	ds:èl
 SFX eL òo oèl/M0B1 [aeiou]òo	ds:èl
 SFX eL òo oèl/M0B1 [^aeiou]òo	ds:èl
+SFX eL òca ocèla/F0 òca	ds:èl
 SFX eL òda odèla/F0 òda	ds:èl
 SFX eL èka ekèla/F0 èka	ds:èl
 SFX eL òka okèla/F0 òka	ds:èl
@@ -5226,15 +5227,15 @@ SFX eL òto otèl/M0B1 òto	ds:èl
 SFX eL òŧo oŧèl/M0B1 òŧo	ds:èl
 SFX eL òvo ovèl/M0B1 òvo	ds:èl
 SFX eL a èla/F0 [^èò]ka	ds:èl
-SFX eL a èla/F0 [^ò][dlnrsŧv]a	ds:èl
+SFX eL a èla/F0 [^ò][cdlnrsŧv]a	ds:èl
 SFX eL o èl/M0B1 [^ò][cdjɉstŧv]o	ds:èl
 
 # sostantivi/ajetivi alterai — demenutivi ko èle vanesente (-èƚo/a)
-SFX e7 Y 30
+SFX e7 Y 31
 SFX e7 e èƚo/M0 e	ds:èl
 SFX e7 0 èƚo/M0 n	ds:èl
 SFX e7 òr orèƚo/M0 òr	ds:èl
-SFX e7 a èƚa/F0 [^dkƚnrsúv]a	ds:èl
+SFX e7 a èƚa/F0 [^cdkƚnrsúv]a	ds:èl
 SFX e7 o èƚo/M0 [^cdíjɉòstv]o	ds:èl
 SFX e7 0 èƚo/M0 [^ò]r	ds:èl
 SFX e7 úa uèƚa/F0 [aeiou]úa	ds:èl
@@ -5243,6 +5244,7 @@ SFX e7 ío ièƚo/M0 [aeiou]ío	ds:èl
 SFX e7 ío ïèƚo/M0 [^aeiou]ío	ds:èl
 SFX e7 òo oèƚo/M0 [aeiou]òo	ds:èl
 SFX e7 òo oèƚo/M0 [^aeiou]òo	ds:èl
+SFX e7 òca ocèƚa/F0 òca	ds:èl
 SFX e7 òda odèƚa/F0 òda	ds:èl
 SFX e7 èka ekèƚa/F0 èka	ds:èl
 SFX e7 òka okèƚa/F0 òka	ds:èl
@@ -5259,7 +5261,7 @@ SFX e7 òso osèƚo/M0 òso	ds:èl
 SFX e7 òto otèƚo/M0 òto	ds:èl
 SFX e7 òvo ovèƚo/M0 òvo	ds:èl
 SFX e7 a èƚa/F0 [^èò][kr]a	ds:èl
-SFX e7 a èƚa/F0 [^ò][dƚnsv]a	ds:èl
+SFX e7 a èƚa/F0 [^ò][cdƚnsv]a	ds:èl
 SFX e7 o èƚo/M0 [^ò][cdjɉstv]o	ds:èl
 
 # sostantivi/ajetivi alterai — demenutivi (-in/-ina)
@@ -5423,7 +5425,7 @@ SFX o7 0 n/BuPd [^èò]ƚo	is:singular+masculine ds:on
 SFX o7 0 n/BuPd [^ò]to	is:singular+masculine ds:on
 
 # sostantivi/ajetivi alterai — kresitivi (-ona)
-SFX o1 Y 40
+SFX o1 Y 41
 SFX o1 e ona e	is:singular+femenine ds:on
 SFX o1 0 ona n	is:singular+femenine ds:on
 SFX o1 ía iona [aeiou]ía	is:singular+femenine ds:on
@@ -5433,11 +5435,12 @@ SFX o1 ío ïona [^aeiou]ío	is:singular+femenine ds:on
 SFX o1 èl elona èl	is:singular+femenine ds:on
 SFX o1 òl olona òl	is:singular+femenine ds:on
 SFX o1 èr erona èr	is:singular+femenine ds:on
-SFX o1 a ona [^cílƚmnprt]a	is:singular+femenine ds:on
+SFX o1 a ona [^ckílƚmnprt]a	is:singular+femenine ds:on
 SFX o1 0 ona [^èò]l	is:singular+femenine ds:on
 SFX o1 0 na [^cíjɉkƚstŧ]o	is:singular+femenine ds:on
 SFX o1 0 ona [^è]r	is:singular+femenine ds:on
 SFX o1 òca ocona òca	is:singular+femenine ds:on
+SFX o1 òka okona òka	is:singular+femenine ds:on
 SFX o1 èla elona èla	is:singular+femenine ds:on
 SFX o1 èƚa eƚona èƚa	is:singular+femenine ds:on
 SFX o1 òma omona òma	is:singular+femenine ds:on
@@ -5459,7 +5462,7 @@ SFX o1 òso osona òso	is:singular+femenine ds:on
 SFX o1 èto etona èto	is:singular+femenine ds:on
 SFX o1 òto otona òto	is:singular+femenine ds:on
 SFX o1 òŧo oŧona òŧo	is:singular+femenine ds:on
-SFX o1 a ona [^ò][cmnp]a	is:singular+femenine ds:on
+SFX o1 a ona [^ò][ckmnp]a	is:singular+femenine ds:on
 SFX o1 a ona [^è][lƚr]a	is:singular+femenine ds:on
 SFX o1 a ona [^èò]ta	is:singular+femenine ds:on
 SFX o1 0 na [^èò][cjɉƚt]o	is:singular+femenine ds:on
@@ -5533,7 +5536,7 @@ SFX o2 0 ne [^è]go	is:plural+masculine ds:on
 SFX o2 0 ne [^ò][bdkmp]o	is:plural+masculine ds:on
 
 # sostantivi/ajetivi alterai — kresitivi femenili (-one)
-SFX o3 Y 41
+SFX o3 Y 42
 SFX o3 e one e	is:plural+femenine ds:on
 SFX o3 0 one n	is:plural+femenine ds:on
 SFX o3 ía ione [aeiou]ía	is:plural+femenine ds:on
@@ -5543,11 +5546,12 @@ SFX o3 ío ïone [^aeiou]ío	is:plural+femenine ds:on
 SFX o3 èl elone èl	is:plural+femenine ds:on
 SFX o3 òl olone òl	is:plural+femenine ds:on
 SFX o3 èr erone èr	is:plural+femenine ds:on
-SFX o3 a one [^cílƚmnprt]a	is:plural+femenine ds:on
+SFX o3 a one [^ckílƚmnprt]a	is:plural+femenine ds:on
 SFX o3 0 one [^èò]l	is:plural+femenine ds:on
 SFX o3 0 ne [^cíjɉkƚstŧ]o	is:plural+femenine ds:on
 SFX o3 0 one [^è]r	is:plural+femenine ds:on
 SFX o3 òca ocone òca	is:plural+femenine ds:on
+SFX o3 òka okone òka	is:plural+femenine ds:on
 SFX o3 èla elone èla	is:plural+femenine ds:on
 SFX o3 èƚa eƚone èƚa	is:plural+femenine ds:on
 SFX o3 òma omone òma	is:plural+femenine ds:on
@@ -5569,7 +5573,7 @@ SFX o3 òso osone òso	is:plural+femenine ds:on
 SFX o3 èto etone èto	is:plural+femenine ds:on
 SFX o3 òto otone òto	is:plural+femenine ds:on
 SFX o3 òŧo oŧone òŧo	is:plural+femenine ds:on
-SFX o3 a one [^ò][cmnp]a	is:plural+femenine ds:on
+SFX o3 a one [^ò][ckmnp]a	is:plural+femenine ds:on
 SFX o3 a one [^è][lƚr]a	is:plural+femenine ds:on
 SFX o3 0 ne [^èò]ta	is:plural+femenine ds:on
 SFX o3 0 ne [^èò]ƚo	is:plural+femenine ds:on
