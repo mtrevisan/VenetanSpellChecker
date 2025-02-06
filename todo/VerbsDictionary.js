@@ -6191,6 +6191,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "pegol",			"",			1,	1,	"a",	"1896",			"",
 "pegol",			"des",		1,	1,	"a",	"1775",			"Liberar da un intrigo, netar da la pegola.",
 "pegol",			"in",			1,	1,	"a",	"1810",			"Méter la pegola, méter in situaŧion difiŧili.",
+"pegorin",		"",			1,	5,	"a",	"",				"",
 "peɉ",			"in",			1,	1,	"a",	"1775",			"Asipejar, asijar.",
 "pel",			"",			1,	1,	"a",	"1560",			"",
 "pel",			"a",			1,	1,	"g",	"1867",			"",
