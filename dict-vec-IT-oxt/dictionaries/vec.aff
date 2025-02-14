@@ -4854,7 +4854,7 @@ SFX x7 ía ixmo/M0 ía	ds:ixmo
 
 
 # negòŧi, atività komerŧali o industriali, aŧion, scapi de ròbe o de parsone (-ría/F0eT)
-SFX r0 Y 126
+SFX r0 Y 132
 SFX r0 0 ría/F0 e	is:singular+femenine
 SFX r0 0 rïeta/F0 e	is:singular+femenine ds:eto
 SFX r0 e aría/F0 e	is:singular+femenine
@@ -4887,14 +4887,18 @@ SFX r0 èr aría/F0 èr	is:singular+femenine
 SFX r0 èr ería/F0 èr	is:singular+femenine
 SFX r0 èr arïeta/F0 èr	is:singular+femenine ds:eto
 SFX r0 èr erïeta/F0 èr	is:singular+femenine ds:eto
-SFX r0 0 ría/F0 [^giílƚ]a	is:singular+femenine
-SFX r0 0 rïeta/F0 [^giílƚ]a	is:singular+femenine ds:eto
-SFX r0 a ería/F0 [^giílƚ]a	is:singular+femenine
-SFX r0 a erïeta/F0 [^giílƚ]a	is:singular+femenine ds:eto
+SFX r0 0 ría/F0 [^cgiílƚ]a	is:singular+femenine
+SFX r0 0 rïeta/F0 [^cgiílƚ]a	is:singular+femenine ds:eto
+SFX r0 a ería/F0 [^cgiílƚ]a	is:singular+femenine
+SFX r0 a erïeta/F0 [^cgiílƚ]a	is:singular+femenine ds:eto
 SFX r0 o aría/F0 [^cdđkíòtx]o	is:singular+femenine
 SFX r0 o ería/F0 [^cdđkíòtx]o	is:singular+femenine
 SFX r0 o arïeta/F0 [^cdđkíòtx]o	is:singular+femenine ds:eto
 SFX r0 o erïeta/F0 [^cdđkíòtx]o	is:singular+femenine ds:eto
+SFX r0 0 ría/F0 [^ò]ca	is:singular+femenine
+SFX r0 0 rïeta/F0 [^ò]ca	is:singular+femenine ds:eto
+SFX r0 a ería/F0 [^ò]ca	is:singular+femenine
+SFX r0 a erïeta/F0 [^ò]ca	is:singular+femenine ds:eto
 SFX r0 0 ría/F0 [^ò]ga	is:singular+femenine
 SFX r0 0 rïeta/F0 [^ò]ga	is:singular+femenine ds:eto
 SFX r0 a ería/F0 [^ò]ga	is:singular+femenine
@@ -4915,6 +4919,8 @@ SFX r0 0 ría/F0 [^e]ría	is:singular+femenine
 SFX r0 0 rïeta/F0 [^e]ría	is:singular+femenine ds:eto
 SFX r0 a ería/F0 [^e]ría	is:singular+femenine
 SFX r0 a erïeta/F0 [^e]ría	is:singular+femenine ds:eto
+SFX r0 òca ocaría/F0 òca	is:singular+femenine
+SFX r0 òca ocería/F0 òca	is:singular+femenine
 SFX r0 òga ogaría/F0 òga	is:singular+femenine
 SFX r0 òga ogería/F0 òga	is:singular+femenine
 SFX r0 èla elaría/F0 èla	is:singular+femenine
@@ -5048,30 +5054,6 @@ SFX y0 do o [aeiouàèéíòóúïü]udo	is:singular+masculine
 SFX y0 do i [aeiouàèéíòóúïü]udo	is:singular+masculine
 SFX y0 udo úo [^aeiouàèéíòóúïü]udo	is:singular+masculine
 SFX y0 udo úi [^aeiouàèéíòóúïü]udo	is:singular+masculine
-
-# sostantivi koletivi, ... (-ada > -à)
-SFX y1 Y 1
-SFX y1 ada à ada	is:femenine
-
-# sostantivi koletivi, ...
-SFX y2 Y 17
-SFX y2 da e ada	is:plural+femenine
-SFX y2 da a ada	is:singular+femenine
-SFX y2 ede é ede	is:femenine
-SFX y2 do i ado	is:plural+masculine
-SFX y2 do o ado	is:singular+masculine
-SFX y2 ado èi ado	is:plural+masculine
-SFX y2 ado èo ado	is:singular+masculine
-SFX y2 ado à ado	is:masculine
-SFX y2 ado è ado	is:masculine
-SFX y2 ado ò ado	is:masculine
-SFX y2 da a ida	is:singular+femenine	# -ITA(M) > -ida > -ia
-SFX y2 da e ida	is:plural+femenine
-SFX y2 ido í ido	is:masculine
-SFX y2 do o [aeiouàèéíòóúïü]ido	is:singular+masculine
-SFX y2 do i [aeiouàèéíòóúïü]ido	is:singular+masculine
-SFX y2 do o [^aeiouàèéíòóúïü]ido	is:singular+masculine
-SFX y2 do i [^aeiouàèéíòóúïü]ido	is:singular+masculine
 
 
 # sostantivi/ajetivi alterai — demenutivi (-eto/a)
