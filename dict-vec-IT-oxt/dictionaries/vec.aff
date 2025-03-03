@@ -4308,7 +4308,7 @@ SFX Vm l ƚe/A2 [aeiouàèéíòóúïü]l	is:singular+masculine+veneŧian
 
 # trasformaŧion intra varianti (nèutro l > ƚe)
 SFX Vx Y 1
-SFX Vx l ƚe/F0 [aeiouàèéíòóúïü]l	is:singular+veneŧian
+SFX Vx l ƚe/X0 [aeiouàèéíòóúïü]l	is:singular+veneŧian
 
 # trasformaŧion iniŧial de paròla intra varianti (l > ƚ, ƚ > l, j > ɉ, ŧ > s, đ > x)
 PFX Vp Y 13
@@ -4989,7 +4989,7 @@ SFX r0 ería aría/F0 ería	is:singular+femenine
 SFX r0 ería arïeta/F0 ería	is:singular+femenine ds:eto
 
 # nominali denominali (-ista)
-SFX i0 Y 19
+SFX i0 Y 24
 SFX i0 e ista/A3 e	is:singular ds:ista
 SFX i0 0 ista/A3 n	is:singular ds:ista
 SFX i0 ía ista/A3 ía	is:singular ds:ista
@@ -4997,15 +4997,20 @@ SFX i0 èl elista/A3 èl	is:singular ds:ista
 SFX i0 èr erista/A3 èr	is:singular ds:ista
 SFX i0 òr orista/A3 òr	is:singular ds:ista
 SFX i0 a ista/A3 [^diír]a	is:singular ds:ista
-SFX i0 o ista/A3 [^iƚ]o	is:singular ds:ista
+SFX i0 o ista/A3 [^kiƚst]o	is:singular ds:ista
 SFX i0 0 ista/A3 [^èò]r	is:singular ds:ista
 SFX i0 0 ista/A3 [^è]l	is:singular ds:ista
 SFX i0 òda odista/A3 òda	is:singular ds:ista
 SFX i0 òra orista/A3 òra	is:singular ds:ista
+SFX i0 òko okista/A3 òko	is:singular ds:ista
 SFX i0 èƚo eƚista/A3 èƚo	is:singular ds:ista
+SFX i0 èso esista/A3 èso	is:singular ds:ista
+SFX i0 èto etista/A3 èto	is:singular ds:ista
 SFX i0 a ista/A3 [^ò]ra	is:singular ds:ista
+SFX i0 o sta/A3 [^ò]ko	is:singular ds:ista
 SFX i0 o sta/A3 [^lƚ]io	is:singular ds:ista
 SFX i0 o ista/A3 [^è]ƚo	is:singular ds:ista
+SFX i0 o ista/A3 [^è][st]o	is:singular ds:ista
 SFX i0 ònia onista/A3 ònia	is:singular ds:ista
 SFX i0 èlio elista/A3 èlio	is:singular ds:ista
 SFX i0 èƚio eƚista/A3 èƚio	is:singular ds:ista
