@@ -4033,7 +4033,7 @@ SFX I8 o e -ƚo	ds:interrogative is:plural+femenine
 # NÒTA: tute le vokali le pòl kaskar, fòra ke la `a` e la `e` derivante da un femenil plural de la prima deklinaŧion latina
 # NÒTA: na koa konsonàntega ’té la sílaba ke la vièn prima la ostàkola de pi l’ apòkope
 # NÒTA: le konsonanti ke le favorise de pi l’ apòkope le xe, in órden: r, l, n, m (ponto krítego), frikative (f/v, ŧ/đ, s/x), afrikae (c/ɉ), okluxive (t/d, g/k, p/b, m, n, ñ)
-SFX A0 Y 51
+SFX A0 Y 50
 SFX A0 e 0 [aeèiíoòu][^aàeéèiïíoóòuüúñ]e
 SFX A0 go k [aeèoòu]go
 SFX A0 go k [aeèoòu]ngo
@@ -4041,7 +4041,7 @@ SFX A0 o 0 [aeèiíoòu][^aàeéèiïíoóòuüúgñ]o	# -igo sol ke par `figo`
 SFX A0 o 0 [^i]go	# -igo sol ke par `figo`
 SFX A0 o 0 [^f]igo	# -igo sol ke par `figo`
 SFX A0 e 0 [aeèiíoòu][lrn][^aàeéèiïíoóòuüúñ]e
-SFX A0 o 0 [aeèiíoòu][lrn][^aàeéèiïíoóòuüúñ]o
+SFX A0 o 0 [aeèiíoòu][lrn][^aàeéèiïíoóòuüúgñ]o
 SFX A0 e 0 [aeèiíoòu]s[kpt]e
 SFX A0 o 0 [aeèiíoòu]s[kpt]o
 SFX A0 be p [aeèiíoòu][lrns]be
@@ -4073,14 +4073,13 @@ SFX A0 xe s [aeèiíoòu]xe
 SFX A0 xe s [aeèiíoòu][lrn]xe
 SFX A0 xo s [aeèiíoòu]xo
 SFX A0 xo s [aeèiíoòu][lrn]xo
-SFX A0 e 0 [aeèoòu]ñe
-SFX A0 o 0 [aeèoòu]ño
 SFX A0 ñe in [aeèoòu]ñe
 SFX A0 ño in [aeèoòu]ño
 SFX A0 ñe n [iò]ñe
 SFX A0 ño n [iò]ño
 SFX A0 ñe nc [aeèiíoòu]ñe	# belunexe
 SFX A0 ño nc [aeèiíoòu]ño	# belunexe
+SFX A0 e 0 [aeèoòu]ñe
 SFX A0 e 0 [aeèiíoòu][lrn]ñe
 SFX A0 o 0 [aeèiíoòu][lrn]ño
 SFX A0 o 0 [aeèiíoòu]ño
@@ -4269,7 +4268,7 @@ SFX V0 ŧon son/A2B1BuPd ŧon
 SFX V0 lio ƚio/M0 [aeiouàèéíòóúïü]lio
 SFX V0 ŧio sio/M0 ŧio
 SFX V0 đio xio/M0 đio
-SFX V0 đo xo/M0 [^e]đo
+SFX V0 đo xo/M0A0 [^e]đo
 SFX V0 ŧo so/M0A0Pd [eo]ŧo
 SFX V0 ŧo so/M0A0 [^eo]ŧo
 SFX V0 đana xana/F0 đana
