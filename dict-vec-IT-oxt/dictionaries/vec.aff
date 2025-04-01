@@ -4128,9 +4128,10 @@ SFX M0 ó oi ó	is:plural+masculine
 SFX M0 ó oo ó	is:singular+masculine
 
 # sostantivi plurali senŧa đèner (-e > -i, -[lnr] > -[lnr]i)
-SFX X0 Y 4
+SFX X0 Y 5
 SFX X0 a i a	is:plural
 SFX X0 e i e	is:plural
+SFX X0 o i o	is:plural
 SFX X0 0 e [lnr]	is:singular
 SFX X0 0 i [lnr]	is:plural
 
@@ -5361,14 +5362,14 @@ SFX o0 0 n/B1BuPd [^ò][bdkmp]o	is:singular+masculine ds:on
 SFX o0 0 n/B1BuPd [^èò][cjɉstŧ]o	is:singular+masculine ds:on
 
 # sostantivi/ajetivi alterai — kresitivi (-on/BuPd)
-SFX o7 Y 20
+SFX o7 Y 22
 SFX o7 e on/PdBu e	is:singular+masculine ds:on
 SFX o7 0 on/PdBu n	is:singular+masculine ds:on
 SFX o7 èr eron/BuPd èr	is:singular+masculine ds:on
 SFX o7 0 on/BuPd ar	is:singular+masculine ds:on
 SFX o7 ío ion/BuPd [aeiou]ío	is:singular+masculine ds:on
 SFX o7 ío ïon/BuPd [^aeiou]ío	is:singular+masculine ds:on
-SFX o7 a on/BuPd [^dgƚp]a	is:singular+masculine ds:on
+SFX o7 a on/BuPd [^dgíƚp]a	is:singular+masculine ds:on
 SFX o7 0 n/BuPd [^íƚt]o	is:singular+masculine ds:on
 SFX o7 èda edon èda	is:singular+masculine ds:on
 SFX o7 èga egon èga	is:singular+masculine ds:on
@@ -5382,6 +5383,8 @@ SFX o7 a on/BuPd [^è]da	is:singular+masculine ds:on
 SFX o7 a on/BuPd [^èò]ƚa	is:singular+masculine ds:on
 SFX o7 0 n/BuPd [^èò]ƚo	is:singular+masculine ds:on
 SFX o7 0 n/BuPd [^ò]to	is:singular+masculine ds:on
+SFX o7 ía ion/BuPd [aeiou]ía	is:singular+masculine ds:on
+SFX o7 ía ïon/BuPd [^aeiou]ía	is:singular+masculine ds:on
 
 # sostantivi/ajetivi alterai — kresitivi (-ona)
 SFX o1 Y 41
@@ -5643,7 +5646,7 @@ SFX oT a òta/F0 [^è][jɉlsŧ]a	ds:òto
 SFX oT o òto/M0A0 [^è][jɉ]o	ds:òto
 
 # sostantivi/ajetivi alterai — kresitivi ko èle vanesente (-òto/a)
-SFX oL Y 13
+SFX oL Y 15
 SFX oL e òto/M0 ƚe	ds:òto
 SFX oL o òto/M0 [^è]ƚo	ds:òto
 SFX oL èƚo eƚòto/M0 èƚo	ds:òto
@@ -5653,10 +5656,12 @@ SFX oL 0 òto/M0 ar	ds:òto
 SFX oL 0 òto/M0 n	ds:òto
 SFX oL o òto/M0 [^ƚ]o	ds:òto
 SFX oL èra eròta/F0 èra	ds:òto
-SFX oL a òta/F0 [^ƚr]a	ds:òto
+SFX oL a òta/F0 [^íƚr]a	ds:òto
 SFX oL a òta/F0 [^è]ra	ds:òto
 SFX oL a òta/F0 [^è]ƚa	ds:òto
 SFX oL èƚa eƚòta/F0 èƚa	ds:òto
+SFX oL ía iòta/F0 [aeiou]ía	ds:òto
+SFX oL ía ïòta/F0 [^aeiou]ía	ds:òto
 
 
 # sostantivi/ajetivi alterai — peđorativi (-ato/a)
@@ -6360,14 +6365,15 @@ PFX '0 kon ’ kon
 
 
 # paròle ŧonkae a la fine
-SFX '9 Y 22
+SFX '9 Y 23
 SFX '9 i ’ [^aàeèéiíïoòóiúü]i
 SFX '9 i 0 [aàeèéiíïoòóiúü]i
 SFX '9 r ’ r
 SFX '9 u ’ u
 SFX '9 ra ’ ra
-SFX '9 xa ’ [aè]xa
 SFX '9 đa ’ èđa
+SFX '9 va ’ va
+SFX '9 xa ’ [aè]xa
 SFX '9 é ’ é
 SFX '9 me ’ me
 SFX '9 de ’ de
