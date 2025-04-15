@@ -4342,16 +4342,17 @@ PFX Ci r ri r[oò]
 #PFX Ci t ti tè
 
 # trasformaŧion iniŧial de paròla intra varianti (pro > por, kon > kun, ...)
-PFX Cu Y 10
+PFX Cu Y 11
 PFX Cu B Bu Bò
 PFX Cu d du d[oò]
 PFX Cu f fu f[oò]
 PFX Cu k ku kò
 PFX Cu l lu lò
 PFX Cu ƚ ƚu ƚò
-PFX Cu n nu nò
+PFX Cu n nu n[oò]
 PFX Cu p pu pò
 PFX Cu r ru rò
+PFX Cu t tu tò
 PFX Cu pr pru prò
 #PFX Cu b bu bò
 #PFX Cu m mu mò
@@ -5962,6 +5963,11 @@ PFX ^7 0 mal- [^ƚ]	dp:mal
 PFX ^8 Y 2
 PFX ^8 0 ben [^ƚ]	dp:ben
 PFX ^8 0 ben- [^ƚ]	dp:ben
+
+# sostantivi/vèrbi alterai (pro-)
+PFX ^9 Y 2
+PFX ^9 0 pro .	dp:pro
+PFX ^9 0 pro- .	dp:pro
 
 # prefiso par lontanamento o xbasamento (de-)
 PFX -0 Y 1
