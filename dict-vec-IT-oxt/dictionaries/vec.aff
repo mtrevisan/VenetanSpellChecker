@@ -754,7 +754,7 @@ SFX T3 0 0/P0 e	ds:imperative+present is:second+singular	# T9, seguxinese, padoa
 
 # -àr, -ér, '-er, -ír, -ír/is
 # group: indefinitive form
-SFX T4 Y 49
+SFX T4 Y 43
 SFX T4 r nte/X0 [ae]r	ds:participle+active	# T7 + nte
 SFX T4 er ante/X0 er	ds:participle+active	# T7 + nte, metaplaxmo
 SFX T4 ir ante/X0 ir	ds:participle+active	# T7 + nte, metaplaxmo
@@ -766,18 +766,12 @@ SFX T4 erò ante/X0 erò	ds:participle+active	# T7 + nte, metaplaxmo
 SFX T4 erò ènte/X0 erò	ds:participle+active	# T7 + nte, veronexe
 SFX T4 ir ente/X0 ir	ds:participle+active	# T7 + nte, metaplaxmo
 SFX T4 ir ènte/X0 ir	ds:participle+active	# T7 + nte, metaplaxmo, veronexe
-SFX T4 r do/M0y0 [ai]r	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
-SFX T4 r da/F0y0 [ai]r	ds:participle+passive+weak is:singular+femenine	# T6 + d[oiae], T6 + ([oiae])
-SFX T4 er udo/M0y0 [^u]er	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
-SFX T4 er uda/F0y0 [^u]er	ds:participle+passive+weak is:singular+femenine	# T6 + d[oiae], T6 + ([oiae])
-SFX T4 er do/M0y0 uer	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
-SFX T4 er da/F0y0 uer	ds:participle+passive+weak is:singular+femenine	# T6 + d[oiae], T6 + ([oiae])
-SFX T4 erò udo/M0y0 [^u]erò	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
-SFX T4 erò uda/F0y0 [^u]erò	ds:participle+passive+weak is:singular+femenine	# T6 + d[oiae], T6 + ([oiae])
-SFX T4 erò do/M0y0 uerò	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
-SFX T4 erò da/F0y0 uerò	ds:participle+passive+weak is:singular+femenine	# T6 + d[oiae], T6 + ([oiae])
-SFX T4 ir edo/M0y0 ir	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae]), metaplaxmo
-SFX T4 ir eda/F0y0 ir	ds:participle+passive+weak is:singular+femenine	# T6 + d[oiae], T6 + ([oiae]), metaplaxmo
+SFX T4 r do/A1y0y1 [ai]r	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
+SFX T4 er udo/A1y0y1 [^u]er	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
+SFX T4 er do/A1y0y1 uer	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
+SFX T4 erò udo/A1y0y1 [^u]erò	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
+SFX T4 erò do/A1y0y1 uerò	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
+SFX T4 ir edo/A1y0y1 ir	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae]), metaplaxmo
 SFX T4 r sto/A1 [ae]r	ds:participle+passive+weak is:singular+masculine	# T2 + st[oiae] = T7 + st[oiae]
 SFX T4 er asto/A1 er	ds:participle+passive+weak is:singular+masculine	# T2 + st[oiae] = T7 + st[oiae], metaplaxmo
 SFX T4 r sto/A1 ir	ds:participle+passive+weak is:singular+masculine	# T2 + st[oiae]
@@ -1690,7 +1684,7 @@ SFX xA r gande-ƚo/P2 andar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[d
 # subjunctive present of "apier"
 # NOTE: see also other derivations in dic file!
 # NOTE: does not have procomplementar form for imperative
-SFX xB Y 213
+SFX xB Y 211
 SFX xB aver ò/I1 aver	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xB aver à/I1 aver	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xB aver è/I1 aver	ds:indicative+present is:first+singular	# T8 + [oe], belumat, buranèl
@@ -1867,18 +1861,16 @@ SFX xB r se ’ver	ds:subjunctive+imperfect is:third	# T2 + se, belumat
 SFX xB aver ese gaver	ds:subjunctive+imperfect is:third	# T2 + se
 SFX xB r nte/X0 aver	ds:participle+active	# T7 + nte
 SFX xB er ènte/X0 aver	ds:participle+active	# T7 + nte, veronexe
-SFX xB er udo/M0y0 aver	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
-SFX xB er uda/F0y0 aver	ds:participle+passive+weak is:singular+femenine	# T6 + d[oiae], T6 + ([oiae])
+SFX xB er udo/A1A0y0y1 aver	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
 SFX xB ver bio ’ver	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae]), viŧentin
-SFX xB ver budo/M0y0 ’ver	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae]), ŧenedexe
+SFX xB ver budo/A1y0y1 ’ver	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae]), ŧenedexe
 SFX xB er udo/M0 ’ver	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae]), viŧentin
 SFX xB er uo/M0 ’ver	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae]), viŧentin
 SFX xB er ú ’ver	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae]), viŧentin
 SFX xB er uda/F0 ’ver	ds:participle+passive+weak is:singular+femenine	# T6 + d[oiae], T6 + ([oiae]), viŧentin
 SFX xB er ua/F0 ’ver	ds:participle+passive+weak is:singular+femenine	# T6 + d[oiae], T6 + ([oiae]), viŧentin
 SFX xB r sto/A1A0 aver	ds:participle+passive+weak is:singular+masculine	# T2 + st[oiae] = T7 + st[oiae]
-SFX xB ver budo/M0y0 aver	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
-SFX xB ver buda/F0y0 aver	ds:participle+passive+weak is:singular+femenine	# T6 + d[oiae], T6 + ([oiae])
+SFX xB ver budo/A1y0y1 aver	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
 SFX xB ver biente/X0 aver	ds:participle+active	# T7 + nte
 SFX xB ver biante/X0 aver	ds:participle+active	# T7 + nte, metaplaxmo
 SFX xB ver biènte/X0 aver	ds:participle+active	# T7 + nte, veronexe
@@ -2292,7 +2284,7 @@ SFX xK ar é/I4 [cijɉñ]ar	ds:indicative+imperfect is:second+plural	# T11 + (iv
 # vèrbi '-er inregolari: (bene|d[ei]x|in|inter|intr[ae]|kontra|ma[lƚ]e|pre|re)?díxer, (a|(pre)?de|re|re(kon|pro)?|in(tro)?|pro|se|tra)?dúxer
 # changes in indicative present, indicative future, subjunctive present, conditional present, infinitive simple, participle passive
 # indicative future, conditional present of "dir"
-SFX xL Y 83
+SFX xL Y 81
 SFX xL íxer igo/I1 díxer	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xL íxer ixi/I3 díxer	ds:indicative+present is:second+singular	# T8 + i
 SFX xL er is/I3 díxer	ds:indicative+present is:second+singular	# T8 + is
@@ -2362,10 +2354,8 @@ SFX xL íxer ixante/X0 díxer	ds:participle+active	# T7 + nte, metaplaxmo
 SFX xL úxer uxante/X0 dúxer	ds:participle+active	# T7 + nte, metaplaxmo
 SFX xL íxer ixènte/X0 díxer	ds:participle+active	# T7 + nte, veronexe
 SFX xL úxer uxènte/X0 dúxer	ds:participle+active	# T7 + nte, veronexe
-SFX xL íxer ixudo/M0y0 díxer	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
-SFX xL íxer ixuda/F0y0 díxer	ds:participle+passive+weak is:singular+femenine	# T6 + d[oiae], T6 + ([oiae])
-SFX xL úxer uxudo/M0y0 dúxer	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
-SFX xL úxer uxuda/F0y0 dúxer	ds:participle+passive+weak is:singular+femenine	# T6 + d[oiae], T6 + ([oiae])
+SFX xL íxer ixudo/A1y0y1 díxer	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
+SFX xL úxer uxudo/A1y0y1 dúxer	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
 SFX xL íxer ixesto/A1 díxer	ds:participle+passive+weak is:singular+masculine	# T2 + st[oiae] = T7 + st[oiae]
 SFX xL úxer uxesto/A1 dúxer	ds:participle+passive+weak is:singular+masculine	# T2 + st[oiae] = T7 + st[oiae]
 SFX xL íxer ixasto/A1 díxer	ds:participle+passive+weak is:singular+masculine	# T2 + st[oiae] = T7 + st[oiae], metaplaxmo
@@ -2537,7 +2527,7 @@ SFX xO úxer uxarae dúxer	ds:conditional+present is:third	# T4 + rà(v)[ei]
 # subjunctive present of "débier"
 # NOTA: del congiuntivo sono note le forme in deba/depi/debia
 # NOTE: does not have procomplementar form for imperative
-SFX xP Y 74
+SFX xP Y 73
 SFX xP éver ebia éver	ds:subjunctive+present is:first+singular	# T8 + a
 SFX xP éver ebie éver	ds:subjunctive+present is:first+singular	# T8 + e
 SFX xP éver ebiemo éver	ds:subjunctive+present is:first+plural	# T5 + mo
@@ -2596,8 +2586,7 @@ SFX xP éver eví éver	ds:imperative+present is:second+plural	# T5
 SFX xP éver evente/X0 éver	ds:participle+active	# T7 + nte
 SFX xP éver evante/X0 éver	ds:participle+active	# T7 + nte, metaplaxmo
 SFX xP éver evènte/X0 éver	ds:participle+active	# T7 + nte, veronexe
-SFX xP éver evudo/M0y0 éver	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
-SFX xP éver evuda/F0y0 éver	ds:participle+passive+weak is:singular+femenine	# T6 + d[oiae], T6 + ([oiae])
+SFX xP éver evudo/A1y0y1 éver	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
 SFX xP éver evesto/A1 éver	ds:participle+passive+weak is:singular+masculine	# T2 + st[oiae] = T7 + st[oiae]
 SFX xP éver evasto/A1 éver	ds:participle+passive+weak is:singular+masculine	# T2 + st[oiae] = T7 + st[oiae], metaplaxmo
 SFX xP éver ebiendo/P0P1 éver	ds:gerund+simple	# T2 + n[dt]o
@@ -3282,7 +3271,7 @@ SFX xR ïèser isianto-ƚo/P2 ïèser	ds:gerund+simple ds:pronomenal+accusative	
 # vèrbi '-er inregolari: (re)?èser, rïèser
 # different conjugation in indicative present, indicative imperfect, indicative future, subjunctive present, subjunctive imperfect, conditional present, imperative present
 # changes in participle passive
-SFX xS Y 93
+SFX xS Y 92
 SFX xS èser é/I3 èser	ds:indicative+present is:second+singular	# T10 = T8 + e, 2s=3, belumat
 SFX xS èser es/I3 èser	ds:indicative+present is:second+singular	# T10s = T8 + es, 2s=3, belumat
 SFX xS èser é/I5I7 èser	ds:indicative+present is:third	# T10
@@ -3359,9 +3348,8 @@ SFX xS èser esente/X0 èser	ds:participle+active	# T7 + nte
 SFX xS èser esante/X0 èser	ds:participle+active	# T7 + nte, metaplaxmo
 SFX xS èser esiante/X0 èser	ds:participle+active	# T7 + nte, metaplaxmo
 SFX xS èser esènte/X0 èser	ds:participle+active	# T7 + nte, veronexe
-SFX xS èser esudo/M0A0y0 èser	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
-SFX xS èser esuda/F0y0 èser	ds:participle+passive+weak is:singular+femenine	# T6 + d[oiae], T6 + ([oiae])
-SFX xS èser esesto/A1A0 èser	ds:participle+passive+weak is:singular+masculine	# T2 + st[oiae]
+SFX xS èser esudo/A1y0y1 èser	ds:participle+passive+weak is:singular+masculine	# T6 + d[oiae], T6 + ([oiae])
+SFX xS èser esesto/A1 èser	ds:participle+passive+weak is:singular+masculine	# T2 + st[oiae]
 SFX xS èser esasto/A1 èser	ds:participle+passive+weak is:singular+masculine	# T7 + st[oiae], metaplaxmo
 SFX xS èser esèndo/P0P1 èser	ds:gerund+simple	# T2 + n[dt]o, veronexe
 SFX xS èser esèndo-ƚo/P2 èser	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, veronexe
@@ -4977,18 +4965,7 @@ SFX w0 ente ènte ente
 
 
 # sostantivi koletivi, ...
-SFX y0 Y 35
-SFX y0 da a [aeou]da	is:singular+femenine
-SFX y0 da e [aeou]da	is:plural+femenine
-SFX y0 da a [aeiouàèéíòóúïü]ida	is:singular+femenine	# -ITA(M) > -ida > -ia
-SFX y0 da e [aeiouàèéíòóúïü]ida	is:singular+femenine
-SFX y0 ida ía [^aeiouàèéíòóúïü]ida	is:singular+femenine	# -ITA(M) > -ida > -ia
-SFX y0 ida íe [^aeiouàèéíòóúïü]ida	is:singular+femenine
-SFX y0 da a [aeiouàèéíòóúïü]uda	is:singular+femenine	# -UTA(M) > -uda > -ua
-SFX y0 da e [aeiouàèéíòóúïü]uda	is:singular+femenine
-SFX y0 uda úa [^aeiouàèéíòóúïü]uda	is:singular+femenine	# -UTA(M) > -uda > -ua
-SFX y0 uda úe [^aeiouàèéíòóúïü]uda	is:singular+femenine
-SFX y0 ede é ede	is:femenine
+SFX y0 Y 24
 SFX y0 ado ò ado	is:masculine	# pavan, -ATU(M) > -ado > -ao > -ò
 SFX y0 ado à ado	is:masculine	# -ATU(M) > -ado > -at > -à
 SFX y0 do o ado	is:singular+masculine	# -ATU(M) > -ado > -ao
@@ -5013,6 +4990,25 @@ SFX y0 do o [aeiouàèéíòóúïü]udo	is:singular+masculine
 SFX y0 do i [aeiouàèéíòóúïü]udo	is:singular+masculine
 SFX y0 udo úo [^aeiouàèéíòóúïü]udo	is:singular+masculine
 SFX y0 udo úi [^aeiouàèéíòóúïü]udo	is:singular+masculine
+
+SFX y1 Y 17
+SFX y1 do a [aeoòu]do	is:singular+femenine
+SFX y1 do e [aeoòu]do	is:plural+femenine
+SFX y1 do a [aeiouàèéíòóúïü]ido	is:singular+femenine	# -ITA(M) > -ida > -ia
+SFX y1 do e [aeiouàèéíòóúïü]ido	is:singular+femenine
+SFX y1 ido ía [^aeiouàèéíòóúïü]ido	is:singular+femenine	# -ITA(M) > -ida > -ia
+SFX y1 ido íe [^aeiouàèéíòóúïü]ido	is:singular+femenine
+SFX y1 do a [aeiouàèéíòóúïü]udo	is:singular+femenine	# -UTA(M) > -uda > -ua
+SFX y1 do e [aeiouàèéíòóúïü]udo	is:singular+femenine
+SFX y1 udo úa [^aeiouàèéíòóúïü]udo	is:singular+femenine	# -UTA(M) > -uda > -ua
+SFX y1 udo úe [^aeiouàèéíòóúïü]udo	is:singular+femenine
+SFX y1 da a [aeoòu]da	is:singular+femenine
+SFX y1 da e [aeoòu]da	is:plural+femenine
+SFX y1 da a [aeiouàèéíòóúïü]ida	is:singular+femenine	# -ITA(M) > -ida > -ia
+SFX y1 da e [aeiouàèéíòóúïü]ida	is:singular+femenine
+SFX y1 ida ía [^aeiouàèéíòóúïü]ida	is:singular+femenine	# -ITA(M) > -ida > -ia
+SFX y1 ida íe [^aeiouàèéíòóúïü]ida	is:singular+femenine
+SFX y1 ede é ede	is:femenine
 
 
 # sostantivi/ajetivi alterai — demenutivi (-eto/a)
