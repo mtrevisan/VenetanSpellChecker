@@ -4841,7 +4841,7 @@ SFX m0 òto otamènto/M0A0 òto	ds:mento
 #SFX s7 lderò ƚusion/F0BuPd lderò
 #SFX s7 lverò ƚusion/F0BuPd lverò
 
-# nominali deverbali (-dur/M0eT, -dura/F0eT)
+# nominali deverbali (-dur, -dura)
 SFX d0 Y 12
 SFX d0 dur ur/M0 [^i]dur
 SFX d0 dur ur/M0 [aeiou]idur
@@ -4886,7 +4886,7 @@ SFX x7 e ixmo/M0 e	is:singular+masculine ds:ixmo
 SFX x7 ía ixmo/M0 ía	ds:ixmo
 
 
-# negòŧi, atività komerŧali o industriali, aŧion, scapi de ròbe o de parsone (-ría/F0eT)
+# negòŧi, atività komerŧali o industriali, aŧion, scapi de ròbe o de parsone (-ría)
 SFX r0 Y 132
 SFX r0 0 ría/F0 e	is:singular+femenine
 SFX r0 0 rïeta/F0 e	is:singular+femenine ds:eto
@@ -5453,7 +5453,7 @@ SFX o0 0 n/B1BuPd [^è]go	is:singular+masculine ds:on
 SFX o0 0 n/B1BuPd [^ò][bdkmp]o	is:singular+masculine ds:on
 SFX o0 0 n/B1BuPd [^èò][cjɉstŧ]o	is:singular+masculine ds:on
 
-# sostantivi/ajetivi alterai — kresitivi (-on/BuPd)
+# sostantivi/ajetivi alterai — kresitivi (-on)
 SFX o7 Y 22
 SFX o7 e on/PdBu e	is:singular+masculine ds:on
 SFX o7 0 on/PdBu n	is:singular+masculine ds:on
@@ -5757,14 +5757,14 @@ SFX oL ía ïòta/F0 [^aeiou]ía	ds:òto
 
 
 # sostantivi/ajetivi alterai — peđorativi (-ato/a)
-SFX aT Y 35
+SFX aT Y 36
 SFX aT 0 ato/M0A0 [nr]	ds:ato
 SFX aT úa uata/F0 [aeiou]úa	ds:ato
 SFX aT úa üata/F0 [^aeiou]úa	ds:ato
 SFX aT èl elato/M0A0 èl	ds:ato
 SFX aT úo uato/M0A0 [aeiou]úo	ds:ato
 SFX aT úo üato/M0A0 [^aeiou]úo	ds:ato
-SFX aT 0 ta/F0 [^bcjɉklnsú]a	ds:ato
+SFX aT 0 ta/F0 [^bcjɉklnstú]a	ds:ato
 SFX aT 0 ato/M0A0 [^è]l	ds:ato
 SFX aT o ato/M0A0 [^bcjɉkmústv]o	ds:ato
 SFX aT òba obata/F0 òba	ds:ato
@@ -5776,6 +5776,7 @@ SFX aT èla elata/F0 èla	ds:ato
 SFX aT òla olata/F0 òla	ds:ato
 SFX aT òna onata/F0 òna	ds:ato
 SFX aT òsa osata/F0 òsa	ds:ato
+SFX aT òta otata/F0 òta	ds:ato
 SFX aT òbo obato/M0A0 òbo	ds:ato
 SFX aT èco ecato/M0A0 èco	ds:ato
 SFX aT òco ocato/M0A0 òco	ds:ato
@@ -5790,7 +5791,7 @@ SFX aT òto otato/M0A0 òto	ds:ato
 SFX aT òvo ovato/M0A0 òvo	ds:ato
 SFX aT 0 ta/F0 [^èò]la	ds:ato
 SFX aT 0 ta/F0 [^è][cjɉ]a	ds:ato
-SFX aT 0 ta/F0 [^ò][bkns]a	ds:ato
+SFX aT 0 ta/F0 [^ò][bknst]a	ds:ato
 SFX aT o ato/M0A0 [^èò][cjɉ]o	ds:ato
 SFX aT o ato/M0A0 [^ò][kmst]o	ds:ato
 
@@ -6462,13 +6463,12 @@ PFX '0 kon ’ kon
 
 
 # paròle ŧonkae a la fine
-SFX '9 Y 23
+SFX '9 Y 22
 SFX '9 i ’ [^aàeèéiíïoòóiúü]i
 SFX '9 i 0 [aàeèéiíïoòóiúü]i
 SFX '9 r ’ r
 SFX '9 u ’ u
 SFX '9 ra ’ ra
-SFX '9 đa ’ èđa
 SFX '9 va ’ va
 SFX '9 xa ’ [aè]xa
 SFX '9 é ’ é
