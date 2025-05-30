@@ -5809,56 +5809,70 @@ SFX t3 ía ïòta/F0 ía	ds:òto
 SFX t3 a òta/F0 [^í]a	ds:òto
 
 
-# sostantivi/ajetivi alterai — peđorativi (-ato/a)
-SFX aT Y 35
-SFX aT 0 ato/M0A0 [nr]	ds:ato
-SFX aT úa uata/F0 [aeiou]úa	ds:ato
-SFX aT úa üata/F0 [^aeiou]úa	ds:ato
-SFX aT èl elato/M0A0 èl	ds:ato
-SFX aT úo uato/M0A0 [aeiou]úo	ds:ato
-SFX aT úo üato/M0A0 [^aeiou]úo	ds:ato
-SFX aT 0 ta/F0 [^bcjɉklnsú]a	ds:ato
-SFX aT 0 ato/M0A0 [^è]l	ds:ato
-SFX aT o ato/M0A0 [^bcjɉkmústv]o	ds:ato
-SFX aT òba obata/F0 òba	ds:ato
-SFX aT èca ecata/F0 èca	ds:ato
-SFX aT òka okata/F0 òka	ds:ato
-SFX aT èja ejata/F0 èja	ds:ato
-SFX aT èɉa eɉata/F0 èɉa	ds:ato
-SFX aT èla elata/F0 èla	ds:ato
-SFX aT òla olata/F0 òla	ds:ato
-SFX aT òna onata/F0 òna	ds:ato
-SFX aT òsa osata/F0 òsa	ds:ato
-SFX aT òbo obato/M0A0 òbo	ds:ato
-SFX aT èco ecato/M0A0 èco	ds:ato
-SFX aT òco ocato/M0A0 òco	ds:ato
-SFX aT èjo ejato/M0A0 èjo	ds:ato
-SFX aT èɉo eɉato/M0A0 èɉo	ds:ato
-SFX aT òjo ojato/M0A0 òjo	ds:ato
-SFX aT òɉo oɉato/M0A0 òɉo	ds:ato
-SFX aT òko okato/M0A0 òko	ds:ato
-SFX aT òmo omato/M0A0 òmo	ds:ato
-SFX aT òso osato/M0A0 òso	ds:ato
-SFX aT òto otato/M0A0 òto	ds:ato
-SFX aT òvo ovato/M0A0 òvo	ds:ato
-SFX aT 0 ta/F0 [^èò]la	ds:ato
-SFX aT 0 ta/F0 [^è][cjɉ]a	ds:ato
-SFX aT 0 ta/F0 [^ò][bkns]a	ds:ato
-SFX aT o ato/M0A0 [^èò][cjɉ]o	ds:ato
-SFX aT o ato/M0A0 [^ò][kmst]o	ds:ato
+# sostantivi/ajetivi alterai — peđorativi maskolini (-ato)
+SFX a0 Y 20
+SFX a0 0 ato/M0A0 [nr]	ds:ato
+SFX a0 èl elato/M0A0 èl	ds:ato
+SFX a0 úo uato/M0A0 [aeiou]úo	ds:ato
+SFX a0 úo üato/M0A0 [^aeiou]úo	ds:ato
+SFX a0 0 ato/M0A0 [^è]l	ds:ato
+SFX a0 o ato/M0A0 [^bcjɉkmústv]o	ds:ato
+SFX a0 òbo obato/M0A0 òbo	ds:ato
+SFX a0 èco ecato/M0A0 èco	ds:ato
+SFX a0 òco ocato/M0A0 òco	ds:ato
+SFX a0 èjo ejato/M0A0 èjo	ds:ato
+SFX a0 èɉo eɉato/M0A0 èɉo	ds:ato
+SFX a0 òjo ojato/M0A0 òjo	ds:ato
+SFX a0 òɉo oɉato/M0A0 òɉo	ds:ato
+SFX a0 òko okato/M0A0 òko	ds:ato
+SFX a0 òmo omato/M0A0 òmo	ds:ato
+SFX a0 òso osato/M0A0 òso	ds:ato
+SFX a0 òto otato/M0A0 òto	ds:ato
+SFX a0 òvo ovato/M0A0 òvo	ds:ato
+SFX a0 o ato/M0A0 [^èò][cjɉ]o	ds:ato
+SFX a0 o ato/M0A0 [^ò][kmst]o	ds:ato
 
-# sostantivi/ajetivi alterai — peđorativi ko èle vanesente (-ato/a)
-SFX a1 Y 10
+# sostantivi/ajetivi alterai — peđorativi maskolini ko èle vanesente (-ƚ-ato)
+SFX a1 Y 6
 SFX a1 0 ato/M0 n	ds:ato
 SFX a1 o ato/M0 [^kƚ]o	ds:ato
 SFX a1 o ato/M0 [^ò]ko	ds:ato
 SFX a1 o ato/M0 [^è]ƚo	ds:ato
 SFX a1 òko okato/M0 òko	ds:ato
 SFX a1 èƚo eƚato/M0 èƚo	ds:ato
-SFX a1 èƚa eƚata/F0 èƚa	ds:ato
-SFX a1 òƚa oƚata/F0 òƚa	ds:ato
-SFX a1 0 ta/F0 [^ƚ]a	ds:ato
-SFX a1 0 ta/F0 [^èò]ƚa	ds:ato
+
+# sostantivi/ajetivi alterai — peđorativi femenili (-ata)
+SFX a2 Y 19
+SFX a2 0 ata/F0 [nr]	ds:ato
+SFX a2 èl elata/F0 èl	ds:ato
+SFX a2 úo uata/F0 [aeiou]úo	ds:ato
+SFX a2 úo üata/F0 [^aeiou]úo	ds:ato
+SFX a2 0 ta/F0 [^bklns]a	ds:ato
+SFX a2 0 ata/F0 [^è]l	ds:ato
+SFX a2 o ata/F0 [^bcjɉú]o	ds:ato
+SFX a2 òba obata/F0 òba	ds:ato
+SFX a2 òka okata/F0 òka	ds:ato
+SFX a2 èla elata/F0 èla	ds:ato
+SFX a2 òla olata/F0 òla	ds:ato
+SFX a2 òna onata/F0 òna	ds:ato
+SFX a2 òsa osata/F0 òsa	ds:ato
+SFX a2 òbo obata/F0 òbo	ds:ato
+SFX a2 èco ecata/F0 èco	ds:ato
+SFX a2 èjo ejata/F0 èjo	ds:ato
+SFX a2 èɉo eɉata/F0 èɉo	ds:ato
+SFX a2 0 ta/F0 [^èò]la	ds:ato
+SFX a2 0 ta/F0 [^ò][bkns]a	ds:ato
+
+# sostantivi/ajetivi alterai — peđorativi femenili ko èle vanesente (-ƚ-ata)
+SFX a3 Y 8
+SFX a3 0 ata/F0 n	ds:ato
+SFX a3 0 ta/F0 [^ƚ]a	ds:ato
+SFX a3 o ata/F0 [^ƚ]o	ds:ato
+SFX a3 èƚa eƚata/F0 èƚa	ds:ato
+SFX a3 òƚa oƚata/F0 òƚa	ds:ato
+SFX a3 èƚo eƚata/F0 èƚo	ds:ato
+SFX a3 0 ta/F0 [^èò]ƚa	ds:ato
+SFX a3 o ata/F0 [^è]ƚo	ds:ato
 
 # sostantivi/ajetivi alterai — peđorativi maskolini (-aŧo)
 SFX z0 Y 29
