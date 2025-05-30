@@ -4841,7 +4841,7 @@ SFX m0 òto otamènto/M0A0 òto	ds:mento
 #SFX s7 lderò ƚusion/F0BuPd lderò
 #SFX s7 lverò ƚusion/F0BuPd lverò
 
-# nominali deverbali (-dur/M0eT, -dura/F0eT)
+# nominali deverbali (-dur, -dura)
 SFX d0 Y 12
 SFX d0 dur ur/M0 [^i]dur
 SFX d0 dur ur/M0 [aeiou]idur
@@ -4886,7 +4886,7 @@ SFX x7 e ixmo/M0 e	is:singular+masculine ds:ixmo
 SFX x7 ía ixmo/M0 ía	ds:ixmo
 
 
-# negòŧi, atività komerŧali o industriali, aŧion, scapi de ròbe o de parsone (-ría/F0eT)
+# negòŧi, atività komerŧali o industriali, aŧion, scapi de ròbe o de parsone (-ría)
 SFX r0 Y 132
 SFX r0 0 ría/F0 e	is:singular+femenine
 SFX r0 0 rïeta/F0 e	is:singular+femenine ds:eto
@@ -5106,127 +5106,69 @@ SFX y1 uda úe [^aeiouàèéíòóúïü]uda	is:singular+femenine
 SFX y1 ede é ede	is:femenine
 
 
-# sostantivi/ajetivi alterai — demenutivi (-eto/a)
-SFX eT Y 97
-SFX eT à aeto/M0A0Pd à	ds:eto
-SFX eT 0 ta/F0 e	ds:eto
-SFX eT è eeto/M0A0Pd è	ds:eto
-SFX eT 0 eto/M0A0Pd n	ds:eto
-SFX eT ú ueto/M0A0Pd [aeiou]ú	ds:eto
-SFX eT ú üeto/M0A0Pd [^aeiou]ú	ds:eto
-SFX eT ía ieta/F0 [aeiou]ía	ds:eto
-SFX eT ía ïeta/F0 [^aeiou]ía	ds:eto
-SFX eT úa ueta/F0 [aeiou]úa	ds:eto
-SFX eT úa üeta/F0 [^aeiou]úa	ds:eto
-SFX eT èl eleto/M0A0Pd èl	ds:eto
-SFX eT òl oleto/M0A0Pd òl	ds:eto
-SFX eT ío ieto/M0A0Pd [aeiou]ío	ds:eto
-SFX eT ío ïeto/M0A0Pd [^aeiou]ío	ds:eto
-SFX eT èa eeta/F0 èa	ds:eto
-SFX eT ò oeto/M0A0Pd ò	ds:eto
-SFX eT òo oeto/M0A0Pd òo	ds:eto
-SFX eT èo eeto/M0A0Pd èo	ds:eto
-SFX eT úo ueto/M0A0Pd [aeiou]úo	ds:eto
-SFX eT úo üeto/M0A0Pd [^aeiou]úo	ds:eto
-SFX eT èr ereto/M0A0Pd èr	ds:eto
-SFX eT òr oreto/M0A0Pd òr	ds:eto
-SFX eT a eta/F0 [^àbcdđègíjɉklmnñprstŧúvx]a	ds:eto
-SFX eT o eto/M0A0Pd [^àbcdđègiíjɉkmnñòpstŧúvx]o	ds:eto
-SFX eT 0 eto/M0A0Pd [^èò][lr]	ds:eto
-SFX eT èba ebeta/F0 èba	ds:eto
-SFX eT òba obeta/F0 òba	ds:eto
-SFX eT èca eceta/F0 èca	ds:eto
-SFX eT òca oceta/F0 òca	ds:eto
-SFX eT èda edeta/F0 èda	ds:eto
-SFX eT òda odeta/F0 òda	ds:eto
-SFX eT èđa eđeta/F0 èđa	ds:eto
-SFX eT òđa ođeta/F0 òđa	ds:eto
-SFX eT èga egeta/F0 èga	ds:eto
-SFX eT òga ogeta/F0 òga	ds:eto
-SFX eT èja ejeta/F0 èja	ds:eto
-SFX eT èɉa eɉeta/F0 èɉa	ds:eto
-SFX eT òja ojeta/F0 òja	ds:eto
-SFX eT òɉa oɉeta/F0 òɉa	ds:eto
-SFX eT èka eketa/F0 èka	ds:eto
-SFX eT òka oketa/F0 òka	ds:eto
-SFX eT èla eleta/F0 èla	ds:eto
-SFX eT òla oleta/F0 òla	ds:eto
-SFX eT òma ometa/F0 òma	ds:eto
-SFX eT òna oneta/F0 òna	ds:eto
-SFX eT òña oñeta/F0 òña	ds:eto
-SFX eT èpa epeta/F0 èpa	ds:eto
-SFX eT òpa opeta/F0 òpa	ds:eto
-SFX eT èra ereta/F0 èra	ds:eto
-SFX eT èsa eseta/F0 èsa	ds:eto
-SFX eT òsa oseta/F0 òsa	ds:eto
-SFX eT òta oteta/F0 òta	ds:eto
-SFX eT èŧa eŧeta/F0 èŧa	ds:eto
-SFX eT òŧa oŧeta/F0 òŧa	ds:eto
-SFX eT èva eveta/F0 èva	ds:eto
-SFX eT òva oveta/F0 òva	ds:eto
-SFX eT èxa exeta/F0 èxa	ds:eto
-SFX eT òxa oxeta/F0 òxa	ds:eto
-SFX eT òbo obeto/M0A0Pd òbo	ds:eto
-SFX eT èco eceto/M0A0Pd èco	ds:eto
-SFX eT òco oceto/M0A0Pd òco	ds:eto
-SFX eT òdo odeto/M0A0Pd òdo	ds:eto
-SFX eT èđo eđeto/M0A0Pd èđo	ds:eto
-SFX eT òđo ođeto/M0A0Pd òđo	ds:eto
-SFX eT ègo egeto/M0A0Pd ègo	ds:eto
-SFX eT ògo ogeto/M0A0Pd ògo	ds:eto
-SFX eT èjo ejeto/M0A0Pd èjo	ds:eto
-SFX eT òjo ojeto/M0A0Pd òjo	ds:eto
-SFX eT èɉo eɉeto/M0A0Pd èɉo	ds:eto
-SFX eT òɉo oɉeto/M0A0Pd òɉo	ds:eto
-SFX eT èko eketo/M0A0Pd èko	ds:eto
-SFX eT òko oketo/M0A0Pd òko	ds:eto
-SFX eT èmo emeto/M0A0Pd èmo	ds:eto
-SFX eT òmo ometo/M0A0Pd òmo	ds:eto
-SFX eT òno oneto/M0A0Pd òno	ds:eto
-SFX eT òño oñeto/M0A0Pd òño	ds:eto
-SFX eT òpo opeto/M0A0Pd òpo	ds:eto
-SFX eT èso eseto/M0A0Pd èso	ds:eto
-SFX eT òso oseto/M0A0Pd òso	ds:eto
-SFX eT òto oteto/M0A0Pd òto	ds:eto
-SFX eT èŧo eŧeto/M0A0Pd èŧo	ds:eto
-SFX eT òŧo oŧeto/M0A0Pd òŧo	ds:eto
-SFX eT èvo eveto/M0A0Pd èvo	ds:eto
-SFX eT òvo oveto/M0A0Pd òvo	ds:eto
-SFX eT èxo exeto/M0A0Pd èxo	ds:eto
-SFX eT òxo oxeto/M0A0Pd òxo	ds:eto
-SFX eT a eta/F0 [^è]rna	ds:eto
-SFX eT a eta/F0 [^òr]na	ds:eto
-SFX eT a eta/F0 [^ò][mñt]a	ds:eto
-SFX eT a eta/F0 [^è]ra	ds:eto
-SFX eT a eta/F0 [^èò][bcdđgjɉklpsŧvx]a	ds:eto
-SFX eT o eto/M0A0Pd [^n]io	ds:eto
-SFX eT o eto/M0A0Pd [^ò]nio	ds:eto
-SFX eT ònio onieto/M0A0Pd ònio	ds:eto
-SFX eT o eto/M0A0Pd [^ò][bdnñpt]o	ds:eto
-SFX eT o eto/M0A0Pd [^èò][cđgjɉkmsŧvx]o	ds:eto
-SFX eT èrna erneta/F0 èrna	ds:eto
+# sostantivi/ajetivi alterai — demenutivi maskolini (-eto)
+SFX e0 Y 51
+SFX e0 à aeto/M0A0Pd à	ds:eto
+SFX e0 è eeto/M0A0Pd è	ds:eto
+SFX e0 0 eto/M0A0Pd n	ds:eto
+SFX e0 ú ueto/M0A0Pd [aeiou]ú	ds:eto
+SFX e0 ú üeto/M0A0Pd [^aeiou]ú	ds:eto
+SFX e0 èl eleto/M0A0Pd èl	ds:eto
+SFX e0 òl oleto/M0A0Pd òl	ds:eto
+SFX e0 ío ieto/M0A0Pd [aeiou]ío	ds:eto
+SFX e0 ío ïeto/M0A0Pd [^aeiou]ío	ds:eto
+SFX e0 ò oeto/M0A0Pd ò	ds:eto
+SFX e0 òo oeto/M0A0Pd òo	ds:eto
+SFX e0 èo eeto/M0A0Pd èo	ds:eto
+SFX e0 úo ueto/M0A0Pd [aeiou]úo	ds:eto
+SFX e0 úo üeto/M0A0Pd [^aeiou]úo	ds:eto
+SFX e0 èr ereto/M0A0Pd èr	ds:eto
+SFX e0 òr oreto/M0A0Pd òr	ds:eto
+SFX e0 o eto/M0A0Pd [^àbcdđègiíjɉkmnñòpstŧúvx]o	ds:eto
+SFX e0 0 eto/M0A0Pd [^èò][lr]	ds:eto
+SFX e0 òbo obeto/M0A0Pd òbo	ds:eto
+SFX e0 èco eceto/M0A0Pd èco	ds:eto
+SFX e0 òco oceto/M0A0Pd òco	ds:eto
+SFX e0 òdo odeto/M0A0Pd òdo	ds:eto
+SFX e0 èđo eđeto/M0A0Pd èđo	ds:eto
+SFX e0 òđo ođeto/M0A0Pd òđo	ds:eto
+SFX e0 ègo egeto/M0A0Pd ègo	ds:eto
+SFX e0 ògo ogeto/M0A0Pd ògo	ds:eto
+SFX e0 èjo ejeto/M0A0Pd èjo	ds:eto
+SFX e0 òjo ojeto/M0A0Pd òjo	ds:eto
+SFX e0 èɉo eɉeto/M0A0Pd èɉo	ds:eto
+SFX e0 òɉo oɉeto/M0A0Pd òɉo	ds:eto
+SFX e0 èko eketo/M0A0Pd èko	ds:eto
+SFX e0 òko oketo/M0A0Pd òko	ds:eto
+SFX e0 èmo emeto/M0A0Pd èmo	ds:eto
+SFX e0 òmo ometo/M0A0Pd òmo	ds:eto
+SFX e0 òno oneto/M0A0Pd òno	ds:eto
+SFX e0 òño oñeto/M0A0Pd òño	ds:eto
+SFX e0 òpo opeto/M0A0Pd òpo	ds:eto
+SFX e0 èso eseto/M0A0Pd èso	ds:eto
+SFX e0 òso oseto/M0A0Pd òso	ds:eto
+SFX e0 òto oteto/M0A0Pd òto	ds:eto
+SFX e0 èŧo eŧeto/M0A0Pd èŧo	ds:eto
+SFX e0 òŧo oŧeto/M0A0Pd òŧo	ds:eto
+SFX e0 èvo eveto/M0A0Pd èvo	ds:eto
+SFX e0 òvo oveto/M0A0Pd òvo	ds:eto
+SFX e0 èxo exeto/M0A0Pd èxo	ds:eto
+SFX e0 òxo oxeto/M0A0Pd òxo	ds:eto
+SFX e0 o eto/M0A0Pd [^n]io	ds:eto
+SFX e0 o eto/M0A0Pd [^ò]nio	ds:eto
+SFX e0 ònio onieto/M0A0Pd ònio	ds:eto
+SFX e0 o eto/M0A0Pd [^ò][bdnñpt]o	ds:eto
+SFX e0 o eto/M0A0Pd [^èò][cđgjɉkmsŧvx]o	ds:eto
 
-# sostantivi/ajetivi alterai — demenutivi ko èle vanesente (-eto/a)
-SFX e1 Y 35
+# sostantivi/ajetivi alterai — demenutivi maskolini ko èle vanesente (-ƚ-eto)
+SFX e1 Y 17
 SFX e1 0 to/M0Pd e	ds:eto
 SFX e1 è eeto/M0Pd è	ds:eto
 SFX e1 0 eto/M0Pd n	ds:eto
-SFX e1 ía ieta/F0 [aeiou]ía	ds:eto
-SFX e1 ía ïeta/F0 [^aeiou]ía	ds:eto
 SFX e1 èr ereto/M0Pd èr	ds:eto
 SFX e1 òr oreto/M0Pd òr	ds:eto
-SFX e1 a eta/F0 [^dgíkƚnrtx]a	ds:eto
 SFX e1 o eto/M0Pd [^cjɉkƚmst]o	ds:eto
 SFX e1 0 eto/M0Pd [^èò]r	ds:eto
-SFX e1 èda edeta/F0 èda	ds:eto
-SFX e1 èga egeta/F0 èga	ds:eto
-SFX e1 èƚa eƚeta/F0 èƚa	ds:eto
-SFX e1 òka oketa/F0 òka	ds:eto
-SFX e1 òƚa oƚeta/F0 òƚa	ds:eto
-SFX e1 òna oneta/F0 òna	ds:eto
-SFX e1 èra ereta/F0 èra	ds:eto
-SFX e1 òta oteta/F0 òta	ds:eto
-SFX e1 òxa oxeta/F0 òxa	ds:eto
 SFX e1 òco oceto/M0Pd òco	ds:eto
 SFX e1 òjo ojeto/M0Pd òjo	ds:eto
 SFX e1 òɉo oɉeto/M0Pd òɉo	ds:eto
@@ -5235,14 +5177,103 @@ SFX e1 èƚo eƚeto/M0Pd èƚo	ds:eto
 SFX e1 òƚo oƚeto/M0Pd òƚo	ds:eto
 SFX e1 òmo ometo/M0Pd òmo	ds:eto
 SFX e1 òso oseto/M0Pd òso	ds:eto
-SFX e1 a eta/F0 [^èò]ƚa	ds:eto
-SFX e1 a eta/F0 [^òr]na	ds:eto
-SFX e1 a eta/F0 [^è]rna	ds:eto
-SFX e1 a eta/F0 [^ò][ktx]a	ds:eto
 SFX e1 o eto/M0Pd [^èò]ƚo	ds:eto
 SFX e1 o eto/M0Pd [^ò][kst]o	ds:eto
-SFX e1 a eta/F0 [^è][dgr]a	ds:eto
-SFX e1 èrna erneta/F0 èrna	ds:eto
+
+# sostantivi/ajetivi alterai — demenutivi femenili (-eta)
+SFX e2 Y 66
+SFX e2 0 ta/F0 e	ds:eto
+SFX e2 0 eta/F0 n	ds:eto
+SFX e2 ía ïeta/F0 ía	ds:eto
+SFX e2 úa üeta/F0 úa	ds:eto
+SFX e2 èl eleta/F0 èl	ds:eto
+SFX e2 òl oleta/F0 òl	ds:eto
+SFX e2 èo eeta/F0 èo	ds:eto
+SFX e2 ío ïeta/F0 ío	ds:eto
+SFX e2 úo üeta/F0 úo	ds:eto
+SFX e2 èr ereta/F0 èr	ds:eto
+SFX e2 a eta/F0 [^àbcdđèégíjɉklƚmnñòóprstŧúx]a	ds:eto
+SFX e2 0 eta/F0 [^èò]l	ds:eto
+SFX e2 o eta/F0 [^àbcdđeèéíjɉkƚnñoòósŧuúvx]o	ds:eto
+SFX e2 0 eta/F0 [^è]r	ds:eto
+SFX e2 èba ebeta/F0 èba	ds:eto
+SFX e2 òba obeta/F0 òba	ds:eto
+SFX e2 òca oceta/F0 òca	ds:eto
+SFX e2 èda edeta/F0 èda	ds:eto
+SFX e2 òda odeta/F0 òda	ds:eto
+SFX e2 èđa eđeta/F0 èđa	ds:eto
+SFX e2 òđa ođeta/F0 òđa	ds:eto
+SFX e2 èga egeta/F0 èga	ds:eto
+SFX e2 òga ogeta/F0 òga	ds:eto
+SFX e2 òja ojeta/F0 òja	ds:eto
+SFX e2 òɉa oɉeta/F0 òɉa	ds:eto
+SFX e2 èka eketa/F0 èka	ds:eto
+SFX e2 òka oketa/F0 òka	ds:eto
+SFX e2 èla eleta/F0 èla	ds:eto
+SFX e2 òla oleta/F0 òla	ds:eto
+SFX e2 òma ometa/F0 òma	ds:eto
+SFX e2 òna oneta/F0 òna	ds:eto
+SFX e2 òña oñeta/F0 òña	ds:eto
+SFX e2 èpa epeta/F0 èpa	ds:eto
+SFX e2 òpa opeta/F0 òpa	ds:eto
+SFX e2 èra ereta/F0 èra	ds:eto
+SFX e2 èsa eseta/F0 èsa	ds:eto
+SFX e2 òsa oseta/F0 òsa	ds:eto
+SFX e2 òta oteta/F0 òta	ds:eto
+SFX e2 èŧa eŧeta/F0 èŧa	ds:eto
+SFX e2 òŧa oŧeta/F0 òŧa	ds:eto
+SFX e2 èxa exeta/F0 èxa	ds:eto
+SFX e2 òxa oxeta/F0 òxa	ds:eto
+SFX e2 òbo obeta/F0 òbo	ds:eto
+SFX e2 òco oceta/F0 òco	ds:eto
+SFX e2 òdo odeta/F0 òdo	ds:eto
+SFX e2 èđo eđeta/F0 èđo	ds:eto
+SFX e2 èjo ejeta/F0 èjo	ds:eto
+SFX e2 èɉo eɉeta/F0 èɉo	ds:eto
+SFX e2 òko oketa/F0 òko	ds:eto
+SFX e2 òno oneta/F0 òno	ds:eto
+SFX e2 òño oñeta/F0 òño	ds:eto
+SFX e2 èso eseta/F0 èso	ds:eto
+SFX e2 òso oseta/F0 òso	ds:eto
+SFX e2 èŧo eŧeta/F0 èŧo	ds:eto
+SFX e2 òŧo oŧeta/F0 òŧo	ds:eto
+SFX e2 èvo eveta/F0 èvo	ds:eto
+SFX e2 èxo exeta/F0 èxo	ds:eto
+SFX e2 a eta/F0 [^òr]na	ds:eto
+SFX e2 a eta/F0 [^è]ra	ds:eto
+SFX e2 a eta/F0 [^ò][cjɉmñt]a	ds:eto
+SFX e2 a eta/F0 [^èò][bdđgklpsŧx]a	ds:eto
+SFX e2 o eta/F0 [^ò][bcdk]o	ds:eto
+SFX e2 o eta/F0 [^èò][sŧ]o	ds:eto
+SFX e2 o eta/F0 [^è][jɉvx]o	ds:eto
+SFX e2 èrna erneta/F0 èrna	ds:eto
+SFX e2 a eta/F0 [^è]rna	ds:eto
+
+# sostantivi/ajetivi alterai — demenutivi femenili ko èle vanesente (-ƚ-eta)
+SFX e3 Y 23
+SFX e3 0 ta/F0 e	ds:eto
+SFX e3 0 eta/F0 n	ds:eto
+SFX e3 ía ïeta/F0 ía	ds:eto
+SFX e3 èr ereta/F0 èr	ds:eto
+SFX e3 a eta/F0 [^dgíkƚntx]a	ds:eto
+SFX e3 o eta/F0 [^ƚ]o	ds:eto
+SFX e3 0 eta/F0 [^è]r	ds:eto
+SFX e3 èda edeta/F0 èda	ds:eto
+SFX e3 èga egeta/F0 èga	ds:eto
+SFX e3 òka oketa/F0 òka	ds:eto
+SFX e3 èƚa eƚeta/F0 èƚa	ds:eto
+SFX e3 òƚa oƚeta/F0 òƚa	ds:eto
+SFX e3 òna oneta/F0 òna	ds:eto
+SFX e3 òta oteta/F0 òta	ds:eto
+SFX e3 òxa oxeta/F0 òxa	ds:eto
+SFX e3 èƚo eƚeta/F0 èƚo	ds:eto
+SFX e3 òƚo oƚeta/F0 òƚo	ds:eto
+SFX e3 a eta/F0 [^è]ga	ds:eto
+SFX e3 a eta/F0 [^èò]ƚa	ds:eto
+SFX e3 a eta/F0 [^òr]na	ds:eto
+SFX e3 o eta/F0 [^èò]ƚo	ds:eto
+SFX e3 a eta/F0 [^ò][kx]a	ds:eto
+SFX e3 èrna erneta/F0 èrna	ds:eto
 
 # sostantivi/ajetivi alterai — demenutivi (-èl/-èla)
 SFX eL Y 34
@@ -5395,66 +5426,6 @@ SFX i9 a ina/F0 [^ò][bnŧ]a	ds:in
 SFX i9 a ina/F0 [^è][rv]a	ds:in
 SFX i9 o ina/F0 [^ò][dk]o	ds:in
 SFX i9 o ina/F0 [^è][cƚx]o	ds:in
-
-#SFX i9 Y 58
-#SFX i9 0 ina/F0 [^aolnr]	ds:in
-#SFX i9 o ina/F0 [^bcdđèkjɉƚòstŧxv]o	ds:in
-#SFX i9 èo eina/F0 èo	ds:in
-#SFX i9 òo oina/F0 òo	ds:in
-#SFX i9 òbo obina/F0 òbo	ds:in
-#SFX i9 èco ecina/F0 èco	ds:in
-#SFX i9 èđo eđina/F0 èđo	ds:in
-#SFX i9 òco ocina/F0 òco	ds:in
-#SFX i9 òdo odina/F0 òdo	ds:in
-#SFX i9 èjo ejina/F0 èjo	ds:in
-#SFX i9 èɉo eɉina/F0 èɉo	ds:in
-#SFX i9 òko okina/F0 òko	ds:in
-#SFX i9 èl elina/F0 èl	ds:in
-#SFX i9 èƚo eƚina/F0 èƚo	ds:in
-#SFX i9 òl olina/F0 òl	ds:in
-#SFX i9 òƚo oƚina/F0 òƚo	ds:in
-#SFX i9 òn onina/F0 òn	ds:in
-#SFX i9 èr erina/F0 èr	ds:in
-#SFX i9 èso esina/F0 èso	ds:in
-#SFX i9 òso osina/F0 òso	ds:in
-#SFX i9 èto etina/F0 èto	ds:in
-#SFX i9 òto otina/F0 òto	ds:in
-#SFX i9 òŧo oŧina/F0 òŧo	ds:in
-#SFX i9 èxo exina/F0 èxo	ds:in
-#SFX i9 èvo evina/F0 èvo	ds:in
-#SFX i9 0 ina/F0 [^èò]l	ds:in
-#SFX i9 o ina/F0 [^èò][cjɉƚst]o	ds:in
-#SFX i9 0 ina/F0 [^ò]n	ds:in
-#SFX i9 o ina/F0 [^ò][bdkŧ]o	ds:in
-#SFX i9 0 ina/F0 [^è]r	ds:in
-#SFX i9 o ina/F0 [^è][đxv]o	ds:in
-#SFX i9 a ina/F0 [^bcdđèkjɉlƚnòrstŧxv]a	ds:in
-#SFX i9 èa eina/F0 èa	ds:in
-#SFX i9 òa oina/F0 òa	ds:in
-#SFX i9 òba obina/F0 òba	ds:in
-#SFX i9 èca ecina/F0 èca	ds:in
-#SFX i9 èđa eđina/F0 èđa	ds:in
-#SFX i9 òca ocina/F0 òca	ds:in
-#SFX i9 òda odina/F0 òda	ds:in
-#SFX i9 èja ejina/F0 èja	ds:in
-#SFX i9 èɉa eɉina/F0 èɉa	ds:in
-#SFX i9 òka okina/F0 òka	ds:in
-#SFX i9 èla elina/F0 èla	ds:in
-#SFX i9 èƚa eƚina/F0 èƚa	ds:in
-#SFX i9 òla olina/F0 òla	ds:in
-#SFX i9 òƚa oƚina/F0 òƚa	ds:in
-#SFX i9 òna onina/F0 òna	ds:in
-#SFX i9 èra erina/F0 èra	ds:in
-#SFX i9 èsa esina/F0 èsa	ds:in
-#SFX i9 òsa osina/F0 òsa	ds:in
-#SFX i9 èta etina/F0 èta	ds:in
-#SFX i9 òta otina/F0 òta	ds:in
-#SFX i9 òŧa oŧina/F0 òŧa	ds:in
-#SFX i9 èxa exina/F0 èxa	ds:in
-#SFX i9 èva evina/F0 èva	ds:in
-#SFX i9 a ina/F0 [^èò][cjɉlƚst]a	ds:in
-#SFX i9 a ina/F0 [^ò][bdknŧ]a	ds:in
-#SFX i9 a ina/F0 [^è][đrxv]a	ds:in
 
 # sostantivi alterai — demenutivi (-?)
 #SFX 00 . (e)đin/A1 [?]
