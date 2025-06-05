@@ -4151,7 +4151,7 @@ SFX A1 o e o	is:plural
 SFX A1 o i [^i]o	is:plural+masculine
 SFX A1 io i io	is:plural+masculine
 
-# sostantivi plurali maskili, ajetivi de sekonda klase (-C/-a > -e, -C/-e > -i)
+# sostantivi plurali maskolini, ajetivi de sekonda klase (-C/-a > -e, -C/-e > -i)
 SFX A2 Y 6
 SFX A2 a e a	is:singular+masculine
 SFX A2 e i e	is:plural+masculine
@@ -4183,7 +4183,7 @@ SFX F0 e i [^i]e	is:plural+femenine
 SFX F0 e 0 ie	is:plural+femenine
 SFX F0 a e a	is:plural+femenine
 
-# sostantivi plurali maskili (-C/-o/-a/-e > -i)
+# sostantivi plurali maskolini (-C/-o/-a/-e > -i)
 SFX M0 Y 12
 SFX M0 0 i [^aàeéioó]	is:plural+masculine
 SFX M0 0 o [^aàeéioó]	is:singular+masculine
@@ -4325,7 +4325,7 @@ SFX v1 jo ɉo/M0 jo
 SFX Vf Y 1
 SFX Vf l ƚe/F0 [aeiouàèéíòóúïü]l	is:singular+femenine+veneŧian
 
-# trasformaŧion intra varianti (maskil l > ƚe)
+# trasformaŧion intra varianti (maskolin l > ƚe)
 SFX Vm Y 1
 SFX Vm l ƚe/A2 [aeiouàèéíòóúïü]l	is:singular+masculine+veneŧian
 
@@ -4779,50 +4779,6 @@ SFX iS 0 isia/F0 l	is:singular+femenine
 SFX iS e isia/F0 ƚe	is:singular+femenine
 SFX iS o isia/F0 o	is:singular+femenine
 
-
-# nominali deverbali (-ŧion)
-#SFX z0 Y 16
-#SFX z0 r ŧion/F0BBu1Pd ar
-#SFX z0 erò ŧion/F0B1BuPd aerò
-#SFX z0 r ŧion/F0B1BuPd [^uü]ir
-#SFX z0 ir ŧion/F0B1BuPd [uü]ir
-#SFX z0 erò iŧion/F0B1BuPd terò
-#SFX z0 merò nŧion/F0B1BuPd merò
-#SFX z0 nerò xiŧion/F0B1BuPd nerò
-#SFX z0 ñerò nŧion/F0B1BuPd ñerò
-#SFX z0 erò ion/F0B1BuPd [đsŧ]erò
-#SFX z0 derò uŧion/F0B1BuPd lderò
-#SFX z0 derò ŧion/F0B1BuPd nderò
-#SFX z0 verò ŧion/F0B1BuPd iverò
-#SFX z0 verò uŧion/F0B1BuPd lverò
-#SFX z0 guerò ŧion/F0B1BuPd guerò
-#SFX z0 xerò ŧion/F0B1BuPd [^r]xerò
-#SFX z0 orxerò ureŧion/F0B1BuPd orxerò
-
-# nominali deverbali (-sion)
-#SFX s0 Y 15
-#SFX s0 r sion/F0B1BuPd [^i]r
-#SFX s0 erò sion/F0B1BuPd aerò
-#SFX s0 r sion/F0B1BuPd [^uü]ir
-#SFX s0 ir sion/F0B1BuPd [uü]ir
-#SFX s0 erò ision/F0B1BuPd terò
-#SFX s0 merò nsion/F0B1BuPd merò
-#SFX s0 nerò xision/F0B1BuPd nerò
-#SFX s0 ñerò nsion/F0B1BuPd ñerò
-#SFX s0 derò usion/F0B1BuPd lderò
-#SFX s0 derò sion/F0B1BuPd nderò
-#SFX s0 verò sion/F0B1BuPd iverò
-#SFX s0 verò usion/F0B1BuPd lverò
-#SFX s0 guerò sion/F0B1BuPd guerò
-#SFX s0 xerò sion/F0B1BuPd [^r]xerò
-#SFX s0 orxerò uresion/F0B1BuPd orxerò
-
-# nominali deverbali ko èle vanesente (-sion)
-#SFX s7 Y 4
-#SFX s7 r sion/F0BuPd r
-#SFX s7 xerò sion/F0BuPd xerò
-#SFX s7 lderò ƚusion/F0BuPd lderò
-#SFX s7 lverò ƚusion/F0BuPd lverò
 
 # nominali deverbali (-dur, -dura)
 SFX d0 Y 12
