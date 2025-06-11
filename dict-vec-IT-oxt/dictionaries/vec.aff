@@ -4413,7 +4413,8 @@ PFX Ci r ri r[oò]
 #PFX Ci t ti tè
 
 # trasformaŧion iniŧial de paròla intra varianti (pro > por, kon > kun, ...)
-PFX Cu Y 12
+PFX Cu Y 13
+PFX Cu b bu b[oò]
 PFX Cu B Bu Bò
 PFX Cu d du d[oò]
 PFX Cu f fu f[oò]
@@ -4426,7 +4427,6 @@ PFX Cu r ru rò
 PFX Cu t tu tò
 PFX Cu br bru brò
 PFX Cu pr pru prò
-#PFX Cu b bu bò
 #PFX Cu m mu mò
 #PFX Cu v vu v[oò]
 #PFX Cu sk sku skò
@@ -5322,6 +5322,10 @@ SFX iN o in/M0Bu [^ò][dkp]o	ds:in
 SFX iN o in/M0Bu [^è][đx]o	ds:in
 SFX iN o in/M0Bu [^èò][cjɉƚstŧ]o	ds:in
 
+# (-adina > -aina)
+SFX aD Y 1
+SFX aD dina ina/F0 adina
+
 # sostantivi alterai — demenutivi (-?)
 #SFX 00 . (e)đin/A1 [?]
 #SFX 00 . (e)ŧin/A1 [?]
@@ -5330,7 +5334,7 @@ SFX iN o in/M0Bu [^èò][cjɉƚstŧ]o	ds:in
 
 
 # sostantivi/ajetivi alterai — kresitivi (-on/B1BuPd)
-SFX o0 Y 61
+SFX o0 Y 62
 SFX o0 0 on/B1BuPd n	is:singular+masculine ds:on
 SFX o0 èa eon/B1BuPd èa	is:singular+masculine ds:on
 SFX o0 ía ion/B1BuPd [aeiou]ía	is:singular+masculine ds:on
@@ -5342,7 +5346,7 @@ SFX o0 òo oon/B1BuPd [^aeiou]òo	is:singular+masculine ds:on
 SFX o0 èl elon/B1BuPd èl	is:singular+masculine ds:on
 SFX o0 òl olon/B1BuPd òl	is:singular+masculine ds:on
 SFX o0 èr eron/B1BuPd èr	is:singular+masculine ds:on
-SFX o0 a on/B1BuPd [^bcdđéèfíjɉlmnprstŧx]a	is:singular+masculine ds:on
+SFX o0 a on/B1BuPd [^bcdđéèfkíjɉlmnprstŧx]a	is:singular+masculine ds:on
 SFX o0 e on/B1BuPd [^t]e	is:singular+masculine ds:on
 SFX o0 0 on/B1BuPd [^èò]l	is:singular+masculine ds:on
 SFX o0 0 n/B1BuPd [^bcdgíjɉkmòpstŧ]o	is:singular+masculine ds:on
@@ -5351,6 +5355,7 @@ SFX o0 èba ebon/B1BuPd èba	is:singular+masculine ds:on
 SFX o0 òca ocon/B1BuPd òca	is:singular+masculine ds:on
 SFX o0 èda edon/B1BuPd èda	is:singular+masculine ds:on
 SFX o0 òđa ođon/B1BuPd òđa	is:singular+masculine ds:on
+SFX o0 òka okon/B1BuPd òka	is:singular+masculine ds:on
 SFX o0 òfa ofon/B1BuPd òfa	is:singular+masculine ds:on
 SFX o0 èja ejon/B1BuPd èja	is:singular+masculine ds:on
 SFX o0 èɉa eɉon/B1BuPd èɉa	is:singular+masculine ds:on
@@ -5388,7 +5393,7 @@ SFX o0 òŧo oŧon/B1BuPd òŧo	is:singular+masculine ds:on
 SFX o0 e on/B1BuPd [^è]te	is:singular+masculine ds:on
 SFX o0 a on/B1BuPd [^èò][lpt]a	is:singular+masculine ds:on
 SFX o0 a on/B1BuPd [^è][bdjɉmr]a	is:singular+masculine ds:on
-SFX o0 a on/B1BuPd [^ò][cđfnsŧx]a	is:singular+masculine ds:on
+SFX o0 a on/B1BuPd [^ò][cđfknsŧx]a	is:singular+masculine ds:on
 SFX o0 0 n/B1BuPd [^è]go	is:singular+masculine ds:on
 SFX o0 0 n/B1BuPd [^ò][bdkmp]o	is:singular+masculine ds:on
 SFX o0 0 n/B1BuPd [^èò][cjɉstŧ]o	is:singular+masculine ds:on
@@ -5463,7 +5468,7 @@ SFX o1 0 na [^èò][cjɉƚt]o	is:singular+femenine ds:on
 SFX o1 0 na [^ò][ksŧ]o	is:singular+femenine ds:on
 
 # sostantivi/ajetivi alterai — kresitivi maskolini (-one)
-SFX o2 Y 64
+SFX o2 Y 65
 SFX o2 e one [^t]e	is:plural+masculine ds:on
 SFX o2 e one [^è]te	is:plural+masculine ds:on
 SFX o2 0 one n	is:plural+masculine ds:on
@@ -5474,7 +5479,7 @@ SFX o2 ío ione [aeiou]ío	is:plural+masculine ds:on
 SFX o2 ío ïone [^aeiou]ío	is:plural+masculine ds:on
 SFX o2 òo oone [aeiou]òo	is:plural+masculine ds:on
 SFX o2 òo oone [^aeiou]òo	is:plural+masculine ds:on
-SFX o2 a one [^bcdđèfgílƚmnprstŧx]a	is:plural+masculine ds:on
+SFX o2 a one [^bcdđèfkgílƚmnprstŧx]a	is:plural+masculine ds:on
 SFX o2 0 one [^èò]l	is:plural+masculine ds:on
 SFX o2 0 ne [^bcdgíjɉkƚmòpstŧ]o	is:plural+masculine ds:on
 SFX o2 0 one [^è]r	is:plural+masculine ds:on
@@ -5484,6 +5489,7 @@ SFX o2 èda edone èda	is:plural+masculine ds:on
 SFX o2 èga egone èga	is:plural+masculine ds:on
 SFX o2 èla elone èla	is:plural+masculine ds:on
 SFX o2 èƚa eƚone èƚa	is:plural+masculine ds:on
+SFX o2 òka okone òka	is:plural+masculine ds:on
 SFX o2 òfa ofone òfa	is:plural+masculine ds:on
 SFX o2 òla olone òla	is:plural+masculine ds:on
 SFX o2 òƚa oƚone òƚa	is:plural+masculine ds:on
@@ -5522,7 +5528,7 @@ SFX o2 èŧo eŧone èŧo	is:plural+masculine ds:on
 SFX o2 èa eone èa	is:plural+masculine ds:on
 SFX o2 ía ione [aeiou]ía	is:plural+masculine ds:on
 SFX o2 ía ïone [^aeiou]ía	is:plural+masculine ds:on
-SFX o2 a one [^ò][cđfnsŧx]a	is:plural+masculine ds:on
+SFX o2 a one [^ò][cđfknsŧx]a	is:plural+masculine ds:on
 SFX o2 a one [^è][bdgmr]a	is:plural+masculine ds:on
 SFX o2 0 ne [^èò][lƚpt]a	is:plural+masculine ds:on
 SFX o2 0 ne [^èò][cjɉƚstŧ]o	is:plural+masculine ds:on
@@ -5575,7 +5581,7 @@ SFX o3 0 ne [^èò][cjɉt]o	is:plural+femenine ds:on
 SFX o3 0 ne [^ò][ksŧ]o	is:plural+femenine ds:on
 
 # sostantivi/ajetivi alterai — kresitivi (-oni)
-SFX o4 Y 64
+SFX o4 Y 65
 SFX o4 0 oni n	is:plural+masculine ds:on
 SFX o4 èa eoni èa	is:plural+masculine ds:on
 SFX o4 ía ioni [aeiou]ía	is:plural+masculine ds:on
@@ -5587,7 +5593,7 @@ SFX o4 òo ooni [^aeiou]òo	is:plural+masculine ds:on
 SFX o4 èl eloni èl	is:plural+masculine ds:on
 SFX o4 òl oloni òl	is:plural+masculine ds:on
 SFX o4 èr eroni èr	is:plural+masculine ds:on
-SFX o4 a oni [^bcdđèfgílƚmnprstŧx]a	is:plural+masculine ds:on
+SFX o4 a oni [^bcdđèfgíklƚmnprstŧx]a	is:plural+masculine ds:on
 SFX o4 e oni [^t]e	is:plural+masculine ds:on
 SFX o4 0 oni [^èò]l	is:plural+masculine ds:on
 SFX o4 0 ni [^bcdgíjɉkƚmòpstŧ]o	is:plural+masculine ds:on
@@ -5600,6 +5606,7 @@ SFX o4 èga egoni èga	is:plural+masculine ds:on
 SFX o4 èla eloni èla	is:plural+masculine ds:on
 SFX o4 òfa ofoni òfa	is:plural+masculine ds:on
 SFX o4 òla oloni òla	is:plural+masculine ds:on
+SFX o4 òka okoni òka	is:plural+masculine ds:on
 SFX o4 èƚa eƚoni èƚa	is:plural+masculine ds:on
 SFX o4 òƚa oƚoni òƚa	is:plural+masculine ds:on
 SFX o4 èma emoni èma	is:plural+masculine ds:on
@@ -5636,7 +5643,7 @@ SFX o4 òŧo oŧoni òŧo	is:plural+masculine ds:on
 SFX o4 e oni [^è]te	is:plural+masculine ds:on
 SFX o4 a oni [^èò][lƚpt]a	is:plural+masculine ds:on
 SFX o4 a oni [^è][bdgmr]a	is:plural+masculine ds:on
-SFX o4 a oni [^ò][cđfnsŧx]a	is:plural+masculine ds:on
+SFX o4 a oni [^ò][cđfknsŧx]a	is:plural+masculine ds:on
 SFX o4 0 ni [^è]go	is:plural+masculine ds:on
 SFX o4 0 ni [^ò][bdkmp]o	is:plural+masculine ds:on
 SFX o4 0 ni [^èò][cjɉƚstŧ]o	is:plural+masculine ds:on
@@ -5732,7 +5739,7 @@ SFX aT òvo ovato/M0A0 òvo	ds:ato
 SFX aT 0 ta/F0 [^èò]la	ds:ato
 SFX aT 0 ta/F0 [^è][cjɉ]a	ds:ato
 SFX aT 0 ta/F0 [^ò][bknst]a	ds:ato
-SFX aT o ato/M0A0 [^èò][cjɉ]o	ds:ato
+SFX aT o ato/M0A0 [^èò][bcjɉ]o	ds:ato
 SFX aT o ato/M0A0 [^ò][kmst]o	ds:ato
 
 # sostantivi/ajetivi alterai — peđorativi ko èle vanesente (-ato/a)
