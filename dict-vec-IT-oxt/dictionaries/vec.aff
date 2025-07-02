@@ -4413,7 +4413,7 @@ PFX Ci r ri r[oò]
 #PFX Ci t ti tè
 
 # trasformaŧion iniŧial de paròla intra varianti (pro > por, kon > kun, ...)
-PFX Cu Y 13
+PFX Cu Y 14
 PFX Cu b bu b[oò]
 PFX Cu B Bu Bò
 PFX Cu d du d[oò]
@@ -4424,6 +4424,7 @@ PFX Cu ƚ ƚu ƚò
 PFX Cu n nu n[oò]
 PFX Cu p pu pò
 PFX Cu r ru rò
+PFX Cu s su sò
 PFX Cu t tu tò
 PFX Cu br bru brò
 PFX Cu pr pru prò
@@ -5904,7 +5905,7 @@ SFX aL òƚa oƚasa/F0 òƚa	ds:aŧo
 
 
 # sostantivi/ajetivi alterai — peđorativi (-uŧo/a)
-SFX uZ Y 12
+SFX uZ Y 13
 SFX uZ a uŧa/F0 [^l]a	ds:uŧo
 SFX uZ a uŧa/F0 [^ò]la	ds:uŧo
 SFX uZ òla oluŧa/F0 òla	ds:uŧo
@@ -5914,12 +5915,13 @@ SFX uZ òl oluŧo/M0A0 òl	ds:uŧo
 SFX uZ 0 uŧo/M0A0 n	ds:uŧo
 SFX uZ e uŧo/M0A0 [^t]e	ds:uŧo
 SFX uZ o uŧo/M0A0 [^t]o	ds:uŧo
+SFX uZ e uŧo/M0A0 [^è]te	ds:uŧo
 SFX uZ ète etuŧo/M0A0 ète	ds:uŧo
 SFX uZ èto etuŧo/M0A0 èto	ds:uŧo
 SFX uZ o uŧo/M0A0 [^è]to	ds:uŧo
 
 # sostantivi/ajetivi alterai — peđorativi (-uso/a)
-SFX uS Y 12
+SFX uS Y 13
 SFX uS a usa/F0 [^l]a	ds:uŧo
 SFX uS a usa/F0 [^ò]la	ds:uŧo
 SFX uS òla olusa/F0 òla	ds:uŧo
@@ -5929,6 +5931,7 @@ SFX uS òl oluso/M0A0 òl	ds:uŧo
 SFX uS 0 uso/M0A0 n	ds:uŧo
 SFX uS e uso/M0A0 [^t]e	ds:uŧo
 SFX uS o uso/M0A0 [^t]o	ds:uŧo
+SFX uS e uso/M0A0 [^è]te	ds:uŧo
 SFX uS ète etuso/M0A0 ète	ds:uŧo
 SFX uS èto etuso/M0A0 èto	ds:uŧo
 SFX uS o uso/M0A0 [^è]to	ds:uŧo
