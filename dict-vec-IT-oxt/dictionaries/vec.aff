@@ -3440,7 +3440,7 @@ SFX xS èser esande/P0P1P2 èser	ds:gerund+simple	# T2 + n[dt]o, liventin
 # vèrbi '-er inregolari: pu?oder
 # changes in indicative present, indicative future, conditional present, imperative present
 # TODO pòser? poser?
-# TODO dover => dòxer? doxer?
+# TODO do(v?)er => dòxer? doxer?
 SFX xT Y 133
 SFX xT oder òso/I1 oder	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xT oder òse/I1A0 oder	ds:indicative+present is:first+singular	# T8 + [oe], belumat
@@ -4397,25 +4397,6 @@ PFX Co pre per pre
 #PFX Co tor tru tor
 
 # trasformaŧion iniŧial de paròla intra varianti (pro > por, kon > kun, ...)
-PFX Ci Y 10
-PFX Ci b bi bè
-PFX Ci m mi me
-PFX Ci fr fri frè
-PFX Ci pr pri prè
-PFX Ci r ri r[oò]
-PFX Ci đ đi đ[oò]
-PFX Ci l li lò
-PFX Ci ƚ ƚi ƚò
-PFX Ci n ni n[oò]
-PFX Ci x xi x[oò]
-#PFX Ci l li le
-#PFX Ci ƚ ƚi ƚe
-#PFX Ci m mi mè
-#PFX Ci p pi pè
-#PFX Ci s si s[eè]
-#PFX Ci t ti tè
-
-# trasformaŧion iniŧial de paròla intra varianti (pro > por, kon > kun, ...)
 PFX Cu Y 14
 PFX Cu b bu b[oò]
 PFX Cu B Bu Bò
@@ -4434,6 +4415,26 @@ PFX Cu pr pru prò
 #PFX Cu m mu mò
 #PFX Cu v vu v[oò]
 #PFX Cu sk sku skò
+
+# trasformaŧion iniŧial de paròla intra varianti (pro > por, kon > kun, ...)
+PFX Ci Y 11
+PFX Ci b bi bè
+PFX Ci f fi fè
+PFX Ci m mi m[eè]
+PFX Ci fr fri frè
+PFX Ci pr pri prè
+PFX Ci r ri r[oò]
+PFX Ci đ đi đ[oò]
+PFX Ci l li lò
+PFX Ci ƚ ƚi ƚò
+PFX Ci n ni n[oò]
+PFX Ci x xi x[oò]
+#PFX Ci l li le
+#PFX Ci ƚ ƚi ƚe
+#PFX Ci m mi mè
+#PFX Ci p pi pè
+#PFX Ci s si s[eè]
+#PFX Ci t ti tè
 
 
 ### Pàdoa ###
