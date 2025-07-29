@@ -1107,7 +1107,7 @@ SFX N0 0 0/A0 e	ds:indicative+present is:third	# T10, belumat
 # -àr, -ér, '-er, -ír, -ír/is
 # group: indicative imperfect, indicative future, subjunctive imperfect, conditional present
 # used if word does not contains ƚ
-SFX N1 Y 304
+SFX N1 Y 306
 SFX N1 r ve/I1A0 [ae]r	ds:indicative+imperfect is:first+singular	# T2 + (v)[aeo]
 SFX N1 ar eve/I1A0 ar	ds:indicative+imperfect is:first+singular	# T2 + (v)[aeo], metaplaxmo, liventin
 SFX N1 r ve/I1 ir	ds:indicative+imperfect is:first+singular	# T2 + (v)[aeo]
@@ -1134,7 +1134,8 @@ SFX N1 ir eon/I2P4 ir	ds:indicative+imperfect is:first+plural	# T11 + (iv)([ei])
 SFX N1 ar ion/I2P4 [^cijɉñ]ar	ds:indicative+imperfect is:first+plural	# T11 + (iv)([ei])ón(s[ei]), belumat
 SFX N1 er ion/I2P4 [^cijɉñ]er	ds:indicative+imperfect is:first+plural	# T11 + (iv)([ei])ón(s[ei]), belumat
 SFX N1 erò ion/I2P4 [^cijɉñ]erò	ds:indicative+imperfect is:first+plural	# T11 + (iv)([ei])ón(s[ei]), belumat
-SFX N1 r on/I2P4 ir	ds:indicative+imperfect is:first+plural	# T11 + (iv)([ei])ón(s[ei]), belumat
+SFX N1 r on/I2P4 [aeiouàèéíòóúïü]ir	ds:indicative+imperfect is:first+plural	# T11 + (iv)([ei])ón(s[ei]), belumat
+SFX N1 ir ïon/I2P4 [^aeiouàèéíòóúïü]ir	ds:indicative+imperfect is:first+plural	# T11 + (iv)([ei])ón(s[ei]), belumat
 SFX N1 ar ivon/I2P4 ar	ds:indicative+imperfect is:first+plural	# T11 + (iv)([ei])ón(s[ei])
 SFX N1 er ivon/I2P4 er	ds:indicative+imperfect is:first+plural	# T11 + (iv)([ei])ón(s[ei])
 SFX N1 erò ivon/I2P4 erò	ds:indicative+imperfect is:first+plural	# T11 + (iv)([ei])ón(s[ei])
@@ -1205,7 +1206,8 @@ SFX N1 ir on/P3P4 ir	ds:subjunctive+imperfect is:first+plural	# T11 + (is)(i)ón
 SFX N1 ar ion/P3P4 [^cijɉñ]ar	ds:subjunctive+imperfect is:first+plural	# T11 + (is)(i)ón(e|s[ei])
 SFX N1 er ion/P3P4 [^cijɉñ]er	ds:subjunctive+imperfect is:first+plural	# T11 + (is)(i)ón(e|s[ei])
 SFX N1 erò ion/P3P4 [^cijɉñ]erò	ds:subjunctive+imperfect is:first+plural	# T11 + (is)(i)ón(e|s[ei])
-SFX N1 r on/P3P4 ir	ds:subjunctive+imperfect is:first+plural	# T11 + (is)(i)ón(e|s[ei])
+SFX N1 r on/P3P4 [aeiouàèéíòóúïü]ir	ds:subjunctive+imperfect is:first+plural	# T11 + (is)(i)ón(e|s[ei])
+SFX N1 ir ïon/P3P4 [^aeiouàèéíòóúïü]ir	ds:subjunctive+imperfect is:first+plural	# T11 + (is)(i)ón(e|s[ei])
 SFX N1 ar ison/P3P4 ar	ds:subjunctive+imperfect is:first+plural	# T11 + (is)(i)ón(e|s[ei])
 SFX N1 er ison/P3P4 er	ds:subjunctive+imperfect is:first+plural	# T11 + (is)(i)ón(e|s[ei])
 SFX N1 erò ison/P3P4 erò	ds:subjunctive+imperfect is:first+plural	# T11 + (is)(i)ón(e|s[ei])
@@ -1582,7 +1584,7 @@ SFX N7 erò aró/I5 erò	ds:conditional+present is:third	# T4 + ró
 
 # -ír, -ír/is, northern variant
 # used if word does not contains ƚ
-SFX W0 Y 15
+SFX W0 Y 16
 SFX W0 r s/I5 ir	ds:indicative+present is:first+singular	# T8 + [oe], belumat, ko sonoriđaŧion final
 SFX W0 ir on/I2 ir	ds:indicative+present is:first+plural	# T12 + ón
 SFX W0 ir en/I2 ir	ds:indicative+present is:first+plural	# T12 + én
@@ -1591,7 +1593,8 @@ SFX W0 ir íses/I3 ir	ds:indicative+present is:second+singular	# T8 + es, 2s=3, 
 SFX W0 ir è/I4 ir	ds:indicative+present is:second+plural	# T12 + [èé]
 SFX W0 ir é/I4 ir	ds:indicative+present is:second+plural	# T12 + [èé]
 SFX W0 ir on/P3 ir	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
-SFX W0 r on/P3 ir	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
+SFX W0 r on/P3 [aeiouàèéíòóúïü]ir	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
+SFX W0 ir ïon/P3 [^aeiouàèéíòóúïü]ir	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
 SFX W0 ir en/P3 ir	ds:subjunctive+present is:first+plural	# T12 + én(e), metaplaxmo
 SFX W0 r n/P3 ir	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e), belumat, ŧenedexe
 SFX W0 ir é/P5 ir	ds:subjunctive+present is:second+plural	# T12 + é([dg]e)
@@ -1601,7 +1604,7 @@ SFX W0 ir é/P0 ir	ds:imperative+present is:second+plural	# T12 + [èé]
 
 # -ír/is, northern variant
 # used if word does not contains ƚ
-SFX W1 Y 14
+SFX W1 Y 15
 SFX W1 r se/I1A0 ir	ds:indicative+present is:first+singular	# T8 + [oe], belumat
 SFX W1 r son/I2 ir	ds:indicative+present is:first+plural	# T12 + ón
 SFX W1 r sen/I2 ir	ds:indicative+present is:first+plural	# T12 + én
@@ -1610,7 +1613,8 @@ SFX W1 ir íses/I3 ir	ds:indicative+present is:second+singular	# T8 + es, 2s=3, 
 SFX W1 r sè/I4 ir	ds:indicative+present is:second+plural	# T12 + [èé]
 SFX W1 r sé/I4 ir	ds:indicative+present is:second+plural	# T12 + [èé]
 SFX W1 r s ir	ds:subjunctive+present is:first+singular	# T8 + e, ko sonoriđaŧion final
-SFX W1 r on/P3 ir	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
+SFX W1 r on/P3 [aeiouàèéíòóúïü]ir	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
+SFX W1 ir ïon/P3 [^aeiouàèéíòóúïü]ir	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
 SFX W1 r son/P3 ir	ds:subjunctive+present is:first+plural	# T12 + (i)ón(e)
 SFX W1 r sen/P3 ir	ds:subjunctive+present is:first+plural	# T12 + én(e), metaplaxmo
 SFX W1 r s ir	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3, belumat, ko sonoriđaŧion final
