@@ -369,12 +369,12 @@ COMPOUNDRULE (|5)(-b)(|6)	# sento-mi[lƚ]e
 # ĐER. SÉNPLIŦE^P	[T2 + n[dt]o, T2 + nd/nt (-àr), T2 + nde] (+ klítego konplemento (in)dirèto)
 #						T7 + n[dt]o
 #
-# le parti tra paréntexi tonde no le xe obligatòrie, tra kuadre sí
+# le parti tra paréntexi tonde no le xé obligatòrie, tra kuadre sí
 # mòdi ke i gà `^I` i vòl díxer ke i gà anka la deklinaŧion interogativa
 # mòdi ke i gà `^P` i vòl díxer ke i gà anka la koniugaŧion prokonplementar
-# metaplaxmo 1a > 2a:	par tuti i mòdi e i tenpi fora ke inté ’l infenío, partiŧipio pasivo in -d-, e xerundio
+# metaplaxmo 1a > 2a:	par tuti i mòdi e i tenpi fora ke inté ’l infenío, partiŧipio pasivo in -d-, e xerondio
 # TODO: variante padoana: ge pòl èser un xbasamento de `e` nò tònega in `a` vanti `r`
-# TODO vèrbi prokonplementari: fora ke pal reflesivo e par ŧèrti vèrbi kome déver, èser, aver, e saver ke no i ga sta forma
+# TODO vèrbi prokonplementari: fora ke pal reflesivo e par ŧèrti vèrbi kome déver, èser, aver, e saver ke no i gà sta forma
 
 # LA 1A PARS. SING. DE INTÉ ‘L DEMOSTRATIVO:
 #	a. PAR LE VARIANTI FEL.–BEL. E LIV. LA FENISE PAR -e/-è o -a/-à (kante, kantava/e, kantarà/kantarè).
@@ -922,15 +922,17 @@ SFX L1 ò ae-lo/I6 erò	ds:conditional+present is:third ds:interrogative is:sing
 # from T3, T4, for -ér, '-er, -ír
 # group: imperative present second singular
 # used if word does not contains ƚ
-SFX L2 Y 2
+SFX L2 Y 3
 SFX L2 e i-l/P1 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
+SFX L2 e a-l/P1 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
 SFX L2 0 -l/P1 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
 
 # -àr, -ér, '-er, -ír
 # group: imperative present
 # used if word does not contains ƚ
-SFX L3 Y 9
-SFX L3 a e-l/P1 a	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
+SFX L3 Y 10
+SFX L3 e a-l/P1 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
+SFX L3 0 -l/P1 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
 SFX L3 e i-l/P1 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
 SFX L3 ar é-l/P1 ar	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
 SFX L3 ar è-l/P1 ar	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5, ŧenedexe
@@ -1026,15 +1028,17 @@ SFX l1 ò ae-ƚo/I8 erò	ds:conditional+present is:third ds:interrogative is:sin
 # from T3, T4, for -ér, '-er, -ír
 # group: imperative present second singular
 # used if word does contains ƚ
-SFX l2 Y 2
+SFX l2 Y 3
 SFX l2 e i-ƚo/P2 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
+SFX l2 e a-ƚo/P2 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
 SFX l2 0 -ƚo/P2 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
 
 # -àr, -ér, '-er, -ír
 # group: imperative present
 # used if word does contains ƚ
-SFX l3 Y 9
-SFX l3 a e-ƚo/P2 a	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
+SFX l3 Y 10
+SFX l3 e a-ƚo/P2 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
+SFX l3 0 -ƚo/P2 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
 SFX l3 e i-ƚo/P2 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
 SFX l3 ar é-ƚo/P2 ar	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
 SFX l3 ar è-ƚo/P2 ar	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
@@ -3801,8 +3805,8 @@ SFX xV àer asto/A1A0 tràer	ds:participle+passive+strong is:singular+masculine
 # đenitivo: v. + ne
 # logativo + akuxativo/đenitivo: v. + ge + la/ne
 # reflesivo: v. + se + la/ne
-# i klítegi i pasa vanti de ‘l vèrbo intéi mòdi feníi, ma no intel komandativo indove ke ‘l se kata da drío (fora ke par thèrti vèrbi kome `déver`, `èser`, `aver`, e `saver` ke no i gà sta forma)
-# par i mòdi indefeníi inveŧe el ge xe e ‘l rèsta dadrío sol ke intel infenío e xerundio
+# i klítegi i pasa vanti de ‘l vèrbo intéi mòdi feníi, ma no inté ’l komandativo indove ke ‘l se kata da drío (fora ke par thèrti vèrbi kome `déver`, `èser`, `aver`, e `saver` ke no i gà sta forma)
+# par i mòdi indefeníi inveŧe el ge xé e ‘l rèsta dadrío sol ke inté ’l infenío e xerundio
 SFX P0 Y 29
 SFX P0 0 -me .	ds:pronomenal+reflexive is:first+singular
 SFX P0 0 -ne .	ds:pronomenal+genitive is:first+plural
@@ -4073,8 +4077,8 @@ SFX I8 o e -ƚo	ds:interrogative is:plural+femenine
 # sonoriđaŧion final
 # NÒTA: tute le vokali le pòl kaskar, fòra ke la `a` e la `e` derivante da un femenil plural de la prima deklinaŧion latina
 # NÒTA: na koa konsonàntega ’té la sílaba ke la vièn prima la ostàkola de pi l’ apòkope
-# NÒTA: le konsonanti ke le favorise de pi l’ apòkope le xe, in órden: r, l, n, m (ponto krítego), frikative (f/v, ŧ/đ, s/x), afrikae (c/ɉ), okluxive (t/d, g/k, p/b, m, n, ñ)
-SFX A0 Y 50
+# NÒTA: le konsonanti ke le favorise de pi l’ apòkope le xé, in órden: r, l, n, m (ponto krítego), frikative (f/v, ŧ/đ, s/x), afrikae (c/ɉ), okluxive (t/d, g/k, p/b, m, n, ñ)
+SFX A0 Y 52
 SFX A0 e 0 [aeèiíoòu][^aàeéèiïíoóòuüúñ]e
 SFX A0 go k [aeèoòu]go
 SFX A0 go k [aeèoòu]ngo
@@ -4124,7 +4128,9 @@ SFX A0 e 0 [aeèoòu]ñe
 SFX A0 e 0 [aeèiíoòu][lrn]ñe
 SFX A0 o 0 [aeèiíoòu][lrn]ño
 SFX A0 o 0 [aeèiíoòu]ño
-SFX A0 i 0 i
+SFX A0 i 0 [^đŧ]i
+SFX A0 đi ŧ đi
+SFX A0 xi s xi
 
 #SFX A0 e 0 [^aàeéèiïíoóòuüúlrnñ]e
 #SFX A0 e 0 [aeèioòu][lr]e
@@ -6444,31 +6450,33 @@ PFX '0 se ’ se
 PFX '0 ga ’ ga
 PFX '0 kò ’ kò
 PFX '0 g ’ g[oóu]
-PFX '0 in ’ int
+PFX '0 in ’ in[st]
 PFX '0 kon ’ kon
 
 
 # paròle ŧonkae a la fine
-SFX '9 Y 22
-SFX '9 i ’ [^aàeèéiíïoòóiúü]i
-SFX '9 i 0 [aàeèéiíïoòóiúü]i
-SFX '9 r ’ r
-SFX '9 u ’ u
+SFX '9 Y 24
+SFX '9 a ’ [klnstŧv]a
 SFX '9 ra ’ ra
 SFX '9 va ’ va
-SFX '9 xa ’ [aè]xa
+SFX '9 xa ’ xa
+SFX '9 e ’ [dkgnsvx]e
 SFX '9 é ’ é
+SFX '9 oe ó’ oe
+SFX '9 de ’ [aenò]de
 SFX '9 me ’ me
-SFX '9 de ’ de
-SFX '9 ke ’ ke
+SFX '9 ke ’ nke
 SFX '9 te ’ te
+SFX '9 ove ó’ ove
+SFX '9 i ’ [èñòuú]i
+SFX '9 ai à ai
+SFX '9 o ’ [đnñsŧúx]o
+SFX '9 o ’ [rsu]to
+SFX '9 oi ó oi
 SFX '9 do ’ do	# (kuan’ + C)
 SFX '9 ko ’ ko
-SFX '9 vo ’ vo
 SFX '9 to ’ [ns]to	# `nto` sol ke vanti na konsonante (ex. 'tan’ bèl')
 SFX '9 to ’ tuto	# sol ke vanti na èse+konsonante e `t` (ex. 'tu’ stà', 'tu’ ’té ’n momènt')
-SFX '9 o ’ [^n]to
-SFX '9 a ’ [^rx]a
-SFX '9 e ’ [^mt]e
-SFX '9 o ’ [^dktv]o
-SFX '9 ove ó’ ove
+SFX '9 vo ’ vo
+SFX '9 u ’ u
+SFX '9 r ’ r
