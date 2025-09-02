@@ -4230,7 +4230,7 @@ SFX F0 a e a	is:plural+femenine
 
 # sostantivi plurali maskolini (-C/-o/-a/-e > -i)
 SFX M0 Y 12
-SFX M0 0 i [^aàeéioó]	is:plural+masculine
+SFX M0 0 i [^aàeéoó]	is:plural+masculine
 SFX M0 0 o [^aàeéioó]	is:singular+masculine
 SFX M0 o i [^i]o	is:plural+masculine
 SFX M0 io i io	is:plural+masculine
@@ -4466,13 +4466,15 @@ PFX Cu v vu v[oò]
 #PFX Cu sk sku sk[oò]
 
 # trasformaŧion iniŧial de paròla intra varianti (pro > por, kon > kun, ...)
-PFX Ci Y 14
+PFX Ci Y 16
 PFX Ci b bi b[eè]
 PFX Ci f fi f[eè]
 PFX Ci m mi m[eè]
 PFX Ci s si s[eèoò]
 PFX Ci br bri br[eè]
 PFX Ci fr fri fr[eè]
+PFX Ci gr gri gr[eè]
+PFX Ci Gr Gri Gr[eè]
 PFX Ci pr pri pr[eè]
 PFX Ci st sti st[oò]
 PFX Ci r ri r[eèoò]
