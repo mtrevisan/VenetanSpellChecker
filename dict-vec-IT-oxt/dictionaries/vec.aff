@@ -3484,12 +3484,11 @@ SFX xS èser esande/P0P1P2 èser	ds:gerund+simple	# T2 + n[dt]o, liventin
 # changes in indicative present, indicative future, conditional present, imperative present
 # TODO pòser? poser?
 # TODO do(v?)er => dòxer? doxer?
-SFX xT Y 133
+SFX xT Y 132
 SFX xT oder òso/I1 oder	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xT oder òse/I1A0 oder	ds:indicative+present is:first+singular	# T8 + [oe], belumat
 SFX xT oder òle/I1A0 oder	ds:indicative+present is:first+singular	# T8 + [oe]
 SFX xT oder òƚe/I1 oder	ds:indicative+present is:first+singular	# T8 + [oe]
-SFX xT oder us/I3 poder ds:indicative+present is:second+singular	# T8 + is
 SFX xT oder òr-lo/I6 oder	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà
 SFX xT oder òla/I5 oder	ds:indicative+present is:third	# T10
 SFX xT oder òli/I5 oder	ds:indicative+present is:third	# T10, đulian
@@ -4443,7 +4442,8 @@ PFX Co pre per pre
 #PFX Co tor tru tor
 
 # trasformaŧion iniŧial de paròla intra varianti (pro > por, kon > kun, ...)
-PFX Cu Y 19
+PFX Cu Y 21
+PFX Cu 0 u [oò]
 PFX Cu b bu b[oò]
 PFX Cu B Bu B[oò]
 PFX Cu d du d[oò]
@@ -4462,6 +4462,7 @@ PFX Cu x xu x[oò]
 PFX Cu br bru br[oò]
 PFX Cu pr pru pr[oò]
 PFX Cu st stu st[oò]
+PFX Cu tr tru tr[oò]
 PFX Cu v vu v[oò]
 #PFX Cu sk sku sk[oò]
 
