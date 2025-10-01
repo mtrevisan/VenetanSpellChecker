@@ -9792,7 +9792,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "ŧupeg",			"",			1,	1,	"a",	"1590",			"Sorbir, cucar.",
 "ŧurl",			"",			1,	1,	"a",	"15700223",		"(veneŧian) Delirar, molestar, inkietar.",
 "ŧurm",			"",			1,	1,	"a",	"1660",			"(veneŧian)",
-"ŧuŧ",			"",			1,	1,	"a",	"1775",			"Sucar.",
+"ŧuŧ",			"",			1,	1,	"a",	"15700223",		"(veneŧian) Sucar.",
 "ŧux",			"in",			1,	1,	"a",	"1855",			"(belumat) Inŧukir.",
 "ŧux",			"in",			4,	3,	"a",	"1855",			"(belumat) Inŧukir.",
 
@@ -10290,6 +10290,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "vexet",			"rin",		1,	1,	"a",	"181101",		"(veneŧian)",
 "vexin",			"",			1,	3,	"a",	"1660",			"(veneŧian)",
 "vexit",			"",			1,	3,	"a",	"XV",				"Vixitat.",
+"vï",				"a",			1,	1,	"a",	"15700223",		"(veneŧian)",
 "vï",				"de",			1,	1,	"a",	"1867",			"",
 "vï",				"dex",		1,	1,	"a",	"14571101",		"(veneŧian)",
 "vï",				"in",			1,	1,	"a",	"1294",			"",
