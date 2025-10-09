@@ -4606,6 +4606,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "kux",			"s",			4,	3,	"a",	"",				"Deskúxer.",
 "kuxin",			"",			1,	3,	"a",	"1342",			"",
 
+"l",				"tranx",		1,	1,	"g",	"15700223",		"(veneŧian)",
 "ladr",			"",			1,	1,	"g",	"1829",			"Robar.",
 "lak",			"dex",		1,	1,	"g",	"1982",			"Stankar.",
 "lak",			"x",			1,	1,	"g",	"",				"",
@@ -7108,7 +7109,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "poses",			"in",			1,	3,	"g",	"",				"",
 "poses",			"s",			1,	3,	"g",	"1854",			"",
 "posièd",		"",			3,	3,	"g",	"15700223",		"(veneŧian)",
-"post",			"",			1,	1,	"g",	"1775",			"Ténder a kualkeduni.",
+"post",			"",			1,	1,	"g",	"15700223",		"(veneŧian) Ténder a kualkeduni.",
 "post",			"a",			1,	1,	"g",	"1854",			"Aguatar, insidiar, méter in posta.",
 "post",			"kon",		1,	1,	"g",	"1854",			"Kondir.",
 "post",			"in",			1,	1,	"g",	"14571101",		"(veneŧian)",
