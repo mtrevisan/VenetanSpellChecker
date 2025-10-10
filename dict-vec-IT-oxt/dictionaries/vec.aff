@@ -4219,6 +4219,12 @@ SFX A4 e io e	is:singular+masculine
 SFX A4 o io [^i]o	is:singular+masculine
 SFX A4 0 io [lnr]	is:singular+masculine
 
+# sostantivi singolari: đontamento de -e a le paròle in -o/a (-[lnr] > -[lnr]e, -o > -e, -a > -e)
+SFX A5 Y 3
+SFX A5 a e a	is:singular+masculine
+SFX A5 o e o	is:singular+masculine
+SFX A5 0 e [lnr]	is:singular+masculine
+
 # sostantivi plurali femenili, ajetivi de tèrŧa klase (-a/e)
 SFX F0 Y 5
 SFX F0 0 e [^aeio]	is:singular+femenine
@@ -4469,21 +4475,21 @@ PFX Cu v vu v[oò]
 # trasformaŧion iniŧial de paròla intra varianti (pro > por, kon > kun, ...)
 PFX Ci Y 16
 PFX Ci b bi b[eè]
+PFX Ci đ đi đ[oò]
 PFX Ci f fi f[eè]
+PFX Ci l li l[oò]
+PFX Ci ƚ ƚi ƚ[oò]
 PFX Ci m mi m[eè]
+PFX Ci n ni n[eèoò]
+PFX Ci r ri r[eèoò]
 PFX Ci s si s[eèoò]
+PFX Ci x xi x[oò]
 PFX Ci br bri br[eè]
 PFX Ci fr fri fr[eè]
 PFX Ci gr gri gr[eè]
 PFX Ci Gr Gri Gr[eè]
 PFX Ci pr pri pr[eè]
 PFX Ci st sti st[oò]
-PFX Ci r ri r[eèoò]
-PFX Ci đ đi đ[oò]
-PFX Ci l li l[oò]
-PFX Ci ƚ ƚi ƚ[oò]
-PFX Ci n ni n[oò]
-PFX Ci x xi x[oò]
 #PFX Ci l li l[eè]
 #PFX Ci ƚ ƚi ƚ[eè]
 #PFX Ci m mi m[eè]
