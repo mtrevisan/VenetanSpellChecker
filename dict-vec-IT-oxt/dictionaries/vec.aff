@@ -4220,10 +4220,9 @@ SFX A4 o io [^i]o	is:singular+masculine
 SFX A4 0 io [lnr]	is:singular+masculine
 
 # sostantivi singolari: đontamento de -e a le paròle in -o/a (-[lnr] > -[lnr]e, -o > -e, -a > -e)
-SFX A5 Y 3
-SFX A5 a e a	is:singular+masculine
-SFX A5 o e o	is:singular+masculine
-SFX A5 0 e [lnr]	is:singular+masculine
+SFX M1 Y 2
+SFX M1 o e o	is:singular+masculine
+SFX M1 0 e [lnr]	is:singular+masculine
 
 # sostantivi plurali femenili, ajetivi de tèrŧa klase (-a/e)
 SFX F0 Y 5
@@ -5059,6 +5058,12 @@ SFX i0 o ista/A3 [^è][st]o	is:singular ds:ista
 SFX i0 ònia onista/A3 ònia	is:singular ds:ista
 SFX i0 èlio elista/A3 èlio	is:singular ds:ista
 SFX i0 èƚio eƚista/A3 èƚio	is:singular ds:ista
+
+# astraŧion (-ía)
+SFX i1 Y 3
+SFX i1 e ía/F0 e	is:femenine
+SFX i1 o ía/F0 o	is:femenine
+SFX i1 0 ía/F0 [nr]	is:femenine
 
 # avèrbi (-mente)
 SFX w0 Y 3
