@@ -7,16 +7,16 @@ The vec.aff affix file was created from scratch by Mauro Trevisan.
 
 ---------------------------------------------------------------------
 
-T0/T1/T2/T3/T4/T5/T6/T7: conjugation for -àr, -ér, '-er, -ír, -ír/is (T0 is indicative present, T1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, T2 is subjunctive present, T3 is imperative present, T4 is indefinitive form, T5 is conjugation for -ír/is, T6 is indicative present second singular for stressed third person of '-er, T7 is for padoan vowel lowering for '-er)
+T0/T1/T2/T3/T4/T5/T6/T7/T9: conjugation for -àr, -ér, '-er, -ír, -ír/is (T0 is indicative present, T1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, T2 is subjunctive present, T3 is imperative present, T4 is indefinitive form, T5 is conjugation for -ír/is, T6 is indicative present second singular for stressed third person of '-er, T7 is for padoan vowel lowering for '-er, T9 is stressed root indicative present second singular person interrogative)
 L0/L1/L2/L3/L4/L5/L7: conjugation for -àr, -ér, '-er, -ír, -ír/is for third person pronomenal verbs, non-vanishing el (L0 is indicative present, L1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, L2/L3 is imperative present, L4 is indefinitive form, L5 is conjugation for -ír/is, L7 is for padoan vowel lowering for '-er)
 l0/l1/l2/l3/l4/l5/l7: conjugation for -àr, -ér, '-er, -ír, -ír/is for third person pronomenal verbs, vanishing el (l0 is indicative present, l1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, l2/l3 is imperative present, l4 is indefinitive form, l5 is conjugation for -ír/is, l7 is for padoan vowel lowering for '-er)
-N0/N1/N2/N3/N4/N5/N7: conjugation for -àr, -ér, '-er, -ír, -ír/is, northern variant (N0 is indicative present, N1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, N2 is subjunctive present, N3 is imperative present, N4 is indefinitive form, N5 is indicative present for -ír/is, T7 is for padoan vowel lowering for '-er)
+N0/N1/N2/N3/N4/N5/N7/N9: conjugation for -àr, -ér, '-er, -ír, -ír/is, northern variant (N0 is indicative present, N1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, N2 is subjunctive present, N3 is imperative present, N4 is indefinitive form, N5 is indicative present for -ír/is, T7 is for padoan vowel lowering for '-er, N9 is stressed root indicative present second singular person interrogative)
 W0: conjugation for -ír, -ír/is, northern variant
 W1: conjugation for -ír/is, northern variant
-W2: infinitive simple for -àr, -ír, -ír/is, lagunar variant
-W3: infinitive simple for -ér, padoan and coxòto variants
-W4: infinitive simple for '-er, padoan and coxòto variants
-W5: infinitive simple for '-er, non-vanishing el variant
+W2/W3: infinitive simple for -àr, -ír, -ír/is, lagunar variant (non-vanishing el variant/vanishing el variant)
+W4/W5: infinitive simple for -ér, padoan and coxòto variants (non-vanishing el variant/vanishing el variant)
+W6/W7: infinitive simple for '-er, padoan and coxòto variants (non-vanishing el variant/vanishing el variant)
+W8: infinitive simple for '-er, non-vanishing el variant
 
 xA: irregular verb (re)?andar
 xB: irregular verb (re)?av?er, (re)?g(av)?er, ’v?er
@@ -40,11 +40,12 @@ I7/I8: interrogatives for third (0>-ƚ[oaie], -ƚo>-ƚ[aie])
 
 A0: sonorization of final consonants (ñ.>nc|ñ[oei], ñ.>in|ñ[oei], ñ.>n|ñ[oei], ñ.>ñ|ñ[oei], b.>p|b[oei], p.>p|p[oei], ...)
 A1: all declinations, adjectives of first class (0>[oaie]|[^oaie], o>i|[^ij]o, .o>i|[ij]o, o>[ae])
-A2: adjectives of second class (0>[aie]|[^oaie], a>[ie])
-A3: masculine plural nouns, adjectives of third class (0>e|[èélnr], e>i, 0>i|[aèélnr])
-A4: adding of -io/a to the words in -o/a ([lnr]>.io, [oe]>io, a>ia)
+A2: adjectives of second class (0>[ei]|[èlnr], a>e, e>i, é>e[ei])
+A3: masculine plural nouns, adjectives of third class (0>[aei]|[^aeio], a>[ei])
+A4: adding of -io/a to the words in -o/a ([lnr]>.io, e>io, o>io|[^i]o, a>ia)
 F0: feminine plural nouns, adjectives of third class (0>[ei]|[^oaie], a>e, e>i)
 M0: masculine plural nouns (0>[oi]|[^oaie], o>i|[^i]o, .o>i|io, [ae]>i)
+M1: adding of masculine -e to the words in -o/a ([lnr]>.e, o>e, a>e)
 X0: genderless plural nouns (e>i, [nr]>[nr]i)
 X1: genderless abstract nouns (ade>ae|à|è, ude>úe?)
 
@@ -60,13 +61,13 @@ Vs: prefix for vicentine transformation (re->ra-/ar-, se->sa-, per- > par-)
 Vr/VR: veronexe transformation (-ente > -ènte/M0A0, -en[pstŧ]o > -èn[pstŧ]o/M0A0Pd, -en[dstŧ]a > -èn[dstŧ]a/F0, -osto > -òsto/M0A0, -ongo > -òngo/M0A0, -evo > -èvo/M0)
 
 v0/v7: plants and crafts ((i)èr>ar(o/a/i/e), dor>(t)or(a/i/e)|[aeiou]dor, ol>i[oò]l(o/a/i/e)|[dđñrsŧx]ol, ol>òl(o/a/i/e)|[dđñrsŧx]ol, ...)
-m0/m7: deverbal nominals (-ment(o/i))
-z0/s0/s7: deverbal nominals (r>ŧion, r>sion)
 d0/d7: deverbal nominals ([ai]r>(d)ura, [ai]dur>ur, [ai]dur>ureto, [ai]dura>ura, [ai]dura>ureta)
 x0/x7: deaverbial nominals (a>ixm[oi]|[nr], a>ixm[oi])
 r0: denominal nominals (-[ae]ría)
 i0: denominal nominals (a>ist[aei]|l, [ae]>ist[aei], o>ist[aei]|[^i]o, o>st[aei]|io)
+i1: abstraction ([eo]>ía, 0>ía|n)
 w0: adverbs (-mente)
+m0/m7: collectives (-ame)
 y0/y1: collective nouns (duro>ur[oi] / ada>à[ae], ida>í[ae], uda>ú[ae])
 Z0: ignore upper/lower case
 
@@ -75,7 +76,7 @@ aZ/aS/aL: altered nouns (-aŧo/a, -aso/a, -ƚ-aso/a)
 eL/e7: altered nouns (-èl/èla, -èƚo/a)
 eT/e1: altered nouns (-eto/a, -ƚ-eto/a)
 eZ/eS: deajectival nominals (-eŧa/e, -esa/e)
-iN: altered nouns (-in/-ina)
+iN/aD: altered nouns (-in/-ina, -adina>-aina)
 iZ/iS: deajectival nominals (-iŧia/e, -isia/e)
 o0/o7: altered nouns (-on, -ƚ-on)
 o1: altered nouns (-ona)
@@ -123,18 +124,18 @@ The following minor suffixes have been ignored, based on frequency counts in the
 
 Dictionaries, works, and documents used:
 
-  1. [20160228] http://www.roebasse.it/diz/. 20141208, 2269 voci. | http://www.roebasse.altervista.org/diz/index.htm, http://www.roebasse.altervista.org/diz/zzaa.htm. 20210522, 2318 voci.
-  2. [20160301] Patriarchi, Gasparo. Vocabolario veneziano e padovano co’ termini e mòdi corrispondenti toscani. I ed. Padova; 1775.
+  1. [20160228] http://www.roebasse.it/diz/. 20141208, 2269 voci. | http://www.roebasse.altervista.org/diz/index.htm, http://www.roebasse.altervista.org/diz/zzaa.htm, https://digilander.libero.it/svanpack/diz/zzaa.htm. 20210522, 2318 voci.
+  2. [20160301] Patriarchi, Gasparo. Vocabolario veneziano e padovano co’ termini e mòdi corrispondenti toscani. I ed. Padova; 1775. (https://books.google.it/books?id=fqICAAAAQAAJ)
   3. [20160525] Patriarchi, Gasparo. Vocabolario veneziano e padovano co’ termini e mòdi corrispondenti toscani. II ed. Padova; 1796.
   4. [20160530] Patriarchi, Gasparo. Vocabolario veneziano e padovano co’ termini e mòdi corrispondenti toscani. III ed. Padova; 1821.
-  5. [20160612] Bortolan, Domenico. Vocabolario del dialetto antico vicentino (dal secolo XIV a tutto il secolo XVI). Vicenza; 1893.
+  5. [20160612] Bortolan, Domenico. Vocabolario del dialetto antico vicentino (dal secolo XIV a tutto il secolo XVI). Vicenza; 1893. (https://archive.org/details/vocabolariodeldi00bortuoft)
   6. [20160704] Venturi, Giuseppe. Saggio di un dizionario veronese–italiano. Verona; 1810.
   7. [20160706] Angeli, Gaetano. Piccolo vocabolario veronese e toscano. Verona; 1821.
   8. [20160717] Dizionario tascabile del dialetto veneziano: come viene usitato anche nelle provincie di Padova di Vicenza e di Treviso, coi termini toscani corrispondenti or ora abbreviato e ridotto a comodità di tutti. Padova; 1847.
   9. [20160725] Mutinelli, Fabio. Lessico veneto: compilato per agevolare la lettura della storia dell’antica repubblica veneta e lo studio dei documenti ad esse relativi. Venezia; 1852.
  10. [20160731] Contarini, Pietro. Dizionario tascabile delle voci e frasi particolari del dialetto veneziano. II ed. Venezia; 1852.
  11. [20160816] da Schio, Giovanni. Saggio del dialetto vicentino, uno dei veneti, ossia, raccolta di voci usate a Vicenza, per servire alla storia del suo popolo e della sua civiltà. Estratto d’opera assai maggiore. Padova; 1855.
- 12. [20160817] Boerio, Giuseppe. Dizionario del dialetto veneziano. I ed. Venezia; 1829.
+ 12. [20160817] Boerio, Giuseppe. Dizionario del dialetto veneziano. I ed. Venezia; 1829. (https://archive.org/details/bub_gb_Z6TGQeb-Xd4C)
  13. [20180322] Boerio, Giuseppe. Dizionario del dialetto veneziano. II ed. Venezia; 1856.
  14. [20180329] Boerio, Giuseppe. Dizionario del dialetto veneziano. III ed. Venezia; 1867.
  15. [20180329] Paoletti, Ermolao. Dizionario tascabile veneziano–italiano. I ed. Venezia; 1851.
@@ -143,10 +144,10 @@ Dictionaries, works, and documents used:
  18. [20190127] Nazari, Giulio. Dizionario veneziano–italiano e regole di grammatica ad uso delle scuole elementari di Venezia. II ed. Belluno; 1876.
  19. [20190223] Nazari, Giulio. Dizionario vicentino–italiano e regole di grammatica ad uso delle scuole elementari di Vicenza. Oderzo; 1876.
  20. [20190327] Contarini, Pietro. Vocabolario portabile del dialetto veneziano. III ed. Venezia; 1888.
- 21. [20190417] Bindoni, Vincenzo. Vocabolarietto del dialetto trevigiano ad uso delle scuole. Treviso; 1884.
+ 21. [20190417] Bindoni, Vincenzo. Vocabolarietto del dialetto trevigiano ad uso delle scuole. Treviso; 1884. (https://archive.org/details/BindoniVocabolariettoDelDialettoTrevigiano)
  22. [20190430] Nazari, Giulio. Parallelo fra il dialetto bellunese rustico e la lingua italiana. Belluno; 1894.
  23. [20190619] Kosovitz, Ernesto. Dizionario del dialetto triestino e della lingua italiana. Trieste; 1877.
- 24. [20190710] Patuzzi, Gaetano Lionello; Bolognini, Giorgio; Bolognini, Adolfo. Piccolo dizionario del dialetto moderno della città di Verona. Verona; 1900.
+ 24. [20190710] Patuzzi, Gaetano Lionello; Bolognini, Giorgio; Bolognini, Adolfo. Piccolo dizionario del dialetto moderno della città di Verona. Verona; 1900. (https://archive.org/details/DizionarioVerona)
  25. [20190904] Padoan, Lorenzo. Saggiuoli clodiensi — Un po’ d’appendice al Boerio, a maggior illustrazione del dialetto di Chioggia. Adria; 1906.
  26. [20190909] Piccio, Giuseppe. Dizionario veneziano–italiano. II ed. Venezia; 1928.
  27. [20191107] Vienna, Carlo. Vocabolario bellunese–italiano. 1844–1855.
@@ -160,7 +161,7 @@ Dictionaries, works, and documents used:
  35. [20210217] Forzatè, Claudio (poeta e nobile padovano, noto con lo pseudonimo di Scareggio Tandarello). ca. 1550–1610.
  36. [20210219] de’ Calderari, Giovan Battista (poeta vicentino, noto con lo pseudonimo di Caldiera Braghin di Forabusi da Bolzan). ca. 1541–15900105.
  37. [20210302] Tomasin, Lorenzo. Calendario trecentesco delle feste per la scuola di san Martino di Belluno. In "Storia della lingua e filologia". Firenze; 2004. pp. 159‒76.
- 38. [20210303] Tomasin, Lorenzo. Quindici testi veneziani 1300–1310. In "Lingua e stile", XLVIII. 201306. pp 3‒48.
+ 38. [20210303] Tomasin, Lorenzo. Quindici testi veneziani 1300–1310. In "Lingua e stile", XLVIII. 201306. pp. 3‒48.
  39. [20210305] https://www.fierun.com/blank. 2021.
  40. [20210305] nodaro Belli Niccolò di Venezia. Venezia; 129709.
  41. [20210305] codice Palatino 2613. Venezia; ante 1333.
@@ -176,7 +177,7 @@ Dictionaries, works, and documents used:
  51. [20210308] Ricci, Teodora. lettere. Venezia; 17740722; 178309.
  52. [20210308] Clario, Benedetto. Il primo canto de Orlando furioso in lingua venetiana. Composto per Benedetto Clario per dar piacer a gli suoi amici (framento). Venezia; 1554.
  53. [20210310] Reffo, Irene. Lingua e storia degli antichi mestieri veneziani. Padova; 2017.
- 54. [20210311] Zaratin, Zanin. deliberazione del Consiglio dei Dieci. Venezia; 1399.
+ 54. [20210311] Zaratin, Zanin. Deliberazione del Consiglio dei Dieci. Venezia; 1399.
  55. [20210311] mariégola de i remèri. Venezia; 1381; 1411; 1419; 1519; 1653.
  56. [20210311] Canal, Cristoforo. Dialogo sul remo. Venezia; 1553–1554.
  57. [20210311] mariégola de i barcaroli. Venezia; 1517.
@@ -224,8 +225,8 @@ Dictionaries, works, and documents used:
 102. [20230302] Bernoni, Domenico Giuseppe. Indovinelli popolari veneziani raccolti da Domenico Giuseppe Bernoni. Venezia; 1874.
 103. [20230302] Bertanza, Enrico; Lazzarini, Vittorio. Il dialetto veneziano - fino alla morte di Dante Alighieri; 1321. Venezia; 1891.
 104. [20230411] Libro de misser Tristan. XV sec. (http://www.bibliotecaitaliana.it/testo/bibit000362)
-105. [20230523] Rosman, Enrico. Vocabolarietto veneto giuliano. Roma; 192209.
-106. [20231031] Nazari, Giulio. Dizionario bellunese–italiano e osservazioni di grammatica ad uso delle scuole elementari di Belluno. Oderzo; 1884.
+105. [20230523] Rosman, Enrico. Vocabolarietto veneto giuliano. Roma; 192209. (https://ia801602.us.archive.org/21/items/vocabolariettove00rosmuoft/vocabolariettove00rosmuoft.pdf)
+106. [20231031] Nazari, Giulio. Dizionario bellunese–italiano e osservazioni di grammatica ad uso delle scuole elementari di Belluno. Oderzo; 1884. (https://babel.hathitrust.org/cgi/pt?id=uc1.c097144015&seq=7)
 107. [20240220] Pizzati, Lodovico. Venetian-English English-Venetian. 2007. (https://books.google.it/books?id=Jz2V1LL2u1YC)
 108. [20240604] Semenzato, Massimo. L’avifauna nei dialetti del territorio veneziano. 201807. (https://www.birdingveneto.eu/venezia/uccelli_dialetto.pdf)
 108. [20240604] Giglioli, Enrico Hillyer. Avifauna italica. Elenco delle specie di uccelli stazionarie o di passaggio in Italia, colla loro sinonimia volgare e con notizie più specialmente intorno alle migrazioni ed alla nidificazione. Firenze; 18860701. (https://ia601304.us.archive.org/29/items/avifaunaitalicae00ital/avifaunaitalicae00ital.pdf)
@@ -233,12 +234,17 @@ Dictionaries, works, and documents used:
 110. [20240912] Dizionario del dialetto di Barcon di Vedelago. Treviso; 2001. (https://barcon.it/dizionario-veneto-italiano/)
 111. [20241120] Le parole del dialetto veneto di Ernesto Calzavara. A cura di Anna Rinaldin. 1960-1974. (https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-109-6/978-88-6969-109-6-ch-00_ozYz6e2.pdf)
 112. [20241122] Cortelazzo, Manlio. Dizionario veneziano della lingua e della cultura popolare nel XVI secolo. Padova; 2007. [parziale]
-113. [20241122] Cronica deli imperadori romani. Venezia; 1301. [parziale]
-114. [20241122] Tomasin, Lorenzo; d’Onghia, Luca. Vocabolario storico-etimologico del veneziano. Consultato 20250328, 7906 voci. (http://vev.ovi.cnr.it/)
+113. [20241122] Cronica deli imperadori romani. Venezia; 1301. [parziale] (https://books.google.it/books?id=hLwgKxSdYSoC&printsec=frontcover&hl=it#v=onepage&q&f=false)
+114. [20241122] Tomasin, Lorenzo; d’Onghia, Luca. Vocabolario storico-etimologico del veneziano. Consultato 20250610, 7965 voci. (http://vev.ovi.cnr.it/)
 115. [20250320] Mussafia, Adolfo. Trattato de regimine rectoris di fra Paolino Minorita [131509]. Vienna; 1868. (https://archive.org/details/bub_gb_3MdLAAAAcAAJ/page/n9/mode/2up)
 116. [20250328] L’arte de l’abbacho. Treviso. 14781210. (https://www.centromorin.it/info/abacho/abbacho.pdf)
-117. [20250401] Sanudo, Marin. Le vite dei dogi. Tomo I — 1423-1457 [14571101]. Venezia; 1999. (https://archive.org/details/bub_gb_08lvlGSooWUC)
-118. [20250509] Sanudo, Marin. Le vite dei dogi. Tomo II — 1457-1474 [14740716]. Venezia; 2004. (https://books.google.it/books?id=5aklAiLQyB8C)
+117. [20250401] Sanudo, Marin. Le vite dei dogi. Tomo I — 1423-1457 [14571101]. Venezia; 1999. (https://archive.org/details/bub_gb_08lvlGSooWUC/mode/2up)
+118. [20250509] Sanudo, Marin. Le vite dei dogi. Tomo II — 1457-1474 [147503]. Venezia; 2004. (https://books.google.it/books?id=5aklAiLQyB8C)
+119. [20250527] Brugnolo, Furio. Il canzoniere di Nicolò de’ Rossi [XIV sec.]. Padova; 1974. (https://www.academia.edu/40279415/Furio_BRUGNOLO_Il_canzoniere_di_Nicol%C3%B2_de_Rossi_Padova_Antenore_)
+120. [20250611] Balbi, Domenico. El pantalon Burlao. Venezia; 1673. (https://books.google.it/books?id=L0bfsZJ8pWMC)
+121. [20250702] Calmo, Andrea. Le giocose moderne et facetissime egloghe pastorali. Venezia; 1557. (https://www.google.it/books/edition/Le_giocose_moderne_et_facetissime_eglogh/-cq6gVFLixAC)
+122. [20250709] Le lettere di messer Andrea Calmo [15700223]. Torino; 1888. (https://books.google.it/books?id=6yFdAAAAMAAJ)
+123. [20251017] Il Vangelo di S. Matteo volgarizzato in dialetto veneziano dal sig. Gianjacopo Fontana. Londra; 1859. (https://books.google.it/books?id=K91UAAAAcAAJ)
 
 
 ---------------------------------------------------------------------
