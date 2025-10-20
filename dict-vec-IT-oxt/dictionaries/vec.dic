@@ -698,9 +698,9 @@ babalar/T0T1T2T3T4L1L3L4N0N1N2N4W2P0P1	po:verb ds:infinitive+simple
 bàbale/T0T2T3T9L0L3N0N2N9I5	po:verb ds:indicative+present is:third st:babalar
 babaƚar/T0T1T2T3T4l1l3l4W3P0P2	po:verb ds:infinitive+simple
 bàbaƚe/T0T2T3T9l0l3I7	po:verb ds:indicative+present is:third st:babaƚar
-badar/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W2W3P0P1P2*0	po:verb ds:infinitive+simple
-bade/T0T2T3L0L3l0l3N0N2I5I7A0*0	po:verb ds:indicative+present is:third st:badar
-bàdis/T0N0*0	po:verb ds:indicative+present is:second+singular st:badar
+badar/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W2W3P0P1P2@0*0	po:verb ds:infinitive+simple
+bade/T0T2T3L0L3l0l3N0N2I5I7A0@0*0	po:verb ds:indicative+present is:third st:badar
+bàdis/T0N0@0*0	po:verb ds:indicative+present is:second+singular st:badar
 badajar/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W2W3P0P1P2*0	po:verb ds:infinitive+simple
 badaje/T0T2T3L0L3l0l3N0N2I5I7*0	po:verb ds:indicative+present is:third st:badajar
 badàjis/T0N0*0	po:verb ds:indicative+present is:second+singular st:badajar
@@ -8291,6 +8291,8 @@ inísis/T0N0	po:verb ds:indicative+present is:second+singular st:inisiar
 injuriar/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W2W3P0P1P2Vp	po:verb ds:infinitive+simple dp:in
 injurie/T0T2T3L0L3l0l3N0N2I5I7Vp	po:verb ds:indicative+present is:third st:injuriar dp:in
 injúris/T0N0Vp	po:verb ds:indicative+present is:second+singular st:injuriar dp:in
+imalenkonir/T0T1T2T3T4T5L1L3L4L5N1N2N4N5W1W2P0P1	po:verb ds:infinitive+simple dp:mal dp:in
+imaƚenkonir/T0T1T2T3T4T5l1l3l4l5W3P0P2	po:verb ds:infinitive+simple dp:mal dp:in
 malinkonir/T0T1T2T3T4T5L1L3L4L5N1N2N4N5W1W2P0P1	po:verb ds:infinitive+simple dp:mal
 maƚinkonir/T0T1T2T3T4T5l1l3l4l5W3P0P2	po:verb ds:infinitive+simple dp:mal
 inpir/T0T1T2T3T4T5L1L3L4L5l1l3l4l5N1N2N4N5W0W1W2W3P0P1P2	po:verb ds:infinitive+simple
@@ -39930,6 +39932,7 @@ xíxola/F0V0	po:noun is:singular+femenine
 xmania/F0	po:noun is:singular+femenine
 xmèrgo/M0	po:noun is:singular+masculine
 xugolòto/M0A0V0	po:noun is:singular+masculine
+/ I piacevoli et ingegniosi discorsi in piu lettere compresi, e ne la lingua antica volgari dechiariti. Venezia; 1557.
 / Le lettere di messer Andrea Calmo [1561]. Torino; 1888.
 dexmestegeŧa/F0V0	po:noun is:singular+femenine
 kàlamo/M0A0	po:noun is:singular+masculine
@@ -45679,8 +45682,8 @@ orkèstra/F0	po:noun is:singular+femenine
 òrko/M0A0Pd	po:noun is:singular+masculine
 pacèfa/F0	po:adjective_qualificative is:singular+femenine st:pacar
 pacugo/M0A0	po:noun is:singular+masculine
-pajeto/M0A0Pd	po:noun is:singular+masculine st:paja ds:eto
-paɉeto/M0A0Pd	po:noun is:singular+masculine st:paɉa ds:eto
+pajeto/M0A0Pd	po:noun is:singular+masculine st:pajo ds:eto
+paɉeto/M0A0Pd	po:noun is:singular+masculine st:paɉo ds:eto
 paloso/M0A0PdeT	po:noun is:singular+masculine
 palpon	po:adverb
 paƚoso/M0Pde1	po:noun is:singular+masculine
@@ -53526,7 +53529,7 @@ frajo/M0B1eLe7o0o1o2o3o4oT	po:noun is:singular+masculine
 fraɉo/M0eLe7o0o1o2o3o4oT	po:noun is:singular+masculine
 frakaròla/F0v0	po:noun is:singular+femenine
 frakaròƚa/F0v7	po:noun is:singular+femenine
-frako/M0A0	po:noun is:singular+masculine
+frako/A1A0	po:noun is:singular+masculine
 fraldo/M0A0	po:noun is:singular+masculine
 franbolèr/M0Buv0	po:noun is:singular+masculine st:frànbola
 franbolèra/F0v0	po:noun is:singular+femenine st:frànbola
@@ -57996,8 +57999,6 @@ trapolin/M0BuV0	po:noun is:singular+masculine
 ŧenŧelièr/M0Buv0	po:noun is:singular+masculine
 ŧenŧelièra/F0v0	po:noun is:singular+femenine
 vulkan/M0B1BueT	po:noun is:singular+masculine
-/ Il Vangelo di S. Matteo volgarizzato in dialetto veneziano dal sig. Gianjacopo Fontana. Londra; 1859.
-pontin	po:adverb
 / Cicogna, Alvise. Poesie in Gamba, Bartolommeo. Raccolta di poesie in dialetto veneziano d’ogni secolo nuovamente ordinata ed accresciuta [1791–1863]. Venezia, 1845.
 àteo/A1	po:noun is:singular+masculine
 bonoreta	po:adverb st:bonora ds:eto
@@ -61536,6 +61537,22 @@ rondin/M0Bu	po:noun is:singular+masculine
 skarafađo/M0A0V0	po:noun is:singular+masculine
 tolpo/M0A0eTo0o2o4	po:noun is:singular+masculine
 xguseton/A2B1BuPd	po:noun is:singular+masculine
+/ Il Vangelo di S. Matteo volgarizzato in dialetto veneziano dal sig. Gianjacopo Fontana. Londra; 1859.
+fiatin	po:adverb st:fià ds:in
+kàrega/F0	po:noun is:singular+femenine
+malfidente/X0A0PdVr	po:noun is:singular dp:mal
+pisigeto/M0A0Pd*0	po:noun is:singular+masculine st:písigo ds:eto
+piŧigeto/M0A0Pd*0	po:noun is:singular+masculine st:píŧigo ds:eto
+pontin	po:adverb
+pontin/A1Bu^6	po:noun is:singular+masculine st:ponto ds:in
+pòsto/M0A0	po:noun is:singular+masculine
+raka/F0	po:noun is:singular+femenine
+senplisòto/A1A0Pd	po:noun is:singular+masculine st:sénplise ds:òto
+senpliŧòto/A1A0Pd	po:noun is:singular+masculine st:sénpliŧe ds:òto
+skolar/M0	po:noun is:singular+masculine
+skoƚar/M0	po:noun is:singular+masculine
+ŧenturion/A2B1BuPdVp	po:noun is:singular+masculine
+xbevacon/A3B1BuPd	po:adjective_qualificative is:singular+masculine dp:s
 / a Venèŧia, fine de ’l 1866, kome reportà ’te 'Ninni, Alessandro Pericle. Scritti dialettologici e folkloristici veneti — Materiali per un vocabolario della lingua rusticana del contado di Treviso. Serie I e II. Venezia, 1891.'
 bàkar/M0	po:noun is:singular+masculine
 / Nardo, Giovanni Domenico. Considerazioni filologiche sull’importanza dello studio comparativo dei dialetti rustici. Venezia, 1869.
@@ -61681,7 +61698,6 @@ erbeterave/A0	po:noun is:plural+femenine+franŧexe pa:erbeta pa:rava st:erbetara
 èlsara/F0	po:noun is:singular+femenine
 fermadina/F0aD	po:noun is:singular+femenine st:fermada ds:in
 fiantin	po:adverb st:fià
-fiatin	po:adverb st:fià ds:in
 fortunado/A1A0y0y1o0o1o2o3o4-1+0*0	po:adjective_qualificative is:singular+masculine
 fumadina/F0aD	po:noun is:singular+femenine st:fumada ds:in
 füada/F0y1	po:noun is:singular+femenine
@@ -61875,7 +61891,6 @@ kaƚante/X0	po:noun is:singular
 kodeŧin/M0BuV0	po:noun is:singular+masculine
 kolía	po:pronoun_demonstrative_far is:singular+femenine
 koƚía	po:pronoun_demonstrative_far is:singular+femenine
-malfidente/X0A0PdVr	po:noun is:singular dp:mal
 materon/A3B1BuPd	po:adjective_qualificative is:singular+masculine
 međotèrmen/X0B1Pd	po:adjective_qualificative is:singular
 mexotèrmen/X0B1Pd	po:adjective_qualificative is:singular
@@ -62498,7 +62513,6 @@ kaŧòla/F0v0	po:noun is:singular+femenine
 kaveđaña/F0	po:noun is:singular+femenine
 kavexaña/F0	po:noun is:singular+femenine
 kavin/M0BueT	po:noun is:singular+masculine al:kain
-kàrega/F0	po:noun is:singular+femenine
 koèrco/M0	po:noun is:singular+masculine
 konajo/M0B1V0	po:noun is:singular+masculine
 lavadura/F0d0eT*0	po:noun is:singular+femenine
@@ -63880,7 +63894,6 @@ postèrno/A1A0	po:noun is:singular+masculine
 postòto/A1A0	po:adjective_qualificative is:singular+masculine
 pòrta–tabari/A0	po:noun is:masculine
 puntivamente/A0w0	po:adverb ds:mente
-raka/F0	po:noun is:singular+femenine
 ransegèla/F0V0	po:noun is:singular+femenine st:rànsego ds:èl
 ranŧegèla/F0	po:noun is:singular+femenine st:rànŧego ds:èl
 refo/M0M1A0	po:noun is:singular+masculine
@@ -69237,7 +69250,6 @@ siƚiera/F0	po:noun is:singular+femenine
 simènŧa/F0V0	po:noun is:singular+femenine
 sinilia/F0V0	po:noun is:singular+femenine
 sinpàtego/A1A0	po:adjective_qualificative is:singular+masculine
-sirkunsirka	po:adverb
 sirokoxo/A1A0Pd	po:adjective_qualificative is:singular+masculine st:siròko ds:oxo
 sisibè	po:interjection
 sixelin/M0BuV0	po:noun is:singular+masculine
@@ -69564,7 +69576,6 @@ tusa/F0	po:noun is:singular+femenine
 ŧinilia/F0	po:noun is:singular+femenine
 ŧinisco/M0Vp	po:noun is:singular+masculine
 ŧiriera/F0Vp	po:noun is:singular+femenine
-ŧirkunŧirka	po:adverb
 ŧiŧibè	po:interjection
 ŧixelin/M0Bu	po:noun is:singular+masculine
 ŧoŧolon/A3B1BuPd	po:adjective_qualificative is:singular+masculine
@@ -73783,7 +73794,6 @@ pisàndol/M0B1PdV0	po:noun is:singular+masculine
 pisedura/F0d0eT*0	po:noun is:singular+femenine
 pisegadura/F0d0eT	po:noun is:singular+femenine st:pisegar
 pisiganaxo	po:noun pa:písiga pa:naxo
-pisigeto/M0A0Pd*0	po:noun is:singular+masculine st:písigo ds:eto
 pisigon/A2B1BuPd*0	po:noun is:singular+masculine
 pisigòto/M0A0*0	po:noun is:singular+masculine
 pisikiatría/F0	po:noun is:singular+femenine
@@ -73804,7 +73814,6 @@ piŧadura/F0d0eT+0*0	po:noun is:singular+femenine st:piŧar
 piŧedura/F0d0eT*0	po:noun is:singular+femenine
 piŧegadura/F0d0eT	po:noun is:singular+femenine st:piŧegar
 piŧiganaxo	po:noun pa:píŧiga pa:naxo
-piŧigeto/M0A0Pd*0	po:noun is:singular+masculine st:píŧigo ds:eto
 piŧigon/A2B1BuPd*0	po:noun is:singular+masculine
 piŧigòto/M0A0*0	po:noun is:singular+masculine
 piŧolamente/A0w0	po:adverb ds:mente
@@ -73851,7 +73860,6 @@ ponsadura/F0d0eT.0*0	po:noun is:singular+femenine
 pontamento/M0A0PdVr@0+0-1^6*0	po:noun is:singular+masculine ds:mento
 ponteđadura/F0d0eT*0	po:noun is:singular+femenine
 pontexadura/F0d0eT*0	po:noun is:singular+femenine
-pontin/A1Bu^6	po:noun is:singular+masculine st:ponto ds:in
 ponton/A2B1BuPd*0	po:noun is:singular+masculine
 ponxadura/F0d0eT^6*0^1	po:noun is:singular+femenine
 ponxidura/F0d0eT^6*0^1	po:noun is:singular+femenine
@@ -76178,10 +76186,10 @@ saƚéxoƚa/F0	po:noun is:singular+femenine
 ŧínger/A3PdVp	po:adjective_qualificative is:singular+masculine
 / Il Veses - Parole de ’na olta. 2020. (https://ilveses.com/parole-de-na-olta/)
 xguindia/F0	po:noun is:singular+femenine
-/ Il Vangelo di S. Matteo volgarizzato in dialetto veneziano dal sig. Gianjacopo Fontana. Londra; 1859.
+/ I piacevoli et ingegniosi discorsi in piu lettere compresi, e ne la lingua antica volgari dechiariti. Venezia; 1557.
 
 
-/ 5/125 - 1859
+/ 2/96 - 1557
 / nodaro. Treviso, 15880626.
 / http://vev.ovi.cnr.it/lexicad/lemmario (20250916 - 8001? bertìgnolo buso–patafià cagalina(kagar) càia camastela cazincana chiarelo chiba céser cogozo coriedo cornabò cùgoli cùter deremo ebeada festare(fèsta) gàfaro ganzara ganzega gégomo giagrega(gilè) gornissagorn(gorna) gramin guazaron guzzar impiar invespar lisbonina loch maganzese manguro masamutina mèola osana pasquarosa(paskua) passèlego pepalessa(pèpa) pesàntola petemelebone(petar) pòina pòvola povolaro refogolar(fogo) rendento santacrose santelmo saponaria sarza scagaìta(kagar) (skagàita, xguaraguàita, xguàita) scaranzia scariòt scaula schierazo scogoçar(kogòŧo) scovadìe sorvo spagno spiàntano/spiantan spilter stanforte stèura stratiòto tarabusèa(tarabuxo) tèstola trabazin(tarabuxo) vacamatrè(vaka) vacazùnzoli(vaka) valenzian venarelo(vèner) vescue zabagion|đ zaca zangarin zanzalaro(ŧensala) zanzarela|ŧ zarcegna|ŧŧ zarda zavagiar|đ zenso|đ zètola zibaldon|đ zìfera|ŧ zinzapòtole zirnar|đ zolagio|ŧ/zolar/zolo zonetto/zoni|ŧ zovàdego|đ zulagia(đòl) zelegò gaŧolar
 / íïóúüđɉƚñŧ
@@ -76190,4 +76198,4 @@ xguindia/F0	po:noun is:singular+femenine
 / ŧapolar? capolar?
 / romanđina, romanđinar, romanđo > ŧ? (*romancina*)
 / gexería/gesería?
-/ 1: 8324 (78.5%), 2: 66 (0.6%), 3: 997 (9.4%), 4: 962 (9.1%), 5: 252 (2.4%), tot: 10601
+/ 1: 8326 (78.5%), 2: 66 (0.6%), 3: 997 (9.4%), 4: 964 (9.1%), 5: 252 (2.4%), tot: 10605
