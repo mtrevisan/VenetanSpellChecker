@@ -2622,7 +2622,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "frut",			"",			1,	2,	"a",	"1557",			"(veneŧian)",
 "frut",			"s",			1,	2,	"a",	"1560",			"",
 "frutü",			"",			1,	2,	"a",	"1867",			"Frutar.",
-"frutü",			"uxu",		1,	2,	"a",	"15700223",		"(veneŧian) Frutar.",
+"frutü",			"uxu",		1,	2,	"a",	"1557",			"(veneŧian) Frutar.",
 "fruxin",		"in",			1,	4,	"a",	"1900",			"(veronexe) Sporkar de falive, ténđer.",
 "fü",				"ra",			1,	1,	"a",	"",				"",
 "fü",				"re",			1,	1,	"a",	"1415",			"",
