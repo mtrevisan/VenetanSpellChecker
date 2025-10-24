@@ -2365,7 +2365,7 @@ SFX xK ar ón/I2P4 ar	ds:indicative+imperfect is:first+plural	# T11 + (iv)([ei])
 SFX xK ar eon/I2P4 ar	ds:indicative+imperfect is:first+plural	# T11 + (iv)([ei])ón(s[ei]), feltrin
 SFX xK ar én/I2P4 ar	ds:indicative+imperfect is:first+plural	# T11 + (iv)[éí]n(s[ei])
 SFX xK ar ín/I2P4 ar	ds:indicative+imperfect is:first+plural	# T11 + (iv)[éí]n(s[ei])
-SFX xK ar é/I4 [cijɉñ]ar	ds:indicative+imperfect is:second+plural	# T11 + (iv)ié
+SFX xK ar é/I4 ar	ds:indicative+imperfect is:second+plural	# T11 + (iv)ié
 
 # vèrbi '-er inregolari: (a|ante|bene|d[ei]x|in|int[ae]r|intr[ae]|kontra|ma[lƚ][ae]?|pre|re|sora)?díxer, (a|(pre)?de|dex|en|kon|re(kon|pro|intro)?|in(tro)?|pro|se|tra)?dúxer
 # changes in indicative present, indicative future, subjunctive present, conditional present, infinitive simple, participle passive
@@ -2627,7 +2627,7 @@ SFX xO úxer uxarae dúxer	ds:conditional+present is:third	# T4 + rà(v)[ei]
 # subjunctive present of "débier"
 # NOTA: del congiuntivo sono note le forme in deba/depi/debia
 # NOTE: does not have procomplementar form for imperative
-SFX xP Y 76
+SFX xP Y 74
 SFX xP éver ebia éver	ds:subjunctive+present is:first+singular	# T8 + a
 SFX xP éver ebie éver	ds:subjunctive+present is:first+singular	# T8 + e
 SFX xP éver ebiemo éver	ds:subjunctive+present is:first+plural	# T5 + mo
@@ -2641,9 +2641,7 @@ SFX xP ver bias éver	ds:subjunctive+present is:second+singular	# T8 + a
 SFX xP éver ebie éver	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3, belumat
 SFX xP ver bies éver	ds:subjunctive+present is:second+singular	# T8 + e, 2s=3, belumat
 SFX xP éver ebiè éver	ds:subjunctive+present is:second+plural	# T5, veneŧian
-SFX xP éver ebié/P5 éver	ds:subjunctive+present is:second+plural	# T5, arkade
-SFX xP éver ebié/P5 déver	ds:subjunctive+present is:second+plural	# T12 + é([dg]e)
-SFX xP éver ebié/P5 diéver	ds:subjunctive+present is:second+plural	# T12 + é([dg]e)
+SFX xP éver ebié/P5 éver	ds:subjunctive+present is:second+plural	# T5, arkade, T12 + é([dg]e)
 SFX xP éver ebie éver	ds:subjunctive+present is:third	# T8 + e
 SFX xP éver ebia éver	ds:subjunctive+present is:third	# T8 + a
 SFX xP éver evo/I1A0 éver	ds:indicative+present is:first+singular	# T8 + [oe]
@@ -4642,13 +4640,12 @@ SFX Vr enbro ènbro/M0 enbro
 SFX Vr ontro òntro/M0 ontro
 
 # trasformaŧion veronexe ko èle vanesente (-ente > -ènte/M0, -ento > -ènto/M0Pd, -evo > -èvo/M0)
-SFX VR Y 15
+SFX VR Y 14
 SFX VR evo èvo/M0 evo
 SFX VR enda ènda/F0 enda
 SFX VR onga ònga/F0 onga
 SFX VR a ia/F0 ensa
 SFX VR ensa ènsa/F0 ensa
-SFX VR ensia ènsia/F0 ensia
 SFX VR enta ènta/F0 enta
 SFX VR ente ènte/X0 ente
 SFX VR endo èndo/M0 endo
@@ -4884,9 +4881,8 @@ SFX d7 idura ïureta/F0 [^aeiou]idura	ds:eto
 
 
 # nominali deaverbiali (-ixmo)
-SFX x0 Y 8
+SFX x0 Y 7
 SFX x0 o ixmo/M0 [^èt]o	is:singular+masculine ds:ixmo
-SFX x0 o ixmo/M0 [^ò]to	is:singular+masculine ds:ixmo
 SFX x0 òto otixmo/M0 òto	is:singular+masculine ds:ixmo
 SFX x0 a ixmo/M0 [^í]a	is:singular+masculine ds:ixmo
 SFX x0 e ixmo/M0 e	is:singular+masculine ds:ixmo
@@ -5028,7 +5024,7 @@ SFX i0 èl elista/A3 èl	is:singular ds:ista
 SFX i0 èr erista/A3 èr	is:singular ds:ista
 SFX i0 òr orista/A3 òr	is:singular ds:ista
 SFX i0 a ista/A3 [^diír]a	is:singular ds:ista
-SFX i0 o ista/A3 [^kiƚst]o	is:singular ds:ista
+SFX i0 o ista/A3 [^ikƚst]o	is:singular ds:ista
 SFX i0 0 ista/A3 [^èò]r	is:singular ds:ista
 SFX i0 0 ista/A3 [^è]l	is:singular ds:ista
 SFX i0 òda odista/A3 òda	is:singular ds:ista
@@ -5047,9 +5043,8 @@ SFX i0 èlio elista/A3 èlio	is:singular ds:ista
 SFX i0 èƚio eƚista/A3 èƚio	is:singular ds:ista
 
 # astraŧion (-ía)
-SFX i1 Y 4
+SFX i1 Y 3
 SFX i1 a ía/F0 a	is:femenine
-SFX i1 e ía/F0 e	is:femenine
 SFX i1 o ía/F0 o	is:femenine
 SFX i1 0 ía/F0 [nr]	is:femenine
 
@@ -6187,7 +6182,8 @@ PFX b3 0 tre .	dp:tri
 
 
 # leniŧion iniŧial (gu[ae]- > v[ae]-)
-PFX gv Y 2
+PFX gv Y 3
+PFX gv v gu v[aàèi]
 PFX gv gu v gu[aàèi]
 PFX gv gu g gu[aàèi]
 
@@ -6495,24 +6491,22 @@ PFX $3 0 ki/Z0 .
 
 
 # paròle ŧonkae a ’l iniŧio
-PFX '0 Y 17
+PFX '0 Y 15
 PFX '0 a ’ a
 PFX '0 à ’ à
 PFX '0 e ’ e
-PFX '0 è ’ è
-PFX '0 o ’ o
-PFX '0 ò ’ ò
 PFX '0 i ’ i
 PFX '0 l ’ l
+PFX '0 o ’ o
 PFX '0 p ’ p
 PFX '0 u ’ u
 PFX '0 v ’ v
-PFX '0 se ’ se
 PFX '0 ga ’ ga
+PFX '0 se ’ se
 PFX '0 kò ’ kò
 PFX '0 g ’ g[oóu]
-PFX '0 in ’ in[st]
 PFX '0 kon ’ kon
+PFX '0 in ’ in[st]
 
 
 # paròle ŧonkae a la fine
