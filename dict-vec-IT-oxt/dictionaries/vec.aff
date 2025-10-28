@@ -62,13 +62,17 @@ MAP UÜÚ
 MAP DĐ
 
 # replace input characters
-ICONV 24
+ICONV 28
 ICONV ' ʼ
 ICONV ‘ ʼ
 ICONV ’ ʼ
 ICONV ᾽ ʼ
 ICONV ＇ ʼ
 ICONV ˈ ʼ
+ICONV ì í
+ICONV Ì Í
+ICONV ù ú
+ICONV Ù Ú
 ICONV dh đ
 ICONV Dh Đ
 ICONV DH Đ
@@ -89,20 +93,18 @@ ICONV Th Ŧ
 ICONV TH Ŧ
 
 # frequently switched character groups
-REP 123
+REP 118
 REP a à
 REP e è
 REP e é
 REP è é
 REP i í
 REP i ï
-REP ì í
 REP o ò
 REP o ó
 REP ò ó
 REP u ú
 REP u ü
-REP ù ú
 REP d đ
 REP s x
 REP x s
@@ -112,11 +114,8 @@ REP - –
 REP - -
 REP – ‒
 REP – -
-REP – ‒
-REP – -
 REP ‒ -
 REP ‒ –
-REP ‒ -
 REP mb nb
 REP mf nf
 REP mp np
@@ -397,11 +396,11 @@ COMPOUNDRULE (|5)(-b)(|6)	# sento-mi[lƚ]e
 #	a. INTÉ ʼL PREXENTE DE ʼL DEMOSTRATIVO, ĐONTATIVO, E KOMANDATIVO, E SOʼ LA 2A KONIUG. SOLKE, LA GÀ LA VOKAL IN KOA KE LA XÉ –í INVEŦE KE –(i)é (sí, aví, avarí, g(av)í, sarí, sarisi > sarísimo).
 # 6) LA 3A PARS. INTÉ ʼL KONDIŦIONAL INTEROGATIVO, ʼTÉ LA FORMA IN –rave, VANTI DE ʼL PRONÒME KLÍTEGO INTEROGATIVO, LA FENISE PAR –rise (veñerise–lo?).
 
-# -àr:	(kantar|examinar)/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N4W2W3P0P1P2, kante/T0T2T3L0L3l0l3N0N2I5I7A0, exàmine/T0T2T3T9L0L3l0l3N0N2N9I5I7A0, kàntis/T0N0
-# -ér:	(remaner|goder)/T0T1T2T3T4L1L3L4l1l3l4N0N1N2N3N4W2W3W4W5P0P1P2, remane/T0T2T3L0L2l0l2N0I5I7A0, gòde/T0T2T3T9L0L2l0l2N0N9I5I7A0, (remànis|gòdis)/T0N0
-# '-er:	gòder/T6T7L7l7N7W6W7W8P0P1P2, gòde/T0T2T3L0L2l0l2N0I5I7A0, goderò/T0T1T2T3T4T7L1L3L4L7l1l3l4l7N0N1N2N3N4N7W6W7W8
-# -ír:	(avrir|dormir)/T0T1T2T3T4L1L3L4l1l3l4N1N2N4W0W2W3P0P1P2, avre/T0T2T3L0L2l0l2N0I5I7A0, dòrme/T0T2T3T9L0L2l0l2N0N9I5I7A0, àvris/T0N0; 
-# -ír/is:	fenir/T0T1T2T3T4T5L1L3L4L5l1l3l4l5N1N2N4N5W0W1W2W3P0P1P2
+# -àr:	(kantar|examinar)/T0T1T2T3T4N0N1N2N4L1L2L3l1l2l3W2W3P0P1P2, kante/T0T2T3N0N2L0L2l0l2I5I7A0, exàmine/T0T2T3T9N0N2N9L0L2l0l2I5I7A0, kàntis/T0N0
+# -ér:	(remaner|goder)/T0T1T2T3T4N0N1N2N3N4L1L2L3l1l2l3W2W3W4W5P0P1P2, remane/T0T2T3N0L0L2l0l2I5I7A0, gòde/T0T2T3T9N0N9L0L2l0l2I5I7A0, (remànis|gòdis)/T0N0
+# '-er:	gòder/T6T7N7L5l5W6W7W8P0P1P2, gòde/T0T2T3N0L0L2l0l2I5I7A0, goderò/T0T1T2T3T4T7N0N1N2N3N4N7L1L2L3L5l1l2l3l5W6W7W8
+# -ír:	(avrir|dormir)/T0T1T2T3T4N1N2N4L1L2L3l1l2l3W0W2W3P0P1P2, avre/T0T2T3N0L0L2l0l2I5I7A0, dòrme/T0T2T3T9N0N9L0L2l0l2I5I7A0, àvris/T0N0; 
+# -ír/is:	fenir/T0T1T2T3T4T5N1N2N4N5L1L2L3L4l1l2l3l4W0W1W2W3P0P1P2
 
 # -àr, -ér, '-er, -ír, -ír/is
 # group: indicative present
@@ -926,71 +925,63 @@ SFX L1 0 ae-lo/I6 [aei]r	ds:conditional+present is:third ds:interrogative is:sin
 SFX L1 ar erae-lo/I6 ar	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], metaplaxmo
 SFX L1 ò ae-lo/I6 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
 
-# from T3, T4, for -ér, '-er, -ír
-# group: imperative present second singular
-# used if word does not contains ƚ
-SFX L2 Y 3
-SFX L2 e i-l/P1 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
-SFX L2 e a-l/P1 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
-SFX L2 0 -l/P1 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
-
 # -àr, -ér, '-er, -ír
 # group: imperative present
 # used if word does not contains ƚ
-SFX L3 Y 10
-SFX L3 e a-l/P1 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
-SFX L3 0 -l/P1 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
-SFX L3 e i-l/P1 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
-SFX L3 ar é-l/P1 ar	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
-SFX L3 ar è-l/P1 ar	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5, ŧenedexe
-SFX L3 er é-l/P1 er	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
-SFX L3 er í-l/P1 er	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
-SFX L3 erò é-l/P1 erò	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
-SFX L3 erò í-l/P1 erò	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
-SFX L3 ir í-l/P1 ir	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5, ŧenedexe
+SFX L2 Y 10
+SFX L2 e a-l/P1 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
+SFX L2 0 -l/P1 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
+SFX L2 e i-l/P1 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
+SFX L2 ar é-l/P1 ar	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
+SFX L2 ar è-l/P1 ar	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5, ŧenedexe
+SFX L2 er é-l/P1 er	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
+SFX L2 er í-l/P1 er	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
+SFX L2 erò é-l/P1 erò	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
+SFX L2 erò í-l/P1 erò	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
+SFX L2 ir í-l/P1 ir	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5, ŧenedexe
 
 # -àr, -ér, '-er, -ír, -ír/is
 # group: indefinitive form
 # used if word does not contains ƚ
-SFX L4 Y 19
-SFX L4 r ndo-l/P1 ar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
-SFX L4 er èndo-l/P1 er	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, ŧenedexe
-SFX L4 r ndo-l/P1 [ei]r	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
-SFX L4 rò ndo-l/P1 erò	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
-SFX L4 erò ando-l/P1 erò	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX L4 er ando-l/P1 er	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX L4 ir endo-l/P1 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX L4 ir ando-l/P1 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX L4 r nto-l/P1 [ai]r	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
-SFX L4 r nto-l/P1 er	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
-SFX L4 er anto-l/P1 er	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX L4 rò nto-l/P1 erò	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
-SFX L4 erò anto-l/P1 erò	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX L4 ir ento-l/P1 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX L4 ir anto-l/P1 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX L4 r nde-l/P1 ar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, liventin
-SFX L4 er ande-l/P1 er	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, liventin
-SFX L4 erò ande-l/P1 erò	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, liventin
-SFX L4 ir ande-l/P1 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, liventin
+SFX L3 Y 19
+SFX L3 r ndo-l/P1 ar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
+SFX L3 er èndo-l/P1 er	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, ŧenedexe
+SFX L3 r ndo-l/P1 [ei]r	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
+SFX L3 rò ndo-l/P1 erò	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
+SFX L3 erò ando-l/P1 erò	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
+SFX L3 er ando-l/P1 er	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
+SFX L3 ir endo-l/P1 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
+SFX L3 ir ando-l/P1 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
+SFX L3 r nto-l/P1 [ai]r	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
+SFX L3 r nto-l/P1 er	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
+SFX L3 er anto-l/P1 er	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
+SFX L3 rò nto-l/P1 erò	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
+SFX L3 erò anto-l/P1 erò	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
+SFX L3 ir ento-l/P1 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
+SFX L3 ir anto-l/P1 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
+SFX L3 r nde-l/P1 ar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, liventin
+SFX L3 er ande-l/P1 er	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, liventin
+SFX L3 erò ande-l/P1 erò	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, liventin
+SFX L3 ir ande-l/P1 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, liventin
 
 # for -ír/is
 # used if word does not contains ƚ
-SFX L5 Y 5
-SFX L5 r se-lo/I6 ir	ds:indicative+present is:third ds:interrogative is:singular+masculine	# T10
-SFX L5 r se-lo/I6 ir	ds:indicative+present is:second+singular ds:interrogative is:singular+masculine	# T10
-SFX L5 r si-l/P1 ir	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
-SFX L5 r sè-l/P1 ir	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T12 + [èé]
-SFX L5 r sé-l/P1 ir	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T12 + [èé]
+SFX L4 Y 5
+SFX L4 r se-lo/I6 ir	ds:indicative+present is:third ds:interrogative is:singular+masculine	# T10
+SFX L4 r se-lo/I6 ir	ds:indicative+present is:second+singular ds:interrogative is:singular+masculine	# T10
+SFX L4 r si-l/P1 ir	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
+SFX L4 r sè-l/P1 ir	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T12 + [èé]
+SFX L4 r sé-l/P1 ir	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T12 + [èé]
 
 # '-er
 # group: conditional+present
-SFX L7 Y 6
-SFX L7 er ar-l/P1 er	ds:infinitive+simple ds:pronomenal+accusative	# T1 + r(e)
-SFX L7 erò arà-lo/I6 erò	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà
-SFX L7 erò arise-lo/I6 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae]
-SFX L7 erò arese-lo/I6 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae], viŧenŧa
-SFX L7 erò arave-lo/I6 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
-SFX L7 erò arae-lo/I6 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
+SFX L5 Y 6
+SFX L5 er ar-l/P1 er	ds:infinitive+simple ds:pronomenal+accusative	# T1 + r(e)
+SFX L5 erò arà-lo/I6 erò	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà
+SFX L5 erò arise-lo/I6 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae]
+SFX L5 erò arese-lo/I6 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae], viŧenŧa
+SFX L5 erò arave-lo/I6 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
+SFX L5 erò arae-lo/I6 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
 
 
 # -àr, -ér, '-er, -ír
@@ -1032,71 +1023,63 @@ SFX l1 0 ae-ƚo/I8 [aei]r	ds:conditional+present is:third ds:interrogative is:si
 SFX l1 ar erae-ƚo/I8 ar	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei], metaplaxmo
 SFX l1 ò ae-ƚo/I8 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
 
-# from T3, T4, for -ér, '-er, -ír
-# group: imperative present second singular
-# used if word does contains ƚ
-SFX l2 Y 3
-SFX l2 e i-ƚo/P2 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
-SFX l2 e a-ƚo/P2 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
-SFX l2 0 -ƚo/P2 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
-
 # -àr, -ér, '-er, -ír
 # group: imperative present
 # used if word does contains ƚ
-SFX l3 Y 10
-SFX l3 e a-ƚo/P2 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
-SFX l3 0 -ƚo/P2 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
-SFX l3 e i-ƚo/P2 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
-SFX l3 ar é-ƚo/P2 ar	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
-SFX l3 ar è-ƚo/P2 ar	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
-SFX l3 er é-ƚo/P2 er	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
-SFX l3 er í-ƚo/P2 er	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
-SFX l3 erò é-ƚo/P2 erò	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
-SFX l3 erò í-ƚo/P2 erò	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
-SFX l3 ir í-ƚo/P2 ir	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
+SFX l2 Y 10
+SFX l2 e a-ƚo/P2 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
+SFX l2 0 -ƚo/P2 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
+SFX l2 e i-ƚo/P2 e	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
+SFX l2 ar é-ƚo/P2 ar	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
+SFX l2 ar è-ƚo/P2 ar	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
+SFX l2 er é-ƚo/P2 er	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
+SFX l2 er í-ƚo/P2 er	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
+SFX l2 erò é-ƚo/P2 erò	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
+SFX l2 erò í-ƚo/P2 erò	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
+SFX l2 ir í-ƚo/P2 ir	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T5
 
 # -àr, -ér, '-er, -ír, -ír/is
 # group: indefinitive form
 # used if word does contains ƚ
-SFX l4 Y 19
-SFX l4 r ndo-ƚo/P2 ar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
-SFX l4 er èndo-ƚo/P2 er	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, ŧenedexe
-SFX l4 r ndo-ƚo/P2 [ei]r	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
-SFX l4 rò ndo-ƚo/P2 erò	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
-SFX l4 erò ando-ƚo/P2 erò	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX l4 er ando-ƚo/P2 er	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX l4 ir endo-ƚo/P2 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX l4 ir ando-ƚo/P2 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX l4 r nto-ƚo/P2 [ai]r	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
-SFX l4 r nto-ƚo/P2 er	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
-SFX l4 er anto-ƚo/P2 er	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX l4 rò nto-ƚo/P2 erò	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
-SFX l4 erò anto-ƚo/P2 erò	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX l4 ir ento-ƚo/P2 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX l4 ir anto-ƚo/P2 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX l4 r nde-ƚo/P2 ar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, liventin
-SFX l4 er ande-ƚo/P2 er	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, liventin
-SFX l4 erò ande-ƚo/P2 erò	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, liventin
-SFX l4 ir ande-ƚo/P2 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, liventin
+SFX l3 Y 19
+SFX l3 r ndo-ƚo/P2 ar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
+SFX l3 er èndo-ƚo/P2 er	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, ŧenedexe
+SFX l3 r ndo-ƚo/P2 [ei]r	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
+SFX l3 rò ndo-ƚo/P2 erò	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
+SFX l3 erò ando-ƚo/P2 erò	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
+SFX l3 er ando-ƚo/P2 er	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
+SFX l3 ir endo-ƚo/P2 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
+SFX l3 ir ando-ƚo/P2 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
+SFX l3 r nto-ƚo/P2 [ai]r	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
+SFX l3 r nto-ƚo/P2 er	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
+SFX l3 er anto-ƚo/P2 er	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
+SFX l3 rò nto-ƚo/P2 erò	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o
+SFX l3 erò anto-ƚo/P2 erò	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
+SFX l3 ir ento-ƚo/P2 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
+SFX l3 ir anto-ƚo/P2 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
+SFX l3 r nde-ƚo/P2 ar	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, liventin
+SFX l3 er ande-ƚo/P2 er	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, liventin
+SFX l3 erò ande-ƚo/P2 erò	ds:gerund+simple ds:pronomenal+accusative	# T2 + n[dt]o, liventin
+SFX l3 ir ande-ƚo/P2 ir	ds:gerund+simple ds:pronomenal+accusative	# T7 + n[dt]o, liventin
 
 # for -ír/is
 # used if word does contains ƚ
-SFX l5 Y 5
-SFX l5 r se-ƚo/I8 ir	ds:indicative+present is:second+singular ds:interrogative is:singular+masculine	# T10
-SFX l5 r se-ƚo/I8 ir	ds:indicative+present is:third ds:interrogative is:singular+masculine	# T10
-SFX l5 r si-ƚo/P2 ir	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
-SFX l5 r sè-ƚo/P2 ir	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T12 + [èé]
-SFX l5 r sé-ƚo/P2 ir	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T12 + [èé]
+SFX l4 Y 5
+SFX l4 r se-ƚo/I8 ir	ds:indicative+present is:second+singular ds:interrogative is:singular+masculine	# T10
+SFX l4 r se-ƚo/I8 ir	ds:indicative+present is:third ds:interrogative is:singular+masculine	# T10
+SFX l4 r si-ƚo/P2 ir	ds:imperative+present is:second+singular ds:pronomenal+accusative	# T9
+SFX l4 r sè-ƚo/P2 ir	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T12 + [èé]
+SFX l4 r sé-ƚo/P2 ir	ds:imperative+present is:second+plural ds:pronomenal+accusative	# T12 + [èé]
 
 # '-er
 # group: conditional+present
-SFX l7 Y 6
-SFX l7 er ar/P2 er	ds:infinitive+simple	# T1 + r(e) FIXME cannot have r-ƚo...
-SFX l7 erò arà-ƚo/I8 erò	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà
-SFX l7 erò arise-ƚo/I8 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae]
-SFX l7 erò arese-ƚo/I8 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae], viŧenŧa
-SFX l7 erò arave-ƚo/I8 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
-SFX l7 erò arae-ƚo/I8 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
+SFX l5 Y 6
+SFX l5 er ar/P2 er	ds:infinitive+simple	# T1 + r(e) FIXME cannot have r-ƚo...
+SFX l5 erò arà-ƚo/I8 erò	ds:indicative+future is:third ds:interrogative is:singular+masculine	# T4 + rà
+SFX l5 erò arise-ƚo/I8 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae]
+SFX l5 erò arese-ƚo/I8 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rí[ae], viŧenŧa
+SFX l5 erò arave-ƚo/I8 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
+SFX l5 erò arae-ƚo/I8 erò	ds:conditional+present is:third ds:interrogative is:singular+masculine	# T4 + rà(v)[ei]
 
 
 # -àr, -ér, '-er, -ír
