@@ -10330,6 +10330,9 @@ inkonkoƚar/T0T1T2T3T4l1l2l3w2P0P2	po:verb vt:infinitive+simple dp:in
 inkonkòƚe/T0T2T3T8l0l2I7	po:verb vt:indicative+present is:third st:inkonkoƚar dp:in
 koniar/T0T1T2T3T4N0N1N2N4L1L2L3l1l2l3W2P0P1P2	po:verb vt:infinitive+simple
 kònie/T0T2T3T8N0N2N9L0L2l0l2I5I7	po:verb vt:indicative+present is:third st:koniar
+rekonmandar/T0T1T2T3T4N0N1N2N4L1L2L3l1l2l3W2P0P1P2@0	po:verb vt:infinitive+simple dp:re
+rekonmande/T0T2T3N0N2L0L2l0l2I5I7A0@0	po:verb vt:indicative+present is:third st:rekonmandar dp:re
+rekonmàndis/T0N0@0	po:verb vt:indicative+present is:second is:singular st:rekonmandar dp:re
 koniugar/T0T1T2T3T4N0N1N2N4L1L2L3l1l2l3W2P0P1P2	po:verb vt:infinitive+simple dp:kon
 kòniuge/T0T2T3T8N0N2N9L0L2l0l2I5I7A0	po:verb vt:indicative+present is:third st:koniugar dp:kon
 konmenŧar/T0T1T2T3T4N0N1N2N4L1L2L3W2P0P1+0*0	po:verb vt:infinitive+simple dp:kon
@@ -29341,8 +29344,7 @@ kuatro/n1n2|1|2|3	po:numeral_cardenal
 sinkue/|1|2|3	po:numeral_cardenal
 sie/n1n2|1|2|3	po:numeral_cardenal
 sié/n1n2|1|2|3	po:numeral_cardenal
-sète/n1n2|1|2|3%0%a	po:numeral_cardenal
-siète/n1n2|1|2|3%0%a	po:numeral_cardenal
+sète/n1n2|1|2|3%0%aCi	po:numeral_cardenal
 sèt/n1n2|1|2|3	po:numeral_cardenal
 òto/n1n2|1|2|3%0%a	po:numeral_cardenal
 òt/n1n2|1|2|3	po:numeral_cardenal
@@ -29352,11 +29354,10 @@ nove/n1n2|1|2|3%0%a	po:numeral_cardenal
 nòve/n1n2|1|2|3CiCu	po:numeral_cardenal
 ñove/n1n2|1|2|3%0%a	po:numeral_cardenal
 ñòve/n1n2|1|2|3	po:numeral_cardenal
-dièxe/n3|3'9	po:numeral_cardenal
 diexe/n3|3%0%a'9	po:numeral_cardenal
 diex/n3|3	po:numeral_cardenal
 dies/n3|3	po:numeral_cardenal
-dèxe/n3|3'9	po:numeral_cardenal
+dèxe/n3|3'9Ci	po:numeral_cardenal
 dèx/n3|3	po:numeral_cardenal
 dès/n3|3	po:numeral_cardenal
 dexe/n3|3'9	po:numeral_cardenal
@@ -40377,6 +40378,22 @@ xírola/F2V0	po:noun is:femenine
 xotoloxo/M2F0F3A0Pd	po:adjective_qualificative
 xotoƚoxo/M2F0F3Pd	po:adjective_qualificative
 xugàtol/M0M2B1PdV0	po:noun st:xugo
+revedador/M1M2BuPdv0	po:noun st:revéder
+revedadora/F2v0	po:noun is:femenine st:revéder
+karnoval/M1M2B1BueTo0o2o4	po:noun
+karnovaƚe/M2e1o7o2o4	po:noun
+norbin/M0M2Bu	po:noun st:nòrbio ds:in
+griđòla/F2v0	po:noun is:femenine
+grixòla/F2v0	po:noun is:femenine
+grixòƚa/F2v7	po:noun is:femenine
+bondanŧia/F2V0@0	po:noun is:femenine
+indrío	po:preposition pa:in pa:drio
+indrío/P0	po:adverb pa:in pa:drio
+indrío-l/P1	po:adverb
+indrío-ƚo/P2	po:adverb
+partikolaritade/X1	po:noun is:femenine
+partikoƚaritade/X1	po:noun is:femenine
+skovoleto/M2A0PdV0	po:noun st:skóvel ds:eto
 / Le lettere di messer Andrea Calmo [1561]. Torino; 1888.
 dexmestegeŧa/F2V0	po:noun is:femenine
 mosenigo/M2	po:noun
@@ -40547,7 +40564,6 @@ bonamente/A0w0	po:adverb st:bon ds:mente
 bonaso/M2A0o0o1o2o3o4	po:adjective_qualificative st:bon ds:aŧo
 bonaŧo/M2A0o0o1o2o3o4	po:adjective_qualificative st:bon ds:aŧo
 bonbo/M2F0F3A0	po:adjective_qualificative
-bondanŧia/F2V0@0	po:noun is:femenine
 bonprèso/M2A0	po:noun
 bonsiñor/M0M2F0F3BuPd	po:noun
 boraxo/M2A0iN	po:noun
@@ -40876,9 +40892,6 @@ grato/M2F0F3A0^6+0	po:adjective_qualificative
 gravio/M2F0F3@0	po:adjective_qualificative
 grenbo/M2	po:noun
 grépola/F2V0	po:noun is:femenine
-griđòla/F2v0	po:noun is:femenine
-grixòla/F2v0	po:noun is:femenine
-grixòƚa/F2v7	po:noun is:femenine
 grondal/M1M2B1BuVm	po:noun
 gropoloxo/M2F0F3A0Pd	po:adjective_qualificative st:gropo ds:oxo
 gropoƚoxo/M2F0F3Pd	po:adjective_qualificative st:gropo ds:oxo
@@ -41014,8 +41027,6 @@ kardo/M2A0eT	po:noun
 karesével/X0B1PdVx	po:noun is:neuter
 kareŧével/X0B1Pd	po:noun is:neuter
 karlona	po:adverb lg:tuscan
-karnoval/M1M2B1BueTo0o2o4	po:noun
-karnovaƚe/M2e1o7o2o4	po:noun
 karpion/M1M2B1BuPd*0	po:noun
 kaskaval/M0M2B1V0	po:noun
 kastañèr/M0M2Buv0	po:noun
@@ -41678,8 +41689,6 @@ respondenŧa/F2Vr	po:noun is:femenine
 retentiva/F2	po:noun is:femenine
 retornèl/M0M2B1V0	po:noun
 reŧetario/M2	po:noun
-revedador/M1M2BuPdv0	po:noun st:revéder
-revedadora/F2v0	po:noun is:femenine st:revéder
 reverentemente/A0w0	po:adverb ds:mente
 revèten/F0X0B1Pd	po:noun
 revoluŧion/F1F2B1BuPdV0	po:noun is:femenine
@@ -41844,7 +41853,6 @@ skofon/M1M2B1BuPd	po:noun
 skonđur/M0M2eT	po:noun
 skonxur/M0M2eT	po:noun
 skotente/X0A0PdVr	po:adjective_qualificative is:neuter
-skovoleto/M2A0PdV0	po:noun st:skóvel ds:eto
 skoxaña/F2	po:noun is:femenine
 skripion/M1M2B1BuPd	po:noun
 skuarsafògo/M2A0	po:noun pa:skuarsa pa:fògo
@@ -44015,10 +44023,6 @@ gratíkola/F2V0	po:noun is:femenine
 graŧie	po:interjection
 imenso/M2F0F3A0	po:adjective_qualificative
 imitaŧion/F1F2B1BuPdV0	po:noun is:femenine st:imitar ds:ŧion
-indrío	po:preposition pa:in pa:drio
-indrío/P0	po:adverb pa:in pa:drio
-indrío-l/P1	po:adverb
-indrío-ƚo/P2	po:adverb
 inexoràbil/X0Vx	po:adjective_qualificative is:neuter
 inèsto/M2A0	po:noun
 inkorutíbil/X0Vx	po:adjective_qualificative is:neuter dp:in
@@ -73713,8 +73717,6 @@ partegador/M1M2BuPdv0*0	po:noun
 partegadora/F2v0*0	po:noun is:femenine
 partesipasion/F1F2B1BuPd	po:noun is:femenine st:partesipar ds:ŧion
 parteŧipaŧion/F1F2B1BuPd	po:noun is:femenine st:parteŧipar ds:ŧion
-partikolaritade/X1	po:noun is:femenine
-partikoƚaritade/X1	po:noun is:femenine
 partisipio/M2	po:noun
 partitivamente/A0w0	po:adverb ds:mente
 partitivo/M2F0F3A0B3	po:adjective_qualificative
@@ -76282,12 +76284,12 @@ xguindia/F2	po:noun is:femenine
 / I piacevoli et ingegniosi discorsi in piu lettere compresi, e ne la lingua antica volgari dechiariti. Venezia; 1557.
 
 
-/ 49/86 - 1557
+/ 51/86 - 1557
 / nodaro. Treviso, 15880626.
 / http://vev.ovi.cnr.it/lexicad/lemmario (20250916 - 8001? bertìgnolo buso–patafià cagalina(kagar) càia camastela cazincana chiarelo chiba céser cogozo coriedo cornabò cùgoli cùter deremo ebeada festare(fèsta) gàfaro ganzara ganzega gégomo giagrega(gilè) gornissagorn(gorna) gramin guazaron guzzar impiar invespar lisbonina loch maganzese manguro masamutina mèola osana pasquarosa(paskua) passèlego pepalessa(pèpa) pesàntola petemelebone(petar) pòina pòvola povolaro refogolar(fogo) rendento santacrose santelmo saponaria sarza scagaìta(kagar) (skagàita, xguaraguàita, xguàita) scaranzia scariòt scaula schierazo scogoçar(kogòŧo) scovadìe sorvo spagno spiàntano/spiantan spilter stanforte stèura stratiòto tarabusèa(tarabuxo) tèstola trabazin(tarabuxo) vacamatrè(vaka) vacazùnzoli(vaka) valenzian venarelo(vèner) vescue zabagion|đ zaca zangarin zanzalaro(ŧensala) zanzarela|ŧ zarcegna|ŧŧ zarda zavagiar|đ zenso|đ zètola zibaldon|đ zìfera|ŧ zinzapòtole zirnar|đ zolagio|ŧ/zolar/zolo zonetto/zoni|ŧ zovàdego|đ zulagia(đòl) zelegò gaŧolar
 / íïóúüđɉƚñŧ
 / ÀÈÉÍÏÒÓÚÜĐɈȽÑŦ–ʼ
 / search for ([gms]?e|[fkv]é|sié|no)-nde(ne) xe, no 'ndene
 / ŧapolar? capolar? romanđina, romanđinar, romanđo > ŧ? (*romancina*) gexería/gesería? rađa/raŧa?
-/ 1: 8332 (78.5%), 2: 66 (0.6%), 3: 998 (9.4%), 4: 965 (9.1%), 5: 252 (2.4%), tot: 10613
+/ 1: 8333 (78.5%), 2: 66 (0.6%), 3: 998 (9.4%), 4: 965 (9.1%), 5: 252 (2.4%), tot: 10614
 / “I piacevoli et ingegniosi discorsi in piu lettere compresi, e ne la lingua antica volgari dechiariti”. Venezia; 1557. Pag. 8. “66 anni 3 mesi 5 zorni 4 hore 20 ponti 2 sestili”.
