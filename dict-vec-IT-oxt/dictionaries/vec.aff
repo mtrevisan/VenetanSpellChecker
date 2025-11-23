@@ -62,7 +62,7 @@ MAP UÜÚ
 MAP DĐ
 
 # replace input characters
-ICONV 28
+ICONV 31
 ICONV ' ʼ
 ICONV ‘ ʼ
 ICONV ’ ʼ
@@ -85,12 +85,19 @@ ICONV JH Ɉ
 ICONV lh ƚ
 ICONV Lh Ƚ
 ICONV LH Ƚ
+ICONV gn ñ
+ICONV Gn Ñ
+ICONV GN Ñ
 ICONV nh ñ
 ICONV Nh Ñ
 ICONV NH Ñ
 ICONV th ŧ
 ICONV Th Ŧ
 ICONV TH Ŧ
+
+OCONV 2
+OCONV gn ñ
+OCONV Gn Ñ
 
 # frequently switched character groups
 REP 118
