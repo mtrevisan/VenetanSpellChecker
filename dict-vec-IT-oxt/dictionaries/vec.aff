@@ -95,9 +95,9 @@ ICONV th ŧ
 ICONV Th Ŧ
 ICONV TH Ŧ
 
-OCONV 2
-OCONV gn ñ
-OCONV Gn Ñ
+#OCONV 2
+#OCONV ñ gn
+#OCONV Ñ Gn
 
 # frequently switched character groups
 REP 118
@@ -4468,7 +4468,7 @@ PFX Cu v vu v[oò]
 #PFX Cu sk sku sk[oò]
 
 # trasformaŧion iniŧial de paròla intra varianti (pro > por, kon > kun, ...)
-PFX Ci Y 18
+PFX Ci Y 19
 PFX Ci b bi b[eè]
 PFX Ci d di d[eè]
 PFX Ci đ đi đ[oò]
@@ -4486,6 +4486,7 @@ PFX Ci fr fri fr[eè]
 PFX Ci gr gri gr[eè]
 PFX Ci Gr Gri Gr[eè]
 PFX Ci pr pri pr[eè]
+PFX Ci tr tri tr[eè]
 PFX Ci st sti st[oò]
 #PFX Ci l li l[eè]
 #PFX Ci ƚ ƚi ƚ[eè]
