@@ -37,11 +37,9 @@ TRY eaoinrtlƚsdkpvmuèxgfàòbíhéŧójɉñcúSđLȽIPETKVAMDNFBRJGCOUĐXÀÈ�
 # account for qwerty, hungarian, slovenian, brazilian, and romanian layout
 KEY esđdr|redđft|trfg|uhji|iujko|oiklp|polòèé-|èépòà|úó|aísđ|sđaxde|dsđxcfre|fdđcvgtr|gfvbht|hgbnju|jhnmkiu|kjmloi|lkéòpo|ñlp-|òlàèép-|àòèé-|ùà|élp-|xcdsđ|cxvfdđ|vcbgf|bvnhg|nbmjh|mnkj|ìèé
 
-WORDCHARS '‘ʼ᾽＇ˈ’-
+WORDCHARS ʼ-–
 
-# en–dashes
-BREAK 1
-BREAK –
+BREAK 0
 
 # affix rules can strip full words, not only one less characters
 FULLSTRIP
@@ -228,6 +226,8 @@ FLAG long
 KEEPCASE Z0
 
 NEEDAFFIX Z1
+
+ONLYINCOMPOUND Z2
 
 # `-` is part of a word, this line avoid marking a lone `–` as an error
 NOSUGGEST NS
