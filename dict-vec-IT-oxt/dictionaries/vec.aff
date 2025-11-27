@@ -99,6 +99,14 @@ ICONV TH Ŧ
 
 # frequently switched character groups
 REP 118
+REP ʼ ʼ_
+REP - ‒
+REP - –
+REP - -
+REP – ‒
+REP – -
+REP ‒ -
+REP ‒ –
 REP a à
 REP e è
 REP e é
@@ -113,14 +121,6 @@ REP u ü
 REP d đ
 REP s x
 REP x s
-REP ʼ ʼ_
-REP - ‒
-REP - –
-REP - -
-REP – ‒
-REP – -
-REP ‒ -
-REP ‒ –
 REP mb nb
 REP mf nf
 REP mp np
@@ -237,7 +237,7 @@ NOSUGGEST NS
 CHECKCOMPOUNDCASE
 
 # minimum length of words in compound words
-COMPOUNDMIN 1
+COMPOUNDMIN 2
 
 # numerali konpòsti:
 # n1/|1 = [un..ŧinkue..nòve]  [un..sinkue..nòve]
@@ -434,7 +434,7 @@ SFX T0 is as/I3 is	vt:indicative+present is:second is:singular	# T10 + s
 SFX T0 0 0/I3 is	vt:indicative+present is:second is:singular	# T10 + s
 SFX T0 e i e	vt:indicative+present is:third	# T10, đulian
 SFX T0 r sé/P5 ar	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé, coxòto
-SFX T0 ar esé ar	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé, metaplaxmo, coxòto
+SFX T0 ar esé ar	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé, coxòto, metaplaxmo
 SFX T0 r sé/P5 er	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé, coxòto
 SFX T0 rò sé/P5 erò	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé, coxòto
 SFX T0 r sé/P5 ir	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé, coxòto
@@ -459,43 +459,43 @@ SFX T1 r o/I1 [aeiouïü]ir	vt:indicative+imperfect is:first is:singular	# T2 + 
 SFX T1 rò o/I1 erò	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo]
 SFX T1 ir eo/I1 ir	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo], metaplaxmo
 SFX T1 ar àvimo/I2 ar	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo
-SFX T1 ar évimo/I2 ar	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo, metaplaxmo, liventin
+SFX T1 ar évimo/I2 ar	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo, liventin, metaplaxmo
 SFX T1 er évimo/I2 er	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo
 SFX T1 ir ívimo/I2 ir	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo
 SFX T1 erò évimo/I2 erò	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo
 SFX T1 ir évimo/I2 ir	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo, metaplaxmo
 SFX T1 ar àvino/I2 ar	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo, arkàego
-SFX T1 ar évino/I2 ar	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo, metaplaxmo, liventin, arkàego
+SFX T1 ar évino/I2 ar	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo, liventin, metaplaxmo, arkàego
 SFX T1 er évino/I2 er	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo, arkàego
 SFX T1 ir ívino/I2 ir	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo, arkàego
 SFX T1 erò évino/I2 erò	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo, arkàego
 SFX T1 ir évino/I2 ir	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo, metaplaxmo, arkàego
 SFX T1 ar àimo/I2 ar	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo
-SFX T1 ar éimo/I2 ar	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo, metaplaxmo, liventin
+SFX T1 ar éimo/I2 ar	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo, liventin, metaplaxmo
 SFX T1 er éimo/I2 er	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo
 SFX T1 ir íimo/I2 ir	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo
 SFX T1 erò éimo/I2 erò	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo
 SFX T1 ir éimo/I2 ir	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo, metaplaxmo
 SFX T1 r seon/I2 ar	vt:indicative+imperfect is:first is:plural	# T11 + (iv)([ei])ón(s[ei]), feltrin
-SFX T1 ar eseon/I2 ar	vt:indicative+imperfect is:first is:plural	# T11 + (iv)([ei])ón(s[ei]), metaplaxmo, feltrin
+SFX T1 ar eseon/I2 ar	vt:indicative+imperfect is:first is:plural	# T11 + (iv)([ei])ón(s[ei]), feltrin, metaplaxmo
 SFX T1 r seon/I2 er	vt:indicative+imperfect is:first is:plural	# T11 + (iv)([ei])ón(s[ei]), feltrin
 SFX T1 r seon/I2 ir	vt:indicative+imperfect is:first is:plural	# T11 + (iv)([ei])ón(s[ei]), feltrin
 SFX T1 rò seon/I2 erò	vt:indicative+imperfect is:first is:plural	# T11 + (iv)([ei])ón(s[ei]), feltrin
-SFX T1 ir eseon/I2 ir	vt:indicative+imperfect is:first is:plural	# T11 + (iv)([ei])ón(s[ei]), metaplaxmo, feltrin
+SFX T1 ir eseon/I2 ir	vt:indicative+imperfect is:first is:plural	# T11 + (iv)([ei])ón(s[ei]), feltrin, metaplaxmo
 SFX T1 r sion/I2 ar	vt:indicative+imperfect is:first is:plural	# T11 + (iv)([ei])ón(s[ei]), belumat
-SFX T1 ar esion/I2 ar	vt:indicative+imperfect is:first is:plural	# T11 + (iv)([ei])ón(s[ei]), metaplaxmo, belumat
+SFX T1 ar esion/I2 ar	vt:indicative+imperfect is:first is:plural	# T11 + (iv)([ei])ón(s[ei]), belumat, metaplaxmo
 SFX T1 r sion/I2 er	vt:indicative+imperfect is:first is:plural	# T11 + (iv)([ei])ón(s[ei]), belumat
 SFX T1 r sion/I2 ir	vt:indicative+imperfect is:first is:plural	# T11 + (iv)([ei])ón(s[ei]), belumat
 SFX T1 rò sion/I2 erò	vt:indicative+imperfect is:first is:plural	# T11 + (iv)([ei])ón(s[ei]), belumat
-SFX T1 ir esion/I2 ir	vt:indicative+imperfect is:first is:plural	# T11 + (iv)([ei])ón(s[ei]), metaplaxmo, belumat
+SFX T1 ir esion/I2 ir	vt:indicative+imperfect is:first is:plural	# T11 + (iv)([ei])ón(s[ei]), belumat, metaplaxmo
 SFX T1 r vi/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
 SFX T1 ar àvis/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
-SFX T1 ar evi/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)i, metaplaxmo, liventin
-SFX T1 ar évis/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)i, metaplaxmo, liventin
+SFX T1 ar evi/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)i, liventin, metaplaxmo
+SFX T1 ar évis/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)i, liventin, metaplaxmo
 SFX T1 r vi/I3 er	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
 SFX T1 er évis/I3 er	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
-SFX T1 er ivi/I3 er	vt:indicative+imperfect is:second is:singular	# T2 + (v)i, metafonèxi, padoan
-SFX T1 er ívis/I3 er	vt:indicative+imperfect is:second is:singular	# T2 + (v)i, metafonèxi, padoan
+SFX T1 er ivi/I3 er	vt:indicative+imperfect is:second is:singular	# T2 + (v)i, padoan, metafonèxi
+SFX T1 er ívis/I3 er	vt:indicative+imperfect is:second is:singular	# T2 + (v)i, padoan, metafonèxi
 SFX T1 r vi/I3 ir	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
 SFX T1 ir ívis/I3 ir	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
 SFX T1 rò vi/I3 erò	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
@@ -504,8 +504,8 @@ SFX T1 ir evi/I3 ir	vt:indicative+imperfect is:second is:singular	# T2 + (v)i, m
 SFX T1 ir évis/I3 ir	vt:indicative+imperfect is:second is:singular	# T2 + (v)i, metaplaxmo
 SFX T1 r i/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
 SFX T1 ar àis/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
-SFX T1 ar ei/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)i, metaplaxmo, liventin
-SFX T1 ar éis/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)i, metaplaxmo, liventin
+SFX T1 ar ei/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)i, liventin, metaplaxmo
+SFX T1 ar éis/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)i, liventin, metaplaxmo
 SFX T1 r i/I3 er	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
 SFX T1 er éis/I3 er	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
 SFX T1 ir íi/I3 [^aeiouïü]ir	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
@@ -517,28 +517,28 @@ SFX T1 erò éis/I3 erò	vt:indicative+imperfect is:second is:singular	# T2 + (v
 SFX T1 ir ei/I3 ir	vt:indicative+imperfect is:second is:singular	# T2 + (v)i, metaplaxmo
 SFX T1 ir éis/I3 ir	vt:indicative+imperfect is:second is:singular	# T2 + (v)i, metaplaxmo
 SFX T1 r vi/I4 ar	vt:indicative+imperfect is:second is:plural	# T2 + (v)i
-SFX T1 ar evi/I4 ar	vt:indicative+imperfect is:second is:plural	# T2 + (v)i, metaplaxmo, liventin
+SFX T1 ar evi/I4 ar	vt:indicative+imperfect is:second is:plural	# T2 + (v)i, liventin, metaplaxmo
 SFX T1 r vi/I4 er	vt:indicative+imperfect is:second is:plural	# T2 + (v)i
-SFX T1 er ivi/I4 er	vt:indicative+imperfect is:second is:plural	# T2 + (v)i, metafonèxi, padoan
+SFX T1 er ivi/I4 er	vt:indicative+imperfect is:second is:plural	# T2 + (v)i, padoan, metafonèxi
 SFX T1 r vi/I4 ir	vt:indicative+imperfect is:second is:plural	# T2 + (v)i
 SFX T1 rò vi/I4 erò	vt:indicative+imperfect is:second is:plural	# T2 + (v)i
-SFX T1 erò ivi/I4 erò	vt:indicative+imperfect is:second is:plural	# T2 + (v)i, metafonèxi, padoan
+SFX T1 erò ivi/I4 erò	vt:indicative+imperfect is:second is:plural	# T2 + (v)i, padoan, metafonèxi
 SFX T1 ir evi/I4 ir	vt:indicative+imperfect is:second is:plural	# T2 + (v)i, metaplaxmo
 SFX T1 r i/I4 ar	vt:indicative+imperfect is:second is:plural	# T2 + (v)i
-SFX T1 ar ei/I4 ar	vt:indicative+imperfect is:second is:plural	# T2 + (v)i, metaplaxmo, liventin
+SFX T1 ar ei/I4 ar	vt:indicative+imperfect is:second is:plural	# T2 + (v)i, liventin, metaplaxmo
 SFX T1 r i/I4 er	vt:indicative+imperfect is:second is:plural	# T2 + (v)i
 SFX T1 ir íi/I4 [^aeiouïü]ir	vt:indicative+imperfect is:second is:plural	# T2 + (v)i
 SFX T1 r i/I4 [aeiouïü]ir	vt:indicative+imperfect is:second is:plural	# T2 + (v)i
 SFX T1 rò i/I4 erò	vt:indicative+imperfect is:second is:plural	# T2 + (v)i
 SFX T1 ir ei/I4 ir	vt:indicative+imperfect is:second is:plural	# T2 + (v)i, metaplaxmo
 SFX T1 r va [aei]r	vt:indicative+imperfect is:third	# T2 + (v)a
-SFX T1 ar eva ar	vt:indicative+imperfect is:third	# T2 + (v)a, metaplaxmo, liventin
+SFX T1 ar eva ar	vt:indicative+imperfect is:third	# T2 + (v)a, liventin, metaplaxmo
 SFX T1 rò va erò	vt:indicative+imperfect is:third	# T2 + (v)a
 SFX T1 ir eva ir	vt:indicative+imperfect is:third	# T2 + (v)a, metaplaxmo
 SFX T1 r a [ae]r	vt:indicative+imperfect is:third	# T2 + (v)a
 SFX T1 ir ía [^aeiouïü]ir	vt:indicative+imperfect is:third	# T2 + (v)a
 SFX T1 r a [aeiouïü]ir	vt:indicative+imperfect is:third	# T2 + (v)a
-SFX T1 ar ea ar	vt:indicative+imperfect is:third	# T2 + (v)a, metaplaxmo, liventin
+SFX T1 ar ea ar	vt:indicative+imperfect is:third	# T2 + (v)a, liventin, metaplaxmo
 SFX T1 rò a erò	vt:indicative+imperfect is:third	# T2 + (v)a
 SFX T1 ir ea ir	vt:indicative+imperfect is:third	# T2 + (v)a, metaplaxmo
 SFX T1 r se [aei]r	vt:subjunctive+imperfect is:first is:singular	# T2 + se
@@ -546,7 +546,7 @@ SFX T1 ar ese ar	vt:subjunctive+imperfect is:first is:singular	# T2 + se, metapl
 SFX T1 rò se erò	vt:subjunctive+imperfect is:first is:singular	# T2 + se
 SFX T1 ir ese ir	vt:subjunctive+imperfect is:first is:singular	# T2 + se, metaplaxmo
 SFX T1 ar àsimo ar	vt:subjunctive+imperfect is:first is:plural	# T2 + s[ei]mo
-SFX T1 ar ésimo ar	vt:subjunctive+imperfect is:first is:plural	# T2 + s[ei]mo, metaplaxmo, liventin
+SFX T1 ar ésimo ar	vt:subjunctive+imperfect is:first is:plural	# T2 + s[ei]mo, liventin, metaplaxmo
 SFX T1 er ésimo er	vt:subjunctive+imperfect is:first is:plural	# T2 + s[ei]mo
 SFX T1 ir ísimo ir	vt:subjunctive+imperfect is:first is:plural	# T2 + s[ei]mo
 SFX T1 erò ésimo erò	vt:subjunctive+imperfect is:first is:plural	# T2 + s[ei]mo
@@ -555,26 +555,26 @@ SFX T1 ar àsemo ar	vt:subjunctive+imperfect is:first is:plural	# T2 + s[ei]mo, 
 SFX T1 er ésemo er	vt:subjunctive+imperfect is:first is:plural	# T2 + s[ei]mo, veneŧian
 SFX T1 ir ísemo ir	vt:subjunctive+imperfect is:first is:plural	# T2 + s[ei]mo, veneŧian
 SFX T1 erò ésemo erò	vt:subjunctive+imperfect is:first is:plural	# T2 + s[ei]mo, veneŧian
-SFX T1 ir ésemo ir	vt:subjunctive+imperfect is:first is:plural	# T2 + s[ei]mo, metaplaxmo, veneŧian
+SFX T1 ir ésemo ir	vt:subjunctive+imperfect is:first is:plural	# T2 + s[ei]mo, veneŧian, metaplaxmo
 SFX T1 r si [aei]r	vt:subjunctive+imperfect is:second is:singular	# T2 + si
-SFX T1 er isi er	vt:subjunctive+imperfect is:second is:singular	# T2 + si, metafonèxi, padoan
+SFX T1 er isi er	vt:subjunctive+imperfect is:second is:singular	# T2 + si, padoan, metafonèxi
 SFX T1 ar àsis ar	vt:subjunctive+imperfect is:second is:singular	# T2 + si
 SFX T1 er ésis er	vt:subjunctive+imperfect is:second is:singular	# T2 + si
-SFX T1 er ísis er	vt:subjunctive+imperfect is:second is:singular	# T2 + si, metafonèxi, padoan
+SFX T1 er ísis er	vt:subjunctive+imperfect is:second is:singular	# T2 + si, padoan, metafonèxi
 SFX T1 ir ísis ir	vt:subjunctive+imperfect is:second is:singular	# T2 + si
-SFX T1 ar esi ar	vt:subjunctive+imperfect is:second is:singular	# T2 + si, metaplaxmo, liventin
-SFX T1 ar ésis ar	vt:subjunctive+imperfect is:second is:singular	# T2 + si, metaplaxmo, liventin
+SFX T1 ar esi ar	vt:subjunctive+imperfect is:second is:singular	# T2 + si, liventin, metaplaxmo
+SFX T1 ar ésis ar	vt:subjunctive+imperfect is:second is:singular	# T2 + si, liventin, metaplaxmo
 SFX T1 rò si erò	vt:subjunctive+imperfect is:second is:singular	# T2 + si
 SFX T1 erò ésis erò	vt:subjunctive+imperfect is:second is:singular	# T2 + si
-SFX T1 erò isi erò	vt:subjunctive+imperfect is:second is:singular	# T2 + si, metafonèxi, padoan
-SFX T1 erò ísis erò	vt:subjunctive+imperfect is:second is:singular	# T2 + si, metafonèxi, padoan
+SFX T1 erò isi erò	vt:subjunctive+imperfect is:second is:singular	# T2 + si, padoan, metafonèxi
+SFX T1 erò ísis erò	vt:subjunctive+imperfect is:second is:singular	# T2 + si, padoan, metafonèxi
 SFX T1 ir esi ir	vt:subjunctive+imperfect is:second is:singular	# T2 + si, metaplaxmo
 SFX T1 ir ésis ir	vt:subjunctive+imperfect is:second is:singular	# T2 + si, metaplaxmo
 SFX T1 r si [aei]r	vt:subjunctive+imperfect is:second is:plural	# T2 + si
-SFX T1 er isi er	vt:subjunctive+imperfect is:second is:plural	# T2 + si, metafonèxi, padoan
-SFX T1 ar esi ar	vt:subjunctive+imperfect is:second is:plural	# T2 + si, metaplaxmo, liventin
+SFX T1 er isi er	vt:subjunctive+imperfect is:second is:plural	# T2 + si, padoan, metafonèxi
+SFX T1 ar esi ar	vt:subjunctive+imperfect is:second is:plural	# T2 + si, liventin, metaplaxmo
 SFX T1 rò si erò	vt:subjunctive+imperfect is:second is:plural	# T2 + si
-SFX T1 erò isi erò	vt:subjunctive+imperfect is:second is:plural	# T2 + si, metafonèxi, padoan
+SFX T1 erò isi erò	vt:subjunctive+imperfect is:second is:plural	# T2 + si, padoan, metafonèxi
 SFX T1 ir esi ir	vt:subjunctive+imperfect is:second is:plural	# T2 + si, metaplaxmo
 SFX T1 r se [aei]r	vt:subjunctive+imperfect is:third	# T2 + se
 SFX T1 ar ese ar	vt:subjunctive+imperfect is:third	# T2 + se, metaplaxmo
@@ -631,21 +631,21 @@ SFX T1 ir erà ir	vt:indicative+future is:third	# T4 + rà, metaplaxmo
 SFX T1 0 ía [aei]r	vt:conditional+present is:first is:singular	# T4 + rí[ae]/réa
 SFX T1 0 ea [aei]r	vt:conditional+present is:first is:singular	# T4 + rí[ae]/réa, veronexe
 SFX T1 ar ería ar	vt:conditional+present is:first is:singular	# T4 + rí[ae]/réa, metaplaxmo
-SFX T1 ar erea ar	vt:conditional+present is:first is:singular	# T4 + rí[ae]/réa, metaplaxmo, veronexe
+SFX T1 ar erea ar	vt:conditional+present is:first is:singular	# T4 + rí[ae]/réa, veronexe, metaplaxmo
 SFX T1 ò ía erò	vt:conditional+present is:first is:singular	# T4 + rí[ae]/réa
 SFX T1 ò ea erò	vt:conditional+present is:first is:singular	# T4 + rí[ae]/réa, veronexe
 SFX T1 ir ería ir	vt:conditional+present is:first is:singular	# T4 + rí[ae]/réa, metaplaxmo
-SFX T1 ir erea ir	vt:conditional+present is:first is:singular	# T4 + rí[ae]/réa, metaplaxmo, veronexe
-SFX T1 ir aría ir	vt:conditional+present is:first is:singular	# T4 + rí[ae]/réa, metaplaxmo, viŧentin
+SFX T1 ir erea ir	vt:conditional+present is:first is:singular	# T4 + rí[ae]/réa, veronexe, metaplaxmo
+SFX T1 ir aría ir	vt:conditional+present is:first is:singular	# T4 + rí[ae]/réa, viŧentin, metaplaxmo
 SFX T1 0 ésimo/I2 [aei]r	vt:conditional+present is:first is:plural	# T4 + r[éí]simo
 SFX T1 ar erésimo/I2 ar	vt:conditional+present is:first is:plural	# T4 + r[éí]simo, metaplaxmo
 SFX T1 ò ésimo/I2 erò	vt:conditional+present is:first is:plural	# T4 + r[éí]simo
 SFX T1 ir erésimo/I2 ir	vt:conditional+present is:first is:plural	# T4 + r[éí]simo, metaplaxmo
 SFX T1 0 ísimo/I2 [aei]r	vt:conditional+present is:first is:plural	# T4 + r[éí]simo, pavan
-SFX T1 ar erísimo/I2 ar	vt:conditional+present is:first is:plural	# T4 + r[éí]simo, metaplaxmo, pavan
+SFX T1 ar erísimo/I2 ar	vt:conditional+present is:first is:plural	# T4 + r[éí]simo, pavan, metaplaxmo
 SFX T1 ò ísimo/I2 erò	vt:conditional+present is:first is:plural	# T4 + r[éí]simo, pavan
-SFX T1 ir erísimo/I2 ir	vt:conditional+present is:first is:plural	# T4 + r[éí]simo, metaplaxmo, pavan
-SFX T1 ir arísimo/I2 ir	vt:conditional+present is:first is:plural	# T4 + r[éí]simo, metaplaxmo, viŧentin
+SFX T1 ir erísimo/I2 ir	vt:conditional+present is:first is:plural	# T4 + r[éí]simo, pavan, metaplaxmo
+SFX T1 ir arísimo/I2 ir	vt:conditional+present is:first is:plural	# T4 + r[éí]simo, viŧentin, metaplaxmo
 SFX T1 0 ía/I3 [aei]r	vt:conditional+present is:second is:singular	# T4 + ría
 SFX T1 0 ías/I3 [aei]r	vt:conditional+present is:second is:singular	# T4 + ría
 SFX T1 ar ería/I3 ar	vt:conditional+present is:second is:singular	# T4 + ría, metaplaxmo
@@ -662,29 +662,29 @@ SFX T1 ò esi/I3 erò	vt:conditional+present is:second is:singular	# T4 + rési
 SFX T1 ò ésis/I3 erò	vt:conditional+present is:second is:singular	# T4 + rési
 SFX T1 0 isi/I3 [aei]r	vt:conditional+present is:second is:singular	# T4 + rísi, pavan, arkade
 SFX T1 0 ísis/I3 [aei]r	vt:conditional+present is:second is:singular	# T4 + rísi, pavan, arkade
-SFX T1 ar erisi/I3 ar	vt:conditional+present is:second is:singular	# T4 + rísi, metaplaxmo, pavan, arkade
-SFX T1 ar erísis/I3 ar	vt:conditional+present is:second is:singular	# T4 + rísi, metaplaxmo, pavan, arkade
+SFX T1 ar erisi/I3 ar	vt:conditional+present is:second is:singular	# T4 + rísi, pavan, arkade, metaplaxmo
+SFX T1 ar erísis/I3 ar	vt:conditional+present is:second is:singular	# T4 + rísi, pavan, arkade, metaplaxmo
 SFX T1 ò isi/I3 erò	vt:conditional+present is:second is:singular	# T4 + rísi, pavan, arkade
 SFX T1 ò ísis/I3 erò	vt:conditional+present is:second is:singular	# T4 + rísi, pavan, arkade
-SFX T1 ir arisi/I3 ir	vt:conditional+present is:second is:singular	# T4 + rísi, metaplaxmo, viŧentin
-SFX T1 ir arísis/I3 ir	vt:conditional+present is:second is:singular	# T4 + rísi, metaplaxmo, viŧentin
+SFX T1 ir arisi/I3 ir	vt:conditional+present is:second is:singular	# T4 + rísi, viŧentin, metaplaxmo
+SFX T1 ir arísis/I3 ir	vt:conditional+present is:second is:singular	# T4 + rísi, viŧentin, metaplaxmo
 SFX T1 0 esi/I4 [aei]r	vt:conditional+present is:second is:plural	# T4 + rési
 SFX T1 ar eresi/I4 ar	vt:conditional+present is:second is:plural	# T4 + rési, metaplaxmo
 SFX T1 ò esi/I4 erò	vt:conditional+present is:second is:plural	# T4 + rési
 SFX T1 ir esi/I4 ir	vt:conditional+present is:second is:plural	# T4 + rési, metaplaxmo
 SFX T1 0 isi/I4 [aei]r	vt:conditional+present is:second is:plural	# T4 + rísi, pavan, arkade
-SFX T1 ar erisi/I4 ar	vt:conditional+present is:second is:plural	# T4 + rísi, metaplaxmo, pavan, arkade
+SFX T1 ar erisi/I4 ar	vt:conditional+present is:second is:plural	# T4 + rísi, pavan, arkade, metaplaxmo
 SFX T1 ò isi/I4 erò	vt:conditional+present is:second is:plural	# T4 + rísi, pavan, arkade
-SFX T1 ir arisi/I4 ir	vt:conditional+present is:second is:plural	# T4 + rísi, metaplaxmo, viŧentin
+SFX T1 ir arisi/I4 ir	vt:conditional+present is:second is:plural	# T4 + rísi, viŧentin, metaplaxmo
 SFX T1 0 ía [aei]r	vt:conditional+present is:third	# T4 + rí[ae]/réa
 SFX T1 0 ea [aei]r	vt:conditional+present is:third	# T4 + rí[ae]/réa, veronexe
 SFX T1 ar ería ar	vt:conditional+present is:third	# T4 + rí[ae]/réa, metaplaxmo
-SFX T1 ar erea ar	vt:conditional+present is:third	# T4 + rí[ae]/réa, metaplaxmo, veronexe
+SFX T1 ar erea ar	vt:conditional+present is:third	# T4 + rí[ae]/réa, veronexe, metaplaxmo
 SFX T1 ò ía erò	vt:conditional+present is:third	# T4 + rí[ae]/réa
 SFX T1 ò ea erò	vt:conditional+present is:third	# T4 + rí[ae]/réa, veronexe
 SFX T1 ir ería ir	vt:conditional+present is:third	# T4 + rí[ae]/réa, metaplaxmo
-SFX T1 ir erea ir	vt:conditional+present is:third	# T4 + rí[ae]/réa, metaplaxmo, veronexe
-SFX T1 ir aría ir	vt:conditional+present is:third	# T4 + rí[ae]/réa, metaplaxmo, viŧentin
+SFX T1 ir erea ir	vt:conditional+present is:third	# T4 + rí[ae]/réa, veronexe, metaplaxmo
+SFX T1 ir aría ir	vt:conditional+present is:third	# T4 + rí[ae]/réa, viŧentin, metaplaxmo
 SFX T1 0 ave/I1 [aei]r	vt:conditional+present is:first is:singular	# T4 + rà(v)[ei]
 SFX T1 ar erave/I1 ar	vt:conditional+present is:first is:singular	# T4 + rà(v)[ei], metaplaxmo
 SFX T1 ò ave/I1 erò	vt:conditional+present is:first is:singular	# T4 + rà(v)[ei]
@@ -692,10 +692,10 @@ SFX T1 0 ae [aei]r	vt:conditional+present is:first is:singular	# T4 + rà(v)[ei]
 SFX T1 ar erae ar	vt:conditional+present is:first is:singular	# T4 + rà(v)[ei], metaplaxmo
 SFX T1 ò ae erò	vt:conditional+present is:first is:singular	# T4 + rà(v)[ei]
 SFX T1 0 avi [aei]r	vt:conditional+present is:first is:singular	# T4 + rà(v)[ei], pavan
-SFX T1 ar eravi ar	vt:conditional+present is:first is:singular	# T4 + rà(v)[ei], metaplaxmo, pavan
+SFX T1 ar eravi ar	vt:conditional+present is:first is:singular	# T4 + rà(v)[ei], pavan, metaplaxmo
 SFX T1 ò avi erò	vt:conditional+present is:first is:singular	# T4 + rà(v)[ei], pavan
 SFX T1 0 ai [aei]r	vt:conditional+present is:first is:singular	# T4 + rà(v)[ei], pavan
-SFX T1 ar erai ar	vt:conditional+present is:first is:singular	# T4 + rà(v)[ei], metaplaxmo, pavan
+SFX T1 ar erai ar	vt:conditional+present is:first is:singular	# T4 + rà(v)[ei], pavan, metaplaxmo
 SFX T1 ò ai erò	vt:conditional+present is:first is:singular	# T4 + rà(v)[ei], pavan
 SFX T1 0 ave [aei]r	vt:conditional+present is:first is:plural	# T4 + rà(v)[ei]
 SFX T1 ar erave ar	vt:conditional+present is:first is:plural	# T4 + rà(v)[ei], metaplaxmo
@@ -745,7 +745,7 @@ SFX T2 erò í erò	vt:subjunctive+present is:second is:plural	# T5
 SFX T2 ir í ir	vt:subjunctive+present is:second is:plural	# T5, ŧenedexe, arkade, veneŧian
 SFX T2 ir é ir	vt:subjunctive+present is:second is:plural	# T5 = T12 + é([dg]e)
 SFX T2 e i [^i]e	vt:subjunctive+present is:second is:singular	# T8 + i, na sílaba solke (xvie > xvii)
-SFX T2 e 0 ie	vt:subjunctive+present is:second is:singular	# T8 + i, se do o pí sílabe ke le fenise par -ie (studie > studi)
+SFX T2 e 0 ie	vt:subjunctive+present is:second is:singular	# T8 + i, se do o pi sílabe ke le fenise par -ie (studie > studi)
 SFX T2 e a e	vt:subjunctive+present is:first is:singular	# T8 + a
 SFX T2 0 0 e	vt:subjunctive+present is:first is:singular	# T8 + e
 SFX T2 e a e	vt:subjunctive+present is:second is:singular	# T8 + a
@@ -778,12 +778,12 @@ SFX T4 er ante/X0 er	vt:participle+active	# T7 + nte, metaplaxmo
 SFX T4 ir ante/X0 ir	vt:participle+active	# T7 + nte, metaplaxmo
 SFX T4 er ènte/X0 er	vt:participle+active	# T7 + nte, veronexe
 SFX T4 ar ente/X0 ar	vt:participle+active	# T7 + nte, metaplaxmo
-SFX T4 ar ènte/X0 ar	vt:participle+active	# T7 + nte, metaplaxmo, veronexe
+SFX T4 ar ènte/X0 ar	vt:participle+active	# T7 + nte, veronexe, metaplaxmo
 SFX T4 rò nte/X0 erò	vt:participle+active	# T7 + nte
 SFX T4 erò ante/X0 erò	vt:participle+active	# T7 + nte, metaplaxmo
 SFX T4 erò ènte/X0 erò	vt:participle+active	# T7 + nte, veronexe
 SFX T4 ir ente/X0 ir	vt:participle+active	# T7 + nte, metaplaxmo
-SFX T4 ir ènte/X0 ir	vt:participle+active	# T7 + nte, metaplaxmo, veronexe
+SFX T4 ir ènte/X0 ir	vt:participle+active	# T7 + nte, veronexe, metaplaxmo
 SFX T4 r do/M2F0F3y0y1 [ai]r	vt:participle+passive+weak	# T6 + d[oiae], T6 + ([oiae])
 SFX T4 er udo/M2F0F3y0y1 [^u]er	vt:participle+passive+weak	# T6 + d[oiae], T6 + ([oiae])
 SFX T4 er do/M2F0F3y0y1 uer	vt:participle+passive+weak	# T6 + d[oiae], T6 + ([oiae])
@@ -904,13 +904,13 @@ SFX L0 0 -lo/I6 e	vt:indicative+present is:third cl:interrogative	# T10
 # used if word does not contains ƚ
 SFX L1 Y 28
 SFX L1 r ve-lo/I6 [aei]r	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a
-SFX L1 ar eve-lo/I6 ar	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a, metaplaxmo, liventin
+SFX L1 ar eve-lo/I6 ar	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a, liventin, metaplaxmo
 SFX L1 rò ve-lo/I6 erò	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a
 SFX L1 ir eve-lo/I6 ir	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a, metaplaxmo
 SFX L1 r e-lo/I6 [ae]r	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a
 SFX L1 ir íe-lo/I6 [^aeiouïü]ir	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a
 SFX L1 r e-lo/I6 [aeiouïü]ir	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a
-SFX L1 ar ee-lo/I6 ar	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a, metaplaxmo, liventin
+SFX L1 ar ee-lo/I6 ar	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a, liventin, metaplaxmo
 SFX L1 rò e-lo/I6 erò	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a
 SFX L1 ir ee-lo/I6 ir	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a, metaplaxmo
 SFX L1 0 à-lo/I6 [aei]r	vt:indicative+future is:third cl:interrogative	# T4 + rà
@@ -922,9 +922,9 @@ SFX L1 ar erise-lo/I6 ar	vt:conditional+present is:third cl:interrogative	# T4 +
 SFX L1 ò ise-lo/I6 erò	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae]
 SFX L1 ir erise-lo/I6 ir	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], metaplaxmo
 SFX L1 0 ese-lo/I6 [aei]r	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], viŧenŧa
-SFX L1 ar erese-lo/I6 ar	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], metaplaxmo, viŧenŧa
+SFX L1 ar erese-lo/I6 ar	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], viŧenŧa, metaplaxmo
 SFX L1 ò ese-lo/I6 erò	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], viŧenŧa
-SFX L1 ir erese-lo/I6 ir	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], metaplaxmo, viŧenŧa
+SFX L1 ir erese-lo/I6 ir	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], viŧenŧa, metaplaxmo
 SFX L1 0 ave-lo/I6 [aei]r	vt:conditional+present is:third cl:interrogative	# T4 + rà(v)[ei]
 SFX L1 ar erave-lo/I6 ar	vt:conditional+present is:third cl:interrogative	# T4 + rà(v)[ei], metaplaxmo
 SFX L1 ò ave-lo/I6 erò	vt:conditional+present is:third cl:interrogative	# T4 + rà(v)[ei]
@@ -1002,13 +1002,13 @@ SFX l0 0 -ƚo/I8 e	vt:indicative+present is:third cl:interrogative	# T10
 # used if word does contains ƚ
 SFX l1 Y 28
 SFX l1 r ve-ƚo/I8 [aei]r	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a
-SFX l1 ar eve-ƚo/I8 ar	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a, metaplaxmo, liventin
+SFX l1 ar eve-ƚo/I8 ar	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a, liventin, metaplaxmo
 SFX l1 rò ve-ƚo/I8 erò	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a
 SFX l1 ir eve-ƚo/I8 ir	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a, metaplaxmo
 SFX l1 r e-ƚo/I8 [ae]r	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a
 SFX l1 ir íe-ƚo/I8 [^aeiouïü]ir	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a
 SFX l1 r e-ƚo/I8 [aeiouïü]ir	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a
-SFX l1 ar ee-ƚo/I8 ar	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a, metaplaxmo, liventin
+SFX l1 ar ee-ƚo/I8 ar	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a, liventin, metaplaxmo
 SFX l1 rò e-ƚo/I8 erò	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a
 SFX l1 ir ee-ƚo/I8 ir	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a, metaplaxmo
 SFX l1 0 à-ƚo/I8 [aei]r	vt:indicative+future is:third cl:interrogative	# T4 + rà
@@ -1020,9 +1020,9 @@ SFX l1 ar erise-ƚo/I8 ar	vt:conditional+present is:third cl:interrogative	# T4 
 SFX l1 ò ise-ƚo/I8 erò	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae]
 SFX l1 ir erise-ƚo/I8 ir	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], metaplaxmo
 SFX l1 0 ese-ƚo/I8 [aei]r	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], viŧenŧa
-SFX l1 ar erese-ƚo/I8 ar	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], metaplaxmo, viŧenŧa
+SFX l1 ar erese-ƚo/I8 ar	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], viŧenŧa, metaplaxmo
 SFX l1 ò ese-ƚo/I8 erò	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], viŧenŧa
-SFX l1 ir erese-ƚo/I8 ir	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], metaplaxmo, viŧenŧa
+SFX l1 ir erese-ƚo/I8 ir	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], viŧenŧa, metaplaxmo
 SFX l1 0 ave-ƚo/I8 [aei]r	vt:conditional+present is:third cl:interrogative	# T4 + rà(v)[ei]
 SFX l1 ar erave-ƚo/I8 ar	vt:conditional+present is:third cl:interrogative	# T4 + rà(v)[ei], metaplaxmo
 SFX l1 ò ave-ƚo/I8 erò	vt:conditional+present is:third cl:interrogative	# T4 + rà(v)[ei]
@@ -1114,20 +1114,20 @@ SFX N0 is es/I3 is	vt:indicative+present is:second is:singular	# T8 + es, 2s=3, 
 # used if word does not contains ƚ
 SFX N1 Y 306
 SFX N1 r ve/I1A0 [ae]r	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo]
-SFX N1 ar eve/I1A0 ar	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo], metaplaxmo, liventin
+SFX N1 ar eve/I1A0 ar	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo], liventin, metaplaxmo
 SFX N1 r ve/I1 ir	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo]
 SFX N1 rò ve/I1A0 erò	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo]
 SFX N1 ir eve/I1A0 ir	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo], metaplaxmo
 SFX N1 r e/I1 [ae]r	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo]
 SFX N1 ir íe/I1 [^aeiouïü]ir	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo]
 SFX N1 r e/I1 [aeiouïü]ir	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo]
-SFX N1 ar ee/I1 ar	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo], metaplaxmo, liventin
+SFX N1 ar ee/I1 ar	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo], liventin, metaplaxmo
 SFX N1 rò e/I1 erò	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo]
 SFX N1 ir ee/I1 ir	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo], metaplaxmo
-SFX N1 ar eva/I1 ar	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo], metaplaxmo, liventin
-SFX N1 ar ea/I1 ar	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo], metaplaxmo, liventin
-SFX N1 ar evo/I1 ar	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo], metaplaxmo, liventin
-SFX N1 ar eo/I1 ar	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo], metaplaxmo, liventin
+SFX N1 ar eva/I1 ar	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo], liventin, metaplaxmo
+SFX N1 ar ea/I1 ar	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo], liventin, metaplaxmo
+SFX N1 ar evo/I1 ar	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo], liventin, metaplaxmo
+SFX N1 ar eo/I1 ar	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo], liventin, metaplaxmo
 SFX N1 ar on/I2P4 ar	vt:indicative+imperfect is:first is:plural	# T11 + (iv)([ei])ón(s[ei])
 SFX N1 er on/I2P4 er	vt:indicative+imperfect is:first is:plural	# T11 + (iv)([ei])ón(s[ei])
 SFX N1 erò on/I2P4 erò	vt:indicative+imperfect is:first is:plural	# T11 + (iv)([ei])ón(s[ei])
@@ -1163,8 +1163,8 @@ SFX N1 r va/I3 [aei]r	vt:indicative+imperfect is:second is:singular	# T2 + (v)a
 SFX N1 ar àvas/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)a
 SFX N1 er évas/I3 er	vt:indicative+imperfect is:second is:singular	# T2 + (v)a
 SFX N1 ir ívas/I3 ir	vt:indicative+imperfect is:second is:singular	# T2 + (v)a
-SFX N1 ar eva/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)a, metaplaxmo, liventin
-SFX N1 ar évas/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)a, metaplaxmo, liventin
+SFX N1 ar eva/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)a, liventin, metaplaxmo
+SFX N1 ar évas/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)a, liventin, metaplaxmo
 SFX N1 rò va/I3 erò	vt:indicative+imperfect is:second is:singular	# T2 + (v)a
 SFX N1 erò évas/I3 erò	vt:indicative+imperfect is:second is:singular	# T2 + (v)a
 SFX N1 ir eva/I3 ir	vt:indicative+imperfect is:second is:singular	# T2 + (v)a, metaplaxmo
@@ -1176,8 +1176,8 @@ SFX N1 ir ía/I3 [^aeiouïü]ir	vt:indicative+imperfect is:second is:singular	# 
 SFX N1 ir ías/I3 [^aeiouïü]ir	vt:indicative+imperfect is:second is:singular	# T2 + (v)a
 SFX N1 r a/I3 [aeiouïü]ir	vt:indicative+imperfect is:second is:singular	# T2 + (v)a
 SFX N1 ir ías/I3 [aeiouïü]ir	vt:indicative+imperfect is:second is:singular	# T2 + (v)a
-SFX N1 ar ea/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)a, metaplaxmo, liventin
-SFX N1 ar éas/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)a, metaplaxmo, liventin
+SFX N1 ar ea/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)a, liventin, metaplaxmo
+SFX N1 ar éas/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)a, liventin, metaplaxmo
 SFX N1 rò a/I3 erò	vt:indicative+imperfect is:second is:singular	# T2 + (v)a
 SFX N1 erò éas/I3 erò	vt:indicative+imperfect is:second is:singular	# T2 + (v)a
 SFX N1 ir ea/I3 ir	vt:indicative+imperfect is:second is:singular	# T2 + (v)a, metaplaxmo
@@ -1230,7 +1230,7 @@ SFX N1 erò isen/P3P4 erò	vt:subjunctive+imperfect is:first is:plural	# T11 + (
 SFX N1 ir en/P3P4 ir	vt:subjunctive+imperfect is:first is:plural	# T11 + (is)én(e|s[ei])
 SFX N1 r sen/P3P4 ir	vt:subjunctive+imperfect is:first is:plural	# T11 + (is)én(e|s[ei])
 SFX N1 r se/A0 [aei]r	vt:subjunctive+imperfect is:second is:singular	# T2 + se
-SFX N1 ar ese/A0 ar	vt:subjunctive+imperfect is:second is:singular	# T2 + se, metaplaxmo, liventin
+SFX N1 ar ese/A0 ar	vt:subjunctive+imperfect is:second is:singular	# T2 + se, liventin, metaplaxmo
 SFX N1 rò se/A0 erò	vt:subjunctive+imperfect is:second is:singular	# T2 + se
 SFX N1 ir ese/A0 ir	vt:subjunctive+imperfect is:second is:singular	# T2 + se, metaplaxmo
 SFX N1 ar ié/P5 [^cijɉñ]ar	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé
@@ -1242,9 +1242,9 @@ SFX N1 erò é/P5 [cijɉñ]erò	vt:subjunctive+imperfect is:second is:plural	# T
 SFX N1 r é/P5 [^cijɉñ]ir	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé
 SFX N1 ir é/P5 [cijɉñ]ir	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé
 SFX N1 ar isiè ar	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé, belumat
-SFX N1 ar esiè ar	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé, metaplaxmo, belumat
+SFX N1 ar esiè ar	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé, belumat, metaplaxmo
 SFX N1 ar isié/P5 ar	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé
-SFX N1 ar esié/P5 ar	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé, metaplaxmo, belumat
+SFX N1 ar esié/P5 ar	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé, belumat, metaplaxmo
 SFX N1 er isiè er	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé, belumat
 SFX N1 er isié/P5 er	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé
 SFX N1 r sié/P5 er	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé, belumat
@@ -1254,9 +1254,9 @@ SFX N1 rò sié/P5 erò	vt:subjunctive+imperfect is:second is:plural	# T11 + (is
 SFX N1 r siè ir	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé, belumat
 SFX N1 r sié/P5 ir	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé
 SFX N1 r s [aei]r	vt:subjunctive+imperfect is:third	# T2 + se, sonoriđaŧion final, belumat
-SFX N1 ar es ar	vt:subjunctive+imperfect is:third	# T2 + se, metaplaxmo, sonoriđaŧion final, belumat
+SFX N1 ar es ar	vt:subjunctive+imperfect is:third	# T2 + se, belumat, metaplaxmo, sonoriđaŧion final
 SFX N1 rò s erò	vt:subjunctive+imperfect is:third	# T2 + se, sonoriđaŧion final, belumat
-SFX N1 ir es ir	vt:subjunctive+imperfect is:third	# T2 + se, metaplaxmo, sonoriđaŧion final, belumat
+SFX N1 ir es ir	vt:subjunctive+imperfect is:third	# T2 + se, belumat, metaplaxmo, sonoriđaŧion final
 SFX N1 0 on/I2P4 [aei]r	vt:conditional+present is:first is:plural	# T4 + r(is)(i)ón(s[ei])
 SFX N1 ar eron/I2P4 ar	vt:conditional+present is:first is:plural	# T4 + r(is)(i)ón(s[ei]), metaplaxmo
 SFX N1 ò on/I2P4 erò	vt:conditional+present is:first is:plural	# T4 + r(is)(i)ón(s[ei])
@@ -1281,27 +1281,27 @@ SFX N1 0 èe/I3 [aei]r	vt:conditional+present is:second is:singular	# T4 + r[è�
 SFX N1 0 èes/I3 [aei]r	vt:conditional+present is:second is:singular	# T4 + r[èé]e, ŧenedexe
 SFX N1 ar eree/I3 ar	vt:conditional+present is:second is:singular	# T4 + r[èé]e, metaplaxmo
 SFX N1 ar erées/I3 ar	vt:conditional+present is:second is:singular	# T4 + r[èé]e, metaplaxmo
-SFX N1 ar erèe/I3 ar	vt:conditional+present is:second is:singular	# T4 + r[èé]e, metaplaxmo, ŧenedexe
-SFX N1 ar erèes/I3 ar	vt:conditional+present is:second is:singular	# T4 + r[èé]e, metaplaxmo, ŧenedexe
+SFX N1 ar erèe/I3 ar	vt:conditional+present is:second is:singular	# T4 + r[èé]e, ŧenedexe, metaplaxmo
+SFX N1 ar erèes/I3 ar	vt:conditional+present is:second is:singular	# T4 + r[èé]e, ŧenedexe, metaplaxmo
 SFX N1 ò ee/I3 erò	vt:conditional+present is:second is:singular	# T4 + r[èé]e
 SFX N1 ò ées/I3 erò	vt:conditional+present is:second is:singular	# T4 + r[èé]e
 SFX N1 ò èe/I3 erò	vt:conditional+present is:second is:singular	# T4 + r[èé]e, ŧenedexe
 SFX N1 ò èes/I3 erò	vt:conditional+present is:second is:singular	# T4 + r[èé]e, ŧenedexe
 SFX N1 ir eree/I3 ir	vt:conditional+present is:second is:singular	# T4 + r[èé]e, metaplaxmo
 SFX N1 ir erées/I3 ir	vt:conditional+present is:second is:singular	# T4 + r[èé]e, metaplaxmo
-SFX N1 ir erèe/I3 ir	vt:conditional+present is:second is:singular	# T4 + r[èé]e, metaplaxmo, ŧenedexe
-SFX N1 ir erèes/I3 ir	vt:conditional+present is:second is:singular	# T4 + r[èé]e, metaplaxmo, ŧenedexe
+SFX N1 ir erèe/I3 ir	vt:conditional+present is:second is:singular	# T4 + r[èé]e, ŧenedexe, metaplaxmo
+SFX N1 ir erèes/I3 ir	vt:conditional+present is:second is:singular	# T4 + r[èé]e, ŧenedexe, metaplaxmo
 SFX N1 0 íe [aei]r	vt:conditional+present is:third	# T4 + rí[ae]
 SFX N1 ar eríe ar	vt:conditional+present is:third	# T4 + rí[ae], metaplaxmo
 SFX N1 ò íe erò	vt:conditional+present is:third	# T4 + rí[ae]
 SFX N1 0 ee [aei]r	vt:conditional+present is:third	# T4 + r[èé]e
 SFX N1 ar eree ar	vt:conditional+present is:third	# T4 + r[èé]e, metaplaxmo
 SFX N1 0 èe [aei]r	vt:conditional+present is:third	# T4 + r[èé]e, ŧenedexe
-SFX N1 ar erèe ar	vt:conditional+present is:third	# T4 + r[èé]e, metaplaxmo, ŧenedexe
+SFX N1 ar erèe ar	vt:conditional+present is:third	# T4 + r[èé]e, ŧenedexe, metaplaxmo
 SFX N1 ò ee erò	vt:conditional+present is:third	# T4 + r[èé]e
 SFX N1 ir eree ir	vt:conditional+present is:third	# T4 + r[èé]e, metaplaxmo
 SFX N1 ò èe erò	vt:conditional+present is:third	# T4 + r[èé]e, ŧenedexe
-SFX N1 ir erèe ir	vt:conditional+present is:third	# T4 + r[èé]e, metaplaxmo, ŧenedexe
+SFX N1 ir erèe ir	vt:conditional+present is:third	# T4 + r[èé]e, ŧenedexe, metaplaxmo
 SFX N1 0 ove [aei]r	vt:conditional+present is:first is:singular	# T4 + ró(v)e
 SFX N1 ar erove ar	vt:conditional+present is:first is:singular	# T4 + ró(v)e, metaplaxmo
 SFX N1 ò ove erò	vt:conditional+present is:first is:singular	# T4 + ró(v)e
@@ -1345,19 +1345,19 @@ SFX N1 ir eroe/I5 ir	vt:conditional+present is:third	# T4 + ró(v)e, metaplaxmo
 SFX N1 0 ee/I1 [aei]r	vt:conditional+present is:first is:singular	# T4 + r[èé]e
 SFX N1 ar eree/I1 ar	vt:conditional+present is:first is:singular	# T4 + r[èé]e, metaplaxmo
 SFX N1 0 èe/I1 [aei]r	vt:conditional+present is:first is:singular	# T4 + r[èé]e, ŧenedexe
-SFX N1 ar erèe/I1 ar	vt:conditional+present is:first is:singular	# T4 + r[èé]e, metaplaxmo, ŧenedexe
+SFX N1 ar erèe/I1 ar	vt:conditional+present is:first is:singular	# T4 + r[èé]e, ŧenedexe, metaplaxmo
 SFX N1 ò ee/I1 erò	vt:conditional+present is:first is:singular	# T4 + r[èé]e
 SFX N1 ir eree/I1 ir	vt:conditional+present is:first is:singular	# T4 + r[èé]e, metaplaxmo
 SFX N1 ò èe/I1 erò	vt:conditional+present is:first is:singular	# T4 + r[èé]e, ŧenedexe
-SFX N1 ir erèe/I1 ir	vt:conditional+present is:first is:singular	# T4 + r[èé]e, metaplaxmo, ŧenedexe
+SFX N1 ir erèe/I1 ir	vt:conditional+present is:first is:singular	# T4 + r[èé]e, ŧenedexe, metaplaxmo
 SFX N1 0 íe [aei]r	vt:conditional+present is:first is:singular	# T4 + rí[ae]
 SFX N1 ar eríe ar	vt:conditional+present is:first is:singular	# T4 + rí[ae], metaplaxmo
 SFX N1 ò íe erò	vt:conditional+present is:first is:singular	# T4 + rí[ae]
 SFX N1 0 ié/I4 [aei]r	vt:conditional+present is:second is:plural	# T4 + r(is)ié, baso belumat, seguxin, cipileño
-SFX N1 ar erié/I4 ar	vt:conditional+present is:second is:plural	# T4 + r(is)ié, metaplaxmo, baso belumat, seguxin, cipileño
+SFX N1 ar erié/I4 ar	vt:conditional+present is:second is:plural	# T4 + r(is)ié, baso belumat, seguxin, cipileño, metaplaxmo
 SFX N1 ò ié/I4 erò	vt:conditional+present is:second is:plural	# T4 + r(is)ié, baso belumat, seguxin, cipileño
 SFX N1 0 isié/I4 [aei]r	vt:conditional+present is:second is:plural	# T4 + r(is)ié, baso belumat, seguxin, cipileño
-SFX N1 ar erisié/I4 ar	vt:conditional+present is:second is:plural	# T4 + r(is)ié, metaplaxmo, baso belumat, seguxin, cipileño
+SFX N1 ar erisié/I4 ar	vt:conditional+present is:second is:plural	# T4 + r(is)ié, baso belumat, seguxin, cipileño, metaplaxmo
 SFX N1 ò isié/I4 erò	vt:conditional+present is:second is:plural	# T4 + r(is)ié, baso belumat, seguxin, cipileño
 SFX N1 0 ou [aei]r	vt:conditional+present is:first is:singular	# T4 + róu
 SFX N1 ar erou ar	vt:conditional+present is:first is:singular	# T4 + róu, metaplaxmo
@@ -1435,7 +1435,7 @@ SFX N2 r n/P3 er	vt:subjunctive+present is:first is:plural	# T12 + én(e)
 SFX N2 rò n/P3 erò	vt:subjunctive+present is:first is:plural	# T12 + én(e)
 SFX N2 0 0 e	vt:subjunctive+present is:second is:singular	# T8 + e, 2s=3, belumat
 SFX N2 r se ir	vt:subjunctive+present is:second is:singular	# T8 + e, 2s=3, belumat
-SFX N2 ar é/P5 ar	vt:subjunctive+present is:second is:plural	# T12 + é([dg]e), metaplaxmo, baso belumat
+SFX N2 ar é/P5 ar	vt:subjunctive+present is:second is:plural	# T12 + é([dg]e), baso belumat, metaplaxmo
 SFX N2 er é/P5 er	vt:subjunctive+present is:second is:plural	# T12 + é([dg]e), baso belumat
 SFX N2 erò é/P5 erò	vt:subjunctive+present is:second is:plural	# T12 + é([dg]e), baso belumat
 
@@ -1455,12 +1455,12 @@ SFX N4 er ant er	vt:participle+active	# T7 + nte, metaplaxmo, sonoriđaŧion fin
 SFX N4 ir ant ir	vt:participle+active	# T7 + nte, metaplaxmo, sonoriđaŧion final
 SFX N4 er ènt er	vt:participle+active	# T7 + nte, veronexe, sonoriđaŧion final
 SFX N4 ar ent ar	vt:participle+active	# T7 + nte, metaplaxmo, sonoriđaŧion final
-SFX N4 ar ènt ar	vt:participle+active	# T7 + nte, metaplaxmo, veronexe, sonoriđaŧion final
+SFX N4 ar ènt ar	vt:participle+active	# T7 + nte, veronexe, metaplaxmo, sonoriđaŧion final
 SFX N4 rò nt erò	vt:participle+active	# T7 + nte, sonoriđaŧion final
 SFX N4 erò ant erò	vt:participle+active	# T7 + nte, metaplaxmo, sonoriđaŧion final
 SFX N4 erò ènt erò	vt:participle+active	# T7 + nte, veronexe, sonoriđaŧion final
 SFX N4 ir ent ir	vt:participle+active	# T7 + nte, metaplaxmo, sonoriđaŧion final
-SFX N4 ir ènt ir	vt:participle+active	# T7 + nte, metaplaxmo, veronexe, sonoriđaŧion final
+SFX N4 ir ènt ir	vt:participle+active	# T7 + nte, veronexe, metaplaxmo, sonoriđaŧion final
 SFX N4 r d [ai]r	vt:participle+passive+weak	# T6 + d[oiae], T6 + ([oiae]), sonoriđaŧion final
 SFX N4 r t [ai]r	vt:participle+passive+weak	# T6 + d[oiae], T6 + ([oiae]), sonoriđaŧion final
 SFX N4 er ud [^u]er	vt:participle+passive+weak	# T6 + d[oiae], T6 + ([oiae]), sonoriđaŧion final
@@ -1473,7 +1473,7 @@ SFX N4 erò d uerò	vt:participle+passive+weak	# T6 + d[oiae], T6 + ([oiae]), so
 SFX N4 erò t uerò	vt:participle+passive+weak	# T6 + d[oiae], T6 + ([oiae]), sonoriđaŧion final
 SFX N4 ir ed ir	vt:participle+passive+weak	# T6 + d[oiae], T6 + ([oiae]), metaplaxmo, sonoriđaŧion final
 SFX N4 ir et ir	vt:participle+passive+weak	# T6 + d[oiae], T6 + ([oiae]), metaplaxmo, sonoriđaŧion final
-SFX N4 ar esto/M2F0F3A0 ar	vt:participle+passive+weak	# T2 + st[oiae] = T7 + st[oiae], metaplaxmo, liventin
+SFX N4 ar esto/M2F0F3A0 ar	vt:participle+passive+weak	# T2 + st[oiae] = T7 + st[oiae], liventin, metaplaxmo
 SFX N4 r st [ae]r	vt:participle+passive+weak	# T2 + st[oiae] = T7 + st[oiae], sonoriđaŧion final
 SFX N4 er ast er	vt:participle+passive+weak	# T2 + st[oiae] = T7 + st[oiae], metaplaxmo, sonoriđaŧion final
 SFX N4 r st ir	vt:participle+passive+weak	# T2 + st[oiae], sonoriđaŧion final
@@ -1726,7 +1726,7 @@ SFX xA andar vage andar	vt:subjunctive+present is:second is:singular	# T8 + e, 2
 SFX xA andar vàges andar	vt:subjunctive+present is:second is:singular	# T8 + e, 2s=3, belumat
 SFX xA andar vè andar	vt:subjunctive+present is:second is:plural	# T5, veneŧian
 SFX xA andar vé/P5 andar	vt:subjunctive+present is:second is:plural	# T5, arkade
-SFX xA andar vè/P5 andar	vt:subjunctive+present is:second is:plural	# T12 + ège, metaplaxmo, ŧenedexe
+SFX xA andar vè/P5 andar	vt:subjunctive+present is:second is:plural	# T12 + ège, ŧenedexe, metaplaxmo
 SFX xA andar vaa andar	vt:subjunctive+present is:third	# T8 + a
 SFX xA andar vaga andar	vt:subjunctive+present is:third	# T8 + a
 SFX xA andar và/P0P1P2 andar	vt:imperative+present is:second is:singular	# T9
@@ -2318,7 +2318,7 @@ SFX xH r e ar	vt:subjunctive+present is:second is:singular	# T8 + e, 2s=3
 SFX xH ar àes ar	vt:subjunctive+present is:second is:singular	# T8 + e, 2s=3
 SFX xH ar è ar	vt:subjunctive+present is:second is:plural	# T5, veneŧian
 SFX xH ar é/P5 ar	vt:subjunctive+present is:second is:plural	# T5, arkade
-SFX xH ar è/P5 ar	vt:subjunctive+present is:second is:plural	# T12 + ège, metaplaxmo, ŧenedexe
+SFX xH ar è/P5 ar	vt:subjunctive+present is:second is:plural	# T12 + ège, ŧenedexe, metaplaxmo
 SFX xH r a ar	vt:subjunctive+present is:third	# T8 + a
 SFX xH r ga ar	vt:subjunctive+present is:third	# T8 + a
 SFX xH r e ar	vt:subjunctive+present is:third	# T8 + e
@@ -2687,8 +2687,8 @@ SFX xP éver ebiende/P0P1 éver	vt:gerund+simple	# T2 + n[dt]o, liventin, buran�
 SFX xP éver ebiende-ƚo/P2 éver	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[dt]o, liventin, buranèl
 SFX xP éver ebiando/P0P1 éver	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
 SFX xP éver ebiando-ƚo/P2 éver	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX xP éver ebiande/P0P1 éver	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo, liventin
-SFX xP éver ebiande-ƚo/P2 éver	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo, liventin
+SFX xP éver ebiande/P0P1 éver	vt:gerund+simple	# T7 + n[dt]o, liventin, metaplaxmo
+SFX xP éver ebiande-ƚo/P2 éver	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, liventin, metaplaxmo
 SFX xP éver ebiento/P0P1 éver	vt:gerund+simple	# T2 + n[dt]o
 SFX xP éver ebiento-ƚo/P2 éver	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[dt]o
 SFX xP éver ebianto/P0P1 éver	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
@@ -2833,7 +2833,7 @@ SFX xQ èser sipié/P5 èser	vt:subjunctive+present is:second is:plural	# T5 = T
 SFX xQ èser sipí èser	vt:subjunctive+present is:second is:plural	# T5
 SFX xQ èser sé/P5 èser	vt:subjunctive+present is:second is:plural	# T12 + é([dg]e), baso belumat
 SFX xQ èser sié/P5 èser	vt:subjunctive+present is:second is:plural	# T12 + é([dg]e), baso belumat
-SFX xQ èser sipiè/P5 èser	vt:subjunctive+present is:second is:plural	# T12 + ège, metaplaxmo, ŧenedexe
+SFX xQ èser sipiè/P5 èser	vt:subjunctive+present is:second is:plural	# T12 + ège, ŧenedexe, metaplaxmo
 SFX xQ èser sipie èser	vt:subjunctive+present is:third	# T8 + e
 SFX xQ èser sipia èser	vt:subjunctive+present is:third	# T8 + a
 SFX xQ èser síe èser	vt:subjunctive+present is:third	# T8 + e, belumat
@@ -3170,7 +3170,7 @@ SFX xR ïèser isipié/P5 ïèser	vt:subjunctive+present is:second is:plural	# T
 SFX xR ïèser isipí ïèser	vt:subjunctive+present is:second is:plural	# T5
 SFX xR ïèser isé/P5 ïèser	vt:subjunctive+present is:second is:plural	# T12 + é([dg]e), baso belumat
 SFX xR ïèser isié/P5 ïèser	vt:subjunctive+present is:second is:plural	# T12 + é([dg]e), baso belumat
-SFX xR ïèser isipiè/P5 ïèser	vt:subjunctive+present is:second is:plural	# T12 + ège, metaplaxmo, ŧenedexe
+SFX xR ïèser isipiè/P5 ïèser	vt:subjunctive+present is:second is:plural	# T12 + ège, ŧenedexe, metaplaxmo
 SFX xR ïèser isipie ïèser	vt:subjunctive+present is:third	# T8 + e
 SFX xR ïèser isipia ïèser	vt:subjunctive+present is:third	# T8 + a
 SFX xR ïèser ifuse/A0 ïèser	vt:subjunctive+imperfect is:first is:singular	# T2 + se
@@ -3372,8 +3372,8 @@ SFX xR ïèser isé ïèser	vt:imperative+present is:second is:plural	# T5 = T12
 SFX xR ïèser isí ïèser	vt:imperative+present is:second is:plural	# T5
 SFX xR ïèser isè ïèser	vt:imperative+present is:second is:plural	# T12 + [èé], ŧenedexe
 SFX xR ïèser istasto/M2F0F3 ïèser	vt:participle+passive+weak	# T7 + st[oiae], metaplaxmo
-SFX xR ïèser isèndo/P0P1 ïèser	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo, veronexe
-SFX xR ïèser isèndo-ƚo/P2 ïèser	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo, veronexe
+SFX xR ïèser isèndo/P0P1 ïèser	vt:gerund+simple	# T7 + n[dt]o, veronexe, metaplaxmo
+SFX xR ïèser isèndo-ƚo/P2 ïèser	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, veronexe, metaplaxmo
 SFX xR ïèser isiando/P0P1 ïèser	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
 SFX xR ïèser isiando-ƚo/P2 ïèser	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
 SFX xR ïèser isianto/P0P1 ïèser	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
@@ -6184,7 +6184,7 @@ PFX gv gu v gu[aàèi]
 PFX gv gu g gu[aàèi]
 
 
-# numerali — koletivi (-èna)
+# numerali — koletivi, pi demenutivi (-èna)
 SFX %0 Y 61
 SFX %0 ète etena/F2 ète
 SFX %0 ète etèna/F2 ète
@@ -6248,7 +6248,7 @@ SFX %0 0 ar/M0M2F0F3 ion
 SFX %0 o èr/M0M2F0F3 iardo
 SFX %0 o ar/M0M2F0F3 iardo
 
-# numerali — koletivi (-ando)
+# numerali — koletivi (-an[dt]o)
 SFX %1 Y 3
 SFX %1 0 ndo nta
 SFX %1 i ando/A0 nti
@@ -6339,7 +6339,7 @@ SFX %2 0 VIII [XLCDM]
 SFX %2 0 IX [XLCDM]
 SFX %2 0 X I
 
-# numeraŧion latina (el funŧiona fin al númaro 3209)
+# numeraŧion latina (el funŧiona fin a ʼl númaro 3209)
 PFX %3 Y 95
 PFX %3 0 X [LC]
 PFX %3 0 L X
@@ -6440,43 +6440,43 @@ PFX %3 0 MMMCL X
 
 # unidà de mexura (múltepli de dièxe)
 PFX $0 Y 8
-PFX $0 0 Y/Z0 .
-PFX $0 0 Z/Z0 .
-PFX $0 0 E/Z0 .
-PFX $0 0 P/Z0 .
-PFX $0 0 T/Z0 .
-PFX $0 0 G/Z0 .
-PFX $0 0 M/Z0 .
-PFX $0 0 k/Z0 .
+PFX $0 0 Y/Z0 .	# 1 000 000 000 000 000 000 000 000
+PFX $0 0 Z/Z0 .	# 1 000 000 000 000 000 000 000
+PFX $0 0 E/Z0 .	# 1 000 000 000 000 000 000
+PFX $0 0 P/Z0 .	# 1 000 000 000 000 000
+PFX $0 0 T/Z0 .	# 1 000 000 000 000
+PFX $0 0 G/Z0 .	# 1 000 000 000
+PFX $0 0 M/Z0 .	# 1 000 000
+PFX $0 0 k/Z0 .	# 1 000
 
 # unidà de mexura (múltepli de dièxe)
 PFX $1 Y 2
-PFX $1 0 h/Z0 .
-PFX $1 0 da/Z0 .
+PFX $1 0 h/Z0 .	# 100
+PFX $1 0 da/Z0 .	# 10
 
 # unidà de mexura (sotomúltepli de dièxe)
 PFX $2 Y 10
-PFX $2 0 d/Z0 .
-PFX $2 0 c/Z0 .
-PFX $2 0 m/Z0 .
-PFX $2 0 µ/Z0 .
-PFX $2 0 n/Z0 .
-PFX $2 0 p/Z0 .
-PFX $2 0 f/Z0 .
-PFX $2 0 a/Z0 .
-PFX $2 0 z/Z0 .
-PFX $2 0 y/Z0 .
+PFX $2 0 d/Z0 .	# 0.1
+PFX $2 0 c/Z0 .	# 0.01
+PFX $2 0 m/Z0 .	# 0.001
+PFX $2 0 µ/Z0 .	# 0.000 001
+PFX $2 0 n/Z0 .	# 0.000 000 001
+PFX $2 0 p/Z0 .	# 0.000 000 000 001
+PFX $2 0 f/Z0 .	# 0.000 000 000 000 001
+PFX $2 0 a/Z0 .	# 0.000 000 000 000 000 001
+PFX $2 0 z/Z0 .	# 0.000 000 000 000 000 000 001
+PFX $2 0 y/Z0 .	# 0.000 000 000 000 000 000 000 001
 
 # unidà de mexura (múltepli de do)
 PFX $3 Y 8
-PFX $3 0 Yi/Z0 .
-PFX $3 0 Zi/Z0 .
-PFX $3 0 Ei/Z0 .
-PFX $3 0 Pi/Z0 .
-PFX $3 0 Ti/Z0 .
-PFX $3 0 Gi/Z0 .
-PFX $3 0 Mi/Z0 .
-PFX $3 0 ki/Z0 .
+PFX $3 0 Yi/Z0 .	# 2⁸⁰
+PFX $3 0 Zi/Z0 .	# 2⁷⁰
+PFX $3 0 Ei/Z0 .	# 2⁶⁰
+PFX $3 0 Pi/Z0 .	# 2⁵⁰
+PFX $3 0 Ti/Z0 .	# 2⁴⁰
+PFX $3 0 Gi/Z0 .	# 2³⁰
+PFX $3 0 Mi/Z0 .	# 2²⁰
+PFX $3 0 ki/Z0 .	# 2¹⁰
 
 
 # paròle ŧonkae a ʼl iniŧio
