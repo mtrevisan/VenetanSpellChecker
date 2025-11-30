@@ -24,18 +24,18 @@
 SET UTF-8
 
 NAME Diŧionario de lengua vèneta
-VERSION 7.1.0 (2025/11/28)
+VERSION 7.0.1 (2025/11/28)
 HOME http://parnodexmentegar.orgfree.com/
 LANG vec-IT
 
 
-TRY eaoinrtlƚsdkpvmuèxgfàòbíhéŧójɉñcúSđLȽIPETKVAMDNFBRJGCOUĐXÀÈŦHɈÒÑÍÉÓÚʼïÏüÜ--‒–
+TRY eaoinrtlƚsdkpvmuèxgfàòbíhéŧójɉñcúSđLȽIPETKVAMDNFBRJGCOUĐXÀÈŦHɈÒÑÍÉÓÚʼïÏüÜ-–
 
 # the complete alphabet is: aàbcdđeéèfghiïíjɉklƚmnñoóòprstŧuüúvx
 
 
 # account for qwerty, hungarian, slovenian, brazilian, and romanian layout
-KEY esđdr|redđft|trfg|uhji|iujko|oiklp|polòèé-|èépòà|úó|aísđ|sđaxde|dsđxcfre|fdđcvgtr|gfvbht|hgbnju|jhnmkiu|kjmloi|lkéòpo|ñlp-|òlàèép-|àòèé-|ùà|élp-|xcdsđ|cxvfdđ|vcbgf|bvnhg|nbmjh|mnkj|ìèé
+KEY aà|eéè|iíï|oóò|uúü|ae|uo|iïeè|gnñ|mn|tŧ|rl|pbv|jđ|ŧfh|cɉ|guv|esdđr|redđftŧ|tŧrfg|uhjɉi|iujɉko|oiklƚp|polƚòèé-|èépòà|úó|aísđ|saxdđe|dđsxcfre|fdđcvgtŧr|gfvbhtŧ|hgbnñjɉu|jɉhnñmkiu|kjɉmlƚoi|lƚkéòpo|ñlƚp-|òlƚàèép-|àòèé-|ùà|élƚp-|xcsdđ|cxvfdđ|vcbgf|bvnñhg|nñbmjɉh|mnñkjɉ|ìèé|
 
 WORDCHARS ʼ-–
 
@@ -93,9 +93,9 @@ ICONV th ŧ
 ICONV Th Ŧ
 ICONV TH Ŧ
 
-#OCONV 2
-#OCONV ñ gn
-#OCONV Ñ Gn
+OCONV 2
+OCONV ñ gn
+OCONV Ñ Gn
 
 # frequently switched character groups
 REP 118
