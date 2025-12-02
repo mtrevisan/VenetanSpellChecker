@@ -100,7 +100,7 @@ OCONV ñ gn
 OCONV Ñ Gn
 
 # frequently switched character groups
-REP 118
+REP 121
 REP ʼ ʼ_
 REP - ‒
 REP - –
@@ -219,6 +219,9 @@ REP ^fratanto$ frà_tanto
 REP ^desora$ de_sora
 REP ^peròmo$ per_òmo
 REP ^paròmo$ par_òmo
+REP ^dintorno$ dʼ_intorno
+REP ^dinansi$ dʼ_inansi
+REP ^dinanŧi$ dʼ_inanŧi
 
 
 FLAG long
@@ -4341,19 +4344,19 @@ SFX A0 xi s xi
 # 	grena/M2F2
 # kađion/F1F2
 
-# sostantivi maskolini singolari (C > -o, à > ao, ó > oo, é > ee)
+# paròle maskoline singolari (C > -o, à > ao, ó > oo, é > ee)
 SFX M0 Y 4
 SFX M0 à ao à
 SFX M0 é ee é
 SFX M0 ó oo ó
 SFX M0 0 o [^aàeéioó]
 
-# sostantivi maskolini singolari (C > -e, o > e)
+# paròle maskoline singolari (C > -e, o > e)
 SFX M1 Y 2
 SFX M1 0 e [^aàeéioó]
 SFX M1 o e o
 
-# sostantivi maskolini plurali (C > -i, o > i|[^i]o, io > i, [ae] > i, à > ai, é > ei, ó > oi)
+# paròle maskoline plurali (C > -i, o > i|[^i]o, io > i, [ae] > i, à > ai, é > ei, ó > oi)
 SFX M2 Y 8
 SFX M2 0 i [^aàeéioó]	is:plural
 SFX M2 o i [^i]o	is:plural
@@ -4364,34 +4367,42 @@ SFX M2 à ai à	is:plural
 SFX M2 é ei é	is:plural
 SFX M2 ó oi ó	is:plural
 
-# sostantivi singolari femenili (C > -a, o > a)
+# paròle maskoline plurali mono-silabiŧi (o > i|io)
+SFX M3 Y 1
+SFX M3 o i [^aeiouàèéíòóú]io	is:plural
+
+# paròle maskoline plurali antigi (go > xi|igo)
+SFX M4 Y 1
+SFX M4 go xi igo	is:plural
+
+# paròle singolari femenili (C > -a, o > a)
 SFX F0 Y 2
 SFX F0 o a o	is:femenine
 SFX F0 0 a [^aeio]	is:femenine
 
-# sostantivi singolari femenili (C > -e)
+# paròle singolari femenili (C > -e)
 SFX F1 Y 1
 SFX F1 0 e [^aeio]	is:femenine
 
-# sostantivi plurali femenili (C > -i, e > i|[^i]e, ie > i, a > e)
+# paròle plurali femenili (C > -i, e > i|[^i]e, ie > i, a > e)
 SFX F2 Y 4
 SFX F2 0 i [^aeio]	is:plural is:femenine
 SFX F2 e i [^i]e	is:plural is:femenine
 SFX F2 e 0 ie	is:plural is:femenine
 SFX F2 a e a	is:plural is:femenine
 
-# sostantivi plurali femenili (C > -e, o > e)
+# paròle plurali femenili (C > -e, o > e)
 SFX F3 Y 2
 SFX F3 0 e [^aeio]	is:plural is:femenine
 SFX F3 o e o	is:plural is:femenine
 
-# sostantivi singolari: đontamento de -io/a a le paròle in -o/a (a > ia, o>io|[^cijɉñ]o, [lnr] > -io)
+# paròle singolari: đontamento de -io/a a le paròle in -o/a (a > ia, o>io|[^cijɉñ]o, [lnr] > -io)
 SFX A1 Y 3
 SFX A1 a ia/F2 a	is:femenine
 SFX A1 o io [^cijɉñ]o
 SFX A1 0 io [lnr]
 
-# sostantivi senŧa đèner plurali ([aeo] > i, [lnr] > -e/i)
+# paròle senŧa đèner plurali ([aeo] > i, [lnr] > -e/i)
 SFX X0 Y 5
 SFX X0 0 e [lnr]
 SFX X0 a i a	is:plural
@@ -4399,7 +4410,7 @@ SFX X0 e i e	is:plural
 SFX X0 o i o	is:plural
 SFX X0 0 i [lnr]	is:plural
 
-# sostantivi astrati senŧa đèner (-ade > -ae/à/è, -ude > -ú(e))
+# paròle astrati senŧa đèner (-ade > -ae/à/è, -ude > -ú(e))
 SFX X1 Y 5
 SFX X1 de e ade	is:femenine	# -TATE(M) > -ade > -ae
 SFX X1 ade à ade	is:femenine	# -TATE(M) > -ade > -at > -à
