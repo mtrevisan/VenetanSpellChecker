@@ -11,11 +11,11 @@ T0/t0/t1/T1/T2/t2/t3/T3/T4/T5/T6/T7: conjugation for -àr, -ér, '-er, -ír, -í
 L0/L1/L2/L3/L4/L5: conjugation for -àr, -ér, '-er, -ír, -ír/is for third person pronomenal verbs, non-vanishing el (L0 is indicative present, L1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, L2 is imperative present, L3 is indefinitive form, L4 is conjugation for -ír/is, L5 is for padoan vowel lowering for '-er)
 l0/l1/l2/l3/l4/l5: conjugation for -àr, -ér, '-er, -ír, -ír/is for third person pronomenal verbs, vanishing el (l0 is indicative present, l1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, l2 is imperative present, l3 is indefinitive form, l4 is conjugation for -ír/is, l5 is for padoan vowel lowering for '-er)
 N0/N1/N2/N3/N4/N5/N6/N7: conjugation for -àr, -ér, '-er, -ír, -ír/is, northern variant (N0 is indicative present, N1 is indicative imperfect, indicative future, subjunctive imperfect, and conditional present, N2 is subjunctive present, N3 is imperative present, N4 is indefinitive form, N5 is indicative present for -ír/is, N6 is for padoan vowel lowering for '-er, N7 is stressed root indicative present second singular person interrogative)
-W0/W1: conjugation for -ír, -ír/is, northern variant, conjugation for -ír/is, northern variant
-W2/w2: infinitive simple for -àr, -ír, -ír/is, lagunar variant (non-vanishing el variant/vanishing el variant)
-W3/w3: infinitive simple for -ér, padoan and coxòto variants (non-vanishing el variant/vanishing el variant)
-W4/w4: infinitive simple for '-er, padoan and coxòto variants (non-vanishing el variant/vanishing el variant)
-W5: infinitive simple for '-er, non-vanishing el variant
+W0: conjugation for -ír, -ír/is, northern variant
+W1/w1: infinitive simple for -àr, -ír, -ír/is, lagunar variant (non-vanishing el variant/vanishing el variant)
+W2/w2: infinitive simple for -ér, padoan and coxòto variants (non-vanishing el variant/vanishing el variant)
+W3/w3: infinitive simple for '-er, padoan and coxòto variants (non-vanishing el variant/vanishing el variant)
+W4: infinitive simple for '-er, non-vanishing el variant
 
 xA: irregular verb (re)?andar
 xB: irregular verb (re)?av?er, (re)?g(av)?er, ʼv?er
@@ -223,7 +223,7 @@ Dictionaries, works, and documents used:
  94. [20220915] Gamba, Bartolommeo. Raccolta di poesie in dialetto veneziano dʼogni secolo nuovamente ordinata ed accresciuta. Venezia; 1845. (https://books.google.it/books?id=3XDNAAAAMAAJ)
  95. [20230215] Bernoni, Domenico Giuseppe. Credenze popolari veneziane raccolte da Domenico Giuseppe Bernoni. Volume 2. Venezia; 187408. (https://books.google.it/books/about/Credenze_popolari_veneziane.html?id=EtAvAAAAYAAJ)
  99. [20230216] Bernoni, Domenico Giuseppe. Tradizioni popolari veneziane raccolte da Domenico Giuseppe Bernoni. Venezia; 1875. (https://archive.org/details/TradizioniPopolariVeneziane)
-100. [20230227] Bernoni, Domenico Giuseppe. Leggende fantastiche popolari veneziane raccolte da Domenico Giuseppe Bernoni. Venezia; 1873. (https://books.google.it/books/about/Leggende_fantastiche_popolari_veneziane.html?id=Vjoj_dW5qakC)
+100. [20230227] Bernoni, Domenico Giuseppe. Leggende fantastiche popolari veneziane raccolte da Domenico Giuseppe Bernoni. Venezia; 1873. (https://books.google.it/books/about/Leggende_fantastiche_popolari_veneziane.html?id=Vjoj_dW4qakC)
 101. [20230227] Bernoni, Domenico Giuseppe. Le strighe — Leggende popolari veneziane raccolte da Domenico Giuseppe Bernoni. Volume 5. Venezia; 1874. (https://books.google.it/books/about/Le_strighe.html?id=b98vAAAAYAAJ)
 102. [20230302] Bernoni, Domenico Giuseppe. Indovinelli popolari veneziani raccolti da Domenico Giuseppe Bernoni. Volume 4. Venezia; 1874. (https://books.google.it/books/about/Indovinelli_popolari_veneziani.html?id=7OdgAAAAcAAJ)
 103. [20230302] Bertanza, Enrico; Lazzarini, Vittorio. Il dialetto veneziano — fino alla morte di Dante Alighieri; 1321. Venezia; 1891. (https://archive.org/details/DialettoVenezianoDante)
@@ -334,3 +334,70 @@ La ricerca è basata sullʼanalisi di un centinaio di vocabolari che vanno dal 1
 
 TODO accenti!
 https://archivioladin-venas.blogspot.com/2007/09/glossario-ladino-cadorino-venas-italiano.html
+
+---
+
+i possibili tag per i verbi sono:
+T0T1T2N0N1N2N3N4L1L2L3l1l2l3W3w3P0P1P2
+T0T1T2T3L1L2L3l1l2l3W1P0P1P2
+T0T1T2T3N0N1N2N3N4L1L2L3
+T0T1T2T3N0N1N2N3N4L1L2L3W2P0P1
+T0T1T2T3N0N1N2N3N4L1L2L3l1l2l3W2w2W3w3P0P1P2
+T0T1T2T3N0N1N2N4L1L2L3W1P0P1
+T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2
+T0T1T2T3N1N2N4L1L2L3l1l2l3W0W1P0P1P2
+T0T1T2T3N1N4L1L2L3W0W1P0P1
+T0T1T2T3N1N4L1L2L3l1l2l3W0W1P0P1P2
+T0T1T2T3T4N1N2N4N5L1L2L3L4W0W1P0P1
+T0T1T2T3T4N1N2N4N5L1L2L3L4l1l2l3l4W0W1P0P1P2
+T0T1T2T3T4l1l2l3l4w1P0P2
+T0T1T2T3T6N0N1N2N3N4N6L1L2L3L5W3
+T0T1T2T3T6N0N1N2N3N4N6L1L2L3L5l1l2l3l5W3w3
+T0T1T2T3T6N0N1N2N3N4N6L1L2L3l1l2l3W3w3
+T0T1T2T3T6N6L5W3
+T0T1T2T3T6l1l2l3l5w3
+T0T1T2T3l1l2l3w1P0P2
+T0T1T2T3l1l2l3w2w3P0P2
+T0T1T6N0N1N2N3N4N6L1L3L5l1l3l5W3w3
+T0t0T2T3N0N2L0L2I5
+T0t0T2T3T7N0N2N7L0L2I5
+T0t0T2T3T7N0N7L0L2I5
+T0t0T2t3T3N0N2L0L2I5
+T0t0T2t3T3T7N0N2N7L0L2I5
+T0t0t1T2N0N2L0l0I5I7
+T0t0t1T2T3N0L0L2l2I5
+T0t0t1T2T3N0N2L0L2I5
+T0t0t1T2T3N0N2L0L2l0l2I5I7
+T0t0t1T2T3N0N2L0L2l0l2I5I7Pd
+T0t0t1T2T3T7N0L0L2l0l2I5I7
+T0t0t1T2T3T7N0N2N7L0L2l0l2I5I7
+T0t0t1T2T3T7N0N7L0L2I5
+T0t0t1T2T3T7N0N7L0L2l0l2I5I7
+T0t0t1T2t2T3N0N2L0L2l0l2I5I7
+T0t0t1T2t3T3N0N2L0L2l0l2I5I7
+T0t0t1T2t3T3T7N0N2N7L0L2l0l2I5I7
+T0t0t1T2t3T3T7N0N7L0L2l0l2I5I7
+T0t1T2T3T7l0l2I7
+T0t1T2T3l0l2I7
+T0t1T2l0I7
+T0t1T2t3T3T7l0l2I7
+T0t1T2t3T3l0l2I7
+T1N0N1L1l1W3w3P0P1P2
+T1N0N1N4L1L3l1l3W3w3P0P1P2
+T1T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2
+T1T3N0N1N2N4L1L3l1l3W1P0P1P2
+T1T3N1N4L1L3l1l3W1P0P1P2
+T1T3l1l3w1P0P2
+T2N0L0L2l0l2I5I7
+T2N0N2L0l0I5I7
+T5T6L5W3P0P1
+T5T6L5W3W4P0P1
+T5T6L5l5W3w3P0P1P2
+T5T6L5l5W3w3W4P0P1P2
+T5T6N6L5l5W3w3P0P1P2
+T5T6l5w3P0P2
+W4P0P1
+
+{I5, L0} — compaiono sempre insieme.
+{I7, l0} — compaiono sempre insieme.
+{L4, N5} — compaiono sempre insieme.
