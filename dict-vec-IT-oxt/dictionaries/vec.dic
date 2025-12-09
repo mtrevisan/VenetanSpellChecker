@@ -12638,14 +12638,14 @@ lónbris/T0N0	po:verb vt:indicative+present is:second is:singular st:lonbrar
 ƚónbris/T0	po:verb vt:indicative+present is:second is:singular st:ƚonbrar
 dexlonbrïar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple dp:des
 dexlonbríe/T0t0t1T2T3T7N0N2N7L0L2l0l2I5I7	po:verb vt:indicative+present is:third st:dexlonbrïar dp:des
-longar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2-1*0	po:verb vt:infinitive+simple
-lònge/T0t0t1T2T3T7N0N2N7L0L2l0l2I5I7A0-1*0	po:verb vt:indicative+present is:third st:longar
-longe/T0t0t1T2T3N0N2L0L2l0l2I5I7A0-1*0	po:verb vt:indicative+present is:third st:longar
-lóngis/T0N0-1*0	po:verb vt:indicative+present is:second is:singular st:longar
-ƚongar/T0T1T2T3l1l2l3w1P0P2	po:verb vt:infinitive+simple
-ƚònge/T0t1T2T3T7l0l2I7	po:verb vt:indicative+present is:third st:ƚongar
-ƚonge/T0t1T2T3l0l2I7	po:verb vt:indicative+present is:third st:ƚongar
-ƚóngis/T0	po:verb vt:indicative+present is:second is:singular st:ƚongar
+longar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2-1^2*0	po:verb vt:infinitive+simple
+lònge/T0t0t1T2T3T7N0N2N7L0L2l0l2I5I7A0-1^2*0	po:verb vt:indicative+present is:third st:longar
+longe/T0t0t1T2T3N0N2L0L2l0l2I5I7A0-1^2*0	po:verb vt:indicative+present is:third st:longar
+lóngis/T0N0-1^2*0	po:verb vt:indicative+present is:second is:singular st:longar
+ƚongar/T0T1T2T3l1l2l3w1P0P2^2	po:verb vt:infinitive+simple
+ƚònge/T0t1T2T3T7l0l2I7^2	po:verb vt:indicative+present is:third st:ƚongar
+ƚonge/T0t1T2T3l0l2I7^2	po:verb vt:indicative+present is:third st:ƚongar
+ƚóngis/T0^2	po:verb vt:indicative+present is:second is:singular st:ƚongar
 exlongar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple dp:ex
 exlònge/T0t0t1T2T3T7N0N2N7L0L2l0l2I5I7A0	po:verb vt:indicative+present is:third st:exlongar dp:ex
 exlonge/T0t0t1T2T3N0N2L0L2l0l2I5I7A0	po:verb vt:indicative+present is:third st:exlongar dp:ex
@@ -31777,8 +31777,10 @@ barba/M2	po:noun al:barban
 burco/M2eLe7eTo0o2o4	po:noun
 dolsa/F2aSeT*0	po:adjective_qualificative is:femenine
 dolso/M1M2A0PdaSeTo0o1o2o3o4*0	po:adjective_qualificative
+dolse/*0	po:adjective_qualificative
 dolŧa/F2aZeT*0	po:adjective_qualificative is:femenine
 dolŧo/M1M2A0PdaZeTo0o1o2o3o4*0	po:adjective_qualificative
+dolŧe/*0	po:adjective_qualificative
 fijòl/M0M2B1o0o1o2o3o4	po:noun
 fijòƚo/M2o7o1o2o3o4	po:noun
 fiɉòl/M0M2B1o0o1o2o3o4	po:noun
@@ -32585,7 +32587,7 @@ sanamente/A0w0	po:adverb ds:mente
 maistro/M2F0F3	po:noun
 martèl/M0M2B1eTiN	po:noun
 martèƚo/M2e1iN	po:noun
-sanguinio/M2F0F3:0	po:adjective_qualificative
+sanguínïo/M2F0F3:0	po:adjective_qualificative
 staño/M2A0eT	po:adjective_qualificative
 / Bertanza, Enrico; Lazzarini, Vittorio. Il dialetto veneziano — fino alla morte di Dante Alighieri, 1321 [13150930]. Venezia; 1891.
 divin/M0M2F0F3Bu	po:adjective_qualificative
@@ -33234,7 +33236,8 @@ pernixe/F2Vs	po:noun is:femenine
 perpètüo/M2F0F3	po:adjective_qualificative
 persò/+0	po:adjective_interrogative_exclamatory is:neuter pa:per pa:siò
 persò/+0	po:pronoun_interrogative_exclamatory is:neuter pa:per pa:siò
-pertanto/A0Vs	po:conjunction pa:per pa:tanto
+pertanto/A0+0	po:conjunction pa:per pa:tanto
+partanto/A0+0	po:conjunction pa:per pa:tanto
 perŧò/+0	po:adjective_interrogative_exclamatory is:neuter pa:per pa:ŧò
 perŧò/+0	po:pronoun_interrogative_exclamatory is:neuter pa:per pa:ŧò
 peskaxon/F1F2B1BuPd	po:noun is:femenine
@@ -33671,6 +33674,105 @@ studio/M2	po:noun
 teramòto/M2A0Vs	po:noun
 ŧima/F2eTVp	po:noun is:femenine
 vèrgen/M0M2F0F3B1Pd	po:adjective_qualificative
+/ Libro de conservar sanitate. 1326-1350.
+segondamente/A0w0	po:adverb st:profondamente ds:mente
+kualunka	po:adjective_qualificative is:neuter
+kuaƚunka	po:adjective_qualificative is:neuter
+tarda/F2eToT	po:adjective_qualificative is:femenine
+tardo/M2A0eToT	po:adjective_qualificative
+molèsto/M2F0F3A0	po:adjective_qualificative
+moƚèsto/M2F0F3	po:adjective_qualificative
+prosperoxo/M2F0F3A0Pd	po:adjective_qualificative st:pròsper ds:oxo
+splendente/X0A0PdVr.0	po:noun is:neuter
+prexente/M2A0PdVriN	po:noun
+débel/X0B1PdVx	po:adjective_qualificative is:neuter
+duka/M2@1@2	po:noun
+sensibilemente/A0w0+0	po:adverb ds:mente
+sensibiƚemente/w0+0	po:adverb ds:mente
+klaramente/A0w0	po:adverb ds:mente
+alkuanto/M2F0F3A0	po:adjective_qualificative
+dieta/F2	po:noun is:femenine
+purgaŧion/F1F2B1BuPdV0	po:noun is:femenine st:purgar ds:ŧion
+pròsper/M0M2F0F3Pd	po:noun
+solutivo/M2F0F3A0B3	po:adjective_qualificative
+soƚutivo/M2F0F3	po:adjective_qualificative
+fòrte/X0A0^4^5	po:adjective_qualificative is:neuter
+konŧosïakòxa	po:conjunction pa:kon pa:ŧò pa:sia pa:kòxa
+konsosïakòxa	po:conjunction pa:kon pa:sò pa:sia pa:kòxa
+velenoxo/M2F0F3A0Pd	po:adjective_qualificative
+veƚenoxo/M2F0F3Pd	po:adjective_qualificative
+lasativo/M2F0F3A0B3	po:adjective_qualificative
+ƚasativo/M2F0F3	po:adjective_qualificative
+supèrflüo/M2F0F3	po:adjective_qualificative
+artifisial/X0B1BuVx	po:adjective_qualificative is:neuter st:artifisio
+artifiŧial/X0B1Bu	po:adjective_qualificative is:neuter st:artifiŧio
+vòmito/M2A0	po:noun
+soluŧion/F1F2B1BuPdV0@0-0+0.0	po:noun is:femenine ds:ŧion
+soƚusion/F1F2BuPd@0-0+0.0	po:noun is:femenine ds:ŧion
+manifestamente/A0w0	po:adverb ds:mente
+vena/F2eT	po:noun is:femenine
+anplo/M2F0F3	po:adjective_qualificative st:anpio
+karnoxo/M2F0F3A0Pd	po:adjective_qualificative
+neglixensa/F2Vr	po:noun is:femenine
+neglixenŧa/F2Vr	po:noun is:femenine
+negliđensa/F2Vr	po:noun is:femenine
+negliđenŧa/F2Vr	po:noun is:femenine
+úlsera/F2	po:noun is:femenine
+úlŧera/F2	po:noun is:femenine
+rèuma/M2	po:noun
+sanguíneo/M2F0F3:0	po:adjective_qualificative
+levra/F2Vp	po:noun is:femenine
+dèstro/M2F0F3	po:adjective_qualificative
+krudo/M2A0eToT	po:adjective_qualificative al:kruo al:krúʼ
+kruda/F2eToT	po:adjective_qualificative is:femenine
+putrefativo/M2F0F3A0B3	po:adjective_qualificative
+plutòsto/A0	po:adverb pa:pluʼ pa:tòsto
+sesitade/X1	po:noun is:femenine
+ŧeŧitade/X1	po:noun is:femenine
+solisitúdin/F1F2	po:noun is:femenine
+soliŧitúdin/F1F2	po:noun is:femenine
+soƚisitúdin/F1F2	po:noun is:femenine
+pur/M0M2F0F3+0	po:adjective_qualificative
+klar/M0M2eLe7eT^6	po:adjective_qualificative
+klara/F2eLe7eT^6	po:adjective_qualificative is:femenine
+mèdego/M2M4F0F3A0Ci	po:adjective_qualificative
+sinfonía/F2	po:noun is:femenine
+bruta/F2aZaSeT	po:adjective_qualificative is:femenine
+bruto/M2A0aZaSeT	po:adjective_qualificative
+rede/F2'9	po:noun is:femenine al:ree
+đanpòña/F2Vp	po:noun is:femenine
+piva/F2aZaSeT	po:noun is:femenine
+plan/M0M2F0F3Bu	po:adjective_qualificative
+paso/M2A0eTo0o2o3o4^1	po:noun
+kordial/X0B1Buo0o2o4	po:adjective_qualificative is:neuter
+kordiaƚe/X0o7o2o4	po:adjective_qualificative is:neuter
+exersisio/M2	po:noun
+exerŧiŧio/M2	po:noun
+fortemente/A0w0	po:adverb ds:mente
+matèria/F2	po:noun is:femenine
+leđèr/M0M2eTiN*0	po:adjective_qualificative
+leđèra/F2eTiN*0	po:adjective_qualificative is:femenine
+lexèr/M0M2F0F3Vp	po:adjective_qualificative
+superflüitade/X1	po:noun is:femenine
+frekuente/X0A0PdVr	po:adjective_qualificative is:neuter
+vital/X0B1BuVx	po:adjective_qualificative is:neuter
+noximento/M2A0PdVr	po:noun st:nòxer ds:mento
+tostamente/A0w0	po:adverb ds:mente
+almen/M0M2Pd	po:adverb is:plural
+planamente/A0w0@0	po:adverb ds:mente
+ŧintura/F2eLeT	po:noun is:femenine
+sintura/F2eLe7eT	po:noun is:femenine
+opilaŧion/F1F2B1BuPdV0	po:noun is:femenine st:opilar ds:ŧion
+opiƚasion/F1F2BuPd	po:noun is:femenine st:opilar ds:ŧion
+dekoŧion/M1M2B1BuPdV1	po:noun dp:de
+konsekuentemente/A0w0	po:adverb ds:mente
+podagra/F2	po:adjective_qualificative is:femenine
+konsüetúden/F1F2B1Pd	po:noun is:femenine
+propoxiŧion/F1F2B1BuPdV0-1	po:noun is:femenine
+èser/M1M2Pd^8	po:noun
+konsüèto/M2F0F3A0	po:adjective_qualificative
+pútrido/M2F0F3A0	po:adjective_qualificative
+frekuentemente/A0w0	po:adverb ds:mente
 / Panontin, Francesca. Antichi testi trevigiani [1347‒1350]. Treviso; 2017.
 abitador/M1M2BuPdv0-1	po:noun
 abitadora/F2v0-1	po:noun is:femenine
@@ -33717,7 +33819,6 @@ daŧièra/F2v0	po:noun is:femenine
 denanti/A0	po:adjective_qualificative is:neuter pa:de pa:nanti
 dente/M2A0PdVraZaSeLe7i0.0	po:noun
 deredan/M0M2F0F3B1Bu	po:noun lg:tuscan
-dèstro/M2F0F3	po:adjective_qualificative
 drapièr/M0M2Buv0	po:noun
 drapièra/F2v0	po:noun is:femenine
 dukado/M2A0o0o2o4y0	po:noun
@@ -34017,6 +34118,8 @@ vendadura/F2d0eT	po:noun is:femenine
 vesa/F2o0o2o4	po:noun is:femenine
 veŧa/F2o0o2o4	po:noun is:femenine
 / Cronica di Venexia, detta di Enrico Dandolo. Venezia; 1362.
+konŧofose	po:conjunction pa:kon pa:ŧò pa:fose
+konsofose	po:conjunction pa:kon pa:sò pa:fose
 abitante/X0A0	po:noun is:neuter
 abitanŧa/F2V0	po:noun is:femenine
 abitanŧia/F2V0	po:noun is:femenine
@@ -34104,8 +34207,6 @@ brigente/X0A0PdVr	po:noun is:neuter
 bròjo/M2B1eTeZeSo0o1o2o3o4+0	po:noun
 bròɉo/M2eTeZeSo0o1o2o3o4+0	po:noun
 bruska/F2eT	po:adjective_qualificative is:femenine st:bruskar
-bruta/F2aZaSeT	po:adjective_qualificative is:femenine
-bruto/M2A0aZaSeT	po:adjective_qualificative
 busintòr/M0M2Bu	po:noun
 buŧintòr/M0M2Bu	po:noun
 buxar/M0M2F0F3Buo0o1o2o3o4	po:adjective_qualificative
@@ -34139,7 +34240,6 @@ destrièr/M0M2Buv0	po:noun
 detrimento/M2A0PdVr	po:noun ds:mento
 devuŧion/F1F2B1BuPdV0	po:noun is:femenine
 dexideroxo/M2F0F3A0Pd	po:adjective_qualificative st:dexidèrio ds:oxo
-débel/X0B1PdVx	po:adjective_qualificative is:neuter
 diñamente/A0w0+0	po:adverb ds:mente
 diñitade/X1	po:noun is:femenine
 disiplina/F2	po:noun is:femenine
@@ -34158,7 +34258,6 @@ dopiamente/A0w0^6	po:adverb ds:mente
 dormitòrio/M2	po:noun
 dòja/F2CuaZaSeT	po:noun is:femenine
 dòɉa/F2CuaZaSeT	po:noun is:femenine
-duka/M2@1@2	po:noun
 dumente/A0w0	po:adverb ds:mente
 đenòco/M2A0eLeTiNo0o2o4	po:noun
 đojèl/M0M2B1	po:noun lg:french
@@ -34199,7 +34298,6 @@ fondamenta/F2Vr	po:noun is:femenine
 fontana/F2eLe7Cu	po:noun is:femenine
 fornaxa/F2eLe7eT	po:noun is:femenine
 forsevelmente/A0w0	po:adverb st:forsével ds:mente
-fortemente/A0w0	po:adverb ds:mente
 fortivamente/A0w0	po:adverb ds:mente
 fortuna/F2aZaSeLe7-1*0	po:noun is:femenine
 fortunado/M2F0F3A0y0y1o0o1o2o3o4-1+0*0	po:adjective_qualificative
@@ -34410,7 +34508,6 @@ maƚiño/M2aL	po:adjective_qualificative
 mamaluko/M2F0F3A0	po:noun
 mamaƚuko/M2F0F3	po:noun
 manièra/F2eTo1o3*0	po:noun is:femenine
-manifestamente/A0w0	po:adverb ds:mente
 maravejoxo/M2F0F3A0Pd*0	po:adjective_qualificative
 maraveɉoxo/M2F0F3A0Pd*0	po:adjective_qualificative
 mareskalko/M2F0F3A0	po:noun
@@ -34420,7 +34517,6 @@ markexa/F2	po:noun is:femenine
 markexe/M2Pd	po:noun
 mateŧa/F2V0	po:noun is:femenine st:mata ds:eŧo
 mateŧo/M2A0PdV0	po:noun st:mato ds:eŧo
-matèria/F2	po:noun is:femenine
 maxon/F1F2B1BuPd	po:noun is:femenine
 màngan/M0M2B1	po:noun
 màrtir/M0M2F0F3	po:adjective_qualificative
@@ -34590,7 +34686,6 @@ proŧision/F1F2B1BuPd	po:noun is:femenine
 provedimento/M2A0PdVr-1^7	po:noun st:provéder ds:mento
 providitade/X1	po:noun is:femenine
 pròprio/M2F0F3+0	po:adjective_qualificative
-pròsper/M0M2F0F3Pd	po:noun
 prudente/X0A0PdVr+0	po:adjective_qualificative is:neuter
 publikamente/A0w0	po:adverb ds:mente
 puña/F2	po:noun is:femenine
@@ -34693,11 +34788,8 @@ sođèto/M2F0F3A0	po:noun
 sofístego/M2F0F3A0	po:adjective_qualificative
 sokorso/M2A0	po:noun
 soldería/F2r0	po:noun is:femenine
-solisitúdin/F1F2	po:noun is:femenine
-soliŧitúdin/F1F2	po:noun is:femenine
 solísito/M2F0F3A0	po:adjective_qualificative
 solíŧito/M2F0F3A0	po:adjective_qualificative
-soƚisitúdin/F1F2	po:noun is:femenine
 soƚísito/M2F0F3	po:adjective_qualificative
 sorakòmito/M2F0F3A0	po:noun pa:sora pa:kòmito
 sorèla/F2eTiN	po:noun is:femenine
@@ -34992,7 +35084,6 @@ bòl/M0M2V0	po:noun
 car/M0M2eLe7eT^6	po:adjective_qualificative
 cara/F2eLe7eT^6	po:adjective_qualificative is:femenine
 deđun/M0M2A1B1Bu	po:noun
-dekoŧion/M1M2B1BuPdV1	po:noun
 dexun/M0M2A1B1Bu	po:noun
 drago/M2F0F3A0o0o2o4	po:noun
 drama/F2	po:noun is:femenine
@@ -35070,14 +35161,12 @@ koñosenŧa/F2Vr-1.0	po:noun is:femenine
 koral/M0M2B1V0	po:noun
 koruŧion/F1F2B1BuPdV0	po:noun is:femenine ds:ŧion
 kòrno/M2*0	po:noun
-krudo/M2A0eToT	po:adjective_qualificative al:kruo al:krúʼ
 kubèbe	po:noun
 kul/M0M2B2aTaZaSeToT	po:noun
 kuƚo/M2a1aLe1o7o1o2o3o4oL	po:noun
 kuraŧion/F1F2B1BuPdV0@0	po:noun is:femenine st:kurar ds:ŧion
 kuxlièr/M0M2BueTiNo0o2o4oT	po:noun
 lanbiko/M2F0F3A0	po:noun
-lasativo/M2F0F3A0B3	po:adjective_qualificative
 late/A0eTiNr0	po:noun is:femenine
 latuga/F2Vp	po:noun is:femenine
 làuren/M0M2PdVp	po:noun
@@ -35091,7 +35180,6 @@ lupin/M0M2F0F3BuVp	po:adjective_qualificative
 luvin/M0M2BuVp	po:noun
 luxèrta/F2Vp	po:noun is:femenine
 ƚanbiko/M2F0F3	po:noun
-ƚasativo/M2F0F3	po:adjective_qualificative
 ƚate/e1iNr0	po:noun is:femenine
 ƚesia/F2aLe1o7o2o3o4	po:noun is:femenine
 ƚume/M2	po:noun
@@ -35186,7 +35274,6 @@ prèmito/M2A0	po:noun
 prova/F2	po:noun is:femenine
 púlexe/M2A0Pd	po:noun
 púƚexe/M2Pd	po:noun
-pútrido/M2F0F3A0	po:adjective_qualificative
 radixa/F2eLe7eT	po:noun is:femenine
 ramo/A0	po:noun
 raxa/F2eT	po:adjective_qualificative is:femenine
@@ -35234,7 +35321,6 @@ spigo/M2aZaSeTe7iN	po:noun
 spüaŧo/M2A0V0	po:noun st:spuo ds:aŧo
 sugo/M2A0eT	po:noun
 sumako/M2A0	po:noun
-supèrflüo/M2F0F3	po:adjective_qualificative
 suto/M2F0F3A0o0o1o2o3o4	po:adjective_qualificative
 tenpia/F2Vr	po:noun is:femenine
 termentina/F2	po:noun is:femenine
@@ -35254,8 +35340,6 @@ tórtora/F2	po:noun is:femenine
 umiditade/X1	po:noun is:femenine st:úmido
 unguento/M2A0PdVr	po:noun
 uva/F2eT	po:noun is:femenine
-úlsera/F2	po:noun is:femenine
-úlŧera/F2	po:noun is:femenine
 valariana/F2	po:noun is:femenine
 vaƚariana/F2	po:noun is:femenine
 vedrïol/M0M2B1PdV0	po:noun
@@ -35268,7 +35352,6 @@ vernixe/F2	po:noun is:femenine
 vesiga/F2eTo0o1o2o3o4	po:noun is:femenine
 visco/M2eTo0o2o4^7	po:noun
 viscoxo/M2F0F3A0Pd	po:adjective_qualificative
-vòmito/M2A0	po:noun
 xènxer/M0M2Pd	po:noun lg:italian
 xlavaso/M2A0o0o1o2o3o4	po:noun
 xlavaŧo/M2A0o0o1o2o3o4	po:noun
@@ -35300,7 +35383,6 @@ vèspro/M2	po:noun
 abiso/M2A0	po:noun
 abuxo/M2A0	po:noun
 aldaŧia/F2V0	po:noun is:femenine
-alkuanto/M2F0F3A0	po:adjective_qualificative
 alkun/M0M2F0F3B1Bu	po:quantifier_existential
 alteraŧion/F1F2B1BuPdV0	po:noun is:femenine st:alterar ds:ŧion
 alteŧa/F2V0	po:noun is:femenine
@@ -35433,7 +35515,6 @@ fornimento/M2A0PdVriNo0o2o4-1+0.0*0	po:noun st:fornir ds:mento
 fólega/F2	po:noun is:femenine
 fóƚega/F2	po:noun is:femenine
 fòl/X0Vx	po:adjective_qualificative is:neuter
-fòrte/X0A0^4^5	po:adjective_qualificative is:neuter
 fratèrno/M2F0F3A0	po:adjective_qualificative
 fronda/F2	po:noun is:femenine
 fròde/F2	po:noun is:femenine
@@ -35494,7 +35575,6 @@ kotanto/A0	po:adverb
 kovèrco/M2	po:noun
 kòr/M1M2BuaZaSm0Cu	po:noun
 krèpa/F2	po:noun is:femenine
-kruda/F2eToT	po:adjective_qualificative is:femenine
 krúʼ	po:adjective_qualificative st:krudo
 kualitade/X1	po:noun is:femenine
 kuaƚitade/X1	po:noun is:femenine
@@ -35512,8 +35592,6 @@ lago/M2A0eT	po:noun
 largesa/F2Vp	po:noun is:femenine
 largeŧa/F2	po:noun is:femenine
 leđadreŧa/F2	po:noun is:femenine
-leđèr/M0M2eTiN*0	po:adjective_qualificative
-leđèra/F2eTiN*0	po:adjective_qualificative is:femenine
 leon/F0X0B1BuPd	po:noun
 lexadresa/F2Vp	po:noun is:femenine
 lexadreŧa/F2	po:noun is:femenine
@@ -35676,7 +35754,6 @@ proseman/M0M2F0F3Bu	po:adjective_qualificative
 provenđa/F2V0	po:noun is:femenine
 pupila/F2eT	po:noun is:femenine
 pupiƚa/F2e1	po:noun is:femenine
-pur/M0M2F0F3+0	po:adjective_qualificative
 putente/X0A0PdVr	po:adjective_qualificative is:neuter
 rabia/F2eToT	po:noun is:femenine
 rabioxa/F2aZaSeT	po:adjective_qualificative is:femenine st:rabia ds:oxo
@@ -35838,7 +35915,6 @@ variŧa/F2V0@0	po:noun is:femenine
 varko/M2A0	po:noun
 vela/F2eTiN	po:noun is:femenine
 veƚa/F2e1iN	po:noun is:femenine
-vena/F2eT	po:noun is:femenine
 vergoñoxo/M2A0PdeTVs	po:adjective_qualificative st:vergòña ds:oxo
 vesoxo/M2F0F3A0Pd	po:adjective_qualificative
 veŧoxo/M2F0F3A0Pd	po:adjective_qualificative
@@ -35929,7 +36005,6 @@ andio/M2	po:noun
 anemoxamente/A0w0	po:adverb st:anemoxo ds:mente
 angería/F2r0	po:noun is:femenine
 angonía/F2	po:noun is:femenine
-anplo/M2F0F3	po:adjective_qualificative st:anpio
 anüal/M1M2B1BuVm	po:noun
 aparato/M2A0	po:noun
 araldo/M2A0	po:noun
@@ -36044,7 +36119,6 @@ desputaŧion/F1F2B1BuPdV0	po:noun is:femenine st:desputar ds:ŧion
 destintamente/A0w0+0	po:adverb ds:mente
 destreta/F2	po:noun is:femenine
 dèspoto/M2F0F3A0Pd	po:noun
-dieta/F2	po:noun is:femenine
 dilijensa/F2Vr	po:noun is:femenine
 dilijentemente/A0w0	po:adverb ds:mente
 dilijenŧa/F2Vr	po:noun is:femenine
@@ -36390,7 +36464,6 @@ konpromeso/M2F0F3A0Pd	po:adjective_qualificative
 konsistòr/M0M2A1Bu	po:noun
 konstituŧion/F1F2B1BuPdV0	po:noun is:femenine ds:ŧion
 konsüetúdin/F1F2	po:noun is:femenine
-konsüèto/M2F0F3A0	po:adjective_qualificative
 kontadin/M0M2BuaTaZaSeLe7eToTCu	po:adjective_qualificative
 kontadina/F2aTaZaSeLe7eToTCu	po:adjective_qualificative is:femenine
 kontado/M2A0y0	po:noun
@@ -36646,7 +36719,6 @@ partikuƚaritade/X1	po:noun is:femenine
 parŧial/X0B1Bu+0	po:adjective_qualificative is:neuter
 parŧialitade/X1	po:noun is:femenine
 pasamento/M2A0PdVr*0	po:noun st:pasar ds:mento
-paso/M2A0eTo0o2o3o4^1	po:noun
 paso/M2A0i1o0o2o3o4	po:noun st:paŧo
 patròn/M0M2F0F3B1	po:noun
 paŧa/F2V0	po:adjective_qualificative is:femenine
@@ -36723,7 +36795,6 @@ presèto/M2A0	po:noun
 prestanŧa/F2V0+0	po:noun is:femenine
 preŧetor/M1M2BuPd	po:noun
 preŧèto/M2A0	po:noun
-prexente/M2A0PdVriN	po:noun
 prexèpio/M2-1	po:noun
 prèda/F2	po:noun is:femenine
 prèsa/F2A1Ci	po:noun is:femenine
@@ -36841,10 +36912,8 @@ serenitade/X1	po:noun is:femenine
 sermon/M1M2B1BuPd	po:noun
 servèƚa/F2iN	po:noun is:femenine
 sesion/M1M2B1BuPd	po:noun
-sesitade/X1	po:noun is:femenine
 sestièr/M1M2Bu	po:noun
 setemana/F2	po:noun is:femenine
-seŧitade/X1	po:noun is:femenine
 severamente/A0w0	po:adverb st:sevèr ds:mente
 sérkoƚo/M2Pd	po:noun
 sèta/F2	po:noun is:femenine
@@ -36933,9 +37002,7 @@ sutila/F2eTiN^6	po:adjective_qualificative is:femenine
 sutiƚa/F2e1iN^6	po:adjective_qualificative is:femenine
 sutiƚo/M2e1iNo7o1o2o3o4^6	po:adjective_qualificative
 tapedo/M2A0Pdy0iN	po:noun
-tarda/F2eToT	po:adjective_qualificative is:femenine
 tardi	po:adverb
-tardo/M2A0eToT	po:adjective_qualificative
 tarma/F2	po:noun is:femenine
 tasiturnitade/X1	po:noun is:femenine
 taŧiturnitade/X1	po:noun is:femenine
@@ -37083,15 +37150,12 @@ abiƚitade/X1	po:noun is:femenine
 abitàbil/X0Vx	po:adjective_qualificative is:neuter
 agumento/M2A0PdVr	po:noun ds:mento
 alièn/M0M2F0F3B1	po:adjective_qualificative
-almen/M0M2Pd	po:adverb is:plural
 alòe	po:noun
 altitúdin/F1F2	po:noun is:femenine
 aƚièn/M0M2F0F3	po:adjective_qualificative
 aƚòe	po:noun
 anbasería/F2r0	po:noun is:femenine st:anbasada
 antiguardia/F2	po:noun is:femenine
-artifisial/X0B1BuVx	po:adjective_qualificative is:neuter st:artifisio
-artifiŧial/X0B1Bu	po:adjective_qualificative is:neuter st:artifiŧio
 aserbitade/X1	po:noun is:femenine
 aspèto/M2A0	po:noun
 astusia/F2eT	po:noun is:femenine
@@ -37312,8 +37376,6 @@ minaŧa/F2V0	po:noun is:femenine
 mixerabilmente/A0w0	po:adverb st:inseparàbil ds:mente
 moderamento/M2A0PdVr	po:noun ds:mento
 modèstia/F2+0	po:noun is:femenine
-molèsto/M2F0F3A0	po:adjective_qualificative
-moƚèsto/M2F0F3	po:adjective_qualificative
 mortífer/M0M2F0F3Pd	po:adjective_qualificative
 napamondo/M2A0	po:noun
 nemigo/M2M4F0F3+0	po:adjective_qualificative
@@ -37829,7 +37891,6 @@ kesto/M2F0F3A0Pd	po:pronoun_demonstrative_near
 kietamente/A0w0	po:adverb st:kietar ds:mente
 kintana/F2	po:noun is:femenine
 kí	po:adverb
-klaramente/A0w0	po:adverb ds:mente
 klòdo/M2A0eLe7eTiNo0o2o4r0	po:noun
 koardiŧia/F2V0	po:noun is:femenine
 koardía/F2	po:noun is:femenine st:koardo
@@ -37978,7 +38039,6 @@ mesaɉèra/F2v0	po:noun is:femenine
 meskoñosanŧa/F2V0	po:noun is:femenine
 meskoñosenŧa/F2V0	po:noun is:femenine
 meskredente/X0A0PdVr	po:adjective_qualificative is:neuter
-mèdego/M2M4F0F3A0Ci	po:adjective_qualificative
 monastièr/M0M2Bu	po:noun
 monsiñor/M1M2BuPdaZaSeT	po:adjective_qualificative
 monsiñora/F2aZaSeT	po:adjective_qualificative is:femenine
@@ -38003,7 +38063,6 @@ norise/F2	po:noun is:femenine
 noriŧe/F2	po:noun is:femenine
 novelamente/A0w0	po:adverb ds:mente
 noveƚamente/w0	po:adverb ds:mente
-noximento/M2A0PdVr	po:noun st:nòxer ds:mento
 nòmen/M0M2	po:noun
 nudo/M2F0F3A0	po:adjective_qualificative
 nudrigamento/M2A0PdVr	po:noun st:nudrigar ds:mento
@@ -38056,7 +38115,6 @@ písiol/M0M2B1PdV0^6	po:adjective_qualificative
 písiola/F2V0^6	po:adjective_qualificative is:femenine
 píŧiol/M0M2B1Pd^6	po:adjective_qualificative
 píŧiola/F2^6	po:adjective_qualificative is:femenine
-plan/M0M2F0F3Bu	po:adjective_qualificative
 planura/F2	po:noun is:femenine
 plato/M2F0F3A0	po:adjective_qualificative
 plenariamente/A0w0	po:adverb ds:mente
@@ -38168,7 +38226,6 @@ speron/M1M2B1BuPd	po:noun
 spèsie	po:noun is:femenine
 spèŧie	po:noun is:femenine
 spiron/M1M2B1BuPd	po:noun
-splendente/X0A0PdVr.0	po:noun is:neuter
 spoxaŧion/F1F2B1BuPdV0	po:noun is:femenine st:spoxar ds:ŧion
 spređur/M0M2	po:noun
 sprexur/M0M2	po:noun
@@ -38384,8 +38441,6 @@ kasteñèr/M0M2Buv0	po:noun
 kasteñèra/F2v0	po:noun is:femenine
 kaŧadònio/M2	po:noun
 kintara/F2i0o0o2o4	po:noun is:femenine
-klar/M0M2eLe7eT^6	po:adjective_qualificative
-klara/F2eLe7eT^6	po:adjective_qualificative is:femenine
 kolonbo/M2A0aTaZaS	po:noun
 koƚonbo/M2a1aL	po:noun
 komunalmente/A0w0	po:adverb ds:mente
@@ -38509,13 +38564,12 @@ piègoro/A0	po:noun
 piñèr/M0M2Buv0	po:noun
 piñèra/F2v0	po:noun is:femenine
 pixoramento/M2A0PdVr	po:noun st:pixorar ds:mento
-planamente/A0w0@0	po:adverb ds:mente
 plasa/F2eT*0	po:noun is:femenine
 plaŧa/F2eT*0	po:noun is:femenine
 plaxevelemente/A0w0	po:adverb ds:mente
 plaxeveƚemente/w0	po:adverb ds:mente
-plen/M0M2PdaZaSoT	po:adjective_qualificative
-plena/F2aZaSoT	po:adjective_qualificative is:femenine
+plen/M0M2PdaZaSoT.0	po:adjective_qualificative
+plena/F2aZaSoT.0	po:adjective_qualificative is:femenine
 pomèr/M0M2Buv0	po:noun st:pomo
 pomèra/F2v0	po:noun is:femenine st:pomo
 prièsio/M2-1	po:noun
@@ -39280,7 +39334,6 @@ stil/M1M2BuVm	po:noun
 stomegal/X0B1BuVx	po:adjective_qualificative is:neuter st:stómego
 torta/F2eTiN	po:noun is:femenine
 valdraka/F2*0	po:noun is:femenine
-vital/X0B1BuVx	po:adjective_qualificative is:neuter
 víxita/F2	po:noun is:femenine
 / Le lettere di messer Andrea Calmo [1550]. Torino; 1888.
 augurio/M2eT^7	po:noun
@@ -39461,7 +39514,6 @@ pièƚego/M2@2	po:noun
 pika/F2	po:noun is:femenine
 pòsta/F2	po:noun is:femenine
 prexupòxito/M2A0	po:noun
-prosperoxo/M2F0F3A0Pd	po:adjective_qualificative st:pròsper ds:oxo
 proxontüoxa/F2eT	po:adjective_qualificative is:femenine
 proxontüoxo/M2A0PdeT	po:adjective_qualificative
 pròto/M2F0F3A0@1	po:noun
@@ -40231,8 +40283,6 @@ dískola/F2V0	po:adjective_qualificative is:femenine
 đíđola/F2	po:noun is:femenine
 đugolòto/M2A0	po:noun
 epístola/F2V0	po:noun is:femenine
-exersisio/M2	po:noun
-exerŧiŧio/M2	po:noun
 èban/M0M2B1	po:noun
 fandònia/F2	po:noun is:femenine
 fanduònia/F2	po:noun is:femenine
@@ -40767,8 +40817,6 @@ konsòrŧio/M2V0	po:noun
 konsultor/M1M2BuPd	po:noun
 kontraditòrio/M2	po:noun dp:kontro
 koñòme/M2A0	po:noun
-kordial/X0B1Buo0o2o4	po:adjective_qualificative is:neuter
-kordiaƚe/X0o7o2o4	po:adjective_qualificative is:neuter
 kornixe/F2eT	po:noun is:femenine
 korotoxo/M2F0F3A0Pd	po:adjective_qualificative
 korpòreo/M2F0F3	po:adjective_qualificative
@@ -40929,7 +40977,6 @@ piroleta/F2V0	po:noun is:femenine st:pírola ds:eto
 pisòto/M2F0F3A0	po:adjective_qualificative st:piso ds:òto
 pitèr/M0M2BueT	po:noun
 pitokesko/M2F0F3A0	po:adjective_qualificative st:pitòko ds:esko
-piva/F2aZaSeT	po:noun is:femenine
 pivial/M1M2B1BuVm	po:noun
 písego/M2A0*0	po:noun
 pítima/F2	po:adjective_qualificative is:femenine
@@ -41087,7 +41134,6 @@ strusio/M2eTo0o2o4	po:noun
 stufo/M2F0F3A0	po:adjective_qualificative
 stupor/M1M2BuPd	po:noun
 subiòto/M2A0iN	po:adjective_qualificative st:subio ds:òto
-superflüitade/X1	po:noun is:femenine
 superlativo/M2F0F3A0B3	po:adjective_qualificative
 suplikévol/X0B1PdVx	po:adjective_qualificative is:neuter
 suprèmo/M2F0F3	po:adjective_qualificative
@@ -41419,7 +41465,6 @@ durèƚo/M2e1	po:noun
 đanbelotièra/F2Vp	po:noun is:femenine st:kamelòto
 đanđador/M1M2BuPdv0	po:noun
 đanđadora/F2v0	po:noun is:femenine
-đanpòña/F2Vp	po:noun is:femenine
 đel/M0M2Pd	po:noun
 đemina/F2Vp	po:noun is:femenine
 đenđívar/M0M2	po:noun
@@ -42236,7 +42281,6 @@ prokuratòrio/M2F0F3	po:adjective_qualificative st:prokurator
 promesòrio/M2F0F3	po:adjective_qualificative
 propiŧia/F2V0	po:adjective_qualificative is:femenine
 propiŧio/M2V0	po:adjective_qualificative
-propoxiŧion/F1F2B1BuPdV0-1	po:noun is:femenine
 proxopopèa/F2	po:noun is:femenine
 pròva/F2Cu	po:noun is:femenine
 pulido/M2F0F3A0y0y1	po:adjective_qualificative
@@ -42257,7 +42301,6 @@ raŧionevolmente/A0w0	po:adverb ds:mente
 ràxol/M0M2B1PdV0	po:noun
 rebufo/M2A0iNVs	po:noun
 recesta/F2	po:noun is:femenine
-rede/F2'9	po:noun is:femenine al:ree
 redexèl/M0M2B1V0Vs	po:noun
 refrijèrio/M2	po:noun
 refriɉèrio/M2	po:noun
@@ -42651,12 +42694,10 @@ variaŧion/F1F2B1BuPdV0+0*0	po:noun is:femenine st:variar ds:ŧion
 variŧia/F2V0@0	po:noun is:femenine
 varòl/M0M2B1v0	po:noun
 varòƚo/M2v7	po:noun
-velenoxo/M2F0F3A0Pd	po:adjective_qualificative
 velosemente/A0w0	po:adverb ds:mente
 velositade/X1	po:noun is:femenine
 veloŧemente/A0w0	po:adverb ds:mente
 veloŧitade/X1	po:noun is:femenine
-veƚenoxo/M2F0F3Pd	po:adjective_qualificative
 veƚosemente/w0	po:adverb ds:mente
 veƚositade/X1	po:noun is:femenine
 venal/M1M2B1BuVm	po:noun lg:arab
@@ -42962,7 +43003,6 @@ porkaŧo/M2A0V0	po:noun st:pòrko ds:aŧo
 raña/F2eT	po:noun is:femenine
 ređente/F2A0Vr	po:noun is:femenine
 roboxo/M2F0F3A0Pd	po:adjective_qualificative
-sintura/F2eLe7eT	po:noun is:femenine
 skroa/F2aZaSr0	po:noun is:femenine st:skrova
 sofegaña/F2	po:noun is:femenine
 sora/aZaSeT	po:adjective_qualificative is:femenine
@@ -42971,7 +43011,6 @@ strapaŧo/M2A0V0	po:noun
 tieđa/F2V0	po:noun is:femenine
 toxata/F2aTeLe7iN	po:noun is:femenine st:toxa ds:ato
 toxato/M2A0aTeLe7iNm0o0o1o2o3o4	po:noun st:toxo ds:ato
-ŧintura/F2eLeT	po:noun is:femenine
 ŧitain/M0M2F0F3BuVp	po:adjective_qualificative
 vide/F2	po:noun is:femenine
 vuòjo/M2B1V0	po:noun
@@ -43320,9 +43359,7 @@ kristalèra/F2v0	po:noun is:femenine
 kristaƚèr/M0M2Buv7	po:noun
 kristaƚèra/F2v7	po:noun is:femenine
 krüèl/X0B1Vx	po:adjective_qualificative is:neuter
-kualunka	po:adjective_qualificative is:neuter
 kualunke	po:adjective_qualificative is:neuter
-kuaƚunka	po:adjective_qualificative is:neuter
 kuaƚunke	po:adjective_qualificative is:neuter
 kuartir/M0M2	po:noun
 kuartixo/M2A0	po:noun
@@ -44418,7 +44455,6 @@ evanxèƚio/M2i0	po:noun
 exatamente/A0w0	po:adverb ds:mente
 exateŧa/F2V0+0	po:noun is:femenine
 énpïo/M2F0F3	po:adjective_qualificative
-èser/M1M2Pd^8	po:noun
 èstaxi/A0	po:noun is:femenine
 faldexina/F2	po:noun is:femenine st:falda ds:in
 falíbil/X0+0	po:adjective_qualificative is:neuter
@@ -44567,7 +44603,6 @@ karàtar/M1M2	po:noun
 kariđada/F2y1	po:noun is:femenine
 kariega/F2eTo0o2o4	po:noun is:femenine
 karixada/F2y1	po:noun is:femenine
-karnoxo/M2F0F3A0Pd	po:adjective_qualificative
 kartèl/M0M2B1eTiNo0o2o4	po:noun
 kartèƚo/M2e1iNo7o2o4	po:noun
 kaskata/F2	po:noun is:femenine
@@ -44966,7 +45001,6 @@ siɉil/M0M2BuV0	po:noun
 sikome	po:adverb pa:kusí pa:kome
 siƚindro/M2	po:noun
 simetría/F2	po:noun is:femenine
-sinfonía/F2	po:noun is:femenine
 sinjal/M1M2B1BuVm	po:noun
 sinɉal/M1M2B1BuVm	po:noun
 sinpatía/F2	po:noun is:femenine
@@ -45445,7 +45479,6 @@ dilixente/X0A0PdVr	po:adjective_qualificative is:neuter
 diƚixente/X0PdVR	po:adjective_qualificative is:neuter
 enormitade/X1	po:noun is:femenine
 forfante/X0A0r0	po:noun is:neuter
-frekuentemente/A0w0	po:adverb ds:mente
 infame/X0	po:adjective_qualificative is:neuter
 ingrèso/M2A0	po:noun
 inpropèrio/M2F0F3	po:noun
@@ -45588,7 +45621,6 @@ kongrüentemente/A0w0	po:adverb lg:tuscan ds:mente
 koniugal/M1M2B1BuVm	po:noun
 konkubinado/M2A0y0	po:noun
 konkubinario/M2	po:noun
-konsekuentemente/A0w0	po:adverb ds:mente
 konspiraŧion/F1F2B1BuPdV0	po:noun is:femenine st:konspirar ds:ŧion
 kontador/M1M2BuPdv0*0	po:noun
 kontadora/F2v0*0	po:noun is:femenine
@@ -45832,7 +45864,6 @@ ki	po:pronoun_relative is:neuter
 kodardo/M2F0F3A0	po:adjective_qualificative
 koerède/X0	po:noun is:neuter dp:ko
 komensaŧion/F1F2B1BuPdV0	po:noun is:femenine
-konsüetúden/F1F2B1Pd	po:noun is:femenine
 korispondenŧa/F2Vr	po:noun is:femenine
 kó	po:adverb
 kó	po:conjunction
@@ -48808,7 +48839,6 @@ letoril/M1M2Bu	po:noun
 letoriƚe/M2Vp	po:noun
 levadina/F2aDVp	po:noun is:femenine st:levada ds:in
 leviera/F2Vp	po:noun is:femenine
-levra/F2Vp	po:noun is:femenine
 levro/M2eT	po:noun
 léndena/F2Vp	po:noun is:femenine
 lèpra/F2Vp	po:noun is:femenine
@@ -49587,7 +49617,6 @@ revoltolon/BuVs	po:adverb
 revoltolon/M1M2B1BuPdV0Vs	po:noun
 rexeto/M2A0Pd	po:noun
 rètina/F2	po:noun is:femenine
-rèuma/M2	po:noun
 ridacon/F0X0B1BuPd	po:adjective_qualificative
 rigaròla/F2v0	po:noun is:femenine
 rigaròƚa/F2v7	po:noun is:femenine
@@ -56041,7 +56070,6 @@ plokama/F2	po:noun is:femenine
 pluton/M1M2B1BuPd	po:noun
 pocoxamente/A0w0	po:adverb st:pocoxo ds:mente
 pocoxo/M2F0F3A0Pd	po:adjective_qualificative st:pòco ds:oxo
-podagra/F2	po:adjective_qualificative is:femenine
 pođapè/M0M2	po:noun
 pođapié/M0M2	po:noun
 pođapiè/M0M2	po:noun
@@ -58153,7 +58181,6 @@ fiƚàntropo/M2F0F3	po:noun
 formidàbil/X0Vx	po:adjective_qualificative is:neuter
 franboé	po:noun is:femenine
 fredeŧa/F2V0	po:noun is:femenine
-frekuente/X0A0PdVr	po:adjective_qualificative is:neuter
 freskura/F2	po:noun is:femenine
 ganga/F2*0	po:noun is:femenine
 inkantéxemo/M2A0	po:noun
@@ -59645,7 +59672,6 @@ lànpedo/M2F0F3A0Pd	po:adjective_qualificative
 leandro/M2@0	po:noun
 lentíđen/F1F2B1Pd	po:noun is:femenine
 lentíxen/F1F2B1Pd	po:noun is:femenine
-lexèr/M0M2F0F3Vp	po:adjective_qualificative
 lèko/M2A0	po:noun
 litariŧia/F2V0	po:noun is:femenine
 lite/Vp	po:adverb
@@ -75061,13 +75087,11 @@ solsaròl/M0M2B1v0	po:noun
 solsaròƚo/M2v7	po:noun
 solstiŧio/M2V0	po:noun
 solŧaròl/M0M2B1v0	po:noun
-soluŧion/F1F2B1BuPdV0@0-0+0.0	po:noun is:femenine ds:ŧion
 solverèra/F2	po:noun is:femenine
 soƚevasion/F1F2BuPd	po:noun is:femenine st:soƚevar ds:ŧion
 soƚisitador/M1M2BuPdv7	po:noun
 soƚisitadora/F2v7	po:noun is:femenine
 soƚivamente/w0	po:adverb ds:mente
-soƚusion/F1F2BuPd@0-0+0.0	po:noun is:femenine ds:ŧion
 somejentemente/A0w0	po:adverb ds:mente
 someɉentemente/A0w0	po:adverb ds:mente
 sonamento/M2A0PdVr+0	po:noun ds:mento
@@ -76540,10 +76564,11 @@ saƚéxoƚa/F2	po:noun is:femenine
 ŧínger/F0X0PdVp	po:adjective_qualificative
 / Il Veses — Parole de ʼna olta. 2020. (https://ilveses.com/parole-de-na-olta/)
 xguindia/F2	po:noun is:femenine
-/ ?
+/ Libro de conservar sanitate. Secondo quarto del XIV secolo.
 
 
-/ ?/? - ?
+v.:prolongar,proƚongar,prelongar,preƚongar,perlongar,perƚongar,parlongar,parƚongar
+/ 83/176 - 1350
 / nodaro. Treviso, IMG_20210309_112945.
 / http://vev.ovi.cnr.it/lexicad/lemmario (20251114 - 8053? bertìgnolo(baretina) cagalina(kagar) càia camastela(mastèla) cazincana(kasia) chiarelo chiba céser cogozo coriedo cornabò cùgoli cùter deremo ebeada festare(fèsta) gàfaro ganzara ganzega gégomo giagrega(gilè) gornissagorn(gorna) gramin guazaron guzzar impiar invespar lisbonina loch maganzese manguro masamutina mèola osana pasquarosa(paskua) passèlego pepalessa(pèpa) pesàntola petemelebone(petar) pòina pòvola povolaro refogolar(fogo) rendento santacrose santelmo saponaria sarza scagaìta(kagar) (skagàita, xguaraguàita, xguàita) scaranzia scariòt scaula schierazo scogoçar(kogòŧo) scovadìe sorvo spagno spiàntano/spiantan spilter stanforte stèura stratiòto tarabusèa(tarabuxo) tèstola trabazin(tarabuxo) vacamatrè(vaka) vacazùnzoli(vaka) valenzian venarelo(vèner) vescue zabagion|đ zaca zangarin zanzalaro(ŧensala) zanzarela|ŧ zarcegna|ŧŧ zarda zavagiar|đ zenso|đ zétola zibaldon|đ zìfera|ŧ zinzapòtole zirnar|đ zolagio|ŧ/zolar/zolo zonetto/zoni|ŧ zovàdego|đ zulagia(đòl) zelegò
 / –ʼ
