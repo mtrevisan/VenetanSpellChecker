@@ -4508,24 +4508,24 @@ SFX V0 leto ƚeto/M2Pd [aeiouàèéíòóúïü]leto
 SFX V0 lèto ƚèto/M2 [aeiouàèéíòóúïü]lèto
 SFX V0 lòto ƚòto/M2 [aeiouàèéíòóúïü]lòto
 
-# trasformaŧion intra varianti, maskolin (li?on > ƚi?on, jon > ɉon, ŧi?on > si?on)
+# trasformaŧion intra varianti, maskolin (-li?on > -ƚi?on, -jon > -ɉon, -ŧi?on > -si?on)
 SFX V1 Y 2
 SFX V1 lion ƚion/F1F2BuPd [aeiouàèéíòóúïü]lion
 SFX V1 ŧion sion/F1F2B1BuPd ŧion
 
-# trasformaŧion intra varianti ko èle vanesente (j > ɉ)
+# trasformaŧion intra varianti ko èle vanesente (-jo > -ɉo)
 SFX v1 Y 1
 SFX v1 jo ɉo/M2 jo
 
-# trasformaŧion intra varianti (femenil l > ƚe)
+# trasformaŧion intra varianti (femenil -l > -ƚe)
 SFX Vf Y 1
 SFX Vf l ƚe/F2 [aeiouàèéíòóúïü]l	is:femenine va:veneŧian
 
-# trasformaŧion intra varianti (maskolin l > ƚe)
+# trasformaŧion intra varianti (maskolin -l > -ƚe)
 SFX Vm Y 1
 SFX Vm l ƚe/M2 [aeiouàèéíòóúïü]l	va:veneŧian
 
-# trasformaŧion intra varianti (nèutro l > ƚe)
+# trasformaŧion intra varianti (nèutro -l > -ƚe)
 SFX Vx Y 1
 SFX Vx l ƚe/X0 [aeiouàèéíòóúïü]l	va:veneŧian
 
@@ -4545,10 +4545,13 @@ PFX Vp J Ɉ J
 PFX Vp L Ƚ L
 PFX Vp Ŧ S Ŧ
 
+PFX Vl Y 1
+PFX Vl pi pl pi
+
 
 ### Buran ###
 
-# trasformaŧion intra varianti (a[lnr] > à, on > ó)
+# trasformaŧion intra varianti (-a[lnr] > -à, -on > -ó)
 SFX Bu Y 19
 SFX Bu al àʼ al
 SFX Bu aƚe àʼ aƚe
@@ -4573,7 +4576,7 @@ SFX Bu adòna àʼ adòna
 
 ### Coxa ###
 
-# trasformaŧion iniŧial de paròla intra varianti (metatèxi: pro > por, kon > kun, ...)
+# trasformaŧion iniŧial de paròla intra varianti (metatèxi: pro- > por-, kon- > kun-, ...)
 PFX Co Y 7
 PFX Co kru kur kru
 PFX Co for fro for
@@ -4586,7 +4589,7 @@ PFX Co pre per pre
 #PFX Co pru pur pru
 #PFX Co tor tru tor
 
-# trasformaŧion iniŧial de paròla intra varianti (pro > por, kon > kun, ...)
+# trasformaŧion iniŧial de paròla intra varianti (.[oò]- > .u[oò]-)
 PFX Cu Y 21
 PFX Cu 0 u [oò]
 PFX Cu b bu b[oò]
@@ -4611,7 +4614,7 @@ PFX Cu tr tru tr[oò]
 PFX Cu v vu v[oò]
 #PFX Cu sk sku sk[oò]
 
-# trasformaŧion iniŧial de paròla intra varianti (pro > por, kon > kun, ...)
+# trasformaŧion iniŧial de paròla intra varianti (.[eèoò]- > .i[eèoò]-)
 PFX Ci Y 19
 PFX Ci b bi b[eè]
 PFX Ci d di d[eè]
