@@ -5514,7 +5514,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "minestr",		"",			1,	3,	"g",	"1900",			"(veronexe) Skodelar.",
 "mini",			"",			1,	1,	"a",	"1557",			"(veneŧian)",
 "ministr",		"",			1,	3,	"a",	"14571101",		"(veneŧian)",
-"ministr",		"a",			1,	3,	"a",	"1450",			"",
+"ministr",		"a",			1,	3,	"a",	"130101",		"(veneŧian)",
 "ministr",		"so",			1,	3,	"a",	"1660",			"(veneŧian)",
 "minŧon",		"",			1,	4,	"a",	"1829",			"(veneŧian)",
 "minü",			"",			4,	4,	"a",	"XIV",			"(trevixan)",
