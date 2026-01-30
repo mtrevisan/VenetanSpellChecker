@@ -4151,10 +4151,11 @@ SFX P5 0 -ge í	# ége, belumat
 
 # interogativi prima parsona singolar
 # TODO https://babel.hathitrust.org/cgi/pt?id=nyp.33433071394559&seq=345&q1=baldon
-SFX I1 Y 15
+SFX I1 Y 16
 SFX I1 0 -i .	cl:interrogative	# trevixan, veneŧian, padoan, viŧentin, polexan, veronexe
 SFX I1 0 -e .	cl:interrogative	# veneŧian
-SFX I1 0 -jo .	cl:interrogative	# veneŧian
+SFX I1 0 -jo [^o]	cl:interrogative	# veneŧian
+SFX I1 o -jo o	cl:interrogative	# veneŧian
 SFX I1 0 -ɉo .	cl:interrogative	# veneŧian
 SFX I1 0 -ɉu .	cl:interrogative	# coxòto
 SFX I1 0 -mi .	cl:interrogative	# cipileño
