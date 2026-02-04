@@ -5495,7 +5495,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "mét",			"pro",		3,	1,	"a",	"130101",		"(veneŧian)",
 "mét",			"re",			3,	1,	"a",	"1450",			"",
 "mét",			"repro",		3,	1,	"a",	"1829",			"(veneŧian)",
-"mét",			"sko",		3,	1,	"a",	"1761",			"(veneŧian)",
+"mét",			"sko",		3,	1,	"a",	"1760",			"(veneŧian)",
 "mét",			"soto",		3,	1,	"a",	"130101",		"(veneŧian)",
 "mét",			"tra",		3,	1,	"a",	"1867",			"(veneŧian)",
 "mét",			"trax",		3,	1,	"a",	"",				"",
