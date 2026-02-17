@@ -2736,31 +2736,38 @@ SFX xO úxer uxarae dúxer	vt:conditional+present is:second is:plural	# T4 + rà
 SFX xO úxer uxarave dúxer	vt:conditional+present is:third	# T4 + rà(v)[ei]
 SFX xO úxer uxarae dúxer	vt:conditional+present is:third	# T4 + rà(v)[ei]
 
-# vèrbi '-er inregolari: di?éver
+# vèrbi '-er inregolari: di?[èé]ver
 # different conjugation in subjunctive present, gerund simple
 # subjunctive present of "débier"
 # NOTA: del congiuntivo sono note le forme in deba/depi/debia
 # NOTE: does not have procomplementar form for imperative
-SFX xP Y 74
+SFX xP Y 84
+SFX xP ver ba èver	vt:subjunctive+present is:first is:singular	# T8 + a
+SFX xP ver bia èver	vt:subjunctive+present is:first is:singular	# T8 + a
 SFX xP éver ebia éver	vt:subjunctive+present is:first is:singular	# T8 + a
+SFX xP ver be èver	vt:subjunctive+present is:first is:singular	# T8 + e
+SFX xP ver bie èver	vt:subjunctive+present is:first is:singular	# T8 + e
 SFX xP éver ebie éver	vt:subjunctive+present is:first is:singular	# T8 + e
 SFX xP éver ebiemo éver	vt:subjunctive+present is:first is:plural	# T5 + mo
 SFX xP éver ebimo éver	vt:subjunctive+present is:first is:plural	# T5 + mo
 SFX xP éver ebion/P3 éver	vt:subjunctive+present is:first is:plural	# T12 + (i)ón(e)
 SFX xP éver ebien/P3 éver	vt:subjunctive+present is:first is:plural	# T12 + én(e)
+SFX xP ver bi èver	vt:subjunctive+present is:second is:singular	# T8 + i
 SFX xP éver ebi éver	vt:subjunctive+present is:second is:singular	# T8 + i
-SFX xP ver bis éver	vt:subjunctive+present is:second is:singular	# T8 + i
+SFX xP ver bis [èé]ver	vt:subjunctive+present is:second is:singular	# T8 + i
 SFX xP éver ebia éver	vt:subjunctive+present is:second is:singular	# T8 + a
-SFX xP ver bias éver	vt:subjunctive+present is:second is:singular	# T8 + a
+SFX xP ver bas èver	vt:subjunctive+present is:second is:singular	# T8 + a
+SFX xP ver bias [èé]ver	vt:subjunctive+present is:second is:singular	# T8 + a
 SFX xP éver ebie éver	vt:subjunctive+present is:second is:singular	# T8 + e, 2s=3, belumat
-SFX xP ver bies éver	vt:subjunctive+present is:second is:singular	# T8 + e, 2s=3, belumat
+SFX xP ver bes èver	vt:subjunctive+present is:second is:singular	# T8 + e, 2s=3, belumat
+SFX xP ver bies [èé]ver	vt:subjunctive+present is:second is:singular	# T8 + e, 2s=3, belumat
 SFX xP éver ebiè éver	vt:subjunctive+present is:second is:plural	# T5, veneŧian
 SFX xP éver ebié/P5 éver	vt:subjunctive+present is:second is:plural	# T5, arkade, T12 + é([dg]e)
 SFX xP éver ebie éver	vt:subjunctive+present is:third	# T8 + e
 SFX xP éver ebia éver	vt:subjunctive+present is:third	# T8 + a
 SFX xP éver evo/I1A0 éver	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xP éver evi/I3A0 éver	vt:indicative+present is:second is:singular	# T8 + i
-SFX xP er is/I3 éver	vt:indicative+present is:second is:singular	# T8 + is
+SFX xP er is/I3 [èé]ver	vt:indicative+present is:second is:singular	# T8 + is
 SFX xP éver eva éver	vt:indicative+present is:third	# T10
 SFX xP éver evi éver	vt:indicative+present is:third	# T10, đulian
 SFX xP éver eva éver	vt:subjunctive+present is:first is:singular	# T8 + a
@@ -2793,8 +2800,11 @@ SFX xP éver evarave éver	vt:conditional+present is:second is:plural	# T4 + rà
 SFX xP éver evarae éver	vt:conditional+present is:second is:plural	# T4 + rà(v)[ei]
 SFX xP éver evarave éver	vt:conditional+present is:third	# T4 + rà(v)[ei]
 SFX xP éver evarae éver	vt:conditional+present is:third	# T4 + rà(v)[ei]
+SFX xP ver va èver	vt:imperative+present is:second is:singular	# T9
 SFX xP éver eva éver	vt:imperative+present is:second is:singular	# T9
+SFX xP ver vi èver	vt:imperative+present is:second is:singular	# T9
 SFX xP éver evi éver	vt:imperative+present is:second is:singular	# T9
+SFX xP ver ve èver	vt:imperative+present is:second is:singular	# T9
 SFX xP éver eve éver	vt:imperative+present is:second is:singular	# T9
 SFX xP éver evé éver	vt:imperative+present is:second is:plural	# T5 = T12 + ((i)è|é)
 SFX xP éver eví éver	vt:imperative+present is:second is:plural	# T5
@@ -3605,7 +3615,7 @@ SFX xS èser esande/P0P1P2 èser	vt:gerund+simple	# T2 + n[dt]o, liventin
 # changes in indicative present, indicative future, conditional present, imperative present
 # TODO pòser? poser?
 # TODO do(v?)er => dòxer? doxer?
-SFX xT Y 132
+SFX xT Y 133
 SFX xT oder òso/I1 oder	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xT oder òse/I1A0 oder	vt:indicative+present is:first is:singular	# T8 + [oe], belumat
 SFX xT oder òle/I1A0 oder	vt:indicative+present is:first is:singular	# T8 + [oe]
@@ -3614,6 +3624,7 @@ SFX xT oder òr-lo/I6 oder	vt:indicative+future is:third cl:interrogative	# T4 +
 SFX xT oder òla/I5 oder	vt:indicative+present is:third	# T10
 SFX xT oder òli/I5 oder	vt:indicative+present is:third	# T10, đulian
 SFX xT oder òle/I5 oder	vt:indicative+present is:third	# T10
+SFX xT oder ò/I5 oder	vt:indicative+present is:third	# T10
 SFX xT oder òlo/A0I5 oder	vt:indicative+present is:third	# T10
 SFX xT oder òƚa/I7 oder	vt:indicative+present is:third	# T10
 SFX xT oder òƚi/I7 oder	vt:indicative+present is:third	# T10, đulian
@@ -4160,7 +4171,7 @@ SFX I1 0 -jo [nò]	cl:interrogative	# veneŧian
 SFX I1 0 -ɉo [nò]	cl:interrogative	# veneŧian
 SFX I1 0 -ɉu [nò]	cl:interrogative	# coxòto
 SFX I1 0 -mi .	cl:interrogative	# cipileño
-SFX I1 o -io [dglmstv]o	cl:interrogative	# veneŧian
+SFX I1 o -io [dglmstŧv]o	cl:interrogative	# veneŧian
 SFX I1 e -io ave	cl:interrogative	# veneŧian
 SFX I1 0 -nti [^nr]	cl:interrogative	# veronexe
 SFX I1 0 -ni [^nr]	cl:interrogative	# veronexe
