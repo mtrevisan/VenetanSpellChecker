@@ -6311,8 +6311,8 @@ PFX ^6 v stra- vó	dp:stra
 
 # sostantivi/vèrbi alterai (mal-)
 PFX ^7 Y 2
-PFX ^7 0 mal [^ƚ]	dp:mal
-PFX ^7 0 mal- [^ƚ]	dp:mal
+PFX ^7 0 mal [^aàeèéiíoòóuúƚ]	dp:mal
+PFX ^7 0 mal- [^aàeèéiíoòóuúƚ]	dp:mal
 
 # sostantivi/vèrbi alterai (ben-)
 PFX ^8 Y 2
@@ -6338,17 +6338,17 @@ PFX -1 Y 5
 PFX -1 0 de x	dp:des
 PFX -1 0 des [cfkpstŧ]	dp:des
 PFX -1 0 des- s	dp:des
-PFX -1 0 dex [^cfkƚpstŧ]	dp:des
-PFX -1 0 dex- x	dp:des
+PFX -1 0 dex [^aeiouàèéíòóúïücfkƚpstŧ]	dp:des
+PFX -1 0 dex- [aeiouàèéíòóúïüx]	dp:des
 
 # sostantivi/vèrbi deajetivali (in?-)
 # NÒTA: `insidiar` must be added because `*isidiar` does not exists
 PFX +0 Y 5
-PFX +0 0 in- n	dp:in
-PFX +0 0 in [^ƚñ]	dp:in
+PFX +0 0 in [^aeiouàèéíòóúïüƚñ]	dp:in
+PFX +0 0 in- [aeiouàèéíòóúïün]	dp:in
 PFX +0 0 i [lƚmnñrsx]	dp:in
-PFX +0 0 en- n	dp:in
-PFX +0 0 en [^ƚñ]	dp:in
+PFX +0 0 en [^aeiouàèéíòóúïüƚñ]	dp:in
+PFX +0 0 en- [aeiouàèéíòóúïün]	dp:in
 
 # prefiso par aŧion kontraria o privativa–peđorativa, xlontanamento, esía, separaŧion ([sx]-)
 PFX *0 Y 2
@@ -6370,7 +6370,7 @@ PFX @0 0 a .	dp:a
 PFX :0 Y 3
 PFX :0 0 ko [mn]	dp:kon
 PFX :0 0 kon- [mn]	dp:kon
-PFX :0 0 kon [^ƚ]	dp:kon
+PFX :0 0 kon [^aeiouàèéíòóúïüƚ]	dp:kon
 
 # prefiso par raforŧar (arŧ[iï]-)
 PFX @1 Y 3
