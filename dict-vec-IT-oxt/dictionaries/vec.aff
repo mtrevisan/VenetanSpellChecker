@@ -485,7 +485,7 @@ SFX t1 ir emo-ƚo/P2 ir	vt:imperative+present is:first is:plural	# T5 + mo, meta
 
 # -àr, -ér, '-er, -ír, -ír/is
 # group: indicative imperfect, indicative future, subjunctive imperfect, conditional present, indefinitive form
-SFX T1 Y 356
+SFX T1 Y 357
 SFX T1 r va/I1 [aei]r	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo]
 SFX T1 rò va/I1 erò	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo]
 SFX T1 ir eva/I1 ir	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo], metaplaxmo
@@ -518,6 +518,7 @@ SFX T1 ir évimo/I2 ir	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo,
 SFX T1 ar àvino/I2 ar	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo, arkàego
 SFX T1 ar évino/I2 ar	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo, liventin, metaplaxmo, arkàego
 SFX T1 er évino/I2 er	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo, arkàego
+SFX T1 er ívino/I2 er	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo, pavan
 SFX T1 ir ívino/I2 ir	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo, arkàego
 SFX T1 erò évino/I2 erò	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo, arkàego
 SFX T1 ir évino/I2 ir	vt:indicative+imperfect is:first is:plural	# T2 + (v)imo, metaplaxmo, arkàego
@@ -4806,7 +4807,7 @@ SFX X1 Y 6
 SFX X1 e i ade	is:femenine is:plural
 SFX X1 de e ade	is:femenine	# -TATE(M) > -ade > -ae
 SFX X1 ade à ade	is:femenine	# -TATE(M) > -ade > -at > -à
-SFX X1 ade è ade	is:femenine	# pavan, -TATE(M) > -ade > -ae > -è
+SFX X1 ade è ade	is:femenine	# -TATE(M) > -ade > -ae > -è, pavan
 SFX X1 ude ú ude	is:femenine
 SFX X1 ude úe ude	is:femenine
 
@@ -5172,7 +5173,7 @@ SFX Vr a ia/F2 [aeiou]nŧa
 SFX Vr enŧa ènŧa/F2 enŧa
 SFX Vr enŧa ènŧia/F2 enŧa
 SFX Vr enŧia ènŧia/F2 enŧia
-SFX Vr ente ènte/X0A0'9 ente
+SFX Vr ente ènte/X0A0 ente
 SFX Vr endo èndo/M2A0 endo
 SFX Vr ongo òngo/M2 ongo
 SFX Vr orko òrko/M2A0 orko
@@ -5638,7 +5639,7 @@ SFX m7 òna oname/M2 òna
 
 # sostantivi koletivi, ...
 SFX y0 Y 26
-SFX y0 ado ò ado	# pavan, -ATU(M) > -ado > -ao > -oo > -ò
+SFX y0 ado ò ado	# -ATU(M) > -ado > -ao > -oo > -ò, pavan
 SFX y0 ado à ado	# -ATU(M) > -ado > -at > -à
 SFX y0 do o ado	# -ATU(M) > -ado > -ao
 SFX y0 do i ado	is:plural
@@ -7100,8 +7101,8 @@ PFX $3 0 Mi/Z0 .	# 2²⁰
 PFX $3 0 ki/Z0 .	# 2¹⁰
 
 
-# paròle ŧonkae a ʼl iniŧio senŧa apòstrofo
-PFX '0 Y 9
+# paròle ko afèrexi senŧa apòstrofo
+PFX '0 Y 8
 PFX '0 a 0 a	is:apheresis
 PFX '0 i 0 in	is:apheresis
 PFX '0 g 0 g	is:apheresis
@@ -7109,48 +7110,44 @@ PFX '0 l 0 l	is:apheresis
 PFX '0 o 0 o	is:apheresis
 PFX '0 p 0 p	is:apheresis
 PFX '0 v 0 v	is:apheresis
-PFX '0 se ʼ se	is:apheresis
 PFX '0 kon 0 kon	is:apheresis
 
-# paròle ŧonkae a ʼl iniŧio ko apòstrofo
-PFX '1 Y 7
+# paròle ko afèrexi ko apòstrofo
+PFX '1 Y 9
 PFX '1 a ʼ a	is:apheresis
 PFX '1 à ʼ à	is:apheresis
 PFX '1 e ʼ e	is:apheresis
+PFX '1 g ʼ g	is:apheresis
 PFX '1 i ʼ i	is:apheresis
 PFX '1 u ʼ u	is:apheresis
 PFX '1 v ʼ v	is:apheresis
+PFX '1 se ʼ se	is:apheresis
 PFX '1 kò ʼ kò	is:apheresis
 
-
 # FIXME to be verified
-# paròle ŧonkae a la fine
-SFX '9 Y 28
+# paròle ko elixion
+SFX '9 Y 24
 SFX '9 i 0 [èòú]i	is:elision
 SFX '9 oe ó oe	is:elision
 SFX '9 ai à ai	is:elision
 SFX '9 oi ó oi	is:elision
-SFX '9 ui ú ui	is:elision
-SFX '9 a ʼ [klnstŧv]a	is:elision
-SFX '9 ra ʼ ra	is:elision
-SFX '9 va ʼ va	is:elision
-SFX '9 xa ʼ xa	is:elision
-SFX '9 e ʼ [dkgnsvx]e	is:elision
-SFX '9 e ʼ nte	is:elision
-SFX '9 é ʼ ké	is:elision
-SFX '9 de ʼ [aenò]de	is:elision
-SFX '9 me ʼ me	is:elision
-SFX '9 ke ʼ nke	is:elision
-SFX '9 te ʼ [^n]te	is:elision
+SFX '9 ui úʼ ui	is:elision
+SFX '9 a ʼ [lnt]a	is:elision
+SFX '9 ora óʼ ora	is:elision
+SFX '9 ra ʼ òra	is:elision
+SFX '9 axa àʼ axa	is:elision
+SFX '9 e ʼ [dkgns]e	is:elision
+SFX '9 ome óʼ ome	is:elision
 SFX '9 ive íʼ ive	is:elision
-SFX '9 ove óʼ ove	is:elision
-SFX '9 i ʼ ñi	is:elision
-SFX '9 o ʼ [đnñsŧx]o	is:elision
-SFX '9 o ʼ [rsu]to	is:elision
-SFX '9 do ʼ do	is:elision	# (kuanʼ + C)
-SFX '9 ko ʼ ko	is:elision
-SFX '9 to ʼ [ns]to	is:elision	# `nto` sol ke vanti na konsonante (ex. 'tanʼ bèl')
-SFX '9 to ʼ tuto	is:elision	# sol ke vanti na èse+konsonante e `t` (ex. 'tuʼ stà', 'tuʼ ʼté ʼn momènt')
+SFX '9 ove ó ove	is:elision
+SFX '9 o ʼ no	is:elision
+SFX '9 o ʼ sto	is:elision
+SFX '9 do 0 do	is:elision
+SFX '9 oko óʼ oko	is:elision
+SFX '9 ko ʼ òko	is:elision
+SFX '9 to ʼ nto	is:elision	# `nto` sol ke vanti na konsonante (ex. 'tanʼ bèl')
+SFX '9 uto úʼ tuto	is:elision	# sol ke vanti na èse+konsonante e `t` (ex. 'túʼ stà', 'túʼ ʼté ʼn momènt')
 SFX '9 vo ʼ vo	is:elision
 SFX '9 u ʼ [nv]u	is:elision
-SFX '9 r ʼ r	is:elision
+SFX '9 ar àʼ par	is:elision
+SFX '9 r ʼ òr	is:elision
