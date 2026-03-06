@@ -2246,7 +2246,7 @@ SFX xD er ando/P0P1 oler	vt:gerund+simple	# T2 + n[dt]o
 SFX xD ler ƚando-ƚo/P2 oler	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[dt]o
 
 # vèrbi -ér inregolari: (ben|mal|re)?(vu?|ʼ)o[lƚ]er
-SFX xE Y 24
+SFX xE Y 36
 SFX xE ler jo/I1 oler	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xE ler ɉo/I1 oler	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xE oler òɉo/I1 oler	vt:indicative+present is:first is:singular	# T8 + [oe]
@@ -2271,6 +2271,18 @@ SFX xE oler upia oler	vt:subjunctive+present is:third	# T8 + a
 SFX xE ler sé/I4P5 voler	vt:subjunctive+imperfect is:second is:plural	# T11 + (is)ié([dg]e)/isiè/sé, coxòto
 SFX xE ler sudo/M2F0F3A0 oler	vt:participle+passive+strong
 SFX xE er sudo/M2F0F3A0 oler	vt:participle+passive+strong
+SFX xE ler jèndo/P0 oler	vt:gerund+simple	# T2 + n[dt]o, ŧenedexe
+SFX xE ler ɉèndo/P0 oler	vt:gerund+simple	# T2 + n[dt]o, ŧenedexe
+SFX xE ler jendo/P0 oler	vt:gerund+simple	# T2 + n[dt]o
+SFX xE ler ɉendo/P0 oler	vt:gerund+simple	# T2 + n[dt]o
+SFX xE ler jando/P0 oler	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
+SFX xE ler ɉando/P0 oler	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
+SFX xE ler jento/P0 oler	vt:gerund+simple	# T2 + n[dt]o
+SFX xE ler ɉento/P0 oler	vt:gerund+simple	# T2 + n[dt]o
+SFX xE ler janto/P0 oler	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
+SFX xE ler ɉanto/P0 oler	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
+SFX xE ler jande/P0 oler	vt:gerund+simple	# T2 + n[dt]o, liventin
+SFX xE ler ɉande/P0 oler	vt:gerund+simple	# T2 + n[dt]o, liventin
 
 # vèrbi -ér inregolari: (des|re)?(t[iu]?|c)o[lƚ]er, (ben|mal|re)?(vu?|ʼ)o[lƚ]er
 # changes in indicative present, indicative future, subjunctive present, conditional present, imperative present, infinitive simple, participle passive, gerund simple
@@ -4384,11 +4396,12 @@ SFX P0 0 -nde [^lr]	cl:pronomenal+genitive
 SFX P0 0 -de r	cl:pronomenal+genitive
 
 # vèrbo prokonplementar (pronòme konplemento dirèto e indirèto/`se` inparsonal + klítego konpl. dir. de 3a pars./pron. klítego part. `n(e)`, FIXME fòra ke par la prima pars. pl.): 0>-([gmstv]e)?l[oaie]?
-SFX P1 Y 69
+SFX P1 Y 70
 SFX P1 0 -l [^lnr]	cl:pronomenal+accusative
 SFX P1 0 -lo [^l]	cl:pronomenal+accusative
 SFX P1 0 -la [^l]	cl:pronomenal+accusative is:femenine
 SFX P1 0 -li [^l]	cl:pronomenal+accusative is:plural
+SFX P1 0 -ɉi [^l]	cl:pronomenal+accusative is:plural	# pavan
 SFX P1 0 -le [^l]	cl:pronomenal+accusative is:plural is:femenine
 SFX P1 0 -mel [^l]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative
 SFX P1 0 -melo [^l]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative
@@ -4456,10 +4469,11 @@ SFX P1 l geli -l	cl:pronomenal+locative+accusative is:third cl:pronomenal+accusa
 SFX P1 l gele -l	cl:pronomenal+locative+accusative is:third cl:pronomenal+accusative is:plural is:femenine
 
 # vèrbo prokonplementar (pronòme konplemento dirèto e indirèto/`se` inparsonal + klítego konpl. dir. de 3a pars./pron. klítego part. `n(e)`, FIXME fòra ke par la prima pars. pl.): 0>-([gmstv]e)?ƚ[oaie]
-SFX P2 Y 59
+SFX P2 Y 60
 SFX P2 0 -lo r	cl:pronomenal+accusative
 SFX P2 0 -la r	cl:pronomenal+accusative is:femenine
 SFX P2 0 -li r	cl:pronomenal+accusative is:plural
+SFX P2 0 -ɉi r	cl:pronomenal+accusative is:plural	# pavan
 SFX P2 0 -le r	cl:pronomenal+accusative is:plural is:femenine
 SFX P2 0 -ƚo [^olnr]	cl:pronomenal+accusative is:femenine
 SFX P2 0 -ƚa [^olnr]	cl:pronomenal+accusative is:femenine
@@ -4586,24 +4600,27 @@ SFX I4 0 -vu .	cl:interrogative
 SFX I4 0 -vo .	cl:interrogative	# pavan
 
 # interogativi tèrŧa parsona (senŧa èle vanesente)
-SFX I5 Y 10
+SFX I5 Y 12
 SFX I5 0 -l [^lnr]	cl:interrogative
 SFX I5 0 -lo [^a]	cl:interrogative
 SFX I5 0 -la [^a]	cl:interrogative is:femenine
 SFX I5 0 -li [^a]	cl:interrogative is:plural
+SFX I5 0 -ɉi [^a]	cl:interrogative is:plural	# pavan
 SFX I5 e i-li e	cl:interrogative is:plural	# viŧentin
 SFX I5 0 -le [^a]	cl:interrogative is:plural is:femenine
 SFX I5 a e-lo a	cl:interrogative
 SFX I5 a e-la a	cl:interrogative is:femenine
 SFX I5 a e-li a	cl:interrogative is:plural
+SFX I5 a e-ɉi a	cl:interrogative is:plural	# pavan
 SFX I5 a e-le a	cl:interrogative is:plural is:femenine
 
 # interogativi tèrŧa parsona (senŧa èle vanesente)
-SFX I6 Y 5
+SFX I6 Y 6
 SFX I6 o 0 [^n]-lo	cl:interrogative
 SFX I6 o a -lo	cl:interrogative is:femenine
 SFX I6 o i -lo	cl:interrogative is:plural
-SFX I6 e-lo i-li e-lo	cl:interrogative is:plural	# pavan, đulian
+SFX I6 e-lo i-li e-lo	cl:interrogative is:plural	# đulian
+SFX I6 e-lo i-ɉi e-lo	cl:interrogative is:plural	# pavan
 SFX I6 o e -lo	cl:interrogative is:plural is:femenine
 
 # interogativi tèrŧa parsona (ko èle vanesente)
@@ -4798,12 +4815,12 @@ SFX X0 e i e	is:plural
 SFX X0 o i o	is:plural
 SFX X0 0 i [lnr]	is:plural
 
-# paròle astrati senŧa đèner (-ade > -ae/à/è, -ude > -ú(e))
+# paròle astrati senŧa đèner (-ade > -ae/à/é, -ude > -ú(e))
 SFX X1 Y 6
 SFX X1 e i ade	is:femenine is:plural
-SFX X1 de e ade	is:femenine	# -TATE(M) > -ade > -ae
-SFX X1 ade à ade	is:femenine	# -TATE(M) > -ade > -at > -à
-SFX X1 ade è ade	is:femenine	# -TATE(M) > -ade > -ae > -è, pavan
+SFX X1 de e ade	is:femenine	# -TĀTE(M) > -ade > -ae
+SFX X1 ade à ade	is:femenine	# -TĀTE(M) > -ade > -at > -à
+SFX X1 ade è ade	is:femenine	# -TĀTE(M) > -ade > -ae > -è, pavan
 SFX X1 ude ú ude	is:femenine
 SFX X1 ude úe ude	is:femenine
 
@@ -6437,14 +6454,16 @@ SFX oL ía ïòta/F2 [^aeiou]ía	ds:òto
 
 
 # sostantivi/ajetivi alterai — peđorativi (-ato/a)
-SFX aT Y 39
+SFX aT Y 41
 SFX aT 0 ato/M2A0 [nr]	ds:ato
+SFX aT ía iata/F2 [aeiou]ía	ds:ato
+SFX aT ía ïata/F2 [^aeiou]ía	ds:ato
 SFX aT úa uata/F2 [aeiou]úa	ds:ato
 SFX aT úa üata/F2 [^aeiou]úa	ds:ato
 SFX aT èl elato/M2A0 èl	ds:ato
 SFX aT úo uato/M2A0 [aeiou]úo	ds:ato
 SFX aT úo üato/M2A0 [^aeiou]úo	ds:ato
-SFX aT 0 ta/F2 [^bcjɉklnstú]a	ds:ato
+SFX aT 0 ta/F2 [^bcíjɉklnstú]a	ds:ato
 SFX aT 0 ato/M2A0 [^è]l	ds:ato
 SFX aT o ato/M2A0 [^bcjɉkmústŧv]o	ds:ato
 SFX aT òba obata/F2 òba	ds:ato
@@ -7153,7 +7172,7 @@ PFX '1 ka ʼ ka	is:apheresis
 PFX '1 kò ʼ kò	is:apheresis
 PFX '1 kon ʼ kon	is:apheresis
 
-# paròle ko elixion
+# paròle ko elixion/apòkope
 SFX '9 Y 23
 SFX '9 i 0 [èòú]i	is:elision
 SFX '9 oe ó oe	is:elision
