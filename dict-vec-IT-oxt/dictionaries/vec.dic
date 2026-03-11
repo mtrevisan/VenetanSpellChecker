@@ -29704,14 +29704,12 @@ mʼ	po:pronoun_clitic_complement_indirect is:first is:neuter is:elision st:me
 me	po:pronoun_clitic_reflexive is:first is:neuter al:mʼ
 mi	po:pronoun_clitic_reflexive is:first is:neuter va:buranèl al:mʼ
 mʼ	po:pronoun_clitic_reflexive is:first is:neuter is:elision st:me
-ne/'9	po:pronoun_clitic_complement_direct is:first is:neuter is:plural
-ne/'9	po:pronoun_clitic_complement_indirect is:first is:neuter is:plural
 ende	po:pronoun_clitic_complement_direct is:first is:neuter is:plural
 ende	po:pronoun_clitic_complement_indirect is:first is:neuter is:plural
-nde	po:pronoun_clitic_complement_direct is:first is:neuter is:plural is:apheresis st:ende al:dé
-nde	po:pronoun_clitic_complement_indirect is:first is:neuter is:plural is:apheresis st:ende al:dé
-ndʼ	po:pronoun_clitic_complement_direct is:first is:neuter is:plural is:apheresis is:elision st:nde
-ndʼ	po:pronoun_clitic_complement_indirect is:first is:neuter is:plural is:apheresis is:elision st:nde
+nde/'9	po:pronoun_clitic_complement_direct is:first is:neuter is:plural is:apheresis st:ende al:dé
+nde/'9	po:pronoun_clitic_complement_indirect is:first is:neuter is:plural is:apheresis st:ende al:dé
+ne/'9	po:pronoun_clitic_complement_direct is:first is:neuter is:plural
+ne/'9	po:pronoun_clitic_complement_indirect is:first is:neuter is:plural
 dé	po:pronoun_clitic_complement_direct is:first is:neuter is:plural is:apheresis st:nde
 dé	po:pronoun_clitic_complement_indirect is:first is:neuter is:plural is:apheresis st:nde
 se/'9	po:pronoun_clitic_reflexive is:first is:plural is:neuter
@@ -29749,12 +29747,11 @@ le/Vp	po:pronoun_clitic_subject is:third is:plural is:femenine
 se	po:pronoun_impersonal is:neuter
 se	po:pronoun_passivating is:neuter
 / pronòme klítegi partitivo
+ende	po:pronoun_partitive is:neuter
+nde/'9	po:pronoun_partitive is:neuter is:apheresis st:ende al:dé
+ne/'9	po:pronoun_partitive is:neuter
 dé	po:pronoun_partitive is:neuter is:apheresis st:nde
 en/'1	po:pronoun_partitive is:neuter
-ende	po:pronoun_partitive is:neuter
-ndʼ	po:pronoun_partitive is:neuter is:apheresis is:elision st:nde
-nde	po:pronoun_partitive is:neuter is:apheresis st:ende al:dé
-ne	po:pronoun_partitive is:neuter
 / pronòme klítego logativo
 ge/'9	po:pronoun_locative_existential is:neuter
 ge/'9	po:pronoun_locative_referential is:neuter
@@ -32241,9 +32238,9 @@ spexa/F2aZaSe2o0o1o2o3o4r0	po:noun is:femenine
 ŧirka/+0	po:adverb
 vila/F2aTaZaSoT	po:noun is:femenine
 viƚa/F2a1aLoL	po:noun is:femenine
-vui/'1	po:pronoun_free_indirect is:second is:plural is:neuter
-vui/'1	po:pronoun_free_reflexive is:second is:plural is:neuter
-vui/'1	po:pronoun_free_subject is:second is:plural is:neuter
+vui/'0	po:pronoun_free_indirect is:second is:plural is:neuter
+vui/'0	po:pronoun_free_reflexive is:second is:plural is:neuter
+vui/'0	po:pronoun_free_subject is:second is:plural is:neuter
 / Tomasin, Lorenzo. Il volgare nella cancelleria veneziana fra Tre e Quattrocento. In "Medioevo letterario dʼItalia", vol. 4 [13011028]. Pisa; 2007.
 armamento/M2A0PdVr	po:noun st:armar ds:mento
 barba/M2	po:noun st:barban
@@ -77476,3 +77473,4 @@ xguindia/F2	po:noun is:femenine
 / ge[sx]ería ŧé[đŧ]ol be[đŧ]aròl bol[đŧ]a bu[đŧ]arosa in[đŧ]eregar (kon|in)[đŧ]eñar kave[đŧ]aña ka[đŧ]a ka[đŧ]òto koda[đŧ]i[ln] kon[đŧ]a korpa[đŧ]udo pi[đŧ]al p[ou][ln][đŧ]in sopo[đŧ]ar trò[đŧ]a vàn[đŧ]ega [đŧ]anpèla [đŧ]an[đŧ]ador [đŧ]an[đŧ]ar [đŧ]an[đŧ]arèla [đŧ]ir [đŧ]on [đŧ]àina [đŧ]an[đŧ]ar [đŧ]à[đŧ]era [đŧ]èso
 / 1: 8531 (78%), 2: 71 (0.6%), 3: 1100 (10%), 4: 977 (8.9%), 5: 253 (2.3%), tot: 10933
 / 16191220 ago da lanzan
+nde	
