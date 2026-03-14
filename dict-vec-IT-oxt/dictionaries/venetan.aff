@@ -2224,7 +2224,9 @@ SFX yB ver endo-ƚo/P2 ver	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[dt
 # vèrbi -ér inregolari: (as?|apar|de|(in)?kon|intra|man|(re)?o|re|sos|tra)?[ct][èé][nñ]er, (ar?|ben|dex?|(des|re)?kon|in|inter|intr[ae]|kontra|mal|per|pre|(re)?so|pro|re|rin|skon?|sora|x)?[vʼ][èéí]ñer/ʼñer
 # t[èé][nñ]er > ŧ[èé][nñ]er > c[èé][nñ]er
 # changes in indicative present, imperative present
-SFX xC Y 51
+SFX xC Y 53
+SFX xC èñer ièn/BuI3 [^c]èñer	vt:indicative+present is:second is:singular	# T10 = T8 + e, 2s=3, belumat
+SFX xC ñer n/BuI3 èñer	vt:indicative+present is:second is:singular	# T10 = T8 + e, 2s=3, belumat
 SFX xC èñer ièn/BuI5 [^c]èñer	vt:indicative+present is:third	# T10 = T8 + e
 SFX xC èñer in/BuI5 vèñer	vt:indicative+present is:third	# T10 = T8 + e, pavan
 SFX xC ñer n/BuI5 èñer	vt:indicative+present is:third	# T10 = T8 + e
@@ -3734,7 +3736,7 @@ SFX xU èser esarave èser	vt:conditional+present is:third	# T4 + rà(v)[ei]
 SFX xU èser esarae èser	vt:conditional+present is:third	# T4 + rà(v)[ei]
 SFX xU er ar èser	vt:infinitive+simple	# T1 + r(e)
 SFX xU er are èser	vt:infinitive+simple	# T1 + r(e)
-SFX xU 0 e èser	vt:infinitive+simple	# T1 + r(e), padoan, coxòto
+SFX xU 0 e ès[ae]r	vt:infinitive+simple	# T1 + r(e), padoan, coxòto
 SFX xU èser esí èser	vt:infinitive+simple is:elision	# T1 + r(e), coxòto
 SFX xU èser esé èser	vt:infinitive+simple is:elision	# T1 + r(e), buranèl
 SFX xU er tre èser	vt:infinitive+simple	# T1 + r(e)
@@ -4670,8 +4672,8 @@ SFX I2 0 -ne [^nm]	cl:interrogative
 
 # interogativi sekonda parsona singolar
 SFX I3 Y 6
-SFX I3 0 -tu [^aà]	cl:interrogative	# trevixan
-SFX I3 0 -to [^aà]	cl:interrogative	# padoan de ŧità, viŧentin de ŧità, polexan de ŧità, veronexe de ŧità
+SFX I3 0 -tu [^a]	cl:interrogative	# trevixan
+SFX I3 0 -to [^a]	cl:interrogative	# padoan de ŧità, viŧentin de ŧità, polexan de ŧità, veronexe de ŧità
 SFX I3 a e-tu a	cl:interrogative	# trevixan
 SFX I3 a e-to a	cl:interrogative	# padoan de ŧità, viŧentin de ŧità, polexan de ŧità, veronexe de ŧità
 SFX I3 à è-tu à	cl:interrogative	# trevixan
