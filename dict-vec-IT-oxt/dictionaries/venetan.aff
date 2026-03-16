@@ -100,7 +100,7 @@ OCONV ñ gn
 OCONV Ñ GN
 
 # frequently switched character groups
-REP 116
+REP 117
 REP - ‒
 REP - –
 REP - -
@@ -217,6 +217,7 @@ REP ^dinansi$ dʼ_inansi
 REP ^dinanŧi$ dʼ_inanŧi
 REP ^gende$ ge_nde
 REP ^kende$ ke_nde
+REP ^lonbría$ lʼ_onbría
 
 
 FLAG long
@@ -411,7 +412,7 @@ COMPOUNDRULE (|5)(-b)(|6)	# sento-mi[lƚ]e
 
 # -àr, -ér, '-er, -ír, -ír/is
 # group: indicative present
-SFX T0 Y 49
+SFX T0 Y 50
 SFX T0 r n/I2 ar	vt:indicative+present is:first is:plural	# T5 + mo, pavan
 SFX T0 r m/I2 ar	vt:indicative+present is:first is:plural	# T5 + mo, pavan
 SFX T0 ar on/I2 ar	vt:indicative+present is:first is:plural	# T5 + mo, pavan
@@ -423,6 +424,7 @@ SFX T0 er am/I2 er	vt:indicative+present is:first is:plural	# T5 + mo, pavan
 SFX T0 er imo/I2 er	vt:indicative+present is:first is:plural	# T5 + mo
 SFX T0 erò an/I2 erò	vt:indicative+present is:first is:plural	# T5 + mo, pavan
 SFX T0 erò am/I2 erò	vt:indicative+present is:first is:plural	# T5 + mo, pavan
+SFX T0 erò om/I2 erò	vt:indicative+present is:first is:plural	# T5 + mo, pavan
 SFX T0 rò mo/I2 erò	vt:indicative+present is:first is:plural	# T5 + mo
 SFX T0 erò imo/I2 erò	vt:indicative+present is:first is:plural	# T5 + mo
 SFX T0 r mo/I2 ir	vt:indicative+present is:first is:plural	# T5 + mo
@@ -495,7 +497,7 @@ SFX t1 ir emo-ƚo/P2 ir	vt:imperative+present is:first is:plural	# T5 + mo, meta
 
 # -àr, -ér, '-er, -ír, -ír/is
 # group: indicative imperfect, indicative future, subjunctive imperfect, conditional present, indefinitive form
-SFX T1 Y 362
+SFX T1 Y 366
 SFX T1 r va/I1 [aei]r	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo]
 SFX T1 rò va/I1 erò	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo]
 SFX T1 ir eva/I1 ir	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo], metaplaxmo
@@ -670,9 +672,13 @@ SFX T1 0 à/I1 [aei]r	vt:indicative+future is:first is:singular	# T4 + r[òàè]
 SFX T1 ar erà/I1 ar	vt:indicative+future is:first is:singular	# T4 + r[òàè], metaplaxmo
 SFX T1 ò à/I1 erò	vt:indicative+future is:first is:singular	# T4 + r[òàè]
 SFX T1 ir erà/I1 ir	vt:indicative+future is:first is:singular	# T4 + r[òàè], metaplaxmo
+SFX T1 0 om/I2 [aei]r	vt:indicative+future is:first is:plural	# T4 + r[éí]mo, pavan
 SFX T1 0 emo/I2 [aei]r	vt:indicative+future is:first is:plural	# T4 + r[éí]mo
+SFX T1 ar erom/I2 ar	vt:indicative+future is:first is:plural	# T4 + r[éí]mo, pavan, metaplaxmo
 SFX T1 ar eremo/I2 ar	vt:indicative+future is:first is:plural	# T4 + r[éí]mo, metaplaxmo
+SFX T1 ò om/I2 erò	vt:indicative+future is:first is:plural	# T4 + r[éí]mo, pavan
 SFX T1 ò emo/I2 erò	vt:indicative+future is:first is:plural	# T4 + r[éí]mo
+SFX T1 ir erom/I2 ir	vt:indicative+future is:first is:plural	# T4 + r[éí]mo, pavan, metaplaxmo
 SFX T1 ir eremo/I2 ir	vt:indicative+future is:first is:plural	# T4 + r[éí]mo, metaplaxmo
 SFX T1 0 imo/I2 [aei]r	vt:indicative+future is:first is:plural	# T4 + r[éí]mo
 SFX T1 ar erimo/I2 ar	vt:indicative+future is:first is:plural	# T4 + r[éí]mo, metaplaxmo
@@ -1914,9 +1920,9 @@ SFX xA andar vago/I1 andar	vt:indicative+present is:first is:singular	# T8 + [oe
 SFX xA andar vage/I1 andar	vt:indicative+present is:first is:singular	# T8 + [oe], belumat
 SFX xA andar vagan/I2 andar	vt:indicative+present is:first is:plural	# T5 + mo, pavan
 SFX xA andar vagam/I2 andar	vt:indicative+present is:first is:plural	# T5 + mo, pavan
+SFX xA andar vagon/I2 andar	vt:indicative+present is:first is:plural	# T5 + mo, pavan
 SFX xA andar vagamo/I2 andar	vt:indicative+present is:first is:plural	# T5 + mo, paduan
 SFX xA andar vagemo/I2 andar	vt:indicative+present is:first is:plural	# T5 + mo
-SFX xA andar vagon/I2 andar	vt:indicative+present is:first is:plural	# T12 + ón, belumat
 SFX xA andar vagen/I2 andar	vt:indicative+present is:first is:plural	# T12 + én, belumat
 SFX xA andar vagai andar	vt:indicative+present is:second is:singular	# T8 + i
 SFX xA andar vagà/I3 andar	vt:indicative+present is:second is:singular	# T10
@@ -1977,12 +1983,13 @@ SFX xA r gande-ƚo/P2 andar	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[d
 # subjunctive present of "apier"
 # NOTE: see also other derivations in dic file!
 # NOTE: does not have procomplementar form for imperative
-SFX xB Y 200
+SFX xB Y 201
 SFX xB aver ò/I1 aver	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xB aver à/I1 aver	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xB aver è/I1 aver	vt:indicative+present is:first is:singular	# T8 + [oe], belumat, buranèl
 SFX xB r mo/I2 ver	vt:indicative+present is:first is:plural	# T5 + mo
 SFX xB er imo/I2 ver	vt:indicative+present is:first is:plural	# T5 + mo
+SFX xB er om/I2 aer	vt:indicative+present is:first is:plural	# T5 + mo
 SFX xB aver emo/I2 gaver	vt:indicative+present is:first is:plural	# T5 + mo
 SFX xB aver imo/I2 gaver	vt:indicative+present is:first is:plural	# T5 + mo
 SFX xB er on/I2 ver	vt:indicative+present is:first is:plural	# T12 + ón
@@ -2184,7 +2191,7 @@ SFX xB ver piande/P0P1P2 ver	vt:gerund+simple	# T2 + n[dt]o, liventin
 # subjunctive present of "apier"
 # NOTE: see also other derivations in dic file!
 # NOTE: does not have procomplementar form for imperative
-SFX yB Y 49
+SFX yB Y 50
 SFX yB ver emo/I2 ver	vt:indicative+present is:first is:plural	# T5 + mo
 SFX yB er on/I2 ver	vt:indicative+present is:first is:plural	# T12 + ón
 SFX yB ver on/I2 ver	vt:indicative+present is:first is:plural	# T12 + ón
@@ -2201,6 +2208,7 @@ SFX yB r e/I5I7 ver	vt:indicative+imperfect is:third	# T2 + (v)e
 SFX yB er arò/I1 ver	vt:indicative+future is:first is:singular	# T4 + r[òàè], ŧenedexe
 SFX yB er arà/I1 ver	vt:indicative+future is:first is:singular	# T4 + r[òàè], ŧenedexe
 SFX yB er arè/I1 ver	vt:indicative+future is:first is:singular	# T4 + r[òàè], ŧenedexe
+SFX yB er arom/I2 ver	vt:indicative+future is:first is:plural	# T4 + r[éí]mo, pavan
 SFX yB er aremo/I2 ver	vt:indicative+future is:first is:plural	# T4 + r[éí]mo, sprexian, maxerada
 SFX yB er aron/I2 ver	vt:indicative+future is:first is:plural	# T4 + rón, ŧenedexe
 SFX yB er arion/I2 ver	vt:indicative+future is:first is:plural	# T4 + rón, ŧenedexe
@@ -2356,13 +2364,14 @@ SFX xE ler ɉande/P0 oler	vt:gerund+simple	# T2 + n[dt]o, liventin
 # changes in indicative present, indicative future, subjunctive present, conditional present, imperative present, infinitive simple, participle passive, gerund simple
 # NOTA: del congiuntivo sono note le forme in tòja
 # NOTE: see also other derivations in dic file!
-SFX xF Y 96
+SFX xF Y 97
 SFX xF oler òs/I3 oler	vt:indicative+present is:second is:singular	# T8 + is
 SFX xF oler òga/I5I7 oler	vt:indicative+present is:third	# T10
 SFX xF oler ògi/I5I7 oler	vt:indicative+present is:third	# T10, đulian
 SFX xF ler rò/I1 oler	vt:indicative+future is:first is:singular	# T4 + r[òàè]
 SFX xF ler rà/I1 oler	vt:indicative+future is:first is:singular	# T4 + r[òàè]
 SFX xF ler rè/I1 oler	vt:indicative+future is:first is:singular	# T4 + r[òàè]
+SFX xF ler rom/I2 oler	vt:indicative+future is:first is:plural	# T4 + r[éí]mo, pavan
 SFX xF ler remo/I2 oler	vt:indicative+future is:first is:plural	# T4 + r[éí]mo
 SFX xF ler rimo/I2 oler	vt:indicative+future is:first is:plural	# T4 + r[éí]mo
 SFX xF ler ron/I2 oler	vt:indicative+future is:first is:plural	# T4 + rón
@@ -2476,7 +2485,7 @@ SFX xI oler upié/P5 oler	vt:subjunctive+present is:second is:plural	# T12 + é(
 
 # vèrbi -àr inregolari: (dex|re)?dar, ((dex)?asue|des|kon(tra)?|[lƚ]iku[ei]|mansüe|putre|(ra)?re|sastu|sat[iu]s|statu|so[dt]is|sosti|sora|stra|st[ou]pe|tore|tume)?far, (kon(tra)?|mal|move|o|re|so(v?ra|to)?)?star
 # different conjugation in indicative present, subjunctive present, imperative present, gerund simple
-SFX xJ Y 70
+SFX xJ Y 71
 SFX xJ r o/I1 ar	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xJ ar ò/I1 ar	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xJ r n/I2 ar	vt:indicative+present is:first is:plural	# T5 + mo, pavan
@@ -2497,6 +2506,7 @@ SFX xJ r go/I1 ar	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xJ r ge/I1 ar	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xJ r gan/I2 ar	vt:indicative+present is:first is:plural	# T5 + mo, pavan
 SFX xJ r gam/I2 ar	vt:indicative+present is:first is:plural	# T5 + mo, pavan
+SFX xJ r gom/I2 ar	vt:indicative+present is:first is:plural	# T5 + mo, pavan
 SFX xJ r gamo/I2 ar	vt:indicative+present is:first is:plural	# T5 + mo, paduan
 SFX xJ r gemo/I2 ar	vt:indicative+present is:first is:plural	# T5 + mo
 SFX xJ r gon/I2 ar	vt:indicative+present is:first is:plural	# T12 + ón
@@ -2588,7 +2598,7 @@ SFX xM ar é/I4 ar	vt:indicative+imperfect is:second is:plural	# T11 + (iv)ié
 # vèrbi '-er inregolari: (a|ante|bene|d[ei]x|in|int[ae]r|intr[ae]|kontra|ma[lƚ][ae]?|pre|re|sora)?díxer, (a|(pre)?de|dex|en|kon|re(kon|pro|intro)?|in(tro)?|pro|se|tra)?dúxer
 # changes in indicative present, indicative future, subjunctive present, conditional present, infinitive simple, participle passive
 # indicative future, conditional present of "dir"
-SFX xN Y 89
+SFX xN Y 90
 SFX xN íxer igo/I1 díxer	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xN íxer ixi/I3 díxer	vt:indicative+present is:second is:singular	# T8 + i
 SFX xN er is/I3 díxer	vt:indicative+present is:second is:singular	# T8 + is
@@ -2597,6 +2607,7 @@ SFX xN íxer ixi díxer	vt:indicative+present is:third	# T10, đulian
 SFX xN íxer irò/I1 díxer	vt:indicative+future is:first is:singular	# T4 + r[òàè]
 SFX xN íxer irà/I1 díxer	vt:indicative+future is:first is:singular	# T4 + r[òàè]
 SFX xN íxer irè/I1 díxer	vt:indicative+future is:first is:singular	# T4 + r[òàè]
+SFX xN íxer irom/I2 díxer	vt:indicative+future is:first is:plural	# T4 + r[éí]mo, pavan
 SFX xN íxer iremo/I2 díxer	vt:indicative+future is:first is:plural	# T4 + r[éí]mo
 SFX xN íxer irimo/I2 díxer	vt:indicative+future is:first is:plural	# T4 + r[éí]mo
 SFX xN íxer irà/I3 díxer	vt:indicative+future is:second is:singular	# T4 + r[àé]
@@ -2959,7 +2970,7 @@ SFX xR éver ebianto-ƚo/P2 éver	vt:gerund+simple cl:pronomenal+accusative	# T7
 # changes in participle passive
 # NOTE: see also other derivations in dic file!
 # NOTE: does not have procomplementar form for imperative
-SFX xS Y 382
+SFX xS Y 383
 SFX xS èser só/I1 èser	vt:indicative+present is:first is:singular is:elision	# T8 + [oe]
 SFX xS èser son/I1 èser	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xS èser sè/I1 èser	vt:indicative+present is:first is:singular	# T8 + [oe]
@@ -3061,6 +3072,7 @@ SFX xS èser serà/I5I7 èser	vt:indicative+future is:third	# T4 + rà
 SFX xS èser sarò/I1 èser	vt:indicative+future is:first is:singular	# T4 + r[òàè]
 SFX xS èser sarà/I1 èser	vt:indicative+future is:first is:singular	# T4 + r[òàè]
 SFX xS èser sarè/I1 èser	vt:indicative+future is:first is:singular	# T4 + r[òàè]
+SFX xS èser sarom/I2 èser	vt:indicative+future is:first is:plural	# T4 + r[éí]mo, pavan
 SFX xS èser saremo/I2 èser	vt:indicative+future is:first is:plural	# T4 + r[éí]mo
 SFX xS èser sarimo/I2 èser	vt:indicative+future is:first is:plural	# T4 + r[éí]mo
 SFX xS èser saron/I2 èser	vt:indicative+future is:first is:plural	# T4 + rón
@@ -3347,7 +3359,7 @@ SFX xS èser sianto-ƚo/P2 èser	vt:gerund+simple cl:pronomenal+accusative	# T7 
 # different conjugation in indicative present, indicative imperfect, indicative future, subjunctive present, subjunctive imperfect, conditional present, imperative present
 # changes in participle passive
 # NOTE: does not have procomplementar form for imperative
-SFX xT Y 340
+SFX xT Y 341
 SFX xT ïèser isó ïèser	vt:indicative+present is:first is:singular is:elision	# T8 + [oe]
 SFX xT ïèser ison/I1 ïèser	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xT ïèser isè/I1 ïèser	vt:indicative+present is:first is:singular	# T8 + [oe]
@@ -3429,6 +3441,7 @@ SFX xT ïèser iserà/I5I7 ïèser	vt:indicative+future is:third	# T4 + rà
 SFX xT ïèser isarò/I1 ïèser	vt:indicative+future is:first is:singular	# T4 + r[òàè]
 SFX xT ïèser isarà/I1 ïèser	vt:indicative+future is:first is:singular	# T4 + r[òàè]
 SFX xT ïèser isarè/I1 ïèser	vt:indicative+future is:first is:singular	# T4 + r[òàè]
+SFX xT ïèser isarom/I2 ïèser	vt:indicative+future is:first is:plural	# T4 + r[éí]mo, pavan
 SFX xT ïèser isaremo/I2 ïèser	vt:indicative+future is:first is:plural	# T4 + r[éí]mo
 SFX xT ïèser isarimo/I2 ïèser	vt:indicative+future is:first is:plural	# T4 + r[éí]mo
 SFX xT ïèser isaron/I2 ïèser	vt:indicative+future is:first is:plural	# T4 + rón
@@ -3795,7 +3808,7 @@ SFX xU èser esande/P0P1P2 èser	vt:gerund+simple	# T2 + n[dt]o, liventin
 # changes in indicative present, indicative future, conditional present, imperative present
 # TODO pòser? poser?
 # TODO do(v?)er => dòxer? doxer?
-SFX xV Y 139
+SFX xV Y 140
 SFX xV oder òso/I1 oder	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xV oder òse/I1A0 oder	vt:indicative+present is:first is:singular	# T8 + [oe], belumat
 SFX xV oder òle/I1A0 oder	vt:indicative+present is:first is:singular	# T8 + [oe]
@@ -3813,6 +3826,7 @@ SFX xV oder òƚo/I7 oder	vt:indicative+present is:third	# T10
 SFX xV der rò/I1 oder	vt:indicative+future is:first is:singular	# T4 + r[òàè]
 SFX xV der rà/I1 oder	vt:indicative+future is:first is:singular	# T4 + r[òàè]
 SFX xV der rè/I1 oder	vt:indicative+future is:first is:singular	# T4 + r[òàè]
+SFX xV der rom/I2 oder	vt:indicative+future is:first is:plural	# T4 + r[éí]mo, pavan
 SFX xV der remo/I2 oder	vt:indicative+future is:first is:plural	# T4 + r[éí]mo
 SFX xV der rimo/I2 oder	vt:indicative+future is:first is:plural	# T4 + r[éí]mo
 SFX xV der ron/I2 oder	vt:indicative+future is:first is:plural	# T4 + rón
@@ -4058,7 +4072,7 @@ SFX xX ver piando-ƚo/P2 saver	vt:gerund+simple cl:pronomenal+accusative	# T2 + 
 # changes in indicative present, indicative future, subjunctive present, conditional present, infinitive simple, participle passive
 # indicative present of "trar", but not the first singular
 # indicative future, conditional present, imperative present, infinitive simple of "trar"
-SFX xY Y 135
+SFX xY Y 136
 SFX xY àer ago/I1 tràer	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xY àer age/I1 tràer	vt:indicative+present is:first is:singular	# T8 + [oe], belumat
 SFX xY àer emo/I2 tràer	vt:indicative+present is:first is:plural	# T5 + mo
@@ -4075,6 +4089,7 @@ SFX xY àer é/I4 tràer	vt:indicative+present is:second is:plural	# T5 = T12 + 
 SFX xY àer arà/I1 tràer	vt:indicative+future is:first is:singular	# T4 + r[òàè]
 SFX xY àer arò/I1 tràer	vt:indicative+future is:first is:singular	# T4 + r[òàè]
 SFX xY àer arè/I1 tràer	vt:indicative+future is:first is:singular	# T4 + r[òàè]
+SFX xY àer arom/I2 tràer	vt:indicative+future is:first is:plural	# T4 + r[éí]mo, pavan
 SFX xY àer aremo/I2 tràer	vt:indicative+future is:first is:plural	# T4 + r[éí]mo
 SFX xY àer arimo/I2 tràer	vt:indicative+future is:first is:plural	# T4 + r[éí]mo
 SFX xY àer aron/I2 tràer	vt:indicative+future is:first is:plural	# T4 + rón
@@ -4197,7 +4212,7 @@ SFX xY àer asto/M2F0F3A0 tràer	vt:participle+passive+strong
 
 # vèrbi -ir inregolari: [dfr]ir
 # changes in indicative imperfect, participle passive
-SFX xZ Y 282
+SFX xZ Y 283
 SFX xZ r va/I1 ir	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo]
 SFX xZ ir eva/I1 ir	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo]
 SFX xZ r a/I1 ir	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo]
@@ -4254,6 +4269,7 @@ SFX xZ ir erò/I1 ir	vt:indicative+future is:first is:singular	# T4 + r[òàè]
 SFX xZ 0 à/I1 ir	vt:indicative+future is:first is:singular	# T4 + r[òàè]
 SFX xZ ir erà/I1 ir	vt:indicative+future is:first is:singular	# T4 + r[òàè]
 SFX xZ 0 emo/I2 ir	vt:indicative+future is:first is:plural	# T4 + r[éí]mo
+SFX xZ ir erom/I2 ir	vt:indicative+future is:first is:plural	# T4 + r[éí]mo, pavan
 SFX xZ ir eremo/I2 ir	vt:indicative+future is:first is:plural	# T4 + r[éí]mo
 SFX xZ 0 imo/I2 ir	vt:indicative+future is:first is:plural	# T4 + r[éí]mo
 SFX xZ ir erimo/I2 ir	vt:indicative+future is:first is:plural	# T4 + r[éí]mo
@@ -5193,7 +5209,7 @@ PFX Ci st sti st[oò]
 ### Pàdoa ###
 
 # metafonèxi padoana
-SFX Pd Y 77
+SFX Pd Y 78
 SFX Pd el ili/Pv el	is:plural va:padoan
 SFX Pd ol uli/Pv ol	is:plural va:padoan
 SFX Pd òl uli/Pv òl	is:plural va:padoan
@@ -5234,6 +5250,7 @@ SFX Pd otor uturi otor	is:plural va:padoan
 SFX Pd ente nti iente	is:plural va:padoan
 SFX Pd ente inti [^i]ente	is:plural va:padoan
 SFX Pd ento inti ento	is:plural va:padoan
+SFX Pd esjo iski esko	is:plural va:pavan
 SFX Pd onte unti onte	is:plural va:padoan
 SFX Pd oldo uldi oldo	is:plural va:padoan
 SFX Pd ordo urdi ordo	is:plural va:padoan
@@ -5251,7 +5268,7 @@ SFX Pd onto unti onto	is:plural va:padoan
 SFX Pd orno urni orno	is:plural va:padoan
 SFX Pd orxo urxi orxo	is:plural va:padoan
 SFX Pd osto usti osto	is:plural va:padoan
-SFX Pd enbro inbri enbro	is:plural va:padoan
+SFX Pd enbro inbri enbro	is:plural va:pavan
 SFX Pd òtol útuli/Pv òtol	is:plural va:padoan
 SFX Pd òtoƚo útuƚi òtoƚo	is:plural va:padoan
 SFX Pd ojoxo ujuxi ojoxo	is:plural va:padoan
@@ -5273,9 +5290,10 @@ SFX Pd ordioxo urdiuxi ordioxo	is:plural va:padoan
 SFX Pd obrioxo ubriuxi obrioxo	is:plural va:padoan
 
 # trasformaŧion pavana (-ai > -è, -èl > -èɉi)
-SFX Pv Y 5
+SFX Pv Y 6
 SFX Pv co ɉi co	is:plural
-SFX Pv l ɉi [aè]l	is:plural
+SFX Pv l ɉi [aeè]l	is:plural
+SFX Pv l 0 èl	is:plural
 SFX Pv ai è ai
 SFX Pv ci ɉi ci
 SFX Pv li ɉi li
