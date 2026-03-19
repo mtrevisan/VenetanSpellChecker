@@ -1983,7 +1983,7 @@ SFX xA r gande-ƚo/P2 andar	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[d
 # subjunctive present of "apier"
 # NOTE: see also other derivations in dic file!
 # NOTE: does not have procomplementar form for imperative
-SFX xB Y 201
+SFX xB Y 230
 SFX xB aver ò/I1 aver	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xB aver à/I1 aver	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xB aver è/I1 aver	vt:indicative+present is:first is:singular	# T8 + [oe], belumat, buranèl
@@ -2144,6 +2144,35 @@ SFX xB ver ría ver	vt:conditional+present is:first is:singular	# T4 + rí[ae]/r
 SFX xB ver ría/I3 ver	vt:conditional+present is:second is:singular	# T4 + ría, belumat
 SFX xB ver rías/I3 ver	vt:conditional+present is:second is:singular	# T4 + ría, belumat
 SFX xB ver ría ver	vt:conditional+present is:third	# T4 + rí[ae]/réa, belumat
+SFX xB er ría aer	vt:conditional+present is:first is:singular	# T4 + rí[ae]/réa
+SFX xB er rea aer	vt:conditional+present is:first is:singular	# T4 + rí[ae]/réa, veronexe
+SFX xB er résimo/I2 aer	vt:conditional+present is:first is:plural	# T4 + r[éí]simo
+SFX xB er rísino/I2 aer	vt:conditional+present is:first is:plural	# T4 + r[éí]simo, pavan
+SFX xB er rísimo/I2 aer	vt:conditional+present is:first is:plural	# T4 + r[éí]simo, paduan
+SFX xB er ría/I3 aer	vt:conditional+present is:second is:singular	# T4 + ría
+SFX xB er rías/I3 aer	vt:conditional+present is:second is:singular	# T4 + ría
+SFX xB er resi/I3 aer	vt:conditional+present is:second is:singular	# T4 + rési
+SFX xB er résis/I3 aer	vt:conditional+present is:second is:singular	# T4 + rési
+SFX xB er risi/I3 aer	vt:conditional+present is:second is:singular	# T4 + rísi, paduan, arkade
+SFX xB er rísis/I3 aer	vt:conditional+present is:second is:singular	# T4 + rísi, paduan, arkade
+SFX xB er resi/I4 aer	vt:conditional+present is:second is:plural	# T4 + rési
+SFX xB er risi/I4 aer	vt:conditional+present is:second is:plural	# T4 + rísi, paduan, arkade
+SFX xB er ría aer	vt:conditional+present is:third	# T4 + rí[ae]/réa
+SFX xB er rea aer	vt:conditional+present is:third	# T4 + rí[ae]/réa, veronexe
+SFX xB er rave/I1 aer	vt:conditional+present is:first is:singular	# T4 + rà(v)[ei]
+SFX xB er rae aer	vt:conditional+present is:first is:singular	# T4 + rà(v)[ei]
+SFX xB er ravi/I1 aer	vt:conditional+present is:first is:singular	# T4 + rà(v)[ei], paduan
+SFX xB er rai aer	vt:conditional+present is:first is:singular	# T4 + rà(v)[ei], paduan
+SFX xB er rave aer	vt:conditional+present is:first is:plural	# T4 + rà(v)[ei]
+SFX xB er rae aer	vt:conditional+present is:first is:plural	# T4 + rà(v)[ei]
+SFX xB er rave/I3 aer	vt:conditional+present is:second is:singular	# T4 + rà(v)[ei]
+SFX xB er rae aer	vt:conditional+present is:second is:singular	# T4 + rà(v)[ei]
+SFX xB er ravi/I3 aer	vt:conditional+present is:second is:singular	# T4 + rà(v)[ei], paduan
+SFX xB er rai aer	vt:conditional+present is:second is:singular	# T4 + rà(v)[ei], paduan
+SFX xB er rave aer	vt:conditional+present is:second is:plural	# T4 + rà(v)[ei]
+SFX xB er rae aer	vt:conditional+present is:second is:plural	# T4 + rà(v)[ei]
+SFX xB er rave aer	vt:conditional+present is:third	# T4 + rà(v)[ei]
+SFX xB er rae aer	vt:conditional+present is:third	# T4 + rà(v)[ei]
 SFX xB r mo ver	vt:imperative+present is:first is:plural	# T5 + mo
 SFX xB er imo ver	vt:imperative+present is:first is:plural	# T5 + mo
 SFX xB aver emo gaver	vt:imperative+present is:first is:plural	# T5 + mo
@@ -3809,10 +3838,10 @@ SFX xU èser esanto/P0P1 èser	vt:gerund+simple	# T7 + n[dt]o, pavan, metaplaxmo
 SFX xU èser esanto-ƚo/P2 èser	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, pavan, metaplaxmo
 SFX xU èser esande/P0P1P2 èser	vt:gerund+simple	# T2 + n[dt]o, liventin
 
-# vèrbi '-er inregolari: pu?oder
+# vèrbi '-er inregolari: poder (anka pu?òder)
 # changes in indicative present, indicative future, conditional present, imperative present
-# TODO pòser? poser?
-# TODO do(v?)er => dòxer? doxer?
+# TODO pòser
+# TODO do(v?)er => dòser? doser?
 SFX xV Y 140
 SFX xV oder òso/I1 oder	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xV oder òse/I1A0 oder	vt:indicative+present is:first is:singular	# T8 + [oe], belumat
@@ -4698,11 +4727,12 @@ SFX P5 0 -ge í	# ége, belumat
 # forme ko ʼl interogativo: indikativo prexente/inperfèto/futuro, kondiŧional
 
 # interogativi prima parsona singolar (son-ɉo gò-ɉo avev-io gavarò-ɉo gavarem-io dig-io parlav-io stag-io pòs-io parl-io sem-io podev-io avem-io andem-io veñirò-ɉo)
-SFX I1 Y 17
+SFX I1 Y 18
 SFX I1 0 -i .	cl:interrogative	# trevixan, veneŧian, padoan, viŧentin, polexan, veronexe
 SFX I1 0 -e .	cl:interrogative	# veneŧian
 SFX I1 0 -jo [nò]	cl:interrogative	# veneŧian
 SFX I1 0 -ɉo [nò]	cl:interrogative	# veneŧian
+SFX I1 0 -ɉe [nò]	cl:interrogative	# pavan
 SFX I1 0 -ɉu [nò]	cl:interrogative	# coxòto
 SFX I1 0 -ɉi [nmòè]	cl:interrogative	# pavan
 SFX I1 0 -mi .	cl:interrogative	# cipileño
