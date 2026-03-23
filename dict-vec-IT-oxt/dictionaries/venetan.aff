@@ -4970,11 +4970,12 @@ SFX F1 Y 1
 SFX F1 0 e [^aeio]	is:femenine
 
 # paròle plurali femenili (C > -i, e > i|[^i]e, ie > i, a > e)
-SFX F2 Y 4
+SFX F2 Y 5
 SFX F2 0 i [^aeio]	is:plural is:femenine
 SFX F2 e i [^i]e	is:plural is:femenine
 SFX F2 e 0 ie	is:plural is:femenine
 SFX F2 a e a	is:plural is:femenine
+SFX F2 a 0 ía	is:plural is:femenine	# pavan
 
 # paròle plurali femenili (C > -e, o > e)
 SFX F3 Y 2
@@ -7049,7 +7050,7 @@ PFX gv gu g gu[aàèi]
 
 
 # numerali — koletivi, pi demenutivi (-èna)
-SFX %0 Y 61
+SFX %0 Y 64
 SFX %0 ète etena/F2 ète
 SFX %0 ète etèna/F2 ète
 SFX %0 ète eteneta/F2 ète	ds:eto
@@ -7084,6 +7085,9 @@ SFX %0 ódexe odexeneta/F2 ódexe	ds:eto
 SFX %0 édexe edexena/F2 édexe
 SFX %0 édexe edexèna/F2 édexe
 SFX %0 édexe edexeneta/F2 édexe	ds:eto
+SFX %0 0 na/F2 sexe
+SFX %0 e èna/F2 sexe
+SFX %0 0 neta/F2 sexe	ds:eto
 SFX %0 édixe edixena/F2 édixe
 SFX %0 édixe edixèna/F2 édixe
 SFX %0 édixe edixeneta/F2 édixe	ds:eto
@@ -7119,7 +7123,7 @@ SFX %1 i ando/A0 nti
 SFX %1 o anto nto
 
 # numerali — koletivi (-èx[ei]mo)
-SFX %a Y 57
+SFX %a Y 60
 SFX %a ète etèxemo/M2F0F3 ète
 SFX %a ète etèximo/M2F0F3 ète
 SFX %a ète etièximo/M2F0F3 ète
@@ -7169,6 +7173,9 @@ SFX %a édexe edèŧemo/M2F0F3 édexe
 SFX %a édexe edèsemo/M2F0F3 édexe
 SFX %a édexe edèŧimo/M2F0F3 édexe
 SFX %a édexe edèsimo/M2F0F3 édexe
+SFX %a exe èsemo/M2F0F3 sexe
+SFX %a exe èŧimo/M2F0F3 sexe
+SFX %a exe èsimo/M2F0F3 sexe
 SFX %a òrdexe ordèŧemo/M2F0F3 òrdexe
 SFX %a òrdexe ordèsemo/M2F0F3 òrdexe
 SFX %a òrdexe ordèŧimo/M2F0F3 òrdexe
