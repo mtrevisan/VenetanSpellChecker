@@ -22983,9 +22983,9 @@ strónŧis/T0N0	po:verb vt:indicative+present is:second is:singular st:stronŧar
 stronsar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple
 stronse/T0t0t1T2T3N0N2L0L2l0l2I5I7	po:verb vt:indicative+present is:third st:stronsar
 strónsis/T0N0	po:verb vt:indicative+present is:second is:singular st:stronsar
-stropar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2-0	po:verb vt:infinitive+simple
-strope/T0t0t1T2T3N0N2L0L2l0l2I5I7A0-0	po:verb vt:indicative+present is:third st:stropar
-strópis/T0N0-0	po:verb vt:indicative+present is:second is:singular st:stropar
+stropar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2@0-0	po:verb vt:infinitive+simple
+strope/T0t0t1T2T3N0N2L0L2l0l2I5I7A0@0-0	po:verb vt:indicative+present is:third st:stropar
+strópis/T0N0@0-0	po:verb vt:indicative+present is:second is:singular st:stropar
 stropiar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple
 stropie/T0t0t1T2t3T3N0N2L0L2l0l2I5I7	po:verb vt:indicative+present is:third st:stropiar
 stròpis/T0N0	po:verb vt:indicative+present is:second is:singular st:stropiar
@@ -34628,7 +34628,7 @@ orso/M2A0aTe0e2	po:noun
 òrgan/M0M2B1	po:noun
 òso/M2A0o0o2o4Cu	po:noun
 òŧio/M2V0	po:noun
-òvera/F2	po:noun is:femenine
+òvera/F2Cu	po:noun is:femenine
 palado/M2A0y0	po:noun st:pal
 palexe/X0A0Pd	po:adjective_qualificative is:neuter
 paƚado/M2y0	po:noun st:paƚo
@@ -35725,7 +35725,7 @@ savonèr/M0M2Buv0	po:noun
 savonèra/F2v0	po:noun is:femenine
 sàkola/F2V0	po:noun is:femenine
 sàrŧen/M1M2B1Pd	po:noun
-sàsera/F2	po:noun is:femenine
+xàxera/F2	po:noun is:femenine
 se	po:conjunction al:sʼ
 segala/F2iN	po:noun is:femenine
 segaƚa/F2iN	po:noun is:femenine
@@ -35788,7 +35788,6 @@ trèso/M2F0F3A0	po:adjective_qualificative st:travèrso
 ŧavatèr/M0M2Buv0Vp	po:noun st:ŧavata
 ŧavatèra/F2v0Vp	po:noun is:femenine st:ŧavata
 ŧàkola/F2	po:noun is:femenine
-ŧàŧera/F2	po:noun is:femenine
 ŧestonèr/M0M2Buv0Vp	po:noun
 ŧestonèra/F2v0Vp	po:noun is:femenine
 ŧevola/F2	po:noun is:femenine
@@ -40975,7 +40974,7 @@ lenbro/M2PdVr*0	po:noun
 ƚenbro/M2PdVR	po:noun
 radico/M2e0	po:noun
 fastibio/M2	po:noun
-poveròmo/M2A0	po:noun al:pòver al:òmo
+poveròmo/M2A0Cu	po:noun al:pòver al:òmo
 prígol/M0M2B1PdV0	po:noun st:perígol
 furfante/X0A0r0@1@2	po:noun is:neuter
 siñal/M1M2B1BuVm	po:noun
@@ -41739,6 +41738,27 @@ spontiron/M1M2B1BuPd	po:noun
 stringa/F2e2	po:noun is:femenine
 suòldo/M2A0^3	po:noun
 tamente/A0w0	po:adverb ds:mente
+/ Beolco, Angelo. Dialogo facetissimo. Venezia; 1554.
+inde	po:pronoun_clitic_complement_direct is:first is:neuter is:plural
+inde	po:pronoun_clitic_complement_indirect is:first is:neuter is:plural
+inde	po:pronoun_partitive is:neuter
+in	po:pronoun_clitic_complement_direct is:first is:neuter is:plural st:inde
+in	po:pronoun_clitic_complement_indirect is:first is:neuter is:plural st:inde
+in	po:pronoun_partitive is:neuter st:inde
+pin/M0M2F0F3Bu	po:adjective_qualificative st:pièn
+guan/M0M2Bu@0	po:noun pa:sto pa:an
+xekuiŧion/F1F2B1BuPdV0	po:noun is:femenine ds:ŧion st:exekuŧion
+uxulario/M2F0F3	po:adjective_qualificative
+uxuƚario/M2F0F3	po:adjective_qualificative
+erbame/M2A0	po:noun st:èrba ds:ame
+batasuòsola/F2V0	po:noun is:femenine
+jotiron/M1M2B1BuPdVp	po:noun
+fior/M1M2	po:noun
+sparpanaŧo/M2A0V0	po:noun
+vixon/M1M2F0F1B1BuPd	po:noun
+fuòja/F2aZaSe2*0	po:noun is:femenine
+fuòɉa/F2aZaSe2*0	po:noun is:femenine
+rèmola/F2V0	po:noun is:femenine
 / Le lettere di messer Andrea Calmo [15501109]. Torino; 1888.
 arkonbè	po:noun
 đèfir/M0M2Vp	po:noun
@@ -42208,13 +42228,10 @@ fiƚaña/F2	po:noun is:femenine
 finké	po:conjunction pa:fin pa:ke
 fiol/M0M2PdV0	po:noun
 fiola/F2V0	po:noun is:femenine
-fior/M1M2	po:noun
 forŧina/F2V0	po:noun is:femenine
 fòđa/F2V0	po:noun is:femenine
 fraga/F2o1o3	po:noun is:femenine
 frito/M2F0F3A0-1.0*0	po:adjective_qualificative
-fuòja/F2aZaSe2*0	po:noun is:femenine
-fuòɉa/F2aZaSe2*0	po:noun is:femenine
 gala/F2aZaSe2oT	po:noun is:femenine
 galantin/M0M2F0F3Bu	po:adjective_qualificative
 galavèrno/M2F0F3A0	po:noun
@@ -42236,7 +42253,6 @@ gren/^6	po:adjective_qualificative st:grendo
 grenda/F2iNoT^6	po:adjective_qualificative is:femenine
 grendo/M2A0e0e2iNoT^6	po:adjective_qualificative al:gren
 gròta/F2aZaS	po:noun is:femenine
-guan/M0M2Bu@0	po:noun
 güernador/M1M2BuPdv0	po:noun
 güernadora/F2v0	po:noun is:femenine
 indrïé	po:adverb st:indredo pa:in pa:dreo
@@ -42905,7 +42921,6 @@ verxenèla/F2V0	po:adjective_qualificative is:femenine st:vèrxen ds:èl
 véntol/M0M2B1PdV0*0	po:noun
 vixdepitàgora	po:noun is:neuter pa:vixo pa:de pa:Pitàgora
 vískol/M0M2B1PdV0	po:noun
-xàxera/F2	po:noun is:femenine
 xixania/F2	po:noun is:femenine
 xíxola/F2V0	po:noun is:femenine
 xmèrgo/M2	po:noun
@@ -45230,7 +45245,6 @@ enanŧo/A0	po:preposition
 enanŧo/M2A0V0	po:noun
 enkargo/M2A0	po:noun
 enxuria/F2	po:noun is:femenine
-erbame/M2A0	po:noun st:èrba ds:ame
 faigon/M1M2F0F1B1BuPd*0	po:adjective_qualificative st:fadigon
 faigoxamente/A0w0*0	po:adverb st:fadigoxamente ds:mente
 faigoxo/M2F0F3A0Pd*0	po:adjective_qualificative st:fadigoxo
@@ -49090,7 +49104,6 @@ petulanŧa/F2V0	po:noun is:femenine
 petuƚansa/F2	po:noun is:femenine
 pexaròl/M0M2B1v0	po:noun
 pexaròƚo/M2v7	po:noun
-pin/M0M2F0F3Bu	po:adjective_qualificative
 pipa/F2e2iNo0o1o2o3o4	po:noun is:femenine
 pirolin/M0M2BuV0	po:adjective_qualificative st:pírola ds:in
 pisin/M0M2Bu	po:noun pl:childish st:piso ds:in
@@ -50356,7 +50369,6 @@ jèso/M2A0Vp	po:noun
 joata/F2eLe7	po:noun is:femenine
 josaròla/F2v0*0	po:noun is:femenine
 josaròƚa/F2v7*0	po:noun is:femenine
-jotiron/M1M2B1BuPdVp	po:noun
 joŧaròla/F2v0*0	po:noun is:femenine
 judexesa/F2Vp	po:noun is:femenine st:júdexe
 judexeto/M2A0PdVp	po:noun st:júdexe ds:eto
@@ -51860,7 +51872,6 @@ sparexèr/M0M2Buv0	po:noun st:spàrexo
 sparexèra/F2v0	po:noun is:femenine st:spàrexo
 sparjíriko/M2F0F3A0	po:noun
 sparɉíriko/M2F0F3A0	po:noun
-sparpanaŧo/M2A0V0	po:noun
 spasakanpaña	po:adjective_qualificative is:neuter pa:spasa pa:kanpaña
 spaŧakanpaña	po:adjective_qualificative is:neuter pa:spaŧa pa:kanpaña
 spaŧixièr/M1M2Bu	po:noun
@@ -54012,7 +54023,6 @@ tintura/F2	po:noun is:femenine
 vantajo/M2B1V0@0*0	po:noun
 ventríkol/M0M2B1PdV0	po:noun
 verdixo/M2F0F3A0	po:adjective_qualificative
-vixon/Bu	po:adjective_qualificative
 xbrindolon/M1M2F0F1B1BuPd	po:adjective_qualificative st:xbríndol ds:on
 xbrindoƚon/M1M2F0F1BuPd	po:adjective_qualificative st:xbríndoƚo ds:on
 / Priuli, Nicolò. Poesie in Gamba, Bartolommeo. Raccolta di poesie in dialetto veneziano dʼogni secolo nuovamente ordinata ed accresciuta [181706]. Venezia; 1845.
@@ -77889,10 +77899,10 @@ saƚéxoƚa/F2	po:noun is:femenine
 ŧínger/M1M2F0PdVp	po:adjective_qualificative
 / Il Veses — Parole de ʼna olta. 2020. (https://ilveses.com/parole-de-na-olta/)
 xguindia/F2	po:noun is:femenine
-/ Beolco, Angelo. Il reduce o Parlamento de Ruzante che iera vegnú de campo. Padova; 1529.
+/ Beolco, Angelo. Dialogo facetissimo. Venezia; 1554.
 
 
-/ 125/136 - 1529
+/ 47/111 - 1554
 / nodaro. Treviso, IMG_20210309_112945.
 / http://vev.ovi.cnr.it/lexicad/lemmario (20251114 - 8053? bertìgnolo(baretina) cagalina(kagar) càia camastela(mastèla) chiarelo céser cogozo coriedo cornabò cùgoli cùter deremo ebeada festare(fèsta) gàfaro ganzara ganzega gégomo giagrega(gilè) gornissagorn(gorna) gramin guazaron guzzar impiar invespar lisbonina loch maganzese manguro masamutina mèola osana pasquarosa(paskua) passèlego pepalessa(pèpa) pesàntola petemelebone(petar) pòina pòvola povolaro refogolar(fogo) rendento santacrose santelmo saponaria sarza scagaìta(kagar) (skagàita, xguaraguàita, xguàita) scaranzia scariòt scaula schierazo scogoçar(kogòŧo) scovadìe sorvo spagno spiàntano/spiantan spilter stanforte stèura stratiòto tarabusèa(tarabuxo) tèstola trabazin(tarabuxo)|? vacamatrè(vaka) vacazùnzoli(vaka) valenzian venarelo(vèner) vescue zabagion|đ zaca zangarin zanzalaro(ŧensala) zanzarela|ŧ zarcegna|ŧŧ zarda zenso|đ zétola zibaldon|đ zìfera|ŧ zinzapòtole zirnar|đ zolagio|ŧ/zolar/zolo/zulagia(đòl) zonetto/zoni|ŧ zovàdego|đ zelegò|Ŧ [đŧ]an[đŧ]ar
 / apostrophe: ʼ (’)
@@ -77901,5 +77911,7 @@ xguindia/F2	po:noun is:femenine
 / figure dash: ‒
 / search for ([gms]?e|[kv]é|sié|no|f[àéú])-nde(ne) xe, ende/ndʼ/dé, no 'ndene
 / ge[sx]ería ŧé[đŧ]ol be[đŧ]aròl bol[đŧ]a bu[đŧ]arosa in[đŧ]eregar (kon|in)[đŧ]eñar kave[đŧ]aña ka[đŧ]a ka[đŧ]òto koda[đŧ]i[ln] kon[đŧ]a korpa[đŧ]udo pi[đŧ]al p[ou][ln][đŧ]in sopo[đŧ]ar trò[đŧ]a vàn[đŧ]ega [đŧ]anpèla [đŧ]an[đŧ]ador [đŧ]an[đŧ]ar [đŧ]an[đŧ]arèla [đŧ]ir [đŧ]on [đŧ]àina [đŧ]an[đŧ]ar [đŧ]à[đŧ]era [đŧ]èso
-/ -ar (1): 8622 (78%), -er (2): 72 (0.7%), '-er (3, accents): 1117 (10.1%), -ir/is (4, T4): 980 (8.9%), -ir (5): 258 (2.3%), tot: 11046
+/ -ar (1): 8623 (78%), -er (2): 72 (0.7%), '-er (3, accents): 1117 (10.1%), -ir/is (4, T4): 980 (8.9%), -ir (5): 258 (2.3%), tot: 11047
 / 16191220 ago da lanzan
+/ inde>in
+/ rèmola = crusca
