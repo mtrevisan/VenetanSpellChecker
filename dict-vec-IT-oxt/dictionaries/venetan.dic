@@ -19980,9 +19980,9 @@ rovijoƚar/T0T1T2T3l1l2l3w1P0P2	po:verb vt:infinitive+simple
 rovíjoƚe/T0t1T2T3T7l0l2I7	po:verb vt:indicative+present is:third st:rovijoƚar
 roviɉoƚar/T0T1T2T3l1l2l3w1P0P2	po:verb vt:infinitive+simple
 rovíɉoƚe/T0t1T2T3T7l0l2I7	po:verb vt:indicative+present is:third st:roviɉoƚar
-rovinar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple
-rovine/T0t0t1T2T3N0N2L0L2l0l2I5I7	po:verb vt:indicative+present is:third st:rovinar
-rovínis/T0N0	po:verb vt:indicative+present is:second is:singular st:rovinar
+rovinar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2-0	po:verb vt:infinitive+simple
+rovine/T0t0t1T2T3N0N2L0L2l0l2I5I7-0	po:verb vt:indicative+present is:third st:rovinar
+rovínis/T0N0-0	po:verb vt:indicative+present is:second is:singular st:rovinar
 roxegar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2Ci	po:verb vt:infinitive+simple
 ròxege/T0t0t1T2T3T7N0N2N7L0L2l0l2I5I7A0Ci	po:verb vt:indicative+present is:third st:roxegar
 róxege/T0t0t1T2T3T7N0N2N7L0L2l0l2I5I7A0	po:verb vt:indicative+present is:third st:roxegar
@@ -27020,6 +27020,10 @@ doventar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2.0	po:verb vt:infinitive+simple dp:
 dovènte/T0t0t1T2T3T7N0N2N7L0L2l0l2I5I7A0.0	po:verb vt:indicative+present is:third st:doventar dp:de
 dovente/T0t0t1T2T3N0N2L0L2l0l2I5I7A0.0	po:verb vt:indicative+present is:third st:doventar dp:de
 dovéntis/T0N0.0	po:verb vt:indicative+present is:second is:singular st:doventar dp:de
+doentar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2.0	po:verb vt:infinitive+simple dp:de
+doènte/T0t0t1T2T3T7N0N2N7L0L2l0l2I5I7A0.0	po:verb vt:indicative+present is:third st:doentar dp:de
+doente/T0t0t1T2T3N0N2L0L2l0l2I5I7A0.0	po:verb vt:indicative+present is:third st:doentar dp:de
+doéntis/T0N0.0	po:verb vt:indicative+present is:second is:singular st:doentar dp:de
 xventeđar/T0T1T2T3N0N1N2N4L1L2L3W1P0P1	po:verb vt:infinitive+simple dp:s
 xventeđe/T0t0T2T3N0N2L0L2I5	po:verb vt:indicative+present is:third st:xventeđar dp:s
 xventéđis/T0N0	po:verb vt:indicative+present is:second is:singular st:xventeđar dp:s
@@ -31294,7 +31298,7 @@ Taɉamento/Z0	po:noun_proper
 ađur/M0M2F0F3	po:adjective_qualificative
 amarido/M2A0y0	po:adjective_qualificative
 axur/M0M2F0F3	po:adjective_qualificative
-baja/F2V0	po:adjective_qualificative is:femenine st:bajar
+baja/F2V0*0	po:adjective_qualificative is:femenine st:bajar
 bajo/M2B1e0o0o1o2o3o4	po:adjective_qualificative
 baɉo/M2e0o0o1o2o3o4	po:adjective_qualificative
 barba–koxako/M2F0F3A0	po:adjective_qualificative
@@ -33311,7 +33315,7 @@ senado/M2A0y0	po:noun
 senador/M1M2BuPdv0	po:noun
 senadora/F2v0	po:noun is:femenine
 senèstro/M2F0F3	po:adjective_qualificative
-seño/M2A0Pde0-0	po:noun
+seño/M2A0Pde0-0^4	po:noun
 sepulkro/M2	po:noun
 sepultura/F2	po:noun is:femenine
 seror/F1F2Pd	po:noun is:femenine
@@ -38741,7 +38745,6 @@ konkuistador/M1M2BuPdv0	po:noun
 konkuistadora/F2v0	po:noun is:femenine
 konsesion/F1F2B1BuPd	po:noun is:femenine ds:ŧion
 konsistorialmente/A0w0	po:adverb ds:mente
-kontraseño/M2A0Pd	po:noun
 konŧesion/F1F2B1BuPd	po:noun is:femenine ds:ŧion
 konŧistorialmente/A0w0	po:adverb ds:mente
 konveniente/X0A0PdVr+0	po:adjective_qualificative is:neuter st:konvèñer
@@ -40461,7 +40464,7 @@ deversamente/A0w0	po:adverb ds:mente lg:italian
 naraŧion/F1F2B1BuPdV0	po:noun is:femenine st:narar ds:ŧion
 skasafaso/A0	po:adverb
 skaŧafaso/A0	po:adverb
-lomè/Vp	po:adverb
+lomè/Vp	po:adverb st:nomè
 manteñamento/M2A0PdVr	po:noun ds:mento
 provèlbio/M2	po:noun
 dolsor/M1M2BuPd*0	po:noun
@@ -40623,7 +40626,7 @@ pesto/M2F0F3A0Pd	po:adjective_qualificative
 rosta/F2Vr	po:adjective_qualificative is:femenine
 rosto/M2A0PdVr	po:adjective_qualificative
 truòja/F2V0	po:noun is:femenine
-salbego/M2F0F3A0	po:adjective_qualificative
+salbègo/M2F0F3A0	po:adjective_qualificative
 roa/F2	po:noun is:femenine st:rova
 leal/X0B1Bu-1	po:adjective_qualificative is:neuter
 leaƚe/X0Vp	po:adjective_qualificative is:neuter
@@ -40984,6 +40987,7 @@ pïuòjo/M2B1V0	po:noun st:pïòco
 traimento/M2A0PdVr	po:noun ds:mento st:tradimento
 inkantaxon/F1F2B1BuPd	po:noun is:femenine
 prekàntola/F2V0	po:noun is:femenine
+/ I mariazi da Pava. ante-1530.
 / Beolco, Angelo. La piovana. Padova; 1532.
 agreŧa/F2V0	po:noun is:femenine st:agro ds:eŧa
 aguejo/M2B1	po:noun
@@ -41759,6 +41763,37 @@ vixon/M1M2F0F1B1BuPd	po:noun
 fuòja/F2aZaSe2*0	po:noun is:femenine
 fuòɉa/F2aZaSe2*0	po:noun is:femenine
 rèmola/F2V0	po:noun is:femenine
+perdòmo/M2A0	po:noun st:prodòmo
+kaoponso/A0	po:noun al:kaiponsi pa:kao pa:ponso
+kaiponsi	po:noun is:plural st:kaoponso
+rovèso/M2F0F3A0	po:adjective_qualificative
+xganbakàvara/F2	po:noun is:femenine
+pre	po:preposition st:pre
+skrimia/F2	po:noun is:femenine
+paejo/M2B1	po:noun st:pavejo
+paeɉo/M2Pd	po:noun st:paveɉo
+ragomante/X0A0	po:noun is:neuter
+đugolèr/M0M2Buv0Vp	po:noun
+đugolèra/F2v0Vp	po:noun is:femenine
+xugoƚèr/M0M2Buv7	po:noun
+xugoƚèra/F2v7	po:noun is:femenine
+invelò	po:adverb st:ivelò
+inveƚò	po:adverb st:iveƚò
+ŧimiñòla/F2v0Vp	po:noun is:femenine
+simiñòƚa/F2v7	po:noun is:femenine
+stòrta/F2	po:noun is:femenine
+vuòvera/F2	po:noun is:femenine st:òpera
+kalestía/F2	po:noun is:femenine
+kaƚestía/F2	po:noun is:femenine
+raboxo/M2F0F3A0Pd	po:adjective_qualificative
+pervixion/F1F2B1BuPd	po:noun is:femenine st:provixion
+vivoleŧo/M2A0PdV0	po:adjective_qualificative
+vivoƚeso/M2Pd	po:adjective_qualificative
+kasador/M1M2BuPdv0-1^2*0	po:noun
+kasadora/F2v0-1^2*0	po:noun is:femenine
+kaŧador/M1M2BuPdv0-1^2*0	po:noun
+kaŧadora/F2v0-1^2*0	po:noun is:femenine
+baobao/M2	po:noun al:babao
 / Le lettere di messer Andrea Calmo [15501109]. Torino; 1888.
 arkonbè	po:noun
 đèfir/M0M2Vp	po:noun
@@ -42093,7 +42128,6 @@ siéval/M0M2B1V0	po:noun
 sïoría/F2	po:noun is:femenine
 skanŧía/F2V0	po:noun is:femenine
 skonbro/M2e0	po:noun
-skrimia/F2	po:noun is:femenine
 sobriamente/A0w0	po:adverb ds:mente
 spàxemo/M2A0	po:noun
 sporka/F2VraT	po:adjective_qualificative is:femenine
@@ -42518,7 +42552,6 @@ puƚerin/M0M2F0F3Bu	po:noun st:poƚèr ds:in
 punimento/M2A0PdVr	po:noun st:punir ds:mento
 puòvre	po:adjective_qualificative
 püina/F2e2	po:noun is:femenine
-raboxo/M2F0F3A0Pd	po:adjective_qualificative
 ravisa/F2o0o2o4	po:noun is:femenine
 raviŧa/F2o0o2o4	po:noun is:femenine
 reba/F2e2oT	po:noun is:femenine
@@ -45407,7 +45440,7 @@ lïonŧèl/M0M2B1Pv	po:noun st:lïon ds:èl
 líñeo/M2F0F3Vp	po:adjective_qualificative
 lodévol/X0B1Pd	po:adjective_qualificative is:neuter
 lodévoƚe/X0Vp	po:adjective_qualificative is:neuter
-lòme/M2A0	po:noun
+lòme/M2A0	po:noun st:nòme
 lúgar/M0M2Vp'0	po:noun
 ƚabastro/M2@0	po:noun
 ƚagremon/M1M2F0F1BuPd	po:noun
@@ -45436,7 +45469,7 @@ lúgar/M0M2Vp'0	po:noun
 ƚinoxo/M2F0F3Pd	po:adjective_qualificative
 ƚinpardo/M2	po:noun
 ƚioxamente/w0	po:adverb ds:mente
-ƚòme/M2	po:noun
+ƚòme/M2	po:noun st:nòme
 majistado/M2F0F3A0y0y1	po:noun st:majistro
 majistro/M2F0F3	po:noun
 maɉistado/M2F0F3A0y0y1	po:noun st:maɉistro
@@ -46164,7 +46197,7 @@ armíxer/M0M2F0F3Pd	po:noun
 astoxo/M2F0F3A0Pd	po:adjective_qualificative
 axilitade/X1	po:noun is:femenine
 axiƚitade/X1	po:noun is:femenine
-babao/M2	po:noun
+babao/M2	po:noun al:baobao
 balestron/M1M2B1BuPd	po:noun
 baƚestron/M1M2BuPd	po:noun
 baso/A0	po:adverb
@@ -48913,14 +48946,10 @@ karnaŧa/F2V0	po:noun is:femenine st:karne ds:aŧo
 karòsa/F2eLe7e2iNo0o2o4	po:noun is:femenine
 karòŧa/F2eLe2iNo0o2o4	po:noun is:femenine
 kartelon/M1M2B1BuPdV0	po:noun
-kasador/M1M2BuPdv0-1^2*0	po:noun
-kasadora/F2v0-1^2*0	po:noun is:femenine
 kastañaŧa/F2V0	po:adjective_qualificative is:femenine st:kastaña ds:aŧo
 kastañaŧo/M2A0V0	po:adjective_qualificative st:kastaño ds:aŧo
 kastradin/M0M2F0F3Bu	po:noun st:kastrado ds:in
 kataroxo/M2F0F3A0Pde0e2*0	po:adjective_qualificative st:katar ds:oxo
-kaŧador/M1M2BuPdv0-1^2*0	po:noun
-kaŧadora/F2v0-1^2*0	po:noun is:femenine
 kauxeta/F2	po:noun is:femenine st:kàuxa ds:eto
 kavalariŧa/F2V0	po:noun is:femenine
 kavalariŧo/M2A0V0	po:noun
@@ -51744,7 +51773,7 @@ skisinoxo/M2F0F3A0Pd	po:adjective_qualificative
 skitapeti	po:noun pa:skita pa:peti
 skiŧinoxamente/A0w0	po:adverb st:skiŧinoxo ds:mente
 skiŧinoxo/M2F0F3A0Pd	po:adjective_qualificative
-skivoleŧo/M2A0PdV0	po:noun
+skivoleŧo/M2A0PdV0	po:adjective_qualificative
 skivoƚeso/M2Pd	po:adjective_qualificative
 skonbujo/M2B1A0V0	po:noun
 skondaña/F2	po:noun is:femenine
@@ -52393,7 +52422,6 @@ xbadajola/F2V0	po:noun is:femenine
 xbadaɉarola/F2V0	po:noun is:femenine
 xbadaɉo/M2o0o1o2o3o4	po:noun
 xbadaɉola/F2V0	po:noun is:femenine
-xbaja/F2V0	po:adjective_qualificative is:femenine
 xbajarola/F2V0	po:noun is:femenine
 xbajaròla/F2V0	po:noun is:femenine
 xbajo/M2B1e0o0o2o4	po:adjective_qualificative
@@ -72157,6 +72185,7 @@ xlàuŧo/M2A0V0	po:adjective_qualificative
 xlòpo/M2F0F3A0	po:adjective_qualificative
 xmuxa/F2	po:noun is:femenine
 / Dizionario Roe Basse. Sedico (Belluno); 20210522, 2318 voci.
+provixion/F1F2B1BuPd	po:noun is:femenine
 trevèl/M0M2B1PvV0	po:noun
 bolpina/F2	po:noun st:bolpe ds:in
 oŧioxitade/X1	po:noun is:femenine
@@ -77899,10 +77928,10 @@ saƚéxoƚa/F2	po:noun is:femenine
 ŧínger/M1M2F0PdVp	po:adjective_qualificative
 / Il Veses — Parole de ʼna olta. 2020. (https://ilveses.com/parole-de-na-olta/)
 xguindia/F2	po:noun is:femenine
-/ Beolco, Angelo. Dialogo facetissimo. Venezia; 1554.
+/ I mariazi da Pava. ante-1530.
 
 
-/ 47/111 - 1554
+/ 1/330+285+305+45 - 1530
 / nodaro. Treviso, IMG_20210309_112945.
 / http://vev.ovi.cnr.it/lexicad/lemmario (20251114 - 8053? bertìgnolo(baretina) cagalina(kagar) càia camastela(mastèla) chiarelo céser cogozo coriedo cornabò cùgoli cùter deremo ebeada festare(fèsta) gàfaro ganzara ganzega gégomo giagrega(gilè) gornissagorn(gorna) gramin guazaron guzzar impiar invespar lisbonina loch maganzese manguro masamutina mèola osana pasquarosa(paskua) passèlego pepalessa(pèpa) pesàntola petemelebone(petar) pòina pòvola povolaro refogolar(fogo) rendento santacrose santelmo saponaria sarza scagaìta(kagar) (skagàita, xguaraguàita, xguàita) scaranzia scariòt scaula schierazo scogoçar(kogòŧo) scovadìe sorvo spagno spiàntano/spiantan spilter stanforte stèura stratiòto tarabusèa(tarabuxo) tèstola trabazin(tarabuxo)|? vacamatrè(vaka) vacazùnzoli(vaka) valenzian venarelo(vèner) vescue zabagion|đ zaca zangarin zanzalaro(ŧensala) zanzarela|ŧ zarcegna|ŧŧ zarda zenso|đ zétola zibaldon|đ zìfera|ŧ zinzapòtole zirnar|đ zolagio|ŧ/zolar/zolo/zulagia(đòl) zonetto/zoni|ŧ zovàdego|đ zelegò|Ŧ [đŧ]an[đŧ]ar
 / apostrophe: ʼ (’)
@@ -77911,7 +77940,12 @@ xguindia/F2	po:noun is:femenine
 / figure dash: ‒
 / search for ([gms]?e|[kv]é|sié|no|f[àéú])-nde(ne) xe, ende/ndʼ/dé, no 'ndene
 / ge[sx]ería ŧé[đŧ]ol be[đŧ]aròl bol[đŧ]a bu[đŧ]arosa in[đŧ]eregar (kon|in)[đŧ]eñar kave[đŧ]aña ka[đŧ]a ka[đŧ]òto koda[đŧ]i[ln] kon[đŧ]a korpa[đŧ]udo pi[đŧ]al p[ou][ln][đŧ]in sopo[đŧ]ar trò[đŧ]a vàn[đŧ]ega [đŧ]anpèla [đŧ]an[đŧ]ador [đŧ]an[đŧ]ar [đŧ]an[đŧ]arèla [đŧ]ir [đŧ]on [đŧ]àina [đŧ]an[đŧ]ar [đŧ]à[đŧ]era [đŧ]èso
-/ -ar (1): 8623 (78%), -er (2): 72 (0.7%), '-er (3, accents): 1117 (10.1%), -ir/is (4, T4): 980 (8.9%), -ir (5): 258 (2.3%), tot: 11047
+/ -ar (1): 8625 (78%), -er (2): 72 (0.7%), '-er (3, accents): 1117 (10.1%), -ir/is (4, T4): 980 (8.9%), -ir (5): 258 (2.3%), tot: 11049
 / 16191220 ago da lanzan
 / inde>in
 / rèmola = crusca
+/ kaoponso = colpo di spada inferto con il polso rivolto verso l'alto
+/ stramaŧon = colpo di spada vibrato di traverso, per lo piú dall'alto; fendente
+/ rovèso a xganbakàvara = colpo di spada inferto obliquamente o un colpo inferto tenendo le gambe non allineate, di traverso
+/ stòrta = tipo di spada
+/ còka = Pleiadi, falŧe = Boote, sète biron = Orsa Minore
