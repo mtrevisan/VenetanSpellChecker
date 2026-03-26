@@ -9014,6 +9014,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "stitü",			"re",			4,	5,	"a",	"130101",		"(veneŧian)",
 "stitü",			"so",			4,	5,	"a",	"",				"",
 "stitü",			"sub",		4,	5,	"a",	"1414",			"",
+"stiŧ",			"",			1,	2,	"a",	"1530",			"(pavan)",
 "stiŧ",			"i",			1,	2,	"a",	"1867",			"(veneŧian)",
 "stiŧ",			"in",			1,	2,	"a",	"1532",			"(pavan)",
 "stiv",			"",			1,	2,	"a",	"1362",			"(veneŧian)",
