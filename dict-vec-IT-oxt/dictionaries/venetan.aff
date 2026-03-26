@@ -5358,7 +5358,7 @@ PFX Vs Te Ta Te
 ### Verona ###
 
 # trasformaŧion veronexe (-ente > -ènte/X0A0, -en[pstŧ]o > -èn[pstŧ]o/M2A0Pd, -en[dstŧ]a > -èn[dstŧ]a/F2, -osto > -òsto/M2A0, -ongo > -òngo/M2A0, -evo > -èvo/M2)
-SFX Vr Y 41
+SFX Vr Y 43
 SFX Vr eva èva/F2 eva
 SFX Vr evo èvo/M2 evo
 SFX Vr enda ènda/F2 enda
@@ -5367,19 +5367,21 @@ SFX Vr orka òrka/F2 orka
 SFX Vr a ia/F2 [aeiou]nsa
 SFX Vr ensa ènsa/F2 ensa
 SFX Vr ensa ènsia/F2 ensa
-SFX Vr ensa insia/F2 ensa	# pavan
-SFX Vr ensa iènsia/F2 ensa	# pavan
-SFX Vr ensia ènsia/F2 ensia
-SFX Vr ensia iènsia/F2 ensia	# pavan
+SFX Vr ensa insia/F2 [^i]ensa	# pavan
+SFX Vr ensa nsia/F2 iensa	# pavan
+SFX Vr ensa iènsia/F2 [^i]ensa	# pavan
+SFX Vr ensia iènsia/F2 [^i]ensia	# pavan
+SFX Vr ensia ènsia/F2 iensia	# pavan
 SFX Vr enta ènta/F2 enta
 SFX Vr osta òsta/F2 osta
 SFX Vr oska òska/F2 oska
 SFX Vr a ia/F2 [aeiou]nŧa
 SFX Vr enŧa ènŧa/F2 enŧa
-SFX Vr enŧa ènŧia/F2 enŧa
-SFX Vr enŧa iènŧia/F2 enŧa	# pavan
-SFX Vr enŧa inŧia/F2 enŧa	# pavan
 SFX Vr enŧia ènŧia/F2 enŧia
+SFX Vr enŧa iènŧia/F2 [^i]enŧa	# pavan
+SFX Vr enŧa ènŧia/F2 ienŧa	# pavan
+SFX Vr enŧa inŧia/F2 [^i]enŧa	# pavan
+SFX Vr enŧa nŧia/F2 ienŧa	# pavan
 SFX Vr ente ènte/X0A0 ente
 SFX Vr endo èndo/M2A0 endo
 SFX Vr ongo òngo/M2 ongo
@@ -7054,7 +7056,7 @@ PFX gv gu g gu[aàèi]
 
 
 # numerali — koletivi, pi demenutivi (-èna)
-SFX %0 Y 67
+SFX %0 Y 70
 SFX %0 ète etena/F2 ète
 SFX %0 ète etèna/F2 ète
 SFX %0 ète eteneta/F2 ète	ds:eto
@@ -7086,15 +7088,18 @@ SFX %0 ódexe oxeneta/F2 ódexe	ds:eto
 SFX %0 ódexe odexena/F2 ódexe
 SFX %0 ódexe odexèna/F2 ódexe
 SFX %0 ódexe odexeneta/F2 ódexe	ds:eto
-SFX %0 0 na/F2 doxe
-SFX %0 e èna/F2 doxe
-SFX %0 0 neta/F2 doxe	ds:eto
+SFX %0 óexe oexena/F2 dóexe	# pavan
+SFX %0 óexe oexèna/F2 dóexe	# pavan
+SFX %0 óexe oexeneta/F2 dóexe	ds:eto	# pavan
+SFX %0 0 na/F2 doxe	# pavan
+SFX %0 e èna/F2 doxe	# pavan
+SFX %0 0 neta/F2 doxe	ds:eto	# pavan
 SFX %0 édexe edexena/F2 édexe
 SFX %0 édexe edexèna/F2 édexe
 SFX %0 édexe edexeneta/F2 édexe	ds:eto
-SFX %0 0 na/F2 sexe
-SFX %0 e èna/F2 sexe
-SFX %0 0 neta/F2 sexe	ds:eto
+SFX %0 0 na/F2 sexe	# pavan
+SFX %0 e èna/F2 sexe	# pavan
+SFX %0 0 neta/F2 sexe	ds:eto	# pavan
 SFX %0 édixe edixena/F2 édixe
 SFX %0 édixe edixèna/F2 édixe
 SFX %0 édixe edixeneta/F2 édixe	ds:eto
@@ -7130,7 +7135,7 @@ SFX %1 i ando/A0 nti
 SFX %1 o anto nto
 
 # numerali — koletivi (-èx[ei]mo)
-SFX %a Y 63
+SFX %a Y 66
 SFX %a ète etèxemo/M2F0F3 ète
 SFX %a ète etèximo/M2F0F3 ète
 SFX %a ète etièximo/M2F0F3 ète
@@ -7176,16 +7181,19 @@ SFX %a ódexe odèŧemo/M2F0F3 ódexe
 SFX %a ódexe odèsemo/M2F0F3 ódexe
 SFX %a ódexe odèŧimo/M2F0F3 ódexe
 SFX %a ódexe odèsimo/M2F0F3 ódexe
-SFX %a oxe èsemo/M2F0F3 doxe
-SFX %a oxe èŧimo/M2F0F3 doxe
-SFX %a oxe èsimo/M2F0F3 doxe
+SFX %a óexe oèsemo/M2F0F3 dóexe	# pavan
+SFX %a óexe oèŧimo/M2F0F3 dóexe	# pavan
+SFX %a óexe oèsimo/M2F0F3 dóexe	# pavan
+SFX %a oxe èsemo/M2F0F3 doxe	# pavan
+SFX %a oxe èŧimo/M2F0F3 doxe	# pavan
+SFX %a oxe èsimo/M2F0F3 doxe	# pavan
 SFX %a édexe edèŧemo/M2F0F3 édexe
 SFX %a édexe edèsemo/M2F0F3 édexe
 SFX %a édexe edèŧimo/M2F0F3 édexe
 SFX %a édexe edèsimo/M2F0F3 édexe
-SFX %a exe èsemo/M2F0F3 sexe
-SFX %a exe èŧimo/M2F0F3 sexe
-SFX %a exe èsimo/M2F0F3 sexe
+SFX %a exe èsemo/M2F0F3 sexe	# pavan
+SFX %a exe èŧimo/M2F0F3 sexe	# pavan
+SFX %a exe èsimo/M2F0F3 sexe	# pavan
 SFX %a òrdexe ordèŧemo/M2F0F3 òrdexe
 SFX %a òrdexe ordèsemo/M2F0F3 òrdexe
 SFX %a òrdexe ordèŧimo/M2F0F3 òrdexe
