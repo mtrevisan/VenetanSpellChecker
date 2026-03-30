@@ -294,7 +294,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "bal",			"tra",		1,	1,	"g",	"1852",			"",
 "bal",			"trax",		1,	1,	"g",	"1867",			"(veneŧian)",
 "bal",			"x",			1,	1,	"g",	"1775",			"Spiòver.",
-"balank",		"x",			1,	3,	"g",	"1875",			"(veneŧian)",
+"balank",		"x",			1,	3,	"g",	"1789",			"(veneŧian) Spalankar.",
 "balanŧ",		"",			1,	3,	"g",	"15440101",		"(veneŧian) Méter in balanŧa.",
 "balanŧ",		"x",			1,	3,	"g",	"",				"",
 "balb",			"in",			1,	1,	"g",	"",				"Balbetar, incanpar.",
