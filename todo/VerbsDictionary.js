@@ -5384,7 +5384,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "marŧ",			"",			4,	4,	"a",	"1854",			"",
 "marŧ",			"i",			4,	4,	"a",	"1855",			"(belumat)",
 "marŧ",			"in",			4,	4,	"a",	"14740716",		"(veneŧian)",
-"marŧ",			"x",			4,	4,	"a",	"1867",			"(veneŧian)",
+"marŧ",			"x",			4,	4,	"a",	"1789",			"(veneŧian)",
 "marŧiđ",		"",			1,	4,	"a",	"1980",			"(ŧenedexe)",
 "marxin",		"",			1,	1,	"g",	"1829",			"Konsolidar, cikatriŧar.",
 "marxin",		"in",			1,	1,	"g",	"1829",			"Marxinar.",
