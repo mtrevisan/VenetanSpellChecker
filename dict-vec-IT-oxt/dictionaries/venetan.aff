@@ -100,7 +100,7 @@ OCONV ñ gn
 OCONV Ñ GN
 
 # frequently switched character groups
-REP 117
+REP 118
 REP - ‒
 REP - –
 REP - -
@@ -119,6 +119,7 @@ REP o ó
 REP ò ó
 REP u ú
 REP u ü
+REP c ŧ
 REP d đ
 REP s x
 REP x s
@@ -5417,7 +5418,7 @@ PFX Vs Te Ta Te
 ### Verona ###
 
 # trasformaŧion veronexe (-ente > -ènte/X0A0, -en[pstŧ]o > -èn[pstŧ]o/M2A0Pd, -en[dstŧ]a > -èn[dstŧ]a/F2, -osto > -òsto/M2A0, -ongo > -òngo/M2A0, -evo > -èvo/M2)
-SFX Vr Y 43
+SFX Vr Y 44
 SFX Vr eva èva/F2 eva
 SFX Vr evo èvo/M2 evo
 SFX Vr enda ènda/F2 enda
@@ -5436,6 +5437,7 @@ SFX Vr osta òsta/F2 osta
 SFX Vr oska òska/F2 oska
 SFX Vr a ia/F2 [aeiou]nŧa
 SFX Vr enŧa ènŧa/F2 enŧa
+SFX Vr enŧa ènŧia/F2 enŧa
 SFX Vr enŧia ènŧia/F2 enŧia
 SFX Vr enŧa iènŧia/F2 [^i]enŧa	# pavan
 SFX Vr enŧa ènŧia/F2 ienŧa	# pavan
@@ -5555,14 +5557,14 @@ SFX v0 òl uòl/M0M2B1 [dđfigjɉñrsŧx]òl	# faxe 1: XIV‒XV sèk.
 SFX v0 òl uoleto/M2A0Pd [dđfigjɉñrsŧx]òl	ds:eto	# faxe 1: XIV‒XV sèk.
 SFX v0 òl iòl/M0M2B1 [dđfrsŧx]òl	# faxe 2: XVI‒XVIII sèk.
 SFX v0 òl ioleto/M2A0Pd [dđfrsŧx]òl	ds:eto	# faxe 2: XVI‒XVIII sèk.
-SFX v0 òl ol/M0M2B1 [dđfigjɉñrsŧx]òl	# faxe 3: XIX sèk.
+SFX v0 òl ol/M0M2B1 [dđfigjɉñrsŧx]òl	# faxe 3: XIX sèk., belumat
 SFX v0 òl oleto/M2A0Pd [dđfigjɉñrsŧx]òl	ds:eto	# faxe 3: XIX sèk.
 SFX v0 òl iol/M0M2B1 [dđfrsŧx]òl	# faxe 3: XIX sèk., belumat
 SFX v0 òla uòla/F2 [dđfgjɉkñrsŧx]òla	# faxe 1: XIV‒XV sèk.
 SFX v0 òla uoleta/F2 [dđfgjɉkrsŧx]òla	ds:eto	# faxe 1: XIV‒XV sèk.
 SFX v0 òla iòla/F2 [dđfrsŧx]òla	# faxe 2: XVI‒XVIII sèk.
 SFX v0 òla ioleta/F2 [dđfrsŧx]òla	ds:eto	# faxe 2: XVI‒XVIII sèk.
-SFX v0 òla ola/F2 [dđfgjɉkñrsŧx]òla	# faxe 3: XIX sèk.
+SFX v0 òla ola/F2 [dđfgjɉkñrsŧx]òla	# faxe 3: XIX sèk., belumat
 SFX v0 òla oleta/F2 [dđfgjɉkñrsŧx]òla	ds:eto	# faxe 3: XIX sèk.
 SFX v0 òla iola/F2 [dđfrsŧx]òla	# faxe 3: XIX sèk., belumat
 
