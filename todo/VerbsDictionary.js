@@ -3341,7 +3341,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "guaskon",		"",			1,	5,	"a",	"1829",			"Xmarjasar.",
 "guast",			"",			1,	2,	"g",	"130101",		"(veneŧian)",
 "guatar",		"x",			1,	2,	"g",	"1560",			"Xguaterar.",
-"guater",		"x",			1,	4,	"g",	"1855",			"(belumat) Axitar de líkuidi, rexentar.",
+"guater",		"x",			1,	2,	"g",	"1789",			"(veneŧian) Axitar de líkuidi, rexentar.",
 "guatol",		"x",			1,	2,	"g",	"1890",			"(veneŧian) Xguaterar.",
 "guañ",			"",			1,	2,	"g",	"1521",			"(pavan) Guadañar.",
 "guaŧ",			"x",			1,	2,	"g",	"1551",			"(pavan)",
