@@ -10202,9 +10202,9 @@ kimeríxis/T0N0	po:verb vt:indicative+present is:second is:singular st:kimerixar
 kimarixar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple
 kimarixe/T0t0t1T2T3N0N2L0L2l0l2I5I7A0	po:verb vt:indicative+present is:third st:kimarixar
 kimaríxis/T0N0	po:verb vt:indicative+present is:second is:singular st:kimarixar
-inkinar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple dp:in
-inkine/T0t0t1T2T3N0N2L0L2l0l2I5I7	po:verb vt:indicative+present is:third st:inkinar dp:in
-inkínis/T0N0	po:verb vt:indicative+present is:second is:singular st:inkinar dp:in
+kinar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2+0	po:verb vt:infinitive+simple
+kine/T0t0t1T2T3N0N2L0L2l0l2I5I7+0	po:verb vt:indicative+present is:third st:kinar
+kínis/T0N0+0	po:verb vt:indicative+present is:second is:singular st:kinar
 kinkar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2*0	po:verb vt:infinitive+simple
 kinke/T0t0t1T2T3N0N2L0L2l0l2I5I7A0*0	po:verb vt:indicative+present is:third st:kinkar
 kínkis/T0N0*0	po:verb vt:indicative+present is:second is:singular st:kinkar
@@ -23337,14 +23337,14 @@ suplante/T0t0t1T2T3N0N2L0L2l0l2I5I7A0	po:verb vt:indicative+present is:third st:
 suplàntis/T0N0	po:verb vt:indicative+present is:second is:singular st:suplantar dp:sub
 suplikar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple
 súplike/T0t0t1T2T3T7N0N2N7L0L2l0l2I5I7A0	po:verb vt:indicative+present is:third st:suplikar
-supóner/T5T6L5l5W3w3P0P1P2^2	po:verb vt:infinitive+simple
-supone/T0t0t1T2T3N0N2L0L2l0l2I5I7^2	po:verb vt:indicative+present is:third st:supóner
-suponerò/T0T1T2T3T6N0N1N2N3N4N6L1L2L3L5l1l2l3l5W3w3^2	po:verb vt:indicative+future is:first is:singular st:supóner
-suposto/M2F0F3A0Pd^2	po:verb vt:participle+passive+strong st:supóner
-supòner/T5T6L5l5W3w3P0P1P2^2	po:verb vt:infinitive+simple
-supòne/T0t0t1T2T3T7N0N7L0L2l0l2I5I7^2	po:verb vt:indicative+present is:third st:supóner
-supòsto/M2F0F3A0^2	po:verb vt:participle+passive+strong st:supóner
-suporar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple
+supóner/T5T6L5l5W3w3P0P1P2^2	po:verb vt:infinitive+simple dp:sub
+supone/T0t0t1T2T3N0N2L0L2l0l2I5I7^2	po:verb vt:indicative+present is:third st:supóner dp:sub
+suponerò/T0T1T2T3T6N0N1N2N3N4N6L1L2L3L5l1l2l3l5W3w3^2	po:verb vt:indicative+future is:first is:singular st:supóner dp:sub
+suposto/M2F0F3A0Pd^2	po:verb vt:participle+passive+strong st:supóner dp:sub
+supòner/T5T6L5l5W3w3P0P1P2^2	po:verb vt:infinitive+simple dp:sub
+supòne/T0t0t1T2T3T7N0N7L0L2l0l2I5I7^2	po:verb vt:indicative+present is:third st:supóner dp:sub
+supòsto/M2F0F3A0^2	po:verb vt:participle+passive+strong st:supóner dp:sub
+suporar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple dp:sub
 súpore/T0t0t1T2T3T7N0N2N7L0L2l0l2I5I7A0	po:verb vt:indicative+present is:third st:suporar
 insurir/T0T1T2T3T4N1N2N4N5L1L2L3L4l1l2l3l4W0W1P0P1P2	po:verb vt:infinitive+simple dp:in
 insuriar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple dp:in
@@ -41394,7 +41394,6 @@ pesòl/M0M2B1v0	po:noun
 pesòƚo/M2v7	po:noun
 peŧòl/M0M2B1v0	po:noun
 pilon/M1M2B1BuPdV0	po:noun
-porkaŧo/M2A0V0	po:noun st:pòrko ds:aŧo
 porsèl/M0M2B1PvaTe0e2o0o1o2o3o4	po:adjective_qualificative
 porsèƚa/F2a1e3	po:adjective_qualificative is:femenine
 porsèla/F2aT	po:adjective_qualificative is:femenine
@@ -47465,7 +47464,7 @@ sandraka/F2	po:noun is:femenine
 sanjoŧo/M2A0PdV0	po:noun
 sanɉoŧo/M2A0PdV0	po:noun
 saòn/M1M2B1	po:noun
-satrapon/M1M2F0F1B1BuPd	po:adjective_qualificative
+satrapon/M1M2F0F1B1BuPd	po:adjective_qualificative st:sàtrapo ds:on
 saxo/M2A0	po:noun
 sàgoma/F2^4	po:noun is:femenine
 sàtrapo/M2F0F3A0	po:adjective_qualificative
@@ -48605,7 +48604,7 @@ moskata/F2eLe7	po:adjective_qualificative is:femenine
 moskato/M2A0eLe7o0o2o4	po:adjective_qualificative
 mura	po:noun is:plural is:femenine
 mureta/F2	po:noun is:femenine st:mura ds:eto
-müanŧa/F2V0	po:noun is:femenine
+müanŧa/F2V0	po:noun is:femenine st:mudanŧa
 natomía/F2	po:noun is:femenine
 nefanditade/X1	po:noun is:femenine
 nosente/X0A0PdVro0o1o2o3o4@0+0	po:adjective_qualificative is:neuter
@@ -50267,7 +50266,7 @@ bordeƚeso/M2Pd	po:noun st:bordèƚo ds:eŧo
 bordeleŧo/M2A0PdV0	po:noun st:bordèl ds:eŧo
 bordenal/M1M2B1BuVm	po:noun
 borin/M0M2F0F3Bu	po:adjective_qualificative
-borsin/M0M2Bu	po:noun
+borsin/M0M2Bu	po:noun st:borsa ds:in
 boskivamente/A0w0	po:adverb ds:mente
 boskivo/M2F0F3A0B3	po:adjective_qualificative
 botegèr/M0M2Buv0	po:noun
@@ -53295,13 +53294,23 @@ kostruŧion/F1F2B1BuPdV0.0	po:noun is:femenine ds:ŧion
 skuarso/M2A0e0o0o1o2o3o4	po:noun
 skuarŧo/M2A0e0o0o1o2o3o4	po:noun
 / Baffo, Giorgio. Raccolta universale delle opere di Giorgio Baffo veneto — Tomo III. Venezia; 1789.
+mudanŧa/F2V0	po:noun is:femenine al:müanŧa
+kritèrio/M2	po:noun
+púlpito/M2A0	po:noun
+soƚèvo/M2	po:noun
+solèvo/M2A0	po:noun
+tiron/M1M2B1BuPd	po:noun st:tir al:on
+albareto/M2F0F3A0Pd	po:noun st:àlbaro ds:eto
+pelexin/M0M2F0F3Bu	po:noun st:pèl ds:in
+peƚexin/M0M2F0F3Bu	po:noun st:pèƚe ds:in
+drito/M2F0F3A0o0o1o2o3o4	po:adjective_qualificative
+soprafin/M0M2F0F3Bu	po:adjective_qualificative pa:sopra pa:fin
 / Giovanelli, Benedetto. Poesie in Gamba, Bartolommeo. Raccolta di poesie in dialetto veneziano dʼogni secolo nuovamente ordinata ed accresciuta [17261129‒17910821]. Venezia; 1845.
 exato/M2F0F3A0+0	po:adjective_qualificative
 exultanŧa/F2V0	po:noun is:femenine
 struto/M2A0-0	po:noun
 / Patriarchi, Gasparo. Vocabolario veneziano e padovano coʼ termini e mòdi corrispondenti toscani.
 / II ed. Padova; 1796.
-albareto/M2F0F3A0Pd	po:noun st:àlbaro ds:eto
 albereto/M2A0Pd	po:noun st:àlber ds:eto
 altanà	po:adjective_qualificative
 amisíbil/X0Vx	po:adjective_qualificative is:neuter
@@ -54279,7 +54288,6 @@ kontralto/M2A0	po:noun pa:kontro pa:alto
 kònio/M2	po:noun
 kredensial/F1F2B1BuVf	po:noun is:femenine
 kredenŧial/F1F2B1Bu	po:noun is:femenine
-kritèrio/M2	po:noun
 laketa/F2Vp	po:noun is:femenine lg:french st:laké ds:eto
 lateral/X0B1Bu	po:adjective_qualificative is:neuter
 lateraƚe/X0Vp	po:adjective_qualificative is:neuter
@@ -58218,8 +58226,8 @@ pontiɉoxo/M2F0F3A0Pd	po:adjective_qualificative
 pontixo/M2F0F3A0	po:adjective_qualificative
 pontonièr/M0M2Buv0	po:noun
 pontonièra/F2v0	po:noun is:femenine
-porka/F2VraT	po:adjective_qualificative is:femenine
-porko/M2A0PdaT	po:adjective_qualificative
+porka/F2VraTaZaS	po:adjective_qualificative is:femenine
+porko/M2A0PdaTaZaS	po:adjective_qualificative
 poron/M1M2B1BuPd	po:noun
 porsèdo/M2	po:noun
 porsijòla/F2V0	po:noun is:femenine
@@ -59034,8 +59042,6 @@ soldadaŧa/F2V0	po:noun is:femenine st:soldada ds:aŧo
 soldadaŧo/M2A0V0	po:noun st:soldado ds:aŧo
 solexèl/M0M2B1Pv	po:noun
 soƚexèƚo/M2	po:noun
-soƚèvo/M2	po:noun
-solèvo/M2A0	po:noun
 solfon/M1M2F0F1B1BuPd	po:adjective_qualificative
 solidal/X0B1Bu	po:adjective_qualificative is:neuter
 soƚidaƚe/X0Bu	po:adjective_qualificative is:neuter
@@ -64020,7 +64026,6 @@ malòrŧega	po:interjection
 parkòsa	po:adjective_interrogative_exclamatory is:neuter
 perŧémol/M0M2B1PdVs	po:noun
 pianofòrte/M2A0	po:noun
-púlpito/M2A0	po:noun
 skujèr/M0M2Bu	po:noun
 skuɉèr/M0M2Bu	po:noun
 veemensa/F2Vr	po:noun is:femenine
@@ -64845,8 +64850,6 @@ međería/F2r0	po:noun is:femenine
 mexería/F2r0	po:noun is:femenine
 nata/F2	po:noun is:femenine
 nervin/M0M2Bu	po:noun
-pelexin/M0M2F0F3Bu	po:noun st:pèl ds:in
-peƚexin/M0M2F0F3Bu	po:noun st:pèƚe ds:in
 petarina/F2	po:adjective_qualificative is:femenine
 polmonario/M2F0F3	po:adjective_qualificative
 porexina/F2	po:noun is:femenine
@@ -65985,7 +65988,6 @@ tièđa/F2V0	po:noun is:femenine
 tikiñamento/M2A0PdVr	po:noun st:tikiñar ds:mento
 tirador/M1M2BuPdv0-1.0*0	po:noun
 tiradora/F2v0-1.0*0	po:noun is:femenine
-tiron/M1M2B1BuPd	po:noun st:tir al:on
 torđion	po:adverb
 torlalú	po:adjective_qualificative is:neuter
 torlaƚú	po:adjective_qualificative is:neuter
@@ -66119,7 +66121,6 @@ buŧoladèr/M0M2Buv0	po:noun
 buŧoladèra/F2v0	po:noun is:femenine
 cacareŧo/M2A0PdV0	po:noun st:càcara ds:eŧo
 cacarèla/F2V0	po:adjective_qualificative is:femenine
-drito/M2F0F3A0o0o1o2o3o4	po:adjective_qualificative
 đirandolon/BuVp	po:adverb
 điràneo/M2Vp	po:noun
 entrante/X0A0	po:adjective_qualificative is:neuter
@@ -78239,7 +78240,7 @@ xguindia/F2	po:noun is:femenine
 / Baffo, Giorgio. Raccolta universale delle opere di Giorgio Baffo veneto — Tomo III. Venezia; 1789.
 
 
-/ 2/314 - 1789
+/ 90/314 - 1789
 / nodaro. Treviso, IMG_20210309_112945.
 / http://vev.ovi.cnr.it/lexicad/lemmario (20251114 - 8053? bertìgnolo(baretina) cagalina(kagar) càia camastela(mastèla) chiarelo cogozo coriedo cornabò cùgoli cùter deremo ebeada festare(fèsta) gàfaro ganzara ganzega gégomo giagrega(gilè) gornissagorn(gorna) gramin guazaron guzzar impiar invespar lisbonina loch maganzese manguro masamutina mèola osana pasquarosa(paskua) passèlego pepalessa(pèpa) pesàntola petemelebone(petar) pòina refogolar(fogo) rendento santacrose santelmo saponaria sarza scagaìta(kagar) (skagàita, xguaraguàita, xguàita) scaranzia scariòt scaula schierazo scogoçar(kogòŧo) scovadìe sorvo spagno spiàntano/spiantan spilter stanforte stèura stratiòto tarabusèa(tarabuxo) tèstola trabazin(tarabuxo)|? vacamatrè(vaka) vacazùnzoli(vaka) valenzian venarelo(vèner) vescue zabagion|đ zaca zangarin zanzalaro(ŧensala) zanzarela|ŧ zarcegna|ŧŧ zarda zenso|đ zétola zibaldon|đ zìfera|ŧ zinzapòtole zirnar|đ zolagio|ŧ/zolar/zolo/zulagia(đòl) zonetto/zoni|ŧ zovàdego|đ zelegò|Ŧ [đŧ]an[đŧ]ar
 / apostrophe: ʼ (’)
@@ -78247,6 +78248,9 @@ xguindia/F2	po:noun is:femenine
 / en–dash: –
 / figure dash: ‒
 / search for ([gms]?e|[kv]é|sié|no|f[àéú])-nde(ne) xe, ende/ndʼ/dé, no ʼndene
-/ ge[sx]ería ŧé[đŧ]ol be[đŧ]aròl bol[đŧ]a bu[đŧ]arosa in[đŧ]eregar (kon|in)[đŧ]eñar kave[đŧ]aña ka[đŧ]a ka[đŧ]òto koda[đŧ]i[ln] kon[đŧ]a korpa[đŧ]udo pi[đŧ]al p[ou][ln][đŧ]in sopo[đŧ]ar trò[đŧ]a vàn[đŧ]ega [đŧ]anpèla [đŧ]an[đŧ]ador [đŧ]an[đŧ]ar [đŧ]an[đŧ]arèla [đŧ]ir [đŧ]on [đŧ]àina [đŧ]an[đŧ]ar [đŧ]à[đŧ]era [đŧ]èso
-/ -ar (1): 8694 (78%), -er (2): 91 (0.8%), '-er (3, accents): 1128 (10.1%), -ir/is (4, T4): 981 (8.8%), -ir (5): 258 (2.3%), tot: 11149
+/ ge[sx]ería ŧé[đŧ]ol be[đŧ]aròl bol[đŧ]a bu[đŧ]arosa in[đŧ]eregar (kon|in)[đŧ]eñar kave[đŧ]aña ka[đŧ]a ka[đŧ]òto koda[đŧ]i[ln] kon[đŧ]a korpa[đŧ]udo pi[đŧ]al p[ou][ln][đŧ]in sopo[đŧ]ar trò[đŧ]a vàn[đŧ]ega [đŧ]anpèla [đŧ]an[đŧ]ador [đŧ]an[đŧ]ar [đŧ]an[đŧ]arèla [đŧ]ir [đŧ]on [đŧ]àina [đŧ]à[đŧ]era [đŧ]èso
+/ -ar (1): 8694 (78%), -er (2): 91 (0.8%), '-er (3, accents): 1130 (10.1%), -ir/is (4, T4): 981 (8.8%), -ir (5): 258 (2.3%), tot: 11151
 / 16191220 ago da lanzan
+/ Baffo, Giorgio. “[Raccolta universale delle opere di Giorgio Baffo veneto — Tomo III](https://archive.org/details/Raccolta_universale_delle_opere_di_Giorgio_Baffo_Tomo_3)”. Venezia; 1789.
+/ Pag. 41: “Lode alle tette” - “Tette fatte de late, e de zonchiada”
+/ anke: <j>, <x>
