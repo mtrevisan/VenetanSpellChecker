@@ -2861,7 +2861,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "galop",			"in",			1,	3,	"g",	"1854",			"Unir.",
 "galot",			"",			1,	3,	"g",	"1896",			"",
 "galuŧ",			"in",			1,	3,	"a",	"1852",			"Inamorar, infiamar dal dexidèrio.",
-"galvañ",		"x",			1,	4,	"g",	"1900",			"(veronexe)",
+"galvañ",		"x",			1,	4,	"g",	"1900",			"(veronexe) Èser skonpòsto té le vèsti, traxandar.",
 "gam",			"x",			1,	1,	"g",	"",				"Intüir.",
 "gamel",			"in",			1,	3,	"g",	"",				"Inganberar.",
 "gan",			"dex",		1,	1,	"g",	"1519",			"",
