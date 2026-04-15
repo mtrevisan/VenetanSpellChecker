@@ -7267,6 +7267,9 @@ xganbéŧis/T0N0	po:verb vt:indicative+present is:second is:singular st:xganbeŧ
 xganbesar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple dp:s
 xganbese/T0t0t1T2T3N0N2L0L2l0l2I5I7A0	po:verb vt:indicative+present is:third st:xganbesar dp:s
 xganbésis/T0N0	po:verb vt:indicative+present is:second is:singular st:xganbesar dp:s
+ganbiar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2+0.0*0^4	po:verb vt:infinitive+simple
+ganbie/T0t0t1T2t3T3N0N2L0L2l0l2I5I7+0.0*0^4	po:verb vt:indicative+present is:third st:ganbiar
+gànbis/T0N0+0.0*0^4	po:verb vt:indicative+present is:second is:singular st:ganbiar
 ganbinar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple
 ganbine/T0t0t1T2T3N0N2L0L2l0l2I5I7	po:verb vt:indicative+present is:third st:ganbinar
 ganbínis/T0N0	po:verb vt:indicative+present is:second is:singular st:ganbinar
@@ -31088,7 +31091,8 @@ Dòƚo/Z0	po:noun_proper
 Đüèka/VpZ0	po:noun_proper
 Eraklèa/Z0	po:noun_proper
 Fanadandio/Z0	po:noun_proper
-Fèltre/Z0	po:noun_proper
+Fèltre/Z0	po:noun_proper al:Fèltro
+Fèltro/Z0	po:noun_proper st:Fèltre
 Fiandra/Z0	po:noun_proper
 Fiorensa/Z0	po:noun_proper
 Fiorensia/Z0	po:noun_proper
@@ -31972,7 +31976,8 @@ traƚian/M0M2Bu	po:adjective_qualificative
 traliana/F2	po:adjective_qualificative is:femenine
 traƚiana/F2	po:adjective_qualificative is:femenine
 trentin/M0M2F0F3Bu	po:adjective_qualificative
-trevixan/M0M2F0F3B1Bu	po:adjective_qualificative
+trevixan/M0M2F0F3B1Bu	po:adjective_qualificative al:tervixan
+tervixan/M0M2F0F3B1Bu	po:adjective_qualificative st:trevixan
 prusian/M0M2F0F3B1Bu	po:adjective_qualificative
 trivixan/M0M2F0F3B1Bu	po:adjective_qualificative
 trïestin/M0M2F0F3Bu	po:adjective_qualificative
@@ -36694,6 +36699,11 @@ voltadora/F2v0'0-1+0.0*0	po:noun is:femenine
 / chiesa di San Matteo di Rialto. Venezia; 1384.
 lavoriar/M0M2e0	po:noun
 ƚavoriar/M0M2e1	po:noun
+/ Testi volgari trecenteschi dai Libri provisionum di Belluno. Edizione e glossario, in Studi in ricordo di Giovan Battista Pellegrini (1921-2007) a cento anni dalla nascita — Libro delle Provvisioni della Comunità di Cividal di Belluno, libro A, n. 64, c. 219r (c. 220r); 18 Giugno 1386. Belluno; 2023.
+terèr/M0M2F0F3	po:noun
+krida/F2	po:noun is:femenine al:kria
+distreto/M2A0Pd	po:noun
+/ Testi volgari trecenteschi dai Libri provisionum di Belluno. Edizione e glossario, in Studi in ricordo di Giovan Battista Pellegrini (1921-2007) a cento anni dalla nascita — Libro delle Provvisioni della Comunità di Cividal di Belluno, libro A, n. 64, c. 219v (c. 220v); 24 Giugno 1386. Belluno; 2023.
 / Philippus (de Padua), Jacobus. El libro agregà de Serapiom. Padova; 1390. [parziale]
 amar/M0M2F0F3e0e2	po:adjective_qualificative
 anansi/'0	po:adverb
@@ -37883,7 +37893,6 @@ diƚiɉentemente/w0	po:adverb ds:mente
 dilijenŧa/F2Vr	po:noun is:femenine
 diliɉenŧa/F2Vr	po:noun is:femenine
 disería/F2r0	po:noun is:femenine
-distreto/M2A0Pd	po:noun
 diŧería/F2r0	po:noun is:femenine
 divixa/F2	po:noun is:femenine
 dïòsexe/F2Pd	po:noun is:femenine
@@ -38207,7 +38216,6 @@ kònplise/X0	po:noun is:neuter
 kònpliŧe/X0	po:noun is:neuter
 kòpan/M0M2B1	po:noun
 kòtimo/M2A0	po:noun
-krida/F2	po:noun is:femenine al:kria
 kriminal/X0B1BuVx*0	po:noun is:neuter
 kriminalmente/A0w0	po:adverb ds:mente
 kristal/M0M2B1V0	po:noun
@@ -46371,7 +46379,6 @@ tenebroxamente/A0w0	po:adverb ds:mente
 tenpestoxamente/A0w0	po:adverb ds:mente
 tenpestoxo/M2F0F3A0Pd	po:adjective_qualificative
 teretòrio/M2	po:noun
-terèr/M0M2F0F3	po:noun
 teròko/M2F0F3A0	po:noun
 texaurièr/M0M2Buv0	po:noun
 texaurièra/F2v0	po:noun is:femenine
@@ -78276,10 +78283,10 @@ saƚéxoƚa/F2	po:noun is:femenine
 ŧínger/M1M2F0PdVp	po:adjective_qualificative
 / Il Veses — Parole de ʼna olta. 2020. (https://ilveses.com/parole-de-na-olta/)
 xguindia/F2	po:noun is:femenine
-/ Baffo, Giorgio. Raccolta universale delle opere di Giorgio Baffo veneto — Tomo III. Venezia; 1789.
+/ Testi volgari trecenteschi dai Libri provisionum di Belluno. Edizione e glossario, in Studi in ricordo di Giovan Battista Pellegrini (1921-2007) a cento anni dalla nascita — Libro delle Provvisioni della Comunità di Cividal di Belluno, libro A, n. 64, c. 219v (c. 220v); 24 Giugno 1386. Belluno; 2023.
 
 
-/ 300/314 - 1789
+/ 170/181 - 13860624
 / nodaro. Treviso, IMG_20210309_112945.
 / http://vev.ovi.cnr.it/lexicad/lemmario (20251114 - 8053? bertìgnolo(baretina) cagalina(kagar) càia camastela(mastèla) chiarelo cogozo coriedo cornabò cùgoli cùter deremo ebeada festare(fèsta) gàfaro ganzara ganzega gégomo giagrega(gilè) gornissagorn(gorna) gramin guazaron guzzar impiar invespar lisbonina loch maganzese manguro masamutina mèola osana pasquarosa(paskua) passèlego pepalessa(pèpa) pesàntola petemelebone(petar) pòina refogolar(fogo) rendento santacrose santelmo saponaria sarza scagaìta(kagar) (skagàita, xguaraguàita, xguàita) scaranzia scariòt scaula schierazo scogoçar(kogòŧo) scovadìe sorvo spagno spiàntano/spiantan spilter stanforte stèura stratiòto tarabusèa(tarabuxo) tèstola trabazin(tarabuxo)|? vacamatrè(vaka) vacazùnzoli(vaka) valenzian venarelo(vèner) vescue zabagion|đ zaca zangarin zanzalaro(ŧensala) zanzarela|ŧ zarcegna|ŧŧ zarda zenso|đ zétola zibaldon|đ zìfera|ŧ zinzapòtole zirnar|đ zolagio|ŧ/zolar/zolo/zulagia(đòl) zonetto/zoni|ŧ zovàdego|đ zelegò|Ŧ [đŧ]an[đŧ]ar
 / apostrophe: ʼ (’)
@@ -78288,8 +78295,9 @@ xguindia/F2	po:noun is:femenine
 / figure dash: ‒
 / search for ([gms]?e|[kv]é|sié|no|f[àéú])-nde(ne) xe, ende/ndʼ/dé, no ʼndene
 / ge[sx]ería ŧé[đŧ]ol be[đŧ]aròl bol[đŧ]a bu[đŧ]arosa in[đŧ]eregar (kon|in)[đŧ]eñar kave[đŧ]aña ka[đŧ]a ka[đŧ]òto koda[đŧ]i[ln] kon[đŧ]a korpa[đŧ]udo pi[đŧ]al p[ou][ln][đŧ]in sopo[đŧ]ar trò[đŧ]a vàn[đŧ]ega [đŧ]anpèla [đŧ]an[đŧ]ador [đŧ]an[đŧ]ar [đŧ]an[đŧ]arèla [đŧ]ir [đŧ]on [đŧ]àina [đŧ]à[đŧ]era [đŧ]èso
-/ -ar (1): 8701 (78%), -er (2): 91 (0.8%), '-er (3, accents): 1132 (10.1%), -ir/is (4, T4): 982 (8.8%), -ir (5): 258 (2.3%), tot: 11161
+/ -ar (1): 8706 (78%), -er (2): 91 (0.8%), '-er (3, accents): 1132 (10.1%), -ir/is (4, T4): 982 (8.8%), -ir (5): 258 (2.3%), tot: 11166
 / 16191220 ago da lanzan
 / Baffo, Giorgio. “[Raccolta universale delle opere di Giorgio Baffo veneto — Tomo III](https://archive.org/details/Raccolta_universale_delle_opere_di_Giorgio_Baffo_Tomo_3)”. Venezia; 1789.
 / anke: <j>, <x>
 / muñí, jóven, te xbüàŧis drïé un đúgol, tòk de pacèfa
+/ gi /gi/: Testi volgari trecenteschi dai Libri provisionum di Belluno. Edizione e glossario, in Studi in ricordo di Giovan Battista Pellegrini (1921-2007) a cento anni dalla nascita — Libro delle Provvisioni della Comunità di Cividal di Belluno, libro A, n. 64, c. 219r (c. 220r); 18 Giugno 1386. Belluno; 2023.
