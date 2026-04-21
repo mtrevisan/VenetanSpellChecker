@@ -4641,7 +4641,7 @@ SFX P1 0 -l [^lnr]	cl:pronomenal+accusative
 SFX P1 0 -lo [^l]	cl:pronomenal+accusative
 SFX P1 0 -la [^l]	cl:pronomenal+accusative is:femenine
 SFX P1 0 -li [^l]	cl:pronomenal+accusative is:plural
-SFX P1 0 -ɉi [^l]	cl:pronomenal+accusative is:plural	# pavan
+SFX P1 0 -ji [^l]	cl:pronomenal+accusative is:plural	# pavan
 SFX P1 0 -le [^l]	cl:pronomenal+accusative is:plural is:femenine
 SFX P1 0 -mel [^l]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative
 SFX P1 0 -melo [^l]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative
@@ -4672,7 +4672,7 @@ SFX P1 0 -gel [^l]	cl:pronomenal+locative+accusative is:third cl:pronomenal+accu
 SFX P1 0 -gelo [^l]	cl:pronomenal+locative+accusative is:third cl:pronomenal+accusative
 SFX P1 0 -gela [^l]	cl:pronomenal+locative+accusative is:third cl:pronomenal+accusative is:femenine
 SFX P1 0 -geli [^l]	cl:pronomenal+locative+accusative is:third cl:pronomenal+accusative is:plural
-SFX P1 0 -giɉi [^l]	cl:pronomenal+locative+accusative is:third cl:pronomenal+accusative is:plural	# pavan
+SFX P1 0 -giji [^l]	cl:pronomenal+locative+accusative is:third cl:pronomenal+accusative is:plural	# pavan
 SFX P1 0 -gele [^l]	cl:pronomenal+locative+accusative is:third cl:pronomenal+accusative is:plural is:femenine
 SFX P1 0 o -l	cl:pronomenal+accusative
 SFX P1 0 a -l	cl:pronomenal+accusative is:femenine
@@ -4707,7 +4707,7 @@ SFX P1 l gel -l	cl:pronomenal+locative+accusative is:third cl:pronomenal+accusat
 SFX P1 l gelo -l	cl:pronomenal+locative+accusative is:third cl:pronomenal+accusative
 SFX P1 l gela -l	cl:pronomenal+locative+accusative is:third cl:pronomenal+accusative is:femenine
 SFX P1 l geli -l	cl:pronomenal+locative+accusative is:third cl:pronomenal+accusative is:plural
-SFX P1 l giɉi -l	cl:pronomenal+locative+accusative is:third cl:pronomenal+accusative is:plural	# pavan
+SFX P1 l giji -l	cl:pronomenal+locative+accusative is:third cl:pronomenal+accusative is:plural	# pavan
 SFX P1 l gele -l	cl:pronomenal+locative+accusative is:third cl:pronomenal+accusative is:plural is:femenine
 
 # vèrbo prokonplementar (pronòme konplemento dirèto e indirèto/`se` inparsonal + klítego konpl. dir. de 3a pars./pron. klítego part. `n(e)`, FIXME fòra ke par la prima pars. pl.): 0>-([gmstv]e)?ƚ[oaie]
@@ -4715,7 +4715,7 @@ SFX P2 Y 60
 SFX P2 0 -lo r	cl:pronomenal+accusative
 SFX P2 0 -la r	cl:pronomenal+accusative is:femenine
 SFX P2 0 -li r	cl:pronomenal+accusative is:plural
-SFX P2 0 -ɉi r	cl:pronomenal+accusative is:plural	# pavan
+SFX P2 0 -ji r	cl:pronomenal+accusative is:plural	# pavan
 SFX P2 0 -le r	cl:pronomenal+accusative is:plural is:femenine
 SFX P2 0 -ƚo [^olnr]	cl:pronomenal+accusative is:femenine
 SFX P2 0 -ƚa [^olnr]	cl:pronomenal+accusative is:femenine
@@ -4799,12 +4799,12 @@ SFX I1 0 -jo [nòó]	cl:interrogative	# veneŧian
 SFX I1 0 -ɉo [neèòó]	cl:interrogative	# veneŧian
 SFX I1 0 -ɉe [nòó]	cl:interrogative	# pavan
 SFX I1 0 -ɉu [nòó]	cl:interrogative	# coxòto
-SFX I1 0 -ɉi [nmòóeè]	cl:interrogative	# pavan
+SFX I1 0 -ji [nmòóeè]	cl:interrogative	# pavan
 SFX I1 0 -mi .	cl:interrogative	# cipileño
 SFX I1 o -io [bdglmstŧv]o	cl:interrogative	# veneŧian
 SFX I1 e -io ave	cl:interrogative	# veneŧian
 SFX I1 0 -o avi	cl:interrogative	# paduan
-SFX I1 0 -nɉi [òó	cl:interrogative	# pavan
+SFX I1 0 -nji [òó	cl:interrogative	# pavan
 SFX I1 0 -nti [^nmr]	cl:interrogative	# veronexe
 SFX I1 0 -ni [^nmr]	cl:interrogative	# veronexe
 SFX I1 0 -nte [^nmr]	cl:interrogative	# pavan
@@ -4819,7 +4819,7 @@ SFX I2 o -io [ei]mo	cl:interrogative	# veneŧian
 SFX I2 0 -e .	cl:interrogative	# veneŧian
 SFX I2 0 -ti [nms]	cl:interrogative	# veronexe
 SFX I2 0 -te [nms]	cl:interrogative
-SFX I2 0 -ɉi [nm]	cl:interrogative	# pavan
+SFX I2 0 -ji [nm]	cl:interrogative	# pavan
 SFX I2 0 -ɉe [nm]	cl:interrogative	# pavan
 SFX I2 0 -nti [^nm]	cl:interrogative	# veronexe
 SFX I2 0 -ni [^nm]	cl:interrogative	# veronexe
@@ -4848,13 +4848,13 @@ SFX I5 0 -l [^lnr]	cl:interrogative
 SFX I5 0 -lo [^a]	cl:interrogative
 SFX I5 0 -la [^a]	cl:interrogative is:femenine
 SFX I5 0 -li [^a]	cl:interrogative is:plural
-SFX I5 0 -ɉi [^a]	cl:interrogative is:plural	# pavan
+SFX I5 0 -ji [^a]	cl:interrogative is:plural	# pavan
 SFX I5 e i-li e	cl:interrogative is:plural	# viŧentin
 SFX I5 0 -le [^a]	cl:interrogative is:plural is:femenine
 SFX I5 a e-lo a	cl:interrogative
 SFX I5 a e-la a	cl:interrogative is:femenine
 SFX I5 a e-li a	cl:interrogative is:plural
-SFX I5 a e-ɉi a	cl:interrogative is:plural	# pavan
+SFX I5 a e-ji a	cl:interrogative is:plural	# pavan
 SFX I5 a e-le a	cl:interrogative is:plural is:femenine
 
 # interogativi tèrŧa parsona (senŧa èle vanesente)
@@ -4863,7 +4863,7 @@ SFX I6 o 0 [^n]-lo	cl:interrogative
 SFX I6 o a -lo	cl:interrogative is:femenine
 SFX I6 o i -lo	cl:interrogative is:plural
 SFX I6 e-lo i-li e-lo	cl:interrogative is:plural	# đulian
-SFX I6 e-lo i-ɉi e-lo	cl:interrogative is:plural	# pavan
+SFX I6 e-lo i-ji e-lo	cl:interrogative is:plural	# pavan
 SFX I6 o e -lo	cl:interrogative is:plural is:femenine
 
 # interogativi tèrŧa parsona (ko èle vanesente)
@@ -5325,7 +5325,7 @@ SFX Pd eđo iđi eđo	is:plural
 SFX Pd ođo uđi ođo	is:plural
 SFX Pd eko iki eko	is:plural va:padoan
 SFX Pd oko uki oko	is:plural va:padoan
-SFX Pd eɉo iɉi eɉo	is:plural va:pavan
+SFX Pd ejo iji ejo	is:plural va:pavan
 SFX Pd eƚo iƚi eƚo	is:plural va:padoan
 SFX Pd oƚo uƚi oƚo	is:plural va:padoan
 SFX Pd emo imi emo	is:plural va:padoan
@@ -5391,14 +5391,14 @@ SFX Pd ostoxo ustuxi ostoxo	is:plural va:padoan
 SFX Pd ordioxo urdiuxi ordioxo	is:plural va:padoan
 SFX Pd obrioxo ubriuxi obrioxo	is:plural va:padoan
 
-# trasformaŧion pavana (-ai > -è, -èl > -èɉi)
+# trasformaŧion pavana (-ai > -è, -èl > -èji)
 SFX Pv Y 6
-SFX Pv co ɉi co	is:plural
-SFX Pv l ɉi [aeè]l	is:plural	# -LLI > -ɈI
+SFX Pv co ji co	is:plural
+SFX Pv l ji [aeè]l	is:plural	# -LLI > -JI
 SFX Pv l 0 èl	is:plural
 SFX Pv ai è ai
-SFX Pv ci ɉi ci
-SFX Pv li ɉi li	# -LLI > -ɈI, ILLI > ɈI
+SFX Pv ci ji ci
+SFX Pv li ji li	# -LLI > -JI, ILLI > JI
 
 
 ### Viŧenŧa ###
@@ -6238,12 +6238,12 @@ SFX eL a èla/F2 [^ò][cdlnprsŧv]a	ds:èl
 SFX eL o èl/M0M2B1Pv [^ò][cdjɉpstŧv]o	ds:èl
 
 # sostantivi/ajetivi alterai — demenutivi ko èle vanesente (-èƚo/a)
-SFX e7 Y 34
+SFX e7 Y 35
 SFX e7 e èƚo/M2 e	ds:èl
 SFX e7 0 èƚo/M2 n	ds:èl
 SFX e7 òr orèƚo/M2 òr	ds:èl
 SFX e7 a èƚa/F2 [^cdkjɉƚnprsúv]a	ds:èl
-SFX e7 o èƚo/M2 [^cdíjɉòstv]o	ds:èl
+SFX e7 o èƚo/M2 [^cdíjɉòpstv]o	ds:èl
 SFX e7 0 èƚo/M2 [^ò]r	ds:èl
 SFX e7 úa uèƚa/F2 [aeiou]úa	ds:èl
 SFX e7 úa üèƚa/F2 [^aeiou]úa	ds:èl
@@ -6265,6 +6265,7 @@ SFX e7 òsa osèƚa/F2 òsa	ds:èl
 SFX e7 òva ovèƚa/F2 òva	ds:èl
 SFX e7 òco ocèƚo/M2 òco	ds:èl
 SFX e7 òdo odèƚo/M2 òdo	ds:èl
+SFX e7 òpo opèƚo/M2 òpo	ds:èl
 SFX e7 òjo ojèƚo/M2 òjo	ds:èl
 SFX e7 òɉo oɉèƚo/M2 òɉo	ds:èl
 SFX e7 òso osèƚo/M2 òso	ds:èl
@@ -6272,7 +6273,7 @@ SFX e7 òto otèƚo/M2 òto	ds:èl
 SFX e7 òvo ovèƚo/M2 òvo	ds:èl
 SFX e7 a èƚa/F2 [^èò][kjɉr]a	ds:èl
 SFX e7 a èƚa/F2 [^ò][cdƚnpsv]a	ds:èl
-SFX e7 o èƚo/M2 [^ò][cdjɉstv]o	ds:èl
+SFX e7 o èƚo/M2 [^ò][cdjɉpstv]o	ds:èl
 
 # sostantivi/ajetivi alterai — demenutivi (-in/-ina)
 SFX iN Y 63
