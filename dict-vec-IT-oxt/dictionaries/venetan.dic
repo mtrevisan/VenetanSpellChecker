@@ -13890,6 +13890,12 @@ xmasaréđis/T0N0	po:verb vt:indicative+present is:second is:singular st:xmasare
 xmasarexar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple dp:s
 xmasarexe/T0t0t1T2T3N0N2L0L2l0l2I5I7A0	po:verb vt:indicative+present is:third st:xmasarexar dp:s
 xmasaréxis/T0N0	po:verb vt:indicative+present is:second is:singular st:xmasarexar dp:s
+xmasariđar/T0T1T2T3N0N1N2N4L1L2L3W1P0P1	po:verb vt:infinitive+simple dp:s
+xmasariđe/T0t0T2T3N0N2L0L2I5	po:verb vt:indicative+present is:third st:xmasariđar dp:s
+xmasaríđis/T0N0	po:verb vt:indicative+present is:second is:singular st:xmasariđar dp:s
+xmasarixar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple dp:s
+xmasarixe/T0t0t1T2T3N0N2L0L2l0l2I5I7A0	po:verb vt:indicative+present is:third st:xmasarixar dp:s
+xmasaríxis/T0N0	po:verb vt:indicative+present is:second is:singular st:xmasarixar dp:s
 mascar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2-1+0	po:verb vt:infinitive+simple
 masce/T0t0t1T2T3N0N2L0L2l0l2I5I7-1+0	po:verb vt:indicative+present is:third st:mascar
 màscis/T0N0-1+0	po:verb vt:indicative+present is:second is:singular st:mascar
@@ -34534,8 +34540,8 @@ domandaxon/F1F2B1BuPd	po:noun is:femenine
 dredo/A0+0	po:adverb al:dré
 dredo/A0+0	po:preposition al:dré
 dretamente/A0w0^6	po:adverb ds:mente
-dreto/A0Co	po:adverb
-dreto/M2F0F3A0Pdo0o1o2o3o4^6	po:adjective_qualificative al:derto
+dreto/A0Co+0	po:adverb
+dreto/M2F0F3A0Pdo0o1o2o3o4+0^6	po:adjective_qualificative al:derto
 dur/M0M2e0e2o0o2o4oT	po:adjective_qualificative
 dura/F2oT	po:adjective_qualificative is:femenine
 đeloxía/F2Vp	po:noun is:femenine st:đeloxo
@@ -35559,7 +35565,7 @@ noximento/M2A0PdVr	po:noun st:nòxer ds:mento
 onbra/F2e2i1iN	po:noun is:femenine
 opiƚasion/F1F2BuPd	po:noun is:femenine st:opilar ds:ŧion
 opilaŧion/F1F2B1BuPdV0	po:noun is:femenine st:opilar ds:ŧion
-oreɉa/F2	po:noun is:femenine al:reɉa
+oreja/F2V0	po:noun is:femenine al:reja
 orígan/M0M2B1	po:noun
 oton/M1M2B1BuPd	po:noun
 overo/A0	po:conjunction pa:o pa:vero
@@ -41410,7 +41416,8 @@ bixuko/M2F0F3A0	po:adjective_qualificative
 bur/M0M2	po:noun st:butiro
 cija/F2V0	po:noun is:femenine
 demuòño/M2F0F3	po:noun
-derto/M2F0F3A0Pdo0o1o2o3o4^6	po:adjective_qualificative st:dreto
+derto/A0Co+0	po:adverb st:dreto
+derto/M2F0F3A0Pdo0o1o2o3o4+^6	po:adjective_qualificative st:dreto
 dolsume/M2A0	po:noun st:dolso ds:ume
 dolŧume/M2A0	po:noun st:dolŧo ds:ume
 donaxon/M1M2B1BuPd	po:noun
@@ -41487,7 +41494,7 @@ prexinŧa/F2Vr	po:noun is:femenine
 prüente/X0A0PdVr+0	po:adjective_qualificative is:neuter
 raboxo/M2F0F3A0Pd	po:adjective_qualificative
 raixe/F2	po:noun is:femenine
-reɉa/F2	po:noun is:femenine st:reca
+reja/F2V0	po:noun is:femenine st:reca
 ritondo/M2F0F3A0	po:adjective_qualificative
 saka/F2e2	po:noun is:femenine
 saltarèl/M0M2B1PvV0	po:noun
@@ -41737,6 +41744,23 @@ xentiƚuòmen/M0M2	po:noun st:đentilòmo pa:xentiƚe pa:uòmen
 roversamente/A0w0	po:adverb ds:mente
 persóntena	po:adverb
 perŧóntena	po:adverb
+mañar/M1M2aZaSiNo0o2o4	po:noun
+potinsa/F2Vr+0	po:noun is:femenine
+potinŧa/F2Vr+0	po:noun is:femenine
+brúxema/F2	po:noun is:femenine st:bròxa
+piñolada/F2y1	po:noun is:femenine
+piñoƚada/F2y1	po:noun is:femenine
+denanso/A0	po:adverb
+denanŧo/A0	po:adverb
+gabia/F2e2o0o1o2o3o4	po:noun is:femenine
+nuo/M2F0F3	po:adjective_qualificative st:nudo
+soragonèla/F2V0	po:noun is:femenine pa:sora pa:gonèla
+finimondo/A0	po:noun
+pal/M0M2e0o0o2o4oT	po:noun
+paƚo/M2e1o7o2o4oL	po:noun
+pòta/F2aZaSo0o2o4	po:noun is:femenine
+furegaja/F2V0	po:noun is:femenine
+orsú	po:adverb is:elision st:orsuxo
 / Beolco, Angelo. La Moscheta. Padova; 1531.
 vexin/M0M2BuaTeLe7	po:noun
 vexina/F2aTeLe7	po:noun is:femenine
@@ -41770,8 +41794,6 @@ luɉèga/F2Vp	po:noun is:femenine st:Lujo
 menèstra/F2	po:noun is:femenine al:manèstra
 kristiaña/F2iNo1o3	po:adjective_qualificative is:femenine
 kristiaño/M2iNo0o2o4x0	po:adjective_qualificative
-pal/M0M2e0o0o2o4oT	po:noun
-paƚo/M2e1o7o2o4oL	po:noun
 fuòja/F2aZaSe2*0	po:noun is:femenine
 fuòɉa/F2aZaSe2*0	po:noun is:femenine
 stabilitade/X1	po:noun is:femenine
@@ -41875,8 +41897,6 @@ dañora	po:adverb pa:da pa:òñi pa:ora
 dàtol/M0M2B1PdV0	po:adjective_qualificative
 delubio/M2o0o2o4*0	po:noun
 deƚubio/M2o7o2o4*0	po:noun
-denanso/A0	po:adverb
-denanŧo/A0	po:adverb
 depuòxito/M2A0	po:noun
 derean/M0M2F0F3B1Bu+0	po:adjective_qualificative
 destrameđador/M1M2BuPdv0	po:noun dp:des
@@ -42652,7 +42672,6 @@ polòrbo/M2F0F3	po:adjective_qualificative pa:Pòl pa:òrbo
 poƚòrbo/M2F0F3	po:adjective_qualificative pa:Pòƚo pa:òrbo
 porkon/M1M2B1BuPdaZaS*0	po:adjective_qualificative
 porkona/F2aZaS*0	po:adjective_qualificative is:femenine
-pòta/F2aZaSo0o2o4	po:noun is:femenine
 prénsipe/M2	po:noun
 prénŧipe/M2	po:noun
 pròdigo/M2M4F0F3	po:adjective_qualificative
@@ -42788,7 +42807,6 @@ mina/F2eLe7^4	po:noun is:femenine
 mistade/X1@0	po:noun is:femenine
 moresko/M2F0F3A0Pd	po:adjective_qualificative
 moson/M1M2B1BuPd	po:noun
-nuo/M2F0F3	po:adjective_qualificative st:nudo
 ñàkara/F2*0	po:noun is:femenine
 ocal/M1M2B1Bue0iNi0	po:noun st:òco
 ocaƚe/M2e1iNi0	po:noun st:òco
@@ -43155,7 +43173,6 @@ nuviŧo/M2A1A0	po:noun
 olivo/M2F0F3A0B3r0	po:noun
 oƚivo/M2F0F3r0	po:noun
 oñor	po:adverb pa:òñi pa:ora
-orsú	po:adverb is:elision st:orsuxo
 orsú	po:preposition is:elision st:orsuxo
 oseto/M2A0PdiN	po:noun st:òso ds:eto
 padèla/F2iN	po:noun is:femenine
@@ -48396,7 +48413,6 @@ kó	po:conjunction pa:kuando pa:ke
 kuintaesensa/F2Vr	po:noun is:femenine pa:kuinta pa:esensa
 kuintaesenŧa/F2Vr	po:noun is:femenine pa:kuinta pa:esenŧa
 lupanar/M0M2Vp	po:noun
-mañar/M1M2aZaSiNo0o2o4	po:noun
 medexmamente/A0w0	po:adverb ds:mente
 mèmini	po:noun lg:latin
 miraŧion/F1F2B1BuPdV0@0.0*0	po:noun is:femenine st:mirar ds:ŧion
@@ -69137,8 +69153,6 @@ pindolin/M0M2BuV0	po:noun
 pindolon	po:adverb
 pindoƚon	po:adverb
 pingolin/M0M2BuV0	po:noun
-piñolada/F2y1	po:noun is:femenine
-piñoƚada/F2y1	po:noun is:femenine
 piolpa/F2	po:noun is:femenine
 pipo/M2A0	po:noun
 pirol/M0M2B1PdV0	po:noun
@@ -73929,7 +73943,6 @@ gabelièr/M0M2Buv0	po:noun st:gabèla
 gabeƚièr/M0M2Buv7	po:noun st:gabèƚa
 gabelièra/F2v0	po:noun is:femenine st:gabèla
 gabeƚièra/F2v7	po:noun is:femenine st:gabèƚa
-gabia/F2e2o0o1o2o3o4	po:noun is:femenine
 gabiòto/M2A0	po:noun st:gabia ds:òto
 gađetin/M0M2F0F3Bu	po:noun st:gađeta ds:in
 galanga/F2	po:noun is:femenine
@@ -78337,37 +78350,7 @@ xguindia/F2	po:noun is:femenine
 / Beolco, Angelo. Egloga de Ruzante nominata la Moscheta. Padova; 1530.
 
 
-[5] megio a’tendessé a, a’fazon nu: magnare pan formagio insalò, bevere vin, habia qualche puo' rezetto, farve tanti saoriti, tante fatte magnari. vero guanno strenze zenza penole, inanzo pan deventesse tanto gagiardo mucesse i nuostri pare, zugare, passù savoriti foesse vegnù a man una nuostre, potincia harae butà sotto, harae romagnire fiapi a muò zucàri quando brusema dò, perché passù cose.
-
-[6] fa gnian, contentè, tagiare stratagiare ogni dì pignolè, guarniegi, cotole bandinele mille cancari, a’trafè tanto tal botta derae denanzo metì, cavè cosa, cancaro, vero,! Haìu imparò ficare aniegi regie? a busare on buso!
-
-[7] Hegi vezù quele fa guarniegi ten larghe sotto sora? za bello questo! nuostre: strette sotto, ne, a’cherzo dibia a homo.
-
-[8] digom sti tosatti fantuzati, fa tagiare neghe calze, staghe calè a i zenuogi!
-
-[9] Oh, cancaro, stesse a, lezza stratuti nuovi, quando foesse paese, favellare altro paese,, via vuogia.
-
-[10] Co? canta megio osiegi i salgari gabie? bello polaro pe a man? fa late una vaca fuora a rosà, a salbegura, int’una citè? miegio, foesse ferdo, andasam a’seom nasù, nù nù! crìvu foessè bel veére una femena nua nua tante gonelle soragonelle? a’cherzo. gnian burto veérghe hom, amanco inganerae a tuor. harae inderto. talun par homo, mezo.
-
-[11],, cacève l’altro a mantegnire,, mantignerì, vegnirà presto finimondo., dirè, sto si una vi, si palo. Fin palo sta derto, vi fa furto; co palo amola, vi dà terra. si vaghe fuora, lò, andè l’altro, a’fago, me muar; ché: io io sono io lo farano, sarae?, sarae mosche! bello a dir “io”? schieto a una vaca “una iomenta”, i Spagnaruoli? sona miegio a castron carniero”?Cancaro a i carnieri a i sachi, dasché a’muarè mia!, dosento fiorentinesche!
-
-[12] perché sempre a muò tal fià insorisse, vegnisse tal fià vuogia muar, cambiè vostra’altra. dirè: tolìne’altra boca, n’habiè do. belmò, piaserà me, impresterè sempre mia.
-
-[13] a’sapiè vegnù a, me darì salintio, a’veerì intravene a hom muarse. sta comieria i. questa,, Cremona né Ferara, Pava. maravegiè pizola, l vogiù ella frezare a vegnir.
-
-[14] Tasì, a’sento ch’i vuol vegnir fuora. Moa,  dirà. Die v’aì.
-
-
-Comenza l’atto primo
- 
-
-[1,1] Ruzante
-I proverbii falla: bià quella femena, quella ten drezò l’homo massaria. bià  n’habia una sipia stretta natura, tegna a man. una queste, darghe le man, lagarla a ella, smassarizare a comuò vole ella. a’fago, a’lago mia mogiere vuole.
-
-[1,2] stà anche ella, vîvu, vegnù a stare a Pava, me fa trionfare, a’n’he fastubio pan, né vin né gniente. Potta, anchora otto dì ch’a’seom vegnù a star a Pava, amistè cum soldè, citaini,! tra soldò bergamasco, sta, fia tanto, dò sè dinari portare a; a’gh’i trare sangue cancaro, vegnù sta ventura, a’dirè int’una furegagia sto tagiò borsetto. crezo gnan peccò, a’farè me; chi laga fuzire una ventura, fa pecò a saver pigiare.A’sè a’gh’i trare,, a’trionferè a Pava.
-
-[1,3] me pare stragno di. cantare. me compare, solea sempre star dì, vegna. Horsù, andare a,, a’veerè soldò, a’sè a’dirè,. dirè, puta don vene ancuò, sè ninte,, co diga, a’sbraosarè. Moa, a’sè, cancaro.
-
+kuant.ñente,ninte
 / 1/17 - 1530
 / nodaro. Treviso, IMG_20210309_112945.
 / http://vev.ovi.cnr.it/lexicad/lemmario (20251114 - 8053? bertìgnolo(baretina) cagalina(kagar) càia camastela(mastèla) chiarelo cogozo coriedo cornabò cùgoli cùter deremo ebeada festare(fèsta) gàfaro ganzara ganzega gégomo giagrega(gilè) gornissagorn(gorna) gramin guazaron guzzar impiar invespar lisbonina loch maganzese manguro masamutina mèola osana pasquarosa(paskua) passèlego pepalessa(pèpa) pesàntola petemelebone(petar) pòina refogolar(fogo) rendento santacrose santelmo saponaria sarza scagaìta(kagar) (skagàita, xguaraguàita, xguàita) scaranzia scariòt scaula schierazo scogoçar(kogòŧo) scovadìe sorvo spagno spiàntano/spiantan spilter stanforte stèura stratiòto tarabusèa(tarabuxo) tèstola trabazin(tarabuxo)|? vacamatrè(vaka) vacazùnzoli(vaka) valenzian venarelo(vèner) vescue zabagion|đ zaca zangarin zanzalaro(ŧensala) zanzarela|ŧ zarcegna|ŧŧ zarda zenso|đ zétola zibaldon|đ zìfera|ŧ zinzapòtole zirnar|đ zolagio|ŧ/zolar/zolo/zulagia(đòl) zonetto/zoni|ŧ zovàdego|đ zelegò|Ŧ [đŧ]an[đŧ]ar
@@ -78377,7 +78360,7 @@ I proverbii falla: bià quella femena, quella ten drezò l’homo massaria. bià
 / figure dash: ‒
 / search for ([gms]?e|[kv]é|sié|no|f[àéú])-nde(ne) xe, ende/ndʼ/dé, no ʼndene
 / ge[sx]ería ŧé[đŧ]ol be[đŧ]aròl bol[đŧ]a bu[đŧ]arosa in[đŧ]eregar (kon|in)[đŧ]eñar kave[đŧ]aña ka[đŧ]a ka[đŧ]òto koda[đŧ]i[ln] kon[đŧ]a korpa[đŧ]udo pi[đŧ]al p[ou][ln][đŧ]in sopo[đŧ]ar trò[đŧ]a vàn[đŧ]ega [đŧ]anpèla [đŧ]an[đŧ]ador [đŧ]an[đŧ]ar [đŧ]an[đŧ]arèla [đŧ]ir [đŧ]on [đŧ]àina [đŧ]à[đŧ]era [đŧ]èso
-/ -ar (1): 8712 (78%), -er (2): 91 (0.8%), '-er (3, accents): 1132 (10.1%), -ir/is (4, T4): 982 (8.8%), -ir (5): 258 (2.3%), tot: 11172
+/ -ar (1): 8713 (78%), -er (2): 91 (0.8%), '-er (3, accents): 1132 (10.1%), -ir/is (4, T4): 982 (8.8%), -ir (5): 258 (2.3%), tot: 11173
 / 16191220 ago da lanzan
 / Baffo, Giorgio. “[Raccolta universale delle opere di Giorgio Baffo veneto — Tomo III](https://archive.org/details/Raccolta_universale_delle_opere_di_Giorgio_Baffo_Tomo_3)”. Venezia; 1789.
 / anke: <j>, <x>
