@@ -8195,6 +8195,10 @@ agríxis/T0N0	po:verb vt:indicative+present is:second is:singular st:agrixar dp:
 xgrixar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple dp:s
 xgrixe/T0t0t1T2T3N0N2L0L2l0l2I5I7A0	po:verb vt:indicative+present is:third st:xgrixar dp:s
 xgríxis/T0N0	po:verb vt:indicative+present is:second is:singular st:xgrixar dp:s
+xgrixolar/T0T1T2T3N0N1N2N4L1L2L3W1P0P1	po:verb vt:infinitive+simple dp:s
+xgríxole/T0t0T2T3T7N0N2N7L0L2I5	po:verb vt:indicative+present is:third st:xgrixolar dp:s
+xgrixoƚar/T0T1T2T3l1l2l3w1P0P2	po:verb vt:infinitive+simple dp:s
+xgríxoƚe/T0t1T2T3T7l0l2I7	po:verb vt:indicative+present is:third st:xgrixoƚar dp:s
 grixonar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple
 grixone/T0t0t1T2T3N0N2L0L2l0l2I5I7A0	po:verb vt:indicative+present is:third st:grixonar
 grixónis/T0N0	po:verb vt:indicative+present is:second is:singular st:grixonar
@@ -18834,6 +18838,8 @@ posar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2.0*0	po:verb vt:infinitive+simple
 pòse/T0t0t1T2T3T7N0N2N7L0L2l0l2I5I7A0.0*0	po:verb vt:indicative+present is:third st:posar
 pose/T0t0t1T2T3N0N2L0L2l0l2I5I7A0.0*0	po:verb vt:indicative+present is:third st:posar
 pósis/T0N0.0*0	po:verb vt:indicative+present is:second is:singular st:posar
+arpuosar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple
+arpuòse/T0t0t1T2T3T7N0N2N7L0L2l0l2I5I7A0	po:verb vt:indicative+present is:third st:arpuosar
 poser/T0T1T2T3T8N0N1N2N3N4L1L2L3l1l2l3W2w2W3w3P0P1P2-1	po:verb vt:infinitive+simple
 pòse/T0t0t1T2T3T7N0N7L0L2l0l2I5I7A0-1	po:verb vt:indicative+present is:third st:poser
 poséder/T5T6L5l5W3w3W4P0P1P2	po:verb vt:infinitive+simple
@@ -34540,8 +34546,10 @@ domandaxon/F1F2B1BuPd	po:noun is:femenine
 dredo/A0+0	po:adverb al:dré
 dredo/A0+0	po:preposition al:dré
 dretamente/A0w0^6	po:adverb ds:mente
-dreto/A0Co+0	po:adverb
+dreto/A0+0	po:adverb al:derto
+derto/A0+0	po:adverb st:dreto
 dreto/M2F0F3A0Pdo0o1o2o3o4+0^6	po:adjective_qualificative al:derto
+derto/M2F0F3A0Pdo0o1o2o3o4+0^6	po:adjective_qualificative st:dreto
 dur/M0M2e0e2o0o2o4oT	po:adjective_qualificative
 dura/F2oT	po:adjective_qualificative is:femenine
 đeloxía/F2Vp	po:noun is:femenine st:đeloxo
@@ -41416,8 +41424,6 @@ bixuko/M2F0F3A0	po:adjective_qualificative
 bur/M0M2	po:noun st:butiro
 cija/F2V0	po:noun is:femenine
 demuòño/M2F0F3	po:noun
-derto/A0Co+0	po:adverb st:dreto
-derto/M2F0F3A0Pdo0o1o2o3o4+^6	po:adjective_qualificative st:dreto
 dolsume/M2A0	po:noun st:dolso ds:ume
 dolŧume/M2A0	po:noun st:dolŧo ds:ume
 donaxon/M1M2B1BuPd	po:noun
@@ -42499,7 +42505,7 @@ spontiron/M1M2B1BuPd	po:noun
 stringa/F2e2	po:noun is:femenine
 suòldo/M2A0^3	po:noun
 tamente/A0w0	po:adverb ds:mente
-/ Beolco, Angelo. Dialogo facetissimo. Venezia; 1554.
+/ Beolco, Angelo. Dialogo facetissimo et ridiculosissimo di Ruzzante. Venezia; 1554.
 baobao/M2	po:noun al:babao
 batasuòsola/F2V0	po:noun is:femenine
 đugolèr/M0M2Buv0Vp	po:noun
@@ -42882,6 +42888,20 @@ xixolèr/M0M2Buv0	po:noun st:xíxola
 xixoƚèr/M0M2Buv7	po:noun st:xíxoƚa
 xixolèra/F2v0	po:noun is:femenine st:xíxola
 xixoƚèra/F2v7	po:noun is:femenine st:xíxoƚa
+/ Beolco, Angelo. La Fiorina. Venezia; 1552.
+rođèto/M2A0Pdo0o2o4	po:noun
+roxèto/M2A0Pdo0o2o4	po:noun
+xbalŧo/M2A0V0.0^6	po:noun dp:s
+komièria/F2	po:noun is:femenine st:komèdia
+maleeto/M2F0F3A0Pd	po:adjective_qualificative st:maledeto ds:eto
+maƚeeto/M2F0F3Pd	po:adjective_qualificative st:maƚedeto ds:eto
+xmaña/F2	po:noun is:femenine
+batikuòr/M1M2*0	po:noun pa:bati pa:kuòr
+doixo	po:adjective_qualificative st:dovixo
+vivuòla/F2V0	po:noun is:femenine
+armièlio/M2V0	po:noun st:remièdio
+kivelóndena	po:adverb
+kiveƚóndena	po:adverb
 / Canal, Cristoforo. Dialogo sul remo. Venezia; 1553‒1554.
 aguanaŧo/M2A0	po:noun
 alfin/Bu+0	po:preposition pa:al pa:fin
@@ -45484,7 +45504,6 @@ vera/F2o0o2o4	po:noun is:femenine
 / Venier, Maffío in Gamba, Bartolommeo. Raccolta di poesie in dialetto veneziano dʼogni secolo nuovamente ordinata ed accresciuta [15500606‒15861111]. Venezia; 1845.
 aloé	po:noun is:femenine
 aƚoé	po:noun is:femenine
-batikuòr/M1M2*0	po:noun pa:bati pa:kuòr
 botan/M0M2F0F3B1Bu	po:noun
 brasolèr/M0M2Buv0	po:noun
 brasoƚèr/M0M2Buv7	po:noun
@@ -46642,7 +46661,6 @@ xmalankoñoxamente/A0w0	po:adverb ds:mente
 xmaƚankoñoxamente/w0	po:adverb ds:mente
 xmalankoñoxo/M2F0F3A0Pd	po:adjective_qualificative
 xmaƚankoñoxo/M2F0F3Pd	po:adjective_qualificative
-xmaña/F2	po:noun is:femenine
 xmañalamitade/X1	po:noun is:femenine
 xmañaƚamitade/X1	po:noun is:femenine
 xmañàfigo/M2F0F3	po:adjective_qualificative
@@ -52011,7 +52029,7 @@ reŧipiloxamente/A0w0	po:adverb ds:mente
 reŧipiloxo/M2F0F3A0Pd	po:adjective_qualificative ds:oxo
 revoltolon/BuVs	po:adverb
 revoltolon/M1M2B1BuPdV0Vs	po:noun
-rexeto/M2A0Pd	po:noun
+rexèto/M2A0Pd	po:noun
 rètina/F2	po:noun is:femenine
 ridacon/M1M2F0F1B1BuPd	po:adjective_qualificative
 rigaròla/F2v0	po:noun is:femenine
@@ -53136,7 +53154,6 @@ turíbol/X0B1PdVx	po:adjective_qualificative is:neuter
 ŧelegeta/F2Vp	po:noun is:femenine st:ŧélega ds:eto
 vangeto/M2A0Pd	po:noun st:vanga ds:eto
 vísere	po:interjection
-xbalŧo/M2A0V0.0^6	po:noun dp:s
 xbrio	po:interjection
 xbrufo/M2F0F3A0o0o1o2o3o4	po:adjective_qualificative
 xvoleto/M2A0PdV0	po:noun st:xvol ds:eto
@@ -58638,7 +58655,7 @@ reco/M2eLe7e0o0o1o2o3o4	po:noun
 recòto/M2A0iN	po:noun st:reco ds:òto
 redacon/M1M2F0F1B1BuPd	po:adjective_qualificative
 reditario/M2F0F3	po:adjective_qualificative
-ređeto/M2A0Pd	po:noun
+ređèto/M2A0Pd	po:noun
 ređir/M0M2e0o0o1o2o3o4	po:noun
 referato/M2A0eLe7	po:noun
 refresko/M2A0Pd	po:noun
@@ -62117,14 +62134,12 @@ rimandèl/M0M2B1PvV0	po:noun
 risaño/M2A0	po:noun
 riŧaño/M2A0	po:noun
 rixbògo/A0	po:adverb
-rođèto/M2A0Pdo0o2o4	po:noun
 roló/V0	po:noun
 rondegòto/M2A0	po:noun
 rondolin/M0M2BuV0	po:noun
 roñonada/F2y1	po:noun is:femenine
 roskaròla/F2v0	po:noun is:femenine
 roskaròƚa/F2v7	po:noun is:femenine
-roxeto/M2A0Pdo0o2o4	po:noun
 ròn	po:interjection
 rubo/M2o0o2o4	po:noun
 ruđiòl/M0M2B1	po:noun
@@ -78220,11 +78235,9 @@ rapegaròla/F2v0	po:noun is:femenine
 rapegaròƚa/F2v7	po:noun is:femenine
 rekuajisto/M2A0	po:noun
 rekuaɉisto/M2A0	po:noun
-rođeto/M2A0Pd	po:noun
 rokèto/M2F0F3A0	po:noun
 rondinèl/M0M2B1PvV0	po:noun
 rondinèla/F2V0	po:noun is:femenine
-roxèto/M2F0F3A0	po:noun
 ròsola/F2V0	po:noun is:femenine
 sardenar/M0M2	po:noun
 sarganèl/M0M2B1PvV0	po:noun
@@ -78347,11 +78360,10 @@ saƚéxoƚa/F2	po:noun is:femenine
 ŧínger/M1M2F0PdVp	po:adjective_qualificative
 / Il Veses — Parole de ʼna olta. 2020. (https://ilveses.com/parole-de-na-olta/)
 xguindia/F2	po:noun is:femenine
-/ Beolco, Angelo. Egloga de Ruzante nominata la Moscheta. Padova; 1530.
+/ Beolco, Angelo. La Fiorina. Venezia; 1552.
 
 
-kuant.ñente,ninte
-/ 1/17 - 1530
+/ 5/25 - 1552
 / nodaro. Treviso, IMG_20210309_112945.
 / http://vev.ovi.cnr.it/lexicad/lemmario (20251114 - 8053? bertìgnolo(baretina) cagalina(kagar) càia camastela(mastèla) chiarelo cogozo coriedo cornabò cùgoli cùter deremo ebeada festare(fèsta) gàfaro ganzara ganzega gégomo giagrega(gilè) gornissagorn(gorna) gramin guazaron guzzar impiar invespar lisbonina loch maganzese manguro masamutina mèola osana pasquarosa(paskua) passèlego pepalessa(pèpa) pesàntola petemelebone(petar) pòina refogolar(fogo) rendento santacrose santelmo saponaria sarza scagaìta(kagar) (skagàita, xguaraguàita, xguàita) scaranzia scariòt scaula schierazo scogoçar(kogòŧo) scovadìe sorvo spagno spiàntano/spiantan spilter stanforte stèura stratiòto tarabusèa(tarabuxo) tèstola trabazin(tarabuxo)|? vacamatrè(vaka) vacazùnzoli(vaka) valenzian venarelo(vèner) vescue zabagion|đ zaca zangarin zanzalaro(ŧensala) zanzarela|ŧ zarcegna|ŧŧ zarda zenso|đ zétola zibaldon|đ zìfera|ŧ zinzapòtole zirnar|đ zolagio|ŧ/zolar/zolo/zulagia(đòl) zonetto/zoni|ŧ zovàdego|đ zelegò|Ŧ [đŧ]an[đŧ]ar
 / apostrophe: ʼ (’)
@@ -78360,7 +78372,7 @@ kuant.ñente,ninte
 / figure dash: ‒
 / search for ([gms]?e|[kv]é|sié|no|f[àéú])-nde(ne) xe, ende/ndʼ/dé, no ʼndene
 / ge[sx]ería ŧé[đŧ]ol be[đŧ]aròl bol[đŧ]a bu[đŧ]arosa in[đŧ]eregar (kon|in)[đŧ]eñar kave[đŧ]aña ka[đŧ]a ka[đŧ]òto koda[đŧ]i[ln] kon[đŧ]a korpa[đŧ]udo pi[đŧ]al p[ou][ln][đŧ]in sopo[đŧ]ar trò[đŧ]a vàn[đŧ]ega [đŧ]anpèla [đŧ]an[đŧ]ador [đŧ]an[đŧ]ar [đŧ]an[đŧ]arèla [đŧ]ir [đŧ]on [đŧ]àina [đŧ]à[đŧ]era [đŧ]èso
-/ -ar (1): 8713 (78%), -er (2): 91 (0.8%), '-er (3, accents): 1132 (10.1%), -ir/is (4, T4): 982 (8.8%), -ir (5): 258 (2.3%), tot: 11173
+/ -ar (1): 8715 (78%), -er (2): 91 (0.8%), '-er (3, accents): 1132 (10.1%), -ir/is (4, T4): 982 (8.8%), -ir (5): 258 (2.3%), tot: 11175
 / 16191220 ago da lanzan
 / Baffo, Giorgio. “[Raccolta universale delle opere di Giorgio Baffo veneto — Tomo III](https://archive.org/details/Raccolta_universale_delle_opere_di_Giorgio_Baffo_Tomo_3)”. Venezia; 1789.
 / anke: <j>, <x>

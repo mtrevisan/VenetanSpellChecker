@@ -44,22 +44,27 @@ BREAK 0
 # affix rules can strip full words, not only one less characters
 FULLSTRIP
 
-# suggest the right forms for words which incorrectly choose the wrong letter from a related set more than once in a word
-MAP 12
+# suggest the right forms for words which incorrectly choose the wrong letter from a related set more than once in a word (improve ranking when errors repeat in the same word)
+MAP 17
 MAP aà
 MAP eèé
 MAP iïí
 MAP oòó
 MAP uüú
+MAP cŧ
 MAP dđ
+MAP sx
 MAP AÀ
 MAP EÈÉ
 MAP IÏÍ
 MAP OÒÓ
 MAP UÜÚ
+MAP CŦ
 MAP DĐ
+MAP SX
+MAP -‒–
 
-# replace input characters
+# replace input characters (normalize acceptable graphic variants)
 ICONV 33
 ICONV ' ʼ
 ICONV ‘ ʼ
@@ -99,30 +104,8 @@ OCONV 2
 OCONV ñ gn
 OCONV Ñ GN
 
-# frequently switched character groups
-REP 118
-REP - ‒
-REP - –
-REP - -
-REP – ‒
-REP – -
-REP ‒ -
-REP ‒ –
-REP a à
-REP e è
-REP e é
-REP è é
-REP i í
-REP i ï
-REP o ò
-REP o ó
-REP ò ó
-REP u ú
-REP u ü
-REP c ŧ
-REP d đ
-REP s x
-REP x s
+# frequently switched character groups (correct forms that must never be accepted)
+REP 96
 REP mb nb
 REP mf nf
 REP mp np
@@ -4795,11 +4778,11 @@ SFX P5 0 -ge í	# ége, belumat
 SFX I1 Y 18
 SFX I1 0 -i .	cl:interrogative	# trevixan, veneŧian, padoan, viŧentin, polexan, veronexe
 SFX I1 0 -e .	cl:interrogative	# veneŧian
-SFX I1 0 -jo [nòó]	cl:interrogative	# veneŧian
+SFX I1 0 -jo [neèòó]	cl:interrogative	# veneŧian
 SFX I1 0 -ɉo [neèòó]	cl:interrogative	# veneŧian
-SFX I1 0 -ɉe [nòó]	cl:interrogative	# pavan
-SFX I1 0 -ɉu [nòó]	cl:interrogative	# coxòto
-SFX I1 0 -ji [nmòóeè]	cl:interrogative	# pavan
+SFX I1 0 -je [neèòó]	cl:interrogative	# pavan
+SFX I1 0 -ɉu [neèòó]	cl:interrogative	# coxòto
+SFX I1 0 -ji [nmeèòó]	cl:interrogative	# pavan
 SFX I1 0 -mi .	cl:interrogative	# cipileño
 SFX I1 o -io [bdglmstŧv]o	cl:interrogative	# veneŧian
 SFX I1 e -io ave	cl:interrogative	# veneŧian
@@ -4820,7 +4803,7 @@ SFX I2 0 -e .	cl:interrogative	# veneŧian
 SFX I2 0 -ti [nms]	cl:interrogative	# veronexe
 SFX I2 0 -te [nms]	cl:interrogative
 SFX I2 0 -ji [nm]	cl:interrogative	# pavan
-SFX I2 0 -ɉe [nm]	cl:interrogative	# pavan
+SFX I2 0 -je [nm]	cl:interrogative	# pavan
 SFX I2 0 -nti [^nm]	cl:interrogative	# veronexe
 SFX I2 0 -ni [^nm]	cl:interrogative	# veronexe
 SFX I2 0 -nte [^nm]	cl:interrogative	# pavan
@@ -5392,8 +5375,9 @@ SFX Pd ordioxo urdiuxi ordioxo	is:plural va:padoan
 SFX Pd obrioxo ubriuxi obrioxo	is:plural va:padoan
 
 # trasformaŧion pavana (-ai > -è, -èl > -èji)
-SFX Pv Y 5
+SFX Pv Y 6
 SFX Pv co ji co	is:plural
+SFX Pv ci ji ci
 SFX Pv l ji [aeè]l	is:plural	# -LLI > -JI
 SFX Pv l 0 èl	is:plural
 SFX Pv ai è ai
