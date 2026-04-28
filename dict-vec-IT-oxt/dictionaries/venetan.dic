@@ -541,6 +541,9 @@ arkibúxis/T0N0	po:verb vt:indicative+present is:second is:singular st:arkibuxar
 arkobuxar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple
 arkobuxe/T0t0t1T2T3N0N2L0L2l0l2I5I7A0	po:verb vt:indicative+present is:third st:arkobuxar
 arkobúxis/T0N0	po:verb vt:indicative+present is:second is:singular st:arkobuxar
+inarkonar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple dp:in
+inarkone/T0t0t1T2T3N0N2L0L2l0l2I5I7	po:verb vt:indicative+present is:third st:inarkonar dp:in
+inarkónis/T0N0	po:verb vt:indicative+present is:second is:singular st:inarkonar dp:in
 arlekinar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple
 arlekine/T0t0t1T2T3N0N2L0L2l0l2I5I7	po:verb vt:indicative+present is:third st:arlekinar
 arlekínis/T0N0	po:verb vt:indicative+present is:second is:singular st:arlekinar
@@ -33210,7 +33213,7 @@ kruda/F2oT	po:adjective_qualificative is:femenine
 krudelitade/X1	po:noun is:femenine
 krudeƚitade/X1	po:noun is:femenine
 krudelmente/A0w0	po:adverb ds:mente
-krudèl/X0B1CoVx	po:adjective_qualificative is:neuter
+krudèl/X0B1VxCo	po:adjective_qualificative is:neuter
 krudo/M2A0e0e2oT	po:adjective_qualificative al:kruo al:krú
 kualunka	po:adjective_qualificative is:neuter
 kuaƚunka	po:adjective_qualificative is:neuter
@@ -35473,8 +35476,8 @@ axedoxo/M2F0F3A0Pd	po:adjective_qualificative st:axedo ds:oxo
 ànexe/M2A0Pd	po:noun
 àxen/M0M2F0F3B1Pd	po:noun
 bexoñével/X0B1PdVx	po:noun is:neuter
-bruta/F2CoaZaS	po:adjective_qualificative is:femenine
-bruto/M2A0CoaZaSe0e2	po:adjective_qualificative
+bruta/F2aZaSCo	po:adjective_qualificative is:femenine
+bruto/M2A0aZaSe0e2Co	po:adjective_qualificative
 butir/M0M2o0o1o2o3o4	po:noun
 deđestion/F1F2B1BuPd	po:noun is:femenine
 dekoŧion/M1M2B1BuPdV1	po:noun dp:de
@@ -42214,7 +42217,7 @@ vua/F2	po:noun is:femenine st:uva
 xbraoxitade/X1	po:noun is:femenine st:xbraoxo
 xbravería/F2r0	po:noun is:femenine dp:s
 xgargatil/M1M2BuVm	po:noun
-/ Beolco, Angelo. L'Anconitana. Padova; 1532.
+/ Beolco, Angelo. LʼAnconitana. Padova; 1532.
 ago/M2A0e0o0o2o4oT	po:noun
 albarèl/M0M2B1PvV0	po:noun st:àlbar ds:èl
 arkàñol/M0M2B1PdV0	po:noun st:àñol
@@ -42505,7 +42508,7 @@ voƚentièr/^7'0	po:adverb lg:french
 voxina/F2	po:noun is:femenine st:voxe ds:in
 vòvo/M2A0B3e0Cu	po:noun
 xeƚoxo/M2F0F3Pd	po:adjective_qualificative
-/ Beolco, Angelo. Lettera all'Alvarotto. Padova; 1537.
+/ Beolco, Angelo. Lettera allʼAlvarotto. Padova; 1537.
 xmaselatamente/A0w0	po:adverb ds:mente
 xmaseƚatamente/w0	po:adverb ds:mente
 montexièl/M0M2B1PvV0	po:noun st:monte ds:èl
@@ -42521,6 +42524,17 @@ gatièl/M0M2B1PvV0	po:noun st:gato ds:èl
 gatièla/F2V0	po:noun st:gata ds:èl
 ŧérŧen/M1M2B1Pd	po:noun
 sérsen/M1M2B1Pd	po:noun
+pexuòko/M2F0F3A0	po:adjective_qualificative
+verèr/M0M2Buv0	po:noun st:vero
+verèra/F2v0	po:noun is:femenine st:vero
+usta/F2	po:noun is:femenine
+maliŧion/F1F2B1BuPdV0	po:noun is:femenine
+maƚision/F1F2BuPd	po:noun is:femenine
+pèka/F2	po:noun is:femenine
+ŧimiñòla/F2v0Vp	po:noun is:femenine
+simiñòƚa/F2v7	po:noun is:femenine
+tronbonson/M1M2F0F1B1BuPd	po:adjective_qualificative st:tronbon ds:on
+tronbonŧon/M1M2F0F1B1BuPd	po:adjective_qualificative st:tronbon ds:on
 / Le lettere di messer Andrea Calmo [15440101]. Torino; 1888.
 arkunbeesko/M2F0F3A0Pd	po:adjective_qualificative st:arkunbè ds:esko
 àngul/M0M2B2b3	po:noun
@@ -42742,10 +42756,8 @@ pin/M0M2F0F3Bu	po:adjective_qualificative st:pièn
 ragomante/X0A0	po:noun is:neuter
 rèmola/F2V0	po:noun is:femenine
 rovèso/M2F0F3A0	po:adjective_qualificative
-simiñòƚa/F2v7	po:noun is:femenine
 skrimia/F2	po:noun is:femenine
 sparpanaŧo/M2A0V0	po:noun
-ŧimiñòla/F2v0Vp	po:noun is:femenine
 uxulario/M2F0F3	po:adjective_qualificative
 uxuƚario/M2F0F3	po:adjective_qualificative
 vivoƚeso/M2Pd	po:adjective_qualificative
@@ -46792,8 +46804,6 @@ vendiŧion/X0B1BuPd	po:adjective_qualificative is:neuter ds:ŧion
 ventoxamente/A0w0	po:adverb ds:mente
 verenoxamente/A0w0	po:adverb ds:mente
 verenoxo/M2F0F3A0Pd	po:adjective_qualificative
-verèr/M0M2Buv0	po:noun st:vero
-verèra/F2v0	po:noun is:femenine st:vero
 vertulioxamente/A0w0	po:adverb ds:mente
 vertuƚioxamente/w0	po:adverb ds:mente
 vertulioxo/M2F0F3A0Pd	po:adjective_qualificative
@@ -48213,7 +48223,6 @@ pareño/M2A0Pd	po:noun st:pare
 pastròco/M2F0F3A0	po:noun
 petegoƚeso/M2Pd	po:noun st:petégoƚo ds:eŧo
 petegoleŧo/M2A0PdV0	po:noun st:petégol ds:eŧo
-pèka/F2	po:noun is:femenine
 piponŧina/F2V0	po:noun is:femenine st:pipona ds:in
 pílola/F2	po:noun is:femenine
 píƚoƚa/F2	po:noun is:femenine
@@ -67188,8 +67197,8 @@ foraseci/Pv	po:noun pa:fora pa:seci
 forsal/M0M2B1BuV0	po:noun
 forŧal/M0M2B1Bu	po:noun
 gonèl/M0M2B1PvV0	po:noun
-griđoleta/F2	po:noun is:femenine st:griđòla ds:eto
-grixoleta/F2V0	po:noun is:femenine st:grixòla ds:eto
+griđoleta/F2*0	po:noun is:femenine st:griđòla ds:eto
+grixoleta/F2V0*0	po:noun is:femenine st:grixòla ds:eto
 inbraga/F2	po:noun is:femenine
 jarin/M0M2F0F3BuVp	po:noun st:java ds:in
 jevareto/M2A0PdVp	po:noun st:jèvar ds:eto
@@ -72821,6 +72830,7 @@ xlàuŧo/M2A0V0	po:adjective_qualificative
 xlòpo/M2F0F3A0	po:adjective_qualificative
 xmuxa/F2	po:noun is:femenine
 / Dizionario Roe Basse. Sedico (Belluno); 20210522, 2318 voci.
+roinamento/M2A0PdVr-0	po:noun st:roinar ds:mento
 abedo/M2y0	po:noun
 adeguado/M2F0F3A0y0y1+0	po:adjective_qualificative
 adeguateŧa/F2V0+0	po:noun is:femenine st:adeguato ds:eŧa
@@ -77868,7 +77878,6 @@ unkuò	po:adverb
 urban/M0M2F0F3B1Bu	po:adjective_qualificative
 urtador/M1M2BuPdv0	po:noun
 urtadora/F2v0	po:noun is:femenine
-usta/F2	po:noun is:femenine
 uxelèr/M0M2Buv0	po:noun st:uxèl
 uxeƚèr/M0M2Buv7	po:noun st:uxèƚo
 uxelèra/F2v0	po:noun is:femenine st:uxèl
@@ -78614,10 +78623,10 @@ saƚéxoƚa/F2	po:noun is:femenine
 ŧínger/M1M2F0PdVp	po:adjective_qualificative
 / Il Veses — Parole de ʼna olta. 2020. (https://ilveses.com/parole-de-na-olta/)
 xguindia/F2	po:noun is:femenine
-/ Beolco, Angelo. Lettera all'Alvarotto. Padova; 1537.
+/ ?
 
 
-/ 25/38 - 1537
+/ 35/38 - 1537
 / nodaro. Treviso, IMG_20210309_112945.
 / http://vev.ovi.cnr.it/lexicad/lemmario (20260424 - 8158? bailía bertìgnolo(baretina) cagalina(kagar) càia camastela(mastèla) chiarelo cogozo coriedo cornabò cùgoli cùter deremo ebeada festare(fèsta) gàfaro ganzara ganzega gégomo giagrega(gilè) gornissagorn(gorna) gramin guazaron guzzar frasio impiar invespar lisbonina loch maganzese manguro masamutina mèola osana pasquarosa(paskua) passèlego pepalessa(pèpa) pesàntola petemelebone(petar) pòina refogolar(fogo) rendento santacrose santelmo saponaria sarza scagaìta(kagar) (skagaita, xguaraguaita, xguaita) scaranzia scariòt scaula schierazo scogoçar(kogòŧo) scovadìe sorvo spagno spiàntano/spiantan stanforte stèura stratiòto tarabusèa(tarabuxo) tèstola trabazin(tarabuxo) strabùzene(strabúxen)|? vacamatrè(vaka) vacazùnzoli(vaka) valenzian venarelo(vèner) vescue zabagion|đ zaca zangarin zanzalaro(ŧensala) zanzarela|ŧ zarcegna|ŧŧ zarda zenso|đ zétola zibaldon|đ zìfera|ŧ zinzapòtole zirnar|đ zolagio|ŧ/zolar/zolo/zulagia(đòl) zovàdego|đ zelegò|Ŧ [đŧ]an[đŧ]ar
 / apostrophe: ʼ (’)
@@ -78626,7 +78635,7 @@ xguindia/F2	po:noun is:femenine
 / figure dash: ‒
 / search for ([gms]?e|[kv]é|sié|no|f[àéú])-nde(ne) xe, ende/ndʼ/dé, no ʼndene
 / ge[sx]ería ŧé[đŧ]ol be[đŧ]aròl bol[đŧ]a bu[đŧ]arosa in[đŧ]eregar (kon|in)[đŧ]eñar kave[đŧ]aña ka[đŧ]a ka[đŧ]òto koda[đŧ]i[ln] kon[đŧ]a korpa[đŧ]udo pi[đŧ]al p[ou][ln][đŧ]in sopo[đŧ]ar trò[đŧ]a vàn[đŧ]ega [đŧ]anpèla [đŧ]an[đŧ]ador [đŧ]an[đŧ]ar [đŧ]an[đŧ]arèla [đŧ]ir [đŧ]on [đŧ]àina [đŧ]à[đŧ]era [đŧ]èso
-/ -ar (1): 8734 (78%), -er (2): 95 (0.8%), '-er (3, accents): 1133 (10.1%), -ir/is (4, T4): 982 (8.8%), -ir (5): 258 (2.3%), tot: 11199
+/ -ar (1): 8735 (78%), -er (2): 95 (0.8%), '-er (3, accents): 1133 (10.1%), -ir/is (4, T4): 982 (8.8%), -ir (5): 258 (2.3%), tot: 11200
 / 16191220 ago da lanzan
 / Baffo, Giorgio. “[Raccolta universale delle opere di Giorgio Baffo veneto — Tomo III](https://archive.org/details/Raccolta_universale_delle_opere_di_Giorgio_Baffo_Tomo_3)”. Venezia; 1789.
 / anke: <j>, <x>
