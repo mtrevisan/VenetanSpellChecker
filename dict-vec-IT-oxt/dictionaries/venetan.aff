@@ -961,7 +961,7 @@ SFX T5 r s/I3 er	vt:indicative+present is:second is:singular	# T10s = T8 + es, 2
 
 # '-er
 # group: indicative+future, conditional+present, infinitive simple
-SFX T6 Y 44
+SFX T6 Y 45
 SFX T6 erò arò/I1 erò	vt:indicative+future is:first is:singular	# T4 + r[òàè]
 SFX T6 erò arà/I1 erò	vt:indicative+future is:first is:singular	# T4 + r[òàè]
 SFX T6 erò aremo/I2 erò	vt:indicative+future is:first is:plural	# T4 + r[éí]mo
@@ -973,6 +973,7 @@ SFX T6 erò ares/I3 erò	vt:indicative+future is:second is:singular	# T4 + r[à�
 SFX T6 erò arè/I4 erò	vt:indicative+future is:second is:plural	# T4 + r[èéí]
 SFX T6 erò arí/I4 erò	vt:indicative+future is:second is:plural	# T4 + r[èéí]
 SFX T6 erò arà erò	vt:indicative+future is:third	# T4 + rà
+SFX T6 erò irà erò	vt:indicative+future is:third	# T4 + rà, pavan
 SFX T6 erò aría erò	vt:conditional+present is:first is:singular	# T4 + rí[ae]/réa
 SFX T6 erò area erò	vt:conditional+present is:first is:singular	# T4 + rí[ae]/réa, veronexe
 SFX T6 erò arésimo/I2 erò	vt:conditional+present is:first is:plural	# T4 + r[éí]simo
@@ -5003,20 +5004,20 @@ SFX A0 xi s xi
 # 	grena/M2F2
 # kađion/F1F2
 
-# paròle maskoline singolari (C > -o, à > ao, ó > oo, é > ee)
+# paròle singolari maskoline (C > -o, à > ao, ó > oo, é > ee)
 SFX M0 Y 4
 SFX M0 à ao à
 SFX M0 é ee é
 SFX M0 ó oo ó
 SFX M0 0 o [^aàeéioó]
 
-# paròle maskoline singolari (C > -e, o > e)
+# paròle singolari maskoline (C > -e, o > e)
 # se ge xé M1, lora ge xé anka M2
 SFX M1 Y 2
 SFX M1 0 e [^aàeéioó]
 SFX M1 o e o
 
-# paròle maskoline plurali (C > -i, o > i|[^i]o, io > i, [ae] > i, à > ai, é > ei, ó > oi)
+# paròle plurali maskoline (C > -i, o > i|[^i]o, io > i, [ae] > i, à > ai, é > ei, ó > oi)
 SFX M2 Y 8
 SFX M2 0 i [^aàeéioó]	is:plural
 SFX M2 o i [^i]o	is:plural
@@ -5027,11 +5028,11 @@ SFX M2 à ai à	is:plural
 SFX M2 é ei é	is:plural
 SFX M2 ó oi ó	is:plural
 
-# paròle maskoline plurali mono-silabiŧi (o > i|io)
+# paròle plurali maskoline mono-silabiŧi (o > i|io)
 SFX M3 Y 1
 SFX M3 o i [^aeiouàèéíòóú]io	is:plural
 
-# paròle maskoline plurali antigi (go > xi|[eèi]go)
+# paròle plurali maskoline antigi (go > xi|[eèi]go)
 SFX M4 Y 1
 SFX M4 go xi [eèi]go	is:plural
 
@@ -5057,11 +5058,16 @@ SFX F3 Y 2
 SFX F3 0 e [^aeio]	is:plural is:femenine
 SFX F3 o e o	is:plural is:femenine
 
-# paròle singolari: đontamento de -io/a a le paròle in -o/a (a > ia, o>io|[^cijɉñ]o, [lnr] > -io)
-SFX A1 Y 3
-SFX A1 a ia/F2 a	is:femenine
+# paròle singolari maskoline: đontamento de -io a le paròle in [lnr] / -o (o>io|[^cijɉñ]o, [lnr] > -io)
+SFX A1 Y 2
 SFX A1 o io [^cijɉñ]o
 SFX A1 0 io [lnr]
+
+# paròle singolari femenili: đontamento de -ia a le paròle in [lnr] / -a/o ([ao] > ia)
+SFX A2 Y 3
+SFX A2 a ia/F2 [^cijɉñ]a	is:femenine
+SFX A2 o ia/F2 [^cijɉñ]o	is:femenine
+SFX A2 0 ia [lnr]	is:femenine
 
 # paròle senŧa đèner plurali ([aeo] > i, [lnr] > -e/i)
 SFX X0 Y 5
@@ -5319,7 +5325,7 @@ PFX Ci st sti st[oò]
 ### Pàdoa ###
 
 # metafonèxi padoana
-SFX Pd Y 82
+SFX Pd Y 84
 SFX Pd el ili/Pv el	is:plural va:padoan
 SFX Pd ol uli/Pv ol	is:plural va:padoan
 SFX Pd òl uli/Pv òl	is:plural va:padoan
@@ -5368,6 +5374,7 @@ SFX Pd onte unti onte	is:plural va:padoan
 SFX Pd orte urti orte	is:plural va:padoan
 SFX Pd oldo uldi oldo	is:plural va:padoan
 SFX Pd ordo urdi ordo	is:plural va:padoan
+SFX Pd orto urti orto	is:plural va:padoan
 SFX Pd orđo urđi orđo	is:plural
 SFX Pd olko ulki olko	is:plural va:padoan
 SFX Pd olmo ulmi olmo	is:plural va:padoan
@@ -5378,6 +5385,7 @@ SFX Pd osko uski osko	is:plural va:padoan
 SFX Pd enpo inpi enpo	is:plural va:padoan
 SFX Pd esto isti esto	is:plural va:padoan
 SFX Pd erco irci erco	is:plural va:padoan
+SFX Pd erdo irdi erdo	is:plural va:padoan
 SFX Pd onto unti onto	is:plural va:padoan
 SFX Pd orno urni orno	is:plural va:padoan
 SFX Pd orxo urxi orxo	is:plural va:padoan
@@ -5572,19 +5580,19 @@ SFX v0 r toreta/F2 [^èo]r	ds:eto
 SFX v0 r oreto/M2A0Pd [^èo]r	ds:eto
 SFX v0 r doreto/M2A0Pd [^èo]r	ds:eto
 SFX v0 r toreto/M2A0Pd [^èo]r	ds:eto
-SFX v0 òl uòl/M0M2B1 [dđfigjɉñrsŧx]òl	# faxe 1: XIV‒XV sèk.
-SFX v0 òl uoleto/M2A0Pd [dđfigjɉñrsŧx]òl	ds:eto	# faxe 1: XIV‒XV sèk.
+SFX v0 òl uòl/M0M2B1 [dđfgiïjɉñrsŧx]òl	# faxe 1: XIV‒XV sèk.
+SFX v0 òl uoleto/M2A0Pd [dđfgiïjɉñrsŧx]òl	ds:eto	# faxe 1: XIV‒XV sèk.
 SFX v0 òl iòl/M0M2B1 [dđfrsŧx]òl	# faxe 2: XVI‒XVIII sèk.
 SFX v0 òl ioleto/M2A0Pd [dđfrsŧx]òl	ds:eto	# faxe 2: XVI‒XVIII sèk.
-SFX v0 òl ol/M0M2B1 [dđfigjɉñrsŧx]òl	# faxe 3: XIX sèk., belumat
-SFX v0 òl oleto/M2A0Pd [dđfigjɉñrsŧx]òl	ds:eto	# faxe 3: XIX sèk.
+SFX v0 òl ol/M0M2B1 [dđfgiïjɉñrsŧx]òl	# faxe 3: XIX sèk., belumat
+SFX v0 òl oleto/M2A0Pd [dđfgiïjɉñrsŧx]òl	ds:eto	# faxe 3: XIX sèk.
 SFX v0 òl iol/M0M2B1 [dđfrsŧx]òl	# faxe 3: XIX sèk., belumat
 SFX v0 òla uòla/F2 [dđfgjɉkñrsŧx]òla	# faxe 1: XIV‒XV sèk.
 SFX v0 òla uoleta/F2 [dđfgjɉkrsŧx]òla	ds:eto	# faxe 1: XIV‒XV sèk.
 SFX v0 òla iòla/F2 [dđfrsŧx]òla	# faxe 2: XVI‒XVIII sèk.
 SFX v0 òla ioleta/F2 [dđfrsŧx]òla	ds:eto	# faxe 2: XVI‒XVIII sèk.
-SFX v0 òla ola/F2 [dđfgjɉkñrsŧx]òla	# faxe 3: XIX sèk., belumat
-SFX v0 òla oleta/F2 [dđfgjɉkñrsŧx]òla	ds:eto	# faxe 3: XIX sèk.
+SFX v0 òla ola/F2 [dđfgiïjɉkñrsŧx]òla	# faxe 3: XIX sèk., belumat
+SFX v0 òla oleta/F2 [dđfgiïjɉkñrsŧx]òla	ds:eto	# faxe 3: XIX sèk.
 SFX v0 òla iola/F2 [dđfrsŧx]òla	# faxe 3: XIX sèk., belumat
 
 # piante e mistièri ko èle vanesente (-èr, -aro, -i?oƚo/-i?òƚo)
@@ -5649,19 +5657,19 @@ SFX v7 èra areta/F2 [^i]èra	ds:eto
 SFX v7 èra ereta/F2 [^i]èra	ds:eto
 SFX v7 èra iareta/F2 [^aeoucijɉñ]èra	ds:eto
 SFX v7 èra iereta/F2 [^aeoucijɉñ]èra	ds:eto
-SFX v7 òƚo uòƚo/M2 [dđfigjɉñrsŧx]òƚo	# faxe 1: XIV‒XV sèk.
-SFX v7 òƚo uoƚeto/M2Pd [dđfigjɉñrsŧx]òƚo	ds:eto	# faxe 1: XIV‒XV sèk.
+SFX v7 òƚo uòƚo/M2 [dđfgiïjɉñrsŧx]òƚo	# faxe 1: XIV‒XV sèk.
+SFX v7 òƚo uoƚeto/M2Pd [dđfgiïjɉñrsŧx]òƚo	ds:eto	# faxe 1: XIV‒XV sèk.
 SFX v7 òƚo iòƚo/M2 [dđfrsŧx]òƚo	# faxe 2: XVI‒XVIII sèk.
 SFX v7 òƚo ioƚeto/M2Pd [dđfrsŧx]òƚo	ds:eto	# faxe 2: XVI‒XVIII sèk.
-SFX v7 òƚo oƚo/M2 [dđfigjɉñrsŧx]òƚo	# faxe 3: XIX sèk.
-SFX v7 òƚo oƚeto/M2Pd [dđfigjɉñrsŧx]òƚo	ds:eto	# faxe 3: XIX sèk.
+SFX v7 òƚo oƚo/M2 [dđfgiïjɉñrsŧx]òƚo	# faxe 3: XIX sèk.
+SFX v7 òƚo oƚeto/M2Pd [dđfgiïjɉñrsŧx]òƚo	ds:eto	# faxe 3: XIX sèk.
 SFX v7 òƚo ioƚo/M2 [dđfrsŧx]òƚo	# faxe 3: XIX sèk.
-SFX v7 òƚa uòƚa/F2 [dđfgjɉkñrsŧx]òƚa	# faxe 1: XIV‒XV sèk.
-SFX v7 òƚa uoƚeta/F2 [dđfgjɉkrsŧx]òƚa	ds:eto	# faxe 1: XIV‒XV sèk.
+SFX v7 òƚa uòƚa/F2 [dđfgiïjɉkñrsŧx]òƚa	# faxe 1: XIV‒XV sèk.
+SFX v7 òƚa uoƚeta/F2 [dđfgiïjɉkrsŧx]òƚa	ds:eto	# faxe 1: XIV‒XV sèk.
 SFX v7 òƚa iòƚa/F2 [dđfrsŧx]òƚa	# faxe 2: XVI‒XVIII sèk.
 SFX v7 òƚa ioƚeta/F2 [dđfrsŧx]òƚa	ds:eto	# faxe 2: XVI‒XVIII sèk.
-SFX v7 òƚa oƚa/F2 [dđfgjɉkñrsŧx]òƚa	# faxe 3: XIX sèk.
-SFX v7 òƚa oƚeta/F2 [dđfgjɉkñrsŧx]òƚa	ds:eto	# faxe 3: XIX sèk.
+SFX v7 òƚa oƚa/F2 [dđfgiïjɉkñrsŧx]òƚa	# faxe 3: XIX sèk.
+SFX v7 òƚa oƚeta/F2 [dđfgiïjɉkñrsŧx]òƚa	ds:eto	# faxe 3: XIX sèk.
 SFX v7 òƚa ioƚa/F2 [dđfrsŧx]òƚa	# faxe 3: XIX sèk.
 
 
