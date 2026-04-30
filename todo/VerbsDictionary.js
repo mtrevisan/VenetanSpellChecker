@@ -2946,6 +2946,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "gard",			"a",			1,	1,	"g",	"XV",				"",
 "gard",			"dex",		1,	1,	"g",	"1998",			"Lasar poki bocòli parké la pianta faŧa fiori pi bèli.",
 "gard",			"re",			1,	1,	"g",	"XV",				"",
+"gardenal",		"inx",		1,	1,	"g",	"15470118",		"(pavan)",
 "gardiŧ",		"x",			1,	4,	"a",	"1980",			"(ŧenedexe) Arufar.",
 "garduf",		"x",			1,	4,	"a",	"",				"(bixiak) Arufar.",
 "garđ",			"in",			4,	4,	"a",	"1876",			"Ingaxiar.",

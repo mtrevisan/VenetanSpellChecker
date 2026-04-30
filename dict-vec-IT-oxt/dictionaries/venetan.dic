@@ -7394,6 +7394,12 @@ garbúɉis/T0N0-1+0*0	po:verb vt:indicative+present is:second is:singular st:gar
 gardar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2@0-1.0	po:verb vt:infinitive+simple
 garde/T0t0t1T2T3N0N2L0L2l0l2I5I7A0@0-1.0	po:verb vt:indicative+present is:third st:gardar
 gàrdis/T0N0@0-1.0	po:verb vt:indicative+present is:second is:singular st:gardar
+inxgardenalar/T0T1T2T3N0N1N2N4L1L2L3W1P0P1	po:verb vt:infinitive+simple dp:in dp:x
+inxgardenale/T0t0T2T3N0N2L0L2I5A0	po:verb vt:indicative+present is:third st:inxgardenalar dp:in dp:x
+inxgardenàlis/T0N0	po:verb vt:indicative+present is:second is:singular st:inxgardenalar dp:in dp:x
+inxgardenaƚar/T0T1T2T3l1l2l3w1P0P2	po:verb vt:infinitive+simple dp:in dp:x
+inxgardenaƚe/T0t1T2T3l0l2I7	po:verb vt:indicative+present is:third st:inxgardenaƚar dp:in dp:x
+inxgardenàƚis/T0	po:verb vt:indicative+present is:second is:singular st:inxgardenaƚar dp:in dp:x
 xgardiŧar/T0T1T2T3N0N1N2N4L1L2L3W1P0P1	po:verb vt:infinitive+simple dp:s
 xgardiŧe/T0t0T2T3N0N2L0L2I5A0	po:verb vt:indicative+present is:third st:xgardiŧar dp:s
 xgardíŧis/T0N0	po:verb vt:indicative+present is:second is:singular st:xgardiŧar dp:s
@@ -32437,8 +32443,8 @@ arsevéskevo/M2A0Pd	po:noun st:véskevo dp:arŧi
 arŧevéskevo/M2A0Pd	po:noun st:véskevo dp:arŧi
 Duxe/M2	po:noun
 enkresemento/M2A0PdVr	po:noun ds:mento dp:in
-konsejo/M2B1Pde0r0	po:noun
-konseɉo/M2e0r0	po:noun
+konsejo/M2B1Pde0r0*0	po:noun
+konseɉo/M2e0r0*0	po:noun
 kònsa/F2	po:noun is:femenine st:kòsa
 mesađo/M2A0V0	po:noun
 ofisial/X0B1BuVx	po:adjective_qualificative is:neuter
@@ -35391,7 +35397,7 @@ avenimento/M2A0PdVr	po:noun st:avenir ds:mento
 barona/F2aTaZ@1	po:noun is:femenine
 belamente/A0w0^6	po:adverb ds:mente
 beƚamente/w0^6	po:adverb ds:mente
-benedeto/M2F0F3A0Pd	po:adjective_qualificative al:beneto
+benedeto/M2F0F3A0Pd	po:adjective_qualificative al:beneeto al:beneto
 bèl/M0M2F0F3Pve0e2o0o2o4oT^6	po:adjective_qualificative
 bèƚa/F2oL^6	po:adjective_qualificative is:femenine
 bèƚo/M2e1e3o7o2o4oL^6	po:adjective_qualificative
@@ -42772,6 +42778,11 @@ vuòƚega/F2'0	po:noun is:femenine st:vòƚega
 xbotegoxo/M2F0F3A0Pd	po:adjective_qualificative
 / nodaro Novello Giuliano di Treviso. Treviso; 15451121.
 / Cornaro, Alvise. Pianto per la morte del Bembo. 15470118.
+véoo/M2F0F3A0Pd	po:noun
+beneeto/M2F0F3A0Pd	po:adjective_qualificative st:benedeto
+bexuòña	po:noun is:femenine al:bixòña
+soralòme/M2A0	po:noun st:soranòme
+soraƚòme/M2	po:noun st:soranòme
 / Le lettere di messer Andrea Calmo [1547]. Torino; 1888.
 bagaja/F2V0	po:noun is:femenine
 braxa/F2*0	po:noun is:femenine
@@ -43333,7 +43344,6 @@ barxuòla/F2V0	po:noun is:femenine
 bekamur/M0M2	po:noun
 benké/@0	po:conjunction pa:ben pa:ké
 bersajo/M2B1V0VsCo	po:noun
-bexuòña	po:noun is:femenine al:bixòña
 bièl/M0M2B1Pve0e2o0o2o4oT	po:adjective_qualificative
 bièƚa/F2oL^6	po:adjective_qualificative is:femenine
 bièla/F2oT^6	po:adjective_qualificative is:femenine
@@ -78733,7 +78743,9 @@ xguindia/F2	po:noun is:femenine
 / Cornaro, Alvise. Pianto per la morte del Bembo. 15470118.
 
 
-/ 1/24 - 15470118
+sost.:soranòme,soralòme,soraƚòme
+sost.:védovo,véovo,véoo
+/ 2/24 - 15470118
 / nodaro. Treviso, IMG_20210309_112945.
 / http://vev.ovi.cnr.it/lexicad/lemmario (20260424 - 8158? bailía bertìgnolo(baretina) cagalina(kagar) càia camastela(mastèla) chiarelo cogozo coriedo cornabò cùgoli cùter deremo ebeada festare(fèsta) gàfaro ganzara ganzega gégomo giagrega(gilè) gornissagorn(gorna) gramin guazaron guzzar frasio impiar invespar lisbonina loch maganzese manguro masamutina mèola osana pasquarosa(paskua) passèlego pepalessa(pèpa) pesàntola petemelebone(petar) pòina refogolar(fogo) rendento santacrose santelmo saponaria sarza scagaìta(kagar) (skagaita, xguaraguaita, xguaita) scaranzia scariòt scaula schierazo scogoçar(kogòŧo) scovadìe sorvo spagno spiàntano/spiantan stanforte stèura stratiòto tarabusèa(tarabuxo) tèstola trabazin(tarabuxo) strabùzene(strabúxen)|? vacamatrè(vaka) vacazùnzoli(vaka) valenzian venarelo(vèner) vescue zabagion|đ zaca zangarin zanzalaro(ŧensala) zanzarela|ŧ zarcegna|ŧŧ zarda zenso|đ zétola zibaldon|đ zìfera|ŧ zinzapòtole zirnar|đ zolagio|ŧ/zolar/zolo/zulagia(đòl) zovàdego|đ zelegò|Ŧ [đŧ]an[đŧ]ar
 / apostrophe: ʼ (’)
@@ -78742,7 +78754,7 @@ xguindia/F2	po:noun is:femenine
 / figure dash: ‒
 / search for ([gms]?e|[kv]é|sié|no|f[àéú])-nde(ne) xe, ende/ndʼ/dé, no ʼndene
 / ge[sx]ería ŧé[đŧ]ol be[đŧ]aròl bol[đŧ]a bu[đŧ]arosa in[đŧ]eregar (kon|in)[đŧ]eñar kave[đŧ]aña ka[đŧ]a ka[đŧ]òto koda[đŧ]i[ln] kon[đŧ]a korpa[đŧ]udo pi[đŧ]al p[ou][ln][đŧ]in sopo[đŧ]ar trò[đŧ]a vàn[đŧ]ega [đŧ]anpèla [đŧ]an[đŧ]ador [đŧ]an[đŧ]ar [đŧ]an[đŧ]arèla [đŧ]ir [đŧ]on [đŧ]àina [đŧ]à[đŧ]era [đŧ]èso
-/ -ar (1): 8758 (78%), -er (2): 95 (0.8%), '-er (3, accents): 1135 (10.1%), -ir/is (4, T4): 983 (8.8%), -ir (5): 258 (2.3%), tot: 11226
+/ -ar (1): 8759 (78%), -er (2): 95 (0.8%), '-er (3, accents): 1135 (10.1%), -ir/is (4, T4): 983 (8.8%), -ir (5): 258 (2.3%), tot: 11227
 / 16191220 ago da lanzan
 / Baffo, Giorgio. “[Raccolta universale delle opere di Giorgio Baffo veneto — Tomo III](https://archive.org/details/Raccolta_universale_delle_opere_di_Giorgio_Baffo_Tomo_3)”. Venezia; 1789.
 / anke: <j>, <x>
