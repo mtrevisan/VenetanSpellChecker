@@ -3040,7 +3040,7 @@ SFX xR éver ebianto-ƚo/P2 éver	vt:gerund+simple cl:pronomenal+accusative	# T7
 # changes in participle passive
 # NOTE: see also other derivations in dic file!
 # NOTE: does not have procomplementar form for imperative
-SFX xS Y 397
+SFX xS Y 398
 SFX xS èser só/I1 èser	vt:indicative+present is:first is:singular is:elision	# T8 + [oe]
 SFX xS èser son/I1 èser	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xS èser sè/I1 èser	vt:indicative+present is:first is:singular	# T8 + [oe]
@@ -3179,6 +3179,7 @@ SFX xS èser sípias èser	vt:subjunctive+present is:second is:singular	# T8 + [
 SFX xS èser sie èser	vt:subjunctive+present is:second is:singular	# T8 + [ea], 2s=3, belumat
 SFX xS èser síes èser	vt:subjunctive+present is:second is:singular	# T8 + [ea]s, 2s=3, belumat
 SFX xS èser sipiè/P5 èser	vt:subjunctive+present is:second is:plural	# T5, veneŧian
+SFX xS èser supiè/P5 èser	vt:subjunctive+present is:second is:plural	# T5, pavan
 SFX xS èser sipié/P5 èser	vt:subjunctive+present is:second is:plural	# T5 = T12 + é([dg]?e), arkade
 SFX xS èser sipiee èser	vt:subjunctive+present is:second is:plural	# T5 = T12 + é([dg]?e), soligexe
 SFX xS èser supié/P5 èser	vt:subjunctive+present is:second is:plural	# T5 = T12 + é([dg]?e), pavan
@@ -3443,7 +3444,7 @@ SFX xS èser sianto-ƚo/P2 èser	vt:gerund+simple cl:pronomenal+accusative	# T7 
 # different conjugation in indicative present, indicative imperfect, indicative future, subjunctive present, subjunctive imperfect, conditional present, imperative present
 # changes in participle passive
 # NOTE: does not have procomplementar form for imperative
-SFX xT Y 354
+SFX xT Y 355
 SFX xT ïèser isó ïèser	vt:indicative+present is:first is:singular is:elision	# T8 + [oe]
 SFX xT ïèser ison/I1 ïèser	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xT ïèser isè/I1 ïèser	vt:indicative+present is:first is:singular	# T8 + [oe]
@@ -3556,6 +3557,7 @@ SFX xT ïèser isípies ïèser	vt:subjunctive+present is:second is:singular	# T
 SFX xT ïèser isipia ïèser	vt:subjunctive+present is:second is:singular	# T8 + [ea], 2s=3, belumat
 SFX xT ïèser isípias ïèser	vt:subjunctive+present is:second is:singular	# T8 + [ea]s, 2s=3, belumat
 SFX xT ïèser isipiè/P5 ïèser	vt:subjunctive+present is:second is:plural	# T5, veneŧian
+SFX xT ïèser isupiè/P5 ïèser	vt:subjunctive+present is:second is:plural	# T5, pavan
 SFX xT ïèser isipié/P5 ïèser	vt:subjunctive+present is:second is:plural	# T5 = T12 + é([dg]?e), arkade
 SFX xT ïèser isipiee ïèser	vt:subjunctive+present is:second is:plural	# T5 = T12 + é([dg]?e), soligexe
 SFX xT ïèser isupié/P5 ïèser	vt:subjunctive+present is:second is:plural	# T5 = T12 + é([dg]?e), pavan
@@ -5132,7 +5134,7 @@ SFX B3 ve u neve	va:arsedexe
 ### Venèŧia ###
 
 # trasformaŧion intra varianti (l > ƚ, j > ɉ, ŧ > s)
-SFX V0 Y 49
+SFX V0 Y 48
 SFX V0 đa xa/F2 đa
 SFX V0 ja ɉa/F2 ja
 SFX V0 la ƚa/F2 [aeiouàèéíòóúïü]la
@@ -5157,16 +5159,15 @@ SFX V0 len ƚen/M0M2Pd [aeiouàèéíòóúïü]len
 SFX V0 lin ƚin/M0M2 [aeiouàèéíòóúïü]lin
 SFX V0 đin xin/M0M2 đin
 SFX V0 ŧin sin/M0M2 ŧin
-SFX V0 jon ɉon/F1F2B1BuPd jon
-SFX V0 lon ƚon/F1F2BuPd [aeiouàèéíòóúïü]lon
-SFX V0 ŧon son/F1F2B1BuPd ŧon
+SFX V0 jon ɉon/M1M2B1BuPd jon
+SFX V0 lon ƚon/M1M2BuPd [aeiouàèéíòóúïü]lon
+SFX V0 ŧon son/M1M2B1BuPd ŧon
 SFX V0 lio ƚio/M2 [aeiouàèéíòóúïü]lio
 SFX V0 ŧio sio/M2 ŧio
 SFX V0 đio xio/M2 đio
 SFX V0 đo xo/M2A0 [^e]đo
 SFX V0 ŧo so/M2A0Pd [eo]ŧo
 SFX V0 ŧo so/M2A0 [^eo]ŧo
-SFX V0 đana xana/F2 đana
 SFX V0 lana ƚana/F2 [aeiouàèéíòóúïü]lana
 SFX V0 lena ƚena/F2 [aeiouàèéíòóúïü]lena
 SFX V0 ŧena sena/F2 ŧena
@@ -5182,11 +5183,6 @@ SFX V0 ŧion sion/F1F2B1BuPd ŧion
 SFX V0 leto ƚeto/M2Pd [aeiouàèéíòóúïü]leto
 SFX V0 lèto ƚèto/M2 [aeiouàèéíòóúïü]lèto
 SFX V0 lòto ƚòto/M2 [aeiouàèéíòóúïü]lòto
-
-# trasformaŧion intra varianti, maskolin (-li?on > -ƚi?on, -jon > -ɉon, -ŧi?on > -si?on)
-SFX V1 Y 2
-SFX V1 lion ƚion/F1F2BuPd [aeiouàèéíòóúïü]lion
-SFX V1 ŧion sion/F1F2B1BuPd ŧion
 
 # trasformaŧion intra varianti ko èle vanesente (-jo > -ɉo)
 SFX v1 Y 1
