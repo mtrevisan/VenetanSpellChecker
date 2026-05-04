@@ -5132,7 +5132,7 @@ SFX B3 ve u neve	va:arsedexe
 ### Venèŧia ###
 
 # trasformaŧion intra varianti (l > ƚ, j > ɉ, ŧ > s)
-SFX V0 Y 49
+SFX V0 Y 48
 SFX V0 đa xa/F2 đa
 SFX V0 ja ɉa/F2 ja
 SFX V0 la ƚa/F2 [aeiouàèéíòóúïü]la
@@ -5157,16 +5157,15 @@ SFX V0 len ƚen/M0M2Pd [aeiouàèéíòóúïü]len
 SFX V0 lin ƚin/M0M2 [aeiouàèéíòóúïü]lin
 SFX V0 đin xin/M0M2 đin
 SFX V0 ŧin sin/M0M2 ŧin
-SFX V0 jon ɉon/F1F2B1BuPd jon
-SFX V0 lon ƚon/F1F2BuPd [aeiouàèéíòóúïü]lon
-SFX V0 ŧon son/F1F2B1BuPd ŧon
+SFX V0 jon ɉon/M1M2B1BuPd jon
+SFX V0 lon ƚon/M1M2BuPd [aeiouàèéíòóúïü]lon
+SFX V0 ŧon son/M1M2B1BuPd ŧon
 SFX V0 lio ƚio/M2 [aeiouàèéíòóúïü]lio
 SFX V0 ŧio sio/M2 ŧio
 SFX V0 đio xio/M2 đio
 SFX V0 đo xo/M2A0 [^e]đo
 SFX V0 ŧo so/M2A0Pd [eo]ŧo
 SFX V0 ŧo so/M2A0 [^eo]ŧo
-SFX V0 đana xana/F2 đana
 SFX V0 lana ƚana/F2 [aeiouàèéíòóúïü]lana
 SFX V0 lena ƚena/F2 [aeiouàèéíòóúïü]lena
 SFX V0 ŧena sena/F2 ŧena
@@ -5182,11 +5181,6 @@ SFX V0 ŧion sion/F1F2B1BuPd ŧion
 SFX V0 leto ƚeto/M2Pd [aeiouàèéíòóúïü]leto
 SFX V0 lèto ƚèto/M2 [aeiouàèéíòóúïü]lèto
 SFX V0 lòto ƚòto/M2 [aeiouàèéíòóúïü]lòto
-
-# trasformaŧion intra varianti, maskolin (-li?on > -ƚi?on, -jon > -ɉon, -ŧi?on > -si?on)
-SFX V1 Y 2
-SFX V1 lion ƚion/F1F2BuPd [aeiouàèéíòóúïü]lion
-SFX V1 ŧion sion/F1F2B1BuPd ŧion
 
 # trasformaŧion intra varianti ko èle vanesente (-jo > -ɉo)
 SFX v1 Y 1
