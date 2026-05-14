@@ -4012,9 +4012,12 @@ xdotoréđis/T0N0	po:verb vt:indicative+present is:second is:singular st:xdotore
 xdotorexar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple dp:s
 xdotorexe/T0t0t1T2T3N0N2L0L2l0l2I5I7A0	po:verb vt:indicative+present is:third st:xdotorexar dp:s
 xdotoréxis/T0N0	po:verb vt:indicative+present is:second is:singular st:xdotorexar dp:s
-dotrinar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2@0	po:verb vt:infinitive+simple
-dotrine/T0t0t1T2T3N0N2L0L2l0l2I5I7@0	po:verb vt:indicative+present is:third st:dotrinar
-dotrínis/T0N0@0	po:verb vt:indicative+present is:second is:singular st:dotrinar
+dotrenar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2@0+0	po:verb vt:infinitive+simple
+dotrene/T0t0t1T2T3N0N2L0L2l0l2I5I7@0+0	po:verb vt:indicative+present is:third st:dotrenar
+dotrénis/T0N0@0+0	po:verb vt:indicative+present is:second is:singular st:dotrenar
+dotrinar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2@0+0	po:verb vt:infinitive+simple
+dotrine/T0t0t1T2T3N0N2L0L2l0l2I5I7@0+0	po:verb vt:indicative+present is:third st:dotrinar
+dotrínis/T0N0@0+0	po:verb vt:indicative+present is:second is:singular st:dotrinar
 dover/T0T1T2T3T8N0N1N2N3N4L1L2L3l1l2l3W2w2W3w3P0P1P2	po:verb vt:infinitive+simple
 dove/T0t0t1T2T3N0N2L0L2l0l2I5I7A0	po:verb vt:indicative+present is:third st:dover
 dóvis/T0N0	po:verb vt:indicative+present is:second is:singular st:dover
@@ -13532,9 +13535,9 @@ inmagèƚe/T0t1T2T3T7l0l2I7	po:verb vt:indicative+present is:third st:inmageƚar
 xmagisar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple dp:s
 xmagise/T0t0t1T2T3N0N2L0L2l0l2I5I7A0	po:verb vt:indicative+present is:third st:xmagisar dp:s
 xmagísis/T0N0	po:verb vt:indicative+present is:second is:singular st:xmagisar dp:s
-magonar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2-1+0*0	po:verb vt:infinitive+simple
-magone/T0t0t1T2T3N0N2L0L2l0l2I5I7A0-1+0*0	po:verb vt:indicative+present is:third st:magonar
-magónis/T0N0-1+0*0	po:verb vt:indicative+present is:second is:singular st:magonar
+magonar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2@0-1+0*0	po:verb vt:infinitive+simple
+magone/T0t0t1T2T3N0N2L0L2l0l2I5I7A0@0-1+0*0	po:verb vt:indicative+present is:third st:magonar
+magónis/T0N0@0-1+0*0	po:verb vt:indicative+present is:second is:singular st:magonar
 magrar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2-0*0	po:verb vt:infinitive+simple
 magre/T0t0t1T2T3N0N2L0L2l0l2I5I7-1*0	po:verb vt:indicative+present is:third st:magrar
 màgris/T0N0-1*0	po:verb vt:indicative+present is:second is:singular st:magrar
@@ -41301,7 +41304,6 @@ fiabàtola/F2V0	po:noun is:femenine st:fiaba ds:òl
 menconería/F2r0	po:noun is:femenine st:mencon
 regomanŧía/F2V0	po:noun is:femenine
 skrivadura/F2d0e2	po:noun is:femenine
-kuòtol/M0M2B1PdV0	po:noun
 deŧiparòba	po:noun pa:deŧipa pa:ròba
 desiparòba	po:noun pa:desipa pa:ròba
 beneto/M2F0F3A0Pd	po:adjective_qualificative st:benedeto
@@ -42505,7 +42507,7 @@ kotoleta/F2V0	po:noun is:femenine st:kòtola ds:eto
 koxin/M0M2Bue0	po:noun st:kuxin
 koxina/F2e2o0o2o4	po:noun is:femenine st:kuxina
 kógol/M0M2B1PdV0	po:noun
-kòtol/M0M2B1PdV0	po:noun
+kòtol/M0M2B1PdCuV0	po:noun
 kroxafiso/M2A0	po:noun
 kuaréxema/F2	po:noun is:femenine
 kukèr/M0M2Buv0	po:noun
@@ -43681,6 +43683,27 @@ skiravòltola/F2V0	po:noun is:femenine
 speŧegaròla/F2v0	po:noun is:femenine
 spesegaròla/F2v0	po:noun is:femenine
 spesegaròƚa/F2v7	po:noun is:femenine
+onbrïoxo/M2F0F3A0Pd	po:adjective_qualificative st:onbría ds:oxo
+lusato/M2A0eLe7	po:noun st:luso ds:ato
+ƚusato/M2e7	po:noun st:ƚuso ds:ato
+luŧato/M2A0eL	po:noun st:luŧo ds:ato
+mesiersí	po:adverb pa:mesièr pa:sí
+ñoranton/M1M2B1BuPdaZaS+0	po:adjective_qualificative st:ñorante ds:on
+ñorantona/F2aZaS+0	po:adjective_qualificative is:femenine st:ñorante ds:on
+rixòtol/M0M2B1PdV0	po:adjective_qualificative st:rixo ds:òl
+rixòtola/F2V0	po:adjective_qualificative is:femenine st:rixo ds:òl
+xguèrŧa/F2V0	po:adjective_qualificative is:femenine dp:s
+xguèrŧo/M2A0V0	po:adjective_qualificative dp:s
+servisòl/M0M2B1v0	po:noun st:servisio ds:òl
+servisòƚo/M2v7	po:noun st:servisio ds:òl
+serviŧòl/M0M2B1v0	po:noun st:serviŧio ds:òl
+insinpio/M2	po:noun
+banpuòria/F2	po:noun is:femenine
+karivuòl/M0M2B1	po:noun
+karivuòƚo/M2	po:noun
+skoelin/M0M2BuV0	po:noun st:skoèla ds:in
+xiravuòltol/M0M2B1PdV0	po:noun
+điravuòltol/M0M2B1Pd	po:noun
 / Canal, Cristoforo. Dialogo sul remo. Venezia; 1553‒1554.
 aguanaŧo/M2A0	po:noun
 alfin/Bu+0	po:preposition pa:al pa:fin
@@ -43800,8 +43823,8 @@ jada/F2Vp	po:noun is:femenine
 jèr/@0	po:adverb
 ɉèr/@0	po:adverb
 jir/M0M2o0o2o4Vp	po:noun
-julioxo/M2F0F3A0PdVp	po:adjective_qualificative
-juƚioxo/M2F0F3PdVp	po:adjective_qualificative
+julioxo/M2F0F3A0PdVp	po:adjective_qualificative ds:oxo
+juƚioxo/M2F0F3PdVp	po:adjective_qualificative ds:oxo
 jutidor/M1M2BuPdv0Vp	po:noun
 kalison/M1M2B1BuPd	po:noun
 kaƚison/M1M2BuPd	po:noun
@@ -45651,7 +45674,6 @@ ojèto/M2A0	po:noun
 oɉèto/M2A0	po:noun
 omisidial/X0B1BuVx	po:adjective_qualificative is:neuter
 omiŧidial/X0B1Bu	po:adjective_qualificative is:neuter
-onbrïoxo/M2F0F3A0Pd	po:adjective_qualificative st:onbría ds:oxo
 onbroxo/M2F0F3A0Pde0e2	po:adjective_qualificative st:onbra ds:oxo
 onorado/M2F0F3A0y0y1	po:noun st:onor
 opoxiŧion/F1F2B1BuPdV0	po:noun is:femenine ds:ŧion
@@ -46175,8 +46197,6 @@ xbeƚetièra/F2v7	po:noun is:femenine
 xel/M0M2PdV0	po:noun
 xenxívar/M0M2	po:noun
 xèl/M0M2PvV0	po:noun
-xguèrŧa/F2V0	po:adjective_qualificative is:femenine dp:s
-xguèrŧo/M2A0V0	po:adjective_qualificative dp:s
 xmergon/M1M2B1BuPd	po:noun st:xmèrgo ds:on
 xmuso/M2F0F3A0	po:adjective_qualificative
 xornal/M1M2B1e0i0	po:noun
@@ -46226,7 +46246,6 @@ filatòrio/M2F0F3*0	po:noun
 fiƚatòrio/M2F0F3*0	po:noun
 fòrte/M2A0Cu	po:noun
 frixòpo/M2A0	po:noun
-gòba/F2	po:noun is:femenine
 inpianto/M2A0	po:noun
 intrego/M2F0F3A0	po:adjective_qualificative
 istanŧa/F2V0	po:noun is:femenine
@@ -46862,8 +46881,6 @@ nómer/M0M2Pd	po:noun
 ñorantaŧo/M2A0V0+0	po:adjective_qualificative st:ñorante ds:aŧo
 ñorante/X0A0@0+0	po:adjective_qualificative is:neuter
 ñoranteto/M2F0F3A0Pd+0	po:adjective_qualificative st:ñorante ds:eto
-ñoranton/M1M2B1BuPdaZaS+0	po:adjective_qualificative st:ñorante ds:on
-ñorantona/F2aZaS+0	po:adjective_qualificative is:femenine st:ñorante ds:on
 ñorantòto/M2F0F3A0+0	po:adjective_qualificative st:ñorante ds:òto
 ñoranŧa/F2A2+0	po:noun is:femenine
 obrobioxamente/A0w0	po:adverb ds:mente
@@ -47268,8 +47285,8 @@ verenoxamente/A0w0	po:adverb ds:mente
 verenoxo/M2F0F3A0Pd	po:adjective_qualificative
 vertulioxamente/A0w0	po:adverb ds:mente
 vertuƚioxamente/w0	po:adverb ds:mente
-vertulioxo/M2F0F3A0Pd	po:adjective_qualificative
-vertuƚioxo/M2F0F3Pd	po:adjective_qualificative
+vertulioxo/M2F0F3A0Pd	po:adjective_qualificative ds:oxo
+vertuƚioxo/M2F0F3Pd	po:adjective_qualificative ds:oxo
 verxenèla/F2V0	po:adjective_qualificative is:femenine
 veseoxamente/A0w0	po:adverb ds:mente
 veseoxo/M2F0F3A0Pd	po:adjective_qualificative
@@ -52029,9 +52046,6 @@ lumaròƚo/M2Vpv7	po:noun
 lumeto/M2A0Pd	po:noun st:lume ds:eto
 ƚuminoxamente/w0	po:adverb ds:mente
 lupa/F2Vp	po:noun is:femenine
-lusato/M2A0eLe7	po:noun st:luso ds:ato
-ƚusato/M2e7	po:noun st:ƚuso ds:ato
-luŧato/M2A0eL	po:noun st:luŧo ds:ato
 luxaròl/M0M2B1v0	po:noun
 luxaròla/F2v0*0	po:noun is:femenine
 ƚuxaròƚa/F2v7	po:noun is:femenine
@@ -57594,7 +57608,8 @@ kartòŧa/F2V0*0	po:noun is:femenine
 kartòŧo/M2A0e0iNo0o2o4*0	po:noun
 karuxèl/M0M2B1PvV0	po:noun
 kasaskòta/M2	po:noun
-kasòl/M0M2B1V0	po:noun
+kasòl/M0M2B1v0	po:noun
+kasòƚo/M2v7	po:noun
 kastaño/M2A0e0iN	po:noun
 kastañoxamente/A0w0	po:adverb st:kastañoxo ds:mente
 kastañoxo/M2F0F3A0Pd	po:adjective_qualificative st:kastaño ds:oxo
@@ -57620,7 +57635,7 @@ katorigoƚoxo/M2F0F3Pd	po:adjective_qualificative
 katòƚego/M2F0F3	po:adjective_qualificative
 katòlego/M2F0F3A0	po:adjective_qualificative
 kaŧaskòta/M2	po:noun
-kaŧòl/M0M2B1	po:noun
+kaŧòl/M0M2B1v0	po:noun
 kavaèla/F2V0	po:noun is:femenine
 kavalarin/M0M2Bu	po:noun
 kavaƚarin/M0M2Bu	po:noun
@@ -74338,8 +74353,8 @@ faradura/F2d0e2-1+0	po:noun is:femenine
 faramento/M2A0PdVr-1+0	po:noun ds:mento
 fardimento/M2A0PdVr*0	po:noun ds:mento
 farimento/M2A0PdVr@0-0+0:0.0^2	po:noun ds:mento
-faservisi	po:noun is:neuter
-faserviŧi	po:noun is:neuter
+faservisi	po:noun is:neuter pa:fà pa:servisi
+faserviŧi	po:noun is:neuter pa:fà pa:serviŧi
 fasin/M0M2BueLe7oT	po:noun
 fatucería/F2r0	po:noun is:femenine st:fatucèr
 favorimento/M2A0PdVr	po:noun ds:mento
@@ -79020,7 +79035,10 @@ xguindia/F2	po:noun is:femenine
 / Morello, Jacopo. Le lalde e le sbampuorie. 1553.
 
 
-/ 46/66 - 1553
+v.:biskolar,biskoƚar,viskolar,viskoƚar
+sost.:exenpio,asinpio,insinpio
+av.:madesí,mesiersí
+/ 57/66 - 1553
 / nodaro. Treviso, IMG_20210309_112945.
 / http://vev.ovi.cnr.it/lexicad/lemmario (20260424 - 8158? bailía bertìgnolo(baretina) cagalina(kagar) càia camastela(mastèla) chiarelo cogozo coriedo cornabò cùgoli cùter deremo ebeada festare(fèsta) gàfaro ganzara ganzega gégomo giagrega(gilè) gornissagorn(gorna) gramin guazaron guzzar frasio impiar invespar lisbonina loch maganzese manguro masamutina mèola osana pasquarosa(paskua) passèlego pepalessa(pèpa) pesàntola petemelebone(petar) pòina refogolar(fogo) rendento santacrose santelmo saponaria sarza scagaìta(kagar) (skagaita, xguaraguaita, xguaita) scaranzia scariòt scaula schierazo scogoçar(kogòŧo) scovadìe sorvo spagno spiàntano/spiantan stanforte stèura stratiòto tarabusèa(tarabuxo) tèstola trabazin(tarabuxo) strabùzene(strabúxen)|? vacamatrè(vaka) vacazùnzoli(vaka) valenzian venarelo(vèner) vescue zabagion|đ zaca zangarin zanzalaro(ŧensala) zanzarela|ŧ zarcegna|ŧŧ zarda zenso|đ zétola zibaldon|đ zìfera|ŧ zinzapòtole zirnar|đ zolagio|ŧ/zolar/zolo/zulagia(đòl) zovàdego|đ zelegò|Ŧ [đŧ]an[đŧ]ar
 / apostrophe: ʼ (’)
@@ -79029,7 +79047,7 @@ xguindia/F2	po:noun is:femenine
 / figure dash: ‒
 / search for ([gms]?e|[kv]é|sié|no|f[àéú])-nde(ne) xe, ende/ndʼ/dé, no ʼndene
 / ge[sx]ería ŧé[đŧ]ol be[đŧ]aròl bol[đŧ]a bu[đŧ]arosa in[đŧ]eregar (kon|in)[đŧ]eñar kave[đŧ]aña ka[đŧ]a ka[đŧ]òto koda[đŧ]i[ln] kon[đŧ]a korpa[đŧ]udo pi[đŧ]al p[ou][ln][đŧ]in sopo[đŧ]ar trò[đŧ]a vàn[đŧ]ega [đŧ]anpèla [đŧ]an[đŧ]ador [đŧ]an[đŧ]ar [đŧ]an[đŧ]arèla [đŧ]ir [đŧ]on [đŧ]àina [đŧ]à[đŧ]era [đŧ]èso
-/ -ar (1): 8802 (78%), -er (2): 95 (0.8%), '-er (3, accents): 1148 (10.1%), -ir/is (4, T4): 986 (8.7%), -ir (5): 258 (2.3%), tot: 11286
+/ -ar (1): 8807 (78%), -er (2): 95 (0.8%), '-er (3, accents): 1148 (10.2%), -ir/is (4, T4): 986 (8.7%), -ir (5): 258 (2.3%), tot: 11291
 / 16191220 ago da lanzan
 / Baffo, Giorgio. “[Raccolta universale delle opere di Giorgio Baffo veneto — Tomo III](https://archive.org/details/Raccolta_universale_delle_opere_di_Giorgio_Baffo_Tomo_3)”. Venezia; 1789.
 / anke: <j>, <x>
@@ -79038,3 +79056,4 @@ xguindia/F2	po:noun is:femenine
 / dolzezza/pacincia, zanze/zance? https://www.ilpavano.it/public/testo/testo/codice/RUZANTE%7Cfiorina%7C001
 / ŧejadura > addensamento di nuvole minacciose
 / Sète Biron > Ursa minor, Stela Boara > Vènere
+/ karivuòl > girello
