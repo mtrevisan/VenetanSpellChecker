@@ -22504,6 +22504,10 @@ spede/T0t0t1T2T3N0N2L0L2l0l2I5I7A0	po:verb vt:indicative+present is:third st:spe
 spédis/T0N0	po:verb vt:indicative+present is:second is:singular st:spedar
 spedir/T0T1T2T3T4N1N2N4N5L1L2L3L4l1l2l3l4W0W1P0P1P2	po:verb vt:infinitive+simple
 espedir/T0T1T2T3T4N1N2N4N5L1L2L3L4l1l2l3l4W0W1P0P1P2+0	po:verb vt:infinitive+simple dp:ex
+spejar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2+0	po:verb vt:infinitive+simple
+spèje/T0t0t1T2T3T7N0N2N7L0L2l0l2I5I7+0	po:verb vt:indicative+present is:third st:spejar
+speɉar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2+0	po:verb vt:infinitive+simple
+spèɉe/T0t0t1T2T3T7N0N2N7L0L2l0l2I5I7+0	po:verb vt:indicative+present is:third st:speɉar
 spendacar/T0T1T2T3N0N1N2N4L1L2L3l1l2l3W1P0P1P2	po:verb vt:infinitive+simple
 spendace/T0t0t1T2T3N0N2L0L2l0l2I5I7A0	po:verb vt:indicative+present is:third st:spendacar
 spendàcis/T0N0	po:verb vt:indicative+present is:second is:singular st:spendacar
@@ -34331,8 +34335,8 @@ kastelan/M0M2B1BuV0	po:adjective_qualificative
 kastelana/F2V0	po:adjective_qualificative is:femenine
 komun/F1F2B1	po:noun is:femenine
 konpaño/M2F0F3A0o0o1o2o3o4*0-1	po:adjective_qualificative
-konsejèr/M0M2F0F3Bue0e2	po:noun st:konsejo
-konseɉèr/M0M2F0F3Bue0e2	po:noun st:konseɉo
+konsejèr/M0M2F0F3Bue0e2*0	po:noun st:konsejo
+konseɉèr/M0M2F0F3Bue0e2*0	po:noun st:konseɉo
 koredo/M2A0Pdy0	po:noun
 kortivo/M2A0B3	po:noun
 koton/M1M2B1BuPd	po:adjective_qualificative
@@ -41363,7 +41367,7 @@ pivèra/F2v0	po:noun is:femenine st:piva
 pílora/F2	po:noun is:femenine
 píƚora/F2	po:noun is:femenine
 prefetamente/A0w0+0*0	po:adverb ds:mente st:perfetamente
-prekàntola/F2V0	po:noun is:femenine
+prekàntola/F2V0Co	po:noun is:femenine
 prí/+0	po:adverb st:prima
 puorpiamente/A0w0	po:adverb ds:mente st:propiamente
 purgatuòrio/M2	po:noun
@@ -43312,6 +43316,19 @@ omason/M1M2F0F1B1BuPd	po:noun st:omaso ds:on
 omaŧon/M1M2F0F1B1BuPd	po:noun st:omaŧo ds:on
 xmalmòria/F0	po:noun is:femenine
 batadur/M0M2d0e0	po:noun
+or/M0M2iN	po:noun st:orlo
+dexïèrio/M2	po:noun st:dexidèrio
+skuarsafòjo/M2B1V0	po:noun pa:skuarsa pa:fòjo st:portafòjo
+skuarŧafòjo/M2B1V0	po:noun pa:skuarŧa pa:fòjo st:portafòjo
+kaldiròto/M2A0	po:noun st:kaldièra ds:òto
+xganselèr/M0M2Buv0r0	po:noun st:kanselèr
+xganseƚèr/M0M2Buv7r0	po:noun st:kanseƚèr
+xganselèra/F2v0	po:noun is:femenine st:kanselèra
+xganseƚèra/F2v7	po:noun is:femenine st:kanseƚèra
+xganŧelèr/M0M2Buv0r0	po:noun st:kanŧelèr
+xganŧelèra/F2v0	po:noun is:femenine st:kanŧelèra
+pàrtiko/M2F0F3A0^7	po:adjective_qualificative st:pràtiko
+bramoxitade/X1	po:noun is:femenine
 / Morello, Jacopo. Terza Orazione. 1551.
 alseta/F2	po:noun is:femenine
 alŧeta/F2	po:noun is:femenine
@@ -43412,7 +43429,6 @@ bièƚo/M2e1e3o7o2o4oL^6	po:adjective_qualificative
 bonégol/M0M2B1PdV0	po:noun
 bordenaƚaso/M2	po:noun st:bordenaƚe ds:aŧo
 bordenalaŧo/M2A0V0	po:noun st:bordenal ds:aŧo
-dexïèrio/M2	po:noun st:dexidèrio
 điravuòltol/M0M2B1Pd	po:noun
 egualivamente/A0w0	po:adverb ds:mente
 eguaƚivamente/w0	po:adverb ds:mente
@@ -45701,7 +45717,6 @@ omiŧidial/X0B1Bu	po:adjective_qualificative is:neuter
 onbroxo/M2F0F3A0Pde0e2	po:adjective_qualificative st:onbra ds:oxo
 onorado/M2F0F3A0y0y1	po:noun st:onor
 opoxiŧion/F1F2B1BuPdV0	po:noun is:femenine ds:ŧion
-or/M0M2iN	po:noun st:orlo
 oraèla/F2V0	po:noun is:femenine st:oraa ds:èl
 orkeso/M2F0F3A0Pd	po:noun st:orko
 ortografía/F2	po:noun is:femenine
@@ -45967,9 +45982,7 @@ skotente/X0A0PdVr	po:adjective_qualificative is:neuter
 skoxaña/F2	po:noun is:femenine
 skripion/M1M2B1BuPd	po:noun
 skuarsafògo/M2A0	po:noun pa:skuarsa pa:fògo
-skuarsafòjo/M2B1V0	po:noun pa:skuarsa pa:fòjo
 skuarŧafògo/M2A0	po:noun pa:skuarŧa pa:fògo
-skuarŧafòjo/M2B1V0	po:noun pa:skuarŧa pa:fòjo
 skuèr/M0M2Bu	po:noun lg:greek
 skurŧa/F2V0	po:adjective_qualificative is:femenine st:skurŧar
 skurŧo/M2V0	po:adjective_qualificative st:skurŧar
@@ -58649,7 +58662,9 @@ oxoxo/M2F0F3A0Pd	po:adjective_qualificative
 òbiŧo/M2A0V0	po:noun
 òblego/M2A0	po:noun
 òbrigo/M2M4	po:noun
-òko/M2A0aTe0iNo0o2o4	po:noun
+òko/M2A0aTe0iN	po:noun
+okon/M1M2B1BuPdaZaS	po:adjective_qualificative st:òko ds:on
+okona/F2aZaS	po:adjective_qualificative is:femenine st:òka ds:on
 òko/M2F0F3A0	po:adjective_qualificative
 òrŧa/F2V0	po:noun is:femenine
 òvol/M0M2B1PdV0	po:noun st:vòvo ds:òl
@@ -64776,7 +64791,6 @@ adrío-ƚo/P2	po:adverb
 albergator/M1M2BuPd	po:noun
 benon	po:interjection st:ben ds:on
 biankería/F2r0	po:noun is:femenine st:bianko
-bramoxitade/X1	po:noun is:femenine
 bras–a–kòl/B1	po:adverb
 bras–a–kòƚo	po:adverb
 braŧ–a–kòl/B1	po:adverb
@@ -75636,8 +75650,8 @@ kresitivo/M2F0F3A0B3	po:adjective_qualificative
 krika/F2	po:noun is:femenine
 krikador/M1M2BuPdv0	po:noun st:krika
 krikadora/F2v0	po:noun is:femenine st:krika
-kristian/M0M2B1BuiNo0o2o4x0	po:adjective_qualificative
-kristiana/F2iNo1o3	po:adjective_qualificative is:femenine
+kristian/M0M2B1BuaZaSiNo0o2o4x0	po:adjective_qualificative
+kristiana/F2aZaSiNo1o3	po:adjective_qualificative is:femenine
 kristianèximo/M2A0	po:noun
 krivelador/M1M2BuPdv0	po:noun
 kriveƚador/M1M2BuPdv7	po:noun
@@ -79049,9 +79063,10 @@ xguindia/F2	po:noun is:femenine
 / Morello, Jacopo. In nome de Gattamelà. 1551.
 
 
+sost.:kanŧelèr,kanselèr,kanseƚèr,kanŧelaro,kanselaro,kanseƚaro,xganŧelèr,xganselèr,xganseƚèr,xganŧelaro,xganselaro,xganseƚaro
 sost.:memòria,xmalmòria
 sost.:konŧistòr,konsistòr,konŧistruòlio,konsistruòlio,konsistruòƚio
-/ 3/38 - 1551
+/ 10/38 - 1551
 / nodaro. Treviso, IMG_20210309_112945.
 / http://vev.ovi.cnr.it/lexicad/lemmario (20260424 - 8158? bailía bertìgnolo(baretina) cagalina(kagar) càia camastela(mastèla) chiarelo cogozo coriedo cornabò cùgoli cùter deremo ebeada festare(fèsta) gàfaro ganzara ganzega gégomo giagrega(gilè) gornissagorn(gorna) gramin guazaron guzzar frasio impiar invespar lisbonina loch maganzese manguro masamutina mèola osana pasquarosa(paskua) passèlego pepalessa(pèpa) pesàntola petemelebone(petar) pòina refogolar(fogo) rendento santacrose santelmo saponaria sarza scagaìta(kagar) (skagaita, xguaraguaita, xguaita) scaranzia scariòt scaula schierazo scogoçar(kogòŧo) scovadìe sorvo spagno spiàntano/spiantan stanforte stèura stratiòto tarabusèa(tarabuxo) tèstola trabazin(tarabuxo) strabùzene(strabúxen)|? vacamatrè(vaka) vacazùnzoli(vaka) valenzian venarelo(vèner) vescue zabagion|đ zaca zangarin zanzalaro(ŧensala) zanzarela|ŧ zarcegna|ŧŧ zarda zenso|đ zétola zibaldon|đ zìfera|ŧ zinzapòtole zirnar|đ zolagio|ŧ/zolar/zolo/zulagia(đòl) zovàdego|đ zelegò|Ŧ [đŧ]an[đŧ]ar
 / apostrophe: ʼ (’)
@@ -79060,7 +79075,7 @@ sost.:konŧistòr,konsistòr,konŧistruòlio,konsistruòlio,konsistruòƚio
 / figure dash: ‒
 / search for ([gms]?e|[kv]é|sié|no|f[àéú])-nde(ne) xe, ende/ndʼ/dé, no ʼndene
 / ge[sx]ería ŧé[đŧ]ol be[đŧ]aròl bol[đŧ]a bu[đŧ]arosa in[đŧ]eregar (kon|in)[đŧ]eñar kave[đŧ]aña ka[đŧ]a ka[đŧ]òto koda[đŧ]i[ln] kon[đŧ]a korpa[đŧ]udo pi[đŧ]al p[ou][ln][đŧ]in sopo[đŧ]ar trò[đŧ]a vàn[đŧ]ega [đŧ]anpèla [đŧ]an[đŧ]ador [đŧ]an[đŧ]ar [đŧ]an[đŧ]arèla [đŧ]ir [đŧ]on [đŧ]àina [đŧ]à[đŧ]era [đŧ]èso
-/ -ar (1): 8808 (78%), -er (2): 95 (0.8%), '-er (3, accents): 1148 (10.2%), -ir/is (4, T4): 986 (8.7%), -ir (5): 258 (2.3%), tot: 11292
+/ -ar (1): 8810 (78%), -er (2): 95 (0.8%), '-er (3, accents): 1148 (10.2%), -ir/is (4, T4): 986 (8.7%), -ir (5): 258 (2.3%), tot: 11294
 / 16191220 ago da lanzan
 / Baffo, Giorgio. “[Raccolta universale delle opere di Giorgio Baffo veneto — Tomo III](https://archive.org/details/Raccolta_universale_delle_opere_di_Giorgio_Baffo_Tomo_3)”. Venezia; 1789.
 / anke: <j>, <x>
