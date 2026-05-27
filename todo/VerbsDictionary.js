@@ -92,6 +92,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "amor",			"dexin",		1,	2,	"a",	"1775",			"",
 "amor",			"dexn",		1,	2,	"a",	"1532",			"(pavan)",
 "amor",			"en",			1,	2,	"a",	"XIV",			"(trevixan)",
+"amor",			"il",			1,	2,	"a",	"1553",			"(pavan)",
 "amor",			"in",			1,	2,	"a",	"130101",		"(veneŧian)",
 "amor",			"inl",		1,	2,	"a",	"1553",			"(pavan)",
 "amor",			"n",			1,	2,	"a",	"1883",			"(coxòto)",
