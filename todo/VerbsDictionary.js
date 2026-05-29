@@ -9059,7 +9059,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "spirit",		"",			1,	2,	"a",	"",				"",
 "spirit",		"i",			1,	2,	"a",	"1859",			"(veneŧian)",
 "spirit",		"in",			1,	2,	"a",	"1525",			"(pavan)",
-"spit",			"",			1,	2,	"a",	"1551",			"(pavan) Spetar.",
+"spit",			"",			1,	2,	"a",	"1545",			"(pavan) Spetar.",
 "spit",			"a",			1,	2,	"a",	"1525",			"(pavan) Aspetar.",
 "spiŧi",			"",			1,	2,	"a",	"1810",			"",
 "spiumaŧ",		"",			1,	5,	"g",	"1810",			"Sprimaŧar.",
