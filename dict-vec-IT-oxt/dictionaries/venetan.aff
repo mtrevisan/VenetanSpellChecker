@@ -4618,18 +4618,18 @@ SFX xZ ir emo-ƚo/P2 ir	vt:imperative+present is:first is:plural cl:pronomenal+a
 # i klítegi i pasa vanti de ʼl vèrbo intéi mòdi feníi, ma no inté ʼl komandativo indove ke ʼl se kata da drio (fora ke par thèrti vèrbi kome `déver`, `èser`, `aver`, e `saver` ke no i gà sta forma)
 # par i mòdi indefeníi inveŧe el ge xé e ʼl rèsta dadrío sol ke inté ʼl infenío e xerundio
 SFX P0 Y 29
-SFX P0 0 -me .	cl:pronomenal+reflexive is:first
-SFX P0 0 -ne .	cl:pronomenal+genitive is:first is:plural
+SFX P0 0 -me [^lmnr]	cl:pronomenal+reflexive is:first
+SFX P0 0 -ne [^lmnr]	cl:pronomenal+genitive is:first is:plural
 SFX P0 0 -se .	cl:pronomenal+reflexive
 SFX P0 0 -te .	cl:pronomenal+reflexive is:second
 SFX P0 0 -ve .	cl:pronomenal+reflexive is:second is:plural
 SFX P0 0 -ge .	cl:pronomenal+locative is:third
-SFX P0 0 -men .	cl:pronomenal+reflexive+partitive is:first
-SFX P0 0 -mene .	cl:pronomenal+reflexive+partitive is:first
-SFX P0 0 -mende .	cl:pronomenal+reflexive+partitive is:first
-SFX P0 0 -nen .	cl:pronomenal+genitive is:first is:plural
-SFX P0 0 -nene .	cl:pronomenal+genitive is:first is:plural
-SFX P0 0 -nende .	cl:pronomenal+genitive is:first is:plural
+SFX P0 0 -men [^lmnr]	cl:pronomenal+reflexive+partitive is:first
+SFX P0 0 -mene [^lmnr]	cl:pronomenal+reflexive+partitive is:first
+SFX P0 0 -mende [^lmnr]	cl:pronomenal+reflexive+partitive is:first
+SFX P0 0 -nen [^lmnr]	cl:pronomenal+genitive is:first is:plural
+SFX P0 0 -nene [^lmnr]	cl:pronomenal+genitive is:first is:plural
+SFX P0 0 -nende [^lmnr]	cl:pronomenal+genitive is:first is:plural
 SFX P0 0 -sen .	cl:pronomenal+reflexive+partitive
 SFX P0 0 -sene .	cl:pronomenal+reflexive+partitive
 SFX P0 0 -sende .	cl:pronomenal+reflexive+partitive
@@ -4644,28 +4644,28 @@ SFX P0 0 -gene .	cl:pronomenal+locative+genitive is:third
 SFX P0 0 -gende .	cl:pronomenal+locative+genitive is:third
 SFX P0 0 -gin .	cl:pronomenal+locative+genitive is:third
 SFX P0 0 -gine .	cl:pronomenal+locative+genitive is:third
-SFX P0 0 -n [^lnr]	cl:pronomenal+genitive
-SFX P0 0 -nde [^lr]	cl:pronomenal+genitive
+SFX P0 0 -n [^lmnr]	cl:pronomenal+genitive
+SFX P0 0 -nde [^lmnr]	cl:pronomenal+genitive
 SFX P0 0 -de r	cl:pronomenal+genitive
 
 # vèrbo prokonplementar (pronòme konplemento dirèto e indirèto/`se` inparsonal + klítego konpl. dir. de 3a pars./pron. klítego part. `n(e)`, FIXME fòra ke par la prima pars. pl.): 0>-([gmstv]e)?l[oaie]?
 SFX P1 Y 72
-SFX P1 0 -l [^lnr]	cl:pronomenal+accusative
-SFX P1 0 -lo [^l]	cl:pronomenal+accusative
-SFX P1 0 -la [^l]	cl:pronomenal+accusative is:femenine
-SFX P1 0 -li [^l]	cl:pronomenal+accusative is:plural
+SFX P1 0 -l [^lmnr]	cl:pronomenal+accusative
+SFX P1 0 -lo [^lmnr]	cl:pronomenal+accusative
+SFX P1 0 -la [^lmnr]	cl:pronomenal+accusative is:femenine
+SFX P1 0 -li [^lmnr]	cl:pronomenal+accusative is:plural
 SFX P1 0 -ɉi [^l]	cl:pronomenal+accusative is:plural	# pavan
-SFX P1 0 -le [^l]	cl:pronomenal+accusative is:plural is:femenine
-SFX P1 0 -mel [^l]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative
-SFX P1 0 -melo [^l]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative
-SFX P1 0 -mela [^l]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:femenine
-SFX P1 0 -meli [^l]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:plural
-SFX P1 0 -mele [^l]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:plural is:femenine
-SFX P1 0 -nel [^l]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative
-SFX P1 0 -nelo [^l]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative
-SFX P1 0 -nela [^l]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:femenine
-SFX P1 0 -neli [^l]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:plural
-SFX P1 0 -nele [^l]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:plural is:femenine
+SFX P1 0 -le [^lmnr]	cl:pronomenal+accusative is:plural is:femenine
+SFX P1 0 -mel [^lmnr]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative
+SFX P1 0 -melo [^lmnr]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative
+SFX P1 0 -mela [^lmnr]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:femenine
+SFX P1 0 -meli [^lmnr]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:plural
+SFX P1 0 -mele [^lmnr]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:plural is:femenine
+SFX P1 0 -nel [^lmnr]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative
+SFX P1 0 -nelo [^lmnr]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative
+SFX P1 0 -nela [^lmnr]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:femenine
+SFX P1 0 -neli [^lmnr]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:plural
+SFX P1 0 -nele [^lmnr]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:plural is:femenine
 SFX P1 0 -sel [^l]	cl:pronomenal+reflexive cl:pronomenal+accusative
 SFX P1 0 -selo [^l]	cl:pronomenal+reflexive cl:pronomenal+accusative
 SFX P1 0 -sela [^l]	cl:pronomenal+reflexive cl:pronomenal+accusative is:femenine
@@ -4730,18 +4730,18 @@ SFX P2 0 -la r	cl:pronomenal+accusative is:femenine
 SFX P2 0 -li r	cl:pronomenal+accusative is:plural
 SFX P2 0 -ɉi r	cl:pronomenal+accusative is:plural	# pavan
 SFX P2 0 -le r	cl:pronomenal+accusative is:plural is:femenine
-SFX P2 0 -ƚo [^olnr]	cl:pronomenal+accusative is:femenine
-SFX P2 0 -ƚa [^olnr]	cl:pronomenal+accusative is:femenine
-SFX P2 0 -ƚi [^olnr]	cl:pronomenal+accusative is:plural
-SFX P2 0 -ƚe [^olnr]	cl:pronomenal+accusative is:plural is:femenine
-SFX P2 0 -meƚo [^o]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative
-SFX P2 0 -meƚa [^o]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:femenine
-SFX P2 0 -meƚi [^o]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:plural
-SFX P2 0 -meƚe [^o]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:plural is:femenine
-SFX P2 0 -neƚo [^o]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative
-SFX P2 0 -neƚa [^o]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:femenine
-SFX P2 0 -neƚi [^o]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:plural
-SFX P2 0 -neƚe [^o]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:plural is:femenine
+SFX P2 0 -ƚo [^olmnr]	cl:pronomenal+accusative is:femenine
+SFX P2 0 -ƚa [^olmnr]	cl:pronomenal+accusative is:femenine
+SFX P2 0 -ƚi [^olmnr]	cl:pronomenal+accusative is:plural
+SFX P2 0 -ƚe [^olmnr]	cl:pronomenal+accusative is:plural is:femenine
+SFX P2 0 -meƚo [^olmnr]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative
+SFX P2 0 -meƚa [^olmnr]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:femenine
+SFX P2 0 -meƚi [^olmnr]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:plural
+SFX P2 0 -meƚe [^olmnr]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:plural is:femenine
+SFX P2 0 -neƚo [^olmnr]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative
+SFX P2 0 -neƚa [^olmnr]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:femenine
+SFX P2 0 -neƚi [^olmnr]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:plural
+SFX P2 0 -neƚe [^olmnr]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:plural is:femenine
 SFX P2 0 -seƚo [^o]	cl:pronomenal+reflexive cl:pronomenal+accusative
 SFX P2 0 -seƚa [^o]	cl:pronomenal+reflexive cl:pronomenal+accusative is:femenine
 SFX P2 0 -seƚi [^o]	cl:pronomenal+reflexive cl:pronomenal+accusative is:plural
@@ -4857,13 +4857,13 @@ SFX I4 0 -vo .	cl:interrogative	# pavan
 
 # interogativi tèrŧa parsona (senŧa èle vanesente)
 SFX I5 Y 12
-SFX I5 0 -l [^lnr]	cl:interrogative
-SFX I5 0 -lo [^a]	cl:interrogative
-SFX I5 0 -la [^a]	cl:interrogative is:femenine
-SFX I5 0 -li [^a]	cl:interrogative is:plural
+SFX I5 0 -l [^lmnr]	cl:interrogative
+SFX I5 0 -lo [^almnr]	cl:interrogative
+SFX I5 0 -la [^almnr]	cl:interrogative is:femenine
+SFX I5 0 -li [^almnr]	cl:interrogative is:plural
 SFX I5 0 -ɉi [^a]	cl:interrogative is:plural	# pavan
 SFX I5 e i-li e	cl:interrogative is:plural	# viŧentin
-SFX I5 0 -le [^a]	cl:interrogative is:plural is:femenine
+SFX I5 0 -le [^almnr]	cl:interrogative is:plural is:femenine
 SFX I5 a e-lo a	cl:interrogative
 SFX I5 a e-la a	cl:interrogative is:femenine
 SFX I5 a e-li a	cl:interrogative is:plural
