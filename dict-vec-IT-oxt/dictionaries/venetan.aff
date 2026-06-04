@@ -1,7 +1,7 @@
 # Diŧionario de lengua vèneta
 #
 # Venetan hunspell affix file
-# Copyright (C) 2016‒2025 Mauro Trevisan
+# Copyright (C) 2016‒2026 Mauro Trevisan
 #
 # This file is distributed under GPL license.
 #
@@ -24,7 +24,7 @@
 SET UTF-8
 
 NAME Diŧionario de lengua vèneta
-VERSION 7.1.0 (2026/02/25)
+VERSION 7.2.0 (2026/06/10)
 HOME http://parnodexmentegar.orgfree.com/
 LANG vec-IT
 
@@ -425,7 +425,7 @@ SFX T0 ir í/I4 ir	vt:indicative+present is:second is:plural	# T5 = T12 + ((i)è
 SFX T0 ir é/I4 ir	vt:indicative+present is:second is:plural	# T12 + ((i)è|é)
 SFX T0 0 0/I1 e	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX T0 e o/I1 e	vt:indicative+present is:first is:singular	# T8 + [oe]
-SFX T0 e i/I3 e	vt:indicative+present is:second is:singular	# T8 + i
+SFX T0 e i/PdI3 e	vt:indicative+present is:second is:singular	# T8 + i
 SFX T0 ete iti/I3 ete	vt:indicative+present is:second is:singular	# T8 + i, metafonèxi padoana
 SFX T0 eve ivi/I3 eve	vt:indicative+present is:second is:singular	# T8 + i, metafonèxi padoana
 SFX T0 e a e	vt:indicative+present is:third	# T10
@@ -566,7 +566,7 @@ SFX T1 r i/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
 SFX T1 ar àis/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
 SFX T1 ar ei/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)i, liventin, metaplaxmo
 SFX T1 ar éis/I3 ar	vt:indicative+imperfect is:second is:singular	# T2 + (v)i, liventin, metaplaxmo
-SFX T1 r i/I3 er	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
+SFX T1 r i/PdI3 er	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
 SFX T1 er éis/I3 er	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
 SFX T1 ir íi/I3 [^aeiouïü]ir	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
 SFX T1 ir íi/I3 [^-]dir	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
@@ -575,7 +575,7 @@ SFX T1 ir íi/I3 .fir	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
 SFX T1 ir íis/I3 [^aeiouïü]ir	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
 SFX T1 r i/I3 [aeiouïü]ir	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
 SFX T1 ir íis/I3 [aeiouïü]ir	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
-SFX T1 rò i/I3 erò	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
+SFX T1 rò i/PdI3 erò	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
 SFX T1 erò éis/I3 erò	vt:indicative+imperfect is:second is:singular	# T2 + (v)i
 SFX T1 ir ei/I3 ir	vt:indicative+imperfect is:second is:singular	# T2 + (v)i, metaplaxmo
 SFX T1 ir éis/I3 ir	vt:indicative+imperfect is:second is:singular	# T2 + (v)i, metaplaxmo
@@ -930,7 +930,7 @@ SFX T3 erò é/P0 erò	vt:imperative+present is:second is:plural	# T5 = T12 + ((
 SFX T3 erò í/P0 erò	vt:imperative+present is:second is:plural	# T5
 SFX T3 ir í/P0 ir	vt:imperative+present is:second is:plural	# T5, ŧenedexe
 SFX T3 e a/P0 e	vt:imperative+present is:second is:singular	# T9 (a/P0 is done by rule "0 0/P0 e")
-SFX T3 e i/P0 e	vt:imperative+present is:second is:singular	# T9
+SFX T3 e i/PdP0 e	vt:imperative+present is:second is:singular	# T9
 SFX T3 ete iti/P0 ete	vt:imperative+present is:second is:singular	# T9, metafonèxi padoana
 SFX T3 eve ivi/P0 eve	vt:imperative+present is:second is:singular	# T9, metafonèxi padoana
 SFX T3 0 0/P0 e	vt:imperative+present is:second is:singular	# T9, seguxinexe, padoan, viŧentin, polexan, lagunar
@@ -1077,7 +1077,7 @@ SFX L1 ir emo-l/P1 ir	vt:imperative+present is:first is:plural cl:pronomenal+acc
 SFX L2 Y 12
 SFX L2 e a-l/P1 e	vt:imperative+present is:second cl:pronomenal+accusative	# T9
 SFX L2 0 -l/P1 e	vt:imperative+present is:second cl:pronomenal+accusative	# T9
-SFX L2 e i-l/P1 e	vt:imperative+present is:second cl:pronomenal+accusative	# T9
+SFX L2 e i-l/P1 e	vt:imperative+present is:second cl:pronomenal+accusative	# T9, FIXME metafonèxi padoana
 SFX L2 ete iti-l/P1 ete	vt:imperative+present is:second cl:pronomenal+accusative	# T9, metafonèxi padoana
 SFX L2 eve ivi-l/P1 eve	vt:imperative+present is:second cl:pronomenal+accusative	# T9, metafonèxi padoana
 SFX L2 ar é-l/P1 ar	vt:imperative+present is:second is:plural cl:pronomenal+accusative	# T5
@@ -2663,8 +2663,9 @@ SFX xM ar é/I4 ar	vt:indicative+imperfect is:second is:plural	# T11 + (iv)ié
 # vèrbi '-er inregolari: (a|ante|bene|d[ei]x|in|int[ae]r|intr[ae]|kontra|ma[lƚ][ae]?|pre|re|sora)?díxer, (a|(pre)?de|dex|en|kon|re(kon|pro|intro)?|in(tro)?|pro|se|tra)?dúxer
 # changes in indicative present, indicative future, subjunctive present, conditional present, infinitive simple, participle passive
 # indicative future, conditional present of "dir"
-SFX xN Y 91
+SFX xN Y 92
 SFX xN íxer igo/I1 díxer	vt:indicative+present is:first is:singular	# T8 + [oe]
+SFX xN úxer ugo/I1 dúxer	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xN íxer ixi/I3 díxer	vt:indicative+present is:second is:singular	# T8 + i
 SFX xN er is/I3 díxer	vt:indicative+present is:second is:singular	# T8 + is
 SFX xN íxer ixa díxer	vt:indicative+present is:third	# T10
@@ -3908,12 +3909,12 @@ SFX xU èser esande/P0P1P2 èser	vt:gerund+simple	# T2 + n[dt]o, liventin
 # changes in indicative present, indicative future, conditional present, imperative present
 # TODO pòser
 # TODO do(v?)er => dòser? doser?
-SFX xV Y 142
+SFX xV Y 143
 SFX xV oder òso/I1 oder	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xV oder òse/I1A0 oder	vt:indicative+present is:first is:singular	# T8 + [oe], belumat
 SFX xV oder òle/I1A0 oder	vt:indicative+present is:first is:singular	# T8 + [oe]
 SFX xV oder òƚe/I1 oder	vt:indicative+present is:first is:singular	# T8 + [oe]
-SFX xV oder òr-lo/I6 oder	vt:indicative+future is:third cl:interrogative	# T4 + rà
+SFX xV oder ò/I3 oder	vt:indicative+present is:second is:singular	# T10, pavan
 SFX xV oder òla/I5 oder	vt:indicative+present is:third	# T10
 SFX xV oder òli/I5 oder	vt:indicative+present is:third	# T10, đulian
 SFX xV oder òle/I5 oder	vt:indicative+present is:third	# T10
@@ -3939,6 +3940,7 @@ SFX xV der rè/I4 oder	vt:indicative+future is:second is:plural	# T4 + r[èéí]
 SFX xV der ré/I4 oder	vt:indicative+future is:second is:plural	# T4 + r[èéí], arkade
 SFX xV der rí/I4 oder	vt:indicative+future is:second is:plural	# T4 + r[èéí]
 SFX xV der rà/I5I7 oder	vt:indicative+future is:third	# T4 + rà
+SFX xV oder òr-lo/I6 oder	vt:indicative+future is:third cl:interrogative	# T4 + rà
 SFX xV der ría oder	vt:conditional+present is:first is:singular	# T4 + rí[ae]/réa
 SFX xV der rea oder	vt:conditional+present is:first is:singular	# T4 + rí[ae]/réa, veronexe
 SFX xV der résimo/I2 oder	vt:conditional+present is:first is:plural	# T4 + r[éí]simo
@@ -4809,7 +4811,7 @@ SFX I1 Y 19
 SFX I1 0 -i .	cl:interrogative	# trevixan, veneŧian, padoan, viŧentin, polexan, veronexe
 SFX I1 0 -e .	cl:interrogative	# veneŧian
 SFX I1 0 -jo [neèoòó]	cl:interrogative	# veneŧian
-SFX I1 0 -ɉo [neèoòó]	cl:interrogative	# veneŧian
+SFX I1 0 -ɉo [neèoòó]	cl:interrogative	# veneŧian, pavan
 SFX I1 0 -ɉe [neèoòó]	cl:interrogative	# pavan
 SFX I1 0 -ɉu [neèoòó]	cl:interrogative	# coxòto
 SFX I1 0 -ɉi [nmeèoòó]	cl:interrogative	# pavan
@@ -5022,22 +5024,22 @@ SFX M1 o e o
 
 # paròle plurali maskoline (C > -i, o > i|[^i]o, io > i, [ae] > i, à > ai, é > ei, ó > oi)
 SFX M2 Y 8
-SFX M2 0 i [^aàeéioó]	is:plural
-SFX M2 o i [^i]o	is:plural
-SFX M2 io i io	is:plural
-SFX M2 a i a	is:plural
-SFX M2 e i e	is:plural
-SFX M2 à ai à	is:plural
-SFX M2 é ei é	is:plural
-SFX M2 ó oi ó	is:plural
+SFX M2 0 i/Pd [^aàeéioó]	is:plural
+SFX M2 o i/Pd [^i]o	is:plural
+SFX M2 io i/Pd io	is:plural
+SFX M2 a i/Pd a	is:plural
+SFX M2 e i/Pd e	is:plural
+SFX M2 à ai/Pd à	is:plural
+SFX M2 é ei/Pd é	is:plural
+SFX M2 ó oi/Pd ó	is:plural
 
 # paròle plurali maskoline mono-silabiŧi (o > i|io)
 SFX M3 Y 1
-SFX M3 o i [^aeiouàèéíòóú]io	is:plural
+SFX M3 o i/Pd [^aeiouàèéíòóú]io	is:plural
 
 # paròle plurali maskoline antigi (go > xi|[eèi]go)
 SFX M4 Y 1
-SFX M4 go xi [eèi]go	is:plural
+SFX M4 go xi/Pd [eèi]go	is:plural
 
 # paròle singolari femenili (C > -a, o > a)
 SFX F0 Y 2
@@ -5050,8 +5052,8 @@ SFX F1 0 e [^aeio]	is:femenine
 
 # paròle plurali femenili (C > -i, e > i|[^i]e, ie > i, a > e)
 SFX F2 Y 5
-SFX F2 0 i [^aeio]	is:plural is:femenine
-SFX F2 e i [^i]e	is:plural is:femenine
+SFX F2 0 i/Pd [^aeio]	is:plural is:femenine
+SFX F2 e i/Pd [^i]e	is:plural is:femenine
 SFX F2 e 0 ie	is:plural is:femenine
 SFX F2 a e a	is:plural is:femenine
 SFX F2 a 0 ía	is:plural is:femenine	# pavan
@@ -5075,10 +5077,10 @@ SFX A2 0 ia [lnr]	is:femenine
 # paròle senŧa đèner plurali ([aeo] > i, [lnr] > -e/i)
 SFX X0 Y 5
 SFX X0 0 e [lnr]
-SFX X0 a i a	is:plural
-SFX X0 e i e	is:plural
-SFX X0 o i o	is:plural
-SFX X0 0 i [lnr]	is:plural
+SFX X0 a i/Pd a	is:plural
+SFX X0 e i/Pd e	is:plural
+SFX X0 o i/Pd o	is:plural
+SFX X0 0 i/Pd [lnr]	is:plural
 
 # paròle astrati senŧa đèner (-ade > -ae/à/é, -ude > -ú(e))
 SFX X1 Y 6
@@ -5148,26 +5150,26 @@ SFX V0 lí ƚí [aeiouàèéíòóúïü]lí
 SFX V0 jo ɉo/M2A0 jo
 SFX V0 ló ƚó [aeiouàèéíòóúïü]ló
 SFX V0 lò ƚò [aeiouàèéíòóúïü]lò
-SFX V0 l ƚo/M2Pd [eo]l
+SFX V0 l ƚo/M2 [eo]l
 SFX V0 l ƚo/M2 [aiuàèéíòóú]l
-SFX V0 đo xo/M2A0Pd eđo
+SFX V0 đo xo/M2A0 eđo
 SFX V0 lia ƚia/F2 [aeiouàèéíòóúïü]lia
 SFX V0 ŧia sia/F2 ŧia
 SFX V0 lía ƚía/F2 [aeiouàèéíòóúïü]lía
 SFX V0 ŧía sía/F2 ŧía
 SFX V0 lan ƚan/M0M2Bu [aeiouàèéíòóúïü]lan
-SFX V0 len ƚen/M0M2Pd [aeiouàèéíòóúïü]len
+SFX V0 len ƚen/M0M2 [aeiouàèéíòóúïü]len
 SFX V0 lin ƚin/M0M2 [aeiouàèéíòóúïü]lin
 SFX V0 đin xin/M0M2 đin
 SFX V0 ŧin sin/M0M2 ŧin
-SFX V0 jon ɉon/M1M2B1BuPd jon
-SFX V0 lon ƚon/M1M2BuPd [aeiouàèéíòóúïü]lon
-SFX V0 ŧon son/M1M2B1BuPd ŧon
+SFX V0 jon ɉon/M1M2B1Bu jon
+SFX V0 lon ƚon/M1M2Bu [aeiouàèéíòóúïü]lon
+SFX V0 ŧon son/M1M2B1Bu ŧon
 SFX V0 lio ƚio/M2 [aeiouàèéíòóúïü]lio
 SFX V0 ŧio sio/M2 ŧio
 SFX V0 đio xio/M2 đio
 SFX V0 đo xo/M2A0 [^e]đo
-SFX V0 ŧo so/M2A0Pd [eo]ŧo
+SFX V0 ŧo so/M2A0 [eo]ŧo
 SFX V0 ŧo so/M2A0 [^eo]ŧo
 SFX V0 lana ƚana/F2 [aeiouàèéíòóúïü]lana
 SFX V0 lena ƚena/F2 [aeiouàèéíòóúïü]lena
@@ -5179,9 +5181,9 @@ SFX V0 lona ƚona/F2 [aeiouàèéíòóúïü]lona
 SFX V0 leta ƚeta/F2 [aeiouàèéíòóúïü]leta
 SFX V0 lèta ƚèta/F2 [aeiouàèéíòóúïü]lèta
 SFX V0 lòta ƚòta/F2 [aeiouàèéíòóúïü]lòta
-SFX V0 lion ƚion/M0M2BuPd [aeiouàèéíòóúïü]lion
-SFX V0 ŧion sion/F1F2B1BuPd ŧion
-SFX V0 leto ƚeto/M2Pd [aeiouàèéíòóúïü]leto
+SFX V0 lion ƚion/M0M2Bu [aeiouàèéíòóúïü]lion
+SFX V0 ŧion sion/F1F2B1Bu ŧion
+SFX V0 leto ƚeto/M2 [aeiouàèéíòóúïü]leto
 SFX V0 lèto ƚèto/M2 [aeiouàèéíòóúïü]lèto
 SFX V0 lòto ƚòto/M2 [aeiouàèéíòóúïü]lòto
 
@@ -5307,7 +5309,7 @@ PFX Ci n ni n[eèoò]
 PFX Ci p pi p[eè]
 PFX Ci r ri r[eèoò]
 PFX Ci s si s[eèoò]
-PFX Ci t ti t[oò]
+PFX Ci t ti t[eèoò]
 PFX Ci ŧ ŧi ŧ[eè]
 PFX Ci x xi x[oò]
 PFX Ci br bri br[eè]
@@ -5323,94 +5325,91 @@ PFX Ci st sti st[oò]
 ### Pàdoa ###
 
 # metafonèxi padoana
-SFX Pd Y 87
-SFX Pd el ili/Pv el	is:plural va:padoan
-SFX Pd ol uli/Pv ol	is:plural va:padoan
-SFX Pd òl uli/Pv òl	is:plural va:padoan
-SFX Pd en ini en	is:plural va:padoan
-SFX Pd on uni on	is:plural va:padoan
-SFX Pd er iri er	is:plural va:padoan
-SFX Pd or uri or	is:plural va:padoan
-SFX Pd ese isi ese	is:plural va:padoan
-SFX Pd eđe iđi eđe	is:plural va:padoan
-SFX Pd exe ixi exe	is:plural va:padoan
-SFX Pd eo ii eo	is:plural va:padoan
-SFX Pd edo idi edo	is:plural va:padoan
-SFX Pd odo udi odo	is:plural va:padoan
-SFX Pd eđo iđi eđo	is:plural
-SFX Pd ođo uđi ođo	is:plural
-SFX Pd eko iki eko	is:plural va:padoan
-SFX Pd oko uki oko	is:plural va:padoan
-SFX Pd ejo iji ejo	is:plural va:pavan
-SFX Pd eƚo iƚi eƚo	is:plural va:padoan
-SFX Pd oƚo uƚi oƚo	is:plural va:padoan
-SFX Pd emo imi emo	is:plural va:padoan
-SFX Pd omo umi omo	is:plural va:padoan
-SFX Pd eni ini eni	is:plural va:padoan
-SFX Pd eño iñi eño	is:plural va:padoan
-SFX Pd oño uñi oño	is:plural va:padoan
-SFX Pd opo upi opo	is:plural va:padoan
-SFX Pd eso isi eso	is:plural va:padoan
-SFX Pd oso usi oso	is:plural va:padoan
-SFX Pd eto iti eto	is:plural va:padoan
-SFX Pd oto uti oto	is:plural va:padoan
-SFX Pd eŧo iŧi eŧo	is:plural
-SFX Pd oŧo uŧi oŧo	is:plural
-SFX Pd evo ivi evo	is:plural va:padoan
-SFX Pd ovo uvi ovo	is:plural va:padoan
-SFX Pd exo ixi exo	is:plural va:padoan
-SFX Pd oxo uxi oxo	is:plural va:padoan
-SFX Pd olor uluri olor	is:plural va:padoan
-SFX Pd oƚor uƚuri oƚor	is:plural va:padoan
-SFX Pd otor uturi otor	is:plural va:padoan
-SFX Pd ente nti iente	is:plural va:padoan
-SFX Pd ente inti [^i]ente	is:plural va:padoan
-SFX Pd egro igri egro	is:plural va:padoan
-SFX Pd ento inti ento	is:plural va:padoan
-SFX Pd esko iski esko	is:plural va:pavan
-SFX Pd onbo unbi onbo	is:plural va:padoan
-SFX Pd ondo undi ondo	is:plural va:padoan
-SFX Pd onfo unfi onfo	is:plural va:padoan
-SFX Pd onte unti onte	is:plural va:padoan
-SFX Pd orte urti orte	is:plural va:padoan
-SFX Pd oldo uldi oldo	is:plural va:padoan
-SFX Pd ordo urdi ordo	is:plural va:padoan
-SFX Pd orto urti orto	is:plural va:padoan
-SFX Pd orđo urđi orđo	is:plural
-SFX Pd olko ulki olko	is:plural va:padoan
-SFX Pd olmo ulmi olmo	is:plural va:padoan
-SFX Pd olso ulsi olso	is:plural
-SFX Pd olŧo ulŧi olŧo	is:plural
-SFX Pd orko urki orko	is:plural va:padoan
-SFX Pd osko uski osko	is:plural va:padoan
-SFX Pd enpo inpi enpo	is:plural va:padoan
-SFX Pd esto isti esto	is:plural va:padoan
-SFX Pd erco irci erco	is:plural va:padoan
-SFX Pd erdo irdi erdo	is:plural va:padoan
-SFX Pd onto unti onto	is:plural va:padoan
-SFX Pd orno urni orno	is:plural va:padoan
-SFX Pd orxo urxi orxo	is:plural va:padoan
-SFX Pd osto usti osto	is:plural va:padoan
-SFX Pd enbro inbri enbro	is:plural va:pavan
-SFX Pd òtol útuli/Pv òtol	is:plural va:padoan
-SFX Pd òtoƚo útuƚi òtoƚo	is:plural va:padoan
-SFX Pd ojoxo ujuxi ojoxo	is:plural va:padoan
-SFX Pd oɉoxo uɉuxi oɉoxo	is:plural va:padoan
-SFX Pd oloxo uluxi oloxo	is:plural va:padoan
-SFX Pd oƚoxo uƚuxi oƚoxo	is:plural va:padoan
-SFX Pd omoxo umuxi omoxo	is:plural va:padoan
-SFX Pd oñoxo uñuxi oñoxo	is:plural va:padoan
-SFX Pd oroxo uruxi oroxo	is:plural va:padoan
-SFX Pd órden úrdini órden	is:plural va:padoan
-SFX Pd obioxo ubiuxi obioxo	is:plural va:padoan
-SFX Pd ofioxo ufiuxi ofioxo	is:plural va:padoan
-SFX Pd olioxo uliuxi olioxo	is:plural va:padoan
-SFX Pd oƚioxo uƚiuxi oƚioxo	is:plural va:padoan
-SFX Pd onioxo uniuxi onioxo	is:plural va:padoan
-SFX Pd orioxo uriuxi orioxo	is:plural va:padoan
-SFX Pd ostoxo ustuxi ostoxo	is:plural va:padoan
-SFX Pd ordioxo urdiuxi ordioxo	is:plural va:padoan
-SFX Pd obrioxo ubriuxi obrioxo	is:plural va:padoan
+#SFX Pd ei ii ei	va:pavan
+SFX Pd Y 83
+SFX Pd eli ili/Pv eli	va:pavan
+SFX Pd oli uli/Pv oli	va:pavan
+SFX Pd òli uli/Pv òli	va:pavan
+SFX Pd oni uni oni	va:pavan
+SFX Pd eri iri eri	va:pavan
+SFX Pd ori uri ori	va:pavan
+SFX Pd edi idi edi	va:pavan
+SFX Pd odi udi odi	va:pavan
+SFX Pd eđi iđi eđi	va:pavan
+SFX Pd ođi uđi ođi	va:pavan
+SFX Pd eki iki eki	va:pavan
+SFX Pd oki uki oki	va:pavan
+SFX Pd eji iji eji	va:pavan
+SFX Pd eƚi iƚi eƚi	va:pavan
+SFX Pd oƚi uƚi oƚi	va:pavan
+SFX Pd emi imi emi	va:pavan
+SFX Pd omi umi omi	va:pavan
+SFX Pd eni ini eni	va:pavan
+SFX Pd eñi iñi eñi	va:pavan
+SFX Pd oñi uñi oñi	va:pavan
+SFX Pd opi upi opi	va:pavan
+SFX Pd esi isi esi	va:pavan
+SFX Pd osi usi osi	va:pavan
+SFX Pd eti iti eti	va:pavan
+SFX Pd oti uti oti	va:pavan
+SFX Pd eŧi iŧi eŧi	va:pavan
+SFX Pd oŧi uŧi oŧi	va:pavan
+SFX Pd evi ivi evi	va:pavan
+SFX Pd ovi uvi ovi	va:pavan
+SFX Pd exi ixi exi	va:pavan
+SFX Pd oxi uxi oxi	va:pavan
+SFX Pd olori uluri olori	va:pavan
+SFX Pd oƚori uƚuri oƚori	va:pavan
+SFX Pd otori uturi otori	va:pavan
+SFX Pd enti nti ienti	va:pavan
+SFX Pd enti inti [^i]enti	va:pavan
+SFX Pd egri igri egri	va:pavan
+SFX Pd enti inti enti	va:pavan
+SFX Pd erki irki erki	va:pavan
+SFX Pd eski iski eski	va:pavan
+SFX Pd onbi unbi onbi	va:pavan
+SFX Pd ondi undi ondi	va:pavan
+SFX Pd onfi unfi onfi	va:pavan
+SFX Pd onti unti onti	va:pavan
+SFX Pd orsi ursi orsi	va:pavan
+SFX Pd orŧi urŧi orŧi	va:pavan
+SFX Pd orti urti orti	va:pavan
+SFX Pd oldi uldi oldi	va:pavan
+SFX Pd ordi urdi ordi	va:pavan
+SFX Pd orđi urđi orđi	va:pavan
+SFX Pd olki ulki olki	va:pavan
+SFX Pd olmi ulmi olmi	va:pavan
+SFX Pd olsi ulsi olsi	va:pavan
+SFX Pd olŧi ulŧi olŧi	va:pavan
+SFX Pd orki urki orki	va:pavan
+SFX Pd oski uski oski	va:pavan
+SFX Pd enpi inpi enpi	va:pavan
+SFX Pd esti isti esti	va:pavan
+SFX Pd erci irci erci	va:pavan
+SFX Pd erdi irdi erdi	va:pavan
+SFX Pd orni urni orni	va:pavan
+SFX Pd orxi urxi orxi	va:pavan
+SFX Pd osti usti osti	va:pavan
+SFX Pd enbri inbri enbri	va:pavan
+SFX Pd òtoli útuli/Pv òtoli	va:pavan
+SFX Pd òtoƚi útuƚi òtoƚi	va:pavan
+SFX Pd ojoxi ujuxi ojoxi	va:pavan
+SFX Pd oɉoxi uɉuxi oɉoxi	va:pavan
+SFX Pd oloxi uluxi oloxi	va:pavan
+SFX Pd oƚoxi uƚuxi oƚoxi	va:pavan
+SFX Pd omoxi umuxi omoxi	va:pavan
+SFX Pd oñoxi uñuxi oñoxi	va:pavan
+SFX Pd oroxi uruxi oroxi	va:pavan
+SFX Pd órdeni úrdini órdeni	va:pavan
+SFX Pd obioxi ubiuxi obioxi	va:pavan
+SFX Pd ofioxi ufiuxi ofioxi	va:pavan
+SFX Pd olioxi uliuxi olioxi	va:pavan
+SFX Pd oƚioxi uƚiuxi oƚioxi	va:pavan
+SFX Pd onioxi uniuxi onioxi	va:pavan
+SFX Pd orioxi uriuxi orioxi	va:pavan
+SFX Pd ostoxi ustuxi ostoxi	va:pavan
+SFX Pd ordioxi urdiuxi ordioxi	va:pavan
+SFX Pd obrioxi ubriuxi obrioxi	va:padoan
 
 # trasformaŧion pavana (-ai > -è, -èl > -èɉi)
 SFX Pv Y 6
@@ -5445,7 +5444,7 @@ PFX Vs Te Ta Te
 
 ### Verona ###
 
-# trasformaŧion veronexe (-ente > -ènte/X0A0, -en[pstŧ]o > -èn[pstŧ]o/M2A0Pd, -en[dstŧ]a > -èn[dstŧ]a/F2, -osto > -òsto/M2A0, -ongo > -òngo/M2A0, -evo > -èvo/M2)
+# trasformaŧion veronexe (-ente > -ènte/X0A0, -en[pstŧ]o > -èn[pstŧ]o/M2A0, -en[dstŧ]a > -èn[dstŧ]a/F2, -osto > -òsto/M2A0, -ongo > -òngo/M2A0, -evo > -èvo/M2)
 SFX Vr Y 44
 SFX Vr eva èva/F2 eva
 SFX Vr evo èvo/M2 evo
@@ -5492,7 +5491,7 @@ SFX Vr enpia ènpia/F2 enpia
 SFX Vr enbro ènbro/M2 enbro
 SFX Vr ontro òntro/M2 ontro
 
-# trasformaŧion veronexe ko èle vanesente (-ente > -ènte/M2, -ento > -ènto/M2Pd, -evo > -èvo/M2)
+# trasformaŧion veronexe ko èle vanesente (-ente > -ènte/M2, -ento > -ènto/M2, -evo > -èvo/M2)
 SFX VR Y 20
 SFX VR evo èvo/M2 evo
 SFX VR enda ènda/F2 enda
@@ -5518,46 +5517,46 @@ SFX VR osko òsko/M2 osko
 
 # piante e mistièri (-i?èr/-i?er, -aro, -dor/-tor, -i?ol/-i?òl)
 SFX v0 Y 77
-SFX v0 èr er/M0M2Pd èr	# veronexe
+SFX v0 èr er/M0M2 èr	# veronexe
 SFX v0 èr ar/M0M2 èr	# padoan, roigòto, viŧentin, veronexe
-SFX v0 èr ereto/M2A0Pd èr	ds:eto	# veneŧian, trevixan, belunexe, veronexe
-SFX v0 èr areto/M2A0Pd èr	ds:eto	# padoan, roigòto, viŧentin, veronexe
+SFX v0 èr ereto/M2A0 èr	ds:eto	# veneŧian, trevixan, belunexe, veronexe
+SFX v0 èr areto/M2A0 èr	ds:eto	# padoan, roigòto, viŧentin, veronexe
 SFX v0 r 0 èr	is:elision	# buranèl
 SFX v0 èra ara/F2 èra	# padoan, roigòto, viŧentin, veronexe
 SFX v0 èra era/F2 èra	# veneŧian, trevixan, belunexe, veronexe
 SFX v0 èra ereta/F2 èra	ds:eto	# veneŧian, trevixan, belunexe, veronexe
 SFX v0 èra areta/F2 èra	ds:eto	# padoan, roigòto, viŧentin, veronexe
-SFX v0 ièr er/M0M2Pd ièr	# veronexe
+SFX v0 ièr er/M0M2 ièr	# veronexe
 SFX v0 ièr èr/M0M2 ièr	# veneŧian, trevixan, belunexe
 SFX v0 ièr ar/M0M2 ièr	# padoan, roigòto, viŧentin, veronexe
-SFX v0 ièr ereto/M2A0Pd ièr	ds:eto	# veneŧian, trevixan, belunexe, veronexe
-SFX v0 ièr areto/M2A0Pd ièr	ds:eto	# padoan, roigòto, viŧentin, veronexe
+SFX v0 ièr ereto/M2A0 ièr	ds:eto	# veneŧian, trevixan, belunexe, veronexe
+SFX v0 ièr areto/M2A0 ièr	ds:eto	# padoan, roigòto, viŧentin, veronexe
 SFX v0 ièra ara/F2 ièra	# padoan, roigòto, viŧentin, veronexe
 SFX v0 ièra èra/F2 ièra	# veneŧian, trevixan, belunexe
 SFX v0 ièra era/F2 ièra	# veronexe
 SFX v0 ièra ereta/F2 ièra	ds:eto	# veneŧian, trevixan, belunexe, veronexe
 SFX v0 ièra areta/F2 ièra	ds:eto	# padoan, roigòto, viŧentin, veronexe
-SFX v0 èr ier/M0M2Pd [^aeucijɉñ]èr	# belumat
+SFX v0 èr ier/M0M2 [^aeucijɉñ]èr	# belumat
 SFX v0 èr ièr/M0M2 [^aeucijɉñ]èr
 SFX v0 èr iar/M0M2 [^aeucijɉñ]èr
-SFX v0 èr iereto/M2A0Pd [^aeucijɉñ]èr	ds:eto
-SFX v0 èr iareto/M2A0Pd [^aeucijɉñ]èr	ds:eto
+SFX v0 èr iereto/M2A0 [^aeucijɉñ]èr	ds:eto
+SFX v0 èr iareto/M2A0 [^aeucijɉñ]èr	ds:eto
 SFX v0 èra iara/F2 [^aeucijɉñ]èra
 SFX v0 èra ièra/F2 [^aeucijɉñ]èra
 SFX v0 èra iera/F2 [^aeucijɉñ]èra
 SFX v0 èra iereta/F2 [^aeucijɉñ]èra	ds:eto
 SFX v0 èra iareta/F2 [^aeucijɉñ]èra	ds:eto
-SFX v0 0 eto/M2A0Pd [aei]dor	ds:eto
-SFX v0 dor or/M0M2Pd [^edjɉnñrtïü]idor
-SFX v0 dor or/M0M2Pd [aeiou]idor
-SFX v0 idor ïor/M0M2Pd [^aeiou]idor
-SFX v0 dor or/M0M2Pd [ae]dor
-SFX v0 dor tor/M0M2Pd [aei]dor
-SFX v0 dor oreto/M2A0Pd [ae]dor	ds:eto
-SFX v0 dor oreto/M2A0Pd [^edjɉnñrtïü]idor	ds:eto
-SFX v0 dor oreto/M2A0Pd [aeiou]idor	ds:eto
-SFX v0 idor ïoreto/M2A0Pd [^aeiou]idor	ds:eto
-SFX v0 dor toreto/M2A0Pd [aei]dor	ds:eto
+SFX v0 0 eto/M2A0 [aei]dor	ds:eto
+SFX v0 dor or/M0M2 [^edjɉnñrtïü]idor
+SFX v0 dor or/M0M2 [aeiou]idor
+SFX v0 idor ïor/M0M2 [^aeiou]idor
+SFX v0 dor or/M0M2 [ae]dor
+SFX v0 dor tor/M0M2 [aei]dor
+SFX v0 dor oreto/M2A0 [ae]dor	ds:eto
+SFX v0 dor oreto/M2A0 [^edjɉnñrtïü]idor	ds:eto
+SFX v0 dor oreto/M2A0 [aeiou]idor	ds:eto
+SFX v0 idor ïoreto/M2A0 [^aeiou]idor	ds:eto
+SFX v0 dor toreto/M2A0 [aei]dor	ds:eto
 SFX v0 a eta/F2 [aei]dora	ds:eto
 SFX v0 dora ora/F2 [ae]dora
 SFX v0 dora ora/F2 [^edjɉnñrtïü]idora
@@ -5571,22 +5570,22 @@ SFX v0 idora ïoreta/F2 [^aeiou]idora	ds:eto
 SFX v0 dora toreta/F2 [aei]dora	ds:eto
 SFX v0 r ora/F2 [^èo]r
 SFX v0 r dora/F2 [^èo]r
-SFX v0 r or/M0M2Pd [^èo]r
+SFX v0 r or/M0M2 [^èo]r
 SFX v0 r tora/F2 [^èo]r
-SFX v0 r dor/M0M2Pd [^èo]r
+SFX v0 r dor/M0M2 [^èo]r
 SFX v0 r oreta/F2 [^èo]r	ds:eto
-SFX v0 r tor/M0M2Pd [^èo]r
+SFX v0 r tor/M0M2 [^èo]r
 SFX v0 r doreta/F2 [^èo]r	ds:eto
 SFX v0 r toreta/F2 [^èo]r	ds:eto
-SFX v0 r oreto/M2A0Pd [^èo]r	ds:eto
-SFX v0 r doreto/M2A0Pd [^èo]r	ds:eto
-SFX v0 r toreto/M2A0Pd [^èo]r	ds:eto
+SFX v0 r oreto/M2A0 [^èo]r	ds:eto
+SFX v0 r doreto/M2A0 [^èo]r	ds:eto
+SFX v0 r toreto/M2A0 [^èo]r	ds:eto
 SFX v0 òl uòl/M0M2B1 [dđfgiïjɉñrsŧx]òl	# faxe 1: XIV‒XV sèk.
-SFX v0 òl uoleto/M2A0Pd [dđfgiïjɉñrsŧx]òl	ds:eto	# faxe 1: XIV‒XV sèk.
+SFX v0 òl uoleto/M2A0 [dđfgiïjɉñrsŧx]òl	ds:eto	# faxe 1: XIV‒XV sèk.
 SFX v0 òl iòl/M0M2B1 [dđfrsŧx]òl	# faxe 2: XVI‒XVIII sèk.
-SFX v0 òl ioleto/M2A0Pd [dđfrsŧx]òl	ds:eto	# faxe 2: XVI‒XVIII sèk.
+SFX v0 òl ioleto/M2A0 [dđfrsŧx]òl	ds:eto	# faxe 2: XVI‒XVIII sèk.
 SFX v0 òl ol/M0M2B1 [dđfgiïjɉñrsŧx]òl	# faxe 3: XIX sèk., belumat
-SFX v0 òl oleto/M2A0Pd [dđfgiïjɉñrsŧx]òl	ds:eto	# faxe 3: XIX sèk.
+SFX v0 òl oleto/M2A0 [dđfgiïjɉñrsŧx]òl	ds:eto	# faxe 3: XIX sèk.
 SFX v0 òl iol/M0M2B1 [dđfrsŧx]òl	# faxe 3: XIX sèk., belumat
 SFX v0 òla uòla/F2 [dđfgjɉkñrsŧx]òla	# faxe 1: XIV‒XV sèk.
 SFX v0 òla uoleta/F2 [dđfgjɉkrsŧx]òla	ds:eto	# faxe 1: XIV‒XV sèk.
@@ -5598,41 +5597,41 @@ SFX v0 òla iola/F2 [dđfrsŧx]òla	# faxe 3: XIX sèk., belumat
 
 # piante e mistièri ko èle vanesente (-èr, -aro, -i?oƚo/-i?òƚo)
 SFX v7 Y 74
-SFX v7 0 eto/M2Pd [aei]dor	ds:eto
-SFX v7 èr er/M0M2Pd ièr
+SFX v7 0 eto/M2 [aei]dor	ds:eto
+SFX v7 èr er/M0M2 ièr
 SFX v7 ièr èr/M0M2 ièr
 SFX v7 ièr ar/M0M2 ièr
-SFX v7 ièr er/M0M2Pd ièr
-SFX v7 ièr areto/M2Pd ièr	ds:eto
-SFX v7 ièr ereto/M2Pd ièr	ds:eto
-SFX v7 dor or/M0M2Pd [ae]dor
-SFX v7 dor or/M0M2Pd [^edjɉnñrtïü]idor
-SFX v7 dor or/M0M2Pd [aeiou]idor
-SFX v7 idor ïor/M0M2Pd [^aeiou]idor
-SFX v7 dor tor/M0M2Pd [aei]dor
-SFX v7 dor oreto/M2Pd [ae]dor	ds:eto
-SFX v7 dor oreto/M2Pd [^edjɉnñrtïü]idor	ds:eto
-SFX v7 dor oreto/M2Pd [aeiou]idor	ds:eto
-SFX v7 idor ïoreto/M2Pd [^aeiou]idor	ds:eto
-SFX v7 dor toreto/M2Pd [aei]dor	ds:eto
+SFX v7 ièr er/M0M2 ièr
+SFX v7 ièr areto/M2 ièr	ds:eto
+SFX v7 ièr ereto/M2 ièr	ds:eto
+SFX v7 dor or/M0M2 [ae]dor
+SFX v7 dor or/M0M2 [^edjɉnñrtïü]idor
+SFX v7 dor or/M0M2 [aeiou]idor
+SFX v7 idor ïor/M0M2 [^aeiou]idor
+SFX v7 dor tor/M0M2 [aei]dor
+SFX v7 dor oreto/M2 [ae]dor	ds:eto
+SFX v7 dor oreto/M2 [^edjɉnñrtïü]idor	ds:eto
+SFX v7 dor oreto/M2 [aeiou]idor	ds:eto
+SFX v7 idor ïoreto/M2 [^aeiou]idor	ds:eto
+SFX v7 dor toreto/M2 [aei]dor	ds:eto
 SFX v7 r ora/F2 r
 SFX v7 r dora/F2 r
-SFX v7 r or/M0M2Pd r
+SFX v7 r or/M0M2 r
 SFX v7 r tora/F2 r
-SFX v7 r dor/M0M2Pd r
+SFX v7 r dor/M0M2 r
 SFX v7 r oreta/F2 r	ds:eto
-SFX v7 r tor/M0M2Pd r
+SFX v7 r tor/M0M2 r
 SFX v7 r doreta/F2 r	ds:eto
 SFX v7 r toreta/F2 r	ds:eto
-SFX v7 r oreto/M2Pd r	ds:eto
-SFX v7 r doreto/M2Pd r	ds:eto
-SFX v7 r toreto/M2Pd r	ds:eto
+SFX v7 r oreto/M2 r	ds:eto
+SFX v7 r doreto/M2 r	ds:eto
+SFX v7 r toreto/M2 r	ds:eto
 SFX v7 èr ar/M0M2 èr
 SFX v7 èr ièr/M0M2 [^aeoucijɉñ]èr
 SFX v7 èr ier/M0M2 [^aeoucijɉñ]èr
-SFX v7 èr areto/M2Pd [^i]èr	ds:eto
-SFX v7 èr ereto/M2Pd [^i]èr	ds:eto
-SFX v7 èr iereto/M2Pd [^aeoucijɉñ]èr	ds:eto
+SFX v7 èr areto/M2 [^i]èr	ds:eto
+SFX v7 èr ereto/M2 [^i]èr	ds:eto
+SFX v7 èr iereto/M2 [^aeoucijɉñ]èr	ds:eto
 SFX v7 a eta/F2 [aei]dora	ds:eto
 SFX v7 ièra ara/F2 ièra
 SFX v7 ièra era/F2 ièra
@@ -5659,11 +5658,11 @@ SFX v7 èra ereta/F2 [^i]èra	ds:eto
 SFX v7 èra iareta/F2 [^aeoucijɉñ]èra	ds:eto
 SFX v7 èra iereta/F2 [^aeoucijɉñ]èra	ds:eto
 SFX v7 òƚo uòƚo/M2 [dđfgiïjɉñrsŧx]òƚo	# faxe 1: XIV‒XV sèk.
-SFX v7 òƚo uoƚeto/M2Pd [dđfgiïjɉñrsŧx]òƚo	ds:eto	# faxe 1: XIV‒XV sèk.
+SFX v7 òƚo uoƚeto/M2 [dđfgiïjɉñrsŧx]òƚo	ds:eto	# faxe 1: XIV‒XV sèk.
 SFX v7 òƚo iòƚo/M2 [dđfrsŧx]òƚo	# faxe 2: XVI‒XVIII sèk.
-SFX v7 òƚo ioƚeto/M2Pd [dđfrsŧx]òƚo	ds:eto	# faxe 2: XVI‒XVIII sèk.
+SFX v7 òƚo ioƚeto/M2 [dđfrsŧx]òƚo	ds:eto	# faxe 2: XVI‒XVIII sèk.
 SFX v7 òƚo oƚo/M2 [dđfgiïjɉñrsŧx]òƚo	# faxe 3: XIX sèk.
-SFX v7 òƚo oƚeto/M2Pd [dđfgiïjɉñrsŧx]òƚo	ds:eto	# faxe 3: XIX sèk.
+SFX v7 òƚo oƚeto/M2 [dđfgiïjɉñrsŧx]òƚo	ds:eto	# faxe 3: XIX sèk.
 SFX v7 òƚo ioƚo/M2 [dđfrsŧx]òƚo	# faxe 3: XIX sèk.
 SFX v7 òƚa uòƚa/F2 [dđfgiïjɉkñrsŧx]òƚa	# faxe 1: XIV‒XV sèk.
 SFX v7 òƚa uoƚeta/F2 [dđfgiïjɉkrsŧx]òƚa	ds:eto	# faxe 1: XIV‒XV sèk.
@@ -5717,9 +5716,9 @@ SFX d0 Y 12
 SFX d0 dur ur/M0M2 [^i]dur
 SFX d0 dur ur/M0M2 [aeiou]idur
 SFX d0 idur ïur/M0M2 [^aeiou]idur
-SFX d0 dur ureto/M2A0Pd [^i]dur	ds:eto
-SFX d0 dur ureto/M2A0Pd [aeiou]idur	ds:eto
-SFX d0 idur ïureto/M2A0Pd [^aeiou]idur	ds:eto
+SFX d0 dur ureto/M2A0 [^i]dur	ds:eto
+SFX d0 dur ureto/M2A0 [aeiou]idur	ds:eto
+SFX d0 idur ïureto/M2A0 [^aeiou]idur	ds:eto
 SFX d0 dura ura/F2 [^i]dura
 SFX d0 dura ura/F2 [aeiou]idura
 SFX d0 idura ïura/F2 [^aeiou]idura
@@ -5730,7 +5729,7 @@ SFX d0 idura ïureta/F2 [^aeiou]idura	ds:eto
 # nominali deverbali ko èle vanesente (-dur(eto)/M0M2, -dur(et)a/F2)
 SFX d7 Y 8
 SFX d7 dur ur/M0M2 dur
-SFX d7 dur ureto/M2Pd dur	ds:eto
+SFX d7 dur ureto/M2 dur	ds:eto
 SFX d7 dura ura/F2 [^i]dura
 SFX d7 dura ura/F2 [aeiou]idura
 SFX d7 idura ïura/F2 [^aeiou]idura
@@ -6036,72 +6035,72 @@ SFX y1 ede è ede	is:femenine	# pavan
 
 # sostantivi/ajetivi alterai — demenutivi (-eto)
 SFX e0 Y 53
-SFX e0 0 to/M2A0Pd e	ds:eto
-SFX e0 à aeto/M2A0Pd à	ds:eto
-SFX e0 è eeto/M2A0Pd è	ds:eto
-SFX e0 0 eto/M2A0Pd n	ds:eto
-SFX e0 ú ueto/M2A0Pd [aeiou]ú	ds:eto
-SFX e0 ú üeto/M2A0Pd [^aeiou]ú	ds:eto
-SFX e0 èl eleto/M2A0Pd èl	ds:eto
-SFX e0 òl oleto/M2A0Pd òl	ds:eto
-SFX e0 ío ieto/M2A0Pd [aeiou]ío	ds:eto
-SFX e0 ío ïeto/M2A0Pd [^aeiou]ío	ds:eto
-SFX e0 ò oeto/M2A0Pd ò	ds:eto
-SFX e0 òo oeto/M2A0Pd òo	ds:eto
-SFX e0 èo eeto/M2A0Pd èo	ds:eto
-SFX e0 úo ueto/M2A0Pd [aeiou]úo	ds:eto
-SFX e0 úo üeto/M2A0Pd [^aeiou]úo	ds:eto
-SFX e0 èr ereto/M2A0Pd èr	ds:eto
-SFX e0 òr oreto/M2A0Pd òr	ds:eto
-SFX e0 o eto/M2A0Pd [^àbcdđèfgiíjɉkmnñòpstŧúvx]o	ds:eto
-SFX e0 0 eto/M2A0Pd [^èò][lr]	ds:eto
-SFX e0 òbo obeto/M2A0Pd òbo	ds:eto
-SFX e0 èco eceto/M2A0Pd èco	ds:eto
-SFX e0 òco oceto/M2A0Pd òco	ds:eto
-SFX e0 òdo odeto/M2A0Pd òdo	ds:eto
-SFX e0 èđo eđeto/M2A0Pd èđo	ds:eto
-SFX e0 òđo ođeto/M2A0Pd òđo	ds:eto
-SFX e0 òfo ofeto/M2A0Pd òfo	ds:eto
-SFX e0 ègo egeto/M2A0Pd ègo	ds:eto
-SFX e0 ògo ogeto/M2A0Pd ògo	ds:eto
-SFX e0 èjo ejeto/M2A0Pd èjo	ds:eto
-SFX e0 òjo ojeto/M2A0Pd òjo	ds:eto
-SFX e0 èɉo eɉeto/M2A0Pd èɉo	ds:eto
-SFX e0 òɉo oɉeto/M2A0Pd òɉo	ds:eto
-SFX e0 èko eketo/M2A0Pd èko	ds:eto
-SFX e0 òko oketo/M2A0Pd òko	ds:eto
-SFX e0 èmo emeto/M2A0Pd èmo	ds:eto
-SFX e0 òmo ometo/M2A0Pd òmo	ds:eto
-SFX e0 òno oneto/M2A0Pd òno	ds:eto
-SFX e0 òño oñeto/M2A0Pd òño	ds:eto
-SFX e0 òpo opeto/M2A0Pd òpo	ds:eto
-SFX e0 èso eseto/M2A0Pd èso	ds:eto
-SFX e0 òso oseto/M2A0Pd òso	ds:eto
-SFX e0 òto oteto/M2A0Pd òto	ds:eto
-SFX e0 èŧo eŧeto/M2A0Pd èŧo	ds:eto
-SFX e0 òŧo oŧeto/M2A0Pd òŧo	ds:eto
-SFX e0 èvo eveto/M2A0Pd èvo	ds:eto
-SFX e0 òvo oveto/M2A0Pd òvo	ds:eto
-SFX e0 èxo exeto/M2A0Pd èxo	ds:eto
-SFX e0 òxo oxeto/M2A0Pd òxo	ds:eto
-SFX e0 o eto/M2A0Pd [^n]io	ds:eto
-SFX e0 o eto/M2A0Pd [^ò]nio	ds:eto
-SFX e0 ònio onieto/M2A0Pd ònio	ds:eto
-SFX e0 o eto/M2A0Pd [^ò][bdfnñpt]o	ds:eto
-SFX e0 o eto/M2A0Pd [^èò][cđgjɉkmsŧvx]o	ds:eto
+SFX e0 0 to/M2A0 e	ds:eto
+SFX e0 à aeto/M2A0 à	ds:eto
+SFX e0 è eeto/M2A0 è	ds:eto
+SFX e0 0 eto/M2A0 n	ds:eto
+SFX e0 ú ueto/M2A0 [aeiou]ú	ds:eto
+SFX e0 ú üeto/M2A0 [^aeiou]ú	ds:eto
+SFX e0 èl eleto/M2A0 èl	ds:eto
+SFX e0 òl oleto/M2A0 òl	ds:eto
+SFX e0 ío ieto/M2A0 [aeiou]ío	ds:eto
+SFX e0 ío ïeto/M2A0 [^aeiou]ío	ds:eto
+SFX e0 ò oeto/M2A0 ò	ds:eto
+SFX e0 òo oeto/M2A0 òo	ds:eto
+SFX e0 èo eeto/M2A0 èo	ds:eto
+SFX e0 úo ueto/M2A0 [aeiou]úo	ds:eto
+SFX e0 úo üeto/M2A0 [^aeiou]úo	ds:eto
+SFX e0 èr ereto/M2A0 èr	ds:eto
+SFX e0 òr oreto/M2A0 òr	ds:eto
+SFX e0 o eto/M2A0 [^àbcdđèfgiíjɉkmnñòpstŧúvx]o	ds:eto
+SFX e0 0 eto/M2A0 [^èò][lr]	ds:eto
+SFX e0 òbo obeto/M2A0 òbo	ds:eto
+SFX e0 èco eceto/M2A0 èco	ds:eto
+SFX e0 òco oceto/M2A0 òco	ds:eto
+SFX e0 òdo odeto/M2A0 òdo	ds:eto
+SFX e0 èđo eđeto/M2A0 èđo	ds:eto
+SFX e0 òđo ođeto/M2A0 òđo	ds:eto
+SFX e0 òfo ofeto/M2A0 òfo	ds:eto
+SFX e0 ègo egeto/M2A0 ègo	ds:eto
+SFX e0 ògo ogeto/M2A0 ògo	ds:eto
+SFX e0 èjo ejeto/M2A0 èjo	ds:eto
+SFX e0 òjo ojeto/M2A0 òjo	ds:eto
+SFX e0 èɉo eɉeto/M2A0 èɉo	ds:eto
+SFX e0 òɉo oɉeto/M2A0 òɉo	ds:eto
+SFX e0 èko eketo/M2A0 èko	ds:eto
+SFX e0 òko oketo/M2A0 òko	ds:eto
+SFX e0 èmo emeto/M2A0 èmo	ds:eto
+SFX e0 òmo ometo/M2A0 òmo	ds:eto
+SFX e0 òno oneto/M2A0 òno	ds:eto
+SFX e0 òño oñeto/M2A0 òño	ds:eto
+SFX e0 òpo opeto/M2A0 òpo	ds:eto
+SFX e0 èso eseto/M2A0 èso	ds:eto
+SFX e0 òso oseto/M2A0 òso	ds:eto
+SFX e0 òto oteto/M2A0 òto	ds:eto
+SFX e0 èŧo eŧeto/M2A0 èŧo	ds:eto
+SFX e0 òŧo oŧeto/M2A0 òŧo	ds:eto
+SFX e0 èvo eveto/M2A0 èvo	ds:eto
+SFX e0 òvo oveto/M2A0 òvo	ds:eto
+SFX e0 èxo exeto/M2A0 èxo	ds:eto
+SFX e0 òxo oxeto/M2A0 òxo	ds:eto
+SFX e0 o eto/M2A0 [^n]io	ds:eto
+SFX e0 o eto/M2A0 [^ò]nio	ds:eto
+SFX e0 ònio onieto/M2A0 ònio	ds:eto
+SFX e0 o eto/M2A0 [^ò][bdfnñpt]o	ds:eto
+SFX e0 o eto/M2A0 [^èò][cđgjɉkmsŧvx]o	ds:eto
 
 # sostantivi/ajetivi alterai — demenutivi ko èle vanesente (-eto)
 SFX e1 Y 35
-SFX e1 0 to/M2Pd e	ds:eto
-SFX e1 è eeto/M2Pd è	ds:eto
-SFX e1 0 eto/M2Pd n	ds:eto
+SFX e1 0 to/M2 e	ds:eto
+SFX e1 è eeto/M2 è	ds:eto
+SFX e1 0 eto/M2 n	ds:eto
 SFX e1 ía ieta/F2 [aeiou]ía	ds:eto
 SFX e1 ía ïeta/F2 [^aeiou]ía	ds:eto
-SFX e1 èr ereto/M2Pd èr	ds:eto
-SFX e1 òr oreto/M2Pd òr	ds:eto
+SFX e1 èr ereto/M2 èr	ds:eto
+SFX e1 òr oreto/M2 òr	ds:eto
 SFX e1 a eta/F2 [^dgíkƚnrtx]a	ds:eto
-SFX e1 o eto/M2Pd [^cjɉkƚmst]o	ds:eto
-SFX e1 0 eto/M2Pd [^èò]r	ds:eto
+SFX e1 o eto/M2 [^cjɉkƚmst]o	ds:eto
+SFX e1 0 eto/M2 [^èò]r	ds:eto
 SFX e1 èda edeta/F2 èda	ds:eto
 SFX e1 èga egeta/F2 èga	ds:eto
 SFX e1 èƚa eƚeta/F2 èƚa	ds:eto
@@ -6111,20 +6110,20 @@ SFX e1 òna oneta/F2 òna	ds:eto
 SFX e1 èra ereta/F2 èra	ds:eto
 SFX e1 òta oteta/F2 òta	ds:eto
 SFX e1 òxa oxeta/F2 òxa	ds:eto
-SFX e1 òco oceto/M2Pd òco	ds:eto
-SFX e1 òjo ojeto/M2Pd òjo	ds:eto
-SFX e1 òɉo oɉeto/M2Pd òɉo	ds:eto
-SFX e1 òko oketo/M2Pd òko	ds:eto
-SFX e1 èƚo eƚeto/M2Pd èƚo	ds:eto
-SFX e1 òƚo oƚeto/M2Pd òƚo	ds:eto
-SFX e1 òmo ometo/M2Pd òmo	ds:eto
-SFX e1 òso oseto/M2Pd òso	ds:eto
+SFX e1 òco oceto/M2 òco	ds:eto
+SFX e1 òjo ojeto/M2 òjo	ds:eto
+SFX e1 òɉo oɉeto/M2 òɉo	ds:eto
+SFX e1 òko oketo/M2 òko	ds:eto
+SFX e1 èƚo eƚeto/M2 èƚo	ds:eto
+SFX e1 òƚo oƚeto/M2 òƚo	ds:eto
+SFX e1 òmo ometo/M2 òmo	ds:eto
+SFX e1 òso oseto/M2 òso	ds:eto
 SFX e1 a eta/F2 [^èò]ƚa	ds:eto
 SFX e1 a eta/F2 [^òr]na	ds:eto
 SFX e1 a eta/F2 [^è]rna	ds:eto
 SFX e1 a eta/F2 [^ò][ktx]a	ds:eto
-SFX e1 o eto/M2Pd [^èò]ƚo	ds:eto
-SFX e1 o eto/M2Pd [^ò][kst]o	ds:eto
+SFX e1 o eto/M2 [^èò]ƚo	ds:eto
+SFX e1 o eto/M2 [^ò][kst]o	ds:eto
 SFX e1 a eta/F2 [^è][dgr]a	ds:eto
 SFX e1 èrna erneta/F2 èrna	ds:eto
 
@@ -6385,98 +6384,98 @@ SFX aD dina ina/F2 adina
 #SFX 00 . (e)rin/M0M2F0F3 [?]
 
 
-# sostantivi/ajetivi alterai — kresitivi maskolini (-on/B1BuPd)
+# sostantivi/ajetivi alterai — kresitivi maskolini (-on/B1Bu)
 SFX o0 Y 63
-SFX o0 0 on/B1BuPd n	ds:on
-SFX o0 èa eon/B1BuPd èa	ds:on
-SFX o0 ía ion/B1BuPd [aeiou]ía	ds:on
-SFX o0 ía ïon/B1BuPd [^aeiou]ía	ds:on
-SFX o0 ío ion/B1BuPd [aeiou]ío	ds:on
-SFX o0 ío ïon/B1BuPd [^aeiou]ío	ds:on
-SFX o0 òo oon/B1BuPd [aeiou]òo	ds:on
-SFX o0 òo oon/B1BuPd [^aeiou]òo	ds:on
-SFX o0 èl elon/B1BuPd èl	ds:on
-SFX o0 òl olon/B1BuPd òl	ds:on
-SFX o0 èr eron/B1BuPd èr	ds:on
-SFX o0 a on/B1BuPd [^bcdđéèfkíjɉlmnprstŧx]a	ds:on
-SFX o0 e on/B1BuPd [^t]e	ds:on
-SFX o0 0 on/B1BuPd [^èò]l	ds:on
-SFX o0 0 n/B1BuPd [^bcdgíjɉkmòpstŧ]o	ds:on
-SFX o0 0 on/B1BuPd [^è]r	ds:on
-SFX o0 òba obon/B1BuPd òba	ds:on
-SFX o0 èba ebon/B1BuPd èba	ds:on
-SFX o0 òca ocon/B1BuPd òca	ds:on
-SFX o0 èda edon/B1BuPd èda	ds:on
-SFX o0 òđa ođon/B1BuPd òđa	ds:on
-SFX o0 òka okon/B1BuPd òka	ds:on
-SFX o0 òfa ofon/B1BuPd òfa	ds:on
-SFX o0 èja ejon/B1BuPd èja	ds:on
-SFX o0 èɉa eɉon/B1BuPd èɉa	ds:on
-SFX o0 èla elon/B1BuPd èla	ds:on
-SFX o0 òla olon/B1BuPd òla	ds:on
-SFX o0 èma emon/B1BuPd èma	ds:on
-SFX o0 òna onon/B1BuPd òna	ds:on
-SFX o0 èpa epon/B1BuPd èpa	ds:on
-SFX o0 òpa opon/B1BuPd òpa	ds:on
-SFX o0 èra eron/B1BuPd èra	ds:on
-SFX o0 òsa oson/B1BuPd òsa	ds:on
-SFX o0 èta eton/B1BuPd èta	ds:on
-SFX o0 òta oton/B1BuPd òta	ds:on
-SFX o0 òŧa oŧon/B1BuPd òŧa	ds:on
-SFX o0 òxa oxon/B1BuPd òxa	ds:on
-SFX o0 ète eton/B1BuPd ète	ds:on
-SFX o0 òbo obon/B1BuPd òbo	ds:on
-SFX o0 èco econ/B1BuPd èco	ds:on
-SFX o0 òco ocon/B1BuPd òco	ds:on
-SFX o0 òdo odon/B1BuPd òdo	ds:on
-SFX o0 ègo egon/B1BuPd ègo	ds:on
-SFX o0 èjo ejon/B1BuPd èjo	ds:on
-SFX o0 èɉo eɉon/B1BuPd èɉo	ds:on
-SFX o0 òjo ojon/B1BuPd òjo	ds:on
-SFX o0 òɉo oɉon/B1BuPd òɉo	ds:on
-SFX o0 òko okon/B1BuPd òko	ds:on
-SFX o0 òmo omon/B1BuPd òmo	ds:on
-SFX o0 òpo opon/B1BuPd òpo	ds:on
-SFX o0 èso eson/B1BuPd èso	ds:on
-SFX o0 òso oson/B1BuPd òso	ds:on
-SFX o0 èto eton/B1BuPd èto	ds:on
-SFX o0 òto oton/B1BuPd òto	ds:on
-SFX o0 èŧo eŧon/B1BuPd èŧo	ds:on
-SFX o0 òŧo oŧon/B1BuPd òŧo	ds:on
-SFX o0 e on/B1BuPd [^è]te	ds:on
-SFX o0 a on/B1BuPd [^èò][blpt]a	ds:on
-SFX o0 a on/B1BuPd [^è][djɉmr]a	ds:on
-SFX o0 a on/B1BuPd [^ò][cđfknsŧx]a	ds:on
-SFX o0 0 n/B1BuPd [^è]go	ds:on
-SFX o0 0 n/B1BuPd [^ò][bdkmp]o	ds:on
-SFX o0 0 n/B1BuPd [^èò][cjɉstŧ]o	ds:on
+SFX o0 0 on/B1Bu n	ds:on
+SFX o0 èa eon/B1Bu èa	ds:on
+SFX o0 ía ion/B1Bu [aeiou]ía	ds:on
+SFX o0 ía ïon/B1Bu [^aeiou]ía	ds:on
+SFX o0 ío ion/B1Bu [aeiou]ío	ds:on
+SFX o0 ío ïon/B1Bu [^aeiou]ío	ds:on
+SFX o0 òo oon/B1Bu [aeiou]òo	ds:on
+SFX o0 òo oon/B1Bu [^aeiou]òo	ds:on
+SFX o0 èl elon/B1Bu èl	ds:on
+SFX o0 òl olon/B1Bu òl	ds:on
+SFX o0 èr eron/B1Bu èr	ds:on
+SFX o0 a on/B1Bu [^bcdđéèfkíjɉlmnprstŧx]a	ds:on
+SFX o0 e on/B1Bu [^t]e	ds:on
+SFX o0 0 on/B1Bu [^èò]l	ds:on
+SFX o0 0 n/B1Bu [^bcdgíjɉkmòpstŧ]o	ds:on
+SFX o0 0 on/B1Bu [^è]r	ds:on
+SFX o0 òba obon/B1Bu òba	ds:on
+SFX o0 èba ebon/B1Bu èba	ds:on
+SFX o0 òca ocon/B1Bu òca	ds:on
+SFX o0 èda edon/B1Bu èda	ds:on
+SFX o0 òđa ođon/B1Bu òđa	ds:on
+SFX o0 òka okon/B1Bu òka	ds:on
+SFX o0 òfa ofon/B1Bu òfa	ds:on
+SFX o0 èja ejon/B1Bu èja	ds:on
+SFX o0 èɉa eɉon/B1Bu èɉa	ds:on
+SFX o0 èla elon/B1Bu èla	ds:on
+SFX o0 òla olon/B1Bu òla	ds:on
+SFX o0 èma emon/B1Bu èma	ds:on
+SFX o0 òna onon/B1Bu òna	ds:on
+SFX o0 èpa epon/B1Bu èpa	ds:on
+SFX o0 òpa opon/B1Bu òpa	ds:on
+SFX o0 èra eron/B1Bu èra	ds:on
+SFX o0 òsa oson/B1Bu òsa	ds:on
+SFX o0 èta eton/B1Bu èta	ds:on
+SFX o0 òta oton/B1Bu òta	ds:on
+SFX o0 òŧa oŧon/B1Bu òŧa	ds:on
+SFX o0 òxa oxon/B1Bu òxa	ds:on
+SFX o0 ète eton/B1Bu ète	ds:on
+SFX o0 òbo obon/B1Bu òbo	ds:on
+SFX o0 èco econ/B1Bu èco	ds:on
+SFX o0 òco ocon/B1Bu òco	ds:on
+SFX o0 òdo odon/B1Bu òdo	ds:on
+SFX o0 ègo egon/B1Bu ègo	ds:on
+SFX o0 èjo ejon/B1Bu èjo	ds:on
+SFX o0 èɉo eɉon/B1Bu èɉo	ds:on
+SFX o0 òjo ojon/B1Bu òjo	ds:on
+SFX o0 òɉo oɉon/B1Bu òɉo	ds:on
+SFX o0 òko okon/B1Bu òko	ds:on
+SFX o0 òmo omon/B1Bu òmo	ds:on
+SFX o0 òpo opon/B1Bu òpo	ds:on
+SFX o0 èso eson/B1Bu èso	ds:on
+SFX o0 òso oson/B1Bu òso	ds:on
+SFX o0 èto eton/B1Bu èto	ds:on
+SFX o0 òto oton/B1Bu òto	ds:on
+SFX o0 èŧo eŧon/B1Bu èŧo	ds:on
+SFX o0 òŧo oŧon/B1Bu òŧo	ds:on
+SFX o0 e on/B1Bu [^è]te	ds:on
+SFX o0 a on/B1Bu [^èò][blpt]a	ds:on
+SFX o0 a on/B1Bu [^è][djɉmr]a	ds:on
+SFX o0 a on/B1Bu [^ò][cđfknsŧx]a	ds:on
+SFX o0 0 n/B1Bu [^è]go	ds:on
+SFX o0 0 n/B1Bu [^ò][bdkmp]o	ds:on
+SFX o0 0 n/B1Bu [^èò][cjɉstŧ]o	ds:on
 
 # sostantivi/ajetivi alterai — kresitivi maskolini ko èle vanesente (-on)
 SFX o7 Y 24
-SFX o7 e on/PdBu e	ds:on
-SFX o7 0 on/PdBu n	ds:on
-SFX o7 èr eron/BuPd èr	ds:on
-SFX o7 0 on/BuPd ar	ds:on
-SFX o7 ío ion/BuPd [aeiou]ío	ds:on
-SFX o7 ío ïon/BuPd [^aeiou]ío	ds:on
-SFX o7 a on/BuPd [^dègíƚp]a	ds:on
-SFX o7 0 n/BuPd [^íƚst]o	ds:on
-SFX o7 èa eon/BuPd èa	ds:on
+SFX o7 e on/Bu e	ds:on
+SFX o7 0 on/Bu n	ds:on
+SFX o7 èr eron/Bu èr	ds:on
+SFX o7 0 on/Bu ar	ds:on
+SFX o7 ío ion/Bu [aeiou]ío	ds:on
+SFX o7 ío ïon/Bu [^aeiou]ío	ds:on
+SFX o7 a on/Bu [^dègíƚp]a	ds:on
+SFX o7 0 n/Bu [^íƚst]o	ds:on
+SFX o7 èa eon/Bu èa	ds:on
 SFX o7 èda edon èda	ds:on
 SFX o7 èga egon èga	ds:on
 SFX o7 èƚa eƚon èƚa	ds:on
 SFX o7 òƚa oƚon òƚa	ds:on
 SFX o7 òpa opon òpa	ds:on
-SFX o7 èƚo eƚon/BuPd èƚo	ds:on
-SFX o7 òƚo oƚon/BuPd òƚo	ds:on
-SFX o7 òso oson/BuPd òso	ds:on
-SFX o7 òto oton/BuPd òto	ds:on
-SFX o7 a on/BuPd [^è]da	ds:on
-SFX o7 a on/BuPd [^èò]ƚa	ds:on
-SFX o7 0 n/BuPd [^èò]ƚo	ds:on
-SFX o7 0 n/BuPd [^ò][st]o	ds:on
-SFX o7 ía ion/BuPd [aeiou]ía	ds:on
-SFX o7 ía ïon/BuPd [^aeiou]ía	ds:on
+SFX o7 èƚo eƚon/Bu èƚo	ds:on
+SFX o7 òƚo oƚon/Bu òƚo	ds:on
+SFX o7 òso oson/Bu òso	ds:on
+SFX o7 òto oton/Bu òto	ds:on
+SFX o7 a on/Bu [^è]da	ds:on
+SFX o7 a on/Bu [^èò]ƚa	ds:on
+SFX o7 0 n/Bu [^èò]ƚo	ds:on
+SFX o7 0 n/Bu [^ò][st]o	ds:on
+SFX o7 ía ion/Bu [aeiou]ía	ds:on
+SFX o7 ía ïon/Bu [^aeiou]ía	ds:on
 
 # sostantivi/ajetivi alterai — kresitivi femenili (-ona)
 SFX o1 Y 41
