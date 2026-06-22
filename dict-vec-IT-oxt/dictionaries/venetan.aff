@@ -1254,7 +1254,7 @@ SFX l4 r se-ƚo/I8 ir	vt:indicative+present is:third cl:interrogative	# T10
 # '-er
 # group: conditional+present
 SFX l5 Y 6
-SFX l5 er ar/P2 er	vt:infinitive+simple	# T1 + r(e) FIXME cannot have r-ƚo...
+SFX l5 er ar/P2 er	vt:infinitive+simple	# T1 + r(e), FIXME cannot have r-ƚo...
 SFX l5 erò arà-ƚo/I8 erò	vt:indicative+future is:third cl:interrogative	# T4 + rà
 SFX l5 erò arise-ƚo/I8 erò	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae]
 SFX l5 erò arese-ƚo/I8 erò	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], viŧentin
@@ -1861,7 +1861,7 @@ SFX w3 erò é/P0P2 erò	vt:infinitive+simple is:elision	# T1 + r(e), buranèl
 
 # '-er
 # used if word does not contains ƚ
-SFX W4 Y 56
+SFX W4 Y 57
 SFX W4 er re [èò][dđtv]er	vt:infinitive+simple	# T1 + r(e)
 SFX W4 àder are àder	vt:infinitive+simple	# T1 + r(e)
 SFX W4 éder ere éder	vt:infinitive+simple	# T1 + r(e)
@@ -1896,6 +1896,7 @@ SFX W4 énder endre énder	vt:infinitive+simple	# T1 + r(e)
 SFX W4 índer indre índer	vt:infinitive+simple	# T1 + r(e)
 SFX W4 ónder ondre ónder	vt:infinitive+simple	# T1 + r(e)
 SFX W4 únder undre únder	vt:infinitive+simple	# T1 + r(e)
+SFX W4 ónper onpre ónper	vt:infinitive+simple	# T1 + r(e)
 SFX W4 àrder ardre àrder	vt:infinitive+simple	# T1 + r(e)
 SFX W4 érder erdre érder	vt:infinitive+simple	# T1 + r(e)
 SFX W4 írder irdre írder	vt:infinitive+simple	# T1 + r(e)
@@ -1999,7 +2000,7 @@ SFX xA andar ven/P0P1P2 andar	vt:imperative+present is:first is:plural	# T12 + �
 SFX xA andar và/P0P1P2 andar	vt:imperative+present is:second is:singular	# T9
 SFX xA andar vé/P0P1P2 andar	vt:imperative+present is:second is:plural	# T5, seguxinexe, padoan, viŧentin, polexan, lagunar
 SFX xA andar vè/P0P1P2 andar	vt:imperative+present is:second is:plural	# T5, ŧenedexe
-SFX xA r gando/P0P1 andar	vt:gerund+simple	# T2 + n[dt]o
+SFX xA r gando/P0P1A0 andar	vt:gerund+simple	# T2 + n[dt]o
 SFX xA r gando-ƚo/P2 andar	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[dt]o
 SFX xA r ganto/P0P1 andar	vt:gerund+simple	# T2 + n[dt]o, pavan
 SFX xA r ganto-ƚo/P2 andar	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[dt]o, pavan
@@ -2237,7 +2238,7 @@ SFX xB r ndo/P0P1 ver	vt:gerund+simple	# T2 + n[dt]o, veronexe
 SFX xB r ndo-ƚo/P2 ver	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[dt]o, veronexe
 SFX xB ver biendo/P0P1 ver	vt:gerund+simple	# T2 + n[dt]o
 SFX xB ver biendo-ƚo/P2 ver	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[dt]o
-SFX xB ver biando/P0P1 ver	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
+SFX xB ver biando/P0P1A0 ver	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
 SFX xB ver biando-ƚo/P2 ver	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
 SFX xB ver biento/P0P1 ver	vt:gerund+simple	# T2 + n[dt]o, pavan
 SFX xB ver biento-ƚo/P2 ver	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[dt]o, pavan
@@ -2246,7 +2247,7 @@ SFX xB ver bianto-ƚo/P2 ver	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[
 SFX xB ver biande/P0P1P2 ver	vt:gerund+simple	# T2 + n[dt]o, liventin
 SFX xB ver piendo/P0P1 ver	vt:gerund+simple	# T2 + n[dt]o
 SFX xB ver piendo-ƚo/P2 ver	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[dt]o
-SFX xB ver piando/P0P1 ver	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
+SFX xB ver piando/P0P1A0 ver	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
 SFX xB ver piando-ƚo/P2 ver	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
 SFX xB ver piento/P0P1 ver	vt:gerund+simple	# T2 + n[dt]o, pavan
 SFX xB ver piento-ƚo/P2 ver	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[dt]o, pavan
@@ -2388,7 +2389,7 @@ SFX xD oler òges oler	vt:subjunctive+present is:second is:singular	# T8 + e, 2s
 SFX xD oler òge oler	vt:subjunctive+present is:third	# T8 + e
 SFX xD oler òga oler	vt:subjunctive+present is:third	# T8 + a
 SFX xD oler ò/P0P1P2 oler	vt:imperative+present is:second is:singular	# T9
-SFX xD er ando/P0P1 oler	vt:gerund+simple	# T2 + n[dt]o
+SFX xD er ando/P0P1A0 oler	vt:gerund+simple	# T2 + n[dt]o
 SFX xD ler ƚando-ƚo/P2 oler	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[dt]o
 SFX xD er anto/P0P1 oler	vt:gerund+simple	# T2 + n[dt]o, pavan
 SFX xD ler ƚanto-ƚo/P2 oler	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[dt]o, pavan
@@ -2429,9 +2430,9 @@ SFX xE ler jendo/P0P1 oler	vt:gerund+simple	# T2 + n[dt]o
 SFX xE ler jendo-ƚo/P2 oler	vt:gerund+simple	# T2 + n[dt]o
 SFX xE ler ɉendo/P0P1 oler	vt:gerund+simple	# T2 + n[dt]o
 SFX xE ler ɉendo-ƚo/P2 oler	vt:gerund+simple	# T2 + n[dt]o
-SFX xE ler jando/P0P1 oler	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
+SFX xE ler jando/P0P1A0 oler	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
 SFX xE ler jando-ƚo/P2 oler	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
-SFX xE ler ɉando/P0P1 oler	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
+SFX xE ler ɉando/P0P1A0 oler	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
 SFX xE ler ɉando-ƚo/P2 oler	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
 SFX xE ler jento/P0P1 oler	vt:gerund+simple	# T2 + n[dt]o, pavan
 SFX xE ler jento-ƚo/P2 oler	vt:gerund+simple	# T2 + n[dt]o, pavan
@@ -3053,7 +3054,7 @@ SFX xR éver ebiendo/P0P1 éver	vt:gerund+simple	# T2 + n[dt]o
 SFX xR éver ebiendo-ƚo/P2 éver	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[dt]o
 SFX xR éver ebiende/P0P1 éver	vt:gerund+simple	# T2 + n[dt]o, liventin, buranèl
 SFX xR éver ebiende-ƚo/P2 éver	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[dt]o, liventin, buranèl
-SFX xR éver ebiando/P0P1 éver	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
+SFX xR éver ebiando/P0P1A0 éver	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
 SFX xR éver ebiando-ƚo/P2 éver	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
 SFX xR éver ebiande/P0P1 éver	vt:gerund+simple	# T7 + n[dt]o, liventin, metaplaxmo
 SFX xR éver ebiande-ƚo/P2 éver	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, liventin, metaplaxmo
@@ -3458,11 +3459,11 @@ SFX xS èser sento/P0P1 èser	vt:gerund+simple	# T7 + n[dt]o, pavan
 SFX xS èser sento-ƚo/P2 èser	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, pavan
 SFX xS èser sèndo/P0P1 èser	vt:gerund+simple	# T7 + n[dt]o, veronexe
 SFX xS èser sèndo-ƚo/P2 èser	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, veronexe
-SFX xS èser siando/P0P1 èser	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
+SFX xS èser siando/P0P1A0 èser	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
 SFX xS èser siando-ƚo/P2 èser	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX xS èser sipiando/P0P1 èser	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo, pavan
+SFX xS èser sipiando/P0P1A0 èser	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo, pavan
 SFX xS èser sipiando-ƚo/P2 èser	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo, pavan
-SFX xS èser seando/P0P1 èser	vt:gerund+simple	# T7 + n[dt]o, paduan, metaplaxmo
+SFX xS èser seando/P0P1A0 èser	vt:gerund+simple	# T7 + n[dt]o, paduan, metaplaxmo
 SFX xS èser seando-ƚo/P2 èser	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, paduan, metaplaxmo
 SFX xS èser sianto/P0P1 èser	vt:gerund+simple	# T7 + n[dt]o, pavan, metaplaxmo
 SFX xS èser sianto-ƚo/P2 èser	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, pavan, metaplaxmo
@@ -3819,11 +3820,11 @@ SFX xT ïèser iser/P0P1 ïèser	vt:infinitive+simple is:apheresis	# T1 + r(e)
 SFX xT ïèser istasto/M2F0F3 ïèser	vt:participle+passive+weak	# T7 + st[oiae], metaplaxmo
 SFX xT ïèser isèndo/P0P1 ïèser	vt:gerund+simple	# T7 + n[dt]o, veronexe, metaplaxmo
 SFX xT ïèser isèndo-ƚo/P2 ïèser	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, veronexe, metaplaxmo
-SFX xT ïèser isiando/P0P1 ïèser	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
+SFX xT ïèser isiando/P0P1A0 ïèser	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
 SFX xT ïèser isiando-ƚo/P2 ïèser	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
-SFX xT ïèser isipiando/P0P1 ïèser	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo, pavan
+SFX xT ïèser isipiando/P0P1A0 ïèser	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo, pavan
 SFX xT ïèser isipiando-ƚo/P2 ïèser	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo, pavan
-SFX xT ïèser iseando/P0P1 ïèser	vt:gerund+simple	# T7 + n[dt]o, paduan, metaplaxmo
+SFX xT ïèser iseando/P0P1A0 ïèser	vt:gerund+simple	# T7 + n[dt]o, paduan, metaplaxmo
 SFX xT ïèser iseando-ƚo/P2 ïèser	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, paduan, metaplaxmo
 SFX xT ïèser isianto/P0P1 ïèser	vt:gerund+simple	# T7 + n[dt]o, pavan, metaplaxmo
 SFX xT ïèser isianto-ƚo/P2 ïèser	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, pavan, metaplaxmo
@@ -3924,7 +3925,7 @@ SFX xU èser esèndo/P0P1 èser	vt:gerund+simple	# T2 + n[dt]o, veronexe
 SFX xU èser esèndo-ƚo/P2 èser	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[dt]o, veronexe
 SFX xU èser esendo/P0P1 èser	vt:gerund+simple	# T2 + n[dt]o
 SFX xU èser esendo-ƚo/P2 èser	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[dt]o
-SFX xU èser esando/P0P1 èser	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
+SFX xU èser esando/P0P1A0 èser	vt:gerund+simple	# T7 + n[dt]o, metaplaxmo
 SFX xU èser esando-ƚo/P2 èser	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, metaplaxmo
 SFX xU èser esento/P0P1 èser	vt:gerund+simple	# T2 + n[dt]o, pavan
 SFX xU èser esento-ƚo/P2 èser	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[dt]o, pavan
@@ -4198,7 +4199,7 @@ SFX xX er é saer	vt:imperative+present is:second is:plural	# T5
 SFX xX er é saver	vt:imperative+present is:second is:plural	# T5
 SFX xX er í saer	vt:imperative+present is:second is:plural	# T5
 SFX xX er í saver	vt:imperative+present is:second is:plural	# T5
-SFX xX ver piando/P0P1 saver	vt:gerund+simple	# T2 + n[dt]o
+SFX xX ver piando/P0P1A0 saver	vt:gerund+simple	# T2 + n[dt]o
 SFX xX ver piando-ƚo/P2 saver	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[dt]o
 
 # vèrbi '-er inregolari: (as?|des?|es|kon|pro|re|so)?tràer
@@ -4495,7 +4496,7 @@ SFX xZ r ndo/P0P1 ir	vt:gerund+simple
 SFX xZ r ndo-ƚo/P2 ir	vt:gerund+simple
 SFX xZ ir endo/P0P1 ir	vt:gerund+simple
 SFX xZ ir endo-ƚo/P2 ir	vt:gerund+simple
-SFX xZ ir ando/P0P1 ir	vt:gerund+simple
+SFX xZ ir ando/P0P1A0 ir	vt:gerund+simple
 SFX xZ ir ando-ƚo/P2 ir	vt:gerund+simple
 SFX xZ r nto/P0P1 ir	vt:gerund+simple	# pavan
 SFX xZ r nto-ƚo/P2 ir	vt:gerund+simple	# pavan
@@ -5657,26 +5658,26 @@ SFX v0 r doreto/M2A0 [^èo]r	ds:eto
 SFX v0 r doriti [^èo]r	ds:eto is:plural	# metafonèxi
 SFX v0 r toreto/M2A0 [^èo]r	ds:eto
 SFX v0 r toriti [^èo]r	ds:eto is:plural	# metafonèxi
-SFX v0 òl uòl/M0M2B1 [dđfgiïjɉñrsŧx]òl	# faxe 1: XIV‒XV sèk.
-SFX v0 òl uoleto/M2A0 [dđfgiïjɉñrsŧx]òl	ds:eto	# faxe 1: XIV‒XV sèk.
-SFX v0 òl uoliti [dđfgiïjɉñrsŧx]òl	ds:eto is:plural	# faxe 1: XIV‒XV sèk., metafonèxi
-SFX v0 òl iòl/M0M2B1 [dđfrsŧx]òl	# faxe 2: XVI‒XVIII sèk.
-SFX v0 òl iuli [dđfrsŧx]òl	# faxe 2: XVI‒XVIII sèk., metafonèxi
-SFX v0 òl ioleto/M2A0 [dđfrsŧx]òl	ds:eto	# faxe 2: XVI‒XVIII sèk.
-SFX v0 òl ioliti [dđfrsŧx]òl	ds:eto is:plural	# faxe 2: XVI‒XVIII sèk., metafonèxi
-SFX v0 òl ol/M0M2B1 [dđfgiïjɉñrsŧx]òl	# faxe 3: XIX sèk., belumat
-SFX v0 òl uli [dđfgiïjɉñrsŧx]òl	is:plural	# faxe 3: XIX sèk., metafonèxi
-SFX v0 òl oleto/M2A0 [dđfgiïjɉñrsŧx]òl	ds:eto	# faxe 3: XIX sèk.
-SFX v0 òl oliti [dđfgiïjɉñrsŧx]òl	ds:eto is:plural	# faxe 3: XIX sèk., metafonèxi
-SFX v0 òl iol/M0M2B1 [dđfrsŧx]òl	# faxe 3: XIX sèk., belumat
-SFX v0 òl iuli [dđfrsŧx]òl	is:plural	# faxe 3: XIX sèk., metafonèxi
-SFX v0 òla uòla/F2 [dđfgjɉkñrsŧx]òla	# faxe 1: XIV‒XV sèk.
-SFX v0 òla uoleta/F2 [dđfgjɉkrsŧx]òla	ds:eto	# faxe 1: XIV‒XV sèk.
-SFX v0 òla iòla/F2 [dđfrsŧx]òla	# faxe 2: XVI‒XVIII sèk.
-SFX v0 òla ioleta/F2 [dđfrsŧx]òla	ds:eto	# faxe 2: XVI‒XVIII sèk.
-SFX v0 òla ola/F2 [dđfgiïjɉkñrsŧx]òla	# faxe 3: XIX sèk., belumat
-SFX v0 òla oleta/F2 [dđfgiïjɉkñrsŧx]òla	ds:eto	# faxe 3: XIX sèk.
-SFX v0 òla iola/F2 [dđfrsŧx]òla	# faxe 3: XIX sèk., belumat
+SFX v0 òl uòl/M0M2B1 [dđfgiïjɉnñrsŧx]òl	# faxe 1: XIV‒XV sèk.
+SFX v0 òl uoleto/M2A0 [dđfgiïjɉnñrsŧx]òl	ds:eto	# faxe 1: XIV‒XV sèk.
+SFX v0 òl uoliti [dđfgiïjɉnñrsŧx]òl	ds:eto is:plural	# faxe 1: XIV‒XV sèk., metafonèxi
+SFX v0 òl iòl/M0M2B1 [dđfnrsŧx]òl	# faxe 2: XVI‒XVIII sèk.
+SFX v0 òl iuli [dđfnrsŧx]òl	# faxe 2: XVI‒XVIII sèk., metafonèxi
+SFX v0 òl ioleto/M2A0 [dđfnrsŧx]òl	ds:eto	# faxe 2: XVI‒XVIII sèk.
+SFX v0 òl ioliti [dđfnrsŧx]òl	ds:eto is:plural	# faxe 2: XVI‒XVIII sèk., metafonèxi
+SFX v0 òl ol/M0M2B1 [dđfgiïjɉnñrsŧx]òl	# faxe 3: XIX sèk., belumat
+SFX v0 òl uli [dđfgiïjɉnñrsŧx]òl	is:plural	# faxe 3: XIX sèk., metafonèxi
+SFX v0 òl oleto/M2A0 [dđfgiïjɉnñrsŧx]òl	ds:eto	# faxe 3: XIX sèk.
+SFX v0 òl oliti [dđfgiïjɉnñrsŧx]òl	ds:eto is:plural	# faxe 3: XIX sèk., metafonèxi
+SFX v0 òl iol/M0M2B1 [dđfnrsŧx]òl	# faxe 3: XIX sèk., belumat
+SFX v0 òl iuli [dđfnrsŧx]òl	is:plural	# faxe 3: XIX sèk., metafonèxi
+SFX v0 òla uòla/F2 [dđfgjɉknñrsŧx]òla	# faxe 1: XIV‒XV sèk.
+SFX v0 òla uoleta/F2 [dđfgjɉknrsŧx]òla	ds:eto	# faxe 1: XIV‒XV sèk.
+SFX v0 òla iòla/F2 [dđfnrsŧx]òla	# faxe 2: XVI‒XVIII sèk.
+SFX v0 òla ioleta/F2 [dđfnrsŧx]òla	ds:eto	# faxe 2: XVI‒XVIII sèk.
+SFX v0 òla ola/F2 [dđfgiïjɉknñrsŧx]òla	# faxe 3: XIX sèk., belumat
+SFX v0 òla oleta/F2 [dđfgiïjɉknñrsŧx]òla	ds:eto	# faxe 3: XIX sèk.
+SFX v0 òla iola/F2 [dđfnrsŧx]òla	# faxe 3: XIX sèk., belumat
 
 # piante e mistièri ko èle vanesente (-èr, -aro, -i?oƚo/-i?òƚo)
 SFX v7 Y 104
@@ -5765,25 +5766,25 @@ SFX v7 èra areta/F2 [^i]èra	ds:eto
 SFX v7 èra ereta/F2 [^i]èra	ds:eto
 SFX v7 èra iareta/F2 [^aeoucijɉñ]èra	ds:eto
 SFX v7 èra iereta/F2 [^aeoucijɉñ]èra	ds:eto
-SFX v7 òƚo uòƚo/M2 [dđfgiïjɉñrsŧx]òƚo	# faxe 1: XIV‒XV sèk.
-SFX v7 òƚo uoƚeto/M2 [dđfgiïjɉñrsŧx]òƚo	ds:eto	# faxe 1: XIV‒XV sèk.
-SFX v7 òƚo uoƚiti [dđfgiïjɉñrsŧx]òƚo	ds:eto is:plural	# faxe 1: XIV‒XV sèk., metafonèxi
-SFX v7 òƚo iòƚo/M2 [dđfrsŧx]òƚo	# faxe 2: XVI‒XVIII sèk.
-SFX v7 òƚo ioƚeto/M2 [dđfrsŧx]òƚo	ds:eto	# faxe 2: XVI‒XVIII sèk.
-SFX v7 òƚo ioƚiti [dđfrsŧx]òƚo	ds:eto is:plural	# faxe 2: XVI‒XVIII sèk., metafonèxi
-SFX v7 òƚo oƚo/M2 [dđfgiïjɉñrsŧx]òƚo	# faxe 3: XIX sèk.
-SFX v7 òƚo uƚi [dđfgiïjɉñrsŧx]òƚo	# faxe 3: XIX sèk., metafonèxi
-SFX v7 òƚo oƚeto/M2 [dđfgiïjɉñrsŧx]òƚo	ds:eto	# faxe 3: XIX sèk.
-SFX v7 òƚo oƚiti [dđfgiïjɉñrsŧx]òƚo	ds:eto is:plural	# faxe 3: XIX sèk., metafonèxi
-SFX v7 òƚo ioƚo/M2 [dđfrsŧx]òƚo	# faxe 3: XIX sèk.
-SFX v7 òƚo iuƚi [dđfrsŧx]òƚo	# faxe 3: XIX sèk., metafonèxi
-SFX v7 òƚa uòƚa/F2 [dđfgiïjɉkñrsŧx]òƚa	# faxe 1: XIV‒XV sèk.
-SFX v7 òƚa uoƚeta/F2 [dđfgiïjɉkrsŧx]òƚa	ds:eto	# faxe 1: XIV‒XV sèk.
-SFX v7 òƚa iòƚa/F2 [dđfrsŧx]òƚa	# faxe 2: XVI‒XVIII sèk.
-SFX v7 òƚa ioƚeta/F2 [dđfrsŧx]òƚa	ds:eto	# faxe 2: XVI‒XVIII sèk.
-SFX v7 òƚa oƚa/F2 [dđfgiïjɉkñrsŧx]òƚa	# faxe 3: XIX sèk.
-SFX v7 òƚa oƚeta/F2 [dđfgiïjɉkñrsŧx]òƚa	ds:eto	# faxe 3: XIX sèk.
-SFX v7 òƚa ioƚa/F2 [dđfrsŧx]òƚa	# faxe 3: XIX sèk.
+SFX v7 òƚo uòƚo/M2 [dđfgiïjɉnñrsŧx]òƚo	# faxe 1: XIV‒XV sèk.
+SFX v7 òƚo uoƚeto/M2 [dđfgiïjɉnñrsŧx]òƚo	ds:eto	# faxe 1: XIV‒XV sèk.
+SFX v7 òƚo uoƚiti [dđfgiïjɉnñrsŧx]òƚo	ds:eto is:plural	# faxe 1: XIV‒XV sèk., metafonèxi
+SFX v7 òƚo iòƚo/M2 [dđfnrsŧx]òƚo	# faxe 2: XVI‒XVIII sèk.
+SFX v7 òƚo ioƚeto/M2 [dđfnrsŧx]òƚo	ds:eto	# faxe 2: XVI‒XVIII sèk.
+SFX v7 òƚo ioƚiti [dđfnrsŧx]òƚo	ds:eto is:plural	# faxe 2: XVI‒XVIII sèk., metafonèxi
+SFX v7 òƚo oƚo/M2 [dđfgiïjɉnñrsŧx]òƚo	# faxe 3: XIX sèk.
+SFX v7 òƚo uƚi [dđfgiïjɉnñrsŧx]òƚo	# faxe 3: XIX sèk., metafonèxi
+SFX v7 òƚo oƚeto/M2 [dđfgiïjɉnñrsŧx]òƚo	ds:eto	# faxe 3: XIX sèk.
+SFX v7 òƚo oƚiti [dđfgiïjɉnñrsŧx]òƚo	ds:eto is:plural	# faxe 3: XIX sèk., metafonèxi
+SFX v7 òƚo ioƚo/M2 [dđfnrsŧx]òƚo	# faxe 3: XIX sèk.
+SFX v7 òƚo iuƚi [dđfnrsŧx]òƚo	# faxe 3: XIX sèk., metafonèxi
+SFX v7 òƚa uòƚa/F2 [dđfgiïjɉknñrsŧx]òƚa	# faxe 1: XIV‒XV sèk.
+SFX v7 òƚa uoƚeta/F2 [dđfgiïjɉknrsŧx]òƚa	ds:eto	# faxe 1: XIV‒XV sèk.
+SFX v7 òƚa iòƚa/F2 [dđfnrsŧx]òƚa	# faxe 2: XVI‒XVIII sèk.
+SFX v7 òƚa ioƚeta/F2 [dđfnrsŧx]òƚa	ds:eto	# faxe 2: XVI‒XVIII sèk.
+SFX v7 òƚa oƚa/F2 [dđfgiïjɉknñrsŧx]òƚa	# faxe 3: XIX sèk.
+SFX v7 òƚa oƚeta/F2 [dđfgiïjɉknñrsŧx]òƚa	ds:eto	# faxe 3: XIX sèk.
+SFX v7 òƚa ioƚa/F2 [dđfnrsŧx]òƚa	# faxe 3: XIX sèk.
 
 
 # nominali deajetivali (-eŧa)
@@ -6068,7 +6069,7 @@ SFX w0 te 0 te	# pavan
 SFX w0 ente ènte ente
 
 # koletivi (--ame)
-SFX m0 Y 14
+SFX m0 Y 15
 SFX m0 èda edame/M2A0 èda
 SFX m0 èa eame/M2A0 èa
 SFX m0 èl elame/M2A0 èl
@@ -6077,6 +6078,7 @@ SFX m0 òl olame/M2A0 òl
 SFX m0 òja ojame/M2A0 òja
 SFX m0 òɉa oɉame/M2A0 òɉa
 SFX m0 òna oname/M2A0 òna
+SFX m0 òsa osame/M2A0 òsa
 SFX m0 òr orame/M2A0 òr
 SFX m0 0 me/M2A0 a
 SFX m0 0 ame/M2A0 n
