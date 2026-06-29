@@ -45,7 +45,7 @@ BREAK 0
 FULLSTRIP
 
 # suggest the right forms for words which incorrectly choose the wrong letter from a related set more than once in a word (improve ranking when errors repeat in the same word)
-MAP 17
+MAP 9
 MAP aà
 MAP eèé
 MAP iïí
@@ -54,14 +54,6 @@ MAP uüú
 MAP cŧ
 MAP dđ
 MAP sx
-MAP AÀ
-MAP EÈÉ
-MAP IÏÍ
-MAP OÒÓ
-MAP UÜÚ
-MAP CŦ
-MAP DĐ
-MAP SX
 MAP -‒–
 
 # replace input characters (normalize acceptable graphic variants)
@@ -1861,7 +1853,7 @@ SFX w3 erò é/P0P2 erò	vt:infinitive+simple is:elision	# T1 + r(e), buranèl
 
 # '-er
 # used if word does not contains ƚ
-SFX W4 Y 57
+SFX W4 Y 58
 SFX W4 er re [èò][dđtv]er	vt:infinitive+simple	# T1 + r(e)
 SFX W4 àder are àder	vt:infinitive+simple	# T1 + r(e)
 SFX W4 éder ere éder	vt:infinitive+simple	# T1 + r(e)
@@ -1882,6 +1874,7 @@ SFX W4 àver are àver	vt:infinitive+simple	# T1 + r(e)
 SFX W4 éver ere éver	vt:infinitive+simple	# T1 + r(e)
 SFX W4 éver evre éver	vt:infinitive+simple	# T1 + r(e), pavan
 SFX W4 íver ire íver	vt:infinitive+simple	# T1 + r(e)
+SFX W4 íver ivre íver	vt:infinitive+simple	# T1 + r(e), pavan
 SFX W4 óver ore óver	vt:infinitive+simple	# T1 + r(e)
 SFX W4 úver ure úver	vt:infinitive+simple	# T1 + r(e)
 SFX W4 er re [èò][lnr][dx]er	vt:infinitive+simple	# T1 + r(e)
@@ -5318,7 +5311,7 @@ PFX Co bru bur bru
 #PFX Co tor tru tor
 
 # trasformaŧion iniŧial de paròla intra varianti (.[oò]- > .u[oò]-)
-PFX Cu Y 25
+PFX Cu Y 28
 PFX Cu 0 u [oò]
 PFX Cu b bu b[oò]
 PFX Cu B Bu B[oò]
@@ -5332,18 +5325,21 @@ PFX Cu l lu l[oò]
 PFX Cu ƚ ƚu ƚ[oò]
 PFX Cu m mu m[oò]
 PFX Cu n nu n[oò]
+PFX Cu ñ ñu ñ[oò]
 PFX Cu p pu p[oò]
 PFX Cu r ru r[oò]
 PFX Cu s su s[oò]
 PFX Cu t tu t[oò]
 PFX Cu ŧ ŧu ŧ[oò]
 PFX Cu x xu x[oò]
+PFX Cu v vu v[oò]
 PFX Cu br bru br[oò]
 PFX Cu gr gru gr[oò]
 PFX Cu pr pru pr[oò]
+PFX Cu sp spu sp[oò]
+PFX Cu sc scu sc[oò]
 PFX Cu st stu st[oò]
 PFX Cu tr tru tr[oò]
-PFX Cu v vu v[oò]
 #PFX Cu sk sku sk[oò]
 
 # trasformaŧion iniŧial de paròla intra varianti (.[eèoò]- > .i[eèoò]-)
@@ -5354,9 +5350,9 @@ PFX Ci đ đi đ[oò]
 PFX Ci f fi f[eè]
 PFX Ci l li l[eèoò]
 PFX Ci ƚ ƚi ƚ[eèoò]
-PFX Ci m mi m[eè]
+PFX Ci m mi m[eèoò]
 PFX Ci n ni n[eèoò]
-PFX Ci p pi p[eè]
+PFX Ci p pi p[eèoò]
 PFX Ci r ri r[eèoò]
 PFX Ci s si s[eèoò]
 PFX Ci t ti t[eèoò]
@@ -5375,7 +5371,7 @@ PFX Ci st sti st[oò]
 ### Pàdoa ###
 
 # metafonèxi padoana
-SFX Pd Y 87
+SFX Pd Y 88
 SFX Pd eli ili eli	va:pavan
 SFX Pd eli iɉi eli	va:pavan	# see rule Pv
 SFX Pd oli uli oli	va:pavan
@@ -5421,6 +5417,7 @@ SFX Pd erki irki erki	va:pavan
 SFX Pd eski iski eski	va:pavan
 SFX Pd onbi unbi onbi	va:pavan
 SFX Pd ondi undi ondi	va:pavan
+SFX Pd onđi unđi onđi	va:pavan
 SFX Pd onfi unfi onfi	va:pavan
 SFX Pd onti unti onti	va:pavan
 SFX Pd orsi ursi orsi	va:pavan
