@@ -1081,12 +1081,10 @@ SFX L1 ir emo-l/P1 ir	vt:imperative+present is:first is:plural cl:pronomenal+acc
 # -àr, -ér, '-er, -ír
 # group: imperative present
 # used if word does not contains ƚ
-SFX L2 Y 12
+SFX L2 Y 10
 SFX L2 e a-l/P1 e	vt:imperative+present is:second cl:pronomenal+accusative	# T9
 SFX L2 0 -l/P1 e	vt:imperative+present is:second cl:pronomenal+accusative	# T9
 SFX L2 e i-l/P1 e	vt:imperative+present is:second cl:pronomenal+accusative	# T9, FIXME metafonèxi padoana
-SFX L2 ete iti-l/P1 ete	vt:imperative+present is:second cl:pronomenal+accusative	# T9, metafonèxi padoana
-SFX L2 eve ivi-l/P1 eve	vt:imperative+present is:second cl:pronomenal+accusative	# T9, metafonèxi padoana
 SFX L2 ar é-l/P1 ar	vt:imperative+present is:second is:plural cl:pronomenal+accusative	# T5
 SFX L2 ar è-l/P1 ar	vt:imperative+present is:second is:plural cl:pronomenal+accusative	# T5, ŧenedexe
 SFX L2 er é-l/P1 er	vt:imperative+present is:second is:plural cl:pronomenal+accusative	# T5
@@ -1123,7 +1121,7 @@ SFX L3 ir ande-l/P1 ir	vt:gerund+simple cl:pronomenal+accusative	# T7 + n[dt]o, 
 # used if word does not contains ƚ
 SFX L4 Y 5
 SFX L4 r se-lo/I6 ir	vt:indicative+present is:second cl:interrogative	# T10
-SFX L4 r si-l/P1 ir	vt:imperative+present is:second cl:pronomenal+accusative	# T9
+SFX L4 r si-l/P1 ir	vt:imperative+present is:second cl:pronomenal+accusative	# T9, FIXME metafonèxi padoana
 SFX L4 r sè-l/P1 ir	vt:imperative+present is:second is:plural cl:pronomenal+accusative	# T12 + ((i)è|é)
 SFX L4 r sé-l/P1 ir	vt:imperative+present is:second is:plural cl:pronomenal+accusative	# T12 + ((i)è|é)
 SFX L4 r se-lo/I6 ir	vt:indicative+present is:third cl:interrogative	# T10
@@ -1246,7 +1244,7 @@ SFX l4 r se-ƚo/I8 ir	vt:indicative+present is:third cl:interrogative	# T10
 # '-er
 # group: conditional+present
 SFX l5 Y 6
-SFX l5 er ar/P2 er	vt:infinitive+simple	# T1 + r(e), FIXME cannot have r-ƚo...
+SFX l5 er ar/P2 er	vt:infinitive+simple	# T1 + r(e)
 SFX l5 erò arà-ƚo/I8 erò	vt:indicative+future is:third cl:interrogative	# T4 + rà
 SFX l5 erò arise-ƚo/I8 erò	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae]
 SFX l5 erò arese-ƚo/I8 erò	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], viŧentin
@@ -5371,7 +5369,7 @@ PFX Ci st sti st[oò]
 ### Pàdoa ###
 
 # metafonèxi padoana
-SFX Pd Y 89
+SFX Pd Y 95
 SFX Pd eli ili eli	va:pavan
 SFX Pd eli iɉi eli	va:pavan	# see rule Pv
 SFX Pd oli uli oli	va:pavan
@@ -5418,7 +5416,10 @@ SFX Pd erki irki erki	va:pavan
 SFX Pd eski iski eski	va:pavan
 SFX Pd onbi unbi onbi	va:pavan
 SFX Pd ondi undi ondi	va:pavan
+SFX Pd enđi inđi enđi	va:pavan
 SFX Pd onđi unđi onđi	va:pavan
+SFX Pd enxi inxi enxi	va:pavan
+SFX Pd onxi unxi onxi	va:pavan
 SFX Pd onfi unfi onfi	va:pavan
 SFX Pd onti unti onti	va:pavan
 SFX Pd orsi ursi orsi	va:pavan
@@ -5441,6 +5442,7 @@ SFX Pd orni urni orni	va:pavan
 SFX Pd orxi urxi orxi	va:pavan
 SFX Pd osti usti osti	va:pavan
 SFX Pd enbri inbri enbri	va:pavan
+SFX Pd onbri unbri onbri	va:pavan
 SFX Pd òtoli útuli òtoli	va:pavan
 SFX Pd òtoli útuɉi òtoli	va:pavan	# see rule Pv
 SFX Pd òtoƚi útuƚi òtoƚi	va:pavan
@@ -5451,6 +5453,8 @@ SFX Pd oƚoxi uƚuxi oƚoxi	va:pavan
 SFX Pd omoxi umuxi omoxi	va:pavan
 SFX Pd oñoxi uñuxi oñoxi	va:pavan
 SFX Pd oroxi uruxi oroxi	va:pavan
+SFX Pd ođeti uđiti ođeti	va:pavan
+SFX Pd oxeti uxiti oxeti	va:pavan
 SFX Pd órdeni úrdini órdeni	va:pavan
 SFX Pd obioxi ubiuxi obioxi	va:pavan
 SFX Pd ofioxi ufiuxi ofioxi	va:pavan
