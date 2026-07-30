@@ -7310,9 +7310,10 @@ PFX +0 0 en [^aeiouàèéíòóúïüƚñ]	dp:in
 PFX +0 0 en- [aeiouàèéíòóúïün]	dp:in
 
 # prefiso par aŧion kontraria o privativa–peđorativa, xlontanamento, esía, separaŧion ([sx]-)
-PFX *0 Y 2
+PFX *0 Y 3
 PFX *0 0 s [cfkpstŧ]	dp:s
 PFX *0 0 x [^cfkƚpstŧ]	dp:s
+PFX *0 n xñ ni	dp:s
 
 # prefiso par aŧion repetúa (r[ea]-/ar-)
 PFX .0 Y 4
