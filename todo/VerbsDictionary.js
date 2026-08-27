@@ -7224,7 +7224,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "pian",			"s",			1,	2,	"g",	"1362",			"(veneŧian)",
 "piant",			"",			1,	2,	"g",	"14571101",		"(veneŧian)",
 "piant",			"ar",			1,	2,	"g",	"1532",			"(pavan)",
-"piant",			"des",		1,	2,	"g",	"16191220",		"(veneŧian)",
+"piant",			"des",		1,	2,	"g",	"XVI",			"(pavan)",
 "piant",			"in",			1,	2,	"g",	"1362",			"(veneŧian)",
 "piant",			"re",			1,	2,	"g",	"1854",			"",
 "piant",			"s",			1,	2,	"g",	"1775",			"",
