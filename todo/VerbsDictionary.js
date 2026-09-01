@@ -3004,6 +3004,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "ganf",			"in",			4,	4,	"a",	"1928",			"(veneŧian)",
 "gang",			"x",			4,	4,	"a",	"1525",			"(pavan) Strúxer.",
 "ganger",		"x",			1,	1,	"g",	"",				"",
+"gangoj",		"x",			1,	1,	"g",	"1558",			"(pavan)",
 "gangol",		"x",			1,	1,	"g",	"1900",			"(veronexe) Agoñar, morir de la voja.",
 "gangol",		"x",			5,	1,	"a",	"1525",			"(pavan) Agoñar, morir de la voja, penar (mi xgàngol).",
 "ganŧ",			"",			1,	1,	"g",	"1829",			"(veneŧian)",
