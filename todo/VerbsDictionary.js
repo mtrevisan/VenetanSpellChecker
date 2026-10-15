@@ -3559,7 +3559,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "inpiok",		"",			1,	4,	"g",	"",				"",
 "inpiñat",		"",			1,	5,	"g",	"",				"",
 "inrit",			"",			1,	0,	"a",	"",				"(bixiak)",
-"ins",			"",			4,	0,	"a",	"15830303",		"(pavan) Ensir (mi insise).",
+"ins",			"",			4,	0,	"a",	"1510",			"(pavan) Ensir (mi insise).",
 "ins",			"",			5,	0,	"a",	"1208",			"(veneŧian) Ensir (mi inso, noaltri insimo).",
 "ins",			"re",			5,	0,	"a",	"15700223",		"(veneŧian)",
 "insul",			"",			1,	0,	"a",	"",				"let. Alacar. Pi uxà kome inbonir, raxirar, konvínŧer.",
