@@ -11498,6 +11498,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "vitaliđ",		"",			1,	5,	"a",	"1867",			"Dar a vitaliŧio.",
 "vitaliŧi",		"",			1,	5,	"a",	"1829",			"(veneŧian)",
 "vituper",		"",			1,	3,	"a",	"131509",		"",
+"vitupr",		"",			1,	3,	"a",	"1335",			"(pavan)",
 "viŧ",			"",			1,	1,	"a",	"",				"",
 "viŧ",			"pro",		1,	1,	"a",	"1775",			"Dar voti de amor.",
 "viŧ",			"inpro",		1,	1,	"a",	"1854",			"",
