@@ -539,6 +539,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "baut",			"in",			1,	2,	"a",	"1775",			"Vestir, inbavajar, kamufar, inkapucar, inbakukar.",
 "bav",			"",			1,	1,	"g",	"15240724",		"(pavan) Inbratar de bava.",
 "bav",			"a",			1,	1,	"g",	"15210815",		"(pavan)",
+"bav",			"en",			1,	1,	"g",	"1371",			"(pavan)",
 "bav",			"in",			1,	1,	"g",	"1470",			"(pavan) Inbaoxar.",
 "bav",			"x",			1,	1,	"g",	"1854",			"",
 "bavar",			"dex",		1,	1,	"g",	"1867",			"(veneŧian)",
