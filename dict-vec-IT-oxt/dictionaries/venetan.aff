@@ -4338,6 +4338,38 @@ SFX xY àer ato/M2F0F3A0 tràer	vt:participle+passive+strong
 SFX xY àer asto/M2F0F3A0 tràer	vt:participle+passive+strong
 
 # vèrbi -ir inregolari: [dfr]ir
+# TODO
+# Indicativo Presente
+# 	• Io: fio
+# 	• Noi: femo
+# 	• Tu: fi
+# 	• Voi: fè (o fide)
+# 	• Egli / Ella: fi (o fè)
+# 	• Essi / Esse: fi (o fino)
+# Indicativo Imperfetto
+# 	• Io: fiva
+# 	• Noi: fivimo (o fivemo)
+# 	• Tu: fivi
+# 	• Voi: fivi
+# 	• Egli / Ella: fiva
+# 	• Essi / Esse: fiva (o fivino)
+# Indicativo Futuro
+# 	• Io: firò (o firazo)
+# 	• Noi: firemo
+# 	• Tu: firà (o firai)
+# 	• Voi: firè
+# 	• Egli / Ella: firà
+# 	• Essi / Esse: firà (o firano)
+# Congiuntivo Presente
+# 	• Io: fia
+# 	• Noi: fiamo
+# 	• Tu: fii (o fia)
+# 	• Voi: fiè (o fiadi)
+# 	• Egli / Ella: fia
+# 	• Essi / Esse: fia (o fiano)
+# • Congiuntivo Imperfetto (3ª pers. sing.): fisse (che venisse/fosse)
+# • Condizionale Presente (3ª pers. sing.): firave o firia (verrebbe/sarebbe)
+# • Infinito: fir (o fire)
 # changes in indicative imperfect, participle passive
 SFX xZ Y 292
 SFX xZ r va/I1 ir	vt:indicative+imperfect is:first is:singular	# T2 + (v)[aeo]
@@ -4675,21 +4707,21 @@ SFX P0 0 -de r	cl:pronomenal+genitive
 # vèrbo prokonplementar (pronòme konplemento dirèto e indirèto/`se` inparsonal + klítego konpl. dir. de 3a pars./pron. klítego part. `n(e)`, FIXME fòra ke par la prima pars. pl.): 0>-([gmstv]e)?l[oaie]?
 SFX P1 Y 72
 SFX P1 0 -l [^lmnr]	cl:pronomenal+accusative
-SFX P1 0 -lo [^lmnr]	cl:pronomenal+accusative
-SFX P1 0 -la [^lmnr]	cl:pronomenal+accusative is:femenine
-SFX P1 0 -li [^lmnr]	cl:pronomenal+accusative is:plural
+SFX P1 0 -lo [^lmn]	cl:pronomenal+accusative
+SFX P1 0 -la [^lmn]	cl:pronomenal+accusative is:femenine
+SFX P1 0 -li [^lmn]	cl:pronomenal+accusative is:plural
 SFX P1 0 -ɉi [^l]	cl:pronomenal+accusative is:plural	# pavan
-SFX P1 0 -le [^lmnr]	cl:pronomenal+accusative is:plural is:femenine
-SFX P1 0 -mel [^lmnr]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative
-SFX P1 0 -melo [^lmnr]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative
-SFX P1 0 -mela [^lmnr]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:femenine
-SFX P1 0 -meli [^lmnr]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:plural
-SFX P1 0 -mele [^lmnr]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:plural is:femenine
-SFX P1 0 -nel [^lmnr]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative
-SFX P1 0 -nelo [^lmnr]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative
-SFX P1 0 -nela [^lmnr]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:femenine
-SFX P1 0 -neli [^lmnr]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:plural
-SFX P1 0 -nele [^lmnr]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:plural is:femenine
+SFX P1 0 -le [^lmn]	cl:pronomenal+accusative is:plural is:femenine
+SFX P1 0 -mel [^lmn]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative
+SFX P1 0 -melo [^lmn]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative
+SFX P1 0 -mela [^lmn]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:femenine
+SFX P1 0 -meli [^lmn]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:plural
+SFX P1 0 -mele [^lmn]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:plural is:femenine
+SFX P1 0 -nel [^lmn]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative
+SFX P1 0 -nelo [^lmn]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative
+SFX P1 0 -nela [^lmn]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:femenine
+SFX P1 0 -neli [^lmn]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:plural
+SFX P1 0 -nele [^lmn]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:plural is:femenine
 SFX P1 0 -sel [^l]	cl:pronomenal+reflexive cl:pronomenal+accusative
 SFX P1 0 -selo [^l]	cl:pronomenal+reflexive cl:pronomenal+accusative
 SFX P1 0 -sela [^l]	cl:pronomenal+reflexive cl:pronomenal+accusative is:femenine
@@ -4758,14 +4790,14 @@ SFX P2 0 -ƚo [^olmnr]	cl:pronomenal+accusative is:femenine
 SFX P2 0 -ƚa [^olmnr]	cl:pronomenal+accusative is:femenine
 SFX P2 0 -ƚi [^olmnr]	cl:pronomenal+accusative is:plural
 SFX P2 0 -ƚe [^olmnr]	cl:pronomenal+accusative is:plural is:femenine
-SFX P2 0 -meƚo [^olmnr]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative
-SFX P2 0 -meƚa [^olmnr]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:femenine
-SFX P2 0 -meƚi [^olmnr]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:plural
-SFX P2 0 -meƚe [^olmnr]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:plural is:femenine
-SFX P2 0 -neƚo [^olmnr]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative
-SFX P2 0 -neƚa [^olmnr]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:femenine
-SFX P2 0 -neƚi [^olmnr]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:plural
-SFX P2 0 -neƚe [^olmnr]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:plural is:femenine
+SFX P2 0 -meƚo [^olmn]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative
+SFX P2 0 -meƚa [^olmn]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:femenine
+SFX P2 0 -meƚi [^olmn]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:plural
+SFX P2 0 -meƚe [^olmn]	cl:pronomenal+reflexive is:first cl:pronomenal+accusative is:plural is:femenine
+SFX P2 0 -neƚo [^olmn]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative
+SFX P2 0 -neƚa [^olmn]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:femenine
+SFX P2 0 -neƚi [^olmn]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:plural
+SFX P2 0 -neƚe [^olmn]	cl:pronomenal+reflexive is:first is:plural cl:pronomenal+accusative is:plural is:femenine
 SFX P2 0 -seƚo [^o]	cl:pronomenal+reflexive cl:pronomenal+accusative
 SFX P2 0 -seƚa [^o]	cl:pronomenal+reflexive cl:pronomenal+accusative is:femenine
 SFX P2 0 -seƚi [^o]	cl:pronomenal+reflexive cl:pronomenal+accusative is:plural
@@ -4927,58 +4959,57 @@ SFX I8 o e -ƚo	is:plural is:femenine
 # NÒTA: tute le vokali le pòl kaskar, fòra ke la `a` e la `e` derivante da un femenil plural de la prima deklinaŧion latina
 # NÒTA: na koa konsonàntega ’té la sílaba ke la vièn prima la ostàkola de pi l’ apòkope
 # NÒTA: le konsonanti ke le favorise de pi l’ apòkope le xé, in órden: r, l, n, m (ponto krítego), frikative (f/v, ŧ/đ, s/x), afrikae (c/ɉ), okluxive (t/d, g/k, p/b, m, n, ñ)
-SFX A0 Y 54
+SFX A0 Y 53
 SFX A0 e 0 [aeèiíoòu][^aàeéèiïíoóòuüúñ]e
 SFX A0 go k [aeèoòu]go
 SFX A0 go k [aeèoòu]ngo
-SFX A0 o 0 [aeèiíoòu][^aàeéèiïíoóòuüúgñ]o	# -igo sol ke par `figo`
+SFX A0 o 0 [aeèiíoòu][^aàeéèiïíoóòuüúgmñ]o	# -igo sol ke par `figo`
 SFX A0 o 0 [^i]go	# -igo sol ke par `figo`
 SFX A0 o 0 [^f]igo	# -igo sol ke par `figo`
 SFX A0 e 0 [aeèiíoòu][lrn][^aàeéèiïíoóòuüúñ]e
-SFX A0 o 0 [aeèiíoòu][lrn][^aàeéèiïíoóòuüúgñ]o
-SFX A0 e 0 [aeèiíoòu]s[kpt]e
-SFX A0 o 0 [aeèiíoòu]s[kpt]o
-SFX A0 be p [aeèiíoòu][lrns]be
-SFX A0 bo p [aeèiíoòu][lrns]bo
-SFX A0 de t [aeèiíoòu][lrns]de
-SFX A0 do t [aeèiíoòu][lrns]do
-SFX A0 do t [aeèiíoòu]do
-SFX A0 đe ŧ [aeèiíoòu]đe
-SFX A0 đe ŧ [aeèiíoòu][lrn]đe
-SFX A0 đo ŧ [aeèiíoòu]đo
-SFX A0 đo ŧ [aeèiíoòu][lrn]đo
-SFX A0 ŧe f [aeèiíoòu]ŧe
-SFX A0 ŧe f [aeèiíoòu][lrn]ŧe
-SFX A0 ŧo f [aeèiíoòu]ŧo
-SFX A0 ŧo f [aeèiíoòu][lrn]ŧo
-SFX A0 ɉe c [aeèiíoòu]ɉe
-SFX A0 ɉe c [aeèiíoòu][lrn]ɉe
-SFX A0 ɉo c [aeèiíoòu]ɉo
-SFX A0 ɉo c [aeèiíoòu][lrn]ɉo
-SFX A0 me n [aeèiíoòu]me
-SFX A0 me n [aeèiíoòu][lrn]me
-SFX A0 mo n [aeèiíoòu]mo
-SFX A0 mo n [aeèiíoòu][lrn]mo
-SFX A0 mo m [aeèiíoòu]mo	# pavan
-SFX A0 mo m [aeèiíoòu][lrn]mo	# pavan
-SFX A0 ve f [aeèiíoòu]ve
-SFX A0 ve f [aeèiíoòu][lrn]ve
-SFX A0 vo f [aeèiíoòu]vo
-SFX A0 vo f [aeèiíoòu][lrn]vo
-SFX A0 xe s [aeèiíoòu]xe
-SFX A0 xe s [aeèiíoòu][lrn]xe
-SFX A0 xo s [aeèiíoòu]xo
-SFX A0 xo s [aeèiíoòu][lrn]xo
+SFX A0 o 0 [aeèiíoòu][lrn][^aàeéèiïíoóòuüúgmñ]o
+SFX A0 e 0 [aeèioòu]s[kpt]e
+SFX A0 o 0 [aeèioòu]s[kpt]o
+SFX A0 be p [aeèioòu][lrns]be
+SFX A0 bo p [aeèioòu][lrns]bo
+SFX A0 de t [aeèioòu][lrns]de
+SFX A0 do t [aeèioòu][lrns]do
+SFX A0 do t [aeèioòu]do
+SFX A0 đe ŧ [aeèioòu]đe
+SFX A0 đe ŧ [aeèioòu][lrn]đe
+SFX A0 đo ŧ [aeèioòu]đo
+SFX A0 đo ŧ [aeèioòu][lrn]đo
+SFX A0 ŧe f [aeèioòu]ŧe
+SFX A0 ŧe f [aeèioòu][lrn]ŧe
+SFX A0 ŧo f [aeèioòu]ŧo
+SFX A0 ŧo f [aeèioòu][lrn]ŧo
+SFX A0 ɉe c [aeèioòu]ɉe
+SFX A0 ɉe c [aeèioòu][lrn]ɉe
+SFX A0 ɉo c [aeèioòu]ɉo
+SFX A0 ɉo c [aeèioòu][lrn]ɉo
+SFX A0 me n [aeèioòu]me
+SFX A0 me n [aeèioòu][lrn]me
+SFX A0 mo n [aeèioòu]mo
+SFX A0 mo m [aeèioòu]mo	# pavan
+SFX A0 mo m [aeèioòu][lrn]mo	# pavan
+SFX A0 ve f [aeèioòu]ve
+SFX A0 ve f [aeèioòu][lrn]ve
+SFX A0 vo f [aeèioòu]vo
+SFX A0 vo f [aeèioòu][lrn]vo
+SFX A0 xe s [aeèioòu]xe
+SFX A0 xe s [aeèioòu][lrn]xe
+SFX A0 xo s [aeèioòu]xo
+SFX A0 xo s [aeèioòu][lrn]xo
 SFX A0 ñe in [aeèoòu]ñe
 SFX A0 ño in [aeèoòu]ño
 SFX A0 ñe n [iò]ñe
 SFX A0 ño n [iò]ño
-SFX A0 ñe nc [aeèiíoòu]ñe	# belunexe
-SFX A0 ño nc [aeèiíoòu]ño	# belunexe
+SFX A0 ñe nc [aeèioòu]ñe	# belunexe
+SFX A0 ño nc [aeèioòu]ño	# belunexe
 SFX A0 e 0 [aeèoòu]ñe
-SFX A0 e 0 [aeèiíoòu][lrn]ñe
-SFX A0 o 0 [aeèiíoòu][lrn]ño
-SFX A0 o 0 [aeèiíoòu]ño
+SFX A0 e 0 [aeèioòu][lrn]ñe
+SFX A0 o 0 [aeèioòu][lrn]ño
+SFX A0 o 0 [aeèioòu]ño
 SFX A0 i 0 [^đŧ]i
 SFX A0 đi ŧ đi
 SFX A0 xi s xi
@@ -4994,7 +5025,6 @@ SFX A0 xi s xi
 #SFX A0 e 0 [^i]ñe
 #SFX A0 ñe in [^i]ñe
 #SFX A0 ñe n iñe
-#SFX A0 ñe nc ñe	# belunexe
 #SFX A0 o 0 [^aàeéèiïíoóòuüúlrnñ]o
 #SFX A0 o 0 [aeèioòu][lr]o
 #SFX A0 o 0 [aeèioòur]no
@@ -5003,16 +5033,12 @@ SFX A0 xi s xi
 #SFX A0 fo ŧ fo
 #SFX A0 ɉo c ɉo
 #SFX A0 do t do
-#SFX A0 go k figo	# -igo sol ke par `figo`
-#SFX A0 go k [^i]go	# -igo sol ke par `figo`
-#SFX A0 go k [^f]igo	# -igo sol ke par `figo`
 #SFX A0 mo n [^r]mo
 #SFX A0 vo f vo
 #SFX A0 xo s xo
 #SFX A0 o 0 [^i]ño
 #SFX A0 ño in [^i]ño
 #SFX A0 ño n iño
-#SFX A0 ño nc ño	# belunexe
 #SFX A0 i 0 i
 
 # Census:
@@ -5261,8 +5287,9 @@ PFX Vp J Ɉ J
 PFX Vp L Ƚ L
 PFX Vp Ŧ S Ŧ
 
-PFX Vl Y 1
+PFX Vl Y 2
 PFX Vl pi pl pi
+PFX Vl bi bl bi
 
 
 ### Buran ###
@@ -5684,7 +5711,18 @@ SFX v0 òla oleta/F2 [dđfgiïjɉknñrsŧx]òla	ds:eto	# faxe 3: XIX sèk.
 SFX v0 òla iola/F2 [dđfnrsŧx]òla	# faxe 3: XIX sèk., belumat
 
 # piante e mistièri ko èle vanesente (-èr, -aro, -i?oƚo/-i?òƚo)
-SFX v7 Y 104
+SFX v7 Y 115
+SFX v7 èr ièr/M0M2 [^aeucijɉñ]èr
+SFX v7 èr iar/M0M2 [^aeucijɉñ]èr
+SFX v7 èr iereto/M2 [^aeucijɉñ]èr	ds:eto
+SFX v7 èr ieriti [^aeucijɉñ]èr	ds:eto is:plural	# metafonèxi
+SFX v7 èr iareto/M2 [^aeucijɉñ]èr	ds:eto
+SFX v7 èr iariti [^aeucijɉñ]èr	ds:eto is:plural	# metafonèxi
+SFX v7 èra iara/F2 [^aeucijɉñ]èra
+SFX v7 èra ièra/F2 [^aeucijɉñ]èra
+SFX v7 èra iera/F2 [^aeucijɉñ]èra
+SFX v7 èra iereta/F2 [^aeucijɉñ]èra	ds:eto
+SFX v7 èra iareta/F2 [^aeucijɉñ]èra	ds:eto
 SFX v7 0 eto/M2 [aei]dor	ds:eto
 SFX v7 0 iti [aei]dor	ds:eto is:plural	# metafonèxi
 SFX v7 èr er/M0M2 ièr
@@ -5792,30 +5830,20 @@ SFX v7 òƚa ioƚa/F2 [dđfnrsŧx]òƚa	# faxe 3: XIX sèk.
 
 
 # nominali deajetivali (-eŧa)
-SFX eZ Y 10
-SFX eZ a eŧa/F2 [^jɉ]a	is:femenine
-SFX eZ a eŧa/F2 [^ò][jɉ]a	is:femenine
-SFX eZ òja ojeŧa/F2 òja	is:femenine
-SFX eZ òɉa oɉeŧa/F2 òɉa	is:femenine
-SFX eZ o eŧa/F2 [^jɉ]o	is:femenine
-SFX eZ o eŧa/F2 [^ò][jɉ]o	is:femenine
+SFX eZ Y 5
+SFX eZ a eŧa/F2 a	is:femenine
+SFX eZ o eŧa/F2 [dt]o	is:femenine
+SFX eZ o eŧa/F2 o[jɉ]o	is:femenine
 SFX eZ òjo ojeŧa/F2 òjo	is:femenine
 SFX eZ òɉo oɉeŧa/F2 òɉo	is:femenine
-SFX eZ 0 ŧa/F2 [^d]e	is:femenine
-SFX eZ òde odeŧa/F2 òde	is:femenine
 
 # nominali deajetivali (-esa)
-SFX eS Y 10
-SFX eS a esa/F2 [^jɉ]a	is:femenine
-SFX eS a esa/F2 [^ò][jɉ]a	is:femenine
-SFX eS òja ojesa/F2 òja	is:femenine
-SFX eS òɉa oɉesa/F2 òɉa	is:femenine
-SFX eS o esa/F2 [^jɉ]o	is:femenine
-SFX eS o esa/F2 [^ò][jɉ]o	is:femenine
+SFX eS Y 5
+SFX eS a esa/F2 a	is:femenine
+SFX eS o esa/F2 [dt]o	is:femenine
+SFX eS o esa/F2 o[jɉ]o	is:femenine
 SFX eS òjo ojesa/F2 òjo	is:femenine
 SFX eS òɉo oɉesa/F2 òɉo	is:femenine
-SFX eS 0 sa/F2 [^d]e	is:femenine
-SFX eS òde odesa/F2 òde	is:femenine
 
 # nominali deajetivali (-iŧia)
 SFX iZ Y 2
@@ -7705,12 +7733,13 @@ PFX '1 i ’ i	is:apheresis	# prep. in
 PFX '1 u ’ u	is:apheresis	# art. un
 
 # paròle ko elixion/apòkope
-SFX '9 Y 11
+SFX '9 Y 12
 SFX '9 i 0 [èòú]i	is:elision
 SFX '9 ai à ai	is:elision
 SFX '9 oe ó oe	is:elision
 SFX '9 oi ó oi	is:elision
 SFX '9 ui ú ui	is:elision
+SFX '9 èr è èr	is:elision
 SFX '9 ive í ive	is:elision
 SFX '9 ome ó kome	is:elision
 SFX '9 a ’ [lnstŧ]a	is:elision
