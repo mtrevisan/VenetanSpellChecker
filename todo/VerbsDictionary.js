@@ -11127,6 +11127,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "èñ",				"sko",		3,	1,	"g",	"1553",			"(pavan) Skovèñer.",
 "vèñ",			"",			3,	1,	"g",	"130101",		"(veneŧian)",
 "vèñ",			"a",			3,	1,	"g",	"131509",		"",
+"vèñ",			"ad",			3,	1,	"g",	"XV",				"(veneŧian)",
 "vèñ",			"ade",		3,	1,	"g",	"XV",				"",
 "vèñ",			"aper",		3,	1,	"g",	"1612",			"(pavan) Pervèñer.",
 "vèñ",			"ar",			3,	1,	"g",	"1525",			"(pavan)",
