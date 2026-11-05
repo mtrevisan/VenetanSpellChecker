@@ -4699,6 +4699,7 @@ define(function(){return [7, "radix", "prefix", "conjugation", "stressIdx", "str
 "krep",			"des",		1,	2,	"g",	"15700223",		"(veneŧian)",
 "krepol",		"",			1,	2,	"a",	"1775",			"",
 "krepol",		"s",			1,	2,	"a",	"1852",			"",
+"kresp",			"",			1,	2,	"a",	"XV",				"(veneŧian)",
 "kresp",			"in",			1,	2,	"a",	"15681118",		"(pavan)",
 "krespon",		"in",			1,	5,	"a",	"1785",			"(trevixan)",
 "krés",			"",			3,	2,	"a",	"130101",		"(veneŧian)",
