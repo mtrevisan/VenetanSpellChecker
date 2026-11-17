@@ -97,7 +97,7 @@ OCONV ñ gn
 OCONV Ñ GN
 
 # frequently switched character groups (correct forms that must never be accepted)
-REP 96
+REP 100
 REP mb nb
 REP mf nf
 REP mp np
@@ -140,10 +140,10 @@ REP ^intei$ inté_i
 REP ^inti$ int’_i
 REP ^intel$ inté_’l
 REP ^inten$ inté_’n
-REP ^sun$ ’s’_un
-REP ^tun$ ’t’_un
-REP ^’sun$ ’s’_un
-REP ^’tun$ ’t’_un
+REP ^sun$ s’_un
+REP ^tun$ t’_un
+REP ^sun$ s’_un
+REP ^tun$ t’_un
 REP ^an_tun$ ant’_un
 REP ^an_sun$ ans’_un
 REP ^ansun$ ans’_un
@@ -186,6 +186,8 @@ REP ^daprèso$ da_prèso
 REP ^infratanto$ infra_tanto
 REP ^fratanto$ frà_tanto
 REP ^desora$ de_sora
+REP ^desuđo$ de_suđo
+REP ^desuxo$ de_suxo
 REP ^peròmo$ per_òmo
 REP ^paròmo$ par_òmo
 REP ^dintorno$ d’_intorno
@@ -194,6 +196,8 @@ REP ^dinanŧi$ d’_inanŧi
 REP ^gende$ ge_nde
 REP ^kende$ ke_nde
 REP ^lonbría$ l’_onbría
+REP ^ŧertun$ ŧèrt_un
+REP ^sertun$ sèrt_un
 
 
 FLAG long
@@ -1031,7 +1035,7 @@ SFX L0 0 -lo/I6 e	vt:indicative+present is:third cl:interrogative	# T10
 # -àr, -ér, '-er, -ír, -ír/is
 # group: indicative imperfect, indicative future, subjunctive imperfect, conditional present, imperative present
 # used if word does not contains ƚ
-SFX L1 Y 45
+SFX L1 Y 49
 SFX L1 r ve-lo/I6 [aei]r	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a
 SFX L1 ar eve-lo/I6 ar	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a, liventin, metaplaxmo
 SFX L1 rò ve-lo/I6 erò	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a
@@ -1053,6 +1057,10 @@ SFX L1 r se-lo/I6 [aei]r	vt:subjunctive+imperfect is:third cl:interrogative	# T2
 SFX L1 ar ese-lo/I6 ar	vt:subjunctive+imperfect is:third cl:interrogative	# T2 + se, metaplaxmo
 SFX L1 rò se-lo/I6 erò	vt:subjunctive+imperfect is:third cl:interrogative	# T2 + se
 SFX L1 ir ese-lo/I6 ir	vt:subjunctive+imperfect is:third cl:interrogative	# T2 + se, metaplaxmo
+SFX L1 0 íe-lo/I6 [aei]r	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], veneŧian
+SFX L1 ar eríe-lo/I6 ar	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], veneŧian, metaplaxmo
+SFX L1 ò íe-lo/I6 erò	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], veneŧian
+SFX L1 ir eríe-lo/I6 ir	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], veneŧian, metaplaxmo
 SFX L1 0 ise-lo/I6 [aei]r	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae]
 SFX L1 ar erise-lo/I6 ar	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], metaplaxmo
 SFX L1 ò ise-lo/I6 erò	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae]
@@ -1128,9 +1136,10 @@ SFX L4 r se-lo/I6 ir	vt:indicative+present is:third cl:interrogative	# T10
 
 # '-er
 # group: conditional+present
-SFX L5 Y 6
+SFX L5 Y 7
 SFX L5 er ar-l/P1 er	vt:infinitive+simple cl:pronomenal+accusative	# T1 + r(e)
 SFX L5 erò arà-lo/I6 erò	vt:indicative+future is:third cl:interrogative	# T4 + rà
+SFX L5 erò aríe-lo/I6 erò	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], veneŧian
 SFX L5 erò arise-lo/I6 erò	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae]
 SFX L5 erò arese-lo/I6 erò	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], viŧentin
 SFX L5 erò arave-lo/I6 erò	vt:conditional+present is:third cl:interrogative	# T4 + rà(v)[ei]
@@ -1146,7 +1155,7 @@ SFX l0 0 -ƚo/I8 e	vt:indicative+present is:third cl:interrogative	# T10
 # -àr, -ér, '-er, -ír, -ír/is
 # group: indicative imperfect, indicative future, subjunctive imperfect, conditional present
 # used if word does contains ƚ
-SFX l1 Y 43
+SFX l1 Y 47
 SFX l1 r ve-ƚo/I8 [aei]r	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a
 SFX l1 ar eve-ƚo/I8 ar	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a, liventin, metaplaxmo
 SFX l1 rò ve-ƚo/I8 erò	vt:indicative+imperfect is:third cl:interrogative	# T2 + (v)a
@@ -1168,6 +1177,10 @@ SFX l1 r se-ƚo/I8 [aei]r	vt:subjunctive+imperfect is:third cl:interrogative	# T
 SFX l1 ar ese-ƚo/I8 ar	vt:subjunctive+imperfect is:third cl:interrogative	# T2 + se, metaplaxmo
 SFX l1 rò se-ƚo/I8 erò	vt:subjunctive+imperfect is:third cl:interrogative	# T2 + se
 SFX l1 ir ese-ƚo/I8 ir	vt:subjunctive+imperfect is:third cl:interrogative	# T2 + se, metaplaxmo
+SFX l1 0 íe-ƚo/I8 [aei]r	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], veneŧian
+SFX l1 ar eríe-ƚo/I8 ar	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], veneŧian, metaplaxmo
+SFX l1 ò íe-ƚo/I8 erò	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], veneŧian
+SFX l1 ir eríe-ƚo/I8 ir	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], veneŧian, metaplaxmo
 SFX l1 0 ise-ƚo/I8 [aei]r	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae]
 SFX l1 ar erise-ƚo/I8 ar	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], metaplaxmo
 SFX l1 ò ise-ƚo/I8 erò	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae]
@@ -1243,9 +1256,10 @@ SFX l4 r se-ƚo/I8 ir	vt:indicative+present is:third cl:interrogative	# T10
 
 # '-er
 # group: conditional+present
-SFX l5 Y 6
+SFX l5 Y 7
 SFX l5 er ar/P2 er	vt:infinitive+simple	# T1 + r(e)
 SFX l5 erò arà-ƚo/I8 erò	vt:indicative+future is:third cl:interrogative	# T4 + rà
+SFX l5 erò aríe-ƚo/I8 erò	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], veneŧian
 SFX l5 erò arise-ƚo/I8 erò	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae]
 SFX l5 erò arese-ƚo/I8 erò	vt:conditional+present is:third cl:interrogative	# T4 + rí[ae], viŧentin
 SFX l5 erò arave-ƚo/I8 erò	vt:conditional+present is:third cl:interrogative	# T4 + rà(v)[ei]
@@ -2308,9 +2322,10 @@ SFX yB ver endo-ƚo/P2 ver	vt:gerund+simple cl:pronomenal+accusative	# T2 + n[dt
 # vèrbi -ér inregolari: (as?|apar|de|(in)?kon|intra|man|(re)?o|re|sos|tra)?[ct][èé][nñ]er, (ar?|ben|dex?|(des|re)?kon|in|inter|intr[ae]|kontra|mal|per|pre|(re)?so|pro|re|rin|skon?|sora|x)?[v’][èéí]ñer/’ñer
 # t[èé][nñ]er > ŧ[èé][nñ]er > c[èé][nñ]er
 # changes in indicative present, imperative present
-SFX xC Y 55
+SFX xC Y 56
 SFX xC èñer ièn/BuI3 [^c]èñer	vt:indicative+present is:second is:singular	# T10 = T8 + e, 2s=3, belumat
 SFX xC ñer n/BuI3 èñer	vt:indicative+present is:second is:singular	# T10 = T8 + e, 2s=3, belumat
+SFX xC ñer ns/I3 èñer	vt:indicative+present is:second is:singular	# T10 + s, veneŧian
 SFX xC èñer ièn/BuI5 [^c]èñer	vt:indicative+present is:third	# T10 = T8 + e
 SFX xC èñer in/BuI5 vèñer	vt:indicative+present is:third	# T10 = T8 + e, pavan
 SFX xC ñer n/BuI5 èñer	vt:indicative+present is:third	# T10 = T8 + e
