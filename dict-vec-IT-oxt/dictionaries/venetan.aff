@@ -4981,7 +4981,7 @@ SFX I8 o e -ƚo	is:plural is:femenine
 # NÒTA: tute le vokali le pòl kaskar, fòra ke la `a` e la `e` derivante da un femenil plural de la prima deklinaŧion latina
 # NÒTA: na koa konsonàntega ’té la sílaba ke la vièn prima la ostàkola de pi l’ apòkope
 # NÒTA: le konsonanti ke le favorise de pi l’ apòkope le xé, in órden: r, l, n, m (ponto krítego), frikative (f/v, ŧ/đ, s/x), afrikae (c/ɉ), okluxive (t/d, g/k, p/b, m, n, ñ)
-SFX A0 Y 53
+SFX A0 Y 61
 SFX A0 e 0 [aeèiíoòu][^aàeéèiïíoóòuüúñ]e
 SFX A0 go k [aeèoòu]go
 SFX A0 go k [aeèoòu]ngo
@@ -5022,8 +5022,16 @@ SFX A0 xe s [aeèioòu]xe
 SFX A0 xe s [aeèioòu][lrn]xe
 SFX A0 xo s [aeèioòu]xo
 SFX A0 xo s [aeèioòu][lrn]xo
-SFX A0 ñe in [aeèoòu]ñe	# cipileño
-SFX A0 ño in [aeèoòu]ño	# cipileño
+SFX A0 añe àin añe	# cipileño
+SFX A0 eñe éin eñe	# cipileño
+SFX A0 oñe óin oñe	# cipileño
+SFX A0 uñe úin uñe	# cipileño
+SFX A0 ñe in [èò]ñe	# cipileño
+SFX A0 año àin año	# cipileño
+SFX A0 eño éin eño	# cipileño
+SFX A0 oño óin oño	# cipileño
+SFX A0 uño úin uño	# cipileño
+SFX A0 ño in [èò]ño	# cipileño
 SFX A0 ñe n [iò]ñe
 SFX A0 ño n [iò]ño
 SFX A0 ñe nc [aeèioòu]ñe	# belunexe
